@@ -1,0 +1,556 @@
+[
+  {
+    "id": "riesling",
+    "name": "Riesling",
+    "type": "white",
+    "shortDescription": "Frisk, syradriven och aromatisk vit druva med citrus, grönt äpple, stenfrukt och ibland petroleumtoner.",
+    "typicalAromas": ["lime", "lemon", "green_apple", "peach", "apricot", "white_flowers", "petrol", "slate"],
+    "aromaScores": {
+      "lemon": 4, "lime": 5, "grapefruit": 2, "orange_peel": 1,
+      "green_apple": 5, "pear": 3, "peach": 4, "apricot": 3, "nectarine": 2,
+      "passion_fruit": 1, "pineapple": 0, "mango": 0, "lychee": 1,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 3, "rose": 1, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 1, "liquorice": 0,
+      "flint": 2, "chalk": 1, "slate": 3, "wet_earth": 1, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 4, "honey": 2, "dried_fruit": 2, "tobacco": 1, "leather": 0
+    },
+    "structure": { "acidity": 5, "body": 2, "alcohol": 2, "tannin": 0, "sweetness": 2, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Mosel, Tyskland", "description": "Lätt, mycket hög syra, citrusdriven, ibland med märkbar restsötma och skifferlik mineralitet." },
+      { "name": "Alsace, Frankrike", "description": "Oftast torrare, fylligare och mer kraftfull än Mosel, med mogen citrus, stenfrukt och ibland honung." },
+      { "name": "Clare Valley, Australien", "description": "Torr och stram med limeton, toast och distinkt petroleumutveckling med ålder." }
+    ],
+    "blindTastingClues": ["Mycket hög syra", "Lime och grönt äpple", "Stenfrukt som persika eller aprikos", "Petroleumton med ålder", "Vanligtvis lite eller ingen ek"],
+    "commonConfusions": ["Sauvignon Blanc", "Grüner Veltliner", "Chenin Blanc"]
+  },
+  {
+    "id": "sauvignon_blanc",
+    "name": "Sauvignon Blanc",
+    "type": "white",
+    "shortDescription": "Frisk, aromatisk och citrusdriven vit druva med gröna och örtigare toner, ofta krusbär och nässlor.",
+    "typicalAromas": ["lime", "grapefruit", "grass", "nettles", "blackcurrant_leaf", "passion_fruit"],
+    "aromaScores": {
+      "lemon": 3, "lime": 4, "grapefruit": 4, "orange_peel": 1,
+      "green_apple": 2, "pear": 1, "peach": 1, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 4, "pineapple": 1, "mango": 1, "lychee": 0,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 1, "rose": 0, "violet": 0,
+      "grass": 4, "nettles": 4, "bell_pepper": 1, "blackcurrant_leaf": 4, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 2, "chalk": 1, "slate": 1, "wet_earth": 0, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 0, "dried_fruit": 0, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 5, "body": 2, "alcohol": 2, "tannin": 0, "sweetness": 1, "oak": 1 },
+    "commonRegionsAndStyles": [
+      { "name": "Loire, Frankrike", "description": "Stram, citrusdriven, mineralisk, flinta, nässlor. Elegant och frisk." },
+      { "name": "Marlborough, Nya Zeeland", "description": "Intensiv, tropisk, krusbär, passionsfrukt, svartvinbärsblad. Mycket aromatisk." },
+      { "name": "Bordeaux, Frankrike", "description": "Ibland blandad med Sémillon, kan ha mer rundhet och viss fatpåverkan." }
+    ],
+    "blindTastingClues": ["Hög syra", "Citrus och grapefrukt", "Gröna aromer: gräs, nässlor", "Krusbär och svartvinbärsblad", "Oftast ingen ek"],
+    "commonConfusions": ["Riesling", "Grüner Veltliner", "Albariño"]
+  },
+  {
+    "id": "chardonnay",
+    "name": "Chardonnay",
+    "type": "white",
+    "shortDescription": "Världens mest odlade vita druva. Neutral och formbar – kan vara stram och mineralisk eller rik och smörig beroende på stil.",
+    "typicalAromas": ["lemon", "green_apple", "peach", "vanilla", "butter", "toast", "nuts"],
+    "aromaScores": {
+      "lemon": 4, "lime": 2, "grapefruit": 1, "orange_peel": 2,
+      "green_apple": 4, "pear": 3, "peach": 3, "apricot": 2, "nectarine": 2,
+      "passion_fruit": 0, "pineapple": 1, "mango": 1, "lychee": 0,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 2, "rose": 0, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 2, "chalk": 2, "slate": 1, "wet_earth": 0, "mushroom": 1, "truffle": 0,
+      "vanilla": 4, "butter": 4, "toast": 3, "coconut": 2, "nuts": 3, "coffee": 1, "chocolate": 0,
+      "petrol": 0, "honey": 2, "dried_fruit": 1, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 3, "body": 4, "alcohol": 3, "tannin": 0, "sweetness": 1, "oak": 4 },
+    "commonRegionsAndStyles": [
+      { "name": "Chablis, Frankrike", "description": "Stram, mineralisk, citrusdriven. Lite eller ingen ek. Flinta och krita." },
+      { "name": "Bourgogne, Frankrike", "description": "Elegant balans mellan frukt, syra och ek. Smör, nötter och citrus." },
+      { "name": "Ekad ny-världen-stil", "description": "Rik, smörig, vanilj, tropisk frukt. Mer alkohol och kropp." }
+    ],
+    "blindTastingClues": ["Medelhög syra", "Citrus och gult äpple", "Smör och vanilj vid ekpåverkan", "Ofta god kropp", "Neutral druva – svår att identifiera"],
+    "commonConfusions": ["Viognier", "Pinot Gris", "Semillon"]
+  },
+  {
+    "id": "pinot_gris",
+    "name": "Pinot Gris / Pinot Grigio",
+    "type": "white",
+    "shortDescription": "Samma druva, helt olika stilar. Pinot Grigio är frisk och lätt; Pinot Gris från Alsace är rik, komplex och ibland söt.",
+    "typicalAromas": ["pear", "peach", "apricot", "honey", "white_flowers", "nuts"],
+    "aromaScores": {
+      "lemon": 2, "lime": 1, "grapefruit": 1, "orange_peel": 2,
+      "green_apple": 2, "pear": 5, "peach": 4, "apricot": 3, "nectarine": 2,
+      "passion_fruit": 0, "pineapple": 1, "mango": 1, "lychee": 2,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 3, "rose": 2, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 1, "white_pepper": 1, "liquorice": 0,
+      "flint": 0, "chalk": 0, "slate": 1, "wet_earth": 1, "mushroom": 1, "truffle": 0,
+      "vanilla": 1, "butter": 1, "toast": 1, "coconut": 0, "nuts": 3, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 4, "dried_fruit": 2, "tobacco": 1, "leather": 0
+    },
+    "structure": { "acidity": 2, "body": 3, "alcohol": 3, "tannin": 0, "sweetness": 3, "oak": 1 },
+    "commonRegionsAndStyles": [
+      { "name": "Alsace, Frankrike (Pinot Gris)", "description": "Rik, komplex, rökig, honung, stenfrukt. Kan vara halvtorr eller söt." },
+      { "name": "Italien (Pinot Grigio)", "description": "Lätt, frisk, neutral, päron och citrus. Enkel och drinkbar." },
+      { "name": "Oregon, USA", "description": "Mellanting – mer frukt och kropp än italiensk stil." }
+    ],
+    "blindTastingClues": ["Päron och stenfrukt", "Ofta låg till medelhög syra", "Kan ha rökig eller honungsliknande ton", "Lägre syra än Riesling och Sauvignon Blanc"],
+    "commonConfusions": ["Chardonnay", "Viognier", "Gewürztraminer"]
+  },
+  {
+    "id": "gruner_veltliner",
+    "name": "Grüner Veltliner",
+    "type": "white",
+    "shortDescription": "Österrikes nationaldruvva. Frisk och örtig med vitpeppar, citrus och gröna toner. Ofta mineralisk och elegant.",
+    "typicalAromas": ["lime", "lemon", "green_apple", "white_pepper", "grass", "flint"],
+    "aromaScores": {
+      "lemon": 4, "lime": 4, "grapefruit": 2, "orange_peel": 1,
+      "green_apple": 4, "pear": 3, "peach": 2, "apricot": 1, "nectarine": 1,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 2, "rose": 0, "violet": 0,
+      "grass": 3, "nettles": 2, "bell_pepper": 1, "blackcurrant_leaf": 1, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 1, "white_pepper": 5, "liquorice": 0,
+      "flint": 3, "chalk": 2, "slate": 2, "wet_earth": 1, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 1, "dried_fruit": 0, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 4, "body": 3, "alcohol": 3, "tannin": 0, "sweetness": 1, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Wachau, Österrike", "description": "Eleganta, mineraliska stilar. Smaragd är den fylligaste och mest komplexa." },
+      { "name": "Wien (Wiener Gemischter Satz)", "description": "Blandade planteringar i stadsvingårdar. Friska och tillgängliga." }
+    ],
+    "blindTastingClues": ["Vitpeppar – nästan alltid", "Citrus och grönt äpple", "Mineralisk och örtig", "Hög syra", "Ingen ek"],
+    "commonConfusions": ["Sauvignon Blanc", "Riesling", "Albariño"]
+  },
+  {
+    "id": "chenin_blanc",
+    "name": "Chenin Blanc",
+    "type": "white",
+    "shortDescription": "Extremt mångsidig druva från Loire. Kan göras torr, halvtorr, söt eller mousserande. Hög syra och honungslik mognad.",
+    "typicalAromas": ["green_apple", "pear", "honey", "white_flowers", "flint", "dried_fruit"],
+    "aromaScores": {
+      "lemon": 3, "lime": 2, "grapefruit": 1, "orange_peel": 2,
+      "green_apple": 4, "pear": 4, "peach": 3, "apricot": 2, "nectarine": 2,
+      "passion_fruit": 0, "pineapple": 1, "mango": 0, "lychee": 0,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 4, "rose": 1, "violet": 0,
+      "grass": 1, "nettles": 1, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 1, "liquorice": 0,
+      "flint": 3, "chalk": 2, "slate": 1, "wet_earth": 1, "mushroom": 1, "truffle": 0,
+      "vanilla": 1, "butter": 1, "toast": 1, "coconut": 0, "nuts": 2, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 4, "dried_fruit": 3, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 5, "body": 3, "alcohol": 2, "tannin": 0, "sweetness": 2, "oak": 1 },
+    "commonRegionsAndStyles": [
+      { "name": "Vouvray, Loire (torr/halvtorr)", "description": "Frisk, mineralisk, äpple och honung. Kan lagras länge." },
+      { "name": "Vouvray Moelleux (söt)", "description": "Rik, honungslik, torkad frukt. Berömd sötstil." },
+      { "name": "Sydafrika", "description": "Ofta fylligare och fruktdrivnare än Loire. Tropisk frukt och honung." }
+    ],
+    "blindTastingClues": ["Mycket hög syra", "Honung och vita blommor", "Grönt äpple och päron", "Flinta och mineralitet", "Kan likna Riesling men honungsrikare"],
+    "commonConfusions": ["Riesling", "Chardonnay", "Viognier"]
+  },
+  {
+    "id": "viognier",
+    "name": "Viognier",
+    "type": "white",
+    "shortDescription": "Doftrik och exotisk vit druva med intensiv persika, aprikos och blommighet. Låg syra och hög alkohol. Ursprung i norra Rhône.",
+    "typicalAromas": ["peach", "apricot", "white_flowers", "lychee", "mango", "honey"],
+    "aromaScores": {
+      "lemon": 1, "lime": 1, "grapefruit": 0, "orange_peel": 2,
+      "green_apple": 0, "pear": 2, "peach": 5, "apricot": 5, "nectarine": 3,
+      "passion_fruit": 1, "pineapple": 1, "mango": 3, "lychee": 3,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 5, "rose": 2, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 0, "mushroom": 0, "truffle": 0,
+      "vanilla": 2, "butter": 1, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 3, "dried_fruit": 1, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 1, "body": 4, "alcohol": 4, "tannin": 0, "sweetness": 1, "oak": 2 },
+    "commonRegionsAndStyles": [
+      { "name": "Condrieu, Norra Rhône", "description": "Den klassiska stilen. Intensiv blommighet, persika, aprikos. Komplex och lagringsvärd." },
+      { "name": "Languedoc / Södra Frankrike", "description": "Ofta enklare och mer omedelbar frukt. God vardagsdryck." },
+      { "name": "Australien / Kalifornien", "description": "Rik och fruktig. Ibland blandad med Chardonnay." }
+    ],
+    "blindTastingClues": ["Intensiv persika och aprikos", "Vita blommor – jasmin och kaprifol", "Mycket låg syra", "Hög alkohol och kropp", "Ingen grönhet alls"],
+    "commonConfusions": ["Chardonnay", "Pinot Gris", "Gewürztraminer"]
+  },
+  {
+    "id": "gewurztraminer",
+    "name": "Gewürztraminer",
+    "type": "white",
+    "shortDescription": "Extremt aromatisk druva med distinkt lychee, ros och ingefära. Nästan omöjlig att förväxla när den är typisk.",
+    "typicalAromas": ["lychee", "rose", "apricot", "honey", "white_flowers"],
+    "aromaScores": {
+      "lemon": 1, "lime": 1, "grapefruit": 0, "orange_peel": 2,
+      "green_apple": 0, "pear": 1, "peach": 2, "apricot": 3, "nectarine": 1,
+      "passion_fruit": 0, "pineapple": 1, "mango": 2, "lychee": 5,
+      "raspberry": 0, "strawberry": 1, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 4, "rose": 5, "violet": 1,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 1,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 0, "mushroom": 0, "truffle": 0,
+      "vanilla": 1, "butter": 0, "toast": 0, "coconut": 0, "nuts": 1, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 3, "dried_fruit": 2, "tobacco": 1, "leather": 0
+    },
+    "structure": { "acidity": 2, "body": 4, "alcohol": 4, "tannin": 0, "sweetness": 3, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Alsace, Frankrike", "description": "Den klassiska regionen. Intensiv lychee, ros, ingefära. Kan vara torr, halvtorr eller söt." },
+      { "name": "Sydtyskland / Pfalz", "description": "Liknande stil men ibland lite lättare." }
+    ],
+    "blindTastingClues": ["Intens lychee", "Ros och blommighet", "Låg syra", "Hög alkohol", "Ofta lite sötma"],
+    "commonConfusions": ["Viognier", "Muscat", "Pinot Gris"]
+  },
+  {
+    "id": "albarino",
+    "name": "Albariño",
+    "type": "white",
+    "shortDescription": "Frisk och aromatisk spansk druva från Galicien. Citrus, persika och salt mineralitet. Perfekt till skaldjur.",
+    "typicalAromas": ["lime", "lemon", "grapefruit", "peach", "apricot", "flint"],
+    "aromaScores": {
+      "lemon": 4, "lime": 4, "grapefruit": 3, "orange_peel": 2,
+      "green_apple": 2, "pear": 2, "peach": 3, "apricot": 2, "nectarine": 2,
+      "passion_fruit": 1, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 3, "rose": 0, "violet": 0,
+      "grass": 1, "nettles": 1, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 1, "liquorice": 0,
+      "flint": 3, "chalk": 1, "slate": 1, "wet_earth": 1, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 0, "dried_fruit": 0, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 4, "body": 2, "alcohol": 3, "tannin": 0, "sweetness": 1, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Rías Baixas, Galicien, Spanien", "description": "Den klassiska regionen. Frisk, citrusdriven, salt mineralitet. Perfekt till fisk och skaldjur." },
+      { "name": "Vinho Verde, Portugal (Alvarinho)", "description": "Samma druva, kallas Alvarinho. Ofta lättare och med en lätt pärla." }
+    ],
+    "blindTastingClues": ["Citrus och grapefrukt", "Salt mineralitet", "Persika och vita blommor", "Hög syra", "Ingen ek"],
+    "commonConfusions": ["Sauvignon Blanc", "Grüner Veltliner", "Riesling"]
+  },
+  {
+    "id": "semillon",
+    "name": "Semillon",
+    "type": "white",
+    "shortDescription": "Underskattad druva med vaxig textur och låg syra. Bas i Sauternes och Hunter Valley. Utvecklar honung och rostat bröd med ålder.",
+    "typicalAromas": ["lemon", "pear", "honey", "vanilla", "toast", "dried_fruit"],
+    "aromaScores": {
+      "lemon": 3, "lime": 2, "grapefruit": 1, "orange_peel": 2,
+      "green_apple": 2, "pear": 4, "peach": 2, "apricot": 2, "nectarine": 1,
+      "passion_fruit": 0, "pineapple": 0, "mango": 1, "lychee": 0,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 2, "rose": 0, "violet": 0,
+      "grass": 1, "nettles": 1, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 1, "chalk": 1, "slate": 0, "wet_earth": 1, "mushroom": 1, "truffle": 0,
+      "vanilla": 3, "butter": 2, "toast": 4, "coconut": 0, "nuts": 2, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 5, "dried_fruit": 4, "tobacco": 1, "leather": 0
+    },
+    "structure": { "acidity": 2, "body": 3, "alcohol": 2, "tannin": 0, "sweetness": 2, "oak": 2 },
+    "commonRegionsAndStyles": [
+      { "name": "Sauternes, Bordeaux (söt)", "description": "Blandad med Sauvignon Blanc. Botrytispåverkad, intensivt söt, honung och aprikosmognad." },
+      { "name": "Hunter Valley, Australien (torr)", "description": "Torr men utvecklar honung, rostat bröd och vax med ålder. Unik stil." },
+      { "name": "Bordeaux Blanc (torr blend)", "description": "Blandad med Sauvignon Blanc för mer rundhet och textur." }
+    ],
+    "blindTastingClues": ["Vaxig och rund textur", "Låg syra", "Honung och rostat bröd med ålder", "Kan likna gammal Chardonnay", "Ingen grönhet"],
+    "commonConfusions": ["Chardonnay", "Viognier", "Pinot Gris"]
+  },
+  {
+    "id": "pinot_noir",
+    "name": "Pinot Noir",
+    "type": "red",
+    "shortDescription": "Elegant, silkeslen röd druva med röda bär, blommor och jordighet. Lite tannin, hög syra.",
+    "typicalAromas": ["raspberry", "cherry", "strawberry", "violet", "rose", "mushroom", "wet_earth"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 0,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 5, "strawberry": 4, "cherry": 4, "cranberry": 3,
+      "blackcurrant": 1, "blackberry": 1, "blueberry": 2, "plum": 2,
+      "white_flowers": 0, "rose": 3, "violet": 4,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 1, "white_pepper": 0, "liquorice": 0,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 3, "mushroom": 4, "truffle": 2,
+      "vanilla": 2, "butter": 0, "toast": 1, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 0, "dried_fruit": 2, "tobacco": 2, "leather": 2
+    },
+    "structure": { "acidity": 4, "body": 2, "alcohol": 3, "tannin": 2, "sweetness": 1, "oak": 2 },
+    "commonRegionsAndStyles": [
+      { "name": "Bourgogne, Frankrike", "description": "Elegant, komplex, jordighet, svamp, röda bär, blommor." },
+      { "name": "Oregon, USA", "description": "Rikare frukt, mer tillgänglig, körsbär och hallon med god syra." },
+      { "name": "Nya Zeeland (Central Otago)", "description": "Intensiv, mörkare frukt, klar struktur." }
+    ],
+    "blindTastingClues": ["Röda bär: hallon, jordgubbe, körsbär", "Hög syra för rött vin", "Lite tannin", "Blommor: viol och ros", "Jordighet och svamp med ålder"],
+    "commonConfusions": ["Gamay", "Sangiovese", "Nebbiolo (ung)"]
+  },
+  {
+    "id": "cabernet_sauvignon",
+    "name": "Cabernet Sauvignon",
+    "type": "red",
+    "shortDescription": "Världens mest kända röda druva. Kraftfull, tanninrik och mörk med svarta vinbär, ceder och struktur för lång lagring.",
+    "typicalAromas": ["blackcurrant", "blackberry", "plum", "tobacco", "black_pepper", "bell_pepper"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 0,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 1, "strawberry": 0, "cherry": 2, "cranberry": 0,
+      "blackcurrant": 5, "blackberry": 4, "blueberry": 2, "plum": 4,
+      "white_flowers": 0, "rose": 0, "violet": 1,
+      "grass": 0, "nettles": 0, "bell_pepper": 3, "blackcurrant_leaf": 2, "mint": 2, "eucalyptus": 2,
+      "black_pepper": 3, "white_pepper": 0, "liquorice": 2,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 1, "mushroom": 1, "truffle": 1,
+      "vanilla": 3, "butter": 0, "toast": 2, "coconut": 1, "nuts": 0, "coffee": 2, "chocolate": 2,
+      "petrol": 0, "honey": 0, "dried_fruit": 2, "tobacco": 4, "leather": 3
+    },
+    "structure": { "acidity": 3, "body": 5, "alcohol": 4, "tannin": 5, "sweetness": 1, "oak": 4 },
+    "commonRegionsAndStyles": [
+      { "name": "Bordeaux, Frankrike", "description": "Blandad med Merlot. Ceder, svarta vinbär, tobak. Elegant och lagringsvärd." },
+      { "name": "Napa Valley, Kalifornien", "description": "Rik, mogen, svarta bär, choklad, vanilj. Mer alkohol och frukt." },
+      { "name": "Coonawarra, Australien", "description": "Distinkt eucalyptus och mynta tillsammans med svarta bär och ceder." }
+    ],
+    "blindTastingClues": ["Högt tannin", "Svarta vinbär och svarta bär", "Ceder och tobak", "Ibland paprika eller mynta", "Lång och strukturerad"],
+    "commonConfusions": ["Merlot", "Syrah", "Malbec"]
+  },
+  {
+    "id": "merlot",
+    "name": "Merlot",
+    "type": "red",
+    "shortDescription": "Mjuk, rund och tillgänglig röd druva med mörk frukt, choklad och lägre tannin än Cabernet Sauvignon.",
+    "typicalAromas": ["plum", "blackberry", "cherry", "chocolate", "vanilla", "tobacco"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 0,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 2, "strawberry": 1, "cherry": 4, "cranberry": 0,
+      "blackcurrant": 2, "blackberry": 3, "blueberry": 3, "plum": 5,
+      "white_flowers": 0, "rose": 0, "violet": 2,
+      "grass": 0, "nettles": 0, "bell_pepper": 1, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 1, "white_pepper": 0, "liquorice": 1,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 1, "mushroom": 1, "truffle": 1,
+      "vanilla": 3, "butter": 0, "toast": 2, "coconut": 1, "nuts": 0, "coffee": 2, "chocolate": 4,
+      "petrol": 0, "honey": 0, "dried_fruit": 2, "tobacco": 3, "leather": 2
+    },
+    "structure": { "acidity": 2, "body": 4, "alcohol": 3, "tannin": 3, "sweetness": 1, "oak": 3 },
+    "commonRegionsAndStyles": [
+      { "name": "Bordeaux (höger bank), Frankrike", "description": "Komplex, elegant Merlot från lerjord. Pomerol och Saint-Émilion." },
+      { "name": "Norra Italien", "description": "Lättare, mer örtig stil med körsbär och örter." },
+      { "name": "Nya världen (Chile, Australien, Kalifornien)", "description": "Rik, mogen, chokladig frukt. Mjuk och tillgänglig." }
+    ],
+    "blindTastingClues": ["Plommon och mörka bär", "Mjukare tannin än Cabernet Sauvignon", "Chokladton", "Medelhög syra", "Saknar ofta paprika-tonen"],
+    "commonConfusions": ["Cabernet Sauvignon", "Malbec", "Grenache"]
+  },
+  {
+    "id": "syrah",
+    "name": "Syrah / Shiraz",
+    "type": "red",
+    "shortDescription": "Kraftfull och mörk röd druva med svarta bär, svartpeppar och kött. Kallas Shiraz i Australien.",
+    "typicalAromas": ["blackberry", "plum", "black_pepper", "violet", "leather"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 0,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 1, "strawberry": 0, "cherry": 2, "cranberry": 0,
+      "blackcurrant": 3, "blackberry": 5, "blueberry": 2, "plum": 4,
+      "white_flowers": 0, "rose": 0, "violet": 4,
+      "grass": 0, "nettles": 0, "bell_pepper": 1, "blackcurrant_leaf": 0, "mint": 2, "eucalyptus": 2,
+      "black_pepper": 5, "white_pepper": 1, "liquorice": 3,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 2, "mushroom": 1, "truffle": 1,
+      "vanilla": 2, "butter": 0, "toast": 1, "coconut": 1, "nuts": 0, "coffee": 2, "chocolate": 2,
+      "petrol": 0, "honey": 0, "dried_fruit": 2, "tobacco": 3, "leather": 4
+    },
+    "structure": { "acidity": 3, "body": 5, "alcohol": 4, "tannin": 4, "sweetness": 1, "oak": 3 },
+    "commonRegionsAndStyles": [
+      { "name": "Norra Rhône, Frankrike", "description": "Elegant, svartpeppar, viol, oliver. Komplex och lagringsvärd." },
+      { "name": "Barossa Valley, Australien", "description": "Rik, mogen, mörk frukt, choklad, lakrits, vanilj. Hög alkohol." }
+    ],
+    "blindTastingClues": ["Svartpeppar – nästan alltid", "Mörka bär och plommon", "Viol", "Köttig eller rökig ton", "Högt tannin och kropp"],
+    "commonConfusions": ["Cabernet Sauvignon", "Malbec", "Mourvèdre"]
+  },
+  {
+    "id": "grenache",
+    "name": "Grenache / Garnacha",
+    "type": "red",
+    "shortDescription": "Fruktig och varmklimatälskande röd druva med röda bär, kryddor och hög alkohol. Bas i södra Rhône och Spanien.",
+    "typicalAromas": ["raspberry", "strawberry", "cherry", "black_pepper", "liquorice", "dried_fruit"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 1,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 5, "strawberry": 4, "cherry": 4, "cranberry": 2,
+      "blackcurrant": 1, "blackberry": 2, "blueberry": 2, "plum": 3,
+      "white_flowers": 0, "rose": 1, "violet": 1,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 3, "white_pepper": 1, "liquorice": 3,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 1, "mushroom": 1, "truffle": 1,
+      "vanilla": 2, "butter": 0, "toast": 1, "coconut": 0, "nuts": 0, "coffee": 1, "chocolate": 1,
+      "petrol": 0, "honey": 0, "dried_fruit": 3, "tobacco": 2, "leather": 2
+    },
+    "structure": { "acidity": 2, "body": 4, "alcohol": 5, "tannin": 2, "sweetness": 1, "oak": 2 },
+    "commonRegionsAndStyles": [
+      { "name": "Châteauneuf-du-Pape, Södra Rhône", "description": "Rik, komplex blend ofta dominerad av Grenache. Röda bär, kryddor, lakrits." },
+      { "name": "Priorat, Spanien (Garnacha)", "description": "Koncentrerad, mineralisk och kraftfull. Mörk frukt och mineraltoner." },
+      { "name": "Australien (Barossa GSM-blend)", "description": "Fruktig och tillgänglig. Ofta blandad med Syrah och Mourvèdre." }
+    ],
+    "blindTastingClues": ["Röda bär – hallon och jordgubbe", "Hög alkohol", "Lågt tannin", "Kryddigt – peppar och lakrits", "Torkad frukt med ålder"],
+    "commonConfusions": ["Pinot Noir", "Merlot", "Tempranillo"]
+  },
+  {
+    "id": "nebbiolo",
+    "name": "Nebbiolo",
+    "type": "red",
+    "shortDescription": "Italiens ädlaste röda druva. Barolo och Barbaresco. Hög syra, högt tannin, elegant röd frukt, tjära och rosor.",
+    "typicalAromas": ["cherry", "rose", "tobacco", "leather", "dried_fruit", "truffle"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 1,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 3, "strawberry": 2, "cherry": 5, "cranberry": 1,
+      "blackcurrant": 1, "blackberry": 1, "blueberry": 0, "plum": 2,
+      "white_flowers": 1, "rose": 5, "violet": 2,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 1, "white_pepper": 0, "liquorice": 2,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 2, "mushroom": 2, "truffle": 3,
+      "vanilla": 1, "butter": 0, "toast": 1, "coconut": 0, "nuts": 0, "coffee": 1, "chocolate": 0,
+      "petrol": 0, "honey": 0, "dried_fruit": 4, "tobacco": 4, "leather": 4
+    },
+    "structure": { "acidity": 5, "body": 4, "alcohol": 3, "tannin": 5, "sweetness": 1, "oak": 3 },
+    "commonRegionsAndStyles": [
+      { "name": "Barolo, Piemonte", "description": "'Vinens konung'. Kraftfull, tanninrik, lagringsvärd. Tjära och rosor." },
+      { "name": "Barbaresco, Piemonte", "description": "Mer elegant och tillgänglig än Barolo men fortfarande komplex." },
+      { "name": "Langhe Nebbiolo", "description": "Enklare, mer fruktig och tillgänglig stil." }
+    ],
+    "blindTastingClues": ["Tjära och rosor – ikonisk kombination", "Hög syra OCH högt tannin", "Körsbär och röd frukt", "Läder och tobak med ålder", "Ljus färg för hur kraftfullt det smakar"],
+    "commonConfusions": ["Sangiovese", "Pinot Noir (ung)", "Barbera"]
+  },
+  {
+    "id": "sangiovese",
+    "name": "Sangiovese",
+    "type": "red",
+    "shortDescription": "Italiens mest odlade röda druva. Basen i Chianti och Brunello. Körsbär, örter, hög syra och tydligt tannin.",
+    "typicalAromas": ["cherry", "raspberry", "violet", "tobacco", "leather", "wet_earth"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 0,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 4, "strawberry": 2, "cherry": 5, "cranberry": 2,
+      "blackcurrant": 1, "blackberry": 2, "blueberry": 1, "plum": 2,
+      "white_flowers": 0, "rose": 1, "violet": 3,
+      "grass": 1, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 1, "white_pepper": 0, "liquorice": 1,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 3, "mushroom": 2, "truffle": 2,
+      "vanilla": 1, "butter": 0, "toast": 1, "coconut": 0, "nuts": 0, "coffee": 1, "chocolate": 1,
+      "petrol": 0, "honey": 0, "dried_fruit": 2, "tobacco": 3, "leather": 3
+    },
+    "structure": { "acidity": 4, "body": 3, "alcohol": 3, "tannin": 4, "sweetness": 1, "oak": 2 },
+    "commonRegionsAndStyles": [
+      { "name": "Chianti Classico, Toscana", "description": "Körsbär, örter, hög syra, tydligt tannin. Kräver mat." },
+      { "name": "Brunello di Montalcino, Toscana", "description": "Kraftfullare och mer komplex. Lång lagringspotential." },
+      { "name": "Vino Nobile di Montepulciano", "description": "Mellanting – mer elegant än Brunello, mer komplex än vanlig Chianti." }
+    ],
+    "blindTastingClues": ["Körsbär och hallon", "Hög syra", "Tydligt tannin", "Örtig och jordigt ton", "Tobak och läder med ålder"],
+    "commonConfusions": ["Nebbiolo", "Pinot Noir", "Tempranillo"]
+  },
+  {
+    "id": "tempranillo",
+    "name": "Tempranillo",
+    "type": "red",
+    "shortDescription": "Spaniens viktigaste röda druva. Basen i Rioja och Ribera del Duero. Körsbär, läder, tobak och vanilj från ek.",
+    "typicalAromas": ["cherry", "plum", "tobacco", "leather", "vanilla", "dried_fruit"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 0,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 2, "strawberry": 2, "cherry": 5, "cranberry": 1,
+      "blackcurrant": 2, "blackberry": 2, "blueberry": 1, "plum": 4,
+      "white_flowers": 0, "rose": 0, "violet": 2,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 1, "white_pepper": 0, "liquorice": 2,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 2, "mushroom": 1, "truffle": 1,
+      "vanilla": 4, "butter": 0, "toast": 2, "coconut": 3, "nuts": 0, "coffee": 1, "chocolate": 1,
+      "petrol": 0, "honey": 0, "dried_fruit": 3, "tobacco": 4, "leather": 4
+    },
+    "structure": { "acidity": 3, "body": 4, "alcohol": 3, "tannin": 3, "sweetness": 1, "oak": 4 },
+    "commonRegionsAndStyles": [
+      { "name": "Rioja, Spanien", "description": "Körsbär, vanilj, kokos från amerikansk ek. Crianza, Reserva, Gran Reserva." },
+      { "name": "Ribera del Duero, Spanien", "description": "Kraftfullare och mörkare än Rioja. Mer koncentrerad frukt." },
+      { "name": "Portugal (Aragonez/Tinta Roriz)", "description": "Samma druva, del i Douro- och Alentejo-blendar." }
+    ],
+    "blindTastingClues": ["Körsbär och plommon", "Stark vanilj och kokos från ek", "Tobak och läder", "Medelhög syra och tannin", "Torkad frukt med ålder"],
+    "commonConfusions": ["Sangiovese", "Grenache", "Merlot"]
+  },
+  {
+    "id": "malbec",
+    "name": "Malbec",
+    "type": "red",
+    "shortDescription": "Ursprung i Frankrike men hittade sin storhet i Argentina. Mörk, mjuk och fruktig med björnbär, plommon och choklad.",
+    "typicalAromas": ["blackberry", "plum", "blueberry", "chocolate", "violet", "tobacco"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 0,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 2, "strawberry": 1, "cherry": 2, "cranberry": 0,
+      "blackcurrant": 3, "blackberry": 5, "blueberry": 4, "plum": 5,
+      "white_flowers": 0, "rose": 0, "violet": 4,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 2, "white_pepper": 0, "liquorice": 2,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 1, "mushroom": 0, "truffle": 0,
+      "vanilla": 3, "butter": 0, "toast": 1, "coconut": 1, "nuts": 0, "coffee": 2, "chocolate": 4,
+      "petrol": 0, "honey": 0, "dried_fruit": 2, "tobacco": 3, "leather": 2
+    },
+    "structure": { "acidity": 2, "body": 5, "alcohol": 4, "tannin": 3, "sweetness": 1, "oak": 3 },
+    "commonRegionsAndStyles": [
+      { "name": "Mendoza, Argentina", "description": "Den dominerande stilen. Rik, mörk frukt, mjukt tannin, choklad och viol." },
+      { "name": "Cahors, Frankrike (Côt)", "description": "Stramare och mer tanninrik. Kallas Côt. Rustik och lagringsvärd." }
+    ],
+    "blindTastingClues": ["Mycket mörk frukt – björnbär och blåbär", "Viol", "Mjukt tannin", "Choklad och kaffe", "Hög alkohol"],
+    "commonConfusions": ["Cabernet Sauvignon", "Syrah", "Merlot"]
+  },
+  {
+    "id": "gamay",
+    "name": "Gamay",
+    "type": "red",
+    "shortDescription": "Lätt och fruktig röd druva från Beaujolais. Hallon, körsbär och ibland banan. Dricks ung och sval.",
+    "typicalAromas": ["raspberry", "cherry", "strawberry", "violet", "wet_earth"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 0,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 5, "strawberry": 4, "cherry": 4, "cranberry": 3,
+      "blackcurrant": 0, "blackberry": 1, "blueberry": 1, "plum": 1,
+      "white_flowers": 1, "rose": 2, "violet": 3,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 0, "chalk": 1, "slate": 1, "wet_earth": 3, "mushroom": 2, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 0, "dried_fruit": 0, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 4, "body": 1, "alcohol": 2, "tannin": 1, "sweetness": 1, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Beaujolais Nouveau, Frankrike", "description": "Fruktig, enkel, bananton från kolsyrjäsning. Dricks inom månader." },
+      { "name": "Beaujolais Cru (Morgon, Fleurie etc)", "description": "Mer komplex och lagringsvärd. Mineralisk och jordigt." }
+    ],
+    "blindTastingClues": ["Röda bär – hallon och jordgubbe", "Mycket lite tannin", "Lätt kropp", "Kan ha bananaton (Nouveau)", "Dricks sval"],
+    "commonConfusions": ["Pinot Noir", "Grenache", "Zweigelt"]
+  }
+]

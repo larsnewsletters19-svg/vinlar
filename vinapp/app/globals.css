@@ -3,6 +3,20 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --color-wine-50: #fdf2f4;
+    --color-wine-100: #fce7eb;
+    --color-wine-200: #f9d0d9;
+    --color-wine-300: #f4a9b9;
+    --color-wine-400: #ec7892;
+    --color-wine-500: #e04d6f;
+    --color-wine-600: #cc2d52;
+    --color-wine-700: #ab2144;
+    --color-wine-800: #8f1e3d;
+    --color-wine-900: #791d38;
+    --color-wine-950: #420d1d;
+  }
+
   * {
     box-sizing: border-box;
   }
@@ -37,8 +51,12 @@
   .font-body {
     font-family: var(--font-body), Georgia, serif;
   }
+  .text-balance {
+    text-wrap: balance;
+  }
 }
 
+/* Smooth page transitions */
 main {
   animation: fadeIn 0.2s ease-in-out;
 }

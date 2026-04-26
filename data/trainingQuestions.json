@@ -1,0 +1,113 @@
+[
+  {
+    "id": "q001",
+    "type": "guess_grape",
+    "question": "Du provar ett vitt vin med mycket hög syra, lime, grönt äpple, persika, vita blommor och en lätt petroleumton. Ingen tydlig ek.",
+    "options": ["Chardonnay", "Riesling", "Sauvignon Blanc", "Viognier"],
+    "correctAnswer": "Riesling",
+    "explanation": "Hög syra + citrus + grönt äpple + stenfrukt + petroleum är de klassiska ledtrådarna för Riesling. Inget av de gröna ört-aromerna från Sauvignon Blanc, ingen smörighet från Chardonnay."
+  },
+  {
+    "id": "q002",
+    "type": "guess_style",
+    "question": "Du provar ett vitt vin med mycket hög syra, passionsfrukt, krusbär, gräs och svartvinbärsblad. Doften är explosiv och intensiv.",
+    "options": [
+      "Sauvignon Blanc från Loire, Frankrike",
+      "Sauvignon Blanc från Marlborough, Nya Zeeland",
+      "Chardonnay från Chablis",
+      "Riesling från Mosel, Tyskland"
+    ],
+    "correctAnswer": "Sauvignon Blanc från Marlborough, Nya Zeeland",
+    "explanation": "Den intensiva tropiska frukten, krusbärstonen och svartvinbärsblad är klassiska signaturer för Marlborough Sauvignon Blanc. Loire är mer citrusdrivet och mineraliskt."
+  },
+  {
+    "id": "q003",
+    "type": "guess_grape",
+    "question": "Du provar ett rött vin med hallon, jordgubbe, körsbär, viol och en hint av svamp. Syran är hög, tanninerna är mjuka och silkeslena.",
+    "options": ["Cabernet Sauvignon", "Syrah", "Pinot Noir", "Nebbiolo"],
+    "correctAnswer": "Pinot Noir",
+    "explanation": "Röda bär + viol + hög syra + lite tannin + jordighet/svamp är Pinot Noirs signaturer. Cabernet och Syrah har mycket mer tannin och mörkare frukt."
+  },
+  {
+    "id": "q004",
+    "type": "guess_grape",
+    "question": "Du provar ett kraftfullt rött vin med svarta vinbär, ceder, tobak, paprika och hög syra. Tanninerna är mycket höga och strukturerade.",
+    "options": ["Merlot", "Pinot Noir", "Cabernet Sauvignon", "Grenache"],
+    "correctAnswer": "Cabernet Sauvignon",
+    "explanation": "Svarta vinbär + ceder/tobak + paprika + mycket högt tannin = Cabernet Sauvignon. Merlot är mjukare, Pinot Noir har lite tannin, Grenache är mer fruktig."
+  },
+  {
+    "id": "q005",
+    "type": "guess_grape",
+    "question": "Du provar ett vitt vin med extremt intensiv lychee, ros, ingefära och blommighet. Lite sötma, låg syra, hög alkohol.",
+    "options": ["Riesling", "Gewürztraminer", "Pinot Gris", "Viognier"],
+    "correctAnswer": "Gewürztraminer",
+    "explanation": "Litchi + ros + ingefära = Gewürztraminers signaturtrio. Nästan omöjligt att förväxla när druvan är typisk. Låg syra och hög alkohol stämmer också."
+  },
+  {
+    "id": "q006",
+    "type": "guess_grape",
+    "question": "Du provar ett kraftigt rött vin med svartpeppar, björnbär, viol, köttig rökthet och lakrits. Högt tannin och god syra.",
+    "options": ["Merlot", "Pinot Noir", "Grenache", "Syrah"],
+    "correctAnswer": "Syrah",
+    "explanation": "Svartpeppar är nästan alltid med i Syrah. Tillsammans med violton, köttig-rökig karaktär och mörka bär är detta klassisk Syrah/Shiraz."
+  },
+  {
+    "id": "q007",
+    "type": "distinguish",
+    "question": "Vilket av dessa alternativ är en typisk skillnad mellan Riesling och Sauvignon Blanc?",
+    "options": [
+      "Riesling har gröna aromer som gräs och nässlor, Sauvignon Blanc har stenfrukt",
+      "Riesling kan utveckla petroleum med ålder, Sauvignon Blanc gör det vanligtvis inte",
+      "Sauvignon Blanc har lägre syra än Riesling",
+      "Riesling är alltid söt, Sauvignon Blanc alltid torr"
+    ],
+    "correctAnswer": "Riesling kan utveckla petroleum med ålder, Sauvignon Blanc gör det vanligtvis inte",
+    "explanation": "Petroleum (TDN) är en signaturarom i mogen Riesling och en viktig blindprovningsledtråd. Sauvignon Blanc har istället gröna aromer som gräs och nässlor."
+  },
+  {
+    "id": "q008",
+    "type": "match_aroma",
+    "question": "Vilken druva är starkast förknippad med aromen svartpeppar?",
+    "options": ["Cabernet Sauvignon", "Merlot", "Syrah / Shiraz", "Pinot Noir"],
+    "correctAnswer": "Syrah / Shiraz",
+    "explanation": "Svartpeppar är Syrahs mest ikoniska arom – den kommer från rotundone, ett aromämne som finns naturligt i druvan. Det är en viktig blindprovningsledtråd."
+  },
+  {
+    "id": "q009",
+    "type": "guess_style",
+    "question": "Du provar ett vitt vin med mycket hög syra, citron, flinta och krita. Inget smör, ingen vanilj. Stram och mineralisk stil.",
+    "options": [
+      "Ekad Chardonnay från Napa Valley",
+      "Chardonnay från Chablis",
+      "Viognier från södra Frankrike",
+      "Pinot Gris från Alsace"
+    ],
+    "correctAnswer": "Chardonnay från Chablis",
+    "explanation": "Stram, mineralisk, ingen ek, flinta och krita är Chablis klassiska profil. Ekad ny-världen Chardonnay är smörig och rik – raka motsatsen."
+  },
+  {
+    "id": "q010",
+    "type": "guess_grape",
+    "question": "Du provar ett rött vin med tjärliknande toner, körsbär, rosor, hög syra och MYCKET högt tannin. Färgen är ganska ljus för hur kraftfullt det smakar.",
+    "options": ["Sangiovese", "Pinot Noir", "Nebbiolo", "Cabernet Sauvignon"],
+    "correctAnswer": "Nebbiolo",
+    "explanation": "'Tjära och rosor' är Nebbiolos signaturfras. Hög syra + högt tannin + relativt ljus färg är Nebbiolos paradox – det ser ut som Pinot Noir men smakar som ett monster."
+  },
+  {
+    "id": "q011",
+    "type": "guess_grape",
+    "question": "Du provar ett vitt vin med smör, vanilj, rostat bröd, päron och gult äpple. Syran är måttlig och vinet är fylligt.",
+    "options": ["Sauvignon Blanc", "Riesling", "Chardonnay", "Gewürztraminer"],
+    "correctAnswer": "Chardonnay",
+    "explanation": "Smör + vanilj + rostat bröd från ek + fyllig kropp + måttlig syra = eklagrad Chardonnay. Sauvignon Blanc blir aldrig smörig, Riesling är mer citrusdriven."
+  },
+  {
+    "id": "q012",
+    "type": "guess_grape",
+    "question": "Du provar ett medelkraftigt rött vin med plommon, körsbär, choklad och mjukt tannin. Vinet känns rundat och välkomnande.",
+    "options": ["Nebbiolo", "Syrah", "Cabernet Sauvignon", "Merlot"],
+    "correctAnswer": "Merlot",
+    "explanation": "Plommon + choklad + mjukt tannin + rund kropp = Merlot. Cabernet Sauvignon är hårdare och svartvinbärsdrivnare, Syrah är mer pepprigt och kraftfullt."
+  }
+]

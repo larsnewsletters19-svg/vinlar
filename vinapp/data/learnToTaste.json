@@ -1,0 +1,98 @@
+[
+  {
+    "id": "acidity",
+    "name": "Syra",
+    "icon": "💧",
+    "shortDescription": "Vinets friskhet och nerv. Det som gör att munnen vattnas.",
+    "whatItIs": "Syra är organiska syror i vinet – främst vinsyra och äppelsyra. Det är syran som ger vin dess friskhet och förmåga att balansera frukt och sötma. Utan syra skulle vin smaka platt och tråkigt.",
+    "howItFeels": "Munnen börjar vattnas, särskilt längs sidorna av tungan. Hög syra känns krispigt och piggt, som att bita i ett grönt äpple eller en citronskiva.",
+    "tryItYourself": "Bit i en citronklyfta eller smaka på ett grönt äpple. Den salivdrivande, stickande känslan längs tungan – det är syra.",
+    "highExamples": ["Riesling", "Sauvignon Blanc", "Chenin Blanc", "Albariño", "Sangiovese", "Nebbiolo", "Pinot Noir"],
+    "lowExamples": ["Viognier", "Gewürztraminer", "Grenache", "Merlot (ofta)", "Chardonnay från varmt klimat"],
+    "commonMisconceptions": "Syra förväxlas ibland med bitterhet. Men syra är salivdrivande och 'frisk', medan bitterhet upplevs bak på tungan och är mer ihärdig. Högt syraviner upplevs inte som sura om de är balanserade."
+  },
+  {
+    "id": "tannin",
+    "name": "Tannin",
+    "icon": "🍂",
+    "shortDescription": "Sträv och uttorkande känsla i munnen. Kommer från druvskalen.",
+    "whatItIs": "Tannin är fenoliska ämnen som finns naturligt i druvskal, kärnor, stjälkar och ekfat. De extraheras under röda vinets macerering – när skalen ligger i kontakt med musten. Vita viner har nästan inget tannin eftersom skalen skiljs av snabbt.",
+    "howItFeels": "Munnen blir torr och sträv, särskilt tandköttet, insidan av kinderna och tungan. Det är en strukturell känsla snarare än en smak.",
+    "tryItYourself": "Drick starkt svart te som fått dra i 5–10 minuter. Den kärva, uttorkande känslan i munnen liknar tannin. Hårt orört äppelskinn ger också en aning av tannintextur.",
+    "highExamples": ["Nebbiolo (Barolo)", "Cabernet Sauvignon", "Tannat", "Syrah/Shiraz", "Sangiovese"],
+    "lowExamples": ["Pinot Noir", "Gamay", "Grenache", "Merlot (relativt)", "Alla vita viner"],
+    "commonMisconceptions": "Tannin upplevs ibland som bitterhet. Men tannin är astringent (strävt, uttorkande) medan bitterhet är en separat smak. Högt tannin i ett ungt vin mjuknar med ålder och mat."
+  },
+  {
+    "id": "body",
+    "name": "Kropp",
+    "icon": "⚖️",
+    "shortDescription": "Vinets vikt och fyllighet i munnen. Lätt som vatten eller rikt som mjölk?",
+    "whatItIs": "Kropp beskriver hur tungt och fylligt vinet känns i munnen. Det påverkas av alkohol, extraktnivå, restsötma och hur vinet är gjort. Hög alkohol bidrar starkt till kropp.",
+    "howItFeels": "Tänk på skillnaden mellan vatten, lättmjölk och grädde. Lätt kropp är vattenlätt och glidande. Medel kropp är som mjölk. Full kropp är rik och nästan tjock i munnen.",
+    "tryItYourself": "Jämför hur vatten, mjölk och vispgrädde känns i munnen – det är skillnaden i 'kropp'. Alkohol är den viktigaste faktorn: smaka på ett vin och notera om det värmer munnen och halsen lite – det bidrar till upplevd kropp.",
+    "highExamples": ["Chardonnay (ekad)", "Viognier", "Cabernet Sauvignon", "Syrah/Shiraz", "Zinfandel"],
+    "lowExamples": ["Riesling (ofta)", "Pinot Grigio", "Pinot Noir", "Gamay", "Muscadet"],
+    "commonMisconceptions": "Kropp förväxlas ibland med kvalitet – 'tung' upplevs som 'bättre'. Men lätt kropp kan vara elegant och komplex. Kropp är en stilfråga, inte en kvalitetsfråga."
+  },
+  {
+    "id": "alcohol",
+    "name": "Alkohol",
+    "icon": "🔥",
+    "shortDescription": "Värme i halsen och munnen. Bidrar till kropp och fyllighet.",
+    "whatItIs": "Alkohol (etanol) bildas när jästen omvandlar druvans socker. Mer solsken och mognad ger mer socker i druvan, vilket ger mer alkohol. Alkohol anges i procent (ABV) på etiketten.",
+    "howItFeels": "En värmande känsla i halsen och magen. Hög alkohol kan kännas 'brännande' eller 'hett' om vinet inte är balanserat. Balanserad alkohol bidrar till kropp utan obehag.",
+    "tryItYourself": "Smaka på viner med olika alkoholhalt – en lätt Mosel Riesling (8–9%) mot en australiensisk Shiraz (15%). Notera värmen i halsen efter att du svalt.",
+    "highExamples": ["Australiensisk Shiraz (14–15,5%)", "Zinfandel (15–16%)", "Gewürztraminer (14%)", "Grenache (14–15%)"],
+    "lowExamples": ["Mosel Riesling (7–10%)", "Muscadet (12%)", "Champagne (12%)", "Vinho Verde (11–12%)"],
+    "commonMisconceptions": "Alkohol förväxlas ibland med sötma – högt alkohol kan kännas sötaktigt. Men sötma beror på restssocker, inte alkohol. Hög alkohol utan balans upplevs som 'hett' och kan maskera smak."
+  },
+  {
+    "id": "sweetness",
+    "name": "Sötma",
+    "icon": "🍯",
+    "shortDescription": "Restssocker i vinet. Från helt torrt till sött dessertvin.",
+    "whatItIs": "Sötma i vin beror på restssocker – socker som inte jästs bort till alkohol. De flesta bordsviner är torra (under 4 g/l socker) men kan upplevas som sötaktiga om frukten är mogen och alkoholen hög.",
+    "howItFeels": "Söta viner ger en omedelbar söt känsla på tungspetsen. Torrt vin ger ingen söt känsla, bara frukt och syra. Halvtorra viner ger en lätt sötaktig upplevelse som balanseras av syra.",
+    "tryItYourself": "Jämför ett torrt riesling mot ett halvtort (Spätlese) – känn skillnaden på tungspetsen direkt när vinet rör vid den. Söt känsla = restssocker.",
+    "highExamples": ["Sauternes (Bordeaux)", "Riesling Auslese/Trockenbeerenauslese", "Moscato d'Asti", "Ice wine / Eiswein"],
+    "lowExamples": ["De flesta Sauvignon Blanc", "Sancerre", "Chablis", "Barolo", "Champagne Brut"],
+    "commonMisconceptions": "Mogen, fruktdriven frukt kan upplevas som sötma utan att vinet är sött. Riesling med hög syra kan balansera restssocker så att vinet inte upplevs som sött trots att det tekniskt sett är halvtorrt."
+  },
+  {
+    "id": "oak",
+    "name": "Fat / Ek",
+    "icon": "🪵",
+    "shortDescription": "Aromer och textur från ekfat. Vanilj, smör, rostat bröd, kokos.",
+    "whatItIs": "Ekfat används för att lagra och ofta jäsa vin. Eken avger aromer (vanilj, kokos, kryddor) och syresätter vinet långsamt, vilket mjukar tanniner och integrerar smakerna. Graden av ristning (light, medium, heavy toast) påverkar karaktären.",
+    "howItFeels": "Ek ger en fylligare, mjukare textur och tillför aromer som inte kommer från druvan. Nytt ek ger mer aromer, gammalt ek ger mer textur utan lika tydlig aromsättning.",
+    "tryItYourself": "Jämför en ekad Chardonnay mot en oekad (t.ex. Chablis). Den smöriga, vaniljiga, fylligare känslan i den ekade versionen är ek-påverkan. Avslutat med en rökig/rostad ton? Det är ek.",
+    "highExamples": ["Ekad Chardonnay (Bourgogne, Napa)", "Rioja Reserva/Gran Reserva", "Barossa Shiraz", "Napa Cabernet Sauvignon"],
+    "lowExamples": ["Sauvignon Blanc (nästan aldrig)", "Chablis", "Mosel Riesling", "Beaujolais / Gamay", "Muscadet"],
+    "commonMisconceptions": "Ek är inte ett kvalitetsmärke – det är en stilfråga. Oekade viner kan vara precis lika komplexa och finare som ekade. Mycket ny ek kan maskera frukt och terroir."
+  },
+  {
+    "id": "length",
+    "name": "Längd / Finish",
+    "icon": "⏱️",
+    "shortDescription": "Hur länge smaken stannar kvar efter att du svalt vinet.",
+    "whatItIs": "Finish eller length är hur länge aromerna och smaken kvarstår i munnen efter att vinet svalt. En lång finish är ett tecken på komplexitet och kvalitet. Mäts ibland i sekunder av caudalie (en caudalie = en sekund).",
+    "howItFeels": "Efter att du svalt – räkna hur länge du fortfarande kan känna vinet. Kort finish: under 5 sekunder. Medel: 10–15 sekunder. Lång: 20+ sekunder. I riktigt fina viner kan finishen hålla i 30–60 sekunder.",
+    "tryItYourself": "Ta en klunk, svälj och börja räkna. När du inte längre kan känna vinets smak – det är din finish. Jämför ett billigt vin mot ett kvalitetsvin från samma druva.",
+    "highExamples": ["Barolo", "Grand Cru Bourgogne", "Hermitage (Syrah)", "Sauternes", "Riesling GG"],
+    "lowExamples": ["Enkla bordsviner", "Bag-in-box-viner", "Massproducerade viner utan terroir-karaktär"],
+    "commonMisconceptions": "Lång finish = bättre vin är en förenkling men ofta sann. Dock kan ett välgjort enkelt vin ha kort men ren och trevlig finish. Det är smaken under finishen som räknas, inte bara längden."
+  },
+  {
+    "id": "balance",
+    "name": "Balans",
+    "icon": "☯️",
+    "shortDescription": "Hur väl alla delar hänger ihop. Det viktigaste begreppet av alla.",
+    "whatItIs": "Balans är när vinets alla komponenter – frukt, syra, tannin, alkohol, sötma och ek – samspelar utan att någon dominerar negativt. Ett balanserat vin upplevs harmoniskt och lätt att dricka.",
+    "howItFeels": "Ett balanserat vin upplevs harmoniskt och behagligt utan att något sticker ut negativt. Obalanserat vin kan kännas för surt, för beskt, för hett (alkohol) eller för platt.",
+    "tryItYourself": "Smaka på ett vin och fråga: Finns det något som stör? Är syran för skarp? Brinner alkoholen? Är tanninet för strävt? Om ja – vinet är obalanserat. Om allt flödar ihop naturligt – det är balans.",
+    "highExamples": ["Välgjorda viner från klassiska regioner", "Lagringsvärda viner med rätt tannin/syra/frukt-balans"],
+    "lowExamples": ["Ungt tanninrikt vin", "Varmt klimat-vin med hög alkohol utan syra", "Billiga viner med artificiell syra eller sötma"],
+    "commonMisconceptions": "Balans innebär inte att allt är lika starkt – ett Barolo kan ha hög syra och högt tannin och ändå vara perfekt balanserat om frukten och strukturen hänger ihop. Balans är kontext-beroende."
+  }
+]
