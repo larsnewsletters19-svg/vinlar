@@ -76,11 +76,10 @@ export default function TranaPage() {
         </div>
       </div>
 
-      {/* Progress */}
       <div className="h-1.5 bg-wine-900 rounded-full mb-8 overflow-hidden">
         <div
           className="h-full bg-wine-600 rounded-full transition-all duration-300"
-          style={{ width: `${((current) / shuffled.length) * 100}%` }}
+          style={{ width: `${(current / shuffled.length) * 100}%` }}
         />
       </div>
 
@@ -96,30 +95,25 @@ export default function TranaPage() {
 
       <ul className="space-y-2 mb-6">
         {question.options.map((option) => {
-          let state: 'default' | 'correct' | 'wrong' | 'missed' = 'default';
-          if (selected) {
-            if (option === question.correctAnswer) state = 'correct';
-            else if (option === selected) state = 'wrong';
+          const isSelected = option === selected;
+          const isCorrectOption = option === question.correctAnswer;
+          let className = 'w-full text-left px-4 py-3 rounded-xl border text-sm font-medium transition-all ';
+
+          if (!selected) {
+            className += 'bg-wine-900 border-wine-700 text-wine-200 hover:border-wine-500 hover:text-wine-50 cursor-pointer';
+          } else if (isCorrectOption) {
+            className += 'bg-green-900/50 border-green-600 text-green-300';
+          } else if (isSelected) {
+            className += 'bg-red-900/50 border-red-700 text-red-300';
+          } else {
+            className += 'bg-wine-900/50 border-wine-800 text-wine-500 cursor-not-allowed';
           }
+
           return (
             <li key={option}>
-              <button
-                onClick={() => handleAnswer(option)}
-                disabled={!!selected}
-                className={`w-full text-left px-4 py-3 rounded-xl border text-sm font-medium transition-all ${
-                  state === 'correct'
-                    ? 'bg-green-900/50 border-green-600 text-green-300'
-                    : state === 'wrong'
-                    ? 'bg-red-900/50 border-red-700 text-red-300'
-                    : state === 'missed'
-                    ? 'bg-green-900/30 border-green-700/50 text-green-400'
-                    : selected
-                    ? 'bg-wine-900/50 border-wine-800 text-wine-500 cursor-not-allowed'
-                    : 'bg-wine-900 border-wine-700 text-wine-200 hover:border-wine-500 hover:text-wine-50 cursor-pointer'
-                }`}
-              >
+              <button onClick={() => handleAnswer(option)} disabled={!!selected} className={className}>
                 <span className="mr-2">
-                  {state === 'correct' ? '✓' : state === 'wrong' ? '✗' : ''}
+                  {selected && isCorrectOption ? '✓' : selected && isSelected ? '✗' : ''}
                 </span>
                 {option}
               </button>
@@ -129,22 +123,4 @@ export default function TranaPage() {
       </ul>
 
       {selected && (
-        <div className={`rounded-2xl p-5 border mb-6 ${isCorrect ? 'bg-green-900/30 border-green-700/50' : 'bg-red-900/30 border-red-700/50'}`}>
-          <p className={`text-sm font-medium mb-1 ${isCorrect ? 'text-green-300' : 'text-red-300'}`}>
-            {isCorrect ? '✓ Rätt!' : '✗ Inte riktigt.'}
-          </p>
-          <p className="text-wine-300 text-sm leading-relaxed">{question.explanation}</p>
-        </div>
-      )}
-
-      {selected && (
-        <button
-          onClick={handleNext}
-          className="w-full py-3 bg-wine-700 hover:bg-wine-600 text-wine-50 font-medium rounded-xl transition-colors"
-        >
-          {current + 1 >= shuffled.length ? 'Se resultat' : 'Nästa fråga →'}
-        </button>
-      )}
-    </div>
-  );
-}
+        <div className={
