@@ -1,109 +1,5 @@
 [
   {
-    "id": "riesling_vs_sauvignon_blanc",
-    "type": "grape_vs_grape",
-    "title": "Riesling vs Sauvignon Blanc",
-    "grapeA": "riesling",
-    "grapeB": "sauvignon_blanc",
-    "inCommon": [
-      "Mycket hög syra",
-      "Citrusdominerade aromer",
-      "Frisk och pigg stil",
-      "Vanligtvis lite eller ingen ek"
-    ],
-    "grapeAStandsOut": [
-      "Grönt äpple och persika",
-      "Aprikoston",
-      "Vita blommor",
-      "Petroleum med ålder"
-    ],
-    "grapeBStandsOut": [
-      "Krusbär och svartvinbärsblad",
-      "Gräs och nässlor",
-      "Passionsfrukt",
-      "Grapefrukt"
-    ],
-    "blindTastingTip": "Petroleum, stenfrukt och blommighet pekar mot Riesling. Krusbär, gräs och svartvinbärsblad pekar mot Sauvignon Blanc."
-  },
-  {
-    "id": "chardonnay_vs_sauvignon_blanc",
-    "type": "grape_vs_grape",
-    "title": "Chardonnay vs Sauvignon Blanc",
-    "grapeA": "chardonnay",
-    "grapeB": "sauvignon_blanc",
-    "inCommon": [
-      "Vita druvor",
-      "Citrusfrukt",
-      "Kan vara mineraliska"
-    ],
-    "grapeAStandsOut": [
-      "Lägre syra än Sauvignon Blanc",
-      "Smör och vanilj om eklagrad",
-      "Mer kropp",
-      "Neutral utan ek – neutral nog att förväxlas"
-    ],
-    "grapeBStandsOut": [
-      "Mycket hög syra",
-      "Gröna aromer: gräs, nässlor",
-      "Krusbär och svartvinbärsblad",
-      "Aldrig smörig"
-    ],
-    "blindTastingTip": "Gröna aromer och hög syra pekar mot Sauvignon Blanc. Smör, rundhet och lägre syra pekar mot Chardonnay."
-  },
-  {
-    "id": "pinot_noir_vs_gamay",
-    "type": "grape_vs_grape",
-    "title": "Pinot Noir vs Gamay",
-    "grapeA": "pinot_noir",
-    "grapeB": "gamay",
-    "inCommon": [
-      "Röda bär: hallon, jordgubbe",
-      "Lätt till medelkropp",
-      "Lite tannin",
-      "God syra"
-    ],
-    "grapeAStandsOut": [
-      "Mer komplexitet och djup",
-      "Jordighet och svamp",
-      "Viol och ros",
-      "Bättre lagringskapacitet"
-    ],
-    "grapeBStandsOut": [
-      "Mer fruktig och enkel",
-      "Körsbär och banandoft (i Beaujolais Nouveau)",
-      "Mer tillgänglig och omedelbar",
-      "Nästan alltid drickas ung"
-    ],
-    "blindTastingTip": "Jordighet och komplexitet pekar mot Pinot Noir. Fruktig, lättdrucken och utan jordighet pekar mot Gamay."
-  },
-  {
-    "id": "cabernet_sauvignon_vs_merlot",
-    "type": "grape_vs_grape",
-    "title": "Cabernet Sauvignon vs Merlot",
-    "grapeA": "cabernet_sauvignon",
-    "grapeB": "merlot",
-    "inCommon": [
-      "Mörka bär",
-      "Ekpåverkan vanlig",
-      "Bordeaux-blends",
-      "God lagringskapacitet"
-    ],
-    "grapeAStandsOut": [
-      "Mycket högt tannin",
-      "Svarta vinbär",
-      "Ceder och tobak",
-      "Paprika vid svalare klimat",
-      "Mer struktur och nerv"
-    ],
-    "grapeBStandsOut": [
-      "Mjukare tannin",
-      "Plommon och choklad",
-      "Mer rund och tillgänglig",
-      "Ofta mer lättdrucken ung"
-    ],
-    "blindTastingTip": "Högt tannin + svarta vinbär + ceder pekar mot Cabernet Sauvignon. Mjukare, plommon, chokladton pekar mot Merlot."
-  },
-  {
     "id": "sauvignon_blanc_loire_vs_marlborough",
     "type": "style_vs_style",
     "title": "Sauvignon Blanc: Loire vs Marlborough",
@@ -184,7 +80,7 @@
       "Jordighet och svamp",
       "Röda bär: körsbär och hallon",
       "Komplex och lagringsvärd",
-      "Mer terroir-driven"
+      "Terroir-driven"
     ],
     "styleBCharacter": [
       "Rikare och mer omedelbar frukt",
@@ -194,5 +90,189 @@
       "Ofta mer fruktdriven"
     ],
     "blindTastingTip": "Jordighet, svamp och elegans pekar mot Bourgogne. Rikare, mer fruktig och tillgänglig pekar mot Oregon."
+  },
+  {
+    "id": "riesling_mosel_vs_alsace",
+    "type": "style_vs_style",
+    "title": "Riesling: Mosel vs Alsace",
+    "grape": "riesling",
+    "styleA": { "name": "Mosel, Tyskland", "region": "Mosel" },
+    "styleB": { "name": "Alsace, Frankrike", "region": "Alsace" },
+    "styleACharacter": [
+      "Lätt och delikat",
+      "Mycket hög syra",
+      "Ofta med lite restsötma",
+      "Skifferlik mineralitet",
+      "Låg alkohol 8–10%"
+    ],
+    "styleBCharacter": [
+      "Fylligare och torrare",
+      "Mogen citrus och stenfrukt",
+      "Ofta helt torr",
+      "Mer kropp och alkohol",
+      "Kan ha honungston"
+    ],
+    "blindTastingTip": "Lätt, hög syra, lite sötma och skiffer pekar mot Mosel. Fylligare, torrare och mer stenfrukt pekar mot Alsace."
+  },
+  {
+    "id": "nebbiolo_barolo_vs_barbaresco",
+    "type": "style_vs_style",
+    "title": "Nebbiolo: Barolo vs Barbaresco",
+    "grape": "nebbiolo",
+    "styleA": { "name": "Barolo, Piemonte", "region": "Barolo" },
+    "styleB": { "name": "Barbaresco, Piemonte", "region": "Barbaresco" },
+    "styleACharacter": [
+      "Kraftfullare och mer tanninrik",
+      "Kräver längre lagring",
+      "Tjära och rosor",
+      "Djup och komplex",
+      "Kallas vinens konung"
+    ],
+    "styleBCharacter": [
+      "Mer elegant och tillgänglig",
+      "Mjukare tannin",
+      "Körsbär och viol",
+      "Öppnar sig tidigare",
+      "Kallas vinens drottning"
+    ],
+    "blindTastingTip": "Kraftfullare tannin och mer sluten stil pekar mot Barolo. Mjukare och mer tillgänglig med körsbärsfrukt pekar mot Barbaresco."
+  },
+  {
+    "id": "sangiovese_chianti_vs_brunello",
+    "type": "style_vs_style",
+    "title": "Sangiovese: Chianti vs Brunello",
+    "grape": "sangiovese",
+    "styleA": { "name": "Chianti Classico, Toscana", "region": "Chianti Classico" },
+    "styleB": { "name": "Brunello di Montalcino, Toscana", "region": "Montalcino" },
+    "styleACharacter": [
+      "Frisk och örtig",
+      "Körsbär och hallon",
+      "Hög syra och tydligt tannin",
+      "Mer omedelbar och tillgänglig",
+      "Perfekt till mat"
+    ],
+    "styleBCharacter": [
+      "Kraftfullare och mer komplex",
+      "Mörk körsbär och läder",
+      "Mycket hög syra och tannin",
+      "Kräver lång lagring",
+      "En av Italiens stora viner"
+    ],
+    "blindTastingTip": "Friskare, lättare och mer örtig pekar mot Chianti. Kraftfullare, mörkare och mer komplex pekar mot Brunello."
+  },
+  {
+    "id": "tempranillo_rioja_vs_ribera",
+    "type": "style_vs_style",
+    "title": "Tempranillo: Rioja vs Ribera del Duero",
+    "grape": "tempranillo",
+    "styleA": { "name": "Rioja, Spanien", "region": "Rioja" },
+    "styleB": { "name": "Ribera del Duero, Spanien", "region": "Ribera del Duero" },
+    "styleACharacter": [
+      "Körsbär och vanilj",
+      "Tydlig ekkaraktär – kokos och vanilj",
+      "Elegant och välbalanserad",
+      "Crianza / Reserva / Gran Reserva",
+      "Ofta amerikansk ek"
+    ],
+    "styleBCharacter": [
+      "Kraftfullare och mörkare frukt",
+      "Björnbär och plommon",
+      "Mer koncentrerad och tanninrik",
+      "Högre altitud ger mer syra",
+      "Ofta fransk ek"
+    ],
+    "blindTastingTip": "Vanilj, kokos och körsbär pekar mot Rioja. Mörkare frukt, mer koncentrerad och kraftfullare pekar mot Ribera del Duero."
+  },
+  {
+    "id": "grenache_rhone_vs_priorat",
+    "type": "style_vs_style",
+    "title": "Grenache: Södra Rhône vs Priorat",
+    "grape": "grenache",
+    "styleA": { "name": "Södra Rhône, Frankrike", "region": "Châteauneuf-du-Pape" },
+    "styleB": { "name": "Priorat, Spanien", "region": "Priorat" },
+    "styleACharacter": [
+      "Rik och kryddig",
+      "Röda bär och lakrits",
+      "Ofta blend med Syrah och Mourvèdre",
+      "Varmt och generöst",
+      "Hög alkohol"
+    ],
+    "styleBCharacter": [
+      "Mycket koncentrerad",
+      "Mörk frukt och mineral",
+      "Llicorella-jord ger unik mineralitet",
+      "Kraftfull och tanninrik",
+      "Mycket hög alkohol"
+    ],
+    "blindTastingTip": "Kryddigt, rött bärdrivet och generöst pekar mot Châteauneuf. Extremt koncentrerat med mineralitet pekar mot Priorat."
+  },
+  {
+    "id": "champagne_vs_cava_vs_prosecco",
+    "type": "style_vs_style",
+    "title": "Champagne vs Cava vs Prosecco",
+    "grape": "champagne",
+    "styleA": { "name": "Champagne, Frankrike", "region": "Champagne" },
+    "styleB": { "name": "Cava & Prosecco", "region": "Spanien / Italien" },
+    "styleACharacter": [
+      "Traditionell metod – jäst på flaska",
+      "Brioche, rostat bröd och nötter",
+      "Citrus, grönt äpple och krita",
+      "Fin och ihållande bubbelstång",
+      "Komplex och lagringsvärd"
+    ],
+    "styleBCharacter": [
+      "Cava: traditionell metod, men friskare och enklare",
+      "Prosecco: tankmetod – mer omedelbar frukt",
+      "Päron, persika och blommor (Prosecco)",
+      "Större bubblor, kortare finish",
+      "Mer prisvärd vardagsdryck"
+    ],
+    "blindTastingTip": "Brioche, krita och komplex finish pekar mot Champagne. Fruktigare, enklare och mer omedelbar bubbelkänsla pekar mot Cava eller Prosecco."
+  },
+  {
+    "id": "pinot_noir_nz_vs_bourgogne",
+    "type": "style_vs_style",
+    "title": "Pinot Noir: Nya Zeeland vs Bourgogne",
+    "grape": "pinot_noir",
+    "styleA": { "name": "Central Otago, Nya Zeeland", "region": "Central Otago" },
+    "styleB": { "name": "Bourgogne, Frankrike", "region": "Côte d'Or" },
+    "styleACharacter": [
+      "Intensiv och fruktdriven",
+      "Mörkt körsbär och björnbär",
+      "Kraftfull struktur",
+      "Hög alkohol",
+      "Tillgänglig och omedelbar"
+    ],
+    "styleBCharacter": [
+      "Elegant och komplex",
+      "Röda bär och jordighet",
+      "Svamp och tryffel med ålder",
+      "Lägre alkohol",
+      "Kräver tid för att öppna sig"
+    ],
+    "blindTastingTip": "Intensiv, mörk frukt och kraftfull pekar mot Nya Zeeland. Elegant, jordigt och reserverat pekar mot Bourgogne."
+  },
+  {
+    "id": "chenin_blanc_loire_vs_sa",
+    "type": "style_vs_style",
+    "title": "Chenin Blanc: Loire vs Sydafrika",
+    "grape": "chenin_blanc",
+    "styleA": { "name": "Loire, Frankrike", "region": "Vouvray / Savennières" },
+    "styleB": { "name": "Sydafrika", "region": "Stellenbosch / Swartland" },
+    "styleACharacter": [
+      "Stram och mineralisk",
+      "Grönt äpple och honung",
+      "Flinta och krita",
+      "Mycket hög syra",
+      "Lagringsvärd i decennier"
+    ],
+    "styleBCharacter": [
+      "Fylligare och fruktdrivnare",
+      "Tropisk frukt och honung",
+      "Mer omedelbar och tillgänglig",
+      "Ofta eklagrad",
+      "Världens bästa prisvärdhet"
+    ],
+    "blindTastingTip": "Stram, mineralisk och hög syra pekar mot Loire. Fylligare, tropisk frukt och mer tillgänglig pekar mot Sydafrika."
   }
 ]

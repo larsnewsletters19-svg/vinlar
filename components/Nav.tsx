@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 const navItems = [
   { href: '/druvor', label: 'Druvor', icon: '🍇' },
   { href: '/jamfor', label: 'Jämför', icon: '⚖️' },
+  { href: '/stilar', label: 'Stilar', icon: '🗺️' },
   { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
   { href: '/trana', label: 'Träna', icon: '🎯' },
   { href: '/lar-dig', label: 'Lär dig', icon: '🧠' },
@@ -59,8 +60,8 @@ export default function Nav() {
                     active ? 'text-amber-400' : 'text-wine-400'
                   }`}
                 >
-                  <span className="text-xl mb-0.5">{item.icon}</span>
-                  <span className="truncate w-full text-center">{item.label}</span>
+                  <span className="text-lg mb-0.5">{item.icon}</span>
+                  <span className="truncate w-full text-center" style={{ fontSize: '10px' }}>{item.label}</span>
                 </Link>
               </li>
             );
