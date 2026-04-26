@@ -123,4 +123,22 @@ export default function TranaPage() {
       </ul>
 
       {selected && (
-        <div className={
+        <div className={`rounded-2xl p-5 border mb-6 ${isCorrect ? 'bg-green-900/30 border-green-700/50' : 'bg-red-900/30 border-red-700/50'}`}>
+          <p className={`text-sm font-medium mb-1 ${isCorrect ? 'text-green-300' : 'text-red-300'}`}>
+            {isCorrect ? '✓ Rätt!' : '✗ Inte riktigt.'}
+          </p>
+          <p className="text-wine-300 text-sm leading-relaxed">{question.explanation}</p>
+        </div>
+      )}
+
+      {selected && (
+        <button
+          onClick={handleNext}
+          className="w-full py-3 bg-wine-700 hover:bg-wine-600 text-wine-50 font-medium rounded-xl transition-colors"
+        >
+          {current + 1 >= shuffled.length ? 'Se resultat' : 'Nästa fråga →'}
+        </button>
+      )}
+    </div>
+  );
+}
