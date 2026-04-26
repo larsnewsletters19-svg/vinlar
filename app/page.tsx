@@ -16,6 +16,13 @@ const sections = [
     color: 'from-stone-800 to-stone-900',
   },
   {
+    href: '/stilar',
+    icon: '🗺️',
+    title: 'Stilar',
+    desc: 'Samma druva, olika regioner och uttryck.',
+    color: 'from-indigo-900 to-wine-950',
+  },
+  {
     href: '/aromhjul',
     icon: '🌸',
     title: 'Aromhjul',
