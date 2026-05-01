@@ -413,4 +413,119 @@
     ],
     "blindTastingTip": "Jordighet, elegans och reserverad pekar mot Bourgogne. Intensiv, mörk frukt och kraftfull pekar mot Central Otago."
   }
+  ,{
+    "id": "vinho_verde_vs_albarino",
+    "type": "style_vs_style",
+    "title": "Vinho Verde vs Albariño",
+    "grape": "albarino",
+    "styleA": { "name": "Vinho Verde, Portugal", "region": "Minho / Vinho Verde" },
+    "styleB": { "name": "Rías Baixas, Spanien", "region": "Rías Baixas" },
+    "styleACharacter": [
+      "Lätt och frisk med naturlig pärla",
+      "Citrus och gröna toner",
+      "Låg alkohol 11-12%",
+      "Lätt beska i eftersmaken",
+      "Extremt prisvärd"
+    ],
+    "styleBCharacter": [
+      "Mer fyllig och aromatisk",
+      "Citrus, persika och salt mineralitet",
+      "Högre alkohol 12-13%",
+      "Mer komplex och koncentrerad",
+      "Perfekt till skaldjur"
+    ],
+    "blindTastingTip": "Lätt pärla, låg alkohol och grön friskhet pekar mot Vinho Verde. Mer fyllig, salt mineralitet och persika pekar mot Albariño."
+  },
+  {
+    "id": "douro_vs_rioja",
+    "type": "style_vs_style",
+    "title": "Douro, Portugal vs Rioja, Spanien",
+    "grape": "tempranillo",
+    "styleA": { "name": "Douro, Portugal", "region": "Douro Valley" },
+    "styleB": { "name": "Rioja, Spanien", "region": "Rioja" },
+    "styleACharacter": [
+      "Kraftfull och koncentrerad",
+      "Mörk frukt och örtigthet",
+      "Touriga Nacional ger blommighet",
+      "Rustik och lagringsvärd",
+      "Mer okänd men fantastisk kvalitet"
+    ],
+    "styleBCharacter": [
+      "Körsbär och vanilj",
+      "Tydlig ekkaraktär",
+      "Mer tillgänglig och känd",
+      "Elegantare och rundare",
+      "Crianza / Reserva / Gran Reserva"
+    ],
+    "blindTastingTip": "Kraftfullare, mörkare och mer örtig pekar mot Douro. Körsbär, vanilj och kokos från ek pekar mot Rioja."
+  },
+  {
+    "id": "port_vs_sherry",
+    "type": "style_vs_style",
+    "title": "Port vs Sherry",
+    "grape": "semillon",
+    "styleA": { "name": "Port, Portugal", "region": "Douro Valley" },
+    "styleB": { "name": "Sherry, Spanien", "region": "Jerez" },
+    "styleACharacter": [
+      "Sött och rikt förstärkt vin",
+      "Mörk frukt, choklad och torkad frukt",
+      "Ruby: fruktigt och ungt",
+      "Tawny: nötigt, karamell och apelsin",
+      "Alltid sött (utom White Port)"
+    ],
+    "styleBCharacter": [
+      "Kan vara torrt eller sött",
+      "Fino/Manzanilla: torrt, salt, mandel",
+      "Oloroso: nötigt, fylligt och torrt",
+      "Pedro Ximénez: intensivt sött",
+      "Unikt flor-jäst karaktär"
+    ],
+    "blindTastingTip": "Sött, mörk frukt och choklad pekar mot Port. Torrt med mandel och salt pekar mot Fino Sherry. Nötigt och karamellaktigt kan vara antingen Tawny eller Oloroso."
+  },
+  {
+    "id": "chenin_sa_vs_loire",
+    "type": "style_vs_style",
+    "title": "Chenin Blanc: Sydafrika vs Loire",
+    "grape": "chenin_blanc",
+    "styleA": { "name": "Sydafrika", "region": "Stellenbosch / Swartland" },
+    "styleB": { "name": "Loire, Frankrike", "region": "Vouvray / Savennières" },
+    "styleACharacter": [
+      "Fylligare och fruktdrivnare",
+      "Tropisk frukt och honung",
+      "Ofta eklagrad",
+      "Mer omedelbar och tillgänglig",
+      "Världens bästa prisvärdhet"
+    ],
+    "styleBCharacter": [
+      "Stram och mineralisk",
+      "Grönt äpple, citrus och honung",
+      "Flinta och krita",
+      "Mycket hög syra",
+      "Lagringsvärd i decennier"
+    ],
+    "blindTastingTip": "Fylligare, tropisk frukt och mer tillgänglig pekar mot Sydafrika. Stram, mineralisk och hög syra pekar mot Loire."
+  },
+  {
+    "id": "pinotage_vs_syrah",
+    "type": "style_vs_style",
+    "title": "Pinotage vs Syrah",
+    "grape": "syrah",
+    "styleA": { "name": "Pinotage, Sydafrika", "region": "Stellenbosch / Paarl" },
+    "styleB": { "name": "Syrah, Norra Rhône", "region": "Hermitage / Crozes-Hermitage" },
+    "styleACharacter": [
+      "Sydafrikas signaturdruva",
+      "Mörk frukt och kaffe",
+      "Kan ha gummiliknande ton",
+      "Kraftfull och fyllig",
+      "Unik korsning av Pinot Noir och Cinsault"
+    ],
+    "styleBCharacter": [
+      "Svartpeppar och viol",
+      "Elegant mörk frukt",
+      "Olivton och kött",
+      "Komplex och lagringsvärd",
+      "Världens finaste Syrah"
+    ],
+    "blindTastingTip": "Kaffe + mörk frukt + eventuell gummiston pekar mot Pinotage. Svartpeppar + viol + olivton pekar mot norra Rhône Syrah."
+  }
 ]
