@@ -552,5 +552,116 @@
     ],
     "blindTastingClues": ["Röda bär – hallon och jordgubbe", "Mycket lite tannin", "Lätt kropp", "Kan ha bananaton (Nouveau)", "Dricks sval"],
     "commonConfusions": ["Pinot Noir", "Grenache", "Zweigelt"]
+  },
+  {
+    "id": "champagne",
+    "name": "Champagne",
+    "type": "sparkling",
+    "shortDescription": "Världens mest kända mousserande vin. Blend av Chardonnay, Pinot Noir och Pinot Meunier från Champagne, Frankrike. Jäst på flaska ger brioche, nötter och fin bubbelstång.",
+    "typicalAromas": ["lemon", "green_apple", "toast", "nuts", "chalk", "honey"],
+    "aromaScores": {
+      "lemon": 4, "lime": 2, "grapefruit": 2, "orange_peel": 1,
+      "green_apple": 4, "pear": 3, "peach": 2, "apricot": 1, "nectarine": 1,
+      "passion_fruit": 0, "pineapple": 1, "mango": 0, "lychee": 0,
+      "raspberry": 2, "strawberry": 2, "cherry": 1, "cranberry": 1,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 2, "rose": 1, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 1, "liquorice": 0,
+      "flint": 2, "chalk": 4, "slate": 1, "wet_earth": 0, "mushroom": 1, "truffle": 0,
+      "vanilla": 1, "butter": 2, "toast": 4, "coconut": 0, "nuts": 4, "coffee": 1, "chocolate": 0,
+      "petrol": 0, "honey": 3, "dried_fruit": 2, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 5, "body": 2, "alcohol": 2, "tannin": 0, "sweetness": 1, "oak": 1 },
+    "commonRegionsAndStyles": [
+      { "name": "Non-vintage Brut", "description": "Husets standardstil. Blend av flera årgångar för konsistens. Citrus, äpple, brioche." },
+      { "name": "Vintage Champagne", "description": "Enbart från ett exceptionellt år. Mer komplex, djup och lagringsvärd." },
+      { "name": "Blanc de Blancs", "description": "Enbart Chardonnay. Friskare, mer citrusdriven och mineralisk." },
+      { "name": "Blanc de Noirs", "description": "Enbart Pinot Noir och/eller Pinot Meunier. Mer kropp och röd frukt." }
+    ],
+    "blindTastingClues": ["Fin och ihållande bubbelstång", "Brioche och rostat bröd", "Citrus och grönt äpple", "Kritliknande mineralitet", "Lång och komplex finish"],
+    "commonConfusions": ["Cava", "Crémant", "Prosecco"]
+  },
+  {
+    "id": "cava",
+    "name": "Cava",
+    "type": "sparkling",
+    "shortDescription": "Spanskt mousserande vin gjort på traditionellt vis som Champagne. Vanligaste blend: Macabeo, Xarel·lo och Parellada. Friskare och enklare än Champagne men utmärkt prisvärd.",
+    "typicalAromas": ["lemon", "green_apple", "pear", "toast", "chalk", "white_flowers"],
+    "aromaScores": {
+      "lemon": 4, "lime": 3, "grapefruit": 2, "orange_peel": 1,
+      "green_apple": 4, "pear": 4, "peach": 2, "apricot": 1, "nectarine": 1,
+      "passion_fruit": 0, "pineapple": 1, "mango": 0, "lychee": 0,
+      "raspberry": 1, "strawberry": 1, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 3, "rose": 1, "violet": 0,
+      "grass": 1, "nettles": 1, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 1, "liquorice": 0,
+      "flint": 1, "chalk": 3, "slate": 0, "wet_earth": 0, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 1, "toast": 3, "coconut": 0, "nuts": 2, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 1, "dried_fruit": 0, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 4, "body": 2, "alcohol": 2, "tannin": 0, "sweetness": 1, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Penedès, Katalonien, Spanien", "description": "Den dominerande regionen. Frisk, citrusdriven, lätt briochekaraktär." },
+      { "name": "Cava de Paraje Calificado", "description": "Premiumstil med längre lagring. Mer komplex och lagringsvärd." }
+    ],
+    "blindTastingClues": ["Friskare och enklare än Champagne", "Citrus och päron", "Lite brioche men inte lika komplex", "Ofta något större bubblor", "Mycket prisvärd"],
+    "commonConfusions": ["Champagne", "Crémant", "Prosecco"]
+  },
+  {
+    "id": "prosecco",
+    "name": "Prosecco",
+    "type": "sparkling",
+    "shortDescription": "Italienskt mousserande vin gjort på Glera-druvan via tankmetoden. Fruktigare, enklare och mer omedelbar än Champagne. Päron, persika och vita blommor.",
+    "typicalAromas": ["pear", "peach", "white_flowers", "green_apple", "lemon"],
+    "aromaScores": {
+      "lemon": 3, "lime": 2, "grapefruit": 1, "orange_peel": 1,
+      "green_apple": 3, "pear": 5, "peach": 4, "apricot": 2, "nectarine": 2,
+      "passion_fruit": 1, "pineapple": 2, "mango": 1, "lychee": 1,
+      "raspberry": 0, "strawberry": 1, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 4, "rose": 1, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 0, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 1, "dried_fruit": 0, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 3, "body": 1, "alcohol": 2, "tannin": 0, "sweetness": 2, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Conegliano Valdobbiadene, Veneto", "description": "Den klassiska zonen. Frisk, fruktig, blommig. Ofta lite sötma." },
+      { "name": "Prosecco Superiore DOCG", "description": "Högsta kvalitetsnivån. Mer komplex och mineralisk." }
+    ],
+    "blindTastingClues": ["Päron och persika – mycket tydligt", "Vita blommor", "Lite sötma vanligt", "Större bubblor än Champagne", "Ingen brioche eller komplexitet från flaskjäsning"],
+    "commonConfusions": ["Champagne", "Cava", "Moscato d'Asti"]
+  }
+  ,{
+    "id": "cremant",
+    "name": "Crémant",
+    "type": "sparkling",
+    "shortDescription": "Franskt mousserande vin gjort på traditionellt vis utanför Champagne. Crémant d'Alsace, de Bourgogne och de Loire är vanligast. Ofta utmärkt prisvärd kvalitet.",
+    "typicalAromas": ["lemon", "green_apple", "pear", "toast", "white_flowers", "chalk"],
+    "aromaScores": {
+      "lemon": 4, "lime": 2, "grapefruit": 1, "orange_peel": 1,
+      "green_apple": 4, "pear": 3, "peach": 2, "apricot": 1, "nectarine": 1,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 1,
+      "raspberry": 2, "strawberry": 1, "cherry": 1, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 3, "rose": 1, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 2, "chalk": 3, "slate": 1, "wet_earth": 0, "mushroom": 0, "truffle": 0,
+      "vanilla": 1, "butter": 2, "toast": 3, "coconut": 0, "nuts": 2, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 2, "dried_fruit": 1, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 4, "body": 2, "alcohol": 2, "tannin": 0, "sweetness": 1, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Crémant d'Alsace", "description": "Ofta på Pinot Blanc. Frisk, fruktig och blommig. Mest producerade Crémant." },
+      { "name": "Crémant de Bourgogne", "description": "På Chardonnay och Pinot Noir. Liknar Champagne mest i stil." },
+      { "name": "Crémant de Loire", "description": "På Chenin Blanc. Frisk och mineralisk med honung och äpple." }
+    ],
+    "blindTastingClues": ["Liknar Champagne men enklare", "Frisk och fruktig", "Brioche och toast men inte lika komplex", "Citrus och grönt äpple", "Mycket prisvärd"],
+    "commonConfusions": ["Champagne", "Cava", "Prosecco"]
   }
 ]
