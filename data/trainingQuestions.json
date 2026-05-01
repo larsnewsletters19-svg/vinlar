@@ -2,14 +2,18 @@
   {
     "id": "q001",
     "type": "guess_grape",
+    "category": "white",
+    "difficulty": "beginner",
     "question": "Du provar ett vitt vin med mycket hög syra, lime, grönt äpple, persika, vita blommor och en lätt petroleumton. Ingen tydlig ek.",
     "options": ["Chardonnay", "Riesling", "Sauvignon Blanc", "Viognier"],
     "correctAnswer": "Riesling",
-    "explanation": "Hög syra + citrus + grönt äpple + stenfrukt + petroleum är de klassiska ledtrådarna för Riesling. Inget av de gröna ört-aromerna från Sauvignon Blanc, ingen smörighet från Chardonnay."
+    "explanation": "Hög syra + citrus + grönt äpple + stenfrukt + petroleum är de klassiska ledtrådarna för Riesling."
   },
   {
     "id": "q002",
     "type": "guess_style",
+    "category": "style",
+    "difficulty": "intermediate",
     "question": "Du provar ett vitt vin med mycket hög syra, passionsfrukt, krusbär, gräs och svartvinbärsblad. Doften är explosiv och intensiv.",
     "options": [
       "Sauvignon Blanc från Loire, Frankrike",
@@ -18,35 +22,43 @@
       "Riesling från Mosel, Tyskland"
     ],
     "correctAnswer": "Sauvignon Blanc från Marlborough, Nya Zeeland",
-    "explanation": "Den intensiva tropiska frukten, krusbärstonen och svartvinbärsblad är klassiska signaturer för Marlborough Sauvignon Blanc. Loire är mer citrusdrivet och mineraliskt."
+    "explanation": "Den intensiva tropiska frukten, krusbärstonen och svartvinbärsblad är klassiska signaturer för Marlborough Sauvignon Blanc."
   },
   {
     "id": "q003",
     "type": "guess_grape",
+    "category": "red",
+    "difficulty": "beginner",
     "question": "Du provar ett rött vin med hallon, jordgubbe, körsbär, viol och en hint av svamp. Syran är hög, tanninerna är mjuka och silkeslena.",
     "options": ["Cabernet Sauvignon", "Syrah", "Pinot Noir", "Nebbiolo"],
     "correctAnswer": "Pinot Noir",
-    "explanation": "Röda bär + viol + hög syra + lite tannin + jordighet/svamp är Pinot Noirs signaturer. Cabernet och Syrah har mycket mer tannin och mörkare frukt."
+    "explanation": "Röda bär + viol + hög syra + lite tannin + jordighet/svamp är Pinot Noirs signaturer."
   },
   {
     "id": "q004",
     "type": "guess_grape",
+    "category": "red",
+    "difficulty": "beginner",
     "question": "Du provar ett kraftfullt rött vin med svarta vinbär, ceder, tobak, paprika och hög syra. Tanninerna är mycket höga och strukturerade.",
     "options": ["Merlot", "Pinot Noir", "Cabernet Sauvignon", "Grenache"],
     "correctAnswer": "Cabernet Sauvignon",
-    "explanation": "Svarta vinbär + ceder/tobak + paprika + mycket högt tannin = Cabernet Sauvignon. Merlot är mjukare, Pinot Noir har lite tannin, Grenache är mer fruktig."
+    "explanation": "Svarta vinbär + ceder/tobak + paprika + mycket högt tannin = Cabernet Sauvignon."
   },
   {
     "id": "q005",
     "type": "guess_grape",
+    "category": "white",
+    "difficulty": "beginner",
     "question": "Du provar ett vitt vin med extremt intensiv lychee, ros, ingefära och blommighet. Lite sötma, låg syra, hög alkohol.",
     "options": ["Riesling", "Gewürztraminer", "Pinot Gris", "Viognier"],
     "correctAnswer": "Gewürztraminer",
-    "explanation": "Litchi + ros + ingefära = Gewürztraminers signaturtrio. Nästan omöjligt att förväxla när druvan är typisk. Låg syra och hög alkohol stämmer också."
+    "explanation": "Litchi + ros + ingefära = Gewürztraminers signaturtrio. Nästan omöjligt att förväxla när druvan är typisk."
   },
   {
     "id": "q006",
     "type": "guess_grape",
+    "category": "red",
+    "difficulty": "beginner",
     "question": "Du provar ett kraftigt rött vin med svartpeppar, björnbär, viol, köttig rökthet och lakrits. Högt tannin och god syra.",
     "options": ["Merlot", "Pinot Noir", "Grenache", "Syrah"],
     "correctAnswer": "Syrah",
@@ -55,6 +67,8 @@
   {
     "id": "q007",
     "type": "distinguish",
+    "category": "white",
+    "difficulty": "intermediate",
     "question": "Vilket av dessa alternativ är en typisk skillnad mellan Riesling och Sauvignon Blanc?",
     "options": [
       "Riesling har gröna aromer som gräs och nässlor, Sauvignon Blanc har stenfrukt",
@@ -63,19 +77,23 @@
       "Riesling är alltid söt, Sauvignon Blanc alltid torr"
     ],
     "correctAnswer": "Riesling kan utveckla petroleum med ålder, Sauvignon Blanc gör det vanligtvis inte",
-    "explanation": "Petroleum (TDN) är en signaturarom i mogen Riesling och en viktig blindprovningsledtråd. Sauvignon Blanc har istället gröna aromer som gräs och nässlor."
+    "explanation": "Petroleum (TDN) är en signaturarom i mogen Riesling och en viktig blindprovningsledtråd."
   },
   {
     "id": "q008",
     "type": "match_aroma",
+    "category": "red",
+    "difficulty": "beginner",
     "question": "Vilken druva är starkast förknippad med aromen svartpeppar?",
     "options": ["Cabernet Sauvignon", "Merlot", "Syrah / Shiraz", "Pinot Noir"],
     "correctAnswer": "Syrah / Shiraz",
-    "explanation": "Svartpeppar är Syrahs mest ikoniska arom – den kommer från rotundone, ett aromämne som finns naturligt i druvan. Det är en viktig blindprovningsledtråd."
+    "explanation": "Svartpeppar är Syrahs mest ikoniska arom – den kommer från rotundone, ett aromämne som finns naturligt i druvan."
   },
   {
     "id": "q009",
     "type": "guess_style",
+    "category": "style",
+    "difficulty": "intermediate",
     "question": "Du provar ett vitt vin med mycket hög syra, citron, flinta och krita. Inget smör, ingen vanilj. Stram och mineralisk stil.",
     "options": [
       "Ekad Chardonnay från Napa Valley",
@@ -84,30 +102,256 @@
       "Pinot Gris från Alsace"
     ],
     "correctAnswer": "Chardonnay från Chablis",
-    "explanation": "Stram, mineralisk, ingen ek, flinta och krita är Chablis klassiska profil. Ekad ny-världen Chardonnay är smörig och rik – raka motsatsen."
+    "explanation": "Stram, mineralisk, ingen ek, flinta och krita är Chablis klassiska profil."
   },
   {
     "id": "q010",
     "type": "guess_grape",
+    "category": "red",
+    "difficulty": "advanced",
     "question": "Du provar ett rött vin med tjärliknande toner, körsbär, rosor, hög syra och MYCKET högt tannin. Färgen är ganska ljus för hur kraftfullt det smakar.",
     "options": ["Sangiovese", "Pinot Noir", "Nebbiolo", "Cabernet Sauvignon"],
     "correctAnswer": "Nebbiolo",
-    "explanation": "'Tjära och rosor' är Nebbiolos signaturfras. Hög syra + högt tannin + relativt ljus färg är Nebbiolos paradox – det ser ut som Pinot Noir men smakar som ett monster."
+    "explanation": "'Tjära och rosor' är Nebbiolos signaturfras. Hög syra + högt tannin + relativt ljus färg är Nebbiolos paradox."
   },
   {
     "id": "q011",
     "type": "guess_grape",
+    "category": "white",
+    "difficulty": "beginner",
     "question": "Du provar ett vitt vin med smör, vanilj, rostat bröd, päron och gult äpple. Syran är måttlig och vinet är fylligt.",
     "options": ["Sauvignon Blanc", "Riesling", "Chardonnay", "Gewürztraminer"],
     "correctAnswer": "Chardonnay",
-    "explanation": "Smör + vanilj + rostat bröd från ek + fyllig kropp + måttlig syra = eklagrad Chardonnay. Sauvignon Blanc blir aldrig smörig, Riesling är mer citrusdriven."
+    "explanation": "Smör + vanilj + rostat bröd från ek + fyllig kropp + måttlig syra = eklagrad Chardonnay."
   },
   {
     "id": "q012",
     "type": "guess_grape",
+    "category": "red",
+    "difficulty": "beginner",
     "question": "Du provar ett medelkraftigt rött vin med plommon, körsbär, choklad och mjukt tannin. Vinet känns rundat och välkomnande.",
     "options": ["Nebbiolo", "Syrah", "Cabernet Sauvignon", "Merlot"],
     "correctAnswer": "Merlot",
-    "explanation": "Plommon + choklad + mjukt tannin + rund kropp = Merlot. Cabernet Sauvignon är hårdare och svartvinbärsdrivnare, Syrah är mer pepprigt och kraftfullt."
+    "explanation": "Plommon + choklad + mjukt tannin + rund kropp = Merlot."
+  },
+  {
+    "id": "q013",
+    "type": "guess_grape",
+    "category": "white",
+    "difficulty": "intermediate",
+    "question": "Du provar ett vitt vin med intensiv persika, aprikos, jasmin och kaprifol. Syran är mycket låg och alkoholen hög. Ingen ek.",
+    "options": ["Chardonnay", "Riesling", "Viognier", "Pinot Gris"],
+    "correctAnswer": "Viognier",
+    "explanation": "Intensiv persika och aprikos + vita blommor + mycket låg syra + hög alkohol = Viognier. Ingen annan druva har denna kombination."
+  },
+  {
+    "id": "q014",
+    "type": "guess_grape",
+    "category": "white",
+    "difficulty": "intermediate",
+    "question": "Du provar ett vitt vin med vitpeppar, citrus, grönt äpple och tydlig mineralitet. Frisk och örtig utan tropiska toner.",
+    "options": ["Sauvignon Blanc", "Grüner Veltliner", "Albariño", "Chenin Blanc"],
+    "correctAnswer": "Grüner Veltliner",
+    "explanation": "Vitpeppar är Grüner Veltliners signaturarom. Tillsammans med citrus, grönt äpple och mineralitet pekar allt mot Österrike."
+  },
+  {
+    "id": "q015",
+    "type": "guess_grape",
+    "category": "red",
+    "difficulty": "intermediate",
+    "question": "Du provar ett rött vin med körsbär, hallon, hög syra och tydligt tannin. Örtig ton, lite jordighet. Passar utmärkt till mat.",
+    "options": ["Pinot Noir", "Merlot", "Sangiovese", "Gamay"],
+    "correctAnswer": "Sangiovese",
+    "explanation": "Körsbär + hög syra + tydligt tannin + örtigthet = Sangiovese. Basen i Chianti – gjord för mat."
+  },
+  {
+    "id": "q016",
+    "type": "guess_grape",
+    "category": "red",
+    "difficulty": "beginner",
+    "question": "Du provar ett mycket lätt rött vin med hallon, jordgubbe och lite viol. Nästan inget tannin, frisk syra. Dricks gärna lite svalt.",
+    "options": ["Cabernet Sauvignon", "Syrah", "Gamay", "Malbec"],
+    "correctAnswer": "Gamay",
+    "explanation": "Mycket lätt kropp + minimalt tannin + röda bär + dricks svalt = Gamay från Beaujolais."
+  },
+  {
+    "id": "q017",
+    "type": "guess_grape",
+    "category": "red",
+    "difficulty": "intermediate",
+    "question": "Du provar ett mörkt rött vin med björnbär, blåbär, viol och choklad. Mjukt tannin och hög alkohol. Rik och generös stil.",
+    "options": ["Pinot Noir", "Sangiovese", "Malbec", "Grenache"],
+    "correctAnswer": "Malbec",
+    "explanation": "Mycket mörk frukt + viol + mjukt tannin + choklad + hög alkohol = Malbec från Argentina."
+  },
+  {
+    "id": "q018",
+    "type": "guess_grape",
+    "category": "red",
+    "difficulty": "intermediate",
+    "question": "Du provar ett rött vin med körsbär, vanilj, kokos och tobak. Tydlig ekkaraktär. Medelhögt tannin och syra.",
+    "options": ["Merlot", "Tempranillo", "Grenache", "Syrah"],
+    "correctAnswer": "Tempranillo",
+    "explanation": "Körsbär + stark vanilj och kokos från ek + tobak = Tempranillo, ofta från Rioja med amerikansk ek."
+  },
+  {
+    "id": "q019",
+    "type": "guess_grape",
+    "category": "red",
+    "difficulty": "intermediate",
+    "question": "Du provar ett rött vin med röda bär, lakrits, kryddor och hög alkohol. Lite tannin men mycket värme. Generöst och fylligt.",
+    "options": ["Pinot Noir", "Nebbiolo", "Grenache", "Cabernet Sauvignon"],
+    "correctAnswer": "Grenache",
+    "explanation": "Röda bär + lakrits + hög alkohol + lite tannin = Grenache. Värme och generositet är dess signum."
+  },
+  {
+    "id": "q020",
+    "type": "guess_style",
+    "category": "style",
+    "difficulty": "advanced",
+    "question": "Du provar ett rött vin med tjära, rosor, hög syra och mycket högt tannin. Kraftfullt men med röd frukt. Vilket vin är detta mest sannolikt?",
+    "options": [
+      "Barbaresco, Piemonte",
+      "Barolo, Piemonte",
+      "Chianti Classico, Toscana",
+      "Brunello di Montalcino, Toscana"
+    ],
+    "correctAnswer": "Barolo, Piemonte",
+    "explanation": "Tjära och rosor + extremt högt tannin + kraftfull struktur pekar mot Barolo – 'vinens konung'."
+  },
+  {
+    "id": "q021",
+    "type": "guess_style",
+    "category": "style",
+    "difficulty": "intermediate",
+    "question": "Du provar ett mousserande vin med päron, persika, vita blommor och lite sötma. Fruktig och omedelbar utan brioche-karaktär.",
+    "options": [
+      "Champagne Blanc de Blancs",
+      "Cava från Penedès",
+      "Prosecco från Veneto",
+      "Crémant d'Alsace"
+    ],
+    "correctAnswer": "Prosecco från Veneto",
+    "explanation": "Päron + persika + vita blommor + lite sötma + ingen brioche = Prosecco. Tankmetoden ger mer omedelbar frukt."
+  },
+  {
+    "id": "q022",
+    "type": "guess_style",
+    "category": "sparkling",
+    "difficulty": "intermediate",
+    "question": "Du provar ett mousserande vin med citrus, grönt äpple, brioche, nötter och kritliknande mineralitet. Fin och ihållande bubbelstång.",
+    "options": [
+      "Prosecco Superiore",
+      "Cava Reserva",
+      "Champagne Non-vintage Brut",
+      "Crémant de Loire"
+    ],
+    "correctAnswer": "Champagne Non-vintage Brut",
+    "explanation": "Brioche + nötter + krita + fin bubbelstång + lång finish = klassisk Champagne. Flaskjäsningen ger komplexiteten."
+  },
+  {
+    "id": "q023",
+    "type": "distinguish",
+    "category": "red",
+    "difficulty": "intermediate",
+    "question": "Vad är den viktigaste skillnaden mellan Pinot Noir och Gamay?",
+    "options": [
+      "Gamay har mer tannin och mörkare frukt",
+      "Pinot Noir är mer komplex och jordigt, Gamay mer enkel och fruktig",
+      "Pinot Noir har alltid högre alkohol",
+      "Gamay odlas bara i Bourgogne"
+    ],
+    "correctAnswer": "Pinot Noir är mer komplex och jordigt, Gamay mer enkel och fruktig",
+    "explanation": "Pinot Noir ger mer komplexitet, jordighet och svamp med ålder. Gamay är mer omedelbart fruktig och enkel – gjord för att drickas ung."
+  },
+  {
+    "id": "q024",
+    "type": "distinguish",
+    "category": "white",
+    "difficulty": "advanced",
+    "question": "Hur skiljer man Chenin Blanc från Riesling i blindprovning?",
+    "options": [
+      "Chenin Blanc har mer petroleum och citrus",
+      "Riesling har aldrig sötma, Chenin Blanc alltid",
+      "Chenin Blanc har honungston och vita blommor, Riesling mer citrus och petroleum",
+      "De är omöjliga att skilja åt"
+    ],
+    "correctAnswer": "Chenin Blanc har honungston och vita blommor, Riesling mer citrus och petroleum",
+    "explanation": "Chenin Blanc tenderar mot honung, vita blommor och päron. Riesling är mer citrusdriven med möjlig petroleum. Båda har mycket hög syra."
+  },
+  {
+    "id": "q025",
+    "type": "match_aroma",
+    "category": "white",
+    "difficulty": "beginner",
+    "question": "Vilken arom är en signaturarom för Sauvignon Blanc?",
+    "options": ["Petroleum", "Litchi", "Svartvinbärsblad", "Smör"],
+    "correctAnswer": "Svartvinbärsblad",
+    "explanation": "Svartvinbärsblad (och krusbär, gräs, nässlor) är Sauvignon Blancs mest typiska gröna aromer – särskilt tydliga i Marlborough."
+  },
+  {
+    "id": "q026",
+    "type": "match_aroma",
+    "category": "red",
+    "difficulty": "beginner",
+    "question": "Vilken arom är typisk för Nebbiolo från Barolo?",
+    "options": ["Svartpeppar", "Tjära och rosor", "Björnbär och choklad", "Litchi"],
+    "correctAnswer": "Tjära och rosor",
+    "explanation": "'Tjära och rosor' är Nebbiolos ikoniska aromprofil – en paradox av kraft och elegans som gör druvan unik."
+  },
+  {
+    "id": "q027",
+    "type": "guess_style",
+    "category": "style",
+    "difficulty": "advanced",
+    "question": "Du provar ett vitt vin med hög syra, citrus, flinta och lite nässlor. Återhållet och mineraliskt utan tropiska toner.",
+    "options": [
+      "Sauvignon Blanc från Marlborough",
+      "Sauvignon Blanc från Loire (Sancerre)",
+      "Grüner Veltliner från Wachau",
+      "Albariño från Rías Baixas"
+    ],
+    "correctAnswer": "Sauvignon Blanc från Loire (Sancerre)",
+    "explanation": "Återhållen, mineralisk och citrusdriven med flinta och nässlor pekar mot Loire. Marlborough är mer intensivt och tropiskt."
+  },
+  {
+    "id": "q028",
+    "type": "guess_style",
+    "category": "style",
+    "difficulty": "advanced",
+    "question": "Du provar ett rött vin med svartpeppar, olivton, viol och elegant mörk frukt. Mer återhållet och strukturerat än fruktdrivet.",
+    "options": [
+      "Shiraz från Barossa Valley",
+      "Syrah från norra Rhône",
+      "Grenache från Châteauneuf-du-Pape",
+      "Malbec från Mendoza"
+    ],
+    "correctAnswer": "Syrah från norra Rhône",
+    "explanation": "Svartpeppar + olivton + viol + elegant struktur = norra Rhône Syrah. Barossa Shiraz är rikare, mörkare och mer chokladig."
+  },
+  {
+    "id": "q029",
+    "type": "guess_grape",
+    "category": "white",
+    "difficulty": "intermediate",
+    "question": "Du provar ett vitt vin med citrus, persika och tydlig salt mineralitet. Frisk och aromatisk utan gröna toner. Passar perfekt till skaldjur.",
+    "options": ["Sauvignon Blanc", "Grüner Veltliner", "Albariño", "Chenin Blanc"],
+    "correctAnswer": "Albariño",
+    "explanation": "Salt mineralitet + citrus + persika + vita blommor = Albariño från Galicien. Den salta tonen är karakteristisk för druvan."
+  },
+  {
+    "id": "q030",
+    "type": "guess_style",
+    "category": "style",
+    "difficulty": "advanced",
+    "question": "Du provar ett vitt vin med honung, rostat bröd och vaxig textur. Låg syra. Känns moget och komplext utan att vara sött.",
+    "options": [
+      "Gammal Riesling från Mosel",
+      "Torr Semillon från Hunter Valley",
+      "Ekad Chardonnay från Bourgogne",
+      "Viognier från Condrieu"
+    ],
+    "correctAnswer": "Torr Semillon från Hunter Valley",
+    "explanation": "Honung + rostat bröd + vaxig textur + låg syra = mogen torr Semillon från Hunter Valley. En av Australiens mest unika vinstilar."
   }
 ]

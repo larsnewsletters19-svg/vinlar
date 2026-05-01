@@ -67,6 +67,8 @@ export type Comparison = GrapeVsGrapeComparison | StyleVsStyleComparison;
 export interface TrainingQuestion {
   id: string;
   type: 'guess_grape' | 'guess_style' | 'distinguish' | 'match_aroma';
+  category: 'white' | 'red' | 'sparkling' | 'style';
+  difficulty: 'beginner' | 'intermediate' | 'advanced';
   question: string;
   options: string[];
   correctAnswer: string;
