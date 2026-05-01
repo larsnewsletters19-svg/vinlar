@@ -275,4 +275,142 @@
     ],
     "blindTastingTip": "Stram, mineralisk och hög syra pekar mot Loire. Fylligare, tropisk frukt och mer tillgänglig pekar mot Sydafrika."
   }
+  ,{
+    "id": "riesling_germany_vs_australia",
+    "type": "style_vs_style",
+    "title": "Riesling: Mosel vs Clare Valley",
+    "grape": "riesling",
+    "styleA": { "name": "Mosel, Tyskland", "region": "Mosel" },
+    "styleB": { "name": "Clare Valley, Australien", "region": "Clare Valley" },
+    "styleACharacter": [
+      "Mycket lätt och delikat",
+      "Hög syra med ofta lite restsötma",
+      "Skifferlik mineralitet",
+      "Låg alkohol 8–10%",
+      "Citron, lime och vita blommor"
+    ],
+    "styleBCharacter": [
+      "Torr och stram",
+      "Limeton och grapefrukt",
+      "Petroleum utvecklas tidigt",
+      "Mer kropp än Mosel",
+      "Rostat bröd med ålder"
+    ],
+    "blindTastingTip": "Lätt, lite sötma och skiffer pekar mot Mosel. Torr, limeton och tidig petroleum pekar mot Clare Valley."
+  },
+  {
+    "id": "gruner_wachau_vs_wien",
+    "type": "style_vs_style",
+    "title": "Grüner Veltliner: Wachau vs Wien",
+    "grape": "gruner_veltliner",
+    "styleA": { "name": "Wachau, Österrike", "region": "Wachau" },
+    "styleB": { "name": "Wien, Österrike", "region": "Wien / Wiener Gemischter Satz" },
+    "styleACharacter": [
+      "Mer kraftfull och komplex",
+      "Smaragd-klasserna är fylliga och lagringsvärdda",
+      "Vitpeppar, citrus och mineralitet",
+      "Terrass-vingårdar längs Donau",
+      "Kan lagras i decennier"
+    ],
+    "styleBCharacter": [
+      "Friskare och mer tillgänglig",
+      "Stadsvingårdar mitt i Wien",
+      "Enklare och mer omedelbar",
+      "Ofta blandad med andra druvor (Gemischter Satz)",
+      "Dricks ung och frisk"
+    ],
+    "blindTastingTip": "Mer kraftfull och komplex med tydlig peppar pekar mot Wachau. Friskare och enklare pekar mot Wien."
+  },
+  {
+    "id": "cabernet_chile_vs_napa",
+    "type": "style_vs_style",
+    "title": "Cabernet Sauvignon: Chile vs Napa Valley",
+    "grape": "cabernet_sauvignon",
+    "styleA": { "name": "Maipo Valley, Chile", "region": "Maipo Valley / Colchagua" },
+    "styleB": { "name": "Napa Valley, Kalifornien", "region": "Napa Valley" },
+    "styleACharacter": [
+      "Elegant och frisk",
+      "Svarta vinbär och ceder",
+      "Andinska vindarna ger friskhet",
+      "Bra syra och struktur",
+      "Utmärkt prisvärd kvalitet"
+    ],
+    "styleBCharacter": [
+      "Rik och kraftfull",
+      "Mogen svart frukt och choklad",
+      "Hög alkohol och fyllig kropp",
+      "Generös vanilj från ek",
+      "Världens mest kända Cabernet"
+    ],
+    "blindTastingTip": "Friskare och mer elegant med god syra pekar mot Chile. Rikare, kraftfullare och mer chokladig pekar mot Napa."
+  },
+  {
+    "id": "malbec_mendoza_vs_cahors",
+    "type": "style_vs_style",
+    "title": "Malbec: Mendoza vs Cahors",
+    "grape": "malbec",
+    "styleA": { "name": "Mendoza, Argentina", "region": "Mendoza / Luján de Cuyo" },
+    "styleB": { "name": "Cahors, Frankrike", "region": "Cahors (Côt)" },
+    "styleACharacter": [
+      "Rik, mörk och mjuk",
+      "Björnbär, blåbär och viol",
+      "Choklad och kaffe",
+      "Mjukt tannin",
+      "Hög altitud ger friskhet trots sol"
+    ],
+    "styleBCharacter": [
+      "Stramare och mer tanninrik",
+      "Rustik och jordigt",
+      "Mörk frukt men mer reserverad",
+      "Kallas Côt i Frankrike",
+      "Kräver mer lagring"
+    ],
+    "blindTastingTip": "Mjuk, rik och fruktig med viol pekar mot Mendoza. Stramare, mer tanninrik och rustik pekar mot Cahors."
+  },
+  {
+    "id": "carmenere_chile",
+    "type": "style_vs_style",
+    "title": "Carménère vs Merlot",
+    "grape": "cabernet_sauvignon",
+    "styleA": { "name": "Carménère, Chile", "region": "Colchagua / Rapel Valley" },
+    "styleB": { "name": "Merlot, Bordeaux", "region": "Saint-Émilion / Pomerol" },
+    "styleACharacter": [
+      "Chiles signaturdruva",
+      "Mörk frukt och paprika",
+      "Kaffe och choklad",
+      "Mjukt tannin",
+      "Ibland grön ton om omogna druvor"
+    ],
+    "styleBCharacter": [
+      "Mjukare och rundare",
+      "Plommon och körsbär",
+      "Ingen paprikakaraktär",
+      "Elegant och välbalanserad",
+      "Klassisk bordeaux-elegans"
+    ],
+    "blindTastingTip": "Paprika + mörk frukt + kaffe pekar mot Carménère. Mjukare, rundare och ingen paprika pekar mot Merlot."
+  },
+  {
+    "id": "pinot_noir_burgundy_vs_newzealand",
+    "type": "style_vs_style",
+    "title": "Pinot Noir: Bourgogne vs Central Otago",
+    "grape": "pinot_noir",
+    "styleA": { "name": "Bourgogne, Frankrike", "region": "Côte d'Or" },
+    "styleB": { "name": "Central Otago, Nya Zeeland", "region": "Central Otago" },
+    "styleACharacter": [
+      "Elegant och komplex",
+      "Jordighet, svamp och tryffel",
+      "Röda bär och körsbär",
+      "Reserverad och terroir-driven",
+      "Kräver tid att öppna sig"
+    ],
+    "styleBCharacter": [
+      "Intensiv och fruktdriven",
+      "Mörkt körsbär och björnbär",
+      "Kraftfull struktur",
+      "Mer tillgänglig ung",
+      "Världens sydligaste vinregion"
+    ],
+    "blindTastingTip": "Jordighet, elegans och reserverad pekar mot Bourgogne. Intensiv, mörk frukt och kraftfull pekar mot Central Otago."
+  }
 ]

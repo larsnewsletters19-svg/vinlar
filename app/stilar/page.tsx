@@ -7,22 +7,30 @@ import { Comparison, StyleVsStyleComparison } from '@/types';
 const allComparisons = comparisons as Comparison[];
 const styleComparisons = allComparisons.filter((c) => c.type === 'style_vs_style') as StyleVsStyleComparison[];
 
-const categories = [
-  { id: 'white', label: '🥂 Vita', grapes: ['sauvignon_blanc', 'chardonnay', 'riesling', 'chenin_blanc', 'viognier', 'albarino', 'gruner_veltliner', 'semillon', 'pinot_gris', 'gewurztraminer'] },
-  { id: 'red', label: '🍷 Röda', grapes: ['pinot_noir', 'syrah', 'cabernet_sauvignon', 'nebbiolo', 'sangiovese', 'tempranillo', 'grenache', 'merlot', 'malbec', 'gamay'] },
-  { id: 'sparkling', label: '🍾 Mousserande', grapes: ['champagne'] },
+const countries = [
+  { id: 'all', label: 'Alla länder', emoji: '🌍' },
+  { id: 'france', label: 'Frankrike', emoji: '🇫🇷' },
+  { id: 'italy', label: 'Italien', emoji: '🇮🇹' },
+  { id: 'spain', label: 'Spanien', emoji: '🇪🇸' },
+  { id: 'germany', label: 'Tyskland & Österrike', emoji: '🇩🇪' },
+  { id: 'newworld', label: 'Nya världen', emoji: '🌏' },
 ];
+
+const countryMap: Record<string, string[]> = {
+  france: ['sauvignon_blanc_loire_vs_marlborough', 'chardonnay_chablis_vs_new_world', 'syrah_rhone_vs_barossa', 'pinot_noir_bourgogne_vs_oregon', 'riesling_mosel_vs_alsace', 'nebbiolo_barolo_vs_barbaresco', 'sangiovese_chianti_vs_brunello', 'grenache_rhone_vs_priorat', 'champagne_vs_cava_vs_prosecco', 'chenin_blanc_loire_vs_sa', 'pinot_noir_burgundy_vs_newzealand'],
+  italy: ['nebbiolo_barolo_vs_barbaresco', 'sangiovese_chianti_vs_brunello', 'champagne_vs_cava_vs_prosecco'],
+  spain: ['tempranillo_rioja_vs_ribera', 'grenache_rhone_vs_priorat', 'champagne_vs_cava_vs_prosecco', 'carmenere_chile'],
+  germany: ['riesling_mosel_vs_alsace', 'riesling_germany_vs_australia', 'gruner_wachau_vs_wien'],
+  newworld: ['sauvignon_blanc_loire_vs_marlborough', 'chardonnay_chablis_vs_new_world', 'syrah_rhone_vs_barossa', 'pinot_noir_bourgogne_vs_oregon', 'riesling_germany_vs_australia', 'chenin_blanc_loire_vs_sa', 'cabernet_chile_vs_napa', 'malbec_mendoza_vs_cahors', 'carmenere_chile', 'pinot_noir_burgundy_vs_newzealand'],
+};
 
 export default function StilarPage() {
   const [activeStyle, setActiveStyle] = useState<string | null>(null);
-  const [activeCategory, setActiveCategory] = useState<string>('all');
+  const [activeCountry, setActiveCountry] = useState<string>('all');
 
-  const filtered = activeCategory === 'all'
+  const filtered = activeCountry === 'all'
     ? styleComparisons
-    : styleComparisons.filter((c) => {
-        const cat = categories.find((cat) => cat.id === activeCategory);
-        return cat?.grapes.includes(c.grape);
-      });
+    : styleComparisons.filter((c) => countryMap[activeCountry]?.includes(c.id));
 
   const activeComp = activeStyle ? styleComparisons.find((c) => c.id === activeStyle) : null;
 
@@ -30,41 +38,31 @@ export default function StilarPage() {
     <div className="px-4 py-8 max-w-2xl mx-auto">
       <h1 className="font-display text-4xl text-wine-100 mb-2">Stilar & regioner</h1>
       <p className="text-wine-300 mb-6 leading-relaxed">
-        Samma druva kan smaka helt olika beroende på var den odlas och hur vinet görs. Utforska skillnaderna.
+        Samma druva kan smaka helt olika beroende på var den odlas och hur vinet görs.
       </p>
 
       {!activeComp ? (
         <>
-          {/* Category filter */}
+          {/* Country filter */}
           <div className="flex gap-2 mb-6 flex-wrap">
-            <button
-              onClick={() => setActiveCategory('all')}
-              className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-all ${
-                activeCategory === 'all'
-                  ? 'bg-wine-600 border-wine-600 text-white'
-                  : 'bg-wine-900 border-wine-700 text-wine-400 hover:border-wine-500'
-              }`}
-            >
-              Alla
-            </button>
-            {categories.map((cat) => (
+            {countries.map((country) => (
               <button
-                key={cat.id}
-                onClick={() => setActiveCategory(cat.id)}
+                key={country.id}
+                onClick={() => setActiveCountry(country.id)}
                 className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-all ${
-                  activeCategory === cat.id
+                  activeCountry === country.id
                     ? 'bg-wine-600 border-wine-600 text-white'
                     : 'bg-wine-900 border-wine-700 text-wine-400 hover:border-wine-500'
                 }`}
               >
-                {cat.label}
+                {country.emoji} {country.label}
               </button>
             ))}
           </div>
 
           {filtered.length === 0 ? (
             <div className="bg-wine-900 rounded-2xl p-8 border border-wine-800 text-center text-wine-400">
-              Inga jämförelser i den här kategorin ännu — kommer snart!
+              Inga jämförelser för det landet ännu — kommer snart!
             </div>
           ) : (
             <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
