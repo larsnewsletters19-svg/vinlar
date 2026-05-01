@@ -2,11 +2,13 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import grapes from '@/data/grapes.json';
 import aromas from '@/data/aromas.json';
+import foodPairings from '@/data/foodPairings.json';
 import { Grape, Aroma } from '@/types';
 import StructureBar from '@/components/StructureBar';
 
 const allGrapes = grapes as Grape[];
 const allAromas = aromas as Aroma[];
+const allFood = foodPairings as Record<string, { pairings: string[]; tip: string }>;
 
 export function generateStaticParams() {
   return allGrapes.map((g) => ({ id: g.id }));
@@ -27,12 +29,16 @@ export default async function GrapePage({ params }: { params: Promise<{ id: stri
   if (!grape) notFound();
 
   const isWhite = grape.type === 'white';
+  const isSparkling = grape.type === 'sparkling';
+  const icon = isSparkling ? '🍾' : isWhite ? '🥂' : '🍷';
+
   const topAromas = Object.entries(grape.aromaScores)
     .filter(([, score]) => score >= 3)
     .sort(([, a], [, b]) => b - a)
     .slice(0, 10);
 
   const aromaMap = Object.fromEntries(allAromas.map((a) => [a.id, a]));
+  const food = allFood[id];
 
   return (
     <div className="px-4 py-8 max-w-2xl mx-auto">
@@ -42,7 +48,7 @@ export default async function GrapePage({ params }: { params: Promise<{ id: stri
 
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-3">
-          <span className="text-4xl">{isWhite ? '🥂' : '🍷'}</span>
+          <span className="text-4xl">{icon}</span>
           <h1 className="font-display text-4xl text-wine-50">{grape.name}</h1>
         </div>
         <p className="text-wine-300 leading-relaxed">{grape.shortDescription}</p>
@@ -96,6 +102,25 @@ export default async function GrapePage({ params }: { params: Promise<{ id: stri
           ))}
         </div>
       </section>
+
+      {food && (
+        <section className="mb-8">
+          <h2 className="font-display text-xl text-wine-100 mb-4">🍽️ Passar till</h2>
+          <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
+            <div className="flex flex-wrap gap-2 mb-4">
+              {food.pairings.map((item) => (
+                <span
+                  key={item}
+                  className="px-3 py-1.5 rounded-full text-sm bg-emerald-900/30 border border-emerald-700/50 text-emerald-300"
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+            <p className="text-wine-400 text-sm leading-relaxed italic">{food.tip}</p>
+          </div>
+        </section>
+      )}
 
       <section className="mb-8">
         <h2 className="font-display text-xl text-wine-100 mb-4">🔍 Blindprovningsledtrådar</h2>

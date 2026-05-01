@@ -1,0 +1,98 @@
+{
+  "riesling": {
+    "pairings": ["Asiatisk mat", "Thaimat med kokosmjölk", "Skaldjur", "Fläskfilé", "Milt kryddig mat"],
+    "tip": "Rieslings höga syra och friskhet gör den perfekt till kryddig mat — sötman balanserar hettan."
+  },
+  "sauvignon_blanc": {
+    "pairings": ["Getost", "Skaldjur", "Grönsaksrätter", "Sushi", "Lättare fisk"],
+    "tip": "De gröna tonerna och höga syran passar utmärkt till getost och grönsaker."
+  },
+  "chardonnay": {
+    "pairings": ["Hummer", "Kyckling i gräddsås", "Pasta med krämig sås", "Mild fisk", "Brie och camembert"],
+    "tip": "Ekad Chardonnay passar till rikare rätter, oekad till lättare fisk och skaldjur."
+  },
+  "pinot_gris": {
+    "pairings": ["Rökt lax", "Fläskkött", "Asiatisk mat", "Krämiga pastarätter", "Mild ost"],
+    "tip": "Pinot Gris från Alsace passar till fylligare rätter tack vare sin kropp och lite sötma."
+  },
+  "gruner_veltliner": {
+    "pairings": ["Sparris", "Wiener schnitzel", "Fisk", "Grönsaksrätter", "Sallader"],
+    "tip": "Grüner Veltliner är Österrikes svar på allt — särskilt känd för att passa till den knepiga sparrisen."
+  },
+  "chenin_blanc": {
+    "pairings": ["Fläskkött", "Kyckling", "Mild curry", "Chèvre", "Äppelbaserade rätter"],
+    "tip": "Chenin Blancs höga syra och mångsidighet gör den till en av de mest matvänliga vita druvorna."
+  },
+  "viognier": {
+    "pairings": ["Hummer med smörsås", "Kryddigt kycklingstew", "Indisk mat", "Fetaost", "Rostad grönsak"],
+    "tip": "Viogniers blommighet och kropp passar till aromatiska och lite kryddiga rätter."
+  },
+  "gewurztraminer": {
+    "pairings": ["Indisk mat", "Thaimat", "Foie gras", "Kryddiga ostar", "Kinesisk mat"],
+    "tip": "Gewürztraminers intensiva blommighet och lite sötma gör den perfekt till stark och aromatisk mat."
+  },
+  "albarino": {
+    "pairings": ["Skaldjur", "Räkor", "Musslor", "Grillad fisk", "Ceviche"],
+    "tip": "Albariño och skaldjur är en klassisk kombination — salt mineralitet möter salt hav."
+  },
+  "semillon": {
+    "pairings": ["Foie gras (söt stil)", "Blåmögelost", "Hummergryta", "Söta desserter", "Roquefort"],
+    "tip": "Söt Semillon (Sauternes) är klassiskt till foie gras och blåmögelost — sötma mot sötma och salt."
+  },
+  "pinot_noir": {
+    "pairings": ["Lammkotlett", "Svamp-risotto", "And", "Lax", "Mild getost"],
+    "tip": "Pinot Noir är en av de mest matvänliga röda druvorna — hög syra och lite tannin passar till mycket."
+  },
+  "cabernet_sauvignon": {
+    "pairings": ["Biff", "Lammracks", "Hårdost", "Mörkt kött", "Hamburgare"],
+    "tip": "Högt tannin i Cabernet Sauvignon mjuknar mot fettrika rätter — klassiskt med biff."
+  },
+  "merlot": {
+    "pairings": ["Köttbullar", "Pizza", "Pasta bolognese", "Kycklingrätter", "Medelhavsmat"],
+    "tip": "Merlots mjukhet och tillgänglighet gör den till en av de mest mångsidiga röda druvorna."
+  },
+  "syrah": {
+    "pairings": ["Lamm", "Vilt", "BBQ-kött", "Kryddig korv", "Mörk choklad"],
+    "tip": "Syrahs svartpeppar och kraftfullhet passar till mörkt kött och rökiga rätter."
+  },
+  "grenache": {
+    "pairings": ["Provensalsk mat", "Lamm med örter", "Grillad kyckling", "Tapas", "Ratatouille"],
+    "tip": "Grenaches röda frukt och kryddighet passar till Medelhavskök och örtkryddade rätter."
+  },
+  "nebbiolo": {
+    "pairings": ["Tryffel", "Viltgryta", "Barolo-pasta med köttsås", "Hårdost", "Lammracks"],
+    "tip": "Nebbiolo kräver mat med kraft — högt tannin och syra behöver fettrika, smakrika rätter."
+  },
+  "sangiovese": {
+    "pairings": ["Pizza Margherita", "Pasta med tomatsås", "Bistecca fiorentina", "Antipasti", "Pecorino"],
+    "tip": "Sangiovese och italiensk mat är skapade för varandra — syran skär igenom tomatsåsens sötma perfekt."
+  },
+  "tempranillo": {
+    "pairings": ["Ibéricoskinka", "Lammgryta", "Tapas", "Chorizo", "Manchego-ost"],
+    "tip": "Tempranillo och spansk mat hör ihop — ekkaraktären passar till saltade och torkade köttprodukter."
+  },
+  "malbec": {
+    "pairings": ["Argentinsk asado", "Biff", "Chimichurri", "Grillad köttfärs", "Mörk choklad"],
+    "tip": "Malbec och grillat kött är Argentinas bidrag till världens stora matkombinationer."
+  },
+  "gamay": {
+    "pairings": ["Charcuterie", "Lättare pastarätter", "Grillad kyckling", "Getost", "Lax"],
+    "tip": "Gamays lätthet och friskhet gör den till en perfekt lunchvin och passar till lättare rätter."
+  },
+  "champagne": {
+    "pairings": ["Kaviar", "Ostron", "Sushi", "Friterad mat", "Salt popcorn"],
+    "tip": "Champagnens syra och bubblor skär igenom fett och salt — därför fungerar det till kaviar och friterat."
+  },
+  "cava": {
+    "pairings": ["Tapas", "Skaldjur", "Manchego", "Jamon", "Lättare förrätt"],
+    "tip": "Cava är Spaniens festvin och passar till allt från tapas till fisk."
+  },
+  "prosecco": {
+    "pairings": ["Antipasti", "Lätta förätter", "Prosciutto", "Mild ost", "Fruktdessert"],
+    "tip": "Proseccos fruktigthet och lite sötma passar till lätta förätter och aperitivo-stunden."
+  },
+  "cremant": {
+    "pairings": ["Skaldjur", "Lättare fisk", "Mild ost", "Förrätt", "Aperitif"],
+    "tip": "Crémant är ett utmärkt prisvärt alternativ till Champagne och passar till liknande rätter."
+  }
+}
