@@ -354,4 +354,254 @@
     "correctAnswer": "Torr Semillon från Hunter Valley",
     "explanation": "Honung + rostat bröd + vaxig textur + låg syra = mogen torr Semillon från Hunter Valley. En av Australiens mest unika vinstilar."
   }
+  ,{
+    "id": "q031",
+    "type": "guess_grape",
+    "category": "white",
+    "difficulty": "beginner",
+    "question": "Du provar ett vitt vin med citrus, salt mineralitet och persika. Frisk och aromatisk. Passar perfekt till skaldjur.",
+    "options": ["Sauvignon Blanc", "Albariño", "Pinot Grigio", "Chenin Blanc"],
+    "correctAnswer": "Albariño",
+    "explanation": "Salt mineralitet + citrus + persika = Albariño från Galicien. Den salta tonen är karaktäristisk och nästan unik för druvan."
+  },
+  {
+    "id": "q032",
+    "type": "guess_grape",
+    "category": "white",
+    "difficulty": "intermediate",
+    "question": "Du provar ett vitt vin med honung, vita blommor, grönt äpple och päron. Mycket hög syra men ändå lite sötaktig känsla.",
+    "options": ["Viognier", "Riesling", "Chenin Blanc", "Gewürztraminer"],
+    "correctAnswer": "Chenin Blanc",
+    "explanation": "Honung + vita blommor + grönt äpple + mycket hög syra = Chenin Blanc. Honungslikheten skiljer den från Riesling."
+  },
+  {
+    "id": "q033",
+    "type": "guess_grape",
+    "category": "white",
+    "difficulty": "intermediate",
+    "question": "Du provar ett vitt vin med päron, stenfrukt och honung. Lite rökig ton. Låg syra och lite sötma. Varken citrus eller gröna toner.",
+    "options": ["Chardonnay", "Riesling", "Pinot Gris", "Albariño"],
+    "correctAnswer": "Pinot Gris",
+    "explanation": "Päron + stenfrukt + honung + rökig ton + låg syra + lite sötma = Pinot Gris från Alsace. Den rökiga tonen är karakteristisk."
+  },
+  {
+    "id": "q034",
+    "type": "guess_grape",
+    "category": "white",
+    "difficulty": "advanced",
+    "question": "Du provar ett vitt vin med vaxig textur, honung, rostat bröd och låg syra. Vinet känns moget och komplext utan att vara sött.",
+    "options": ["Chardonnay", "Viognier", "Semillon", "Chenin Blanc"],
+    "correctAnswer": "Semillon",
+    "explanation": "Vaxig textur + honung + rostat bröd + låg syra = mogen Semillon. Troligen från Hunter Valley, Australien."
+  },
+  {
+    "id": "q035",
+    "type": "guess_grape",
+    "category": "red",
+    "difficulty": "intermediate",
+    "question": "Du provar ett rött vin med körsbär, tobak, läder och tydlig vanilj och kokos från ek. Medelhögt tannin och syra.",
+    "options": ["Sangiovese", "Nebbiolo", "Tempranillo", "Grenache"],
+    "correctAnswer": "Tempranillo",
+    "explanation": "Körsbär + stark vanilj och kokos från ek + tobak + läder = Tempranillo från Rioja med amerikansk ek."
+  },
+  {
+    "id": "q036",
+    "type": "distinguish",
+    "category": "red",
+    "difficulty": "advanced",
+    "question": "Vad skiljer Nebbiolo från Sangiovese i blindprovning?",
+    "options": [
+      "Nebbiolo har mer tropisk frukt och lägre syra",
+      "Nebbiolo har tjära och rosor + extremt högt tannin, Sangiovese mer körsbär och örtigthet",
+      "Sangiovese är alltid mörkare i färgen",
+      "De är omöjliga att skilja åt"
+    ],
+    "correctAnswer": "Nebbiolo har tjära och rosor + extremt högt tannin, Sangiovese mer körsbär och örtigthet",
+    "explanation": "Tjära och rosor + extremt högt tannin är Nebbiolos signum. Sangiovese är mer örtig och körsbärsdrivet med lite lägre tannin."
+  },
+  {
+    "id": "q037",
+    "type": "guess_style",
+    "category": "style",
+    "difficulty": "intermediate",
+    "question": "Du provar ett rött vin med körsbär, björnbär, viol och choklad. Mjukt tannin och hög alkohol. Rik och generös stil från Sydamerika.",
+    "options": [
+      "Malbec från Mendoza, Argentina",
+      "Carménère från Chile",
+      "Cabernet Sauvignon från Napa",
+      "Syrah från Barossa"
+    ],
+    "correctAnswer": "Malbec från Mendoza, Argentina",
+    "explanation": "Viol + björnbär + choklad + mjukt tannin + hög alkohol från Sydamerika = Malbec från Mendoza."
+  },
+  {
+    "id": "q038",
+    "type": "match_aroma",
+    "category": "white",
+    "difficulty": "beginner",
+    "question": "Vilken arom är mest typisk för Viognier?",
+    "options": ["Petroleum", "Svartvinbärsblad", "Persika och aprikos", "Smör och vanilj"],
+    "correctAnswer": "Persika och aprikos",
+    "explanation": "Intensiv persika och aprikos är Viogniers signaturarom — tillsammans med vita blommor som jasmin och kaprifol."
+  },
+  {
+    "id": "q039",
+    "type": "match_aroma",
+    "category": "white",
+    "difficulty": "intermediate",
+    "question": "Vilken arom är signaturarom för Grüner Veltliner?",
+    "options": ["Litchi", "Vitpeppar", "Petroleum", "Smör"],
+    "correctAnswer": "Vitpeppar",
+    "explanation": "Vitpeppar är Grüner Veltliners mest karakteristiska arom — nästan alltid närvarande och en viktig blindprovningsledtråd."
+  },
+  {
+    "id": "q040",
+    "type": "guess_style",
+    "category": "style",
+    "difficulty": "advanced",
+    "question": "Du provar ett vitt vin med lime, petroleum och rostat bröd. Torrt och stramt med god mineralitet. Inget floralt.",
+    "options": [
+      "Riesling från Mosel, Tyskland",
+      "Riesling från Clare Valley, Australien",
+      "Riesling från Alsace, Frankrike",
+      "Chenin Blanc från Loire"
+    ],
+    "correctAnswer": "Riesling från Clare Valley, Australien",
+    "explanation": "Torr + limeton + tidig petroleum + rostat bröd + stram mineralitet = Clare Valley Riesling. Mosel har ofta restsötma, Alsace är fylligare."
+  },
+  {
+    "id": "q041",
+    "type": "guess_grape",
+    "category": "sparkling",
+    "difficulty": "beginner",
+    "question": "Du provar ett mousserande vin med päron, persika och vita blommor. Fruktig och omedelbar, lite sötma. Inga komplexa baknotes.",
+    "options": ["Champagne", "Cava", "Prosecco", "Crémant"],
+    "correctAnswer": "Prosecco",
+    "explanation": "Päron + persika + vita blommor + lite sötma + enkel och omedelbar = Prosecco. Tankmetoden ger mer fruktig och enkel stil."
+  },
+  {
+    "id": "q042",
+    "type": "guess_grape",
+    "category": "sparkling",
+    "difficulty": "intermediate",
+    "question": "Du provar ett mousserande vin med citrus, brioche, nötter och kritliknande mineralitet. Fin och ihållande bubbelstång. Komplex och lång finish.",
+    "options": ["Prosecco", "Cava", "Champagne", "Crémant d'Alsace"],
+    "correctAnswer": "Champagne",
+    "explanation": "Brioche + nötter + krita + fin bubbelstång + lång komplex finish = Champagne. Flaskjäsningen ger den unika komplexiteten."
+  },
+  {
+    "id": "q043",
+    "type": "distinguish",
+    "category": "sparkling",
+    "difficulty": "intermediate",
+    "question": "Vad är den viktigaste skillnaden mellan Champagne och Prosecco?",
+    "options": [
+      "Champagne är alltid sötare än Prosecco",
+      "Champagne görs via flaskjäsning vilket ger brioche och komplexitet, Prosecco via tankmetoden vilket ger fruktigare enklare stil",
+      "Prosecco har alltid högre alkohol",
+      "De görs på samma sätt men med olika druvor"
+    ],
+    "correctAnswer": "Champagne görs via flaskjäsning vilket ger brioche och komplexitet, Prosecco via tankmetoden vilket ger fruktigare enklare stil",
+    "explanation": "Metoden är nyckeln: flaskjäsning ger Champagne dess brioche, nötter och komplexitet. Tankmetoden ger Prosecco mer omedelbar frukt."
+  },
+  {
+    "id": "q044",
+    "type": "guess_style",
+    "category": "style",
+    "difficulty": "advanced",
+    "question": "Du provar ett rött vin med svarta vinbär, ceder och tobak. Elegant och friskt med god syra. Inte lika rikt och kraftfullt som Napa.",
+    "options": [
+      "Cabernet Sauvignon från Napa Valley",
+      "Cabernet Sauvignon från Maipo Valley, Chile",
+      "Cabernet Sauvignon från Coonawarra, Australien",
+      "Merlot från Bordeaux"
+    ],
+    "correctAnswer": "Cabernet Sauvignon från Maipo Valley, Chile",
+    "explanation": "Elegant + frisk + svarta vinbär + ceder + god syra utan Napas rikedom = Chile. Andinska vindarna ger friskhet och elegans."
+  },
+  {
+    "id": "q045",
+    "type": "guess_grape",
+    "category": "red",
+    "difficulty": "advanced",
+    "question": "Du provar ett rött vin med mörk frukt, paprika, kaffe och choklad. Mjukt tannin. Lite grön ton. Vilket land och druva?",
+    "options": [
+      "Cabernet Sauvignon från Frankrike",
+      "Carménère från Chile",
+      "Merlot från Bordeaux",
+      "Syrah från Australien"
+    ],
+    "correctAnswer": "Carménère från Chile",
+    "explanation": "Mörk frukt + paprika + kaffe + mjukt tannin + grön ton = Carménère från Chile. Paprika och kaffe är dess signaturer."
+  },
+  {
+    "id": "q046",
+    "type": "distinguish",
+    "category": "white",
+    "difficulty": "advanced",
+    "question": "Hur skiljer man Albariño från Sauvignon Blanc i blindprovning?",
+    "options": [
+      "Albariño har alltid tropisk frukt, Sauvignon Blanc har citrus",
+      "Albariño har salt mineralitet och persika utan gröna toner, Sauvignon Blanc har gräs och nässlor",
+      "Sauvignon Blanc har alltid lägre syra",
+      "De är omöjliga att skilja åt"
+    ],
+    "correctAnswer": "Albariño har salt mineralitet och persika utan gröna toner, Sauvignon Blanc har gräs och nässlor",
+    "explanation": "Salt mineralitet + persika utan grönhet = Albariño. Gräs + nässlor + krusbär = Sauvignon Blanc. Saltigheten är Albariños nyckel."
+  },
+  {
+    "id": "q047",
+    "type": "guess_style",
+    "category": "style",
+    "difficulty": "intermediate",
+    "question": "Du provar ett rött vin med körsbär, lakrits, kryddor och hög alkohol. Röda bär dominerar. Lite tannin men mycket värme och generositet.",
+    "options": [
+      "Pinot Noir från Bourgogne",
+      "Grenache från Châteauneuf-du-Pape",
+      "Sangiovese från Chianti",
+      "Gamay från Beaujolais"
+    ],
+    "correctAnswer": "Grenache från Châteauneuf-du-Pape",
+    "explanation": "Röda bär + lakrits + kryddor + hög alkohol + lite tannin = Grenache från södra Rhône. Värmen och generositeten är typisk."
+  },
+  {
+    "id": "q048",
+    "type": "match_aroma",
+    "category": "red",
+    "difficulty": "beginner",
+    "question": "Vilken arom är mest typisk för Malbec från Argentina?",
+    "options": ["Svartpeppar", "Viol och björnbär", "Tjära och rosor", "Nässlor och gräs"],
+    "correctAnswer": "Viol och björnbär",
+    "explanation": "Viol + björnbär + choklad = Malbecs signaturtrio från Mendoza. Violblommigheten är särskilt karakteristisk."
+  },
+  {
+    "id": "q049",
+    "type": "guess_style",
+    "category": "style",
+    "difficulty": "advanced",
+    "question": "Du provar ett vitt vin med hög syra, citrus och honung. Komplex och lagringsvärd. Mineralisk med flinta. Ingen tropisk frukt.",
+    "options": [
+      "Chenin Blanc från Sydafrika",
+      "Chenin Blanc från Loire (Vouvray)",
+      "Riesling från Alsace",
+      "Chardonnay från Chablis"
+    ],
+    "correctAnswer": "Chenin Blanc från Loire (Vouvray)",
+    "explanation": "Hög syra + citrus + honung + flinta + komplex = Loire Chenin Blanc. Sydafrika är fylligare och tropiskare."
+  },
+  {
+    "id": "q050",
+    "type": "distinguish",
+    "category": "red",
+    "difficulty": "advanced",
+    "question": "Vad skiljer Malbec från Mendoza och Malbec från Cahors?",
+    "options": [
+      "Mendoza är alltid sötare",
+      "Mendoza är mjukare och fruktrikare, Cahors stramare och mer tanninrik",
+      "Cahors har alltid mer alkohol",
+      "De smakar identiskt"
+    ],
+    "correctAnswer": "Mendoza är mjukare och fruktrikare, Cahors stramare och mer tanninrik",
+    "explanation": "Mendoza ger mjukt tannin, rik frukt och viol. Cahors (Côt) är stramare, mer rustikt och tanninrikt — kräver mer lagring."
+  }
 ]
