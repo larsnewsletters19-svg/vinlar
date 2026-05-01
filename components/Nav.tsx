@@ -12,6 +12,16 @@ const navItems = [
   { href: '/lar-dig', label: 'Lär dig', icon: '🧠' },
 ];
 
+const mobileNavItems = [
+  { href: '/', label: 'Hem', icon: '🏠' },
+  { href: '/druvor', label: 'Druvor', icon: '🍇' },
+  { href: '/jamfor', label: 'Jämför', icon: '⚖️' },
+  { href: '/stilar', label: 'Stilar', icon: '🗺️' },
+  { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
+  { href: '/trana', label: 'Träna', icon: '🎯' },
+  { href: '/lar-dig', label: 'Lär dig', icon: '🧠' },
+];
+
 export default function Nav() {
   const pathname = usePathname();
 
@@ -50,8 +60,8 @@ export default function Nav() {
       {/* Mobile bottom bar */}
       <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-wine-950 border-t border-wine-800 z-50">
         <ul className="flex">
-          {navItems.map((item) => {
-            const active = pathname.startsWith(item.href);
+          {mobileNavItems.map((item) => {
+            const active = item.href === '/' ? pathname === '/' : pathname.startsWith(item.href);
             return (
               <li key={item.href} className="flex-1">
                 <Link
@@ -61,7 +71,7 @@ export default function Nav() {
                   }`}
                 >
                   <span className="text-lg mb-0.5">{item.icon}</span>
-                  <span className="truncate w-full text-center" style={{ fontSize: '10px' }}>{item.label}</span>
+                  <span className="truncate w-full text-center" style={{ fontSize: '9px' }}>{item.label}</span>
                 </Link>
               </li>
             );
