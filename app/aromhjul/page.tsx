@@ -1,10 +1,10 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
 import grapes from '@/data/grapes.json';
 import aromas from '@/data/aromas.json';
 import { Grape, Aroma } from '@/types';
-import { useSearchParams } from 'next/navigation';
 
 const allGrapes = grapes as Grape[];
 const allAromas = aromas as Aroma[];
@@ -33,7 +33,7 @@ const grapeGroups = [
   { id: 'sparkling', label: '🍾 Mousserande', type: 'sparkling' as const },
 ];
 
-export default function AromhjulPage() {
+function AromhjulContent() {
   const searchParams = useSearchParams();
   const initialGrape = searchParams.get('druva') ?? 'riesling';
   const [selectedGrapes, setSelectedGrapes] = useState<string[]>([initialGrape]);
@@ -178,7 +178,6 @@ export default function AromhjulPage() {
         Välj upp till {MAX_GRAPES} druvor. Tryck på ett segment för att se aromerna i detalj.
       </p>
 
-      {/* Group tabs */}
       <div className="flex gap-2 mb-3 border-b border-wine-800 pb-3">
         {grapeGroups.map((group) => (
           <button
@@ -195,7 +194,6 @@ export default function AromhjulPage() {
         ))}
       </div>
 
-      {/* Grape selector */}
       <div className="flex flex-wrap gap-2 mb-4">
         {groupedGrapes.map((grape) => {
           const idx = selectedGrapes.indexOf(grape.id);
@@ -217,7 +215,6 @@ export default function AromhjulPage() {
         })}
       </div>
 
-      {/* Legend */}
       {selectedGrapes.length > 0 && (
         <div className="flex flex-wrap gap-3 mb-4">
           {selectedGrapes.map((gid, gi) => {
@@ -232,7 +229,6 @@ export default function AromhjulPage() {
         </div>
       )}
 
-      {/* Canvas */}
       <div className="flex justify-center mb-6">
         <canvas
           ref={canvasRef}
@@ -243,7 +239,6 @@ export default function AromhjulPage() {
         />
       </div>
 
-      {/* Detail panel */}
       {activeFamilyData ? (
         <div className="bg-wine-900 rounded-2xl p-5 border-2 border-wine-700">
           <div className="flex items-center gap-2 mb-4">
@@ -294,5 +289,13 @@ export default function AromhjulPage() {
         <p className="text-center text-wine-600 text-sm">Tryck på ett segment i hjulet för att se detaljer</p>
       )}
     </div>
+  );
+}
+
+export default function AromhjulPage() {
+  return (
+    <Suspense fallback={<div className="px-4 py-8 text-wine-400">Laddar...</div>}>
+      <AromhjulContent />
+    </Suspense>
   );
 }
