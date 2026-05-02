@@ -604,4 +604,169 @@
     "correctAnswer": "Mendoza är mjukare och fruktrikare, Cahors stramare och mer tanninrik",
     "explanation": "Mendoza ger mjukt tannin, rik frukt och viol. Cahors (Côt) är stramare, mer rustikt och tanninrikt — kräver mer lagring."
   }
+  ,{
+    "id": "q051",
+    "type": "guess_grape",
+    "category": "white",
+    "difficulty": "advanced",
+    "question": "Du provar ett vitt vin med extremt hög syra, intensiv honung, aprikos och apelsinskalslik bitterhet. Mineralisk och komplex. Sött men inte tungt.",
+    "options": ["Sauternes", "Tokaji Aszú", "Eiswein", "Moscato d'Asti"],
+    "correctAnswer": "Tokaji Aszú",
+    "explanation": "Hög syra + honung + apelsinbitterhet + mineralitet = Tokaji. Sauternes har lägre syra och mer smörighet. Eiswein är renare utan den oxidativa komplexiteten."
+  },
+  {
+    "id": "q052",
+    "type": "guess_grape",
+    "category": "white",
+    "difficulty": "intermediate",
+    "question": "Du provar ett söt vin med intensiv honung, aprikos, saffran och lite svampig komplexitet. Rik och smörig med medelhög syra.",
+    "options": ["Tokaji", "Eiswein", "Sauternes", "Moscato d'Asti"],
+    "correctAnswer": "Sauternes",
+    "explanation": "Honung + aprikos + saffran + svampig ton (botrytis) + smörighet = Sauternes. Den svampiga botrytis-tonen skiljer det från Eiswein och Tokaji."
+  },
+  {
+    "id": "q053",
+    "type": "guess_grape",
+    "category": "sweet",
+    "difficulty": "beginner",
+    "question": "Du provar ett söt mousserande vin med intensiv blommighet, persika och låg alkohol. Friskt och lätt.",
+    "options": ["Champagne", "Prosecco", "Moscato d'Asti", "Cava"],
+    "correctAnswer": "Moscato d'Asti",
+    "explanation": "Intensiv blommighet + persika + låg alkohol (5–7%) + söt och lätt mousserande = Moscato d'Asti. Inget annat mousserande vin har denna kombination."
+  },
+  {
+    "id": "q054",
+    "type": "guess_grape",
+    "category": "sweet",
+    "difficulty": "intermediate",
+    "question": "Du provar ett förstärkt vin med nötter, mandel och salt mineralitet. Torrt och elegant. Serveras kallt.",
+    "options": ["Ruby Port", "Tawny Port", "Fino Sherry", "Oloroso Sherry"],
+    "correctAnswer": "Fino Sherry",
+    "explanation": "Nötter + mandel + salt mineralitet + torrt + serveras kallt = Fino Sherry. Salt-tonen och friskheten är unik för flor-skyddad Fino."
+  },
+  {
+    "id": "q055",
+    "type": "guess_grape",
+    "category": "sweet",
+    "difficulty": "intermediate",
+    "question": "Du provar ett förstärkt vin med mörk frukt, choklad och torkad frukt. Intensivt sött och kraftfullt med djup röd färg.",
+    "options": ["Tawny Port", "Ruby Port", "Oloroso Sherry", "Madeira"],
+    "correctAnswer": "Ruby Port",
+    "explanation": "Mörk frukt + choklad + torkad frukt + intensivt söt + djup röd färg = Ruby Port. Tawny har orange-brun färg och nötigt oxidativ karaktär."
+  },
+  {
+    "id": "q056",
+    "type": "distinguish",
+    "category": "sweet",
+    "difficulty": "advanced",
+    "question": "Vad skiljer Ruby Port från Tawny Port?",
+    "options": [
+      "Ruby är alltid sötare än Tawny",
+      "Ruby är fruktigt med röd färg, Tawny är oxidativt med nötter och orange-brun färg",
+      "Tawny görs på andra druvor",
+      "De smakar identiskt men kommer från olika vingårdar"
+    ],
+    "correctAnswer": "Ruby är fruktigt med röd färg, Tawny är oxidativt med nötter och orange-brun färg",
+    "explanation": "Ruby lagras kort i stora fat och bevarar frukt och färg. Tawny lagras länge i små fat, oxiderar och utvecklar nötter, karamell och orange-brun färg."
+  },
+  {
+    "id": "q057",
+    "type": "guess_grape",
+    "category": "red",
+    "difficulty": "advanced",
+    "question": "Du provar ett extremt koncentrerat rött vin med torkad frukt, choklad, kaffe och läder. Hög alkohol och fyllig kropp. Tekniskt torrt men intensivt.",
+    "options": ["Barolo", "Cabernet Sauvignon", "Amarone", "Zinfandel"],
+    "correctAnswer": "Amarone",
+    "explanation": "Extremt koncentrerat + torkad frukt + choklad + kaffe + hög alkohol (15–17%) + tekniskt torrt = Amarone. Appassimento-metoden med torkade druvor är unik."
+  },
+  {
+    "id": "q058",
+    "type": "guess_grape",
+    "category": "red",
+    "difficulty": "intermediate",
+    "question": "Du provar ett kraftfullt rött vin med björnbär, russin, svartpeppar och lakrits. Mycket hög alkohol och rik frukt. Ibland nästan portvin-liknande.",
+    "options": ["Malbec", "Syrah", "Cabernet Sauvignon", "Zinfandel"],
+    "correctAnswer": "Zinfandel",
+    "explanation": "Björnbär + russin + svartpeppar + mycket hög alkohol + rik frukt = Zinfandel från Kalifornien. Russin-tonen och den extrema alkoholen är karakteristisk."
+  },
+  {
+    "id": "q059",
+    "type": "guess_grape",
+    "category": "red",
+    "difficulty": "intermediate",
+    "question": "Du provar ett rött vin med körsbär, paprika, viol och örtigthet. Medelhögt tannin och syra. Lättare kropp än Cabernet Sauvignon.",
+    "options": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Sangiovese"],
+    "correctAnswer": "Cabernet Franc",
+    "explanation": "Körsbär + paprika + viol + örtig + lättare kropp än Cab Sauv = Cabernet Franc. Paprika-tonen är tydligare än i Cabernet Sauvignon och kroppen är mer elegant."
+  },
+  {
+    "id": "q060",
+    "type": "distinguish",
+    "category": "red",
+    "difficulty": "advanced",
+    "question": "Vad skiljer Amarone från Ripasso?",
+    "options": [
+      "Amarone är alltid sötare",
+      "Amarone görs på fullt torkade druvor och är extremt koncentrerat, Ripasso passeras över Amarone-skalen och är en mellanstig",
+      "De görs på helt olika druvor",
+      "Ripasso har alltid högre alkohol"
+    ],
+    "correctAnswer": "Amarone görs på fullt torkade druvor och är extremt koncentrerat, Ripasso passeras över Amarone-skalen och är en mellanstig",
+    "explanation": "Amarone = fullt appassimento, extremt koncentrerat, hög alkohol 15–17%. Ripasso = Valpolicella som passeras över Amarone-skalen, mer kropp än vanlig Valpolicella men lättare än Amarone."
+  },
+  {
+    "id": "q061",
+    "type": "guess_style",
+    "category": "style",
+    "difficulty": "advanced",
+    "question": "Du provar ett söt vin med extremt hög syra, koncentrerad honung och aprikoskoncentrat. Ingen svampig botrytis-ton. Renare och friskare än Sauternes.",
+    "options": ["Sauternes", "Tokaji Aszú", "Eiswein", "Beerenauslese"],
+    "correctAnswer": "Eiswein",
+    "explanation": "Extremt hög syra + koncentrerad honung + ingen botrytis-ton + renare frukt = Eiswein. Fryspressmetoden ger renare frukt utan den svampiga komplexiteten från botrytis."
+  },
+  {
+    "id": "q062",
+    "type": "match_aroma",
+    "category": "sweet",
+    "difficulty": "beginner",
+    "question": "Vilken arom är mest typisk för Tawny Port?",
+    "options": ["Mörk körsbär och choklad", "Nötter och karamell", "Intensiv blommighet", "Salt och mandel"],
+    "correctAnswer": "Nötter och karamell",
+    "explanation": "Nötter och karamell är Tawny Ports signaturarom — resultatet av lång oxidativ lagring i små ekfat. Orange-brun färg och torkad apelsinton tillkommer också."
+  },
+  {
+    "id": "q063",
+    "type": "guess_style",
+    "category": "style",
+    "difficulty": "intermediate",
+    "question": "Du provar ett förstärkt vin med valnöt, karamell och torkad apelsin. Fylligt och nötigt. Mörkbrun färg.",
+    "options": ["Fino Sherry", "Oloroso Sherry", "Ruby Port", "Madeira"],
+    "correctAnswer": "Oloroso Sherry",
+    "explanation": "Valnöt + karamell + torkad apelsin + fylligt + mörkbrun färg = Oloroso Sherry. Oxidativ lagring utan flor-skydd ger denna karaktär."
+  },
+  {
+    "id": "q064",
+    "type": "distinguish",
+    "category": "sparkling",
+    "difficulty": "intermediate",
+    "question": "Vad skiljer Crémant från Champagne?",
+    "options": [
+      "Crémant görs på andra druvor och med tankmetoden",
+      "Crémant görs med traditionell metod men utanför Champagne-regionen och är ofta prisvärdare",
+      "Crémant är alltid sötare",
+      "De är identiska men Champagne får kosta mer"
+    ],
+    "correctAnswer": "Crémant görs med traditionell metod men utanför Champagne-regionen och är ofta prisvärdare",
+    "explanation": "Crémant görs med samma traditionella metod som Champagne (flaskjäsning) men i andra franska regioner som Alsace, Bourgogne och Loire. Ofta utmärkt prisvärd kvalitet."
+  },
+  {
+    "id": "q065",
+    "type": "guess_grape",
+    "category": "white",
+    "difficulty": "advanced",
+    "question": "Du provar ett torrt vitt vin med mycket hög syra, mineralitet och lite honungslik ton. Komplext och lagringsvärt. Från Ungern.",
+    "options": ["Riesling", "Chenin Blanc", "Tokaji Furmint (torr)", "Grüner Veltliner"],
+    "correctAnswer": "Tokaji Furmint (torr)",
+    "explanation": "Hög syra + mineralitet + honung + komplext + från Ungern = torr Furmint. Kallas ibland Ungerns svar på Chablis men med mer kropp och honungslik ton."
+  }
 ]
