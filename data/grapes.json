@@ -664,4 +664,59 @@
     "blindTastingClues": ["Liknar Champagne men enklare", "Frisk och fruktig", "Brioche och toast men inte lika komplex", "Citrus och grönt äpple", "Mycket prisvärd"],
     "commonConfusions": ["Champagne", "Cava", "Prosecco"]
   }
+  ,{
+    "id": "zinfandel",
+    "name": "Zinfandel",
+    "type": "red",
+    "shortDescription": "Amerikas egen röda druva. Rik, fruktig och kraftfull med björnbär, russin och kryddor. Hög alkohol. Samma som Primitivo i Italien.",
+    "typicalAromas": ["blackberry", "plum", "raspberry", "black_pepper", "dried_fruit", "chocolate"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 1,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 3, "strawberry": 2, "cherry": 2, "cranberry": 0,
+      "blackcurrant": 3, "blackberry": 5, "blueberry": 3, "plum": 4,
+      "white_flowers": 0, "rose": 0, "violet": 2,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 4, "white_pepper": 0, "liquorice": 3,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 1, "mushroom": 0, "truffle": 0,
+      "vanilla": 3, "butter": 0, "toast": 1, "coconut": 1, "nuts": 0, "coffee": 2, "chocolate": 3,
+      "petrol": 0, "honey": 0, "dried_fruit": 4, "tobacco": 2, "leather": 2
+    },
+    "structure": { "acidity": 2, "body": 5, "alcohol": 5, "tannin": 3, "sweetness": 1, "oak": 3 },
+    "commonRegionsAndStyles": [
+      { "name": "Sonoma / Lodi, Kalifornien", "description": "Den klassiska stilen. Rik, mörk frukt, hög alkohol, russin och kryddor." },
+      { "name": "Primitivo, Puglia, Italien", "description": "Samma druva. Lite mer rustik och jordigt, men liknande fruktig kraft." }
+    ],
+    "blindTastingClues": ["Mycket hög alkohol", "Mörk frukt och russin", "Svartpeppar och lakrits", "Rik och generös", "Ibland nästan portvin-liknande koncentration"],
+    "commonConfusions": ["Syrah", "Malbec", "Grenache"]
+  },
+  {
+    "id": "cabernet_franc",
+    "name": "Cabernet Franc",
+    "type": "red",
+    "shortDescription": "Förälder till Cabernet Sauvignon. Mer elegant och örtig med körsbär, paprika och viol. Basen i Loire och viktig del i Bordeaux-blendar.",
+    "typicalAromas": ["cherry", "raspberry", "violet", "bell_pepper", "tobacco", "wet_earth"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 0,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 4, "strawberry": 2, "cherry": 5, "cranberry": 2,
+      "blackcurrant": 2, "blackberry": 2, "blueberry": 1, "plum": 2,
+      "white_flowers": 0, "rose": 0, "violet": 4,
+      "grass": 1, "nettles": 1, "bell_pepper": 4, "blackcurrant_leaf": 2, "mint": 2, "eucalyptus": 0,
+      "black_pepper": 1, "white_pepper": 0, "liquorice": 1,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 3, "mushroom": 2, "truffle": 1,
+      "vanilla": 1, "butter": 0, "toast": 1, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 1,
+      "petrol": 0, "honey": 0, "dried_fruit": 1, "tobacco": 3, "leather": 2
+    },
+    "structure": { "acidity": 4, "body": 3, "alcohol": 3, "tannin": 3, "sweetness": 1, "oak": 2 },
+    "commonRegionsAndStyles": [
+      { "name": "Chinon / Bourgueil, Loire, Frankrike", "description": "Den klassiska stilen. Elegant, körsbär, paprika, jordig och örtig. Kan lagras väl." },
+      { "name": "Saint-Émilion / Pomerol, Bordeaux", "description": "Blandad med Merlot. Ger struktur och blommighet till blendar." },
+      { "name": "Friuli, Italien", "description": "Mer fruktig och tillgänglig stil. Körsbär och viol." }
+    ],
+    "blindTastingClues": ["Körsbär och röd frukt", "Paprika – tydligare än Cab Sauv", "Viol och blommighet", "Örtig och jordigt", "Lättare kropp än Cabernet Sauvignon"],
+    "commonConfusions": ["Cabernet Sauvignon", "Sangiovese", "Pinot Noir"]
+  }
 ]
