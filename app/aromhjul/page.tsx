@@ -26,9 +26,16 @@ const aromaFamilies = [
 const MAX_GRAPES = 3;
 const grapeColors = ['#f59e0b', '#38bdf8', '#a78bfa'];
 
+const grapeGroups = [
+  { id: 'white', label: '🥂 Vita', type: 'white' as const },
+  { id: 'red', label: '🍷 Röda', type: 'red' as const },
+  { id: 'sparkling', label: '🍾 Mousserande', type: 'sparkling' as const },
+];
+
 export default function AromhjulPage() {
   const [selectedGrapes, setSelectedGrapes] = useState<string[]>(['riesling']);
   const [activeFamily, setActiveFamily] = useState<string | null>(null);
+  const [activeGroup, setActiveGroup] = useState<'white' | 'red' | 'sparkling'>('white');
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   const toggleGrape = (id: string) => {
@@ -103,7 +110,6 @@ export default function AromhjulPage() {
       ctx.restore();
     });
 
-    // Grape dots med förskjutning
     selectedGrapes.forEach((gid, gi) => {
       const grape = allGrapes.find((g) => g.id === gid);
       if (!grape) return;
@@ -125,7 +131,6 @@ export default function AromhjulPage() {
       });
     });
 
-    // Center
     ctx.beginPath();
     ctx.arc(cx, cy, innerR, 0, Math.PI * 2);
     ctx.fillStyle = '#420d1d';
@@ -161,6 +166,7 @@ export default function AromhjulPage() {
   };
 
   const activeFamilyData = aromaFamilies.find((f) => f.id === activeFamily);
+  const groupedGrapes = allGrapes.filter((g) => g.type === activeGroup);
 
   return (
     <div className="px-4 py-8 max-w-2xl mx-auto">
@@ -169,8 +175,26 @@ export default function AromhjulPage() {
         Välj upp till {MAX_GRAPES} druvor. Tryck på ett segment för att se aromerna i detalj.
       </p>
 
+      {/* Group tabs */}
+      <div className="flex gap-2 mb-3 border-b border-wine-800 pb-3">
+        {grapeGroups.map((group) => (
+          <button
+            key={group.id}
+            onClick={() => setActiveGroup(group.type)}
+            className={`px-4 py-2 rounded-lg text-sm font-display transition-all ${
+              activeGroup === group.type
+                ? 'bg-amber-400 text-wine-950 font-semibold'
+                : 'text-wine-400 hover:text-wine-200'
+            }`}
+          >
+            {group.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Grape selector */}
       <div className="flex flex-wrap gap-2 mb-4">
-        {allGrapes.map((grape) => {
+        {groupedGrapes.map((grape) => {
           const idx = selectedGrapes.indexOf(grape.id);
           const isSelected = idx !== -1;
           return (
@@ -184,12 +208,13 @@ export default function AromhjulPage() {
               }`}
               style={isSelected ? { backgroundColor: grapeColors[idx], borderColor: grapeColors[idx] } : undefined}
             >
-              {grape.type === 'white' ? '🥂' : '🍷'} {grape.name}
+              {grape.name}
             </button>
           );
         })}
       </div>
 
+      {/* Legend */}
       {selectedGrapes.length > 0 && (
         <div className="flex flex-wrap gap-3 mb-4">
           {selectedGrapes.map((gid, gi) => {
@@ -204,6 +229,7 @@ export default function AromhjulPage() {
         </div>
       )}
 
+      {/* Canvas */}
       <div className="flex justify-center mb-6">
         <canvas
           ref={canvasRef}
@@ -214,6 +240,7 @@ export default function AromhjulPage() {
         />
       </div>
 
+      {/* Detail panel */}
       {activeFamilyData ? (
         <div className="bg-wine-900 rounded-2xl p-5 border-2 border-wine-700">
           <div className="flex items-center gap-2 mb-4">
@@ -256,10 +283,7 @@ export default function AromhjulPage() {
               );
             })}
           </div>
-          <button
-            onClick={() => setActiveFamily(null)}
-            className="mt-4 text-wine-500 text-sm hover:text-wine-300"
-          >
+          <button onClick={() => setActiveFamily(null)} className="mt-4 text-wine-500 text-sm hover:text-wine-300">
             Stäng ✕
           </button>
         </div>
