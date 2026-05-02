@@ -371,7 +371,7 @@
     "id": "carmenere_chile",
     "type": "style_vs_style",
     "title": "Carménère vs Merlot",
-    "grape": "cabernet_sauvignon",
+    "grape": "carmenere",
     "styleA": { "name": "Carménère, Chile", "region": "Colchagua / Rapel Valley" },
     "styleB": { "name": "Merlot, Bordeaux", "region": "Saint-Émilion / Pomerol" },
     "styleACharacter": [

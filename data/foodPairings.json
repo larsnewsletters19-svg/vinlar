@@ -95,4 +95,12 @@
     "pairings": ["Skaldjur", "Lättare fisk", "Mild ost", "Förrätt", "Aperitif"],
     "tip": "Crémant är ett utmärkt prisvärt alternativ till Champagne och passar till liknande rätter."
   }
+  ,"zinfandel": {
+    "pairings": ["BBQ-kött", "Grillad korv", "Pizza", "Hamburgare", "Mörk choklad"],
+    "tip": "Zinfandels höga alkohol och rika frukt passar till kraftiga, rökiga rätter. Undvik lätt mat — det försvinner mot vinets intensitet."
+  },
+  "cabernet_franc": {
+    "pairings": ["Lammkotlett", "Svamp-risotto", "Kycklingrätter", "Getost", "Rödbetor"],
+    "tip": "Cabernet Francs elegans och örtigthet passar till lättare kötträtter och grönsaksbaserade rätter — inte lika kraftig mat som Cabernet Sauvignon kräver."
+  }
 }
