@@ -1,0 +1,184 @@
+[
+  {
+    "id": "acidity",
+    "term": "Syra",
+    "category": "Smak & struktur",
+    "short": "Vinets friskhet och nerv.",
+    "full": "Syra är det som gör att munnen vattnas och vinet känns friskt och piggt. Hög syra ger lång lagringskapacitet. Mäts i pH och g/l."
+  },
+  {
+    "id": "tannin",
+    "term": "Tannin",
+    "category": "Smak & struktur",
+    "short": "Sträv och uttorkande känsla från druvskalen.",
+    "full": "Tannin är fenoliska ämnen från druvskal, kärnor och ekfat. Ger struktur och lagringskapacitet. Mjuknar med ålder och mat."
+  },
+  {
+    "id": "body",
+    "term": "Kropp",
+    "category": "Smak & struktur",
+    "short": "Vinets vikt och fyllighet i munnen.",
+    "full": "Kropp beskriver hur tungt vinet känns — från lätt som vatten (Muscadet) till fylligt som grädde (Barossa Shiraz). Påverkas främst av alkohol."
+  },
+  {
+    "id": "finish",
+    "term": "Finish / Eftersmaker",
+    "category": "Smak & struktur",
+    "short": "Hur länge smaken stannar kvar efter att du svalt.",
+    "full": "En lång finish (20+ sekunder) är ett tecken på kvalitet. Mäts i caudalie (1 caudalie = 1 sekund). Grand Cru-viner kan ha finish på 60+ sekunder."
+  },
+  {
+    "id": "balance",
+    "term": "Balans",
+    "category": "Smak & struktur",
+    "short": "När alla komponenter samspelar harmoniskt.",
+    "full": "Ett balanserat vin har frukt, syra, tannin, alkohol och sötma i harmoni — ingen komponent dominerar negativt. Det viktigaste kvalitetsbegreppet."
+  },
+  {
+    "id": "terroir",
+    "term": "Terroir",
+    "category": "Odling & geografi",
+    "short": "Hur platsen — jord, klimat och topografi — påverkar vinet.",
+    "full": "Franskt begrepp som beskriver alla naturliga faktorer på en specifik plats. Förklarar varför samma druva smakar olika i Bourgogne och Oregon."
+  },
+  {
+    "id": "appellation",
+    "term": "Appellation",
+    "category": "Odling & geografi",
+    "short": "Officiellt definierat geografiskt område för vinproduktion.",
+    "full": "En appellation definierar var ett vin får komma ifrån och ofta vilka druvor som är tillåtna. AOC i Frankrike, DOC i Italien, AVA i USA."
+  },
+  {
+    "id": "terrasse",
+    "term": "Terrass-vingård",
+    "category": "Odling & geografi",
+    "short": "Vingårdar anlagda i trappsteg på branta sluttningar.",
+    "full": "Vanligt i Mosel, Douro och norra Rhône. Branta sluttningar ger druvorna optimal solexponering och tvingar rötterna djupt ner i marken."
+  },
+  {
+    "id": "malolactic",
+    "term": "Malolaktisk jäsning (MLF)",
+    "category": "Vinmakning",
+    "short": "Omvandlar skarp äppelsyra till mjukare mjölksyra.",
+    "full": "Bakterier omvandlar äppelsyra till mjölksyra vilket ger ett mjukare, rundare vin. Ger smörighet i Chardonnay. Undviks i friska vita viner som Sauvignon Blanc."
+  },
+  {
+    "id": "maceration",
+    "term": "Macerering",
+    "category": "Vinmakning",
+    "short": "Skalkontakt under jäsningen. Ger tannin och färg.",
+    "full": "Hur länge druvskalen är i kontakt med musten. Kort macerering ger lite tannin (Pinot Noir), lång macerering ger mycket tannin (Barolo). Orange vin görs med macerering av vita druvor."
+  },
+  {
+    "id": "fermentation",
+    "term": "Jäsning",
+    "category": "Vinmakning",
+    "short": "När jäst omvandlar druvsocker till alkohol och koldioxid.",
+    "full": "Jäsning är grundprocessen i vinmakeri. Jäst (naturlig eller tillsatt) äter sockret i druvmusten och producerar alkohol och CO2. Temperaturen styr hastighet och arombildning."
+  },
+  {
+    "id": "oak",
+    "term": "Ekfat / Barrique",
+    "category": "Vinmakning",
+    "short": "Fat av ek för lagring och jäsning av vin.",
+    "full": "Barrique är ett 225-liters ekfat standard i Bordeaux. Eken avger aromer (vanilj, kokos, kryddor) och syresätter vinet långsamt. Nytt ek ger mer smak, gammalt ek mer textur."
+  },
+  {
+    "id": "botrytis",
+    "term": "Botrytis / Ädelröta",
+    "category": "Vinmakning",
+    "short": "Svamp som koncentrerar druvornas socker och aromer.",
+    "full": "Botrytis cinerea är en svamp som under rätt förhållanden torkar ut druvor och koncentrerar socker, syra och aromer. Grunden för Sauternes, Tokaji och tyska Trockenbeerenauslese."
+  },
+  {
+    "id": "appassimento",
+    "term": "Appassimento",
+    "category": "Vinmakning",
+    "short": "Metod att torka druvor för koncentration. Används i Amarone.",
+    "full": "Appassimento innebär att druvorna torkas i flera månader på hyllor eller mattor. Vatten avdunstar och socker, aromer och tanniner koncentreras. Grunden för Amarone och Recioto."
+  },
+  {
+    "id": "fortified",
+    "term": "Förstärkt vin",
+    "category": "Vinmakning",
+    "short": "Vin där druvsprit tillsatts för att höja alkoholen.",
+    "full": "Druvsprit tillsätts antingen under jäsning (Port — bevarar sötma) eller efter (Sherry — blir torrare). Ger alkohol på 15–22% och längre hållbarhet."
+  },
+  {
+    "id": "decanting",
+    "term": "Dekantring",
+    "category": "Servering",
+    "short": "Att hälla vin i karaff för att lufta det eller avlägsna bottensats.",
+    "full": "Unga tanninrika viner dekanteras för att öppna sig snabbare. Gamla viner dekanteras försiktigt för att separera bottensatsen. Champagne dekanteras aldrig."
+  },
+  {
+    "id": "vintage",
+    "term": "Årgång / Vintage",
+    "category": "Servering",
+    "short": "Det år druvorna skördades.",
+    "full": "Årgången påverkar kvaliteten enormt — väderförhållanden varierar år från år. I Champagne blandas ofta flera årgångar (NV = Non-Vintage) för konsistens. Vintage Champagne görs bara exceptionella år."
+  },
+  {
+    "id": "brut",
+    "term": "Brut",
+    "category": "Sötma & stil",
+    "short": "Torr stil av mousserande vin.",
+    "full": "Brut = under 12 g/l restssocker. Extra Brut = under 6 g/l. Brut Nature = 0–3 g/l. Demi-sec = halvtorrt. Doux = sött. Brut är den vanligaste stilen för Champagne."
+  },
+  {
+    "id": "residual_sugar",
+    "term": "Restssocker",
+    "category": "Sötma & stil",
+    "short": "Socker som inte jästs bort. Ger sötma i vinet.",
+    "full": "Mäts i gram per liter (g/l). Torrt vin har under 4 g/l, halvtorrt 4–12 g/l, halvsött 12–45 g/l, sött över 45 g/l. Hög syra kan maskera restssocker."
+  },
+  {
+    "id": "carbonic_maceration",
+    "term": "Kolsyrjäsning",
+    "category": "Vinmakning",
+    "short": "Jäsning inuti hela druvor under CO2. Ger fruktig, mjuk stil.",
+    "full": "Används i Beaujolais Nouveau. Hela druvor jäser inifrån utan syretillgång. Ger intensiv frukt, mjukt tannin och ibland bananliknande aromer. Vinet ska drickas ungt."
+  },
+  {
+    "id": "disgorgement",
+    "term": "Degorjering",
+    "category": "Vinmakning",
+    "short": "Avlägsnande av jästsediment från mousserande vin.",
+    "full": "I traditionell metod (Champagne) samlas jästsedimentet i flaskhalsen och fryses bort. Datumet för degorjering anges ofta på etiketten och påverkar fräschören."
+  },
+  {
+    "id": "lees",
+    "term": "Jästfällning / Lies",
+    "category": "Vinmakning",
+    "short": "Döda jästceller som ger komplexitet och krämighet.",
+    "full": "Sur lie-lagring innebär att vinet lagras på jästfällningen. Ger komplexitet, krämighet och brödliknande aromer. Används i Muscadet, Champagne och många fina Chardonnay."
+  },
+  {
+    "id": "premier_cru",
+    "term": "Premier Cru / Grand Cru",
+    "category": "Klassificering",
+    "short": "Kvalitetsklassificering av vingårdar, främst i Bourgogne.",
+    "full": "I Bourgogne klassificeras vingårdar: Village → Premier Cru → Grand Cru (högst). I Bordeaux klassificeras châteaux. Grand Cru i Bourgogne är alltid från en specifik vingård."
+  },
+  {
+    "id": "reserve",
+    "term": "Reserva / Reserve",
+    "category": "Klassificering",
+    "short": "Term som indikerar extra lagring. Betyder olika saker i olika länder.",
+    "full": "I Rioja: Reserva = minst 3 år lagring, Gran Reserva = minst 5 år. I Bordeaux och Nya världen är termen inte reglerad och kan betyda vad som helst."
+  },
+  {
+    "id": "biodynamic",
+    "term": "Biodynamisk odling",
+    "category": "Odling & geografi",
+    "short": "Ekologisk odling med kosmiska kalendrar och homeopatiska preparat.",
+    "full": "Biodynamik ser vingården som ett slutet ekosystem. Sprututrustning av horn-gödsel och kisel, lunar-kalender för skötsel och skörd. Demeter är certifieringsorganet. Förespråkas av producenter som Zind-Humbrecht och Leroy."
+  },
+  {
+    "id": "natural_wine",
+    "term": "Naturvin",
+    "category": "Vinmakning",
+    "short": "Vin gjort med minimal intervention i vingård och källare.",
+    "full": "Ingen enhetlig definition. Vanligtvis: ekologiska eller biodynamiska druvor, spontanjäsning med naturlig jäst, ingen eller minimal svavel, ingen filtrering. Kan vara grumliga och ha brett-karaktär."
+  }
+]

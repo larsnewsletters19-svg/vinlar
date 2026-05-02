@@ -10,6 +10,7 @@ const navItems = [
   { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
   { href: '/trana', label: 'Träna', icon: '🎯' },
   { href: '/lar-dig', label: 'Lär dig', icon: '🧠' },
+  { href: '/ordlista', label: 'Ordlista', icon: '📚' },
 ];
 
 const mobileNavItems = [
@@ -20,6 +21,7 @@ const mobileNavItems = [
   { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
   { href: '/trana', label: 'Träna', icon: '🎯' },
   { href: '/lar-dig', label: 'Lär dig', icon: '🧠' },
+  { href: '/ordlista', label: 'Ordlista', icon: '📚' },
 ];
 
 export default function Nav() {

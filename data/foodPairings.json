@@ -127,4 +127,8 @@
     "pairings": ["Braised oxkind", "Vilt", "Hårdost (Parmigiano)", "Mörk choklad", "Tryffelrätter"],
     "tip": "Amarones kraft kräver mat med lika mycket intensitet. Braised kött som tillagas länge passar perfekt — fettet och umamin balanserar vinets tannin och alkohol."
   }
+  ,"tokaji": {
+    "pairings": ["Foie gras", "Blåmögelost", "Fruktdessert", "Crème brûlée", "Serveras ensamt"],
+    "tip": "Tokaji Aszús höga syra gör den mer mångsidig än Sauternes. Fungerar utmärkt till foie gras och starka ostar, men är också fantastisk att dricka ensamt som meditation."
+  }
 }

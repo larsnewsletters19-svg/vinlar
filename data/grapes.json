@@ -884,4 +884,32 @@
     "blindTastingClues": ["Torkad frukt och russin", "Mycket hög alkohol", "Choklad och kaffe", "Koncentrerad och fyllig", "Bitter eftersmak (Amarone = 'den bittre')"],
     "commonConfusions": ["Port (Ruby)", "Zinfandel", "Primitivo"]
   }
+  ,{
+    "id": "tokaji",
+    "name": "Tokaji",
+    "type": "sweet",
+    "shortDescription": "Ungerns legendariska söta vin. Gjort på botrytis-påverkade Furmint-druvor. Komplex, honungsrik med hög syra. Kallas 'vinernas konung och konungarnas vin'.",
+    "typicalAromas": ["honey", "apricot", "dried_fruit", "orange_peel", "flint", "white_flowers"],
+    "aromaScores": {
+      "lemon": 2, "lime": 1, "grapefruit": 1, "orange_peel": 4,
+      "green_apple": 2, "pear": 2, "peach": 3, "apricot": 5, "nectarine": 2,
+      "passion_fruit": 1, "pineapple": 1, "mango": 1, "lychee": 0,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 3, "rose": 1, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 3, "chalk": 1, "slate": 1, "wet_earth": 0, "mushroom": 1, "truffle": 0,
+      "vanilla": 1, "butter": 1, "toast": 2, "coconut": 0, "nuts": 1, "coffee": 0, "chocolate": 0,
+      "petrol": 1, "honey": 5, "dried_fruit": 4, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 5, "body": 4, "alcohol": 3, "tannin": 0, "sweetness": 5, "oak": 2 },
+    "commonRegionsAndStyles": [
+      { "name": "Tokaji Aszú 5 Puttonyos", "description": "Den klassiska stilen. Hög sötma balanserad av hög syra. Komplex och lagringsvärd i decennier." },
+      { "name": "Tokaji Eszencia", "description": "Världens sötaste vin. Nästan omöjligt att jäsa på grund av sockerkoncentrationen. Extremt sällsynt." },
+      { "name": "Tokaji Furmint (torr)", "description": "Torr version av Furmint-druvan. Mineralisk, hög syra och komplex. Ungersk svar på Chablis." }
+    ],
+    "blindTastingClues": ["Honung och aprikoskoncentrat", "Mycket hög syra trots sötman", "Mineralitet och flinta", "Apelsinskalsliknande bitterhet", "Lång och komplex finish"],
+    "commonConfusions": ["Sauternes", "Eiswein", "Beerenauslese"]
+  }
 ]

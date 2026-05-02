@@ -528,4 +528,119 @@
     ],
     "blindTastingTip": "Kaffe + mörk frukt + eventuell gummiston pekar mot Pinotage. Svartpeppar + viol + olivton pekar mot norra Rhône Syrah."
   }
+  ,{
+    "id": "sauternes_vs_tokaji",
+    "type": "style_vs_style",
+    "title": "Sauternes vs Tokaji",
+    "grape": "sauternes",
+    "styleA": { "name": "Sauternes, Bordeaux", "region": "Sauternes / Barsac" },
+    "styleB": { "name": "Tokaji, Ungern", "region": "Tokaj-Hegyalja" },
+    "styleACharacter": [
+      "Rik och smörig sötma",
+      "Honung, aprikos och saffran",
+      "Botrytis ger komplex svampig ton",
+      "Lägre syra än Tokaji",
+      "Château d'Yquem är världsberömt"
+    ],
+    "styleBCharacter": [
+      "Högre syra balanserar sötman",
+      "Mineralisk och flintig ton",
+      "Apelsinbitterhet i eftersmaken",
+      "Furmint-druvan ger mer nerve",
+      "Kallas vinernas konung"
+    ],
+    "blindTastingTip": "Rikare, smörigare och mer oxidativ pekar mot Sauternes. Högre syra, mineralitet och apelsinbitterhet pekar mot Tokaji."
+  },
+  {
+    "id": "port_ruby_vs_tawny",
+    "type": "style_vs_style",
+    "title": "Port: Ruby vs Tawny",
+    "grape": "port",
+    "styleA": { "name": "Ruby Port", "region": "Douro Valley, Portugal" },
+    "styleB": { "name": "Tawny Port", "region": "Douro Valley, Portugal" },
+    "styleACharacter": [
+      "Lagras kort i stora fat",
+      "Mörk frukt och choklad",
+      "Djup röd-lila färg",
+      "Fruktig och omedelbar",
+      "Vintage Port är Ruby-stilen"
+    ],
+    "styleBCharacter": [
+      "Lagras länge i små fat",
+      "Oxidativ — nötter och karamell",
+      "Bärnstensbrun-orange färg",
+      "Apelsin och torkad frukt",
+      "10, 20, 30 eller 40 år på etikett"
+    ],
+    "blindTastingTip": "Mörk frukt och choklad med djup röd färg pekar mot Ruby. Nötter, karamell och orange-brun färg pekar mot Tawny."
+  },
+  {
+    "id": "sauternes_vs_eiswein",
+    "type": "style_vs_style",
+    "title": "Sauternes vs Eiswein",
+    "grape": "sauternes",
+    "styleA": { "name": "Sauternes, Bordeaux", "region": "Sauternes" },
+    "styleB": { "name": "Eiswein, Tyskland / Kanada", "region": "Mosel / Ontario" },
+    "styleACharacter": [
+      "Botrytis ger komplex svampig karaktär",
+      "Rikare och mer oxidativ",
+      "Honung, aprikos och saffran",
+      "Lägre syra relativt sett",
+      "Varm höst krävs för botrytis"
+    ],
+    "styleBCharacter": [
+      "Gjord på frysta druvor",
+      "Extremt hög syra",
+      "Renare och fruktigare",
+      "Ingen svampig botrytis-ton",
+      "Kall vinter krävs för frysning"
+    ],
+    "blindTastingTip": "Komplex svampig ton och rikare stil pekar mot Sauternes. Renare frukt, extrem syra och friskare karaktär pekar mot Eiswein."
+  },
+  {
+    "id": "fino_vs_oloroso",
+    "type": "style_vs_style",
+    "title": "Sherry: Fino vs Oloroso",
+    "grape": "sherry",
+    "styleA": { "name": "Fino / Manzanilla", "region": "Jerez / Sanlúcar" },
+    "styleB": { "name": "Oloroso", "region": "Jerez" },
+    "styleACharacter": [
+      "Torrt och salt",
+      "Skyddat av flor-jäst",
+      "Mandel och grönt äpple",
+      "Ljus färg",
+      "Serveras kallt som aperitif"
+    ],
+    "styleBCharacter": [
+      "Oxidativt och nötigt",
+      "Ingen flor — direkt oxidation",
+      "Valnöt och karamell",
+      "Mörkbrun färg",
+      "Kan vara torrt eller sött"
+    ],
+    "blindTastingTip": "Salt, mandel och ljus färg pekar mot Fino. Mörk färg, valnöt och oxidativ karaktär pekar mot Oloroso."
+  },
+  {
+    "id": "amarone_vs_ripasso",
+    "type": "style_vs_style",
+    "title": "Amarone vs Ripasso",
+    "grape": "amarone",
+    "styleA": { "name": "Amarone della Valpolicella", "region": "Valpolicella, Veneto" },
+    "styleB": { "name": "Ripasso della Valpolicella", "region": "Valpolicella, Veneto" },
+    "styleACharacter": [
+      "Fullt appassimento — torkade druvor",
+      "Extremt koncentrerad",
+      "Hög alkohol 15–17%",
+      "Choklad, torkad frukt, läder",
+      "Kräver lång lagring"
+    ],
+    "styleBCharacter": [
+      "Passeras över Amarone-druvskalen",
+      "Mellanstig i koncentration",
+      "Lägre alkohol än Amarone",
+      "Mer tillgänglig och prisvärd",
+      "Körsbär och mörk frukt med extra kropp"
+    ],
+    "blindTastingTip": "Extremt koncentrerad, hög alkohol och torkad frukt pekar mot Amarone. Mer tillgänglig med körsbärsfrukt men extra kropp pekar mot Ripasso."
+  }
 ]

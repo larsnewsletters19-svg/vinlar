@@ -16,16 +16,18 @@ const countries = [
   { id: 'portugal', label: 'Portugal', emoji: '🇵🇹' },
   { id: 'southafrica', label: 'Sydafrika', emoji: '🇿🇦' },
   { id: 'newworld', label: 'Nya världen', emoji: '🌏' },
+  { id: 'sweet', label: 'Söta & förstärkta', emoji: '🍯' },
 ];
 
 const countryMap: Record<string, string[]> = {
-  france: ['sauvignon_blanc_loire_vs_marlborough', 'chardonnay_chablis_vs_new_world', 'syrah_rhone_vs_barossa', 'pinot_noir_bourgogne_vs_oregon', 'riesling_mosel_vs_alsace', 'nebbiolo_barolo_vs_barbaresco', 'sangiovese_chianti_vs_brunello', 'grenache_rhone_vs_priorat', 'champagne_vs_cava_vs_prosecco', 'chenin_blanc_loire_vs_sa', 'pinot_noir_burgundy_vs_newzealand', 'chenin_sa_vs_loire', 'port_vs_sherry'],
-  italy: ['nebbiolo_barolo_vs_barbaresco', 'sangiovese_chianti_vs_brunello', 'champagne_vs_cava_vs_prosecco'],
-  spain: ['tempranillo_rioja_vs_ribera', 'grenache_rhone_vs_priorat', 'champagne_vs_cava_vs_prosecco', 'carmenere_chile', 'vinho_verde_vs_albarino', 'douro_vs_rioja', 'port_vs_sherry'],
-  germany: ['riesling_mosel_vs_alsace', 'riesling_germany_vs_australia', 'gruner_wachau_vs_wien'],
-  portugal: ['vinho_verde_vs_albarino', 'douro_vs_rioja', 'port_vs_sherry'],
+  france: ['sauvignon_blanc_loire_vs_marlborough', 'chardonnay_chablis_vs_new_world', 'syrah_rhone_vs_barossa', 'pinot_noir_bourgogne_vs_oregon', 'riesling_mosel_vs_alsace', 'nebbiolo_barolo_vs_barbaresco', 'sangiovese_chianti_vs_brunello', 'grenache_rhone_vs_priorat', 'champagne_vs_cava_vs_prosecco', 'chenin_blanc_loire_vs_sa', 'pinot_noir_burgundy_vs_newzealand', 'chenin_sa_vs_loire', 'port_vs_sherry', 'sauternes_vs_tokaji', 'sauternes_vs_eiswein'],
+  italy: ['nebbiolo_barolo_vs_barbaresco', 'sangiovese_chianti_vs_brunello', 'champagne_vs_cava_vs_prosecco', 'amarone_vs_ripasso'],
+  spain: ['tempranillo_rioja_vs_ribera', 'grenache_rhone_vs_priorat', 'champagne_vs_cava_vs_prosecco', 'carmenere_chile', 'vinho_verde_vs_albarino', 'douro_vs_rioja', 'port_vs_sherry', 'fino_vs_oloroso'],
+  germany: ['riesling_mosel_vs_alsace', 'riesling_germany_vs_australia', 'gruner_wachau_vs_wien', 'sauternes_vs_eiswein'],
+  portugal: ['vinho_verde_vs_albarino', 'douro_vs_rioja', 'port_vs_sherry', 'port_ruby_vs_tawny'],
   southafrica: ['chenin_sa_vs_loire', 'pinotage_vs_syrah'],
-  newworld: ['sauvignon_blanc_loire_vs_marlborough', 'chardonnay_chablis_vs_new_world', 'syrah_rhone_vs_barossa', 'pinot_noir_bourgogne_vs_oregon', 'riesling_germany_vs_australia', 'chenin_blanc_loire_vs_sa', 'cabernet_chile_vs_napa', 'malbec_mendoza_vs_cahors', 'carmenere_chile', 'pinot_noir_burgundy_vs_newzealand', 'chenin_sa_vs_loire', 'pinotage_vs_syrah'],
+  newworld: ['sauvignon_blanc_loire_vs_marlborough', 'chardonnay_chablis_vs_new_world', 'syrah_rhone_vs_barossa', 'pinot_noir_bourgogne_vs_oregon', 'riesling_germany_vs_australia', 'chenin_blanc_loire_vs_sa', 'cabernet_chile_vs_napa', 'malbec_mendoza_vs_cahors', 'carmenere_chile', 'pinot_noir_burgundy_vs_newzealand', 'chenin_sa_vs_loire', 'pinotage_vs_syrah', 'sauternes_vs_eiswein'],
+  sweet: ['sauternes_vs_tokaji', 'sauternes_vs_eiswein', 'port_ruby_vs_tawny', 'fino_vs_oloroso', 'amarone_vs_ripasso'],
 };
 
 export default function StilarPage() {
