@@ -19,7 +19,7 @@ export interface Structure {
 export interface Grape {
   id: string;
   name: string;
-  type: 'white' | 'red' | 'sparkling';
+  type: 'white' | 'red' | 'sparkling' | 'sweet';
   shortDescription: string;
   typicalAromas: string[];
   aromaScores: AromaScores;

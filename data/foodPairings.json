@@ -103,4 +103,28 @@
     "pairings": ["Lammkotlett", "Svamp-risotto", "Kycklingrätter", "Getost", "Rödbetor"],
     "tip": "Cabernet Francs elegans och örtigthet passar till lättare kötträtter och grönsaksbaserade rätter — inte lika kraftig mat som Cabernet Sauvignon kräver."
   }
+  ,"sauternes": {
+    "pairings": ["Foie gras", "Blåmögelost (Roquefort)", "Fruktdessert", "Crème brûlée", "Hummer"],
+    "tip": "Sauternes klassiska kombination är foie gras — sötma mot sötma och salt. Blåmögelost är en annan klassiker där saltigheten balanserar vinets sötma."
+  },
+  "port": {
+    "pairings": ["Mörk choklad", "Valnötskaka", "Stilton-ost", "Torkade fikon", "Crème caramel"],
+    "tip": "Ruby Port passar till choklad och bär. Tawny Port är fantastiskt till nötter och karamelldesserter. Vintage Port till mogna ostar."
+  },
+  "sherry": {
+    "pairings": ["Manchego-ost", "Jamon ibérico", "Tapas", "Nötter och oliver", "Crème caramel"],
+    "tip": "Fino Sherry är perfekt som aperitif med tapas och skaldjur. Oloroso passar till nötter och ost. PX hälls klassiskt över glass eller serveras till choklad."
+  },
+  "moscato": {
+    "pairings": ["Färska bär", "Pannacotta", "Lätta fruktdesserter", "Macarons", "Persikotårta"],
+    "tip": "Moscato d'Astis låga alkohol och friskhet gör den perfekt som dessertvin utan att vara för tung. Passar också som aperitif."
+  },
+  "eiswein": {
+    "pairings": ["Foie gras", "Fruktsorbet", "Mild blåmögelost", "Tarte tatin", "Serveras ensamt"],
+    "tip": "Eiswein är så intensivt att det ofta passar bäst ensamt som meditation. Små glas — det räcker långt."
+  }
+  ,"amarone": {
+    "pairings": ["Braised oxkind", "Vilt", "Hårdost (Parmigiano)", "Mörk choklad", "Tryffelrätter"],
+    "tip": "Amarones kraft kräver mat med lika mycket intensitet. Braised kött som tillagas länge passar perfekt — fettet och umamin balanserar vinets tannin och alkohol."
+  }
 }

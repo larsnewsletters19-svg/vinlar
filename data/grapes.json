@@ -719,4 +719,169 @@
     "blindTastingClues": ["Körsbär och röd frukt", "Paprika – tydligare än Cab Sauv", "Viol och blommighet", "Örtig och jordigt", "Lättare kropp än Cabernet Sauvignon"],
     "commonConfusions": ["Cabernet Sauvignon", "Sangiovese", "Pinot Noir"]
   }
+  ,{
+    "id": "sauternes",
+    "name": "Sauternes",
+    "type": "sweet",
+    "shortDescription": "Världens mest kända söta vin från Bordeaux. Botrytis-påverkad Semillon och Sauvignon Blanc. Intensiv honung, aprikos och saffran.",
+    "typicalAromas": ["honey", "apricot", "dried_fruit", "vanilla", "toast", "orange_peel"],
+    "aromaScores": {
+      "lemon": 2, "lime": 1, "grapefruit": 1, "orange_peel": 4,
+      "green_apple": 1, "pear": 2, "peach": 3, "apricot": 5, "nectarine": 2,
+      "passion_fruit": 1, "pineapple": 2, "mango": 2, "lychee": 0,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 3, "rose": 1, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 1, "chalk": 1, "slate": 0, "wet_earth": 0, "mushroom": 1, "truffle": 1,
+      "vanilla": 4, "butter": 2, "toast": 3, "coconut": 0, "nuts": 2, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 5, "dried_fruit": 5, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 4, "body": 5, "alcohol": 3, "tannin": 0, "sweetness": 5, "oak": 3 },
+    "commonRegionsAndStyles": [
+      { "name": "Sauternes, Bordeaux", "description": "Den klassiska stilen. Botrytis cinerea (ädelröta) koncentrerar druvorna. Château d'Yquem är världens finaste." },
+      { "name": "Barsac, Bordeaux", "description": "Grannappellation till Sauternes. Liknande stil men ofta lite lättare och friskare." }
+    ],
+    "blindTastingClues": ["Intensiv honung", "Aprikos och torkad frukt", "Hög syra balanserar sötman", "Saffranslik guldton i färgen", "Lång och komplex finish"],
+    "commonConfusions": ["Tokaji (Ungern)", "Beerenauslese (Tyskland)", "Eiswein"]
+  },
+  {
+    "id": "port",
+    "name": "Port",
+    "type": "sweet",
+    "shortDescription": "Portugals mest kända vin. Förstärkt med druvsprit under jäsningen. Ruby är fruktigt och ungt, Tawny är nötigt och oxidativt.",
+    "typicalAromas": ["blackberry", "plum", "dried_fruit", "chocolate", "nuts", "honey"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 2,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 2, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 2, "strawberry": 1, "cherry": 3, "cranberry": 0,
+      "blackcurrant": 3, "blackberry": 4, "blueberry": 2, "plum": 4,
+      "white_flowers": 0, "rose": 1, "violet": 2,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 1, "white_pepper": 0, "liquorice": 2,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 1, "mushroom": 0, "truffle": 0,
+      "vanilla": 2, "butter": 0, "toast": 1, "coconut": 0, "nuts": 4, "coffee": 2, "chocolate": 4,
+      "petrol": 0, "honey": 3, "dried_fruit": 5, "tobacco": 2, "leather": 2
+    },
+    "structure": { "acidity": 2, "body": 5, "alcohol": 5, "tannin": 3, "sweetness": 5, "oak": 3 },
+    "commonRegionsAndStyles": [
+      { "name": "Ruby Port", "description": "Ungt och fruktigt. Mörk bärfrukt och choklad. Dricks relativt ungt." },
+      { "name": "Tawny Port", "description": "Oxidativt lagrat i små fat. Nötter, karamell, apelsin och torkad frukt. 10, 20, 30 eller 40 år." },
+      { "name": "Vintage Port", "description": "Bästa årgångarna. Lagras på flaska i decennier. Komplex och lagringsvärd." }
+    ],
+    "blindTastingClues": ["Hög alkohol 19–22%", "Intensiv sötma", "Mörk frukt (Ruby) eller nötter/karamell (Tawny)", "Torkad frukt alltid närvarande", "Lång och varm finish"],
+    "commonConfusions": ["Sherry", "Madeira", "Marsala"]
+  },
+  {
+    "id": "sherry",
+    "name": "Sherry",
+    "type": "sweet",
+    "shortDescription": "Spaniens förstärkta vin från Jerez. Kan vara torrt eller sött. Fino är salt och torrt, Pedro Ximénez är intensivt söt som flytande russin.",
+    "typicalAromas": ["nuts", "dried_fruit", "honey", "flint", "wet_earth", "vanilla"],
+    "aromaScores": {
+      "lemon": 1, "lime": 0, "grapefruit": 0, "orange_peel": 3,
+      "green_apple": 1, "pear": 1, "peach": 0, "apricot": 2, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 1,
+      "white_flowers": 0, "rose": 0, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 1,
+      "flint": 3, "chalk": 2, "slate": 0, "wet_earth": 2, "mushroom": 1, "truffle": 0,
+      "vanilla": 2, "butter": 1, "toast": 2, "coconut": 0, "nuts": 5, "coffee": 2, "chocolate": 1,
+      "petrol": 0, "honey": 4, "dried_fruit": 5, "tobacco": 1, "leather": 1
+    },
+    "structure": { "acidity": 3, "body": 4, "alcohol": 5, "tannin": 0, "sweetness": 4, "oak": 3 },
+    "commonRegionsAndStyles": [
+      { "name": "Fino / Manzanilla", "description": "Torrt, salt och mineraliskt. Flor-jäst. Mandel och äpple. Serveras kallt som aperitif." },
+      { "name": "Oloroso", "description": "Oxidativt, fylligt och nötigt. Kan vara torrt eller söt. Valnöt och karamell." },
+      { "name": "Pedro Ximénez (PX)", "description": "Intensivt söt som flytande russin. Häll över glass. Extremt koncentrerat." }
+    ],
+    "blindTastingClues": ["Nötton – mandel eller valnöt", "Salt mineralitet (Fino)", "Intensiv torkad frukt (PX)", "Oxidativ karaktär", "Hög alkohol 15–22%"],
+    "commonConfusions": ["Port", "Madeira", "Marsala"]
+  },
+  {
+    "id": "moscato",
+    "name": "Moscato d'Asti",
+    "type": "sweet",
+    "shortDescription": "Lätt mousserande och söt italiensk druva. Låg alkohol, intensiv druv- och blommighet. Perfekt dessertvin eller aperitif.",
+    "typicalAromas": ["lychee", "white_flowers", "peach", "apricot", "honey", "orange_peel"],
+    "aromaScores": {
+      "lemon": 2, "lime": 1, "grapefruit": 0, "orange_peel": 3,
+      "green_apple": 1, "pear": 2, "peach": 4, "apricot": 4, "nectarine": 2,
+      "passion_fruit": 1, "pineapple": 2, "mango": 1, "lychee": 4,
+      "raspberry": 0, "strawberry": 2, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 5, "rose": 3, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 0, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 3, "dried_fruit": 1, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 3, "body": 1, "alcohol": 1, "tannin": 0, "sweetness": 4, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Asti, Piemonte, Italien", "description": "Den klassiska stilen. Låg alkohol 5–7%. Frisk, blommig och lätt mousserande. Dricks ung och kall." }
+    ],
+    "blindTastingClues": ["Intensiv blommighet och druvarom", "Låg alkohol", "Lätt pärla", "Söt men med frisk syra", "Persika och aprikoston"],
+    "commonConfusions": ["Prosecco", "Gewürztraminer", "Riesling Spätlese"]
+  },
+  {
+    "id": "eiswein",
+    "name": "Eiswein / Ice Wine",
+    "type": "sweet",
+    "shortDescription": "Gjort av frysta druvor skördade i vinterkyla. Extremt koncentrerat, intensivt sött och med hög syra. En av vinvärldens mest unika stilar.",
+    "typicalAromas": ["honey", "apricot", "peach", "dried_fruit", "orange_peel", "lemon"],
+    "aromaScores": {
+      "lemon": 3, "lime": 2, "grapefruit": 1, "orange_peel": 4,
+      "green_apple": 2, "pear": 3, "peach": 4, "apricot": 5, "nectarine": 3,
+      "passion_fruit": 2, "pineapple": 2, "mango": 1, "lychee": 0,
+      "raspberry": 1, "strawberry": 1, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 2, "rose": 0, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 1, "chalk": 0, "slate": 1, "wet_earth": 0, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 1, "honey": 5, "dried_fruit": 4, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 5, "body": 4, "alcohol": 2, "tannin": 0, "sweetness": 5, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Tyskland / Österrike (Eiswein)", "description": "Traditionell stil. Oftast på Riesling. Extremt sällsynt och dyrt. Skördas vid -8°C eller kallare." },
+      { "name": "Kanada (Ice Wine)", "description": "Världens största producent. Oftast på Vidal-druvan. Mer tillgänglig men lika intensiv." }
+    ],
+    "blindTastingClues": ["Extremt hög sötma OCH hög syra", "Intensiv honung och aprikoskoncentrat", "Mycket liten volym per flaska", "Tjock och sirapsaktig konsistens", "Låg alkohol trots intensiteten"],
+    "commonConfusions": ["Sauternes", "Trockenbeerenauslese", "Tokaji"]
+  }
+  ,{
+    "id": "amarone",
+    "name": "Amarone & Valpolicella",
+    "type": "sweet",
+    "shortDescription": "Nordöstra Italiens stora röda viner. Amarone görs på torkade druvor och är kraftfull och torr. Ripasso är en mellanstig. Valpolicella är det lätta vardagsvinet. Alla på Corvina-druvan.",
+    "typicalAromas": ["dried_fruit", "chocolate", "plum", "tobacco", "leather", "cherry"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 2,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 1, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 2, "strawberry": 1, "cherry": 4, "cranberry": 0,
+      "blackcurrant": 2, "blackberry": 3, "blueberry": 1, "plum": 4,
+      "white_flowers": 0, "rose": 1, "violet": 3,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 2, "white_pepper": 0, "liquorice": 3,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 2, "mushroom": 2, "truffle": 2,
+      "vanilla": 2, "butter": 0, "toast": 2, "coconut": 0, "nuts": 1, "coffee": 3, "chocolate": 5,
+      "petrol": 0, "honey": 1, "dried_fruit": 5, "tobacco": 4, "leather": 4
+    },
+    "structure": { "acidity": 3, "body": 5, "alcohol": 5, "tannin": 4, "sweetness": 2, "oak": 3 },
+    "commonRegionsAndStyles": [
+      { "name": "Amarone della Valpolicella", "description": "Torkat vin (appassimento) på Corvina m.fl. Torrt men extremt koncentrerat. Hög alkohol 15–17%. Choklad, torkad frukt, läder och tobak." },
+      { "name": "Ripasso della Valpolicella", "description": "Valpolicella som 'passeras' över Amarone-druvskalen. Mellanstig — mer kropp och komplexitet än vanlig Valpolicella men lättare än Amarone." },
+      { "name": "Valpolicella Classico", "description": "Lätt och fruktig vardagsstil. Körsbär och röda bär. Dricks ung och frisk." },
+      { "name": "Recioto della Valpolicella", "description": "Söt version av Amarone. Gjord på torkade druvor men inte fulljäst. Intensivt söt med mörk frukt och choklad." }
+    ],
+    "blindTastingClues": ["Torkad frukt och russin", "Mycket hög alkohol", "Choklad och kaffe", "Koncentrerad och fyllig", "Bitter eftersmak (Amarone = 'den bittre')"],
+    "commonConfusions": ["Port (Ruby)", "Zinfandel", "Primitivo"]
+  }
 ]
