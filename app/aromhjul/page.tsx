@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import grapes from '@/data/grapes.json';
 import aromas from '@/data/aromas.json';
 import { Grape, Aroma } from '@/types';
+import { useSearchParams } from 'next/navigation';
 
 const allGrapes = grapes as Grape[];
 const allAromas = aromas as Aroma[];
@@ -33,7 +34,9 @@ const grapeGroups = [
 ];
 
 export default function AromhjulPage() {
-  const [selectedGrapes, setSelectedGrapes] = useState<string[]>(['riesling']);
+  const searchParams = useSearchParams();
+  const initialGrape = searchParams.get('druva') ?? 'riesling';
+  const [selectedGrapes, setSelectedGrapes] = useState<string[]>([initialGrape]);
   const [activeFamily, setActiveFamily] = useState<string | null>(null);
   const [activeGroup, setActiveGroup] = useState<'white' | 'red' | 'sparkling'>('white');
   const canvasRef = useRef<HTMLCanvasElement>(null);

@@ -42,9 +42,17 @@ export default async function GrapePage({ params }: { params: Promise<{ id: stri
 
   return (
     <div className="px-4 py-8 max-w-2xl mx-auto">
-      <Link href="/druvor" className="text-wine-400 text-sm hover:text-wine-200 flex items-center gap-1 mb-6">
-        ← Alla druvor
-      </Link>
+     <div className="flex items-center justify-between mb-6">
+        <Link href="/druvor" className="text-wine-400 text-sm hover:text-wine-200 flex items-center gap-1">
+          ← Alla druvor
+        </Link>
+        <Link
+          href={`/aromhjul?druva=${grape.id}`}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-wine-900 border border-wine-700 text-wine-300 text-sm hover:border-wine-500 hover:text-wine-100 transition-colors"
+        >
+          🌸 Visa i aromhjul
+        </Link>
+      </div>
 
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-3">
@@ -135,10 +143,10 @@ export default async function GrapePage({ params }: { params: Promise<{ id: stri
       </section>
 
       <section className="mb-8">
-        <h2 className="font-display text-xl text-wine-100 mb-3">Förväxlas ofta med</h2>
+        <h2 className="font-display text-xl text-wine-100 mb-3">🔗 Relaterade druvor</h2>
         <div className="flex flex-wrap gap-2">
           {grape.commonConfusions.map((name) => {
-            const match = allGrapes.find((g) => g.name === name);
+            const match = allGrapes.find((g) => g.name === name || g.name.includes(name) || name.includes(g.name.split('/')[0].trim()));
             return match ? (
               <Link
                 key={name}

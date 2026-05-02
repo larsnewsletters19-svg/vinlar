@@ -16,7 +16,13 @@ const tabs = [
 
 export default function DruvorPage() {
   const [activeTab, setActiveTab] = useState<'white' | 'red' | 'sparkling' | 'sweet'>('white');
-  const filtered = allGrapes.filter((g) => g.type === activeTab);
+  const [search, setSearch] = useState('');
+
+  const filtered = search.length > 0
+    ? allGrapes.filter((g) =>
+        g.name.toLowerCase().includes(search.toLowerCase())
+      )
+    : allGrapes.filter((g) => g.type === activeTab);
 
   return (
     <div className="px-4 py-8 max-w-2xl mx-auto">
@@ -25,12 +31,21 @@ export default function DruvorPage() {
         Välj en druva för att se dess typiska aromer, smakstruktur och blindprovningstips.
       </p>
 
+      {/* Search */}
+      <input
+        type="text"
+        placeholder="Sök druva..."
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+        className="w-full bg-wine-900 border border-wine-700 text-wine-100 rounded-xl px-4 py-3 mb-4 text-sm focus:outline-none focus:border-amber-400 placeholder-wine-600"
+      />
+
       {/* Tabs */}
       <div className="flex gap-1 mb-6 bg-wine-900 p-1 rounded-xl border border-wine-800">
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            onClick={() => setActiveTab(tab.id as typeof activeTab)}
+            onClick={() => { setActiveTab(tab.id as typeof activeTab); setSearch(''); }}
             className={`flex-1 py-2 px-2 rounded-lg text-sm font-medium transition-all ${
               activeTab === tab.id
                 ? 'bg-wine-600 text-white'
@@ -44,11 +59,17 @@ export default function DruvorPage() {
         ))}
       </div>
 
-      <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-        {filtered.map((grape) => (
-          <GrapeCard key={grape.id} grape={grape} />
-        ))}
-      </ul>
+      {filtered.length === 0 ? (
+        <div className="text-center text-wine-500 py-8">
+          Ingen druva matchar sökningen.
+        </div>
+      ) : (
+        <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+          {filtered.map((grape) => (
+            <GrapeCard key={grape.id} grape={grape} />
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
