@@ -77,6 +77,7 @@ export interface TrainingQuestion {
 
 export interface LearnItem {
   id: string;
+  section: 'mouth' | 'winemaking' | 'technique';
   name: string;
   icon: string;
   shortDescription: string;
