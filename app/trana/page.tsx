@@ -18,7 +18,9 @@ const categories = [
   { id: 'white', label: 'Vita druvor', emoji: '🥂' },
   { id: 'red', label: 'Röda druvor', emoji: '🍷' },
   { id: 'sparkling', label: 'Mousserande', emoji: '🍾' },
+  { id: 'sweet', label: 'Söta & förstärkta', emoji: '🍯' },
   { id: 'style', label: 'Stilar & regioner', emoji: '🗺️' },
+  { id: 'knowledge', label: 'Vinkunskap', emoji: '📚' },
 ];
 
 const difficulties = [
@@ -40,7 +42,9 @@ export default function TranaPage() {
 
   const startQuiz = () => {
     const filtered = allQuestions.filter((q) => {
-      const catMatch = category === 'all' || q.category === category;
+      const knowledgeCategories = ['winemaking', 'technique', 'glossary'];
+      const catMatch = category === 'all' || 
+        (category === 'knowledge' ? knowledgeCategories.includes(q.category) : q.category === category);
       const diffMatch = difficulty === 'all' || q.difficulty === difficulty;
       return catMatch && diffMatch;
     });
@@ -77,7 +81,9 @@ export default function TranaPage() {
 
   if (!started) {
     const filteredCount = allQuestions.filter((q) => {
-      const catMatch = category === 'all' || q.category === category;
+      const knowledgeCategories = ['winemaking', 'technique', 'glossary'];
+      const catMatch = category === 'all' || 
+        (category === 'knowledge' ? knowledgeCategories.includes(q.category) : q.category === category);
       const diffMatch = difficulty === 'all' || q.difficulty === difficulty;
       return catMatch && diffMatch;
     }).length;

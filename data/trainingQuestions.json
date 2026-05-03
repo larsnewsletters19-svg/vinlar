@@ -769,4 +769,229 @@
     "correctAnswer": "Tokaji Furmint (torr)",
     "explanation": "Hög syra + mineralitet + honung + komplext + från Ungern = torr Furmint. Kallas ibland Ungerns svar på Chablis men med mer kropp och honungslik ton."
   }
+  ,{
+    "id": "q066",
+    "type": "distinguish",
+    "category": "winemaking",
+    "difficulty": "beginner",
+    "question": "Vad är malolaktisk jäsning (MLF)?",
+    "options": [
+      "När jäst omvandlar socker till alkohol",
+      "När bakterier omvandlar skarp äppelsyra till mjukare mjölksyra",
+      "När vin lagras i ekfat",
+      "När druvor pressas för att ge must"
+    ],
+    "correctAnswer": "När bakterier omvandlar skarp äppelsyra till mjukare mjölksyra",
+    "explanation": "MLF är en biologisk process där bakterier omvandlar äppelsyra till mjölksyra. Det mjukar syran och ger smörighet — typiskt i ekad Chardonnay men undviks i friska vita viner som Sauvignon Blanc."
+  },
+  {
+    "id": "q067",
+    "type": "distinguish",
+    "category": "winemaking",
+    "difficulty": "beginner",
+    "question": "Vad är botrytis och vad används det till?",
+    "options": [
+      "En typ av ekfat som ger vaniljton",
+      "En svamp som koncentrerar druvans socker och aromer — grunden för söta viner som Sauternes",
+      "En jästtyp som ger mousserande vin",
+      "En druvsjukdom som förstör skörden"
+    ],
+    "correctAnswer": "En svamp som koncentrerar druvans socker och aromer — grunden för söta viner som Sauternes",
+    "explanation": "Botrytis cinerea (ädelröta) torkar ut druvor under rätt förhållanden och koncentrerar socker, syra och aromer. Grunden för Sauternes, Tokaji och tyska Trockenbeerenauslese."
+  },
+  {
+    "id": "q068",
+    "type": "distinguish",
+    "category": "winemaking",
+    "difficulty": "intermediate",
+    "question": "Vad är appassimento?",
+    "options": [
+      "En italiensk metod att torka druvor för att koncentrera socker och aromer",
+      "En typ av eklagring i Barolo",
+      "Malolaktisk jäsning på italienska",
+      "En metod att göra mousserande vin"
+    ],
+    "correctAnswer": "En italiensk metod att torka druvor för att koncentrera socker och aromer",
+    "explanation": "Appassimento innebär att druvor torkas i månader på hyllor. Vatten avdunstar och allt koncentreras. Grunden för Amarone och Recioto della Valpolicella."
+  },
+  {
+    "id": "q069",
+    "type": "distinguish",
+    "category": "winemaking",
+    "difficulty": "intermediate",
+    "question": "Vad skiljer franskt ek från amerikanskt ek i vinlagring?",
+    "options": [
+      "Franskt ek ger mer kokos och vanilj, amerikanskt ek ger mer subtila kryddtoner",
+      "Franskt ek ger subtila kryddtoner och elegans, amerikanskt ek ger tydlig kokos och vanilj",
+      "De ger identiska aromer men amerikanskt ek är billigare",
+      "Franskt ek används bara för vita viner"
+    ],
+    "correctAnswer": "Franskt ek ger subtila kryddtoner och elegans, amerikanskt ek ger tydlig kokos och vanilj",
+    "explanation": "Franskt ek integreras mer diskret och ger elegans. Amerikanskt ek är mer påträngande med tydlig sötaktig vanilj och kokos — klassiskt i Rioja och australiensisk Shiraz."
+  },
+  {
+    "id": "q070",
+    "type": "distinguish",
+    "category": "winemaking",
+    "difficulty": "intermediate",
+    "question": "Vad är macerering och hur påverkar det vinet?",
+    "options": [
+      "Lagring i ekfat som ger vanilj och smörighet",
+      "Skalkontakt under jäsningen som ger tannin, färg och aromer",
+      "Processen att ta bort jästsediment från mousserande vin",
+      "Omvandling av äppelsyra till mjölksyra"
+    ],
+    "correctAnswer": "Skalkontakt under jäsningen som ger tannin, färg och aromer",
+    "explanation": "Macerering är när druvskal är i kontakt med musten. Ju längre macerering, desto mer tannin och färg. Kort macerering ger lite tannin (Pinot Noir), lång ger mycket (Barolo)."
+  },
+  {
+    "id": "q071",
+    "type": "distinguish",
+    "category": "winemaking",
+    "difficulty": "advanced",
+    "question": "Vad är kolsyrjäsning och vilken druva förknippas den med?",
+    "options": [
+      "Lagring under koldioxid för att bevara frukten — används i Barolo",
+      "Jäsning inuti hela druvor under CO2 — ger fruktig mjuk stil — används i Beaujolais",
+      "Tillsättning av koldioxid för att göra mousserande vin",
+      "En metod att sänka syran i varma klimat"
+    ],
+    "correctAnswer": "Jäsning inuti hela druvor under CO2 — ger fruktig mjuk stil — används i Beaujolais",
+    "explanation": "Kolsyrjäsning ger intensiv frukt, mjukt tannin och ibland bananliknande aromer. Används i Beaujolais Nouveau för att skapa en omedelbart fruktig och lättdrucken stil."
+  },
+  {
+    "id": "q072",
+    "type": "distinguish",
+    "category": "technique",
+    "difficulty": "beginner",
+    "question": "Vad är syftet med dekantring?",
+    "options": [
+      "Att kyla ner vinet snabbt",
+      "Att lufta unga viner eller avlägsna bottensats från gamla viner",
+      "Att tillsätta socker för att öka alkoholen",
+      "Att filtrera bort jästsediment från mousserande vin"
+    ],
+    "correctAnswer": "Att lufta unga viner eller avlägsna bottensats från gamla viner",
+    "explanation": "Dekantring fyller två syften: unga tanninrika viner öppnar sig snabbare med luft, och gamla viner separeras från bottensatsen som bildas med ålder."
+  },
+  {
+    "id": "q073",
+    "type": "distinguish",
+    "category": "technique",
+    "difficulty": "beginner",
+    "question": "Vilken temperatur passar bäst för att servera ett rött vin?",
+    "options": [
+      "6–8°C — samma som mousserande vin",
+      "20–22°C — normal rumstemperatur",
+      "15–18°C — svalare än de flesta tror",
+      "25°C — så varmt som möjligt för att öppna aromerna"
+    ],
+    "correctAnswer": "15–18°C — svalare än de flesta tror",
+    "explanation": "Röda viner ska serveras svalare än vad de flesta tror. Historisk rumstemperatur var 18°C, inte moderna 22–24°C. För varmt accentuerar alkoholen och dämpar friskhet."
+  },
+  {
+    "id": "q074",
+    "type": "distinguish",
+    "category": "technique",
+    "difficulty": "intermediate",
+    "question": "Vilket vin ska ALDRIG dekanteras?",
+    "options": [
+      "Barolo",
+      "Vintage Cabernet Sauvignon",
+      "Champagne",
+      "Unga Syrah"
+    ],
+    "correctAnswer": "Champagne",
+    "explanation": "Champagne dekanteras aldrig — bubblorna försvinner och vinet förlorar sin karaktär. Alla andra alternativ kan med fördel dekanteras för att öppna sig."
+  },
+  {
+    "id": "q075",
+    "type": "distinguish",
+    "category": "technique",
+    "difficulty": "intermediate",
+    "question": "Vad menas med 'finish' eller 'eftersmaker' i vinprovning?",
+    "options": [
+      "Den första doften du känner när du öppnar flaskan",
+      "Hur länge smaken stannar kvar i munnen efter att du svalt",
+      "Hur mycket tannin vinet har",
+      "Vinets färg och klarhet"
+    ],
+    "correctAnswer": "Hur länge smaken stannar kvar i munnen efter att du svalt",
+    "explanation": "Finish mäts i sekunder — kort under 5 sek, medel 10–15 sek, lång 20+ sek. En lång finish är ett av de viktigaste tecknen på kvalitet och komplexitet."
+  },
+  {
+    "id": "q076",
+    "type": "distinguish",
+    "category": "glossary",
+    "difficulty": "beginner",
+    "question": "Vad betyder 'Brut' på en Champagneflaska?",
+    "options": [
+      "Att vinet är eklagrat",
+      "Att vinet är torrt med lågt restssocker",
+      "Att vinet är gjort på en enda årgång",
+      "Att vinet är gjort enbart på Chardonnay"
+    ],
+    "correctAnswer": "Att vinet är torrt med lågt restssocker",
+    "explanation": "Brut = under 12 g/l restssocker. Extra Brut är ännu torrare (under 6 g/l). Brut Nature är nästan sockerfritt (0–3 g/l). Brut är den vanligaste stilen för Champagne."
+  },
+  {
+    "id": "q077",
+    "type": "distinguish",
+    "category": "glossary",
+    "difficulty": "beginner",
+    "question": "Vad är terroir?",
+    "options": [
+      "En fransk vinregion känd för Chardonnay",
+      "Summan av alla naturliga faktorer på en plats — jord, klimat, topografi — som påverkar vinet",
+      "En vinmakningsteknik för att bevara fruktaromer",
+      "En klassificering av vingårdar i Bourgogne"
+    ],
+    "correctAnswer": "Summan av alla naturliga faktorer på en plats — jord, klimat, topografi — som påverkar vinet",
+    "explanation": "Terroir förklarar varför samma druva smakar olika i Bourgogne och Oregon. Det är hela den naturliga miljön — jord, klimat, höjd, exposition — som formar vinet."
+  },
+  {
+    "id": "q078",
+    "type": "distinguish",
+    "category": "glossary",
+    "difficulty": "intermediate",
+    "question": "Vad är skillnaden mellan Premier Cru och Grand Cru i Bourgogne?",
+    "options": [
+      "De är samma sak men olika regioner använder olika termer",
+      "Grand Cru är den högsta klassificeringen, Premier Cru är ett steg under",
+      "Premier Cru är bättre än Grand Cru i Bourgogne",
+      "Grand Cru används bara för vita viner"
+    ],
+    "correctAnswer": "Grand Cru är den högsta klassificeringen, Premier Cru är ett steg under",
+    "explanation": "I Bourgogne: Village → Premier Cru → Grand Cru (högst). Grand Cru-vingårdar som Romanée-Conti och Le Montrachet är världens mest eftertraktade och dyra viner."
+  },
+  {
+    "id": "q079",
+    "type": "distinguish",
+    "category": "glossary",
+    "difficulty": "intermediate",
+    "question": "Vad innebär 'sur lie'-lagring?",
+    "options": [
+      "Lagring i nya ekfat för maximal eksmak",
+      "Lagring på jästfällningen som ger komplexitet och krämighet",
+      "Lagring i kall källare för att bevara friskhet",
+      "Lagring utan syrskontakt för att undvika oxidation"
+    ],
+    "correctAnswer": "Lagring på jästfällningen som ger komplexitet och krämighet",
+    "explanation": "Sur lie-lagring (på jästfällningen) ger komplexitet, krämighet och brödliknande aromer. Används i Muscadet, Champagne och många fina Chardonnay."
+  },
+  {
+    "id": "q080",
+    "type": "distinguish",
+    "category": "glossary",
+    "difficulty": "advanced",
+    "question": "Vad är skillnaden mellan ett förstärkt vin och ett vanligt vin?",
+    "options": [
+      "Förstärkta viner har mer fruktarom från längre macerering",
+      "Druvsprit tillsätts för att höja alkoholen till 15–22% och ge längre hållbarhet",
+      "Förstärkta viner är alltid söta",
+      "De görs på torkade druvor som Amarone"
+    ],
+    "correctAnswer": "Druvsprit tillsätts för att höja alkoholen till 15–22% och ge längre hållbarhet",
+    "explanation": "Förstärkning innebär att druvsprit tillsätts — under jäsning (Port, bevarar sötma) eller efter (Sherry, blir torrare). Ger alkohol på 15–22% och mycket längre hållbarhet."
+  }
 ]

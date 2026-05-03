@@ -31,6 +31,7 @@ const grapeGroups = [
   { id: 'white', label: '🥂 Vita', type: 'white' as const },
   { id: 'red', label: '🍷 Röda', type: 'red' as const },
   { id: 'sparkling', label: '🍾 Mousserande', type: 'sparkling' as const },
+  { id: 'sweet', label: '🍯 Söta', type: 'sweet' as const },
 ];
 
 function AromhjulContent() {

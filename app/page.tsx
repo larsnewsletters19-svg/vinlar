@@ -43,6 +43,13 @@ const sections = [
     desc: 'Förstå syra, tannin, kropp och ek.',
     color: 'from-emerald-900 to-stone-950',
   },
+  {
+    href: '/ordlista',
+    icon: '📚',
+    title: 'Ordlista',
+    desc: 'Förklaringar av vanliga vinbegrepp.',
+    color: 'from-purple-900 to-wine-950',
+  },
 ];
 
 export default function Home() {
@@ -75,7 +82,7 @@ export default function Home() {
       </ul>
 
       <p className="text-center text-wine-500 text-xs mt-10">
-        Version 1.0 · Data lagras lokalt · Ingen inloggning krävs
+        Version 1.5 · Data lagras lokalt · Ingen inloggning krävs
       </p>
     </div>
   );
