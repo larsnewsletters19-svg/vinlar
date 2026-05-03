@@ -124,7 +124,7 @@ export default function JamforPage() {
             </label>
             <select
               value={grapeAId}
-              onChange={(e) => setGrapeAId(e.target.value)}
+              onChange={(e) => { setGrapeAId(e.target.value); setSelectedStyle(null); }}
               className="w-full bg-wine-900 border border-wine-700 text-wine-100 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-amber-400"
             >
               {allGrapes.map((g) => (
@@ -139,7 +139,7 @@ export default function JamforPage() {
             </label>
             <select
               value={grapeBId}
-              onChange={(e) => setGrapeBId(e.target.value)}
+              onChange={(e) => { setGrapeBId(e.target.value); setSelectedStyle(null); }}
               className="w-full bg-wine-900 border border-wine-700 text-wine-100 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-sky-400"
             >
               {allGrapes.map((g) => (
