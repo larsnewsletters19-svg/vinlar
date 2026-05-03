@@ -102,6 +102,9 @@ export default function JamforPage() {
   const activeStyle = selectedStyle
     ? (allComparisons.find((c) => c.id === selectedStyle) as StyleVsStyleComparison)
     : null;
+  const relevantStyles = styleComparisons.filter((c) => 
+    c.grape === grapeAId || c.grape === grapeBId
+  );
 
   return (
     <div className="px-4 py-8 max-w-2xl mx-auto">
@@ -251,8 +254,13 @@ export default function JamforPage() {
         <p className="text-wine-400 text-sm mb-4">Samma druva, helt olika uttryck beroende på var den odlas.</p>
 
         {!activeStyle ? (
+          relevantStyles.length === 0 ? (
+            <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800 text-wine-500 text-sm text-center">
+              Inga stilarjämförelser finns för dessa druvor. Utforska <a href="/stilar" className="text-amber-400 hover:underline">Stilar & regioner</a> för fler jämförelser.
+            </div>
+          ) : (
           <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-            {styleComparisons.map((c) => (
+            {relevantStyles.map((c) => (
               <li key={c.id}>
                 <button
                   onClick={() => setSelectedStyle(c.id)}
@@ -264,6 +272,7 @@ export default function JamforPage() {
               </li>
             ))}
           </ul>
+          )
         ) : (
           <div>
             <button onClick={() => setSelectedStyle(null)} className="text-wine-400 text-sm hover:text-wine-200 flex items-center gap-1 mb-6">
