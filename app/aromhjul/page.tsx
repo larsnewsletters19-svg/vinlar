@@ -41,7 +41,7 @@ function AromhjulContent() {
   const [activeFamily, setActiveFamily] = useState<string | null>(null);
   const initialGrapeData = allGrapes.find((g) => g.id === initialGrape);
   const initialGroup = (initialGrapeData?.type === 'red' ? 'red' : initialGrapeData?.type === 'sparkling' ? 'sparkling' : 'white') as 'white' | 'red' | 'sparkling';
-  const [activeGroup, setActiveGroup] = useState<'white' | 'red' | 'sparkling'>(initialGroup);
+  const [activeGroup, setActiveGroup] = useState<'white' | 'red' | 'sparkling' | 'sweet'>(initialGroup);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   const toggleGrape = (id: string) => {
