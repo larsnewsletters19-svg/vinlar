@@ -23,6 +23,13 @@ const sections = [
     color: 'from-indigo-900 to-wine-950',
   },
   {
+    href: '/regioner',
+    icon: '🌍',
+    title: 'Regioner',
+    desc: 'Utforska världens viktigaste vinregioner.',
+    color: 'from-teal-900 to-wine-950',
+  },
+  {
     href: '/aromhjul',
     icon: '🌸',
     title: 'Aromhjul',

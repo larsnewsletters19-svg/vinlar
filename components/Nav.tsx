@@ -7,6 +7,7 @@ const navItems = [
   { href: '/druvor', label: 'Druvor', icon: '🍇' },
   { href: '/jamfor', label: 'Jämför', icon: '⚖️' },
   { href: '/stilar', label: 'Stilar', icon: '🗺️' },
+  { href: '/regioner', label: 'Regioner', icon: '🌍' },
   { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
   { href: '/trana', label: 'Träna', icon: '🎯' },
   { href: '/lar-dig', label: 'Lär dig', icon: '🧠' },
@@ -14,10 +15,10 @@ const navItems = [
 ];
 
 const mobileNavItems = [
-  { href: '/', label: 'Hem', icon: '🏠' },
   { href: '/druvor', label: 'Druvor', icon: '🍇' },
   { href: '/jamfor', label: 'Jämför', icon: '⚖️' },
   { href: '/stilar', label: 'Stilar', icon: '🗺️' },
+  { href: '/regioner', label: 'Regioner', icon: '🌍' },
   { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
   { href: '/trana', label: 'Träna', icon: '🎯' },
   { href: '/lar-dig', label: 'Lär dig', icon: '🧠' },
