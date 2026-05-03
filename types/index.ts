@@ -19,6 +19,7 @@ export interface Structure {
 export interface Grape {
   id: string;
   name: string;
+  aliases?: string[];
   type: 'white' | 'red' | 'sparkling' | 'sweet';
   shortDescription: string;
   typicalAromas: string[];

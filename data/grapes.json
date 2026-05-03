@@ -224,6 +224,7 @@
   {
     "id": "albarino",
     "name": "Albariño",
+    "aliases": ["Alvarinho"],
     "type": "white",
     "shortDescription": "Frisk och aromatisk spansk druva från Galicien. Citrus, persika och salt mineralitet. Perfekt till skaldjur.",
     "typicalAromas": ["lime", "lemon", "grapefruit", "peach", "apricot", "flint"],
@@ -279,6 +280,7 @@
   {
     "id": "pinot_noir",
     "name": "Pinot Noir",
+    "aliases": ["Spätburgunder", "Pinot Nero"],
     "type": "red",
     "shortDescription": "Elegant, silkeslen röd druva med röda bär, blommor och jordighet. Lite tannin, hög syra.",
     "typicalAromas": ["raspberry", "cherry", "strawberry", "violet", "rose", "mushroom", "wet_earth"],
@@ -363,6 +365,7 @@
   {
     "id": "syrah",
     "name": "Syrah / Shiraz",
+    "aliases": ["Shiraz"],
     "type": "red",
     "shortDescription": "Kraftfull och mörk röd druva med svarta bär, svartpeppar och kött. Kallas Shiraz i Australien.",
     "typicalAromas": ["blackberry", "plum", "black_pepper", "violet", "leather"],
@@ -390,6 +393,7 @@
   {
     "id": "grenache",
     "name": "Grenache / Garnacha",
+    "aliases": ["Garnacha", "Cannonau"],
     "type": "red",
     "shortDescription": "Fruktig och varmklimatälskande röd druva med röda bär, kryddor och hög alkohol. Bas i södra Rhône och Spanien.",
     "typicalAromas": ["raspberry", "strawberry", "cherry", "black_pepper", "liquorice", "dried_fruit"],
@@ -474,6 +478,7 @@
   {
     "id": "tempranillo",
     "name": "Tempranillo",
+    "aliases": ["Tinta Roriz", "Aragonez", "Tinto Fino"],
     "type": "red",
     "shortDescription": "Spaniens viktigaste röda druva. Basen i Rioja och Ribera del Duero. Körsbär, läder, tobak och vanilj från ek.",
     "typicalAromas": ["cherry", "plum", "tobacco", "leather", "vanilla", "dried_fruit"],
@@ -912,4 +917,227 @@
     "blindTastingClues": ["Honung och aprikoskoncentrat", "Mycket hög syra trots sötman", "Mineralitet och flinta", "Apelsinskalsliknande bitterhet", "Lång och komplex finish"],
     "commonConfusions": ["Sauternes", "Eiswein", "Beerenauslese"]
   }
+  ,{
+    "id": "touriga_nacional",
+    "name": "Touriga Nacional",
+    "aliases": ["Touriga"],
+    "type": "red",
+    "shortDescription": "Portugals ädlaste röda druva. Basen i Port och Douro-viner. Intensiv blommighet, mörk frukt och kraftfullt tannin.",
+    "typicalAromas": ["blackberry", "plum", "violet", "rose", "dried_fruit", "chocolate"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 1,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 2, "strawberry": 1, "cherry": 3, "cranberry": 0,
+      "blackcurrant": 3, "blackberry": 5, "blueberry": 2, "plum": 4,
+      "white_flowers": 1, "rose": 3, "violet": 5,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 1, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 2, "white_pepper": 0, "liquorice": 2,
+      "flint": 0, "chalk": 0, "slate": 1, "wet_earth": 2, "mushroom": 1, "truffle": 1,
+      "vanilla": 2, "butter": 0, "toast": 1, "coconut": 0, "nuts": 0, "coffee": 2, "chocolate": 3,
+      "petrol": 0, "honey": 0, "dried_fruit": 3, "tobacco": 3, "leather": 3
+    },
+    "structure": { "acidity": 4, "body": 5, "alcohol": 4, "tannin": 5, "sweetness": 1, "oak": 3 },
+    "commonRegionsAndStyles": [
+      { "name": "Douro, Portugal", "description": "Tor röda Douro-viner. Kraftfull, koncentrerad och blommig. Kräver lagring." },
+      { "name": "Port, Douro", "description": "Viktigaste druvan i Port-blendar. Ger blommighet, struktur och djup." }
+    ],
+    "blindTastingClues": ["Intensiv viol och blommighet", "Mycket högt tannin", "Mörk frukt och choklad", "Kraftfull och koncentrerad", "Portugisisk karaktär"],
+    "commonConfusions": ["Nebbiolo", "Cabernet Sauvignon", "Syrah"]
+  },
+  {
+    "id": "melon_de_bourgogne",
+    "name": "Melon de Bourgogne",
+    "aliases": ["Muscadet"],
+    "type": "white",
+    "shortDescription": "Neutral vit druva från Loire-mynningen. Basen i Muscadet. Frisk, salt och mineralisk med citrus och mandel. Perfekt till skaldjur.",
+    "typicalAromas": ["lemon", "green_apple", "chalk", "flint", "nuts"],
+    "aromaScores": {
+      "lemon": 4, "lime": 3, "grapefruit": 2, "orange_peel": 1,
+      "green_apple": 3, "pear": 3, "peach": 1, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 1, "rose": 0, "violet": 0,
+      "grass": 1, "nettles": 1, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 1, "liquorice": 0,
+      "flint": 3, "chalk": 3, "slate": 1, "wet_earth": 1, "mushroom": 1, "truffle": 0,
+      "vanilla": 0, "butter": 1, "toast": 1, "coconut": 0, "nuts": 3, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 0, "dried_fruit": 0, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 4, "body": 1, "alcohol": 2, "tannin": 0, "sweetness": 1, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Muscadet, Loire, Frankrike", "description": "Den klassiska stilen. Frisk, salt och mineralisk. Sur lie-lagring ger komplexitet och krämighet." }
+    ],
+    "blindTastingClues": ["Mycket neutral och frisk", "Salt mineralitet", "Citrus och mandel", "Låg alkohol", "Sur lie: lätt krämighet"],
+    "commonConfusions": ["Chablis", "Albariño", "Grüner Veltliner"]
+  },
+  {
+    "id": "mourvedre",
+    "name": "Mourvèdre",
+    "aliases": ["Monastrell", "Mataro"],
+    "type": "red",
+    "shortDescription": "Kraftfull och mörk röda druva från södra Frankrike och Spanien. Köttig, viltliknande karaktär med mörk frukt och högt tannin. Viktig i GSM-blendar.",
+    "typicalAromas": ["blackberry", "plum", "leather", "wet_earth", "black_pepper", "tobacco"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 0,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 1, "strawberry": 0, "cherry": 2, "cranberry": 0,
+      "blackcurrant": 3, "blackberry": 5, "blueberry": 2, "plum": 4,
+      "white_flowers": 0, "rose": 0, "violet": 2,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 4, "white_pepper": 0, "liquorice": 2,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 4, "mushroom": 2, "truffle": 1,
+      "vanilla": 1, "butter": 0, "toast": 1, "coconut": 0, "nuts": 0, "coffee": 2, "chocolate": 2,
+      "petrol": 0, "honey": 0, "dried_fruit": 2, "tobacco": 4, "leather": 5
+    },
+    "structure": { "acidity": 3, "body": 5, "alcohol": 4, "tannin": 5, "sweetness": 1, "oak": 2 },
+    "commonRegionsAndStyles": [
+      { "name": "Bandol, Provence, Frankrike", "description": "Den klassiska stilen. Kraftfull, viltliknande och lagringsvärd." },
+      { "name": "Châteauneuf-du-Pape (blend)", "description": "Del i GSM-blendar. Ger struktur och djup." },
+      { "name": "Jumilla, Spanien (Monastrell)", "description": "Kraftfull och koncentrerad. Bra prisvärdhet." }
+    ],
+    "blindTastingClues": ["Köttig och viltliknande ton", "Mörk frukt och läder", "Högt tannin", "Jordigt och rustikt", "Ofta i blend med Grenache och Syrah"],
+    "commonConfusions": ["Syrah", "Cabernet Sauvignon", "Malbec"]
+  },
+  {
+    "id": "blaufrankisch",
+    "name": "Blaufränkisch",
+    "aliases": ["Lemberger", "Kékfrankos"],
+    "type": "red",
+    "shortDescription": "Österrikes viktigaste röda druva. Frisk och pepprig med mörk frukt, hög syra och kryddighet. Kan vara elegant eller kraftfull.",
+    "typicalAromas": ["blackberry", "cherry", "black_pepper", "violet", "slate", "tobacco"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 0,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 3, "strawberry": 2, "cherry": 4, "cranberry": 2,
+      "blackcurrant": 2, "blackberry": 4, "blueberry": 2, "plum": 3,
+      "white_flowers": 0, "rose": 1, "violet": 3,
+      "grass": 0, "nettles": 0, "bell_pepper": 1, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 4, "white_pepper": 1, "liquorice": 2,
+      "flint": 0, "chalk": 0, "slate": 2, "wet_earth": 2, "mushroom": 1, "truffle": 0,
+      "vanilla": 1, "butter": 0, "toast": 1, "coconut": 0, "nuts": 0, "coffee": 1, "chocolate": 1,
+      "petrol": 0, "honey": 0, "dried_fruit": 1, "tobacco": 2, "leather": 2
+    },
+    "structure": { "acidity": 4, "body": 3, "alcohol": 3, "tannin": 3, "sweetness": 1, "oak": 2 },
+    "commonRegionsAndStyles": [
+      { "name": "Burgenland, Österrike", "description": "Den klassiska stilen. Frisk, pepprig och mineralisk. Kan lagras väl." },
+      { "name": "Mittelburgenland", "description": "Kraftfullare och mer koncentrerad stil." }
+    ],
+    "blindTastingClues": ["Svartpeppar liknande Syrah men friskare", "Hög syra för rött vin", "Mörka bär och körsbär", "Mineralisk ton", "Östeuropeisk karaktär"],
+    "commonConfusions": ["Syrah", "Pinot Noir", "Zweigelt"]
+  },
+  {
+    "id": "zweigelt",
+    "name": "Zweigelt",
+    "aliases": [],
+    "type": "red",
+    "shortDescription": "Österrikes mest odlade röda druva. Korsning av Blaufränkisch och St. Laurent. Fruktig, mjuk och tillgänglig med körsbär och peppar.",
+    "typicalAromas": ["cherry", "raspberry", "black_pepper", "violet", "wet_earth"],
+    "aromaScores": {
+      "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 0,
+      "green_apple": 0, "pear": 0, "peach": 0, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 4, "strawberry": 3, "cherry": 5, "cranberry": 2,
+      "blackcurrant": 1, "blackberry": 2, "blueberry": 1, "plum": 2,
+      "white_flowers": 0, "rose": 2, "violet": 3,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 3, "white_pepper": 1, "liquorice": 1,
+      "flint": 0, "chalk": 0, "slate": 1, "wet_earth": 2, "mushroom": 1, "truffle": 0,
+      "vanilla": 1, "butter": 0, "toast": 1, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 1,
+      "petrol": 0, "honey": 0, "dried_fruit": 1, "tobacco": 1, "leather": 1
+    },
+    "structure": { "acidity": 3, "body": 3, "alcohol": 3, "tannin": 2, "sweetness": 1, "oak": 1 },
+    "commonRegionsAndStyles": [
+      { "name": "Österrike (allmänt)", "description": "Landets mest odlade röda. Fruktig och tillgänglig. Ofta utan ek för omedelbar njutning." }
+    ],
+    "blindTastingClues": ["Körsbär och hallon", "Mjukare än Blaufränkisch", "Lite peppar", "Frisk och tillgänglig", "Österrikisk stil"],
+    "commonConfusions": ["Pinot Noir", "Gamay", "Blaufränkisch"]
+  },
+  {
+    "id": "torrontes",
+    "name": "Torrontés",
+    "aliases": [],
+    "type": "white",
+    "shortDescription": "Argentinas signaturdruva för vita viner. Extremt aromatisk med intensiv blommighet, persika och apelsin. Låg syra och hög alkohol.",
+    "typicalAromas": ["white_flowers", "rose", "peach", "apricot", "lychee", "orange_peel"],
+    "aromaScores": {
+      "lemon": 1, "lime": 1, "grapefruit": 1, "orange_peel": 4,
+      "green_apple": 0, "pear": 1, "peach": 4, "apricot": 3, "nectarine": 2,
+      "passion_fruit": 1, "pineapple": 1, "mango": 2, "lychee": 3,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 5, "rose": 4, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 0, "chalk": 0, "slate": 0, "wet_earth": 0, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 2, "dried_fruit": 0, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 2, "body": 3, "alcohol": 4, "tannin": 0, "sweetness": 1, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Salta / Cafayate, Argentina", "description": "Den finaste stilen. Hög altitud ger friskhet trots intensiteten. Blommig och aromatisk." },
+      { "name": "Mendoza, Argentina", "description": "Mer tillgänglig och omedelbar stil." }
+    ],
+    "blindTastingClues": ["Intensiv blommighet — kan likna Gewürztraminer", "Persika och apelsin", "Låg syra", "Hög alkohol", "Argentinsk ursprung"],
+    "commonConfusions": ["Gewürztraminer", "Viognier", "Muscat"]
+  },
+  {
+    "id": "garganega",
+    "name": "Garganega",
+    "aliases": ["Grecanico"],
+    "type": "white",
+    "shortDescription": "Basen i Soave från Veneto, Italien. Frisk och neutral med citrus, mandel och blommighet. Mineralisk när den är välgjord.",
+    "typicalAromas": ["lemon", "green_apple", "white_flowers", "chalk", "nuts", "peach"],
+    "aromaScores": {
+      "lemon": 4, "lime": 2, "grapefruit": 1, "orange_peel": 2,
+      "green_apple": 3, "pear": 3, "peach": 2, "apricot": 1, "nectarine": 1,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 3, "rose": 0, "violet": 0,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 1, "liquorice": 0,
+      "flint": 1, "chalk": 3, "slate": 0, "wet_earth": 0, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 3, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 1, "dried_fruit": 0, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 3, "body": 2, "alcohol": 2, "tannin": 0, "sweetness": 1, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Soave Classico, Veneto", "description": "Den klassiska stilen. Frisk, neutral och mineralisk med mandel och citrus." },
+      { "name": "Recioto di Soave", "description": "Söt version på torkade Garganega-druvor." }
+    ],
+    "blindTastingClues": ["Citrus och mandel", "Neutral och frisk", "Kalkliknande mineralitet", "Blommig ton", "Låg till medelhög syra"],
+    "commonConfusions": ["Pinot Grigio", "Chardonnay", "Trebbiano"]
+  },
+  {
+    "id": "loureiro",
+    "name": "Loureiro",
+    "aliases": [],
+    "type": "white",
+    "shortDescription": "Aromatisk vit druva från Vinho Verde i Portugal. Floral och frisk med citrus, lagerblad och lite pärla. Ofta blandad med Alvarinho.",
+    "typicalAromas": ["lemon", "lime", "white_flowers", "green_apple", "flint"],
+    "aromaScores": {
+      "lemon": 4, "lime": 4, "grapefruit": 2, "orange_peel": 1,
+      "green_apple": 3, "pear": 3, "peach": 1, "apricot": 0, "nectarine": 0,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 0, "strawberry": 0, "cherry": 0, "cranberry": 0,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 4, "rose": 1, "violet": 0,
+      "grass": 2, "nettles": 1, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 2, "chalk": 1, "slate": 0, "wet_earth": 0, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 0, "dried_fruit": 0, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 4, "body": 1, "alcohol": 1, "tannin": 0, "sweetness": 1, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Vinho Verde, Portugal", "description": "Frisk, floral och lätt med naturlig pärla. Låg alkohol 10–12%. Ofta blandad med Alvarinho." }
+    ],
+    "blindTastingClues": ["Intensiv blommighet", "Citrus och gräs", "Naturlig pärla", "Låg alkohol", "Portugisisk friskhet"],
+    "commonConfusions": ["Albariño", "Sauvignon Blanc", "Grüner Veltliner"]
+  }
+  
 ]

@@ -89,7 +89,12 @@ export default function RegionerPage() {
               <h3 className="text-xs uppercase tracking-widest text-wine-500 mb-3">🍇 Viktigaste druvor</h3>
               <div className="flex flex-wrap gap-2">
                 {activeRegion.mainGrapes.map((grape) => {
-                  const match = allGrapes.find((g) => g.name === grape || g.name.includes(grape) || grape.includes(g.name.split('/')[0].trim()));
+                  const match = allGrapes.find((g) => 
+  g.name === grape || 
+  g.name.includes(grape) || 
+  grape.includes(g.name.split('/')[0].trim()) ||
+  g.aliases?.some(a => a.toLowerCase() === grape.toLowerCase())
+);
                   return match ? (
                     <a key={grape} href={`/druvor/${match.id}`} className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-700 text-wine-200 hover:border-wine-500 hover:text-wine-50 transition-colors">
                       {grape}
