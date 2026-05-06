@@ -1,0 +1,214 @@
+{
+  "interactions": [
+    {
+      "id": "salt",
+      "name": "Salt",
+      "emoji": "🧂",
+      "effect": "Mjukar tannin och framhäver frukt",
+      "whatHappens": "Salt i maten binder sig till tanninerna i vinet och mjukar upp den strävande känslan. Samtidigt framhävs vinets fruktighet och vinet upplevs rundare och mer välbalanserat.",
+      "goodFor": ["Tanninrika röda viner", "Cabernet Sauvignon", "Nebbiolo", "Syrah"],
+      "badFor": ["Lätta vita viner kan upplevas tunnare"],
+      "tip": "Salta maten lite extra om du dricker ett ungt tanninrikt vin — det mjukar upp strävheten dramatiskt.",
+      "example": "En Barolo som känns sträv och svår öppnar sig märkbart till salt lagrad ost eller saltat kött."
+    },
+    {
+      "id": "fat",
+      "name": "Fett",
+      "emoji": "🧈",
+      "effect": "Mjukar syra och tannin — gör kraftiga viner mer harmoniska",
+      "whatHappens": "Fett från smör, grädde, olja eller kött belägger munnen och minskar upplevelsen av både syra och tannin. Ett kraftigt, tanninrikt vin som känns hårt till en sallad kan upplevas silkeslent till en välmarmorerad biff.",
+      "goodFor": ["Kraftiga röda viner", "Tanninrika viner", "Högsyra vita viner"],
+      "badFor": ["Lätta delikata viner kan försvinna mot fettrika rätter"],
+      "tip": "Beurre blanc (smörsås) till ett syrigt vitt vin skapar perfektion — fettet mjukar syran och lyfter frukten.",
+      "example": "Chardonnay med smörsås till hummer är en klassiker just för att fettet och vinets syra balanserar varandra perfekt."
+    },
+    {
+      "id": "sweetness",
+      "name": "Sötma i maten",
+      "emoji": "🍯",
+      "effect": "Gör vinet smaka torrare och surare",
+      "whatHappens": "När maten är sötare än vinet upplevs vinet plötsligt som surt och torrt. Det är därför dessert kräver sötare vin än maten — annars smaka vinet som ättika.",
+      "goodFor": ["Söta viner till söta rätter", "Sauternes till foie gras", "Port till chokladkaka"],
+      "badFor": ["Torra röda till söta såser — katastrofalt", "Champagne Brut till söt dessert"],
+      "tip": "Grundregeln: vinet ska alltid vara lika sött eller sötare än maten. Annars smaka det surt.",
+      "example": "Champagne Brut till jordgubbstårta gör att vinet smaka nästan surt. Byt till Demi-sec eller Moscato d'Asti istället."
+    },
+    {
+      "id": "acidity",
+      "name": "Syra i maten",
+      "emoji": "🍋",
+      "effect": "Framhäver vinets frukt och mjukar upplevelsen",
+      "whatHappens": "Syra i maten — citron, tomater, vinäger — konkurrerar med vinets syra och gör att vinet upplevs rundare och mer fruktigt. Det är därför syrliga viner passar så bra till syrliga rätter.",
+      "goodFor": ["Högsyra vita viner", "Sauvignon Blanc till getost", "Sangiovese till tomatsås"],
+      "badFor": ["Lågasyra viner kan upplevas feta och tunga mot syrlig mat"],
+      "tip": "Pressa citron över fisken innan du dricker det vita vinet — frukten i vinet lyfter direkt.",
+      "example": "Sangiovese och tomatsås är en klassiker — bådas syra matchar och balanserar varandra perfekt."
+    },
+    {
+      "id": "umami",
+      "name": "Umami",
+      "emoji": "🍄",
+      "effect": "Mjukar tannin men kan framhäva bitterhet",
+      "whatHappens": "Umami — från svamp, parmesan, kött, soja och miso — mjukar tannin och gör röda viner rundare. Men umami kan också framhäva bitterhet i vinet om alkoholen är hög.",
+      "goodFor": ["Medelkraftiga röda", "Pinot Noir till svamp", "Nebbiolo till tryffel"],
+      "badFor": ["Höga alkoholviner kan smaka brännande mot stark umami", "Skaldjur med soja till tanninrikt vin"],
+      "tip": "Parmesan till ett tanninrikt vin är ett klassiskt knep — osten mjukar tanninet och lyfter frukten.",
+      "example": "Barolo och tryffel är en av Italiens stora kombinationer — umamin från tryffeln mjukar Nebbiolos hårda tannin."
+    },
+    {
+      "id": "bitterness",
+      "name": "Bitterhet",
+      "emoji": "🍫",
+      "effect": "Förstärker tannin och bitterhet i vinet",
+      "whatHappens": "Bitter mat — mörk choklad, radicchio, brysselkål, grapefrukt — förstärker upplevelsen av tannin och bitterhet i vinet. Det är en av de svåraste kombinationerna att lyckas med.",
+      "goodFor": ["Söta viner till bitter mat", "Port till mörk choklad", "Sauternes till bitter ost"],
+      "badFor": ["Tanninrika röda till mörk choklad — förstärker strävhet", "Bitter sallad till Barolo"],
+      "tip": "Välj söta eller frukttiga viner till bittra ingredienser. Port till mörk choklad fungerar för att sötman balanserar bitterheten.",
+      "example": "Mörk choklad (85%) till Cabernet Sauvignon framhäver tanninets strävhet och chokladens bitterhet — båda förstärks negativt."
+    },
+    {
+      "id": "spice",
+      "name": "Kryddighet och hetta",
+      "emoji": "🌶️",
+      "effect": "Förstärker alkoholupplevelsen och framhäver frukten",
+      "whatHappens": "Stark kryddighet och hetta från chili framhäver alkoholvärmen i vinet. Hög alkohol + het mat = brännande. Söta eller låga alkoholviner passar bäst till stark mat.",
+      "goodFor": ["Riesling med lite restsötma", "Gewürztraminer", "Låg alkohol rosé", "Mousserande vin"],
+      "badFor": ["Hög alkohol röda viner — alkoholen förstärks av hettan", "Kraftiga tanniner"],
+      "tip": "Välj ett lite sötaktigt vin till het asiatisk mat — sötman kyler ner hettan och frukten framhävs.",
+      "example": "Thaimat med kokosmjölk och chili till en halvtorr Riesling är en klassiker — sötman balanserar hettan perfekt."
+    }
+  ],
+  "tricks": [
+    {
+      "id": "salt_trick",
+      "name": "Saltknepet",
+      "emoji": "🧂",
+      "description": "Salta maten lite extra om vinet känns för strävt och tanninrikt.",
+      "howTo": "Tillsätt en nypa salt på maten eller välj saltade tillbehör som lagrad ost, oliver eller saltat kött. Saltet binder sig till tanninerna och mjukar upp dem.",
+      "worksFor": "Unga Barolo, Cabernet Sauvignon, Nebbiolo och andra tanninrika röda."
+    },
+    {
+      "id": "lemon_trick",
+      "name": "Citronknepet",
+      "emoji": "🍋",
+      "description": "Pressa citron eller lägg till syra i maten för att lyfta ett vitt vins frukt.",
+      "howTo": "Pressa citron över fisken, salladen eller grönsaksrätten. Syran i maten konkurrerar med vinets syra och lyfter frukten.",
+      "worksFor": "Sauvignon Blanc, Riesling, Albariño och andra högsyra vita viner."
+    },
+    {
+      "id": "fat_trick",
+      "name": "Fettknepet",
+      "emoji": "🧈",
+      "description": "Lägg till smör, grädde eller olja om vinet känns för syrligt eller hårt.",
+      "howTo": "En klick smör i såsen, lite olivolja på salladen eller välj en fetare tillagningsmetod. Fettet mjukar upp vinets skarpare kanter.",
+      "worksFor": "Högsyra vita som Chablis, unga röda med hård syra, kraftiga tanniner."
+    },
+    {
+      "id": "cheese_trick",
+      "name": "Ostknepet",
+      "emoji": "🧀",
+      "description": "Servera hårdost till ett tanninrikt vin för att mjuka upp strävheten.",
+      "howTo": "Parmesan, pecorino eller annan lagrad hårdost innehåller salt och fett som båda mjukar tannin. En klassiker som aldrig misslyckas.",
+      "worksFor": "Barolo, Amarone, Cabernet Sauvignon, Sangiovese."
+    },
+    {
+      "id": "chill_trick",
+      "name": "Kylknepet",
+      "emoji": "🌡️",
+      "description": "Kyla ner vinet lite extra om det känns för alkoholhett till maten.",
+      "howTo": "Sänk temperaturen med 2–3 grader. Lägre temperatur dämpar alkoholupplevelsen och lyfter friskhet och frukt.",
+      "worksFor": "Kraftiga röda med hög alkohol, Barossa Shiraz, Zinfandel."
+    },
+    {
+      "id": "sweet_wine_trick",
+      "name": "Sötvinsregeln",
+      "emoji": "🍯",
+      "description": "Vinet ska alltid vara lika sött eller sötare än maten.",
+      "howTo": "Välj alltid ett sötare vin än desserten. Torrt vin till söt mat smakar surt och tunt. Port till chokladkaka, Sauternes till crème brûlée.",
+      "worksFor": "Alla desserter och söta rätter."
+    },
+    {
+      "id": "match_region_trick",
+      "name": "Regionregeln",
+      "emoji": "🗺️",
+      "description": "Mat och vin från samma region passar nästan alltid ihop.",
+      "howTo": "Välj Chianti till pasta med tomatsås, Muscadet till franska ostron, Rioja till spansk tapas. Generationer av tradition har löst kombinationen åt dig.",
+      "worksFor": "Fungerar nästan alltid — lokala kombinationer är beprövade av tid."
+    },
+    {
+      "id": "decant_trick",
+      "name": "Dekanteringsknepet",
+      "emoji": "🫗",
+      "description": "Dekantrera ett ungt kraftigt vin innan maten för att öppna upp det.",
+      "howTo": "Häll vinet i karaff 1–2 timmar innan middagen. Luft mjukar tannin och öppnar aromer — vinet passar bättre till maten.",
+      "worksFor": "Unga Barolo, Cabernet Sauvignon, Hermitage och andra kraftiga röda."
+    }
+  ],
+  "foodCategories": [
+    {
+      "id": "meat",
+      "name": "Kött",
+      "emoji": "🥩",
+      "description": "Rött kött passar till kraftiga röda med tannin. Fettet i köttet mjukar tanninet.",
+      "recommendations": [
+        { "food": "Biff / Oxfilé", "wines": ["Cabernet Sauvignon", "Syrah", "Malbec", "Barolo"], "reason": "Fett och protein mjukar tanninerna" },
+        { "food": "Lammracks", "wines": ["Syrah", "Grenache", "Tempranillo", "Cabernet Franc"], "reason": "Lammets sötma passar till örtig och fruktig röd" },
+        { "food": "Fläskkött", "wines": ["Pinot Noir", "Grenache", "Riesling", "Grüner Veltliner"], "reason": "Mildare kött — behöver inte kraftigt tanninrikt vin" },
+        { "food": "Vilt", "wines": ["Syrah", "Nebbiolo", "Mourvèdre", "Pinot Noir (mogen)"], "reason": "Viltet är intensivt — kräver komplext vin med jordighet" },
+        { "food": "Kyckling", "wines": ["Chardonnay", "Pinot Noir", "Grenache", "Viognier"], "reason": "Neutralt kött — passar till både vitt och lätt rött" }
+      ]
+    },
+    {
+      "id": "fish",
+      "name": "Fisk & skaldjur",
+      "emoji": "🐟",
+      "description": "Vita viner med hög syra passar bäst. Tannin och fisk smakar metalliskt.",
+      "recommendations": [
+        { "food": "Ostron", "wines": ["Muscadet", "Champagne", "Chablis", "Albariño"], "reason": "Saltighet och mineralitet möter havets sälta" },
+        { "food": "Lax", "wines": ["Pinot Noir", "Chardonnay", "Riesling", "Rosé"], "reason": "Laxens fetma kräver lite mer kropp" },
+        { "food": "Hummer", "wines": ["Chardonnay", "Champagne", "Viognier"], "reason": "Lyxig råvara — kräver vin med kropp och komplexitet" },
+        { "food": "Skaldjur", "wines": ["Albariño", "Muscadet", "Sauvignon Blanc", "Vermentino"], "reason": "Salt mineralitet möter skaldjurens sälta" },
+        { "food": "Torsk / vit fisk", "wines": ["Chablis", "Pinot Grigio", "Sauvignon Blanc"], "reason": "Neutral fisk — friska mineraliska viner lyfter den" }
+      ]
+    },
+    {
+      "id": "cheese",
+      "name": "Ost",
+      "emoji": "🧀",
+      "description": "Ost och vin är skapade för varandra — men det är mer komplext än man tror.",
+      "recommendations": [
+        { "food": "Getost (chèvre)", "wines": ["Sauvignon Blanc", "Sancerre", "Albariño"], "reason": "Syra möter syra — klassisk kombination" },
+        { "food": "Brie / Camembert", "wines": ["Chardonnay", "Champagne", "Pinot Noir"], "reason": "Fett ost — kropp i vinet balanserar" },
+        { "food": "Blåmögelost", "wines": ["Sauternes", "Port", "Tokaji"], "reason": "Salt möter sötma — en av vinvärldens stora kombinationer" },
+        { "food": "Hårdost (Parmesan)", "wines": ["Sangiovese", "Barolo", "Brunello"], "reason": "Salt och umami mjukar tanninet" },
+        { "food": "Manchego", "wines": ["Tempranillo", "Rioja", "Grenache"], "reason": "Lokal kombination — alltid pålitlig" }
+      ]
+    },
+    {
+      "id": "vegetarian",
+      "name": "Vegetariskt",
+      "emoji": "🥗",
+      "description": "Grönsaker och örter kräver friska, örtigare viner. Undvik kraftiga tanninrika röda.",
+      "recommendations": [
+        { "food": "Sparris", "wines": ["Grüner Veltliner", "Sauvignon Blanc", "Muscadet"], "reason": "Sparris är svår — vitpeppar och örtigthet i Grüner är perfekt" },
+        { "food": "Svamprätt", "wines": ["Pinot Noir", "Nebbiolo", "Burgundy"], "reason": "Svampens umami och jordighet matchar vinets jordighet" },
+        { "food": "Tomatsås / pasta", "wines": ["Sangiovese", "Barbera", "Dolcetto"], "reason": "Syra möter syra — italiensk klassiker" },
+        { "food": "Ratatouille", "wines": ["Grenache", "Syrah", "Rosé från Provence"], "reason": "Provensalsk mat till provensalskt vin" },
+        { "food": "Tryffelrätt", "wines": ["Barolo", "Barbaresco", "Bourgogne"], "reason": "Tryffelns umami mjukar Nebbiolos tannin perfekt" }
+      ]
+    },
+    {
+      "id": "dessert",
+      "name": "Dessert",
+      "emoji": "🍰",
+      "description": "Vinet måste alltid vara sötare än desserten — annars smaka det surt.",
+      "recommendations": [
+        { "food": "Mörk choklad", "wines": ["Port", "Banyuls", "Recioto"], "reason": "Sötma balanserar chokladens bitterhet" },
+        { "food": "Crème brûlée", "wines": ["Sauternes", "Tokaji", "Beerenauslese"], "reason": "Söt möter söt — klassisk kombination" },
+        { "food": "Fruktdessert", "wines": ["Moscato d'Asti", "Prosecco", "Riesling Spätlese"], "reason": "Fruktig och frisk sötma möter frukt" },
+        { "food": "Nötkaka / tarta", "wines": ["Tawny Port", "Amontillado Sherry"], "reason": "Nötaromen i Tawny matchar nötdesserten" },
+        { "food": "Jordgubbar", "wines": ["Moscato d'Asti", "Demi-sec Champagne", "Brachetto"], "reason": "Fruktig sötma till fruktig sötma" }
+      ]
+    }
+  ]
+}

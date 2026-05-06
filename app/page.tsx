@@ -30,6 +30,13 @@ const sections = [
     color: 'from-teal-900 to-wine-950',
   },
   {
+    href: '/mat-och-vin',
+    icon: '🍽️',
+    title: 'Mat & Vin',
+    desc: 'Hur mat påverkar vinet och smarta kombinationer.',
+    color: 'from-orange-900 to-wine-950',
+  },
+  {
     href: '/aromhjul',
     icon: '🌸',
     title: 'Aromhjul',
