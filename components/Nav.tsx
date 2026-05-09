@@ -2,35 +2,42 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useState } from 'react';
 
 const navItems = [
   { href: '/druvor', label: 'Druvor', icon: '🍇' },
   { href: '/jamfor', label: 'Jämför', icon: '⚖️' },
   { href: '/stilar', label: 'Stilar', icon: '🗺️' },
   { href: '/regioner', label: 'Regioner', icon: '🌍' },
-  { href: '/mat-och-vin', label: 'Mat & Vin', icon: '🍽️' },
   { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
   { href: '/trana', label: 'Träna', icon: '🎯' },
   { href: '/lar-dig', label: 'Lär dig', icon: '🧠' },
+  { href: '/mat-och-vin', label: 'Mat & Vin', icon: '🍽️' },
   { href: '/ordlista', label: 'Ordlista', icon: '📚' },
   { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
 ];
 
-const mobileNavItems = [
+const mainMobileNav = [
   { href: '/druvor', label: 'Druvor', icon: '🍇' },
   { href: '/jamfor', label: 'Jämför', icon: '⚖️' },
   { href: '/stilar', label: 'Stilar', icon: '🗺️' },
-  { href: '/regioner', label: 'Regioner', icon: '🌍' },
-  { href: '/mat-och-vin', label: 'Mat & Vin', icon: '🍽️' },
-  { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
   { href: '/trana', label: 'Träna', icon: '🎯' },
   { href: '/lar-dig', label: 'Lär dig', icon: '🧠' },
+];
+
+const moreMobileNav = [
+  { href: '/regioner', label: 'Regioner', icon: '🌍' },
+  { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
+  { href: '/mat-och-vin', label: 'Mat & Vin', icon: '🍽️' },
   { href: '/ordlista', label: 'Ordlista', icon: '📚' },
   { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
 ];
 
 export default function Nav() {
   const pathname = usePathname();
+  const [showMore, setShowMore] = useState(false);
+
+  const isMoreActive = moreMobileNav.some((item) => pathname.startsWith(item.href));
 
   return (
     <>
@@ -66,13 +73,37 @@ export default function Nav() {
 
       {/* Mobile bottom bar */}
       <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-wine-950 border-t border-wine-800 z-50">
+        {/* More menu */}
+        {showMore && (
+          <div className="border-b border-wine-800 grid grid-cols-5">
+            {moreMobileNav.map((item) => {
+              const active = pathname.startsWith(item.href);
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setShowMore(false)}
+                  className={`flex flex-col items-center py-3 px-1 text-xs font-medium transition-colors ${
+                    active ? 'text-amber-400' : 'text-wine-400'
+                  }`}
+                >
+                  <span className="text-lg mb-0.5">{item.icon}</span>
+                  <span className="truncate w-full text-center" style={{ fontSize: '9px' }}>{item.label}</span>
+                </Link>
+              );
+            })}
+          </div>
+        )}
+
+        {/* Main bar */}
         <ul className="flex">
-          {mobileNavItems.map((item) => {
-            const active = item.href === '/' ? pathname === '/' : pathname.startsWith(item.href);
+          {mainMobileNav.map((item) => {
+            const active = pathname.startsWith(item.href);
             return (
               <li key={item.href} className="flex-1">
                 <Link
                   href={item.href}
+                  onClick={() => setShowMore(false)}
                   className={`flex flex-col items-center py-2 px-1 text-xs font-medium transition-colors ${
                     active ? 'text-amber-400' : 'text-wine-400'
                   }`}
@@ -83,6 +114,17 @@ export default function Nav() {
               </li>
             );
           })}
+          <li className="flex-1">
+            <button
+              onClick={() => setShowMore(!showMore)}
+              className={`w-full flex flex-col items-center py-2 px-1 text-xs font-medium transition-colors ${
+                isMoreActive || showMore ? 'text-amber-400' : 'text-wine-400'
+              }`}
+            >
+              <span className="text-lg mb-0.5">•••</span>
+              <span style={{ fontSize: '9px' }}>Mer</span>
+            </button>
+          </li>
         </ul>
       </nav>
     </>
