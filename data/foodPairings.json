@@ -131,4 +131,24 @@
     "pairings": ["Foie gras", "Blåmögelost", "Fruktdessert", "Crème brûlée", "Serveras ensamt"],
     "tip": "Tokaji Aszús höga syra gör den mer mångsidig än Sauternes. Fungerar utmärkt till foie gras och starka ostar, men är också fantastisk att dricka ensamt som meditation."
   }
+  ,"provence_rose": {
+    "pairings": ["Grillad fisk", "Skaldjur", "Sallad Niçoise", "Getost", "Provensalsk mat"],
+    "tip": "Provence Rosé är sommarvinets quintessens — passar till allt lätt och mediterrant. Klassisk till sallad Niçoise."
+  },
+  "tavel_rose": {
+    "pairings": ["Grillat kött", "Starka ostar", "Provensalsk mat", "Kryddiga rätter", "Charcuterie"],
+    "tip": "Tavel är kraftigare än Provence och klarar mer smakrika rätter. Kan till och med passa till lätt grillat kött."
+  },
+  "pinot_noir_rose": {
+    "pairings": ["Lax", "Sushi", "Getost", "Kyckling", "Lätta pastarätter"],
+    "tip": "Pinot Noir Rosés elegans och friskhet passar till delikata rätter. Utmärkt till lax och sushi."
+  },
+  "rose_champagne": {
+    "pairings": ["Lax", "Sushi", "Mild ost", "Skaldjur", "Aperitif"],
+    "tip": "Rosé Champagne passar utmärkt till lax, sushi och skaldjur. Undvik söta desserter och jordgubbar — sötman i maten gör att Champagnen smakar surt och tunt."
+  },
+  "grenache_rose": {
+    "pairings": ["Grillad kyckling", "Pizza", "Tapas", "Sallader", "Sommarmat"],
+    "tip": "Grenache Rosé är det generösa sommarvimet — passar till det mesta av lättare sommarmat och aperitif."
+  }
 }

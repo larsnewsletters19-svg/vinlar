@@ -10,12 +10,13 @@ const allGrapes = grapes as Grape[];
 const tabs = [
   { id: 'white', label: 'Vita', emoji: '🥂' },
   { id: 'red', label: 'Röda', emoji: '🍷' },
+  { id: 'rosé', label: 'Rosé', emoji: '🌸' },
   { id: 'sparkling', label: 'Mousserande', emoji: '🍾' },
   { id: 'sweet', label: 'Söta & förstärkta', emoji: '🍯' },
 ];
 
 export default function DruvorPage() {
-  const [activeTab, setActiveTab] = useState<'white' | 'red' | 'sparkling' | 'sweet'>('white');
+  const [activeTab, setActiveTab] = useState<'white' | 'red' | 'rosé' | 'sparkling' | 'sweet'>('white');
   const [search, setSearch] = useState('');
 
   const filtered = search.length > 0
@@ -78,6 +79,7 @@ function GrapeCard({ grape }: { grape: Grape }) {
   const icon = grape.type === 'white' ? '🥂'
     : grape.type === 'sparkling' ? '🍾'
     : grape.type === 'sweet' ? '🍯'
+    : grape.type === 'rosé' ? '🌸'
     : '🍷';
 
   return (

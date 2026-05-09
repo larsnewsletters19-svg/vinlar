@@ -20,7 +20,7 @@ export interface Grape {
   id: string;
   name: string;
   aliases?: string[];
-  type: 'white' | 'red' | 'sparkling' | 'sweet';
+  type: 'white' | 'red' | 'sparkling' | 'sweet' | 'rosé';
   shortDescription: string;
   typicalAromas: string[];
   aromaScores: AromaScores;

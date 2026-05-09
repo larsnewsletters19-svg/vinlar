@@ -1139,5 +1139,140 @@
     "blindTastingClues": ["Intensiv blommighet", "Citrus och gräs", "Naturlig pärla", "Låg alkohol", "Portugisisk friskhet"],
     "commonConfusions": ["Albariño", "Sauvignon Blanc", "Grüner Veltliner"]
   }
-  
+  ,{
+    "id": "provence_rose",
+    "name": "Provence Rosé",
+    "type": "rosé",
+    "shortDescription": "Världens mest kända roséstil. Blek laxrosa färg, torr och elegant med röda bär, citrus och blommighet. Gjord på Grenache, Cinsault och Mourvèdre.",
+    "typicalAromas": ["strawberry", "raspberry", "lemon", "white_flowers", "chalk"],
+    "aromaScores": {
+      "lemon": 3, "lime": 2, "grapefruit": 2, "orange_peel": 1,
+      "green_apple": 1, "pear": 1, "peach": 3, "apricot": 1, "nectarine": 2,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 4, "strawberry": 4, "cherry": 2, "cranberry": 3,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 3, "rose": 2, "violet": 1,
+      "grass": 1, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 1, "liquorice": 0,
+      "flint": 1, "chalk": 3, "slate": 0, "wet_earth": 0, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 0, "dried_fruit": 0, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 3, "body": 2, "alcohol": 3, "tannin": 0, "sweetness": 1, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Côtes de Provence, Frankrike", "description": "Den klassiska stilen. Blek laxrosa, torr, elegant och frisk. Grenache, Cinsault och Mourvèdre." },
+      { "name": "Bandol Rosé, Provence", "description": "Kraftigare och mer komplex. Mer Mourvèdre ger struktur och lagringskapacitet." },
+      { "name": "Les Baux de Provence", "description": "Ofta ekologisk odling. Lite mer fyllig och komplex än standard Provence." }
+    ],
+    "blindTastingClues": ["Mycket blek laxrosa färg", "Torr och frisk", "Röda bär och citrus", "Blommig ton", "Mineralisk och elegant"],
+    "commonConfusions": ["Tavel", "Pinot Noir Rosé", "Sancerre Rosé"]
+  },
+  {
+    "id": "tavel_rose",
+    "name": "Tavel Rosé",
+    "type": "rosé",
+    "shortDescription": "Frankrikes kraftigaste rosé. Djupare färg och mer kropp än Provence. Grenache-dominerad med röda bär, kryddor och mer struktur.",
+    "typicalAromas": ["raspberry", "strawberry", "cherry", "black_pepper", "white_flowers", "dried_fruit"],
+    "aromaScores": {
+      "lemon": 2, "lime": 1, "grapefruit": 1, "orange_peel": 2,
+      "green_apple": 0, "pear": 0, "peach": 2, "apricot": 2, "nectarine": 1,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 5, "strawberry": 4, "cherry": 3, "cranberry": 2,
+      "blackcurrant": 1, "blackberry": 1, "blueberry": 1, "plum": 1,
+      "white_flowers": 2, "rose": 2, "violet": 2,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 3, "white_pepper": 1, "liquorice": 2,
+      "flint": 0, "chalk": 1, "slate": 0, "wet_earth": 1, "mushroom": 0, "truffle": 0,
+      "vanilla": 1, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 0, "dried_fruit": 2, "tobacco": 1, "leather": 1
+    },
+    "structure": { "acidity": 3, "body": 3, "alcohol": 4, "tannin": 1, "sweetness": 1, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Tavel, Rhône, Frankrike", "description": "Frankrikes enda AOC enbart för rosé. Kraftigare och mer komplex än Provence. Kan lagras." }
+    ],
+    "blindTastingClues": ["Djupare rosa färg än Provence", "Mer kropp och alkohol", "Röda bär och kryddor", "Kan lagras 2–5 år", "Kraftigare stil"],
+    "commonConfusions": ["Provence Rosé", "Grenache Rouge", "Bandol Rosé"]
+  },
+  {
+    "id": "pinot_noir_rose",
+    "name": "Pinot Noir Rosé",
+    "type": "rosé",
+    "shortDescription": "Elegant och delikat rosé på Pinot Noir. Blek och frisk med röda bär och blommighet. Vanlig i Bourgogne och Alsace.",
+    "typicalAromas": ["raspberry", "strawberry", "rose", "cranberry", "lemon", "white_flowers"],
+    "aromaScores": {
+      "lemon": 3, "lime": 2, "grapefruit": 1, "orange_peel": 0,
+      "green_apple": 1, "pear": 1, "peach": 2, "apricot": 0, "nectarine": 1,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 5, "strawberry": 4, "cherry": 3, "cranberry": 4,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 1, "plum": 0,
+      "white_flowers": 2, "rose": 4, "violet": 3,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 1, "chalk": 1, "slate": 0, "wet_earth": 1, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 0, "dried_fruit": 0, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 4, "body": 1, "alcohol": 2, "tannin": 0, "sweetness": 1, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Bourgogne Rosé, Frankrike", "description": "Elegant och mineralisk. Hög syra och delikat röd frukt." },
+      { "name": "Sancerre Rosé, Loire", "description": "Frisk och mineralisk med tydlig Pinot Noir-karaktär och flinta." },
+      { "name": "Alsace Rosé (Pinot Noir)", "description": "Lite fylligare men fortfarande elegant och frisk." }
+    ],
+    "blindTastingClues": ["Mycket blek och elegant", "Hög syra", "Röda bär och viol", "Ingen sötma", "Kan likna vitt vin i friskhet"],
+    "commonConfusions": ["Provence Rosé", "Champagne Rosé", "Sancerre Blanc"]
+  },
+  {
+    "id": "rose_champagne",
+    "name": "Rosé Champagne",
+    "type": "rosé",
+    "shortDescription": "Det mest prestigefyllda rosévinet. Gjort antingen genom kort skalkontakt eller inblandning av rött vin. Komplext med röda bär, brioche och mineralitet.",
+    "typicalAromas": ["raspberry", "strawberry", "cherry", "toast", "chalk", "rose"],
+    "aromaScores": {
+      "lemon": 3, "lime": 2, "grapefruit": 1, "orange_peel": 1,
+      "green_apple": 2, "pear": 2, "peach": 2, "apricot": 1, "nectarine": 1,
+      "passion_fruit": 0, "pineapple": 0, "mango": 0, "lychee": 0,
+      "raspberry": 4, "strawberry": 3, "cherry": 3, "cranberry": 2,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 2, "rose": 3, "violet": 1,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 0, "eucalyptus": 0,
+      "black_pepper": 0, "white_pepper": 0, "liquorice": 0,
+      "flint": 2, "chalk": 3, "slate": 0, "wet_earth": 0, "mushroom": 1, "truffle": 0,
+      "vanilla": 1, "butter": 2, "toast": 3, "coconut": 0, "nuts": 3, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 2, "dried_fruit": 1, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 5, "body": 2, "alcohol": 2, "tannin": 0, "sweetness": 1, "oak": 1 },
+    "commonRegionsAndStyles": [
+      { "name": "Rosé Champagne (assemblage)", "description": "Rött Pinot Noir-vin blandas i musten. Vanligast. Ger konsistent och fruktig stil." },
+      { "name": "Rosé Champagne (saignée)", "description": "Kort skalkontakt ger mer intensiv färg och frukt. Kraftigare stil." }
+    ],
+    "blindTastingClues": ["Röda bär + brioche och krita", "Fin bubbelstång", "Mer fruktigt än vit Champagne", "Komplex och lagringsvärd", "Lång finish"],
+    "commonConfusions": ["Provence Rosé", "Crémant Rosé", "Blanc de Noirs"]
+  },
+  {
+    "id": "grenache_rose",
+    "name": "Grenache Rosé",
+    "type": "rosé",
+    "shortDescription": "Sydfrankrike och Spaniens fruktigaste rosé. Röda bär, vattenmelon och blommighet. Frisk och generös. Basen i Provence och Tavel.",
+    "typicalAromas": ["strawberry", "raspberry", "watermelon", "white_flowers", "lemon"],
+    "aromaScores": {
+      "lemon": 2, "lime": 2, "grapefruit": 1, "orange_peel": 1,
+      "green_apple": 1, "pear": 1, "peach": 3, "apricot": 2, "nectarine": 2,
+      "passion_fruit": 0, "pineapple": 1, "mango": 0, "lychee": 0,
+      "raspberry": 4, "strawberry": 5, "cherry": 2, "cranberry": 2,
+      "blackcurrant": 0, "blackberry": 0, "blueberry": 0, "plum": 0,
+      "white_flowers": 3, "rose": 2, "violet": 1,
+      "grass": 0, "nettles": 0, "bell_pepper": 0, "blackcurrant_leaf": 0, "mint": 1, "eucalyptus": 0,
+      "black_pepper": 1, "white_pepper": 1, "liquorice": 1,
+      "flint": 0, "chalk": 1, "slate": 0, "wet_earth": 0, "mushroom": 0, "truffle": 0,
+      "vanilla": 0, "butter": 0, "toast": 0, "coconut": 0, "nuts": 0, "coffee": 0, "chocolate": 0,
+      "petrol": 0, "honey": 0, "dried_fruit": 0, "tobacco": 0, "leather": 0
+    },
+    "structure": { "acidity": 3, "body": 2, "alcohol": 3, "tannin": 0, "sweetness": 1, "oak": 0 },
+    "commonRegionsAndStyles": [
+      { "name": "Côtes de Provence (Grenache-dominerad)", "description": "Fruktig och blommig. Jordgubbe och vattenmelon. Perfekt sommardryck." },
+      { "name": "Navarra Rosado, Spanien", "description": "Kraftigare och mer fruktdriven. Djupare rosa färg." }
+    ],
+    "blindTastingClues": ["Jordgubbe och vattenmelon", "Generös och fruktig", "Blommig ton", "Frisk men inte mineralisk", "Mer fyllig än Pinot Noir Rosé"],
+    "commonConfusions": ["Provence Rosé", "Tavel", "Pinot Noir Rosé"]
+  }
 ]

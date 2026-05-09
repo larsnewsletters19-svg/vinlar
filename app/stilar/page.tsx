@@ -14,6 +14,7 @@ const countries = [
   { id: 'spain', label: 'Spanien', emoji: '🇪🇸' },
   { id: 'germany', label: 'Tyskland & Österrike', emoji: '🇩🇪' },
   { id: 'portugal', label: 'Portugal', emoji: '🇵🇹' },
+  { id: 'rosé', label: 'Rosé', emoji: '🌸' },
   { id: 'southafrica', label: 'Sydafrika', emoji: '🇿🇦' },
   { id: 'newworld', label: 'Nya världen', emoji: '🌏' },
   { id: 'sweet', label: 'Söta & förstärkta', emoji: '🍯' },
@@ -28,6 +29,7 @@ const countryMap: Record<string, string[]> = {
   southafrica: ['chenin_sa_vs_loire', 'pinotage_vs_syrah'],
   newworld: ['sauvignon_blanc_loire_vs_marlborough', 'chardonnay_chablis_vs_new_world', 'syrah_rhone_vs_barossa', 'pinot_noir_bourgogne_vs_oregon', 'riesling_germany_vs_australia', 'chenin_blanc_loire_vs_sa', 'cabernet_chile_vs_napa', 'malbec_mendoza_vs_cahors', 'carmenere_chile', 'pinot_noir_burgundy_vs_newzealand', 'chenin_sa_vs_loire', 'pinotage_vs_syrah', 'sauternes_vs_eiswein'],
   sweet: ['sauternes_vs_tokaji', 'sauternes_vs_eiswein', 'port_ruby_vs_tawny', 'fino_vs_oloroso', 'amarone_vs_ripasso'],
+  rosé: ['provence_vs_tavel', 'pinot_noir_rose_vs_grenache_rose', 'rose_champagne_vs_provence'],
 };
 
 export default function StilarPage() {

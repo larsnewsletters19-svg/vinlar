@@ -643,4 +643,73 @@
     ],
     "blindTastingTip": "Extremt koncentrerad, hög alkohol och torkad frukt pekar mot Amarone. Mer tillgänglig med körsbärsfrukt men extra kropp pekar mot Ripasso."
   }
+  ,{
+    "id": "provence_vs_tavel",
+    "type": "style_vs_style",
+    "title": "Rosé: Provence vs Tavel",
+    "grape": "provence_rose",
+    "styleA": { "name": "Provence, Frankrike", "region": "Côtes de Provence" },
+    "styleB": { "name": "Tavel, Rhône, Frankrike", "region": "Tavel" },
+    "styleACharacter": [
+      "Mycket blek laxrosa färg",
+      "Lätt och elegant",
+      "Citrus och röda bär",
+      "Mineralisk och frisk",
+      "Perfekt sommardryck"
+    ],
+    "styleBCharacter": [
+      "Djupare rosa färg",
+      "Mer kropp och alkohol",
+      "Kraftigare röda bär och kryddor",
+      "Kan lagras 2–5 år",
+      "Frankrikes kraftigaste rosé"
+    ],
+    "blindTastingTip": "Blek, lätt och mineralisk pekar mot Provence. Djupare färg, mer kropp och kryddighet pekar mot Tavel."
+  },
+  {
+    "id": "pinot_noir_rose_vs_grenache_rose",
+    "type": "style_vs_style",
+    "title": "Rosé: Pinot Noir vs Grenache",
+    "grape": "pinot_noir_rose",
+    "styleA": { "name": "Pinot Noir Rosé", "region": "Bourgogne / Sancerre" },
+    "styleB": { "name": "Grenache Rosé", "region": "Provence / Navarra" },
+    "styleACharacter": [
+      "Mycket blek och delikat",
+      "Hög syra",
+      "Röda bär och viol",
+      "Mineralisk ton",
+      "Elegant och frisk"
+    ],
+    "styleBCharacter": [
+      "Mer fruktdriven",
+      "Jordgubbe och vattenmelon",
+      "Blommig och generös",
+      "Lägre syra",
+      "Mer omedelbar och tillgänglig"
+    ],
+    "blindTastingTip": "Hög syra, mineralitet och delikatess pekar mot Pinot Noir. Fruktdriven, jordgubbe och blommighet pekar mot Grenache."
+  },
+  {
+    "id": "rose_champagne_vs_provence",
+    "type": "style_vs_style",
+    "title": "Rosé Champagne vs Provence Rosé",
+    "grape": "rose_champagne",
+    "styleA": { "name": "Rosé Champagne", "region": "Champagne, Frankrike" },
+    "styleB": { "name": "Provence Rosé", "region": "Côtes de Provence" },
+    "styleACharacter": [
+      "Mousserande och komplex",
+      "Brioche och röda bär",
+      "Kritliknande mineralitet",
+      "Lång och komplex finish",
+      "Lagringsvärd"
+    ],
+    "styleBCharacter": [
+      "Stilla och strandanpassad",
+      "Frisk citrus och röda bär",
+      "Blek och elegant",
+      "Omedelbar och lättdrucken",
+      "Perfekt till mat"
+    ],
+    "blindTastingTip": "Bubblor + brioche + röda bär pekar mot Rosé Champagne. Stilla, blek och frisk pekar mot Provence."
+  }
 ]

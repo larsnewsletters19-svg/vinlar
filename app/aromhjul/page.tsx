@@ -30,6 +30,7 @@ const grapeColors = ['#f59e0b', '#38bdf8', '#a78bfa'];
 const grapeGroups = [
   { id: 'white', label: '🥂 Vita', type: 'white' as const },
   { id: 'red', label: '🍷 Röda', type: 'red' as const },
+  { id: 'rosé', label: '🌸 Rosé', type: 'rosé' as const },
   { id: 'sparkling', label: '🍾 Mousserande', type: 'sparkling' as const },
   { id: 'sweet', label: '🍯 Söta', type: 'sweet' as const },
 ];
@@ -40,8 +41,8 @@ function AromhjulContent() {
   const [selectedGrapes, setSelectedGrapes] = useState<string[]>([initialGrape]);
   const [activeFamily, setActiveFamily] = useState<string | null>(null);
   const initialGrapeData = allGrapes.find((g) => g.id === initialGrape);
-  const initialGroup = (initialGrapeData?.type === 'red' ? 'red' : initialGrapeData?.type === 'sparkling' ? 'sparkling' : 'white') as 'white' | 'red' | 'sparkling';
-  const [activeGroup, setActiveGroup] = useState<'white' | 'red' | 'sparkling' | 'sweet'>(initialGroup);
+  const initialGroup = (initialGrapeData?.type === 'red' ? 'red' : initialGrapeData?.type === 'sparkling' ? 'sparkling' : initialGrapeData?.type === 'sweet' ? 'sweet' : initialGrapeData?.type === 'rosé' ? 'rosé' : 'white') as 'white' | 'red' | 'rosé' | 'sparkling' | 'sweet';
+  const [activeGroup, setActiveGroup] = useState<'white' | 'red' | 'rosé' | 'sparkling' | 'sweet'>(initialGroup);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   const toggleGrape = (id: string) => {
