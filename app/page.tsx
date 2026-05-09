@@ -64,6 +64,13 @@ const sections = [
     desc: 'Förklaringar av vanliga vinbegrepp.',
     color: 'from-purple-900 to-wine-950',
   },
+  {
+    href: '/forvaxlingar',
+    icon: '🔀',
+    title: 'Förväxlingar',
+    desc: 'De vanligaste förväxlingarna i blindprovning.',
+    color: 'from-rose-900 to-wine-950',
+  },
 ];
 
 export default function Home() {

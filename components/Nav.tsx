@@ -13,6 +13,7 @@ const navItems = [
   { href: '/trana', label: 'Träna', icon: '🎯' },
   { href: '/lar-dig', label: 'Lär dig', icon: '🧠' },
   { href: '/ordlista', label: 'Ordlista', icon: '📚' },
+  { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
 ];
 
 const mobileNavItems = [
@@ -25,6 +26,7 @@ const mobileNavItems = [
   { href: '/trana', label: 'Träna', icon: '🎯' },
   { href: '/lar-dig', label: 'Lär dig', icon: '🧠' },
   { href: '/ordlista', label: 'Ordlista', icon: '📚' },
+  { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
 ];
 
 export default function Nav() {

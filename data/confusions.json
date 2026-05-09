@@ -1,0 +1,319 @@
+[
+  {
+    "id": "pinot_noir_vs_gamay",
+    "title": "Pinot Noir vs Gamay",
+    "grapeA": "pinot_noir",
+    "grapeB": "gamay",
+    "difficulty": "beginner",
+    "intro": "Två lätta röda druvor med röda bär och lite tannin. Gamay är enklare och mer omedelbar, Pinot Noir mer komplex och jordigt.",
+    "inCommon": [
+      "Röda bär — hallon och jordgubbe",
+      "Lite tannin",
+      "God syra",
+      "Lätt till medelkropp"
+    ],
+    "grapeAClues": [
+      "Mer komplex och djup",
+      "Jordighet och svamp",
+      "Viol och ros",
+      "Lagringsvärd",
+      "Terroir syns tydligt"
+    ],
+    "grapeBClues": [
+      "Mer fruktig och enkel",
+      "Kan ha bananaton (Beaujolais Nouveau)",
+      "Mer omedelbar och tillgänglig",
+      "Dricks alltid ung",
+      "Ingen jordighet"
+    ],
+    "keyDifference": "Jordighet och komplexitet pekar mot Pinot Noir. Fruktig, enkel och utan jordighet pekar mot Gamay.",
+    "commonTrap": "Båda är lätta röda med röda bär — men Pinot Noir har alltid mer komplexitet och jordighet. Om vinet är helt enkelt och fruktig utan djup är det troligen Gamay.",
+    "tip": "Sök efter jordighet och svamp — hittar du det är det Pinot Noir. Hittar du bara enkel röd frukt är det Gamay."
+  },
+  {
+    "id": "riesling_vs_gruner",
+    "title": "Riesling vs Grüner Veltliner",
+    "grapeA": "riesling",
+    "grapeB": "gruner_veltliner",
+    "difficulty": "intermediate",
+    "intro": "Två friska vita druvor med hög syra och mineralitet. Riesling har stenfrukt och petroleum, Grüner Veltliner har vitpeppar och örtigthet.",
+    "inCommon": [
+      "Hög syra",
+      "Mineralitet",
+      "Citrus",
+      "Ingen eller lite ek",
+      "Frisk och pigg stil"
+    ],
+    "grapeAClues": [
+      "Stenfrukt — persika och aprikos",
+      "Petroleum med ålder",
+      "Vita blommor",
+      "Kan ha restsötma",
+      "Skiffer och krita"
+    ],
+    "grapeBClues": [
+      "Vitpeppar — nästan alltid",
+      "Örtig och grön ton",
+      "Ingen petroleum",
+      "Alltid torr",
+      "Mer neutral frukt"
+    ],
+    "keyDifference": "Petroleum och stenfrukt pekar mot Riesling. Vitpeppar och örtigthet pekar mot Grüner Veltliner.",
+    "commonTrap": "Båda har hög syra och mineralitet — men vitpeppar är Grüner Veltliners signaturarom som aldrig finns i Riesling.",
+    "tip": "Känner du vitpeppar? Grüner Veltliner. Känner du persika och/eller petroleum? Riesling."
+  },
+  {
+    "id": "sauvignon_blanc_vs_albarino",
+    "title": "Sauvignon Blanc vs Albariño",
+    "grapeA": "sauvignon_blanc",
+    "grapeB": "albarino",
+    "difficulty": "intermediate",
+    "intro": "Två friska och aromatiska vita druvor med hög syra. Sauvignon Blanc har gröna toner, Albariño har salt mineralitet och persika.",
+    "inCommon": [
+      "Hög syra",
+      "Citrus",
+      "Aromatisk och frisk",
+      "Ingen ek",
+      "Låg alkohol"
+    ],
+    "grapeAClues": [
+      "Gräs och nässlor",
+      "Krusbär och svartvinbärsblad",
+      "Passionsfrukt (Marlborough)",
+      "Gröna aromer alltid",
+      "Ingen saltighet"
+    ],
+    "grapeBClues": [
+      "Salt mineralitet — nästan unikt",
+      "Persika och vita blommor",
+      "Ingen grönhet",
+      "Grapefrukt och citrus",
+      "Havssalt-känsla"
+    ],
+    "keyDifference": "Gröna aromer och krusbär pekar mot Sauvignon Blanc. Salt mineralitet och persika utan grönhet pekar mot Albariño.",
+    "commonTrap": "Båda är friska och citrusdrivna — men Albariño har aldrig gröna aromer och har alltid en salt mineralitet som Sauvignon Blanc saknar.",
+    "tip": "Känner du gräs eller krusbär? Sauvignon Blanc. Känner du salt och persika utan grönhet? Albariño."
+  },
+  {
+    "id": "chardonnay_vs_chenin_blanc",
+    "title": "Chardonnay vs Chenin Blanc",
+    "grapeA": "chardonnay",
+    "grapeB": "chenin_blanc",
+    "difficulty": "advanced",
+    "intro": "Två mångsidiga vita druvor som kan vara svåra att skilja åt. Chardonnay är mer neutral, Chenin Blanc har honung och vita blommor med mycket hög syra.",
+    "inCommon": [
+      "Kan vara eklagrade",
+      "Citrus och stenfrukt",
+      "God syra",
+      "Mångsidig stil"
+    ],
+    "grapeAClues": [
+      "Smör och vanilj om eklagrad",
+      "Mer neutral utan ek",
+      "Medelhög syra",
+      "Tropisk frukt i varmt klimat",
+      "Aldrig honungslik"
+    ],
+    "grapeBClues": [
+      "Honung och vita blommor alltid",
+      "Mycket hög syra",
+      "Grönt äpple och päron",
+      "Mineralisk och flintaktig",
+      "Kan vara söt eller torr"
+    ],
+    "keyDifference": "Smör och vanilj utan honung pekar mot Chardonnay. Honung, vita blommor och mycket hög syra pekar mot Chenin Blanc.",
+    "commonTrap": "Båda kan vara eklagrade och fylliga — men Chenin Blanc har alltid en honungsliknande ton och mycket högre syra än Chardonnay.",
+    "tip": "Honung + vita blommor + hög syra = Chenin Blanc. Smör + vanilj + medelhög syra = Chardonnay."
+  },
+  {
+    "id": "syrah_vs_cabernet_sauvignon",
+    "title": "Syrah vs Cabernet Sauvignon",
+    "grapeA": "syrah",
+    "grapeB": "cabernet_sauvignon",
+    "difficulty": "intermediate",
+    "intro": "Två kraftfulla röda druvor med mörk frukt och högt tannin. Syrah har svartpeppar och viol, Cabernet Sauvignon har svarta vinbär och ceder.",
+    "inCommon": [
+      "Mörk frukt",
+      "Högt tannin",
+      "God struktur",
+      "Lagringsvärd",
+      "Kraftfull stil"
+    ],
+    "grapeAClues": [
+      "Svartpeppar — nästan alltid",
+      "Viol",
+      "Köttig eller rökig ton",
+      "Olivton (Rhône)",
+      "Björnbär och plommon"
+    ],
+    "grapeBClues": [
+      "Svarta vinbär — signaturarom",
+      "Ceder och tobak",
+      "Paprika vid svalare klimat",
+      "Mynta eller eukalyptus",
+      "Ingen svartpeppar"
+    ],
+    "keyDifference": "Svartpeppar + viol + köttig ton pekar mot Syrah. Svarta vinbär + ceder + tobak pekar mot Cabernet Sauvignon.",
+    "commonTrap": "Båda är kraftfulla och mörka — men svartpeppar finns alltid i Syrah och aldrig i Cabernet Sauvignon. Det är den viktigaste skiljelinjen.",
+    "tip": "Svartpeppar? Syrah. Svarta vinbär och ceder utan peppar? Cabernet Sauvignon."
+  },
+  {
+    "id": "nebbiolo_vs_sangiovese",
+    "title": "Nebbiolo vs Sangiovese",
+    "grapeA": "nebbiolo",
+    "grapeB": "sangiovese",
+    "difficulty": "advanced",
+    "intro": "Italiens två stora röda druvor. Båda har hög syra och tannin. Nebbiolo har tjära och rosor, Sangiovese har körsbär och örtigthet.",
+    "inCommon": [
+      "Hög syra",
+      "Högt tannin",
+      "Körsbär och röd frukt",
+      "Kräver mat",
+      "Lagringsvärd"
+    ],
+    "grapeAClues": [
+      "Tjära och rosor — ikonisk kombination",
+      "Extremt högt tannin",
+      "Ljus färg för hur kraftfullt det smakar",
+      "Läder och tobak",
+      "Tryffel med ålder"
+    ],
+    "grapeBClues": [
+      "Örtigthet alltid",
+      "Tomatliknande syra",
+      "Mer tillgänglig tannin",
+      "Mörkare färg än Nebbiolo",
+      "Jordighet och svamp"
+    ],
+    "keyDifference": "Tjära + rosor + extremt högt tannin + ljus färg pekar mot Nebbiolo. Örtigthet + tomatliknande syra + mörkare färg pekar mot Sangiovese.",
+    "commonTrap": "Båda har hög syra och tannin — men tjära och rosor är Nebbiolos unika signaturer. Sangiovese har aldrig tjärton.",
+    "tip": "Tjärton + rosor + ljus färg = Nebbiolo. Örtigthet + tomatliknande syra + mörkare = Sangiovese."
+  },
+  {
+    "id": "pinot_noir_vs_grenache",
+    "title": "Pinot Noir vs Grenache",
+    "grapeA": "pinot_noir",
+    "grapeB": "grenache",
+    "difficulty": "intermediate",
+    "intro": "Två lätta till medelkraftiga röda druvor med röda bär. Pinot Noir är mer elegant och jordigt, Grenache är mer fruktig och varm med hög alkohol.",
+    "inCommon": [
+      "Röda bär",
+      "Relativt lite tannin",
+      "Röd frukt dominerar",
+      "Kan vara lätta och eleganta"
+    ],
+    "grapeAClues": [
+      "Jordighet och svamp",
+      "Viol och ros",
+      "Hög syra",
+      "Komplex och terroir-driven",
+      "Lägre alkohol"
+    ],
+    "grapeBClues": [
+      "Hög alkohol — alltid",
+      "Lakrits och kryddor",
+      "Torkad frukt med ålder",
+      "Generös och varm",
+      "Ingen jordighet"
+    ],
+    "keyDifference": "Jordighet + viol + hög syra + lägre alkohol pekar mot Pinot Noir. Hög alkohol + lakrits + generös frukt utan jordighet pekar mot Grenache.",
+    "commonTrap": "Båda kan vara röda och lätta — men Grenache har alltid hög alkohol och lakrits. Pinot Noir har alltid mer komplexitet och jordighet.",
+    "tip": "Hög alkohol + lakrits = Grenache. Jordighet + viol + lägre alkohol = Pinot Noir."
+  },
+  {
+    "id": "merlot_vs_malbec",
+    "title": "Merlot vs Malbec",
+    "grapeA": "merlot",
+    "grapeB": "malbec",
+    "difficulty": "beginner",
+    "intro": "Två mjuka och tillgängliga röda druvor med mörk frukt. Merlot har plommon och choklad, Malbec har björnbär och viol.",
+    "inCommon": [
+      "Mjukt tannin",
+      "Mörk frukt",
+      "Tillgänglig stil",
+      "Chokladton",
+      "God kropp"
+    ],
+    "grapeAClues": [
+      "Plommon dominerar",
+      "Körsbär och blåbär",
+      "Ingen violton",
+      "Mer elegant",
+      "Bordeaux-ursprung"
+    ],
+    "grapeBClues": [
+      "Viol — signaturarom",
+      "Björnbär och blåbär",
+      "Mer koncentrerad",
+      "Hög alkohol",
+      "Argentinsk ursprung"
+    ],
+    "keyDifference": "Plommon + ingen viol pekar mot Merlot. Viol + björnbär + hög alkohol pekar mot Malbec.",
+    "commonTrap": "Båda är mjuka och tillgängliga — men Malbec har alltid en tydlig violton som Merlot saknar.",
+    "tip": "Viol + björnbär + koncentrerad = Malbec. Plommon + mjukare + ingen viol = Merlot."
+  },
+  {
+    "id": "viognier_vs_gewurztraminer",
+    "title": "Viognier vs Gewürztraminer",
+    "grapeA": "viognier",
+    "grapeB": "gewurztraminer",
+    "difficulty": "intermediate",
+    "intro": "Två intensivt aromatiska vita druvor med låg syra och hög alkohol. Viognier har persika och aprikos, Gewürztraminer har lychee och ros.",
+    "inCommon": [
+      "Intensiv blommighet",
+      "Låg syra",
+      "Hög alkohol",
+      "Exotisk och aromatisk",
+      "Ofta lite sötaktig känsla"
+    ],
+    "grapeAClues": [
+      "Persika och aprikos dominerar",
+      "Jasmin och kaprifol",
+      "Ingen lychee",
+      "Ingen ros-ton",
+      "Rhône-ursprung"
+    ],
+    "grapeBClues": [
+      "Lychee — signaturarom",
+      "Ros — alltid",
+      "Ingefära",
+      "Mer exotisk och intensiv",
+      "Alsace-ursprung"
+    ],
+    "keyDifference": "Persika + aprikos + jasmin utan lychee pekar mot Viognier. Lychee + ros + ingefära pekar mot Gewürztraminer.",
+    "commonTrap": "Båda är intensivt blommiga med låg syra — men lychee och ros är Gewürztraminers unika signaturer som aldrig finns i Viognier.",
+    "tip": "Lychee + ros = Gewürztraminer. Persika + aprikos + jasmin utan lychee = Viognier."
+  },
+  {
+    "id": "tempranillo_vs_sangiovese",
+    "title": "Tempranillo vs Sangiovese",
+    "grapeA": "tempranillo",
+    "grapeB": "sangiovese",
+    "difficulty": "advanced",
+    "intro": "Två sydeuropeiska röda druvor med körsbär och hög syra. Tempranillo har vanilj och kokos från ek, Sangiovese har örtigthet och tomatliknande syra.",
+    "inCommon": [
+      "Körsbär och röd frukt",
+      "Hög syra",
+      "Medelhögt tannin",
+      "Matvänliga",
+      "Lagringsvärdda"
+    ],
+    "grapeAClues": [
+      "Stark vanilj och kokos från ek",
+      "Tobak och läder",
+      "Torkad frukt",
+      "Spansk karaktär",
+      "Ingen örtigthet"
+    ],
+    "grapeBClues": [
+      "Örtigthet alltid",
+      "Tomatliknande syra",
+      "Jordighet",
+      "Italiensk karaktär",
+      "Ingen vanilj/kokos"
+    ],
+    "keyDifference": "Vanilj + kokos + tobak pekar mot Tempranillo. Örtigthet + tomatliknande syra + jordighet pekar mot Sangiovese.",
+    "commonTrap": "Båda har körsbär och hög syra — men vanilj och kokos från ek är Tempranillos signum, medan örtigthet och tomatsyra är Sangioveses.",
+    "tip": "Vanilj och kokos = Tempranillo (Rioja). Örtigthet och tomatsyra = Sangiovese (Chianti)."
+  }
+]
