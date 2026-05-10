@@ -46,12 +46,20 @@ export default async function GrapePage({ params }: { params: Promise<{ id: stri
         <Link href="/druvor" className="text-wine-400 text-sm hover:text-wine-200 flex items-center gap-1">
           ← Alla druvor
         </Link>
-        <Link
-          href={`/aromhjul?druva=${grape.id}`}
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-wine-900 border border-wine-700 text-wine-300 text-sm hover:border-wine-500 hover:text-wine-100 transition-colors"
-        >
-          🌸 Visa i aromhjul
-        </Link>
+        <div className="flex gap-2">
+          <Link
+            href={`/aromhjul?druva=${grape.id}`}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-wine-900 border border-wine-700 text-wine-300 text-sm hover:border-wine-500 hover:text-wine-100 transition-colors"
+          >
+            🌸 Aromhjul
+          </Link>
+          <Link
+            href={`/prova?druva=${grape.id}`}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-wine-600 border border-wine-600 text-white text-sm hover:bg-wine-500 transition-colors"
+          >
+            🍷 Prova
+          </Link>
+        </div>
       </div>
 
       <div className="mb-8">
