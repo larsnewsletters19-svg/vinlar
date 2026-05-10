@@ -316,4 +316,36 @@
     "commonTrap": "Båda har körsbär och hög syra — men vanilj och kokos från ek är Tempranillos signum, medan örtigthet och tomatsyra är Sangioveses.",
     "tip": "Vanilj och kokos = Tempranillo (Rioja). Örtigthet och tomatsyra = Sangiovese (Chianti)."
   }
+  ,{
+    "id": "provence_vs_pinot_noir_rose",
+    "title": "Provence Rosé vs Pinot Noir Rosé",
+    "grapeA": "provence_rose",
+    "grapeB": "pinot_noir_rose",
+    "difficulty": "advanced",
+    "intro": "Två bleka och eleganta roséviner som kan vara svåra att skilja åt. Provence är mer mineralisk och citrusdriven, Pinot Noir Rosé har mer viol och högre syra.",
+    "inCommon": [
+      "Mycket blek färg",
+      "Torr och frisk stil",
+      "Röda bär",
+      "Elegant och delikat",
+      "Låg till medelhög alkohol"
+    ],
+    "grapeAClues": [
+      "Salt mineralitet",
+      "Citrus och grapefrukt",
+      "Lite persika",
+      "Medelhög syra",
+      "Grenache, Cinsault och Mourvèdre"
+    ],
+    "grapeBClues": [
+      "Högre syra",
+      "Viol och ros",
+      "Mer bärfrukt",
+      "Kan likna vitt vin i friskhet",
+      "Tydlig Pinot Noir-karaktär"
+    ],
+    "keyDifference": "Salt mineralitet och citrus pekar mot Provence. Hög syra och viol pekar mot Pinot Noir Rosé.",
+    "commonTrap": "Båda är bleka och eleganta — men Pinot Noir Rosé har alltid högre syra och en violton som Provence saknar.",
+    "tip": "Viol + hög syra = Pinot Noir Rosé. Salt mineralitet + citrus = Provence."
+  }
 ]
