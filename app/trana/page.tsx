@@ -17,6 +17,7 @@ const categories = [
   { id: 'all', label: 'Alla', emoji: '🎯' },
   { id: 'white', label: 'Vita druvor', emoji: '🥂' },
   { id: 'red', label: 'Röda druvor', emoji: '🍷' },
+  { id: 'rosé', label: 'Rosé', emoji: '🌸' },
   { id: 'sparkling', label: 'Mousserande', emoji: '🍾' },
   { id: 'sweet', label: 'Söta & förstärkta', emoji: '🍯' },
   { id: 'style', label: 'Stilar & regioner', emoji: '🗺️' },

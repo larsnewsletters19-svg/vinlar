@@ -994,4 +994,84 @@
     "correctAnswer": "Druvsprit tillsätts för att höja alkoholen till 15–22% och ge längre hållbarhet",
     "explanation": "Förstärkning innebär att druvsprit tillsätts — under jäsning (Port, bevarar sötma) eller efter (Sherry, blir torrare). Ger alkohol på 15–22% och mycket längre hållbarhet."
   }
+  ,{
+    "id": "q081",
+    "type": "guess_grape",
+    "category": "rosé",
+    "difficulty": "beginner",
+    "question": "Du provar ett rosé med mycket blek laxrosa färg, torrt och friskt med citrus och röda bär. Elegant och mineralisk.",
+    "options": ["Tavel Rosé", "Provence Rosé", "Grenache Rosé", "Pinot Noir Rosé"],
+    "correctAnswer": "Provence Rosé",
+    "explanation": "Mycket blek laxrosa färg + torr + frisk + mineralisk = klassisk Provence Rosé. Den bleka färgen är Provences signum."
+  },
+  {
+    "id": "q082",
+    "type": "guess_grape",
+    "category": "rosé",
+    "difficulty": "intermediate",
+    "question": "Du provar ett rosé med djupare rosa färg, mer kropp och kryddighet än normalt. Röda bär och lakrits. Kan lagras.",
+    "options": ["Provence Rosé", "Pinot Noir Rosé", "Tavel Rosé", "Rosé Champagne"],
+    "correctAnswer": "Tavel Rosé",
+    "explanation": "Djupare färg + mer kropp + kryddighet + lagringsvärd = Tavel. Frankrikes kraftigaste rosé och enda AOC enbart för rosé."
+  },
+  {
+    "id": "q083",
+    "type": "guess_grape",
+    "category": "rosé",
+    "difficulty": "intermediate",
+    "question": "Du provar ett mousserande rosé med röda bär, brioche och kritliknande mineralitet. Komplex och lång finish.",
+    "options": ["Provence Rosé", "Crémant Rosé", "Rosé Champagne", "Tavel Rosé"],
+    "correctAnswer": "Rosé Champagne",
+    "explanation": "Röda bär + brioche + krita + fin bubbelstång + lång komplex finish = Rosé Champagne. Brioche-tonen skiljer den från enklare mousserande rosé."
+  },
+  {
+    "id": "q084",
+    "type": "guess_grape",
+    "category": "rosé",
+    "difficulty": "beginner",
+    "question": "Du provar ett rosé med intensiv jordgubbe och vattenmelon. Blommigt och generöst. Mer fruktdriven än mineralisk.",
+    "options": ["Pinot Noir Rosé", "Provence Rosé", "Tavel Rosé", "Grenache Rosé"],
+    "correctAnswer": "Grenache Rosé",
+    "explanation": "Jordgubbe + vattenmelon + blommigt + generös och fruktig = Grenache Rosé. Fruktigheten och blommigheten är typisk för Grenache."
+  },
+  {
+    "id": "q085",
+    "type": "guess_grape",
+    "category": "rosé",
+    "difficulty": "intermediate",
+    "question": "Du provar ett mycket blek och delikat rosé med hög syra, röda bär och viol. Elegant och mineralisk. Nästan som ett vitt vin i friskhet.",
+    "options": ["Grenache Rosé", "Tavel Rosé", "Provence Rosé", "Pinot Noir Rosé"],
+    "correctAnswer": "Pinot Noir Rosé",
+    "explanation": "Mycket blek + hög syra + viol + delikat och elegant = Pinot Noir Rosé. Den höga syran och violblommigheten pekar mot Pinot Noir."
+  },
+  {
+    "id": "q086",
+    "type": "distinguish",
+    "category": "rosé",
+    "difficulty": "advanced",
+    "question": "Vad är den viktigaste skillnaden mellan Provence Rosé och Tavel?",
+    "options": [
+      "Provence är kraftigare och mörkare än Tavel",
+      "Tavel är kraftigare med djupare färg och mer kropp, Provence är blekare och mer elegant",
+      "De görs på helt olika druvor",
+      "Tavel är alltid sötare"
+    ],
+    "correctAnswer": "Tavel är kraftigare med djupare färg och mer kropp, Provence är blekare och mer elegant",
+    "explanation": "Provence = blek, elegant, mineralisk. Tavel = djupare färg, mer kropp, kryddighet och kan lagras. Tavel är Frankrikes kraftigaste rosé."
+  },
+  {
+    "id": "q087",
+    "type": "distinguish",
+    "category": "rosé",
+    "difficulty": "intermediate",
+    "question": "Hur skiljer man Pinot Noir Rosé från Grenache Rosé?",
+    "options": [
+      "Pinot Noir Rosé är alltid mörkare",
+      "Grenache Rosé har hög syra och viol, Pinot Noir Rosé har jordgubbe och vattenmelon",
+      "Pinot Noir Rosé har hög syra och delikatess, Grenache Rosé är mer fruktdriven med jordgubbe",
+      "De är omöjliga att skilja åt"
+    ],
+    "correctAnswer": "Pinot Noir Rosé har hög syra och delikatess, Grenache Rosé är mer fruktdriven med jordgubbe",
+    "explanation": "Pinot Noir Rosé: hög syra, viol, delikat och mineralisk. Grenache Rosé: jordgubbe, vattenmelon, blommig och generös. Syranivån är nyckeln."
+  }
 ]
