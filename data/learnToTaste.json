@@ -286,4 +286,32 @@
     ],
     "commonMisconceptions": "Champagne är inte en druva — det är en region och en metod. Vinet görs på Chardonnay, Pinot Noir och Pinot Meunier. Barolo är inte heller en druva utan Nebbiolo från en specifik del av Piemonte med strikta regler för lagring."
   }
+  ,{
+    "id": "same_grape_different_names",
+    "section": "technique",
+    "name": "Samma druva — olika namn",
+    "icon": "🔄",
+    "shortDescription": "Syrah och Shiraz är exakt samma druva. Grenache och Garnacha likaså. Lär dig de viktigaste synonymerna.",
+    "whatItIs": "Många druvor har olika namn i olika länder — ofta beroende på historisk migration, lokala dialekter eller politiska gränser. Det är exakt samma druva genetiskt men kan smaka lite olika beroende på klimat och vinmakning.",
+    "howItFeels": "När du vet att Syrah och Shiraz är samma druva förstår du varför en elegant Rhône-Syrah och en kraftfull Barossa-Shiraz kan smaka så olika — det är inte druvan som skiljer dem åt, det är klimatet och vinmakaren.",
+    "tryItYourself": "Köp en Syrah från norra Rhône och en Shiraz från Barossa Valley. Samma druva — dramatiskt olika uttryck. Det är terroir och klimat i praktiken.",
+    "highExamples": [
+      "Syrah = Shiraz (Frankrike = Australien/Sydafrika)",
+      "Grenache = Garnacha (Frankrike = Spanien)",
+      "Pinot Gris = Pinot Grigio (Alsace = Italien)",
+      "Tempranillo = Tinta Roriz = Aragonez (Spanien = Portugal)",
+      "Mourvèdre = Monastrell = Mataro (Frankrike = Spanien = Australien)",
+      "Zinfandel = Primitivo (Kalifornien = Puglia, Italien)",
+      "Albariño = Alvarinho (Spanien = Portugal)",
+      "Cabernet Franc = Breton (allmänt = Loire)",
+      "Malbec = Côt = Auxerrois (Argentina = Cahors, Frankrike)",
+      "Melon de Bourgogne = Muscadet (druvan = appellationen)"
+    ],
+    "lowExamples": [
+      "Chardonnay = alltid Chardonnay oavsett land",
+      "Riesling = alltid Riesling oavsett land",
+      "Cabernet Sauvignon = alltid Cabernet Sauvignon oavsett land"
+    ],
+    "commonMisconceptions": "Syrah och Shiraz är inte olika druvor — de är exakt samma. Men en Syrah från kalla norra Rhône smakar elegant och pepprig medan en Shiraz från varma Barossa smakar rik och chokladig. Det är klimatet och vinmakaren som skapar skillnaden, inte druvan."
+  }
 ]
