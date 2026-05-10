@@ -115,7 +115,7 @@
     "id": "gruner_veltliner",
     "name": "Grüner Veltliner",
     "type": "white",
-    "shortDescription": "Österrikes nationaldruvva. Frisk och örtig med vitpeppar, citrus och gröna toner. Ofta mineralisk och elegant.",
+    "shortDescription": "Österrikes nationaldruva. Frisk och örtig med vitpeppar, citrus och gröna toner. Ofta mineralisk och elegant.",
     "typicalAromas": ["lime", "lemon", "green_apple", "white_pepper", "grass", "flint"],
     "aromaScores": {
       "lemon": 4, "lime": 4, "grapefruit": 2, "orange_peel": 1,
@@ -864,7 +864,7 @@
     "id": "amarone",
     "name": "Amarone & Valpolicella",
     "type": "sweet",
-    "shortDescription": "Nordöstra Italiens stora röda viner. Amarone görs på torkade druvor och är kraftfull och torr. Ripasso är en mellanstig. Valpolicella är det lätta vardagsvinet. Alla på Corvina-druvan.",
+    "shortDescription": "Nordöstra Italiens stora röda viner. Amarone görs på torkade druvor och är kraftfull och torr samt smakar nästan sött pga den höga koncentrationen och alkoholen. Ripasso är en mellanstig. Valpolicella är det lätta vardagsvinet. Alla på Corvina-druvan.",
     "typicalAromas": ["dried_fruit", "chocolate", "plum", "tobacco", "leather", "cherry"],
     "aromaScores": {
       "lemon": 0, "lime": 0, "grapefruit": 0, "orange_peel": 2,
@@ -886,7 +886,7 @@
       { "name": "Valpolicella Classico", "description": "Lätt och fruktig vardagsstil. Körsbär och röda bär. Dricks ung och frisk." },
       { "name": "Recioto della Valpolicella", "description": "Söt version av Amarone. Gjord på torkade druvor men inte fulljäst. Intensivt söt med mörk frukt och choklad." }
     ],
-    "blindTastingClues": ["Torkad frukt och russin", "Mycket hög alkohol", "Choklad och kaffe", "Koncentrerad och fyllig", "Bitter eftersmak (Amarone = 'den bittre')"],
+    "blindTastingClues": ["Torkad frukt och russin", "Mycket hög alkohol", "Choklad och kaffe", "Koncentrerad och fyllig", "Bitter eftersmak (Amaro = 'bitter')"],
     "commonConfusions": ["Port (Ruby)", "Zinfandel", "Primitivo"]
   }
   ,{
@@ -1117,7 +1117,7 @@
     "name": "Loureiro",
     "aliases": [],
     "type": "white",
-    "shortDescription": "Aromatisk vit druva från Vinho Verde i Portugal. Floral och frisk med citrus, lagerblad och lite pärla. Ofta blandad med Alvarinho.",
+    "shortDescription": "Aromatisk vit druva från Vinho Verde i Portugal. Floral och frisk med citrus, vita blommor och lite pärla. Ofta blandad med Alvarinho.",
     "typicalAromas": ["lemon", "lime", "white_flowers", "green_apple", "flint"],
     "aromaScores": {
       "lemon": 4, "lime": 4, "grapefruit": 2, "orange_peel": 1,
