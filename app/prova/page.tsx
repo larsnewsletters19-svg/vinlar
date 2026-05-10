@@ -357,7 +357,7 @@ function ProvaContent() {
             </div>
             <div className="grid grid-cols-2 gap-3">
               <button
-                onClick={() => { setStep(0); }}
+                onClick={() => { setStep(0); setShowAromas(false); setShowStructure(false); }}
                 className="py-3 bg-wine-900 hover:bg-wine-800 border border-wine-700 text-wine-300 font-medium rounded-xl transition-colors text-sm"
               >
                 Prova igen

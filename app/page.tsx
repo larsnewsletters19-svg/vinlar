@@ -78,6 +78,13 @@ const sections = [
     desc: 'De vanligaste förväxlingarna i blindprovning.',
     color: 'from-rose-900 to-wine-950',
   },
+  {
+    href: '/prova',
+    icon: '🍷',
+    title: 'Prova ett vin',
+    desc: 'Guidad provning steg för steg — se, dofta och smaka.',
+    color: 'from-wine-700 to-wine-950',
+  },
 ];
 
 export default function Home() {
