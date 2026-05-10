@@ -56,6 +56,8 @@ function ProvaContent() {
   const [selectedGrape, setSelectedGrape] = useState<string>(initialGrape);
   const [step, setStep] = useState(initialGrape ? 0 : -1);
   const [activeGroup, setActiveGroup] = useState<string>('white');
+  const [showAromas, setShowAromas] = useState(false);
+  const [showStructure, setShowStructure] = useState(false);
 
   const grape = allGrapes.find((g) => g.id === selectedGrape);
 
@@ -199,34 +201,48 @@ function ProvaContent() {
           <div className="space-y-4">
             <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
               <p className="text-wine-200 text-sm leading-relaxed mb-4">
-                Snurra glaset försiktigt i 5 sekunder. Dofta utan att snurra först — sedan snurra och dofta igen. Märker du skillnad?
+                Dofta på vinet utan att snurra glaset först. Vad känner du? Snurra sedan glaset försiktigt och dofta igen — märker du skillnad?
               </p>
-              <h3 className="text-xs uppercase tracking-widest text-wine-500 mb-3">Leta efter dessa aromer</h3>
-              <div className="space-y-3">
-                {relevantFamilies.map((family) => {
-                  const familyAromas = family.ids
-                    .map((id) => ({ id, score: grape.aromaScores[id] ?? 0, aroma: aromaMap[id] }))
-                    .filter((a) => a.score >= 3)
-                    .sort((a, b) => b.score - a.score);
-                  return (
-                    <div key={family.id} className="bg-wine-950 rounded-xl p-3">
-                      <div className="text-wine-300 font-medium mb-2 text-sm">
-                        {family.emoji} {family.label}
-                      </div>
-                      <div className="flex flex-wrap gap-1.5">
-                        {familyAromas.map(({ id, score, aroma }) => (
-                          <span key={id} className={`flex items-center gap-1 px-2 py-1 rounded-full text-xs ${
-                            score === 5 ? 'bg-amber-400/20 border border-amber-400/50 text-amber-300' : 'bg-wine-800 border border-wine-700 text-wine-300'
-                          }`}>
-                            {aroma?.emoji} {aroma?.name}
-                            {score === 5 && <span className="text-amber-400">★</span>}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
+              {!showAromas ? (
+                <div className="text-center py-6">
+                  <p className="text-wine-400 text-sm mb-4">Ta din tid att dofta på vinet innan du ser svaret.</p>
+                  <button
+                    onClick={() => setShowAromas(true)}
+                    className="px-6 py-3 bg-wine-600 hover:bg-wine-500 text-white font-medium rounded-xl transition-colors"
+                  >
+                    Visa typiska aromer →
+                  </button>
+                </div>
+              ) : (
+                <>
+                  <h3 className="text-xs uppercase tracking-widest text-wine-500 mb-3">Typiska aromer för {grape.name}</h3>
+                  <div className="space-y-3">
+                    {relevantFamilies.map((family) => {
+                      const familyAromas = family.ids
+                        .map((id) => ({ id, score: grape.aromaScores[id] ?? 0, aroma: aromaMap[id] }))
+                        .filter((a) => a.score >= 3)
+                        .sort((a, b) => b.score - a.score);
+                      return (
+                        <div key={family.id} className="bg-wine-950 rounded-xl p-3">
+                          <div className="text-wine-300 font-medium mb-2 text-sm">
+                            {family.emoji} {family.label}
+                          </div>
+                          <div className="flex flex-wrap gap-1.5">
+                            {familyAromas.map(({ id, score, aroma }) => (
+                              <span key={id} className={`flex items-center gap-1 px-2 py-1 rounded-full text-xs ${
+                                score === 5 ? 'bg-amber-400/20 border border-amber-400/50 text-amber-300' : 'bg-wine-800 border border-wine-700 text-wine-300'
+                              }`}>
+                                {aroma?.emoji} {aroma?.name}
+                                {score === 5 && <span className="text-amber-400">★</span>}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </>
+              )}
             </div>
             <div className="bg-amber-900/20 rounded-2xl p-4 border border-amber-800/40">
               <p className="text-amber-300 text-sm">💡 Dofta i korta sniftar — näsan tröttnar snabbt. Ta en paus och dofta igen.</p>
@@ -241,27 +257,41 @@ function ProvaContent() {
               <p className="text-wine-200 text-sm leading-relaxed mb-4">
                 Ta en liten klunk. Håll vinet i munnen i 5–10 sekunder. Andas in lite luft. Svälj och notera eftersmaken.
               </p>
-              <h3 className="text-xs uppercase tracking-widest text-wine-500 mb-3">Vad du ska känna</h3>
-              <div className="space-y-3">
-                {structureLabels.map(({ key, label, low, high }) => {
-                  const value = grape.structure[key as keyof typeof grape.structure];
-                  if (key === 'tannin' && grape.type !== 'red') return null;
-                  if (key === 'sweetness' && value === 0) return null;
-                  return (
-                    <div key={key} className="bg-wine-950 rounded-xl p-3">
-                      <div className="flex items-center justify-between mb-2">
-                        <span className="text-wine-100 font-medium text-sm">{label}</span>
-                        <div className="flex gap-1">
-                          {[1, 2, 3, 4, 5].map((s) => (
-                            <div key={s} className={`w-3 h-3 rounded-full ${s <= value ? 'bg-amber-400' : 'bg-wine-700'}`} />
-                          ))}
+              {!showStructure ? (
+                <div className="text-center py-6">
+                  <p className="text-wine-400 text-sm mb-4">Känn efter syra, kropp och tannin innan du ser svaret.</p>
+                  <button
+                    onClick={() => setShowStructure(true)}
+                    className="px-6 py-3 bg-wine-600 hover:bg-wine-500 text-white font-medium rounded-xl transition-colors"
+                  >
+                    Visa smakstruktur →
+                  </button>
+                </div>
+              ) : (
+                <>
+                  <h3 className="text-xs uppercase tracking-widest text-wine-500 mb-3">Smakstruktur för {grape.name}</h3>
+                  <div className="space-y-3">
+                    {structureLabels.map(({ key, label, low, high }) => {
+                      const value = grape.structure[key as keyof typeof grape.structure];
+                      if (key === 'tannin' && grape.type !== 'red') return null;
+                      if (key === 'sweetness' && value === 0) return null;
+                      return (
+                        <div key={key} className="bg-wine-950 rounded-xl p-3">
+                          <div className="flex items-center justify-between mb-2">
+                            <span className="text-wine-100 font-medium text-sm">{label}</span>
+                            <div className="flex gap-1">
+                              {[1, 2, 3, 4, 5].map((s) => (
+                                <div key={s} className={`w-3 h-3 rounded-full ${s <= value ? 'bg-amber-400' : 'bg-wine-700'}`} />
+                              ))}
+                            </div>
+                          </div>
+                          <p className="text-wine-500 text-xs">{value <= 2 ? low : value >= 4 ? high : `Medel — varken högt eller lågt`}</p>
                         </div>
-                      </div>
-                      <p className="text-wine-500 text-xs">{value <= 2 ? low : value >= 4 ? high : `Medel — varken högt eller lågt`}</p>
-                    </div>
-                  );
-                })}
-              </div>
+                      );
+                    })}
+                  </div>
+                </>
+              )}
             </div>
             <div className="bg-amber-900/20 rounded-2xl p-4 border border-amber-800/40">
               <p className="text-amber-300 text-sm">💡 Räkna hur länge du kan känna vinet efter att du svalt — det är finishen. Längre finish = högre kvalitet.</p>
@@ -361,7 +391,7 @@ function ProvaContent() {
             </button>
           )}
           <button
-            onClick={() => setStep(step + 1)}
+            onClick={() => { setStep(step + 1); setShowAromas(false); setShowStructure(false); }}
             className="flex-1 py-3 bg-wine-600 hover:bg-wine-500 text-white font-display text-lg rounded-xl transition-colors"
           >
             {step === 3 ? 'Slutför →' : 'Nästa →'}
