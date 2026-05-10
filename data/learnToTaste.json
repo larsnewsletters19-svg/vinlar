@@ -233,4 +233,57 @@
     "lowExamples": ["Beaujolais Nouveau (dricks inom månader)", "Enkla vita viner (1–2 år)", "De flesta roséviner (1–3 år)"],
     "commonMisconceptions": "De flesta viner i världen – över 90% – mår bäst av att drickas unga och friska. Bara en liten andel av världens viner har verklig lagringskapacitet."
   }
+  ,{
+    "id": "appellations_white",
+    "section": "technique",
+    "name": "Vita viner som låter som druvor",
+    "icon": "🥂",
+    "shortDescription": "Chablis, Sancerre och Muscadet är inte druvor — de är appellationer. Här är vad de egentligen görs på.",
+    "whatItIs": "Många vita viner namnges efter sin region eller appellation snarare än sin druva. Det kan vara förvirrande — men när du väl vet vad som gömmer sig bakom namnet blir det mycket lättare att förstå vad du dricker.",
+    "howItFeels": "När du hör 'Chablis' tänk Chardonnay. När du hör 'Sancerre' tänk Sauvignon Blanc. Appellationsnamnet berättar var vinet kommer från, druvan berättar hur det smakar.",
+    "tryItYourself": "Nästa gång du ser en vinlista — leta efter namn som Chablis, Sancerre eller Muscadet och testa om du kan gissa vilken druva som gömmer sig bakom.",
+    "highExamples": [
+      "Chablis = Chardonnay (Bourgogne, Frankrike)",
+      "Sancerre / Pouilly-Fumé = Sauvignon Blanc (Loire, Frankrike)",
+      "Muscadet = Melon de Bourgogne (Loire, Frankrike)",
+      "Condrieu = Viognier (norra Rhône, Frankrike)",
+      "Soave = Garganega (Veneto, Italien)",
+      "Prosecco = Glera (Veneto, Italien)",
+      "Vinho Verde = Alvarinho / Loureiro (Portugal)",
+      "Albariño / Alvarinho = samma druva, spansk vs portugisisk stavning"
+    ],
+    "lowExamples": [
+      "Chardonnay = druva — skrivs alltid som druva",
+      "Sauvignon Blanc = druva — skrivs alltid som druva",
+      "Riesling = druva — skrivs alltid som druva"
+    ],
+    "commonMisconceptions": "Chablis är inte en egen druvsort — det är Chardonnay från en specifik kalkstensrik region i norra Bourgogne. Stilen är torrare och mer mineralisk än ekad Chardonnay, men det är fortfarande samma druva."
+  },
+  {
+    "id": "appellations_red",
+    "section": "technique",
+    "name": "Röda viner som låter som druvor",
+    "icon": "🍷",
+    "shortDescription": "Barolo, Champagne och Châteauneuf-du-Pape är inte druvor. Lär dig vad som gömmer sig bakom de stora namnen.",
+    "whatItIs": "De mest prestigefyllda vinnamnen i världen är ofta appellationer — inte druvor. Barolo är Nebbiolo. Champagne är en blend. Hermitage är Syrah. När du kan koppla ihop namnen med druvorna öppnar sig hela vinvärlden.",
+    "howItFeels": "Det är som att lära sig ett nytt språk. När du hör 'Barolo' ska hjärnan automatiskt tänka 'Nebbiolo — tjära och rosor, högt tannin'. När du hör 'Brunello' ska du tänka 'Sangiovese — körsbär och örtigthet'.",
+    "tryItYourself": "Täck över druvkolumnen på en vinlista och se om du kan gissa druvan bakom appellationsnamnet. Barolo? Hermitage? Châteauneuf?",
+    "highExamples": [
+      "Barolo / Barbaresco = Nebbiolo (Piemonte, Italien)",
+      "Brunello di Montalcino = Sangiovese (Toscana, Italien)",
+      "Chianti = Sangiovese (Toscana, Italien)",
+      "Amarone = Corvina-blend (Veneto, Italien)",
+      "Hermitage / Crozes-Hermitage = Syrah (norra Rhône, Frankrike)",
+      "Châteauneuf-du-Pape = Grenache-dominerad blend (södra Rhône)",
+      "Rioja = Tempranillo-dominerad blend (Spanien)",
+      "Priorat = Garnacha + Carignan (Katalonien, Spanien)",
+      "Port = Touriga Nacional-blend (Douro, Portugal)"
+    ],
+    "lowExamples": [
+      "Cabernet Sauvignon = druva — skrivs alltid som druva",
+      "Syrah / Shiraz = druva — skrivs alltid som druva",
+      "Nebbiolo = druva — skrivs alltid som druva"
+    ],
+    "commonMisconceptions": "Champagne är inte en druva — det är en region och en metod. Vinet görs på Chardonnay, Pinot Noir och Pinot Meunier. Barolo är inte heller en druva utan Nebbiolo från en specifik del av Piemonte med strikta regler för lagring."
+  }
 ]
