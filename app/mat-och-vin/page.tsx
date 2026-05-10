@@ -2,6 +2,9 @@
 
 import { useState } from 'react';
 import foodAndWine from '@/data/foodAndWine.json';
+import grapes from '@/data/grapes.json';
+import { Grape } from '@/types';
+const allGrapes = grapes as Grape[];
 
 const { interactions, tricks, foodCategories } = foodAndWine;
 
@@ -195,11 +198,23 @@ export default function MatOchVinPage() {
                   <div key={rec.food} className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
                     <div className="font-display text-lg text-wine-100 mb-3">{rec.food}</div>
                     <div className="flex flex-wrap gap-2 mb-3">
-                      {rec.wines.map((wine) => (
-                        <span key={wine} className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-700 text-wine-200">
-                          {wine}
-                        </span>
-                      ))}
+                      {rec.wines.map((wine) => {
+                        const match = allGrapes.find((g) =>
+                          g.name === wine ||
+                          g.name.includes(wine) ||
+                          wine.includes(g.name.split('/')[0].trim()) ||
+                          g.aliases?.some((a) => a.toLowerCase() === wine.toLowerCase())
+                        );
+                        return match ? (
+                          <a key={wine} href={`/druvor/${match.id}`} className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-700 text-wine-200 hover:border-wine-500 hover:text-wine-50 transition-colors">
+                            {wine}
+                          </a>
+                        ) : (
+                          <span key={wine} className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-700 text-wine-400">
+                            {wine}
+                          </span>
+                        );
+                      })}
                     </div>
                     <p className="text-wine-500 text-xs italic">{rec.reason}</p>
                   </div>
