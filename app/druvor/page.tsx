@@ -59,6 +59,16 @@ export default function DruvorPage() {
           </button>
         ))}
       </div>
+      {activeTab === 'sparkling' && (
+  <p className="text-xs text-wine-500 mb-4">
+    Mousserande viner listas som appellationer och stilar — inte druvor.
+  </p>
+)}
+{activeTab === 'sweet' && (
+  <p className="text-xs text-wine-500 mb-4">
+    Söta och förstärkta viner listas som appellationer och stilar — inte druvor.
+  </p>
+)}
 
       {filtered.length === 0 ? (
         <div className="text-center text-wine-500 py-8">
