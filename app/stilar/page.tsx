@@ -1,5 +1,4 @@
 'use client';
-
 import { useState } from 'react';
 import comparisons from '@/data/comparisons.json';
 import { Comparison, StyleVsStyleComparison } from '@/types';
@@ -20,6 +19,14 @@ const countries = [
   { id: 'sweet', label: 'Söta & förstärkta', emoji: '🍯' },
 ];
 
+const comparisonTypes = [
+  { id: 'all', label: 'Alla typer', emoji: '📋' },
+  { id: 'region', label: 'Region', emoji: '🗺️' },
+  { id: 'grape', label: 'Druva', emoji: '🍇' },
+  { id: 'style', label: 'Stil', emoji: '🪄' },
+  { id: 'appellation', label: 'Appellation', emoji: '🏅' },
+];
+
 const countryMap: Record<string, string[]> = {
   france: ['sauvignon_blanc_loire_vs_marlborough', 'chardonnay_chablis_vs_new_world', 'syrah_rhone_vs_barossa', 'pinot_noir_bourgogne_vs_oregon', 'riesling_mosel_vs_alsace', 'nebbiolo_barolo_vs_barbaresco', 'sangiovese_chianti_vs_brunello', 'grenache_rhone_vs_priorat', 'champagne_vs_cava_vs_prosecco', 'chenin_blanc_loire_vs_sa', 'pinot_noir_burgundy_vs_newzealand', 'chenin_sa_vs_loire', 'port_vs_sherry', 'sauternes_vs_tokaji', 'sauternes_vs_eiswein'],
   italy: ['nebbiolo_barolo_vs_barbaresco', 'sangiovese_chianti_vs_brunello', 'champagne_vs_cava_vs_prosecco', 'amarone_vs_ripasso'],
@@ -35,10 +42,13 @@ const countryMap: Record<string, string[]> = {
 export default function StilarPage() {
   const [activeStyle, setActiveStyle] = useState<string | null>(null);
   const [activeCountry, setActiveCountry] = useState<string>('all');
+  const [activeType, setActiveType] = useState<string>('all');
 
-  const filtered = activeCountry === 'all'
-    ? styleComparisons
-    : styleComparisons.filter((c) => countryMap[activeCountry]?.includes(c.id));
+  const filtered = styleComparisons.filter((c) => {
+    const countryMatch = activeCountry === 'all' || countryMap[activeCountry]?.includes(c.id);
+    const typeMatch = activeType === 'all' || (c as any).comparisonType === activeType;
+    return countryMatch && typeMatch;
+  });
 
   const activeComp = activeStyle ? styleComparisons.find((c) => c.id === activeStyle) : null;
 
@@ -51,7 +61,8 @@ export default function StilarPage() {
 
       {!activeComp ? (
         <>
-          <div className="flex gap-2 mb-6 flex-wrap">
+          {/* Länderfilter */}
+          <div className="flex gap-2 mb-3 flex-wrap">
             {countries.map((country) => (
               <button
                 key={country.id}
@@ -66,10 +77,30 @@ export default function StilarPage() {
               </button>
             ))}
           </div>
+          
+           {/* Separator */}
+          <div className="border-t border-wine-800 my-1" />
+
+          {/* Typfilter */}
+          <div className="flex gap-2 mb-6 flex-wrap">
+            {comparisonTypes.map((type) => (
+              <button
+                key={type.id}
+                onClick={() => setActiveType(type.id)}
+                className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-all ${
+                  activeType === type.id
+                    ? 'bg-amber-700 border-amber-600 text-white'
+                    : 'bg-wine-900 border-wine-700 text-wine-400 hover:border-wine-500'
+                }`}
+              >
+                {type.emoji} {type.label}
+              </button>
+            ))}
+          </div>
 
           {filtered.length === 0 ? (
             <div className="bg-wine-900 rounded-2xl p-8 border border-wine-800 text-center text-wine-400">
-              Inga jämförelser för det landet ännu — kommer snart!
+              Inga jämförelser för den kombinationen — prova ett annat filter.
             </div>
           ) : (
             <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -81,6 +112,18 @@ export default function StilarPage() {
                   >
                     <div className="font-display text-lg text-wine-100 mb-1">{c.title}</div>
                     <div className="text-xs text-wine-500">{c.styleA.region} vs {c.styleB.region}</div>
+                    {(c as any).comparisonType && (
+                      <div className="mt-2">
+                        <span className="text-xs px-2 py-0.5 rounded-full bg-wine-800 text-wine-500 border border-wine-700">
+                          {{
+                            region: '🗺️ Region',
+                            grape: '🍇 Druva',
+                            style: '🪄 Stil',
+                            appellation: '🏅 Appellation',
+                          }[(c as any).comparisonType] ?? (c as any).comparisonType}
+                        </span>
+                      </div>
+                    )}
                   </button>
                 </li>
               ))}
