@@ -77,7 +77,7 @@ export default function StilarPage() {
               </button>
             ))}
           </div>
-          
+
            {/* Separator */}
           <div className="border-t border-wine-800 my-1" />
 
@@ -115,12 +115,12 @@ export default function StilarPage() {
                     {(c as any).comparisonType && (
                       <div className="mt-2">
                         <span className="text-xs px-2 py-0.5 rounded-full bg-wine-800 text-wine-500 border border-wine-700">
-                          {{
+                          {({
                             region: '🗺️ Region',
                             grape: '🍇 Druva',
                             style: '🪄 Stil',
                             appellation: '🏅 Appellation',
-                          }[(c as any).comparisonType] ?? (c as any).comparisonType}
+                          } as Record<string, string>)[(c as any).comparisonType] ?? (c as any).comparisonType}
                         </span>
                       </div>
                     )}
