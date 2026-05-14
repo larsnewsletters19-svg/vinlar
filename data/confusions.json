@@ -23,11 +23,11 @@
       "Mer fruktig och enkel",
       "Kan ha bananaton (Beaujolais Nouveau)",
       "Mer omedelbar och tillgänglig",
-      "Dricks alltid ung",
+      "Dricks oftast ung",
       "Ingen jordighet"
     ],
     "keyDifference": "Jordighet och komplexitet pekar mot Pinot Noir. Fruktig, enkel och utan jordighet pekar mot Gamay.",
-    "commonTrap": "Båda är lätta röda med röda bär — men Pinot Noir har alltid mer komplexitet och jordighet. Om vinet är helt enkelt och fruktig utan djup är det troligen Gamay.",
+    "commonTrap": "Båda är lätta röda med röda bär — men Pinot Noir har alltid mer komplexitet och jordighet. Om vinet är helt enkelt och fruktigt utan djup är det troligen Gamay.",
     "tip": "Sök efter jordighet och svamp — hittar du det är det Pinot Noir. Hittar du bara enkel röd frukt är det Gamay."
   },
   {
@@ -74,7 +74,7 @@
       "Citrus",
       "Aromatisk och frisk",
       "Ingen ek",
-      "Låg alkohol"
+      "Medelhög alkohol"
     ],
     "grapeAClues": [
       "Gräs och nässlor",
@@ -239,14 +239,14 @@
       "Körsbär och blåbär",
       "Ingen violton",
       "Mer elegant",
-      "Bordeaux-ursprung"
+      "Franskt ursprung"
     ],
     "grapeBClues": [
       "Viol — signaturarom",
       "Björnbär och blåbär",
       "Mer koncentrerad",
       "Hög alkohol",
-      "Argentinsk ursprung"
+      "Franskt ursprung, känt från Argentina"
     ],
     "keyDifference": "Plommon + ingen viol pekar mot Merlot. Viol + björnbär + hög alkohol pekar mot Malbec.",
     "commonTrap": "Båda är mjuka och tillgängliga — men Malbec har alltid en tydlig violton som Merlot saknar.",
@@ -315,11 +315,11 @@
     "keyDifference": "Vanilj + kokos + tobak pekar mot Tempranillo. Örtigthet + tomatliknande syra + jordighet pekar mot Sangiovese.",
     "commonTrap": "Båda har körsbär och hög syra — men vanilj och kokos från ek är Tempranillos signum, medan örtigthet och tomatsyra är Sangioveses.",
     "tip": "Vanilj och kokos = Tempranillo (Rioja). Örtigthet och tomatsyra = Sangiovese (Chianti)."
-  }
-  ,{
+  },
+  {
     "id": "provence_vs_pinot_noir_rose",
     "title": "Provence Rosé vs Pinot Noir Rosé",
-    "grapeA": "provence_rose",
+    "grapeA": "mixed",
     "grapeB": "pinot_noir_rose",
     "difficulty": "advanced",
     "intro": "Två bleka och eleganta roséviner som kan vara svåra att skilja åt. Provence är mer mineralisk och citrusdriven, Pinot Noir Rosé har mer viol och högre syra.",
@@ -347,5 +347,229 @@
     "keyDifference": "Salt mineralitet och citrus pekar mot Provence. Hög syra och viol pekar mot Pinot Noir Rosé.",
     "commonTrap": "Båda är bleka och eleganta — men Pinot Noir Rosé har alltid högre syra och en violton som Provence saknar.",
     "tip": "Viol + hög syra = Pinot Noir Rosé. Salt mineralitet + citrus = Provence."
+  },
+  {
+    "id": "champagne_vs_cava",
+    "title": "Champagne vs Cava",
+    "grapeA": "chardonnay",
+    "grapeB": "mixed",
+    "difficulty": "intermediate",
+    "intro": "Båda görs med traditionell metod och har fin mousse — men Champagne har mer komplexitet och brioche, Cava är friskare och enklare.",
+    "inCommon": [
+      "Traditionell metod — jäst på flaska",
+      "Fin och ihållande mousse",
+      "Torr stil",
+      "Citrus och grönt äpple",
+      "God syra"
+    ],
+    "grapeAClues": [
+      "Brioche och rostat bröd",
+      "Kritliknande mineralitet",
+      "Lång och komplex finish",
+      "Mer autolytisk karaktär",
+      "Chardonnay, Pinot Noir, Pinot Meunier"
+    ],
+    "grapeBClues": [
+      "Friskare och fruktigare",
+      "Citron och grönt äpple dominerar",
+      "Kortare finish",
+      "Enklare och mer omedelbar",
+      "Macabeo, Parellada, Xarel·lo"
+    ],
+    "keyDifference": "Brioche + mineralitet + lång finish pekar mot Champagne. Friskare, fruktigare och kortare finish pekar mot Cava.",
+    "commonTrap": "Båda görs med samma metod — men Champagnes kritkalkjord och längre lagring på jästfällning ger en komplexitet som Cava sällan når.",
+    "tip": "Brioche och rostat bröd? Champagne. Rent fruktig och frisk utan djup? Troligen Cava."
+  },
+  {
+    "id": "zinfandel_vs_grenache",
+    "title": "Zinfandel vs Grenache",
+    "grapeA": "zinfandel",
+    "grapeB": "grenache",
+    "difficulty": "intermediate",
+    "intro": "Två kraftfulla, fruktdrivna röda druvor med hög alkohol. Zinfandel har björnbär och kryddor, Grenache har röda bär och lakrits.",
+    "inCommon": [
+      "Hög alkohol",
+      "Generös och fruktig stil",
+      "Lite tannin relativt sett",
+      "Kryddighet",
+      "Varm klimat-druvor"
+    ],
+    "grapeAClues": [
+      "Björnbär och plommon dominerar",
+      "Svartpeppar och lakrits",
+      "Sylt-liknande frukt",
+      "Högt socker och hög alkohol",
+      "Kalifornien / Primitivo i Puglia"
+    ],
+    "grapeBClues": [
+      "Röda bär — hallon och jordgubbe",
+      "Lakrits och örter",
+      "Mer elegant trots hög alkohol",
+      "Torkad frukt med ålder",
+      "Södra Frankrike och Spanien"
+    ],
+    "keyDifference": "Björnbär + syltig mörk frukt + svartpeppar pekar mot Zinfandel. Röda bär + lakrits + mer elegans pekar mot Grenache.",
+    "commonTrap": "Båda har hög alkohol och generös frukt — men Zinfandel är mörkare och mer syltig medan Grenache har ljusare röd frukt och mer örtigthet.",
+    "tip": "Mörk syltig frukt + svartpeppar = Zinfandel. Röd frukt + lakrits + mer elegans = Grenache."
+  },
+  {
+    "id": "cabernet_franc_vs_merlot",
+    "title": "Cabernet Franc vs Merlot",
+    "grapeA": "cabernet_franc",
+    "grapeB": "merlot",
+    "difficulty": "advanced",
+    "intro": "Två Bordeaux-druvor som är nära besläktade. Cabernet Franc är örtigare och mer frisk, Merlot mjukare och mer plommonig.",
+    "inCommon": [
+      "Röd och mörk frukt",
+      "Medelhögt tannin",
+      "Bordeaux-ursprung",
+      "Mjukare än Cabernet Sauvignon",
+      "Matvänliga"
+    ],
+    "grapeAClues": [
+      "Paprika och grön paprika",
+      "Örtigthet — alltid",
+      "Viol och hallon",
+      "Friskare syra",
+      "Loire-klass: Chinon och Bourgueil"
+    ],
+    "grapeBClues": [
+      "Plommon dominerar",
+      "Ingen paprikakaraktär",
+      "Mjukare och rundare",
+      "Lägre syra",
+      "Pomerol och Saint-Émilion"
+    ],
+    "keyDifference": "Paprika + örtigthet + friskare syra pekar mot Cabernet Franc. Plommon + mjukare + ingen paprika pekar mot Merlot.",
+    "commonTrap": "Båda är mjukare Bordeaux-druvor — men paprika och örtigthet är Cabernet Francs signaturer som Merlot aldrig har.",
+    "tip": "Paprika + örter + friskhet = Cabernet Franc. Plommon + mjukhet + ingen paprika = Merlot."
+  },
+  {
+    "id": "barbera_vs_sangiovese",
+    "title": "Barbera vs Sangiovese",
+    "grapeA": "barbera",
+    "grapeB": "sangiovese",
+    "difficulty": "intermediate",
+    "intro": "Två italienska röda druvor med hög syra. Barbera är mörkare och mer fruktdriven med lite tannin, Sangiovese har mer struktur och örtigthet.",
+    "inCommon": [
+      "Hög syra",
+      "Körsbär och röd frukt",
+      "Italienskt ursprung",
+      "Matvänliga",
+      "Ingen tung ekkaraktär"
+    ],
+    "grapeAClues": [
+      "Djup lila-röd färg",
+      "Mycket lite tannin",
+      "Körsbär och blåbär",
+      "Saftig och omedelbar",
+      "Piemonte — Alba och Asti"
+    ],
+    "grapeBClues": [
+      "Örtigthet alltid",
+      "Tomatliknande syra",
+      "Mer tannin än Barbera",
+      "Mer komplex och strukturerad",
+      "Toscana — Chianti och Brunello"
+    ],
+    "keyDifference": "Djup färg + lite tannin + saftig körsbärsfrukt pekar mot Barbera. Örtigthet + mer tannin + tomatliknande syra pekar mot Sangiovese.",
+    "commonTrap": "Båda har hög syra och körsbärsfrukt — men Barbera har nästan inget tannin och är mycket mörkare i färgen än Sangiovese.",
+    "tip": "Djup färg + saftigt + lite tannin = Barbera. Örtigthet + mer struktur + tomatsyra = Sangiovese."
+  },
+  {
+    "id": "viognier_vs_chardonnay_oaked",
+    "title": "Viognier vs ekad Chardonnay",
+    "grapeA": "viognier",
+    "grapeB": "chardonnay",
+    "difficulty": "advanced",
+    "intro": "Två fylliga vita druvor som kan förväxlas i sin rika, blommiga stil. Viognier har persika och jasmin, ekad Chardonnay har smör och vanilj.",
+    "inCommon": [
+      "Fyllig kropp",
+      "Låg till medelhög syra",
+      "Rik och aromatisk",
+      "Ofta eklagrad",
+      "Hög alkohol"
+    ],
+    "grapeAClues": [
+      "Persika och aprikos — alltid",
+      "Jasmin och kaprifol",
+      "Ingen smörighet",
+      "Ingen vanilj",
+      "Rhône-ursprung"
+    ],
+    "grapeBClues": [
+      "Smör och vanilj från ek",
+      "Tropisk frukt — mango och ananas",
+      "Rostat bröd",
+      "Ingen jasminton",
+      "Mer neutral utan ek"
+    ],
+    "keyDifference": "Persika + jasmin utan smörighet pekar mot Viognier. Smör + vanilj + rostat bröd utan jasmin pekar mot ekad Chardonnay.",
+    "commonTrap": "Båda är fylliga och rika — men Viognier har alltid en distinkt jasmin- och persikaton som ekad Chardonnay aldrig har.",
+    "tip": "Jasmin + persika = Viognier. Smör + vanilj + rostat bröd = ekad Chardonnay."
+  },
+  {
+    "id": "pinot_gris_vs_gewurztraminer",
+    "title": "Pinot Gris vs Gewürztraminer",
+    "grapeA": "pinot_gris",
+    "grapeB": "gewurztraminer",
+    "difficulty": "intermediate",
+    "intro": "Två aromatiska Alsace-druvor som ofta förväxlas. Pinot Gris är fylligare och mer stenfruktdrivet, Gewürztraminer mer intensivt och exotiskt med lychee och ros.",
+    "inCommon": [
+      "Aromatisk stil",
+      "Alsace-ursprung",
+      "Kan ha restsötma",
+      "Fyllig kropp",
+      "Låg syra"
+    ],
+    "grapeAClues": [
+      "Persika och päron",
+      "Rökig ton ibland",
+      "Honung med ålder",
+      "Mer återhållen än Gewürztraminer",
+      "Kan vara torr till söt"
+    ],
+    "grapeBClues": [
+      "Lychee — alltid",
+      "Ros och ingefära",
+      "Intensivt parfymerad",
+      "Guldrosa färg ibland",
+      "Mer explosivt aromatisk"
+    ],
+    "keyDifference": "Persika + rökighet + mer återhållen pekar mot Pinot Gris. Lychee + ros + intensivt parfymerad pekar mot Gewürztraminer.",
+    "commonTrap": "Båda är fylliga Alsace-viner med låg syra — men Gewürztraminer är betydligt mer intensivt och explosivt aromatiskt. Pinot Gris är mer subtilt.",
+    "tip": "Lychee + ros + explosiv arom = Gewürztraminer. Persika + päron + mer subtilt = Pinot Gris."
+  },
+  {
+    "id": "sauternes_vs_tokaji",
+    "title": "Sauternes vs Tokaji",
+    "grapeA": "semillon",
+    "grapeB": "furmint",
+    "difficulty": "advanced",
+    "intro": "Världens två stora botrytis-viner. Sauternes är rikare och smörigare, Tokaji har högre syra och mer mineralitet.",
+    "inCommon": [
+      "Botrytis — ädelröta",
+      "Intensiv sötma",
+      "Honung och aprikos",
+      "Lagringsvärdda i decennier",
+      "Gul-gyllene färg"
+    ],
+    "grapeAClues": [
+      "Rikare och smörigare",
+      "Saffran och tropisk frukt",
+      "Lägre syra relativt sett",
+      "Mer oxidativ karaktär",
+      "Sémillon-dominerad"
+    ],
+    "grapeBClues": [
+      "Högre syra balanserar sötman",
+      "Apelsinbitterhet i eftersmaken",
+      "Mineralisk och flintig ton",
+      "Mer nerve och spänst",
+      "Furmint-druvan dominerar"
+    ],
+    "keyDifference": "Rikare, smörigare och mer oxidativ pekar mot Sauternes. Högre syra, mineralitet och apelsinbitterhet pekar mot Tokaji.",
+    "commonTrap": "Båda är botrytis-viner med intensiv sötma — men Tokajis höga syra från Furmint ger en friskhet och bitterhet som Sauternes saknar.",
+    "tip": "Smörig rikedom utan tydlig bitterhet = Sauternes. Hög syra + apelsinbitterhet + mineralitet = Tokaji."
   }
 ]
