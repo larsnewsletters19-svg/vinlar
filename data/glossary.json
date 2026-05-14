@@ -42,11 +42,18 @@
     "full": "Franskt begrepp som beskriver alla naturliga faktorer på en specifik plats. Förklarar varför samma druva smakar olika i Bourgogne och Oregon."
   },
   {
+    "id": "region",
+    "term": "Region",
+    "category": "Odling & geografi",
+    "short": "Ett större geografiskt vinområde som ofta innehåller flera appellationer.",
+    "full": "En region är ett övergripande geografiskt område — t.ex. Bourgogne, Rhône eller Toscana. Inom regionen finns ofta flera appellationer med egna regler. En region står sällan ensam på en vinflaска; det är appellationen som specificerar vad du dricker. Jämför med appellation som är ett mer exakt och reglerat begrepp."
+  },
+  {
     "id": "appellation",
     "term": "Appellation",
     "category": "Odling & geografi",
-    "short": "Officiellt definierat geografiskt område för vinproduktion.",
-    "full": "En appellation definierar var ett vin får komma ifrån och ofta vilka druvor som är tillåtna. AOC i Frankrike, DOC i Italien, AVA i USA."
+    "short": "Officiellt reglerat geografiskt namn för vinproduktion.",
+    "full": "En appellation är ett officiellt definierat och lagskyddat område med specifika regler för vilka druvor som får användas, hur vinet ska göras och hur länge det ska lagras. AOC i Frankrike, DOC/DOCG i Italien, AVA i USA. Det är appellationsnamnet som oftast syns på etiketten — t.ex. Barolo, Chablis eller Champagne. Skillnaden mot en region: Bourgogne är en region, Chablis är en appellation inom den regionen."
   },
   {
     "id": "terrasse",
@@ -60,7 +67,7 @@
     "term": "Malolaktisk jäsning (MLF)",
     "category": "Vinmakning",
     "short": "Omvandlar skarp äppelsyra till mjukare mjölksyra.",
-    "full": "Bakterier omvandlar äppelsyra till mjölksyra vilket ger ett mjukare, rundare vin. Ger smörighet i Chardonnay. Undviks i friska vita viner som Sauvignon Blanc."
+    "full": "Bakterier omvandlar äppelsyra till mjölksyra vilket ger ett mjukare, rundare vin. Ger smörighet i Chardonnay. Undviks i friska vita viner som Sauvignon Blanc. Graden av MLF varierar — många producenter väljer partiell MLF för balans."
   },
   {
     "id": "maceration",
@@ -114,7 +121,7 @@
   {
     "id": "vintage",
     "term": "Årgång / Vintage",
-    "category": "Servering",
+    "category": "Odling & geografi",
     "short": "Det år druvorna skördades.",
     "full": "Årgången påverkar kvaliteten enormt — väderförhållanden varierar år från år. I Champagne blandas ofta flera årgångar (NV = Non-Vintage) för konsistens. Vintage Champagne görs bara exceptionella år."
   },
@@ -172,7 +179,7 @@
     "term": "Biodynamisk odling",
     "category": "Odling & geografi",
     "short": "Ekologisk odling med kosmiska kalendrar och homeopatiska preparat.",
-    "full": "Biodynamik ser vingården som ett slutet ekosystem. Sprututrustning av horn-gödsel och kisel, lunar-kalender för skötsel och skörd. Demeter är certifieringsorganet. Förespråkas av producenter som Zind-Humbrecht och Leroy."
+    "full": "Biodynamik ser vingården som ett slutet ekosystem. Spridning av horn-gödsel och kisel, lunar-kalender för skötsel och skörd. Demeter är certifieringsorganet. Förespråkas av producenter som Zind-Humbrecht och Leroy."
   },
   {
     "id": "natural_wine",
