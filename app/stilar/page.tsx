@@ -21,7 +21,7 @@ const countries = [
 
 const comparisonTypes = [
   { id: 'all', label: 'Alla typer', emoji: '📋' },
-  { id: 'region', label: 'Region', emoji: '🗺️' },
+  { id: 'region', label: 'Region', emoji: '🌍' },
   { id: 'grape', label: 'Druva', emoji: '🍇' },
   { id: 'style', label: 'Stil', emoji: '🪄' },
   { id: 'appellation', label: 'Appellation', emoji: '🏅' },
@@ -116,7 +116,7 @@ export default function StilarPage() {
                       <div className="mt-2">
                         <span className="text-xs px-2 py-0.5 rounded-full bg-wine-800 text-wine-500 border border-wine-700">
                           {({
-                            region: '🗺️ Region',
+                            region: '🌍 Region',
                             grape: '🍇 Druva',
                             style: '🪄 Stil',
                             appellation: '🏅 Appellation',

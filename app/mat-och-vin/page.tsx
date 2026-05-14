@@ -198,24 +198,38 @@ export default function MatOchVinPage() {
                   <div key={rec.food} className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
                     <div className="font-display text-lg text-wine-100 mb-3">{rec.food}</div>
                     <div className="flex flex-wrap gap-2 mb-3">
-                      {rec.wines.map((wine) => {
-                        const match = allGrapes.find((g) =>
-                          g.name === wine ||
-                          g.name.includes(wine) ||
-                          wine.includes(g.name.split('/')[0].trim()) ||
-                          g.aliases?.some((a) => a.toLowerCase() === wine.toLowerCase())
-                        );
-                        return match ? (
-                          <a key={wine} href={`/druvor/${match.id}`} className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-700 text-wine-200 hover:border-wine-500 hover:text-wine-50 transition-colors">
-                            {wine}
-                          </a>
-                        ) : (
-                          <span key={wine} className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-700 text-wine-400">
-                            {wine}
-                          </span>
-                        );
-                      })}
-                    </div>
+  {rec.wines.map((wine) => {
+    const wineName = typeof wine === 'string' ? wine : wine.name;
+    const wineType = typeof wine === 'string' ? null : wine.type;
+    const match = wineType === 'druva' ? allGrapes.find((g) =>
+      g.name === wineName ||
+      g.name.includes(wineName) ||
+      wineName.includes(g.name.split('/')[0].trim()) ||
+      g.aliases?.some((a) => a.toLowerCase() === wineName.toLowerCase())
+    ) : null;
+
+    const typeBadge: Record<string, string> = {
+      druva: '🍇',
+      appellation: '🏅',
+      region: '🌍',
+      stil: '🪄',
+    };
+
+    return match ? (
+      <a key={wineName} href={`/druvor/${match.id}`}
+        className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-700 text-wine-200 hover:border-wine-500 hover:text-wine-50 transition-colors flex items-center gap-1">
+        {wineType && <span className="text-xs">{typeBadge[wineType]}</span>}
+        {wineName}
+      </a>
+    ) : (
+      <span key={wineName}
+        className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-700 text-wine-400 flex items-center gap-1">
+        {wineType && <span className="text-xs">{typeBadge[wineType]}</span>}
+        {wineName}
+      </span>
+    );
+  })}
+</div>
                     <p className="text-wine-500 text-xs italic">{rec.reason}</p>
                   </div>
                 ))}
