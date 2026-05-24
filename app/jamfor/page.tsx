@@ -20,10 +20,10 @@ const styleComparisons = allComparisons.filter((c) => c.type === 'style_vs_style
 const structureLabels: Record<string, string[]> = {
   acidity: ['Mycket låg', 'Låg', 'Medel', 'Hög', 'Mycket hög'],
   body: ['Mycket lätt', 'Lätt', 'Medel', 'Fyllig', 'Mycket fyllig'],
-  alcohol: ['Låg', 'Låg-medel', 'Medel', 'Hög', 'Mycket hög'],
-  tannin: ['Ingen', 'Lite', 'Medel', 'Hög', 'Mycket hög'],
-  sweetness: ['Torrt', 'Nästan torrt', 'Halvtorrt', 'Halvsött', 'Sött'],
-  oak: ['Ingen', 'Knappt', 'Lite', 'Tydlig', 'Mycket'],
+  alcohol: ['Mycket låg', 'Låg', 'Medel', 'Hög', 'Mycket hög'],
+  tannin: ['Ingen', 'Lågt', 'Medel', 'Högt', 'Mycket högt'],
+  sweetness: ['Torrt', 'Halvtorrt', 'Halvsött', 'Sött', 'Mycket sött'],
+  oak: ['Ingen', 'Minimal', 'Subtil', 'Tydlig', 'Dominant'],
 };
 
 const structureKeys = [
