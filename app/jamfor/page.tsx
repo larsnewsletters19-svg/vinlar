@@ -23,7 +23,7 @@ const structureLabels: Record<string, string[]> = {
   alcohol: ['Mycket låg', 'Låg', 'Medel', 'Hög', 'Mycket hög'],
   tannin: ['Ingen', 'Lågt', 'Medel', 'Högt', 'Mycket högt'],
   sweetness: ['Torrt', 'Halvtorrt', 'Halvsött', 'Sött', 'Mycket sött'],
-  oak: ['Ingen', 'Minimal', 'Subtil', 'Tydlig', 'Dominant'],
+  oak: ['Minimal', 'Lite', 'Subtil', 'Tydlig', 'Dominant'],
 };
 
 const structureKeys = [
@@ -88,7 +88,7 @@ function StructureRow({ val, color, label }: { val: number; color: string; label
       <div className="flex-1 h-2.5 bg-wine-950 rounded-full overflow-hidden">
         <div
           className="h-full rounded-full transition-all duration-300"
-          style={{ width: `${(val / 5) * 100}%`, backgroundColor: color }}
+          style={{ width: val === 0 ? '0%' : `${(val / 5) * 100}%`, backgroundColor: color }}
         />
       </div>
     </div>
@@ -200,8 +200,8 @@ export default function JamforPage() {
                 {structureKeys.map(({ key, label }) => {
                   const valA = grapeA.structure[key];
                   const valB = grapeB.structure[key];
-                  const labelA = valA > 0 ? structureLabels[key][valA - 1] : 'Ingen';
-                  const labelB = valB > 0 ? structureLabels[key][valB - 1] : 'Ingen';
+                  const labelA = valA === 0 ? 'Ingen' : structureLabels[key][valA - 1];
+const labelB = valB === 0 ? 'Ingen' : structureLabels[key][valB - 1];
                   return (
                     <div key={key}>
                       <div className="text-xs text-wine-500 uppercase tracking-wide mb-2">{label}</div>
