@@ -28,7 +28,7 @@ const comparisonTypes = [
 ];
 
 const countryMap: Record<string, string[]> = {
-  france: ['sauvignon_blanc_loire_vs_marlborough', 'chardonnay_chablis_vs_new_world', 'syrah_rhone_vs_barossa', 'pinot_noir_bourgogne_vs_oregon', 'riesling_mosel_vs_alsace', 'nebbiolo_barolo_vs_barbaresco', 'sangiovese_chianti_vs_brunello', 'grenache_rhone_vs_priorat', 'champagne_vs_cava_vs_prosecco', 'chenin_blanc_loire_vs_sa', 'pinot_noir_burgundy_vs_newzealand', 'chenin_sa_vs_loire', 'port_vs_sherry', 'sauternes_vs_tokaji', 'sauternes_vs_eiswein'],
+  france: ['sauvignon_blanc_loire_vs_marlborough', 'chardonnay_chablis_vs_new_world', 'syrah_rhone_vs_barossa', 'pinot_noir_bourgogne_vs_oregon', 'riesling_mosel_vs_alsace', 'nebbiolo_barolo_vs_barbaresco', 'sangiovese_chianti_vs_brunello', 'grenache_rhone_vs_priorat', 'champagne_vs_cava_vs_prosecco', 'chenin_blanc_loire_vs_sa', 'pinot_noir_burgundy_vs_newzealand', 'chenin_sa_vs_loire', 'port_vs_sherry', 'sauternes_vs_tokaji', 'sauternes_vs_eiswein', 'blanc_de_blancs_vs_blanc_de_noirs'],
   italy: ['nebbiolo_barolo_vs_barbaresco', 'sangiovese_chianti_vs_brunello', 'champagne_vs_cava_vs_prosecco', 'amarone_vs_ripasso'],
   spain: ['tempranillo_rioja_vs_ribera', 'grenache_rhone_vs_priorat', 'champagne_vs_cava_vs_prosecco', 'carmenere_chile', 'vinho_verde_vs_albarino', 'douro_vs_rioja', 'port_vs_sherry', 'fino_vs_oloroso'],
   germany: ['riesling_mosel_vs_alsace', 'riesling_germany_vs_australia', 'gruner_wachau_vs_wien', 'sauternes_vs_eiswein'],

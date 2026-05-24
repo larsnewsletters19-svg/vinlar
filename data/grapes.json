@@ -579,11 +579,13 @@
     },
     "structure": { "acidity": 5, "body": 2, "alcohol": 2, "tannin": 0, "sweetness": 1, "oak": 1 },
     "commonRegionsAndStyles": [
-      { "name": "Non-vintage Brut", "description": "Husets standardstil. Blend av flera årgångar för konsistens. Citrus, äpple, brioche." },
-      { "name": "Vintage Champagne", "description": "Enbart från ett exceptionellt år. Mer komplex, djup och lagringsvärd." },
-      { "name": "Blanc de Blancs", "description": "Enbart Chardonnay. Friskare, mer citrusdriven och mineralisk." },
-      { "name": "Blanc de Noirs", "description": "Enbart Pinot Noir och/eller Pinot Meunier. Mer kropp och röd frukt." }
-    ],
+  { "name": "Non-vintage Brut", "description": "Husets standardstil. Blend av flera årgångar för konsistens. Citrus, äpple, brioche." },
+  { "name": "Vintage Champagne", "description": "Enbart från ett exceptionellt år. Mer komplex, djup och lagringsvärd. Lagras minst 3 år." },
+  { "name": "Blanc de Blancs", "description": "Enbart Chardonnay. Friskare, mer citrusdriven och mineralisk. Côte des Blancs är centret." },
+  { "name": "Blanc de Noirs", "description": "Enbart Pinot Noir och/eller Pinot Meunier. Mer kropp och röd frukt trots vit färg." },
+  { "name": "Rosé Champagne", "description": "Gjord med skalkontakt eller inblandning av rött vin. Röda bär och brioche. Mer fruktig." },
+  { "name": "Prestige Cuvée", "description": "Husets absoluta toppvin från bästa druvor och årgångar. Dom Pérignon, Krug, Cristal, Belle Époque." }
+],
     "blindTastingClues": ["Fin och ihållande bubbelstång", "Brioche och rostat bröd", "Citrus och grönt äpple", "Kritliknande mineralitet", "Lång och komplex finish"],
     "commonConfusions": ["Cava", "Crémant", "Prosecco"]
   },

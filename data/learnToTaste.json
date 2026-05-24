@@ -314,4 +314,27 @@
     ],
     "commonMisconceptions": "Syrah och Shiraz är inte olika druvor — de är exakt samma. Men en Syrah från kalla norra Rhône smakar elegant och pepprig medan en Shiraz från varma Barossa smakar rik och chokladig. Det är klimatet och vinmakaren som skapar skillnaden, inte druvan."
   }
+  ,{
+    "id": "champagne_styles",
+    "section": "technique",
+    "name": "Champagnens stilar",
+    "icon": "🍾",
+    "shortDescription": "Blanc de Blancs, Blanc de Noirs, Vintage och Prestige Cuvée — Champagne är mycket mer än en stil.",
+    "whatItIs": "Champagne är inte bara ett vin — det är en hel familj av stilar med helt olika karaktär. Samma region, samma metod, men dramatiskt olika resultat beroende på druvor, årgång och producentens val.",
+    "howItFeels": "Tänk dig att Blanc de Blancs är som ett vitt vin med bubblor — friskt, mineraliskt och citrusdrivet. Blanc de Noirs är kraftigare med mer frukt och kropp. Vintage är komplexitet på topp. Prestige Cuvée är det absolut bästa huset kan göra.",
+    "tryItYourself": "Prova en Blanc de Blancs och en Blanc de Noirs sida vid sida. Båda är vita mousserande viner men smaken är dramatiskt olika — det är ett av vinvärldens bästa experiment.",
+    "highExamples": [
+      "Blanc de Blancs — enbart Chardonnay. Frisk, mineralisk, citrus och kritliknande. Salon och Taittinger Comtes de Champagne är ikonerna.",
+      "Blanc de Noirs — enbart Pinot Noir och/eller Meunier. Vit färg men mer kropp och röd frukt. Bollinger Vieilles Vignes Françaises är legendarisk.",
+      "Non-vintage Brut — blend av flera årgångar för konsistens. Husets signaturstiil. Citrus, äpple och brioche.",
+      "Vintage — enbart från ett exceptionellt år. Lagras minst 3 år. Mer komplex, djup och lagringsvärd i decennier.",
+      "Rosé Champagne — gjord med skalkontakt eller inblandning av rött Pinot Noir-vin. Röda bär, brioche och mineralitet.",
+      "Prestige Cuvée — husets absoluta toppvin. Dom Pérignon, Krug Grande Cuvée, Cristal, Belle Époque, Sir Winston Churchill."
+    ],
+    "lowExamples": [
+      "Non-vintage Brut är inte sämre — det är husets konsekventa standardstil som kräver stor skicklighet att göra år efter år.",
+      "Demi-sec och Doux är sötare stilar — mindre vanliga men perfekta till dessert."
+    ],
+    "commonMisconceptions": "Många tror att Vintage alltid är bättre än Non-vintage — men de bästa non-vintage Champagnerna från Krug eller Jacques Selosse är mer komplexa än de flesta Vintage. Det handlar om stil och syfte, inte rang."
+  }
 ]

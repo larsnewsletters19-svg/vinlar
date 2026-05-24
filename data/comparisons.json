@@ -695,4 +695,35 @@
     ],
     "blindTastingTip": "Bubblor + brioche + röda bär pekar mot Rosé Champagne. Stilla, blek och frisk pekar mot Provence."
   }
+  ,{
+    "id": "blanc_de_blancs_vs_blanc_de_noirs",
+    "type": "style_vs_style",
+    "title": "Blanc de Blancs vs Blanc de Noirs",
+    "grape": "champagne",
+    "styleA": {
+      "name": "Blanc de Blancs",
+      "region": "Champagne, Frankrike"
+    },
+    "styleB": {
+      "name": "Blanc de Noirs",
+      "region": "Champagne, Frankrike"
+    },
+    "styleACharacter": [
+      "Enbart Chardonnay",
+      "Frisk och mineralisk",
+      "Citrus och grönt äpple",
+      "Kritliknande mineralitet",
+      "Elegant och precis",
+      "Lägre kropp"
+    ],
+    "styleBCharacter": [
+      "Pinot Noir och/eller Meunier",
+      "Mer kropp och struktur",
+      "Röd frukt trots vit färg",
+      "Mer generös och fruktig",
+      "Kraftfullare finish",
+      "Mer komplex fruktprofil"
+    ],
+    "blindTastingTip": "Blanc de Blancs: citrus, krita och elegans. Blanc de Noirs: mer kropp, röd frukt och kraft. Båda är vita men känslan i munnen är helt olika — Blancs är lätt och precis, Noirs är fyllig och generös."
+  }
 ]

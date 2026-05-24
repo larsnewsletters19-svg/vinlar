@@ -149,7 +149,7 @@ export default async function GrapePage({ params }: { params: Promise<{ id: stri
           ))}
         </ul>
       </section>
-
+       
       <section className="mb-8">
         <h2 className="font-display text-xl text-wine-100 mb-3">🔗 Relaterade druvor</h2>
         <div className="flex flex-wrap gap-2">

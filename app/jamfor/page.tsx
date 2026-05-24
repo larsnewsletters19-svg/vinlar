@@ -7,6 +7,14 @@ import { Comparison, StyleVsStyleComparison, Grape } from '@/types';
 
 const allComparisons = comparisons as Comparison[];
 const allGrapes = grapes as Grape[];
+const typeOrder = ['white', 'red', 'rosé', 'sparkling', 'sweet'];
+
+const sortedGrapes = [...allGrapes].sort((a, b) => {
+  const typeA = typeOrder.indexOf(a.type);
+  const typeB = typeOrder.indexOf(b.type);
+  if (typeA !== typeB) return typeA - typeB;
+  return a.name.localeCompare(b.name, 'sv');
+});
 const styleComparisons = allComparisons.filter((c) => c.type === 'style_vs_style') as StyleVsStyleComparison[];
 
 const structureLabels: Record<string, string[]> = {
@@ -92,6 +100,9 @@ export default function JamforPage() {
   const [grapeBId, setGrapeBId] = useState<string>('sauvignon_blanc');
   const [selectedStyle, setSelectedStyle] = useState<string | null>(null);
 
+  const [activeTypeA, setActiveTypeA] = useState<string>('white');
+  const [activeTypeB, setActiveTypeB] = useState<string>('red');
+
   const grapeA = allGrapes.find((g) => g.id === grapeAId)!;
   const grapeB = allGrapes.find((g) => g.id === grapeBId)!;
   const isSame = grapeAId === grapeBId;
@@ -118,32 +129,60 @@ export default function JamforPage() {
 
         <div className="grid grid-cols-2 gap-3 mb-6">
           <div>
-            <label className="flex items-center gap-1.5 text-xs text-wine-400 uppercase tracking-wide mb-1">
+            <label className="flex items-center gap-1.5 text-xs text-wine-400 uppercase tracking-wide mb-2">
               <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: COLOR_A }} />
               Druva A
             </label>
+            <div className="flex gap-1 mb-2 flex-wrap">
+              {typeOrder.map((type) => (
+                <button
+                  key={type}
+                  onClick={() => { setActiveTypeA(type); setGrapeAId(sortedGrapes.find(g => g.type === type)?.id ?? ''); setSelectedStyle(null); }}
+                  className={`px-2 py-1 rounded-lg text-xs font-medium transition-all ${activeTypeA === type ? 'bg-wine-600 text-white' : 'bg-wine-900 text-wine-400 border border-wine-700'}`}
+                >
+                  <span className="flex flex-col items-center gap-0.5">
+  <span>{type === 'white' ? '🥂' : type === 'red' ? '🍷' : type === 'rosé' ? '🌸' : type === 'sparkling' ? '🍾' : '🍯'}</span>
+  <span className="text-[9px]">{type === 'white' ? 'Vita' : type === 'red' ? 'Röda' : type === 'rosé' ? 'Rosé' : type === 'sparkling' ? 'Mous.' : 'Söta'}</span>
+</span>
+                </button>
+              ))}
+            </div>
             <select
               value={grapeAId}
               onChange={(e) => { setGrapeAId(e.target.value); setSelectedStyle(null); }}
               className="w-full bg-wine-900 border border-wine-700 text-wine-100 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-amber-400"
             >
-              {allGrapes.map((g) => (
-                <option key={g.id} value={g.id}>{g.type === 'white' ? '🥂' : '🍷'} {g.name}</option>
+              {sortedGrapes.filter(g => g.type === activeTypeA).map((g) => (
+                <option key={g.id} value={g.id}>{g.name}</option>
               ))}
             </select>
           </div>
           <div>
-            <label className="flex items-center gap-1.5 text-xs text-wine-400 uppercase tracking-wide mb-1">
+            <label className="flex items-center gap-1.5 text-xs text-wine-400 uppercase tracking-wide mb-2">
               <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: COLOR_B }} />
               Druva B
             </label>
+            <div className="flex gap-1 mb-2 flex-wrap">
+              {typeOrder.map((type) => (
+                <button
+                  key={type}
+                  onClick={() => { setActiveTypeB(type); setGrapeBId(sortedGrapes.find(g => g.type === type)?.id ?? ''); setSelectedStyle(null); }}
+                  className={`px-2 py-1 rounded-lg text-xs font-medium transition-all ${activeTypeB === type ? 'bg-sky-700 text-white' : 'bg-wine-900 text-wine-400 border border-wine-700'}`}
+                >
+                  <span className="flex flex-col items-center gap-0.5">
+  <span>{type === 'white' ? '🥂' : type === 'red' ? '🍷' : type === 'rosé' ? '🌸' : type === 'sparkling' ? '🍾' : '🍯'}</span>
+  <span className="text-[9px]">{type === 'white' ? 'Vita' : type === 'red' ? 'Röda' : type === 'rosé' ? 'Rosé' : type === 'sparkling' ? 'Mous.' : 'Söta'}</span>
+</span>
+                </button>
+              ))}
+            </div>
             <select
               value={grapeBId}
               onChange={(e) => { setGrapeBId(e.target.value); setSelectedStyle(null); }}
               className="w-full bg-wine-900 border border-wine-700 text-wine-100 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-sky-400"
             >
-              {allGrapes.map((g) => (
-                <option key={g.id} value={g.id}>{g.type === 'white' ? '🥂' : '🍷'} {g.name}</option>
+              {sortedGrapes.filter(g => g.type === activeTypeB).map((g) => (
+                <option key={g.id} value={g.id}>{g.name}</option>
               ))}
             </select>
           </div>
