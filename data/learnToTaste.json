@@ -337,4 +337,77 @@
     ],
     "commonMisconceptions": "Många tror att Vintage alltid är bättre än Non-vintage — men de bästa non-vintage Champagnerna från Krug eller Jacques Selosse är mer komplexa än de flesta Vintage. Det handlar om stil och syfte, inte rang."
   }
+  ,{
+    "id": "read_wine_list",
+    "section": "technique",
+    "name": "Läsa en vinlista",
+    "icon": "📋",
+    "shortDescription": "Så navigerar du vinlistan på restaurang — utan att känna dig vilsen eller välja fel.",
+    "whatItIs": "En vinlista kan vara en meny på två sidor eller en bok på hundra. Oavsett storlek följer de flesta samma logik — och när du förstår strukturen blir det mycket lättare att hitta rätt vin till rätt mat och rätt pris.",
+    "howItFeels": "Tänk dig vinlistan som en karta. Gamla världen (Frankrike, Italien, Spanien) namnger viner efter region — Chablis, Barolo, Rioja. Nya världen (Australien, Chile, USA) namnger efter druva — Chardonnay, Malbec, Cabernet. När du vet detta kan du navigera vilken lista som helst.",
+    "tryItYourself": "Nästa gång du ser en vinlista — leta först efter ett vin du känner igen druvan på. Sedan leta efter ett regionnamn du känner igen. Fråga sedan sommelieren: 'Vad skulle du rekommendera till den här rätten i det här prisläget?' — en bra sommelier älskar den frågan.",
+    "highExamples": [
+      "Gamla världen namnger efter region: Chablis = Chardonnay, Barolo = Nebbiolo, Rioja = Tempranillo, Sancerre = Sauvignon Blanc",
+      "Nya världen namnger efter druva: Marlborough Sauvignon Blanc, Napa Cabernet Sauvignon, Mendoza Malbec",
+      "Årgången spelar roll — en bra årgång i Bordeaux (2016, 2019, 2020) är värd mer än en svag",
+      "Husvin är inte alltid dåligt — många restauranger väljer sitt husvin med omsorg",
+      "Det näst billigaste vinet är ofta bäst prisvärdhet — restaurangen tar ofta högst marginal på det billigaste",
+      "Be sommelieren om hjälp — berätta vad du äter och vilket prisläge du vill ha. De hjälper gärna."
+    ],
+    "lowExamples": [
+      "Välj inte alltid det dyraste — priset på en vinlista är ofta 3-4 gånger butikspriset",
+      "Undvik okända producenter från svaga årgångar om du är osäker",
+      "Fråga alltid hellre än att gissa — ingen sommelier dömer dig för att du frågar"
+    ],
+    "commonMisconceptions": "Många tror att man måste kunna allt för att beställa vin på restaurang. I verkligheten räcker det med tre saker: vad du äter, vad du gillar (fruktigt/torrt/lätt/kraftfullt) och vad du vill betala. Med den informationen kan en bra sommelier alltid hitta rätt vin åt dig."
+  },
+  {
+    "id": "wine_and_food_rescue",
+    "section": "technique",
+    "name": "Räddande druvor till maten",
+    "icon": "🍽️",
+    "shortDescription": "Vilka druvor funkar till nästan vad som helst — och vilka ska du undvika till vissa rätter.",
+    "whatItIs": "Vissa druvor är så mångsidiga att de passar till nästan all mat. Andra är svårare och kräver rätt sällskap. Här är de viktigaste matchningsprinciperna och druvorna som alltid räddar situationen.",
+    "howItFeels": "Grundregeln är enkel: matcha vikt med vikt. Lätt mat vill ha lätt vin, kraftig mat vill ha kraftigt vin. Syra i vinet skär igenom fett. Tannin och fisk fungerar sällan. Sötma i vinet ska matcha eller överstiga sötman i maten.",
+    "tryItYourself": "Prova Champagne eller Chablis till salt mat som chips eller friterad mat — syran och mineraliteten gör underverk. Prova sedan ett tanninrikt rött vin till samma mat och känn skillnaden.",
+    "highExamples": [
+      "🥂 Champagne & mousserande — passar till nästan allt. Syra och bubblor skär igenom fett, salt och kryddigt. Universalvapen.",
+      "🍋 Albariño & Muscadet — perfekt till fisk, skaldjur och surt. Saltmineraliteten speglar havets smaker.",
+      "🌿 Pinot Noir — passar till lax, svamp, anka, kycklingrätter och vegetarisk mat. Mest mångsidiga röda.",
+      "🧄 Grenache & Syrah — passar till lamm, grillat, provensalsk mat och starka ostar.",
+      "🌶️ Riesling halvtorr — det bästa valet till asiatisk mat, kryddig mat och thaimat. Sötman balanserar hettan.",
+      "🥩 Cabernet Sauvignon & Barolo — klassiskt till rött kött och vilt. Tanninet behöver protein för att mjukna.",
+      "🧀 Sauternes & söta viner — klassiskt till foie gras, blåmögelost och desserter."
+    ],
+    "lowExamples": [
+      "Undvik tanninrika röda till fisk — tanninet och fiskoljan ger metallisk bismak",
+      "Undvik torra röda till söta desserter — vinet smakar surt och tunt bredvid sötman",
+      "Undvik högt ek till delikat fisk — eken övermannar de subtila smakerna"
+    ],
+    "commonMisconceptions": "Regeln 'rött till kött, vitt till fisk' är en förenkling. Pinot Noir passar utmärkt till lax. Kraftig Chardonnay passar till kycklingrätter. Det handlar om vinets vikt och syra — inte färgen."
+  }
+  ,{
+    "id": "sommelier_guide",
+    "section": "technique",
+    "name": "Prata med sommelieren",
+    "icon": "🤵",
+    "shortDescription": "Vad du ska säga, fråga och tänka på när du pratar med sommelieren — utan att känna dig osäker.",
+    "whatItIs": "Sommelieren är din guide, inte din domare. Deras jobb är att hjälpa dig hitta rätt vin — inte att imponera på dig med svåra ord. Med rätt frågor får du alltid bättre vin för pengarna.",
+    "howItFeels": "Tänk dig sommelieren som en kunnig vän som känner vinlistan utan och innan. Du behöver inte kunna något — du behöver bara beskriva vad du gillar och vad du äter. Ju mer du berättar, desto bättre hjälp får du.",
+    "tryItYourself": "Nästa gång på restaurang — berätta för sommelieren exakt vad du äter, vad du brukar gilla och din budget. Lägg till 'överraska mig gärna' om du är äventyrlig. Se vad som händer.",
+    "highExamples": [
+      "Säg vad du äter: 'Vi tar lammracks och en fiskrätt — vad passar till båda?'",
+      "Säg vad du gillar: 'Jag gillar friska viner utan för mycket ek' eller 'Jag gillar kraftiga röda med mycket frukt'",
+      "Säg din budget: 'Vi letar efter något runt 400-600 kronor' — en bra sommelier respekterar alltid budgeten",
+      "Fråga om husets favorit: 'Vad skulle du själv dricka till den här rätten?' — du får ofta ett ärligt svar",
+      "Fråga om dold pärla: 'Finns det något okänt vin på listan som är extra prisvärt?' — sommelieren vet alltid",
+      "Be om en smak: På många restauranger kan du be att få smaka på ett glas innan du bestämmer dig"
+    ],
+    "lowExamples": [
+      "Du behöver inte kunna uttala vinets namn rätt — peka på listan om du är osäker",
+      "Du behöver inte känna till producenten eller årgången — beskriv smaken istället",
+      "Du behöver inte följa rekommendationen — det är alltid okej att tacka nej artigt"
+    ],
+    "commonMisconceptions": "Många tror att de måste visa att de kan mycket för att få bra service. I verkligheten är en ärlig och nyfiken gäst som ställer frågor mycket roligare att hjälpa än någon som låtsas kunna allt. Sommelieren vill att du ska bli nöjd — det är hela poängen med deras jobb."
+  }
 ]
