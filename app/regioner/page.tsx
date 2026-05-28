@@ -73,9 +73,9 @@ export default function RegionerPage() {
             const maps: Record<string, { src: string; label: string; regions: string }> = {
   france: { src: '/maps/france.svg', label: '🇫🇷 Frankrikes vinregioner', regions: 'Bordeaux, Bourgogne, Rhône, Loire, Champagne och Alsace' },
   italy: { src: '/maps/italy.jpg', label: '🇮🇹 Italiens vinregioner', regions: 'Piemonte, Toscana och Veneto' },
-  spain: { src: '/maps/spain.svg', label: '🇪🇸 Spaniens vinregioner', regions: 'Rioja, Rías Baixas och Priorat' },
-  germany: { src: '/maps/germany.svg', label: '🇩🇪 Tysklands & Österrikes vinregioner', regions: 'Mosel, Rheingau & Pfalz, Wachau & Wien' },
-  portugal: { src: '/maps/portugal.svg', label: '🇵🇹 Portugals vinregioner', regions: 'Douro & Vinho Verde' },
+  spain: { src: '/maps/spain.jpg', label: '🇪🇸 Spaniens vinregioner', regions: 'Rioja, Rías Baixas och Priorat' },
+  germany: { src: '/maps/germany.jpg', label: '🇩🇪 Tysklands & Österrikes vinregioner', regions: 'Mosel, Rheingau & Pfalz, Wachau & Wien' },
+  portugal: { src: '/maps/portugal.jpg', label: '🇵🇹 Portugals vinregioner', regions: 'Douro & Vinho Verde' },
   newworld: { src: '/maps/world.jpeg', label: '🌍 Vinproducerande länder världen över', regions: 'Napa Valley, Mendoza, Chile, Barossa Valley, Marlborough och Stellenbosch' },
 };
             const map = maps[activeCountry];
