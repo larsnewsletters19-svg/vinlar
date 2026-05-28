@@ -774,10 +774,13 @@
     },
     "structure": { "acidity": 2, "body": 5, "alcohol": 5, "tannin": 3, "sweetness": 5, "oak": 3 },
     "commonRegionsAndStyles": [
-      { "name": "Ruby Port", "description": "Ungt och fruktigt. Mörk bärfrukt och choklad. Dricks relativt ungt." },
-      { "name": "Tawny Port", "description": "Oxidativt lagrat i små fat. Nötter, karamell, apelsin och torkad frukt. 10, 20, 30 eller 40 år." },
-      { "name": "Vintage Port", "description": "Bästa årgångarna. Lagras på flaska i decennier. Komplex och lagringsvärd." }
-    ],
+  { "name": "Ruby Port", "description": "Ungt och fruktigt. Mörk bärfrukt och choklad. Dricks relativt ungt inom 3-5 år." },
+  { "name": "Tawny Port", "description": "Oxidativt lagrat i små fat. Nötter, karamell, apelsin och torkad frukt. Finns som 10, 20, 30 eller 40 år." },
+  { "name": "Vintage Port", "description": "Bästa årgångarna deklarerade av producenten. Lagras på flaska i decennier. Kräver decantning." },
+  { "name": "LBV — Late Bottled Vintage", "description": "Från ett enskilt år, lagras 4-6 år på fat. Mer tillgänglig än Vintage men med årgångskaraktär. Ofta filterad." },
+  { "name": "Colheita", "description": "Tawny från ett enskilt år. Lagras minst 7 år på fat. Mer komplex än vanlig Tawny med tydlig årgångskaraktär." },
+  { "name": "White Port", "description": "Gjord på vita druvor. Kan vara torr eller söt. Perfekt som aperitif med tonic och citrus — Portugals svar på G&T." }
+],
     "blindTastingClues": ["Hög alkohol 19–22%", "Intensiv sötma", "Mörk frukt (Ruby) eller nötter/karamell (Tawny)", "Torkad frukt alltid närvarande", "Lång och varm finish"],
     "commonConfusions": ["Sherry", "Madeira", "Marsala"]
   },
@@ -802,10 +805,14 @@
     },
     "structure": { "acidity": 3, "body": 4, "alcohol": 5, "tannin": 0, "sweetness": 4, "oak": 3 },
     "commonRegionsAndStyles": [
-      { "name": "Fino / Manzanilla", "description": "Torrt, salt och mineraliskt. Flor-jäst. Mandel och äpple. Serveras kallt som aperitif." },
-      { "name": "Oloroso", "description": "Oxidativt, fylligt och nötigt. Kan vara torrt eller söt. Valnöt och karamell." },
-      { "name": "Pedro Ximénez (PX)", "description": "Intensivt söt som flytande russin. Häll över glass. Extremt koncentrerat." }
-    ],
+  { "name": "Fino", "description": "Torrast och lättast av alla Sherrytyper. Skyddas av flor-jäst. Mandel, citrus och salt mineralitet. Serveras mycket kall." },
+  { "name": "Manzanilla", "description": "Som Fino men från Sanlúcar de Barrameda vid havet. Extra salt och mineralisk karaktär från havsbriesen. Mycket delikat." },
+  { "name": "Amontillado", "description": "Börjar som Fino men florn dör och vinet oxiderar. Nötter, tobak och karamell med kvar av Finons friskhet. Torr till halvtorr." },
+  { "name": "Oloroso", "description": "Helt oxidativt från början — ingen flor. Fylligt och nötigt med valnöt, läder och karamell. Kan vara torrt eller sötat." },
+  { "name": "Palo Cortado", "description": "Sällsynt stil som börjar som Fino men utvecklas mot Oloroso. Kombinerar Amontilladons elegans med Olorosons kropp. Mycket komplex." },
+  { "name": "Pedro Ximénez (PX)", "description": "Gjord på soltorkade PX-druvor. Intensivt söt som flytande russin. Svart färg och extrem koncentration. Klassiskt över glass." },
+  { "name": "Cream Sherry", "description": "Sötat Oloroso. Mjukt, fylligt och tillgängligt. Harvey's Bristol Cream är den mest kända stilen. Serveras kyld." }
+],
     "blindTastingClues": ["Nötton – mandel eller valnöt", "Salt mineralitet (Fino)", "Intensiv torkad frukt (PX)", "Oxidativ karaktär", "Hög alkohol 15–22%"],
     "commonConfusions": ["Port", "Madeira", "Marsala"]
   },
