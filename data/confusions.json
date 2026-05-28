@@ -572,4 +572,202 @@
     "commonTrap": "Båda är botrytis-viner med intensiv sötma — men Tokajis höga syra från Furmint ger en friskhet och bitterhet som Sauternes saknar.",
     "tip": "Smörig rikedom utan tydlig bitterhet = Sauternes. Hög syra + apelsinbitterhet + mineralitet = Tokaji."
   }
+  ,{
+    "id": "chenin_blanc_vs_chardonnay",
+    "title": "Chenin Blanc vs Chardonnay",
+    "grapeA": "chenin_blanc",
+    "grapeB": "chardonnay",
+    "difficulty": "intermediate",
+    "intro": "Båda är vita med god kropp och kan ha honungstoner. Men Chenin Blanc har alltid högre syra och mer blommighet medan Chardonnay är mer neutral och formbar.",
+    "inCommon": [
+      "Vita viner med god kropp",
+      "Kan lagras länge",
+      "Kan ha honungstoner",
+      "Kan göras med eller utan ek",
+      "God syra"
+    ],
+    "grapeAClues": [
+      "Mycket hög syra — nästan alltid",
+      "Vita blommor och honung",
+      "Grönt äpple och päron",
+      "Flinta och mineralitet",
+      "Ursprung i Loire, Frankrike"
+    ],
+    "grapeBClues": [
+      "Mer neutral och formbar",
+      "Smör och vanilj vid eklagring",
+      "Lägre syra än Chenin",
+      "Citrus och gult äpple",
+      "Världens mest odlade vita druva"
+    ],
+    "keyDifference": "Syran är nyckeln — Chenin Blanc har alltid högre syra. Blommigheten och honungen i Chenin är också mer framträdande än i Chardonnay.",
+    "commonTrap": "Ekad Chardonnay och ekad Chenin Blanc kan båda ha smör och honung — men Chenin behåller alltid sin höga syra som skiljer dem åt.",
+    "tip": "Hög syra + vita blommor + honung = Chenin Blanc. Smör + vanilj + lägre syra = ekad Chardonnay."
+  },
+  {
+    "id": "albarino_vs_gruner",
+    "title": "Albariño vs Grüner Veltliner",
+    "grapeA": "albarino",
+    "grapeB": "gruner_veltliner",
+    "difficulty": "advanced",
+    "intro": "Båda är friska vita med hög syra och mineralitet. Men Albariño har salt havsmineralitet och citrus medan Grüner Veltliner alltid har sin karaktäristiska vitpeppar.",
+    "inCommon": [
+      "Friska och mineraliska vita viner",
+      "Hög syra",
+      "Citrus och gröna toner",
+      "Ingen eller minimal ek",
+      "Passar utmärkt till mat"
+    ],
+    "grapeAClues": [
+      "Salt mineralitet — nästan unik",
+      "Citrus och persika",
+      "Vita blommor",
+      "Från Galicien, Spanien",
+      "Perfekt till skaldjur"
+    ],
+    "grapeBClues": [
+      "Vitpeppar — alltid närvarande",
+      "Citrus och grönt äpple",
+      "Örtig och mineralisk",
+      "Från Österrike",
+      "Ingen blommighet"
+    ],
+    "keyDifference": "Vitpeppar pekar mot Grüner Veltliner. Salt mineralitet och blommighet pekar mot Albariño.",
+    "commonTrap": "Båda är friska och mineraliska — men Grüner Veltliner saknar den salthavsmineralitet och blommighet som Albariño alltid har.",
+    "tip": "Vitpeppar = Grüner Veltliner. Salt + blommor = Albariño."
+  },
+  {
+    "id": "malbec_vs_syrah",
+    "title": "Malbec vs Syrah",
+    "grapeA": "malbec",
+    "grapeB": "syrah",
+    "difficulty": "intermediate",
+    "intro": "Båda är mörka och kraftfulla röda med hög alkohol. Men Malbec är mjukare och mer fruktig medan Syrah alltid har sin karaktäristiska svartpeppar.",
+    "inCommon": [
+      "Mörk frukt — björnbär och plommon",
+      "Hög alkohol",
+      "Kraftfull kropp",
+      "Viol",
+      "God lagringskapacitet"
+    ],
+    "grapeAClues": [
+      "Mjukt och rundat tannin",
+      "Viol och björnbär",
+      "Choklad och kaffe",
+      "Ursprung i Argentina",
+      "Ingen eller minimal peppar"
+    ],
+    "grapeBClues": [
+      "Svartpeppar — nästan alltid",
+      "Köttig och rökig ton",
+      "Hårdare tannin",
+      "Ursprung i norra Rhône",
+      "Läder med ålder"
+    ],
+    "keyDifference": "Svartpeppar pekar alltid mot Syrah. Mjukt tannin och chokladton pekar mot Malbec.",
+    "commonTrap": "Båda har viol och mörk frukt — men Syrah har alltid sin pepparkrydda som Malbec saknar.",
+    "tip": "Svartpeppar = Syrah. Mjukt + choklad + viol = Malbec."
+  },
+  {
+    "id": "barolo_vs_barbaresco",
+    "title": "Barolo vs Barbaresco",
+    "grapeA": "nebbiolo",
+    "grapeB": "nebbiolo",
+    "styleA": "Barolo",
+"styleB": "Barbaresco",
+    "difficulty": "advanced",
+    "intro": "Båda görs på Nebbiolo i Piemonte. Barolo är kraftfullare och kräver längre lagring. Barbaresco är mer elegant och tillgänglig tidigare — men båda har tjära och rosor.",
+    "inCommon": [
+      "Nebbiolo-druvan",
+      "Tjära och rosor",
+      "Hög syra och högt tannin",
+      "Ljus rubinfärg",
+      "Läder och tobak med ålder"
+    ],
+    "grapeAClues": [
+      "Kraftfullare och mer tanninrik",
+      "Kräver minst 3 år lagring (5 för Riserva)",
+      "Mer strukturerad och robust",
+      "Längre lagringspotential",
+      "Kallas vinens konung"
+    ],
+    "grapeBClues": [
+      "Mer elegant och tillgänglig",
+      "Kräver minst 2 år lagring",
+      "Mjukare tannin än Barolo",
+      "Lite mer blommig karaktär",
+      "Kallas vinens drottning"
+    ],
+    "keyDifference": "Barolo är kraftfullare med mer tannin och kräver längre lagring. Barbaresco är elegantare och mer tillgänglig ung.",
+    "commonTrap": "Båda har tjära och rosor och kan vara nästan omöjliga att skilja åt i blindprovning. Fokusera på tanninets styrka och tillgänglighet.",
+    "tip": "Kraftfullt och strävt = Barolo. Elegant och tillgängligt = Barbaresco. Men båda är Nebbiolo."
+  },
+  {
+    "id": "rioja_vs_ribera",
+    "title": "Rioja vs Ribera del Duero",
+    "grapeA": "tempranillo",
+    "grapeB": "tempranillo",
+    "styleA": "Rioja",
+"styleB": "Ribera del Duero",
+    "difficulty": "intermediate",
+    "intro": "Båda är spanska Tempranillo-viner men med helt olika karaktär. Rioja är ekig med vanilj och kokos. Ribera del Duero är kraftfullare och mörkare med mer koncentrerad frukt.",
+    "inCommon": [
+      "Tempranillo-druvan",
+      "Körsbär och plommon",
+      "Eklagring",
+      "Tobak och läder",
+      "Spanskt ursprung"
+    ],
+    "grapeAClues": [
+      "Tydlig vanilj och kokos från amerikansk ek",
+      "Mer elegant och lättillgänglig",
+      "Röd frukt dominerar",
+      "Crianza, Reserva, Gran Reserva",
+      "Från norra Spanien"
+    ],
+    "grapeBClues": [
+      "Kraftfullare och mörkare frukt",
+      "Mer koncentrerad och intensiv",
+      "Ofta fransk ek — mer subtil ekton",
+      "Högre altitud ger friskhet",
+      "Från Kastilien"
+    ],
+    "keyDifference": "Vanilj och kokos pekar mot Rioja (amerikansk ek). Kraftfullare och mörkare frukt pekar mot Ribera del Duero.",
+    "commonTrap": "Båda är Tempranillo men smaken är dramatiskt olika beroende på klimat och ektyp.",
+    "tip": "Vanilj + kokos + elegant = Rioja. Mörk + kraftfull + koncentrerad = Ribera del Duero."
+  },
+  {
+    "id": "port_ruby_vs_tawny",
+    "title": "Port Ruby vs Port Tawny",
+    "grapeA": "port",
+    "grapeB": "port",
+    "styleA": "Ruby Port",
+"styleB": "Tawny Port",
+    "difficulty": "beginner",
+    "intro": "Båda är förstärkta viner från Douro i Portugal. Ruby är ungt och fruktigt med mörka bär. Tawny lagras oxidativt i små fat och får nötter, karamell och apelsin.",
+    "inCommon": [
+      "Förstärkt med druvsprit",
+      "Hög alkohol 19-22%",
+      "Intensiv sötma",
+      "Från Douro, Portugal",
+      "Torkad frukt"
+    ],
+    "grapeAClues": [
+      "Djup rubinröd färg",
+      "Mörka bär — björnbär och körsbär",
+      "Choklad och plommon",
+      "Lagras på stora fat eller flaska",
+      "Dricks relativt ungt"
+    ],
+    "grapeBClues": [
+      "Bärnstensfärgad till kopparfärgad",
+      "Nötter och karamell",
+      "Apelsin och torkad frukt",
+      "Lagras oxidativt i små fat",
+      "10, 20, 30 eller 40 år på etiketten"
+    ],
+    "keyDifference": "Färgen avslöjar allt — djup ruby = Ruby Port. Bärnstensfärgad = Tawny. Smaken bekräftar: bär vs nötter.",
+    "commonTrap": "Båda är söta och kraftfulla — men smaken är helt olika. Ruby smakar frukt, Tawny smakar nötter och oxidation.",
+    "tip": "Röd färg + bär + choklad = Ruby. Bärnstensfärgad + nötter + karamell = Tawny."
+  }
 ]

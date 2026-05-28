@@ -72,7 +72,7 @@ export default function ForvaxlingarPage() {
                     </div>
                     <div className="font-display text-lg text-wine-100 mb-1">{c.title}</div>
                     <div className="text-xs text-wine-500">
-                      {grapeA?.type === 'white' ? '🥂' : '🍷'} {grapeA?.name} vs {grapeB?.type === 'white' ? '🥂' : '🍷'} {grapeB?.name}
+                      {grapeA?.type === 'white' ? '🥂' : '🍷'} {(c as any).styleA ?? grapeA?.name} vs {grapeB?.type === 'white' ? '🥂' : '🍷'} {(c as any).styleB ?? grapeB?.name}
                     </div>
                   </button>
                 </li>
@@ -108,7 +108,7 @@ export default function ForvaxlingarPage() {
 
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
               <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
-                <h3 className="font-display text-lg text-amber-300 mb-3">{allGrapes.find((g) => g.id === active.grapeA)?.name}</h3>
+                <h3 className="font-display text-lg text-amber-300 mb-3">{(active as any).styleA ?? allGrapes.find((g) => g.id === active.grapeA)?.name}</h3>
                 <ul className="space-y-1.5">
                   {active.grapeAClues.map((clue) => (
                     <li key={clue} className="flex items-start gap-2 text-sm text-wine-300">
@@ -118,7 +118,7 @@ export default function ForvaxlingarPage() {
                 </ul>
               </div>
               <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
-                <h3 className="font-display text-lg text-sky-300 mb-3">{allGrapes.find((g) => g.id === active.grapeB)?.name}</h3>
+                <h3 className="font-display text-lg text-sky-300 mb-3">{(active as any).styleB ?? allGrapes.find((g) => g.id === active.grapeB)?.name}</h3>
                 <ul className="space-y-1.5">
                   {active.grapeBClues.map((clue) => (
                     <li key={clue} className="flex items-start gap-2 text-sm text-wine-300">
