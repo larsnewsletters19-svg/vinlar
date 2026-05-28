@@ -68,7 +68,7 @@ export default function LarDigPage() {
             {filteredItems.map((item) => (
               <li key={item.id}>
                 <button
-                  onClick={() => setSelected(item.id)}
+                  onClick={() => { setSelected(item.id); window.scrollTo(0, 0); }}
                   className="w-full text-left p-5 rounded-2xl bg-wine-900 border border-wine-800 hover:border-wine-600 hover:bg-wine-800 transition-all"
                 >
                   <div className="text-3xl mb-2">{item.icon}</div>
