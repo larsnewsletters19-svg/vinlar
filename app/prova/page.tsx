@@ -57,8 +57,10 @@ function ProvaContent() {
   const [step, setStep] = useState(initialGrape ? 0 : -1);
   const [activeGroup, setActiveGroup] = useState<string>('white');
   const [showAromas, setShowAromas] = useState(false);
+  const [selectedFamilies, setSelectedFamilies] = useState<string[]>([]);
   const [showStructure, setShowStructure] = useState(false);
-
+  const [structureAnswers, setStructureAnswers] = useState<Record<string, number | null>>({});
+  const [structureFeedback, setStructureFeedback] = useState<Record<string, boolean | null>>({});
   const grape = allGrapes.find((g) => g.id === selectedGrape);
 
   const startGuide = (id: string) => {
@@ -66,6 +68,11 @@ function ProvaContent() {
     setSelectedGrape(id);
     setActiveGroup(g?.type ?? 'white');
     setStep(0);
+    setShowAromas(false);
+    setShowStructure(false);
+    setStructureAnswers({});
+    setStructureFeedback({});
+    setSelectedFamilies([]);
   };
 
   if (!grape || step === -1) {
@@ -204,13 +211,64 @@ function ProvaContent() {
                 Dofta på vinet utan att snurra glaset först. Vad känner du? Snurra sedan glaset försiktigt och dofta igen — märker du skillnad?
               </p>
               {!showAromas ? (
-                <div className="text-center py-6">
-                  <p className="text-wine-400 text-sm mb-4">Ta din tid att dofta på vinet innan du ser svaret.</p>
+                <div className="space-y-4">
+                  <p className="text-wine-400 text-sm">Vilka aromfamiljer känner du? Välj alla du hittar:</p>
+                  <div className="flex flex-wrap gap-2">
+                    {aromaFamilies.map((family) => {
+                      const isSelected = selectedFamilies.includes(family.id);
+                      const isCorrect = relevantFamilies.some(f => f.id === family.id);
+                      return (
+                        <button
+                          key={family.id}
+                          onClick={() => setSelectedFamilies(prev =>
+                            prev.includes(family.id)
+                              ? prev.filter(f => f !== family.id)
+                              : [...prev, family.id]
+                          )}
+                          className={`px-3 py-2 rounded-xl text-sm font-medium border transition-all ${
+                            isSelected
+                              ? 'bg-wine-600 border-wine-500 text-white'
+                              : 'bg-wine-900 border-wine-700 text-wine-400 hover:border-wine-500'
+                          }`}
+                        >
+                          {family.emoji} {family.label}
+                        </button>
+                      );
+                    })}
+                  </div>
+                  {selectedFamilies.length > 0 && (
+                    <div className="space-y-2">
+                      {selectedFamilies.map(id => {
+                        const family = aromaFamilies.find(f => f.id === id);
+                        const isCorrect = relevantFamilies.some(f => f.id === id);
+                        return (
+                          <div key={id} className={`px-3 py-2 rounded-xl text-sm flex items-center gap-2 ${
+                            isCorrect
+                              ? 'bg-green-900/30 border border-green-700/50 text-green-300'
+                              : 'bg-rose-900/20 border border-rose-700/40 text-rose-300'
+                          }`}>
+                            {isCorrect ? '✓' : '✗'} {family?.emoji} {family?.label}
+                            {!isCorrect && (() => {
+  const exampleGrape = allGrapes.find(g =>
+    g.id !== grape.id &&
+    aromaFamilies.find(f => f.id === id)?.ids.some(aromaId => (g.aromaScores[aromaId] ?? 0) >= 4)
+  );
+  return (
+    <span className="text-wine-500 text-xs ml-1">
+      — inte typiskt för {grape.name}{exampleGrape ? `. Prova ${exampleGrape.name} för denna arom.` : '.'}
+    </span>
+  );
+})()}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
                   <button
                     onClick={() => setShowAromas(true)}
-                    className="px-6 py-3 bg-wine-600 hover:bg-wine-500 text-white font-medium rounded-xl transition-colors"
+                    className="w-full py-3 bg-wine-600 hover:bg-wine-500 text-white font-medium rounded-xl transition-colors text-sm"
                   >
-                    Visa typiska aromer →
+                    Visa alla typiska aromer →
                   </button>
                 </div>
               ) : (
@@ -258,14 +316,116 @@ function ProvaContent() {
                 Ta en liten klunk. Håll vinet i munnen i 5–10 sekunder. Andas in lite luft. Svälj och notera eftersmaken.
               </p>
               {!showStructure ? (
-                <div className="text-center py-6">
-                  <p className="text-wine-400 text-sm mb-4">Känn efter syra, kropp och tannin innan du ser svaret.</p>
-                  <button
-                    onClick={() => setShowStructure(true)}
-                    className="px-6 py-3 bg-wine-600 hover:bg-wine-500 text-white font-medium rounded-xl transition-colors"
-                  >
-                    Visa smakstruktur →
-                  </button>
+                <div className="space-y-5">
+                  {structureLabels
+                    .filter(({ key }) => {
+                      if (key === 'tannin' && grape.type !== 'red') return false;
+                      if (key === 'sweetness' && grape.structure['sweetness' as keyof typeof grape.structure] === 0) return false;
+                      return true;
+                    })
+                    .map(({ key, label, low, high }) => {
+                      const correct = grape.structure[key as keyof typeof grape.structure];
+                      const answer = structureAnswers[key];
+                      const feedback = structureFeedback[key];
+                      const tips: Record<string, { low: string; high: string; lowExample: string; highExample: string }> = {
+  acidity: {
+    low: 'Låg syra känns slapp och rund — munnen vattnas inte.',
+    high: 'Hög syra får munnen att vattnas längs sidorna — som att bita i en citron.',
+    lowExample: 'Viognier och Gewürztraminer har mycket låg syra.',
+    highExample: 'Riesling och Champagne har mycket hög syra.',
+  },
+  body: {
+    low: 'Lätt kropp glider lätt förbi — som vatten i munnen.',
+    high: 'Fyllig kropp stannar kvar och känns tung — som mjölk eller grädde.',
+    lowExample: 'Riesling och Gamay har mycket lätt kropp.',
+    highExample: 'Cabernet Sauvignon och ekad Chardonnay har mycket fyllig kropp.',
+  },
+  tannin: {
+    low: 'Lågt tannin ger ingen sträv känsla — munnen känns mjuk.',
+    high: 'Högt tannin torkar ut munnen — som att dricka starkt te.',
+    lowExample: 'Pinot Noir och Gamay har mycket lite tannin.',
+    highExample: 'Cabernet Sauvignon och Nebbiolo har mycket högt tannin.',
+  },
+  alcohol: {
+    low: 'Låg alkohol ger ingen värme — vinet känns lätt och friskt.',
+    high: 'Hög alkohol ger värme i halsen och magen efter att du svalt.',
+    lowExample: 'Mosel Riesling och Moscato d\'Asti har mycket låg alkohol.',
+    highExample: 'Amarone och Zinfandel har mycket hög alkohol.',
+  },
+  sweetness: {
+    low: 'Torrt vin ger ingen söt känsla — bara frukt och syra.',
+    high: 'Sötma känns direkt på tungspetsen och stannar kvar.',
+    lowExample: 'Chablis och Sancerre är helt torra viner.',
+    highExample: 'Sauternes och Tokaji har intensiv sötma.',
+  },
+};
+                      const levels = [
+                        { val: 1, label: low.split(' — ')[0] },
+                        { val: 3, label: 'Medel' },
+                        { val: 5, label: high.split(' — ')[0] },
+                      ];
+                      const correctLabel = correct <= 2 ? low.split(' — ')[0] : correct >= 4 ? high.split(' — ')[0] : 'Medel';
+                      return (
+                        <div key={key}>
+                          <div className="text-wine-100 font-medium mb-2 text-sm">{label}</div>
+                          {answer === undefined || answer === null ? (
+                            <div className="flex gap-2">
+                              {levels.map((l) => (
+                                <button
+                                  key={l.val}
+                                  onClick={() => {
+                                    const isCorrect = (l.val <= 2 && correct <= 2) || (l.val === 3 && correct === 3) || (l.val >= 4 && correct >= 4);
+                                    setStructureAnswers(prev => ({ ...prev, [key]: l.val }));
+                                    setStructureFeedback(prev => ({ ...prev, [key]: isCorrect }));
+                                  }}
+                                  className="flex-1 py-2 px-1 rounded-xl text-xs font-medium bg-wine-800 border border-wine-700 text-wine-300 hover:border-wine-500 hover:text-wine-100 transition-all"
+                                >
+                                  {l.label}
+                                </button>
+                              ))}
+                            </div>
+                          ) : feedback === true ? (
+                            <div className="bg-green-900/30 rounded-xl p-3 border border-green-700/50">
+                              <p className="text-green-300 text-sm font-medium">✓ Rätt!</p>
+                              <p className="text-green-200 text-xs mt-1">{correct >= 4 ? tips[key].high : correct <= 2 ? tips[key].low : 'Medel — varken lågt eller högt.'}</p>
+                            </div>
+                          ) : feedback === false ? (
+                            <div className="bg-rose-900/20 rounded-xl p-3 border border-rose-700/40 space-y-2">
+                              <p className="text-rose-300 text-sm font-medium">
+  {grape.name} är faktiskt {key === 'sweetness' ? correctLabel.toLowerCase() : `${correctLabel.toLowerCase()} i ${label.toLowerCase()}`}.
+</p>
+                              <p className="text-wine-300 text-xs">💡 {correct >= 4 ? tips[key].high : tips[key].low}</p>
+                              <p className="text-wine-500 text-xs">
+                                {(() => {
+                                  const answerVal = answer ?? 3;
+                                  const exampleGrapes = allGrapes
+                                    .filter(g => g.id !== grape.id && g.structure[key as keyof typeof g.structure] === answerVal)
+                                    .slice(0, 2)
+                                    .map(g => g.name)
+                                    .join(' och ');
+                                  const exampleGrapesClose = !exampleGrapes ? allGrapes
+                                    .filter(g => g.id !== grape.id && Math.abs(g.structure[key as keyof typeof g.structure] - answerVal) <= 1)
+                                    .slice(0, 2)
+                                    .map(g => g.name)
+                                    .join(' och ') : exampleGrapes;
+                                  return exampleGrapesClose
+                                    ? `Druvor med ${answerVal <= 2 ? 'låg' : answerVal >= 4 ? 'hög' : 'medel'} ${label.toLowerCase()}: ${exampleGrapesClose}`
+                                    : '';
+                                })()}
+                              </p>
+                            </div>
+                          ) : null}
+                        </div>
+                      );
+                    })}
+                  {Object.keys(structureAnswers).length > 0 && (
+                    <button
+                      onClick={() => setShowStructure(true)}
+                      className="w-full py-3 bg-wine-600 hover:bg-wine-500 text-white font-medium rounded-xl transition-colors text-sm"
+                    >
+                      Visa full smakstruktur →
+                    </button>
+                  )}
                 </div>
               ) : (
                 <>
