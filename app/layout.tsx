@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Playfair_Display, Source_Serif_4 } from 'next/font/google';
 import './globals.css';
 import Nav from '@/components/Nav';
+import { Analytics } from '@vercel/analytics/react';
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
       </body>
+      <Analytics />
     </html>
   );
 }
