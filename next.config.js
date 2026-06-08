@@ -1,1 +1,1 @@
-const nextConfig = { webpack: (config) => config }; module.exports = nextConfig;
+const nextConfig = { turbopack: {} }; module.exports = nextConfig;
