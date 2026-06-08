@@ -16,6 +16,7 @@ const moreMobileNav = [
   { href: '/regioner', label: 'Regioner', icon: '🌍' },
   { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
   { href: '/mat-och-vin', label: 'Mat & Vin', icon: '🍽️' },
+  { href: '/blanda', label: 'Blanda', icon: '🧪' },
   { href: '/prova', label: 'Prova', icon: '🍷' },
   { href: '/ordlista', label: 'Ordlista', icon: '📚' },
   { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
@@ -29,6 +30,7 @@ const desktopSections = [
       { href: '/regioner', label: 'Regioner', icon: '🌍' },
       { href: '/stilar', label: 'Stilar', icon: '🗺️' },
       { href: '/jamfor', label: 'Jämför', icon: '⚖️' },
+      { href: '/blanda', label: 'Blanda ditt vin', icon: '🧪' },
     ],
   },
   {
