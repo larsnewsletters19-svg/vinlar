@@ -96,18 +96,25 @@ const sections = [
     color: 'from-lime-900 to-stone-950',
   },
   {
-    href: '/aromhjul',
-    icon: '🌸',
-    title: 'Aromhjul',
-    desc: 'Se druvors aromprofil i ett visuellt hjul.',
-    color: 'from-rose-900 to-wine-950',
-  },
-  {
     href: '/prova',
     icon: '🍷',
     title: 'Prova ett vin',
     desc: 'Guidad provning steg för steg — se, dofta och smaka.',
     color: 'from-wine-700 to-wine-950',
+  },
+  {
+    href: '/hemma',
+    icon: '🏠',
+    title: 'Prova hemma',
+    desc: 'Steg-för-steg guide från inköp till utvärdering — med dekanterings-timer.',
+    color: 'from-teal-900 to-wine-950',
+  },
+  {
+    href: '/aromhjul',
+    icon: '🌸',
+    title: 'Aromhjul',
+    desc: 'Se druvors aromprofil i ett visuellt hjul.',
+    color: 'from-rose-900 to-wine-950',
   },
 ];
 

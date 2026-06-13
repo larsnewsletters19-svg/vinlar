@@ -6,8 +6,15 @@
       "emoji": "🧂",
       "effect": "Mjukar tannin och framhäver frukt",
       "whatHappens": "Salt i maten binder sig till tanninerna i vinet och mjukar upp den strävande känslan. Samtidigt framhävs vinets fruktighet och vinet upplevs rundare och mer välbalanserat.",
-      "goodFor": ["Tanninrika röda viner", "Cabernet Sauvignon", "Nebbiolo", "Syrah"],
-      "badFor": ["Lätta vita viner kan upplevas tunnare"],
+      "goodFor": [
+        "Tanninrika röda viner",
+        "Cabernet Sauvignon",
+        "Nebbiolo",
+        "Syrah"
+      ],
+      "badFor": [
+        "Lätta vita viner kan upplevas tunnare"
+      ],
       "tip": "Salta maten lite extra om du dricker ett ungt tanninrikt vin — det mjukar upp strävheten dramatiskt.",
       "example": "En Barolo som känns sträv och svår öppnar sig märkbart till salt lagrad ost eller saltat kött."
     },
@@ -17,8 +24,14 @@
       "emoji": "🧈",
       "effect": "Mjukar syra och tannin — gör kraftiga viner mer harmoniska",
       "whatHappens": "Fett från smör, grädde, olja eller kött belägger munnen och minskar upplevelsen av både syra och tannin. Ett kraftigt, tanninrikt vin som känns hårt till en sallad kan upplevas silkeslent till en välmarmorerad biff.",
-      "goodFor": ["Kraftiga röda viner", "Tanninrika viner", "Högsyra vita viner"],
-      "badFor": ["Lätta delikata viner kan försvinna mot fettrika rätter"],
+      "goodFor": [
+        "Kraftiga röda viner",
+        "Tanninrika viner",
+        "Högsyra vita viner"
+      ],
+      "badFor": [
+        "Lätta delikata viner kan försvinna mot fettrika rätter"
+      ],
       "tip": "Beurre blanc till ett syrigt vitt vin skapar perfektion — fettet mjukar syran och lyfter frukten.",
       "example": "Chardonnay med smörsås till hummer är en klassiker just för att fettet och vinets syra balanserar varandra perfekt."
     },
@@ -28,8 +41,15 @@
       "emoji": "🍯",
       "effect": "Gör vinet smaka torrare och surare",
       "whatHappens": "När maten är sötare än vinet upplevs vinet plötsligt som surt och torrt. Det är därför dessert kräver sötare vin än maten — annars smakar vinet som ättika.",
-      "goodFor": ["Söta viner till söta rätter", "Sauternes till foie gras", "Port till chokladkaka"],
-      "badFor": ["Torra röda till söta såser — katastrofalt", "Champagne Brut till söt dessert"],
+      "goodFor": [
+        "Söta viner till söta rätter",
+        "Sauternes till foie gras",
+        "Port till chokladkaka"
+      ],
+      "badFor": [
+        "Torra röda till söta såser — katastrofalt",
+        "Champagne Brut till söt dessert"
+      ],
       "tip": "Grundregeln: vinet ska alltid vara lika sött eller sötare än maten. Annars smakar det surt.",
       "example": "Champagne Brut till jordgubbstårta gör att vinet smakar nästan surt. Byt till halvsött eller Moscato d'Asti istället."
     },
@@ -39,8 +59,14 @@
       "emoji": "🍋",
       "effect": "Framhäver vinets frukt och mjukar upplevelsen",
       "whatHappens": "Syra i maten — citron, tomater, vinäger — konkurrerar med vinets syra och gör att vinet upplevs rundare och mer fruktigt. Det är därför syrliga viner passar så bra till syrliga rätter.",
-      "goodFor": ["Högsyra vita viner", "Sauvignon Blanc till getost", "Sangiovese till tomatsås"],
-      "badFor": ["Lågsyra viner kan upplevas feta och tunga mot syrlig mat"],
+      "goodFor": [
+        "Högsyra vita viner",
+        "Sauvignon Blanc till getost",
+        "Sangiovese till tomatsås"
+      ],
+      "badFor": [
+        "Lågsyra viner kan upplevas feta och tunga mot syrlig mat"
+      ],
       "tip": "Pressa citron över fisken innan du dricker det vita vinet — frukten i vinet lyfter direkt.",
       "example": "Sangiovese och tomatsås är en klassiker — bådas syra matchar och balanserar varandra perfekt."
     },
@@ -50,8 +76,15 @@
       "emoji": "🍄",
       "effect": "Mjukar tannin men kan framhäva bitterhet",
       "whatHappens": "Umami — från svamp, parmesan, kött, soja och miso — mjukar tannin och gör röda viner rundare. Men umami kan också framhäva bitterhet i vinet om alkoholen är hög.",
-      "goodFor": ["Medelkraftiga röda", "Pinot Noir till svamp", "Nebbiolo till tryffel"],
-      "badFor": ["Höga alkoholviner kan smaka brännande mot stark umami", "Skaldjur med soja till tanninrikt vin"],
+      "goodFor": [
+        "Medelkraftiga röda",
+        "Pinot Noir till svamp",
+        "Nebbiolo till tryffel"
+      ],
+      "badFor": [
+        "Höga alkoholviner kan smaka brännande mot stark umami",
+        "Skaldjur med soja till tanninrikt vin"
+      ],
       "tip": "Parmesan till ett tanninrikt vin är ett klassiskt knep — osten mjukar tanninet och lyfter frukten.",
       "example": "Barolo och tryffel är en av Italiens stora kombinationer — umamin från tryffeln mjukar Nebbiolos hårda tannin."
     },
@@ -61,8 +94,15 @@
       "emoji": "🍫",
       "effect": "Förstärker tannin och bitterhet i vinet",
       "whatHappens": "Bitter mat — mörk choklad, radicchio, brysselkål, grapefrukt — förstärker upplevelsen av tannin och bitterhet i vinet. Det är en av de svåraste kombinationerna att lyckas med.",
-      "goodFor": ["Söta viner till bitter mat", "Port till mörk choklad", "Sauternes till blåmögelost"],
-      "badFor": ["Tanninrika röda till mörk choklad — förstärker strävhet", "Bitter sallad till Barolo"],
+      "goodFor": [
+        "Söta viner till bitter mat",
+        "Port till mörk choklad",
+        "Sauternes till blåmögelost"
+      ],
+      "badFor": [
+        "Tanninrika röda till mörk choklad — förstärker strävhet",
+        "Bitter sallad till Barolo"
+      ],
       "tip": "Välj söta eller fruktiga viner till bittra ingredienser. Port till mörk choklad fungerar för att sötman balanserar bitterheten.",
       "example": "Mörk choklad (85%) till Cabernet Sauvignon framhäver tanninets strävhet och chokladens bitterhet — båda förstärks negativt."
     },
@@ -72,8 +112,16 @@
       "emoji": "🌶️",
       "effect": "Förstärker alkoholupplevelsen och framhäver frukten",
       "whatHappens": "Stark kryddighet och hetta från chili framhäver alkoholvärmen i vinet. Hög alkohol + het mat = brännande. Söta eller låga alkoholviner passar bäst till stark mat.",
-      "goodFor": ["Riesling med lite restsötma", "Gewürztraminer", "Låg alkohol rosé", "Mousserande vin"],
-      "badFor": ["Höga alkoholviner — alkoholen förstärks av hettan", "Kraftiga tanniner"],
+      "goodFor": [
+        "Riesling med lite restsötma",
+        "Gewürztraminer",
+        "Låg alkohol rosé",
+        "Mousserande vin"
+      ],
+      "badFor": [
+        "Höga alkoholviner — alkoholen förstärks av hettan",
+        "Kraftiga tanniner"
+      ],
       "tip": "Välj ett lite sötaktigt vin till het asiatisk mat — sötman dämpar hettan och frukten framhävs.",
       "example": "Thaimat med kokosmjölk och chili till en halvtorr Riesling är en klassiker — sötman balanserar hettan perfekt."
     }
@@ -154,68 +202,146 @@
         {
           "food": "Biff / Oxfilé",
           "wines": [
-            { "name": "Cabernet Sauvignon", "type": "druva" },
-            { "name": "Syrah", "type": "druva" },
-            { "name": "Malbec", "type": "druva" },
-            { "name": "Barolo", "type": "appellation" }
+            {
+              "name": "Cabernet Sauvignon",
+              "type": "druva"
+            },
+            {
+              "name": "Syrah",
+              "type": "druva"
+            },
+            {
+              "name": "Malbec",
+              "type": "druva"
+            },
+            {
+              "name": "Barolo",
+              "type": "appellation"
+            }
           ],
           "reason": "Fett och protein mjukar tanninerna"
         },
         {
           "food": "Entrecôte",
           "wines": [
-            { "name": "Cabernet Sauvignon", "type": "druva" },
-            { "name": "Malbec", "type": "druva" },
-            { "name": "Tempranillo", "type": "druva" }
+            {
+              "name": "Cabernet Sauvignon",
+              "type": "druva"
+            },
+            {
+              "name": "Malbec",
+              "type": "druva"
+            },
+            {
+              "name": "Tempranillo",
+              "type": "druva"
+            }
           ],
           "reason": "Marmorerat kött med kraft — kräver vin med tannin och struktur"
         },
         {
           "food": "Lammracks",
           "wines": [
-            { "name": "Syrah", "type": "druva" },
-            { "name": "Grenache", "type": "druva" },
-            { "name": "Tempranillo", "type": "druva" },
-            { "name": "Cabernet Franc", "type": "druva" }
+            {
+              "name": "Syrah",
+              "type": "druva"
+            },
+            {
+              "name": "Grenache",
+              "type": "druva"
+            },
+            {
+              "name": "Tempranillo",
+              "type": "druva"
+            },
+            {
+              "name": "Cabernet Franc",
+              "type": "druva"
+            }
           ],
           "reason": "Lammets sötma passar till örtig och fruktig röd"
         },
         {
           "food": "Ankbröst",
           "wines": [
-            { "name": "Pinot Noir", "type": "druva" },
-            { "name": "Syrah", "type": "druva" },
-            { "name": "Grenache", "type": "druva" }
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            },
+            {
+              "name": "Syrah",
+              "type": "druva"
+            },
+            {
+              "name": "Grenache",
+              "type": "druva"
+            }
           ],
           "reason": "Ankan är fet och smakrik — Pinot Noirs jordighet är perfekt match"
         },
         {
           "food": "Fläskkött",
           "wines": [
-            { "name": "Pinot Noir", "type": "druva" },
-            { "name": "Grenache", "type": "druva" },
-            { "name": "Riesling", "type": "druva" },
-            { "name": "Grüner Veltliner", "type": "druva" }
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            },
+            {
+              "name": "Grenache",
+              "type": "druva"
+            },
+            {
+              "name": "Riesling",
+              "type": "druva"
+            },
+            {
+              "name": "Grüner Veltliner",
+              "type": "druva"
+            }
           ],
           "reason": "Mildare kött — behöver inte kraftigt tanninrikt vin"
         },
         {
           "food": "Vilt",
           "wines": [
-            { "name": "Syrah", "type": "druva" },
-            { "name": "Nebbiolo", "type": "druva" },
-            { "name": "Mourvèdre", "type": "druva" },
-            { "name": "Pinot Noir (mogen)", "type": "druva" }
+            {
+              "name": "Syrah",
+              "type": "druva"
+            },
+            {
+              "name": "Nebbiolo",
+              "type": "druva"
+            },
+            {
+              "name": "Mourvèdre",
+              "type": "druva"
+            },
+            {
+              "name": "Pinot Noir (mogen)",
+              "type": "druva"
+            }
           ],
           "reason": "Viltet är intensivt — kräver komplext vin med jordighet"
         },
         {
           "food": "Kyckling",
           "wines": [
-            { "name": "Chardonnay", "type": "druva" },
-            { "name": "Pinot Noir", "type": "druva" },
-            { "name": "Grenache", "type": "druva" },
-            { "name": "Viognier", "type": "druva" }
+            {
+              "name": "Chardonnay",
+              "type": "druva"
+            },
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            },
+            {
+              "name": "Grenache",
+              "type": "druva"
+            },
+            {
+              "name": "Viognier",
+              "type": "druva"
+            }
           ],
           "reason": "Neutralt kött — passar till både vitt och lätt rött"
         }
@@ -230,65 +356,134 @@
         {
           "food": "Ostron",
           "wines": [
-            { "name": "Muscadet", "type": "appellation" },
-            { "name": "Champagne", "type": "appellation" },
-            { "name": "Chablis", "type": "appellation" },
-            { "name": "Albariño", "type": "druva" }
+            {
+              "name": "Muscadet",
+              "type": "appellation"
+            },
+            {
+              "name": "Champagne",
+              "type": "appellation"
+            },
+            {
+              "name": "Chablis",
+              "type": "appellation"
+            },
+            {
+              "name": "Albariño",
+              "type": "druva"
+            }
           ],
           "reason": "Saltighet och mineralitet möter havets sälta"
         },
         {
           "food": "Lax",
           "wines": [
-            { "name": "Pinot Noir", "type": "druva" },
-            { "name": "Chardonnay", "type": "druva" },
-            { "name": "Riesling", "type": "druva" },
-            { "name": "Rosé", "type": "stil" }
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            },
+            {
+              "name": "Chardonnay",
+              "type": "druva"
+            },
+            {
+              "name": "Riesling",
+              "type": "druva"
+            },
+            {
+              "name": "Rosé",
+              "type": "stil"
+            }
           ],
           "reason": "Laxens fetma kräver lite mer kropp"
         },
         {
           "food": "Gravad lax",
           "wines": [
-            { "name": "Grüner Veltliner", "type": "druva" },
-            { "name": "Riesling", "type": "druva" },
-            { "name": "Champagne", "type": "appellation" }
+            {
+              "name": "Grüner Veltliner",
+              "type": "druva"
+            },
+            {
+              "name": "Riesling",
+              "type": "druva"
+            },
+            {
+              "name": "Champagne",
+              "type": "appellation"
+            }
           ],
           "reason": "Dillens örtigthet möter vitpeppar och syra perfekt"
         },
         {
           "food": "Hummer",
           "wines": [
-            { "name": "Chardonnay", "type": "druva" },
-            { "name": "Champagne", "type": "appellation" },
-            { "name": "Viognier", "type": "druva" }
+            {
+              "name": "Chardonnay",
+              "type": "druva"
+            },
+            {
+              "name": "Champagne",
+              "type": "appellation"
+            },
+            {
+              "name": "Viognier",
+              "type": "druva"
+            }
           ],
           "reason": "Lyxig råvara — kräver vin med kropp och komplexitet"
         },
         {
           "food": "Räkor",
           "wines": [
-            { "name": "Muscadet", "type": "appellation" },
-            { "name": "Albariño", "type": "druva" },
-            { "name": "Sauvignon Blanc", "type": "druva" }
+            {
+              "name": "Muscadet",
+              "type": "appellation"
+            },
+            {
+              "name": "Albariño",
+              "type": "druva"
+            },
+            {
+              "name": "Sauvignon Blanc",
+              "type": "druva"
+            }
           ],
           "reason": "Lätta och salta — frisk mineralitet lyfter dem"
         },
         {
           "food": "Bläckfisk",
           "wines": [
-            { "name": "Vermentino", "type": "druva" },
-            { "name": "Albariño", "type": "druva" },
-            { "name": "Rosé", "type": "stil" }
+            {
+              "name": "Vermentino",
+              "type": "druva"
+            },
+            {
+              "name": "Albariño",
+              "type": "druva"
+            },
+            {
+              "name": "Rosé",
+              "type": "stil"
+            }
           ],
           "reason": "Havssaltighet möter mineralitet och friskhet"
         },
         {
           "food": "Torsk / vit fisk",
           "wines": [
-            { "name": "Chablis", "type": "appellation" },
-            { "name": "Pinot Grigio", "type": "druva" },
-            { "name": "Sauvignon Blanc", "type": "druva" }
+            {
+              "name": "Chablis",
+              "type": "appellation"
+            },
+            {
+              "name": "Pinot Grigio",
+              "type": "druva"
+            },
+            {
+              "name": "Sauvignon Blanc",
+              "type": "druva"
+            }
           ],
           "reason": "Neutral fisk — friska mineraliska viner lyfter den"
         }
@@ -303,63 +498,126 @@
         {
           "food": "Pasta med tomatsås",
           "wines": [
-            { "name": "Sangiovese", "type": "druva" },
-            { "name": "Barbera", "type": "druva" },
-            { "name": "Dolcetto", "type": "druva" }
+            {
+              "name": "Sangiovese",
+              "type": "druva"
+            },
+            {
+              "name": "Barbera",
+              "type": "druva"
+            },
+            {
+              "name": "Dolcetto",
+              "type": "druva"
+            }
           ],
           "reason": "Syra möter syra — italiensk klassiker"
         },
         {
           "food": "Pasta med köttfärssås (bolognese)",
           "wines": [
-            { "name": "Sangiovese", "type": "druva" },
-            { "name": "Barbera", "type": "druva" },
-            { "name": "Cabernet Franc", "type": "druva" }
+            {
+              "name": "Sangiovese",
+              "type": "druva"
+            },
+            {
+              "name": "Barbera",
+              "type": "druva"
+            },
+            {
+              "name": "Cabernet Franc",
+              "type": "druva"
+            }
           ],
           "reason": "Köttsåsens rikedom kräver syra och lätt tannin"
         },
         {
           "food": "Pasta med gräddsås",
           "wines": [
-            { "name": "Chardonnay", "type": "druva" },
-            { "name": "Pinot Grigio", "type": "druva" },
-            { "name": "Soave", "type": "appellation" }
+            {
+              "name": "Chardonnay",
+              "type": "druva"
+            },
+            {
+              "name": "Pinot Grigio",
+              "type": "druva"
+            },
+            {
+              "name": "Soave",
+              "type": "appellation"
+            }
           ],
           "reason": "Fett möter kropp — vitt vin med lite rundare stil"
         },
         {
           "food": "Pasta med skaldjur",
           "wines": [
-            { "name": "Vermentino", "type": "druva" },
-            { "name": "Soave", "type": "appellation" },
-            { "name": "Muscadet", "type": "appellation" }
+            {
+              "name": "Vermentino",
+              "type": "druva"
+            },
+            {
+              "name": "Soave",
+              "type": "appellation"
+            },
+            {
+              "name": "Muscadet",
+              "type": "appellation"
+            }
           ],
           "reason": "Havets sälta möter mineralitet"
         },
         {
           "food": "Pasta med tryffel",
           "wines": [
-            { "name": "Barolo", "type": "appellation" },
-            { "name": "Barbaresco", "type": "appellation" },
-            { "name": "Bourgogne rouge", "type": "region" }
+            {
+              "name": "Barolo",
+              "type": "appellation"
+            },
+            {
+              "name": "Barbaresco",
+              "type": "appellation"
+            },
+            {
+              "name": "Bourgogne rouge",
+              "type": "region"
+            }
           ],
           "reason": "Tryffelns umami mjukar Nebbiolos tannin perfekt"
         },
         {
           "food": "Pasta med pesto",
           "wines": [
-            { "name": "Vermentino", "type": "druva" },
-            { "name": "Sauvignon Blanc", "type": "druva" },
-            { "name": "Pigato", "type": "druva" }
+            {
+              "name": "Vermentino",
+              "type": "druva"
+            },
+            {
+              "name": "Sauvignon Blanc",
+              "type": "druva"
+            },
+            {
+              "name": "Pigato",
+              "type": "druva"
+            }
           ],
           "reason": "Basilikans örtigthet möter friska, gröna viner"
         },
         {
           "food": "Ravioli med ricotta och spenat",
           "wines": [
-            { "name": "Pinot Grigio", "type": "druva" },
-            { "name": "Soave", "type": "appellation" },
-            { "name": "Grüner Veltliner", "type": "druva" }
+            {
+              "name": "Pinot Grigio",
+              "type": "druva"
+            },
+            {
+              "name": "Soave",
+              "type": "appellation"
+            },
+            {
+              "name": "Grüner Veltliner",
+              "type": "druva"
+            }
           ],
           "reason": "Delikat fyllning — friskt vitt lyfter utan att dominera"
         }
@@ -374,63 +632,126 @@
         {
           "food": "Getost (chèvre)",
           "wines": [
-            { "name": "Sauvignon Blanc", "type": "druva" },
-            { "name": "Sancerre", "type": "appellation" },
-            { "name": "Albariño", "type": "druva" }
+            {
+              "name": "Sauvignon Blanc",
+              "type": "druva"
+            },
+            {
+              "name": "Sancerre",
+              "type": "appellation"
+            },
+            {
+              "name": "Albariño",
+              "type": "druva"
+            }
           ],
           "reason": "Syra möter syra — klassisk kombination"
         },
         {
           "food": "Brie / Camembert",
           "wines": [
-            { "name": "Chardonnay", "type": "druva" },
-            { "name": "Champagne", "type": "appellation" },
-            { "name": "Pinot Noir", "type": "druva" }
+            {
+              "name": "Chardonnay",
+              "type": "druva"
+            },
+            {
+              "name": "Champagne",
+              "type": "appellation"
+            },
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            }
           ],
           "reason": "Fet ost — kropp i vinet balanserar"
         },
         {
           "food": "Délice de Bourgogne",
           "wines": [
-            { "name": "Champagne", "type": "appellation" },
-            { "name": "Crémant de Bourgogne", "type": "appellation" },
-            { "name": "Chardonnay", "type": "druva" }
+            {
+              "name": "Champagne",
+              "type": "appellation"
+            },
+            {
+              "name": "Crémant de Bourgogne",
+              "type": "appellation"
+            },
+            {
+              "name": "Chardonnay",
+              "type": "druva"
+            }
           ],
           "reason": "Extremt krämig trippelgräddeost — bubblor skär igenom fetman perfekt"
         },
         {
           "food": "Blåmögelost",
           "wines": [
-            { "name": "Sauternes", "type": "appellation" },
-            { "name": "Port", "type": "appellation" },
-            { "name": "Tokaji", "type": "appellation" }
+            {
+              "name": "Sauternes",
+              "type": "appellation"
+            },
+            {
+              "name": "Port",
+              "type": "appellation"
+            },
+            {
+              "name": "Tokaji",
+              "type": "appellation"
+            }
           ],
           "reason": "Salt möter sötma — en av vinvärldens stora kombinationer"
         },
         {
           "food": "Stilton",
           "wines": [
-            { "name": "Vintage Port", "type": "stil" },
-            { "name": "Tawny Port", "type": "stil" },
-            { "name": "Sauternes", "type": "appellation" }
+            {
+              "name": "Vintage Port",
+              "type": "stil"
+            },
+            {
+              "name": "Tawny Port",
+              "type": "stil"
+            },
+            {
+              "name": "Sauternes",
+              "type": "appellation"
+            }
           ],
           "reason": "Brittisk klassiker — Stilton och Port är ett av världens mest beprövade par"
         },
         {
           "food": "Hårdost (Parmesan)",
           "wines": [
-            { "name": "Sangiovese", "type": "druva" },
-            { "name": "Barolo", "type": "appellation" },
-            { "name": "Brunello di Montalcino", "type": "appellation" }
+            {
+              "name": "Sangiovese",
+              "type": "druva"
+            },
+            {
+              "name": "Barolo",
+              "type": "appellation"
+            },
+            {
+              "name": "Brunello di Montalcino",
+              "type": "appellation"
+            }
           ],
           "reason": "Salt och umami mjukar tanninet"
         },
         {
           "food": "Manchego",
           "wines": [
-            { "name": "Tempranillo", "type": "druva" },
-            { "name": "Rioja", "type": "region" },
-            { "name": "Grenache", "type": "druva" }
+            {
+              "name": "Tempranillo",
+              "type": "druva"
+            },
+            {
+              "name": "Rioja",
+              "type": "region"
+            },
+            {
+              "name": "Grenache",
+              "type": "druva"
+            }
           ],
           "reason": "Lokal kombination — alltid pålitlig"
         }
@@ -445,54 +766,108 @@
         {
           "food": "Sparris",
           "wines": [
-            { "name": "Grüner Veltliner", "type": "druva" },
-            { "name": "Sauvignon Blanc", "type": "druva" },
-            { "name": "Muscadet", "type": "appellation" }
+            {
+              "name": "Grüner Veltliner",
+              "type": "druva"
+            },
+            {
+              "name": "Sauvignon Blanc",
+              "type": "druva"
+            },
+            {
+              "name": "Muscadet",
+              "type": "appellation"
+            }
           ],
           "reason": "Sparris är svår — vitpeppar och örtigthet i Grüner är perfekt"
         },
         {
           "food": "Svamprätt",
           "wines": [
-            { "name": "Pinot Noir", "type": "druva" },
-            { "name": "Nebbiolo", "type": "druva" },
-            { "name": "Bourgogne rouge", "type": "region" }
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            },
+            {
+              "name": "Nebbiolo",
+              "type": "druva"
+            },
+            {
+              "name": "Bourgogne rouge",
+              "type": "region"
+            }
           ],
           "reason": "Svampens umami och jordighet matchar vinets jordighet"
         },
         {
           "food": "Ratatouille",
           "wines": [
-            { "name": "Grenache", "type": "druva" },
-            { "name": "Syrah", "type": "druva" },
-            { "name": "Provencerosé", "type": "region" }
+            {
+              "name": "Grenache",
+              "type": "druva"
+            },
+            {
+              "name": "Syrah",
+              "type": "druva"
+            },
+            {
+              "name": "Provencerosé",
+              "type": "region"
+            }
           ],
           "reason": "Provensalsk mat till provensalskt vin"
         },
         {
           "food": "Tryffelrätt",
           "wines": [
-            { "name": "Barolo", "type": "appellation" },
-            { "name": "Barbaresco", "type": "appellation" },
-            { "name": "Bourgogne rouge", "type": "region" }
+            {
+              "name": "Barolo",
+              "type": "appellation"
+            },
+            {
+              "name": "Barbaresco",
+              "type": "appellation"
+            },
+            {
+              "name": "Bourgogne rouge",
+              "type": "region"
+            }
           ],
           "reason": "Tryffelns umami mjukar Nebbiolos tannin perfekt"
         },
         {
           "food": "Linser / baljväxter",
           "wines": [
-            { "name": "Barbera", "type": "druva" },
-            { "name": "Sangiovese", "type": "druva" },
-            { "name": "Grenache", "type": "druva" }
+            {
+              "name": "Barbera",
+              "type": "druva"
+            },
+            {
+              "name": "Sangiovese",
+              "type": "druva"
+            },
+            {
+              "name": "Grenache",
+              "type": "druva"
+            }
           ],
           "reason": "Jordig och proteinrik mat möter fruktiga, lätta röda"
         },
         {
           "food": "Rotfrukter (ugnsrostade)",
           "wines": [
-            { "name": "Pinot Noir", "type": "druva" },
-            { "name": "Grenache", "type": "druva" },
-            { "name": "Chardonnay (ekad)", "type": "druva" }
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            },
+            {
+              "name": "Grenache",
+              "type": "druva"
+            },
+            {
+              "name": "Chardonnay (ekad)",
+              "type": "druva"
+            }
           ],
           "reason": "Rotfrukternas sötma möter frukt och rundhet i vinet"
         }
@@ -507,63 +882,126 @@
         {
           "food": "Thaimat / kokosbaserat",
           "wines": [
-            { "name": "Riesling (halvtorr)", "type": "druva" },
-            { "name": "Gewürztraminer", "type": "druva" },
-            { "name": "Viognier", "type": "druva" }
+            {
+              "name": "Riesling (halvtorr)",
+              "type": "druva"
+            },
+            {
+              "name": "Gewürztraminer",
+              "type": "druva"
+            },
+            {
+              "name": "Viognier",
+              "type": "druva"
+            }
           ],
           "reason": "Sötman i kokosmjölk och chili balanseras av lite restsötma"
         },
         {
           "food": "Sushi / sashimi",
           "wines": [
-            { "name": "Champagne", "type": "appellation" },
-            { "name": "Grüner Veltliner", "type": "druva" },
-            { "name": "Albariño", "type": "druva" }
+            {
+              "name": "Champagne",
+              "type": "appellation"
+            },
+            {
+              "name": "Grüner Veltliner",
+              "type": "druva"
+            },
+            {
+              "name": "Albariño",
+              "type": "druva"
+            }
           ],
           "reason": "Frisk mineralitet och syra möter fiskens renhet och sojans sälta"
         },
         {
           "food": "Dim sum",
           "wines": [
-            { "name": "Riesling", "type": "druva" },
-            { "name": "Pinot Gris", "type": "druva" },
-            { "name": "Champagne", "type": "appellation" }
+            {
+              "name": "Riesling",
+              "type": "druva"
+            },
+            {
+              "name": "Pinot Gris",
+              "type": "druva"
+            },
+            {
+              "name": "Champagne",
+              "type": "appellation"
+            }
           ],
           "reason": "Mångfald av smaker — friska aromatiska viner klarar bredden"
         },
         {
           "food": "Vietnamesisk mat / pho",
           "wines": [
-            { "name": "Grüner Veltliner", "type": "druva" },
-            { "name": "Sauvignon Blanc", "type": "druva" },
-            { "name": "Riesling", "type": "druva" }
+            {
+              "name": "Grüner Veltliner",
+              "type": "druva"
+            },
+            {
+              "name": "Sauvignon Blanc",
+              "type": "druva"
+            },
+            {
+              "name": "Riesling",
+              "type": "druva"
+            }
           ],
           "reason": "Örtigthet och friskhet möter buljong och örter"
         },
         {
           "food": "Japansk teriyaki",
           "wines": [
-            { "name": "Pinot Noir", "type": "druva" },
-            { "name": "Grenache", "type": "druva" },
-            { "name": "Riesling", "type": "druva" }
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            },
+            {
+              "name": "Grenache",
+              "type": "druva"
+            },
+            {
+              "name": "Riesling",
+              "type": "druva"
+            }
           ],
           "reason": "Sötman i teriyakisåsen möter fruktiga, lätta viner"
         },
         {
           "food": "Indisk curry (mild)",
           "wines": [
-            { "name": "Gewürztraminer", "type": "druva" },
-            { "name": "Viognier", "type": "druva" },
-            { "name": "Riesling (halvtorr)", "type": "druva" }
+            {
+              "name": "Gewürztraminer",
+              "type": "druva"
+            },
+            {
+              "name": "Viognier",
+              "type": "druva"
+            },
+            {
+              "name": "Riesling (halvtorr)",
+              "type": "druva"
+            }
           ],
           "reason": "Kryddornas komplexitet möter aromatiska, lätt söta viner"
         },
         {
           "food": "Kinesisk ankduck",
           "wines": [
-            { "name": "Pinot Noir", "type": "druva" },
-            { "name": "Grenache", "type": "druva" },
-            { "name": "Riesling", "type": "druva" }
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            },
+            {
+              "name": "Grenache",
+              "type": "druva"
+            },
+            {
+              "name": "Riesling",
+              "type": "druva"
+            }
           ],
           "reason": "Ankan är fet — Pinot Noirs syra och jordighet är klassisk match"
         }
@@ -578,55 +1016,1006 @@
         {
           "food": "Mörk choklad",
           "wines": [
-            { "name": "Port", "type": "appellation" },
-            { "name": "Banyuls", "type": "appellation" },
-            { "name": "Recioto della Valpolicella", "type": "appellation" }
+            {
+              "name": "Port",
+              "type": "appellation"
+            },
+            {
+              "name": "Banyuls",
+              "type": "appellation"
+            },
+            {
+              "name": "Recioto della Valpolicella",
+              "type": "appellation"
+            }
           ],
           "reason": "Sötman balanserar chokladens bitterhet"
         },
         {
           "food": "Crème brûlée",
           "wines": [
-            { "name": "Sauternes", "type": "appellation" },
-            { "name": "Tokaji", "type": "appellation" },
-            { "name": "Beerenauslese", "type": "stil" }
+            {
+              "name": "Sauternes",
+              "type": "appellation"
+            },
+            {
+              "name": "Tokaji",
+              "type": "appellation"
+            },
+            {
+              "name": "Beerenauslese",
+              "type": "stil"
+            }
           ],
           "reason": "Söt möter söt — klassisk kombination"
         },
         {
           "food": "Fruktdessert",
           "wines": [
-            { "name": "Moscato d'Asti", "type": "appellation" },
-            { "name": "Prosecco", "type": "appellation" },
-            { "name": "Riesling Spätlese", "type": "stil" }
+            {
+              "name": "Moscato d'Asti",
+              "type": "appellation"
+            },
+            {
+              "name": "Prosecco",
+              "type": "appellation"
+            },
+            {
+              "name": "Riesling Spätlese",
+              "type": "stil"
+            }
           ],
           "reason": "Fruktig och frisk sötma möter frukt"
         },
         {
           "food": "Nötkaka / tarta",
           "wines": [
-            { "name": "Tawny Port", "type": "stil" },
-            { "name": "Amontillado Sherry", "type": "stil" }
+            {
+              "name": "Tawny Port",
+              "type": "stil"
+            },
+            {
+              "name": "Amontillado Sherry",
+              "type": "stil"
+            }
           ],
           "reason": "Nötaromen i Tawny matchar nötdesserten"
         },
         {
           "food": "Jordgubbar",
           "wines": [
-            { "name": "Moscato d'Asti", "type": "appellation" },
-            { "name": "Halvsöt Champagne", "type": "stil" },
-            { "name": "Brachetto d'Acqui", "type": "appellation" }
+            {
+              "name": "Moscato d'Asti",
+              "type": "appellation"
+            },
+            {
+              "name": "Halvsöt Champagne",
+              "type": "stil"
+            },
+            {
+              "name": "Brachetto d'Acqui",
+              "type": "appellation"
+            }
           ],
           "reason": "Fruktig sötma till fruktig sötma"
         },
         {
           "food": "Citronkaka / lemon curd",
           "wines": [
-            { "name": "Sauternes", "type": "appellation" },
-            { "name": "Riesling Auslese", "type": "stil" },
-            { "name": "Moscato d'Asti", "type": "appellation" }
+            {
+              "name": "Sauternes",
+              "type": "appellation"
+            },
+            {
+              "name": "Riesling Auslese",
+              "type": "stil"
+            },
+            {
+              "name": "Moscato d'Asti",
+              "type": "appellation"
+            }
           ],
           "reason": "Citronets syra kräver sötma i vinet för balans"
+        }
+      ]
+    },
+    {
+      "id": "sushi",
+      "name": "Sushi & japansk mat",
+      "emoji": "🍣",
+      "description": "Japansk mat kräver delikata, fräscha viner med syra. Undvik kraftiga röda — de krockar med umami.",
+      "recommendations": [
+        {
+          "food": "Sushi & sashimi",
+          "wines": [
+            {
+              "name": "Champagne / Mousserande",
+              "type": "appellation"
+            },
+            {
+              "name": "Albariño",
+              "type": "druva"
+            },
+            {
+              "name": "Grüner Veltliner",
+              "type": "druva"
+            }
+          ],
+          "reason": "Bubblor och syra skär igenom fisken och lyfter umamin"
+        },
+        {
+          "food": "Ramen",
+          "wines": [
+            {
+              "name": "Riesling",
+              "type": "druva"
+            },
+            {
+              "name": "Pinot Gris",
+              "type": "druva"
+            }
+          ],
+          "reason": "Aromatiska viner med syra balanserar den komplexa buljongen"
+        },
+        {
+          "food": "Tempura",
+          "wines": [
+            {
+              "name": "Chablis",
+              "type": "appellation"
+            },
+            {
+              "name": "Sauvignon Blanc",
+              "type": "druva"
+            }
+          ],
+          "reason": "Friskt vitt skär igenom frityrens fett"
+        },
+        {
+          "food": "Miso & tofu",
+          "wines": [
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            },
+            {
+              "name": "Gamay",
+              "type": "druva"
+            }
+          ],
+          "reason": "Lätt rött med jordighet matchar umami utan att dominera"
+        }
+      ]
+    },
+    {
+      "id": "spicy",
+      "name": "Kryddig mat",
+      "emoji": "🌶️",
+      "description": "Hetta förstärker alkohol och tannin — välj lågalkohol, fruktig och lätt sötaktig stil.",
+      "recommendations": [
+        {
+          "food": "Indisk curry",
+          "wines": [
+            {
+              "name": "Riesling (halvtorr)",
+              "type": "druva"
+            },
+            {
+              "name": "Gewürztraminer",
+              "type": "druva"
+            },
+            {
+              "name": "Viognier",
+              "type": "druva"
+            }
+          ],
+          "reason": "Lite restsockeroch aromatik kyler hettan och matchar kryddorna"
+        },
+        {
+          "food": "Thaimat",
+          "wines": [
+            {
+              "name": "Riesling",
+              "type": "druva"
+            },
+            {
+              "name": "Pinot Gris",
+              "type": "druva"
+            },
+            {
+              "name": "Albariño",
+              "type": "druva"
+            }
+          ],
+          "reason": "Frisk syra och aromatik balanserar lime och chili"
+        },
+        {
+          "food": "Mexikansk mat",
+          "wines": [
+            {
+              "name": "Grenache",
+              "type": "druva"
+            },
+            {
+              "name": "Tempranillo",
+              "type": "druva"
+            },
+            {
+              "name": "Rosé",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Fruktig röd eller torr rosé fungerar bra till tacos"
+        },
+        {
+          "food": "Sichuan / kinesisk",
+          "wines": [
+            {
+              "name": "Riesling",
+              "type": "druva"
+            },
+            {
+              "name": "Gewürztraminer",
+              "type": "druva"
+            }
+          ],
+          "reason": "Aromatiska viner med sötma dämpar den numbing hettan"
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza & paj",
+      "emoji": "🍕",
+      "description": "Tomatsåsens syra kräver vin med minst lika hög syra.",
+      "recommendations": [
+        {
+          "food": "Margherita / tomatsås",
+          "wines": [
+            {
+              "name": "Sangiovese",
+              "type": "druva"
+            },
+            {
+              "name": "Barbera",
+              "type": "druva"
+            },
+            {
+              "name": "Primitivo",
+              "type": "druva"
+            }
+          ],
+          "reason": "Hög syra i Sangiovese matchar tomatens syra perfekt"
+        },
+        {
+          "food": "Salami & chark",
+          "wines": [
+            {
+              "name": "Montepulciano",
+              "type": "druva"
+            },
+            {
+              "name": "Grenache",
+              "type": "druva"
+            }
+          ],
+          "reason": "Saltigheten mjukar upp fruktigt rött"
+        },
+        {
+          "food": "Vit pizza / bianco",
+          "wines": [
+            {
+              "name": "Pinot Grigio",
+              "type": "druva"
+            },
+            {
+              "name": "Vermentino",
+              "type": "druva"
+            },
+            {
+              "name": "Chardonnay",
+              "type": "druva"
+            }
+          ],
+          "reason": "Utan tomat passar friskt vitt bättre"
+        },
+        {
+          "food": "Quiche & paj",
+          "wines": [
+            {
+              "name": "Chardonnay",
+              "type": "druva"
+            },
+            {
+              "name": "Chenin Blanc",
+              "type": "druva"
+            },
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            }
+          ],
+          "reason": "Ägg och grädde matchar fylligare vitt eller lätt rött"
+        }
+      ]
+    },
+    {
+      "id": "seafood",
+      "name": "Skaldjur",
+      "emoji": "🦞",
+      "description": "Skaldjur är delikata och salta — de kräver friska, mineraliska viner.",
+      "recommendations": [
+        {
+          "food": "Hummer & kräftor",
+          "wines": [
+            {
+              "name": "Chardonnay (Bourgogne)",
+              "type": "appellation"
+            },
+            {
+              "name": "Champagne",
+              "type": "appellation"
+            },
+            {
+              "name": "Viognier",
+              "type": "druva"
+            }
+          ],
+          "reason": "Hummerns sötma och fett matchar fylligare vitt eller Champagne"
+        },
+        {
+          "food": "Ostron",
+          "wines": [
+            {
+              "name": "Muscadet / Chablis",
+              "type": "appellation"
+            },
+            {
+              "name": "Champagne Blanc de Blancs",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Mineralitet och syra speglar ostronsaltigheten"
+        },
+        {
+          "food": "Räkor & scampi",
+          "wines": [
+            {
+              "name": "Albariño",
+              "type": "druva"
+            },
+            {
+              "name": "Sauvignon Blanc",
+              "type": "druva"
+            },
+            {
+              "name": "Pinot Grigio",
+              "type": "druva"
+            }
+          ],
+          "reason": "Frisk citrusig syra lyfter räkornas sälta"
+        },
+        {
+          "food": "Bläckfisk & calamari",
+          "wines": [
+            {
+              "name": "Vermentino",
+              "type": "druva"
+            },
+            {
+              "name": "Grenache Blanc",
+              "type": "druva"
+            },
+            {
+              "name": "Rosé (torr)",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Medelhavsvin till medelhavsfisk"
+        }
+      ]
+    },
+    {
+      "id": "charcuterie",
+      "name": "Charkuterier & antipasti",
+      "emoji": "🥓",
+      "description": "Salt och fett i chark mjukar tannin — röda och mousserande fungerar båda bra.",
+      "recommendations": [
+        {
+          "food": "Prosciutto / serranoskinka",
+          "wines": [
+            {
+              "name": "Sangiovese",
+              "type": "druva"
+            },
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            },
+            {
+              "name": "Lambrusco",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Klassisk italiensk match"
+        },
+        {
+          "food": "Salami & chorizo",
+          "wines": [
+            {
+              "name": "Grenache",
+              "type": "druva"
+            },
+            {
+              "name": "Tempranillo",
+              "type": "druva"
+            },
+            {
+              "name": "Primitivo",
+              "type": "druva"
+            }
+          ],
+          "reason": "Kryddigt och salt kräver fruktigt rött"
+        },
+        {
+          "food": "Leverpastej & terrin",
+          "wines": [
+            {
+              "name": "Sauternes",
+              "type": "appellation"
+            },
+            {
+              "name": "Gewürztraminer",
+              "type": "druva"
+            }
+          ],
+          "reason": "Klassisk match: sött vin mot leverns bitterhet"
+        },
+        {
+          "food": "Blandad antipasti",
+          "wines": [
+            {
+              "name": "Prosecco",
+              "type": "appellation"
+            },
+            {
+              "name": "Vermentino",
+              "type": "druva"
+            },
+            {
+              "name": "Barbera",
+              "type": "druva"
+            }
+          ],
+          "reason": "Mousserande och lätt italienskt rött är perfekta aperitif-viner"
+        }
+      ]
+    },
+    {
+      "id": "burger",
+      "name": "Hamburgare & gatukök",
+      "emoji": "🍔",
+      "description": "Hamburgare är kraftigt och smakrikt — det klarar kraftiga, fruktiga röda.",
+      "recommendations": [
+        {
+          "food": "Klassisk hamburgare",
+          "wines": [
+            {
+              "name": "Zinfandel",
+              "type": "druva"
+            },
+            {
+              "name": "Malbec",
+              "type": "druva"
+            },
+            {
+              "name": "Cabernet Sauvignon",
+              "type": "druva"
+            }
+          ],
+          "reason": "Kraftig och fruktig röd matchar köttets intensitet"
+        },
+        {
+          "food": "BBQ-burgare",
+          "wines": [
+            {
+              "name": "Shiraz / Syrah",
+              "type": "druva"
+            },
+            {
+              "name": "Primitivo",
+              "type": "druva"
+            },
+            {
+              "name": "Malbec",
+              "type": "druva"
+            }
+          ],
+          "reason": "Rökig BBQ-sås matchar kryddiga mörka vinbärsnoter"
+        },
+        {
+          "food": "Vegetarisk burgare",
+          "wines": [
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            },
+            {
+              "name": "Grenache",
+              "type": "druva"
+            },
+            {
+              "name": "Barbera",
+              "type": "druva"
+            }
+          ],
+          "reason": "Lättare rött utan tunga tanniner passar vegetabiliskt"
+        },
+        {
+          "food": "Hot dog / korv",
+          "wines": [
+            {
+              "name": "Riesling",
+              "type": "druva"
+            },
+            {
+              "name": "Grüner Veltliner",
+              "type": "druva"
+            },
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            }
+          ],
+          "reason": "Tyskt och österrikiskt är klassiska matchningar till korv"
+        }
+      ]
+    },
+    {
+      "id": "salad",
+      "name": "Sallad & lätträtter",
+      "emoji": "🥗",
+      "description": "Vinäger och citrus i sallader är svårt för vin — välj hög syra och undvik tannin.",
+      "recommendations": [
+        {
+          "food": "Ceasarsallad",
+          "wines": [
+            {
+              "name": "Chardonnay",
+              "type": "druva"
+            },
+            {
+              "name": "Pinot Grigio",
+              "type": "druva"
+            },
+            {
+              "name": "Vermentino",
+              "type": "druva"
+            }
+          ],
+          "reason": "Krämig dressing kräver fylligare vitt med syra"
+        },
+        {
+          "food": "Nicoisesallad",
+          "wines": [
+            {
+              "name": "Provence Rosé",
+              "type": "appellation"
+            },
+            {
+              "name": "Vermentino",
+              "type": "druva"
+            },
+            {
+              "name": "Albariño",
+              "type": "druva"
+            }
+          ],
+          "reason": "Medelhavsmat vill ha medelhavsvin"
+        },
+        {
+          "food": "Getostssallad",
+          "wines": [
+            {
+              "name": "Sancerre / Loire",
+              "type": "appellation"
+            },
+            {
+              "name": "Sauvignon Blanc",
+              "type": "druva"
+            }
+          ],
+          "reason": "Klassisk match: Loire Sauvignon Blanc och chevre"
+        },
+        {
+          "food": "Varm sallad / quinoa",
+          "wines": [
+            {
+              "name": "Pinot Noir",
+              "type": "druva"
+            },
+            {
+              "name": "Gamay",
+              "type": "druva"
+            },
+            {
+              "name": "Grenache Blanc",
+              "type": "druva"
+            }
+          ],
+          "reason": "Lätt rött eller neutralt vitt fungerar bra"
+        }
+      ]
+    },
+    {
+      "id": "soup",
+      "name": "Soppa & gryta",
+      "emoji": "🍲",
+      "description": "Matcha vinet till huvudingrediensen, inte vätskan.",
+      "recommendations": [
+        {
+          "food": "Boeuf bourguignon",
+          "wines": [
+            {
+              "name": "Pinot Noir (Bourgogne)",
+              "type": "appellation"
+            },
+            {
+              "name": "Gamay",
+              "type": "druva"
+            }
+          ],
+          "reason": "Klassisk regel: laga med det vin du dricker till"
+        },
+        {
+          "food": "Tomatsoppa",
+          "wines": [
+            {
+              "name": "Sangiovese",
+              "type": "druva"
+            },
+            {
+              "name": "Barbera",
+              "type": "druva"
+            }
+          ],
+          "reason": "Tomatens syra kräver hög syra i vinet"
+        },
+        {
+          "food": "Fisksoppa / bouillabaisse",
+          "wines": [
+            {
+              "name": "Provence Rosé",
+              "type": "appellation"
+            },
+            {
+              "name": "Vermentino",
+              "type": "druva"
+            },
+            {
+              "name": "Chablis",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Safransbuljong och skaldjur — klassisk medelhavsrosé"
+        },
+        {
+          "food": "Linsgryta / vegetarisk",
+          "wines": [
+            {
+              "name": "Grenache",
+              "type": "druva"
+            },
+            {
+              "name": "Merlot",
+              "type": "druva"
+            },
+            {
+              "name": "Côtes du Rhône",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Jordiga linser matchar jordiga fruktviner"
+        }
+      ]
+    },
+    {
+      "id": "barbecue",
+      "name": "Grill & BBQ",
+      "emoji": "🔥",
+      "description": "Rök och kol kräver fruktiga, lättanvända röda. Undvik subtila viner.",
+      "recommendations": [
+        {
+          "food": "Grillad biff",
+          "wines": [
+            {
+              "name": "Malbec",
+              "type": "druva"
+            },
+            {
+              "name": "Cabernet Sauvignon",
+              "type": "druva"
+            },
+            {
+              "name": "Syrah",
+              "type": "druva"
+            }
+          ],
+          "reason": "Mörk frukt och rök är gjorda för varandra"
+        },
+        {
+          "food": "Grillad kyckling",
+          "wines": [
+            {
+              "name": "Chardonnay",
+              "type": "druva"
+            },
+            {
+              "name": "Grenache",
+              "type": "druva"
+            },
+            {
+              "name": "Rosé",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Versatil — fungerar med både vitt och lätt rött"
+        },
+        {
+          "food": "Grillad fisk",
+          "wines": [
+            {
+              "name": "Vermentino",
+              "type": "druva"
+            },
+            {
+              "name": "Albariño",
+              "type": "druva"
+            },
+            {
+              "name": "Rosé",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Torr rosé eller friskt vitt är säkert val"
+        },
+        {
+          "food": "Grillade grönsaker",
+          "wines": [
+            {
+              "name": "Grenache",
+              "type": "druva"
+            },
+            {
+              "name": "Côtes du Rhône",
+              "type": "appellation"
+            },
+            {
+              "name": "Barbera",
+              "type": "druva"
+            }
+          ],
+          "reason": "Karamelliserade grönsaker matchar fruktig, medelfyllig röd"
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "name": "Snacks & tilltugg",
+      "emoji": "🧀",
+      "description": "Aperitif-situationen — välj lätta, friska viner som öppnar aptiten.",
+      "recommendations": [
+        {
+          "food": "Chips & nötter",
+          "wines": [
+            {
+              "name": "Fino Sherry",
+              "type": "appellation"
+            },
+            {
+              "name": "Champagne",
+              "type": "appellation"
+            },
+            {
+              "name": "Cava",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Saltat snacks matchar torrhet och syra i Sherry och Champagne"
+        },
+        {
+          "food": "Oliver & fetaost",
+          "wines": [
+            {
+              "name": "Vermentino",
+              "type": "druva"
+            },
+            {
+              "name": "Albariño",
+              "type": "druva"
+            }
+          ],
+          "reason": "Medelhavstilltugg till medelhavsvin"
+        },
+        {
+          "food": "Hummus & pitabröd",
+          "wines": [
+            {
+              "name": "Rosé",
+              "type": "appellation"
+            },
+            {
+              "name": "Sauvignon Blanc",
+              "type": "druva"
+            }
+          ],
+          "reason": "Citron och örter i hummus matchar friskt vin"
+        },
+        {
+          "food": "Guacamole",
+          "wines": [
+            {
+              "name": "Sauvignon Blanc",
+              "type": "druva"
+            },
+            {
+              "name": "Albariño",
+              "type": "druva"
+            },
+            {
+              "name": "Torrontés",
+              "type": "druva"
+            }
+          ],
+          "reason": "Avokado och lime kräver frisk syra och aromatik"
+        }
+      ]
+    },
+    {
+      "id": "chocolate",
+      "name": "Choklad",
+      "emoji": "🍫",
+      "description": "Vinet måste vara sötare än chokladen — annars smakar det bittert.",
+      "recommendations": [
+        {
+          "food": "Mörk choklad (70%+)",
+          "wines": [
+            {
+              "name": "Amarone",
+              "type": "appellation"
+            },
+            {
+              "name": "Port (Vintage/Ruby)",
+              "type": "appellation"
+            },
+            {
+              "name": "Banyuls",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Kraftigt sött vin möter chokladens bitterhet"
+        },
+        {
+          "food": "Mjölkchoklad",
+          "wines": [
+            {
+              "name": "Tawny Port",
+              "type": "appellation"
+            },
+            {
+              "name": "Moscato",
+              "type": "druva"
+            }
+          ],
+          "reason": "Mjukare choklad till sötare, nötigare vin"
+        },
+        {
+          "food": "Chokladkaka / fondant",
+          "wines": [
+            {
+              "name": "Pedro Ximénez",
+              "type": "appellation"
+            },
+            {
+              "name": "Maury",
+              "type": "appellation"
+            }
+          ],
+          "reason": "PX är nästan som flytande choklad"
+        },
+        {
+          "food": "Choklad och bär",
+          "wines": [
+            {
+              "name": "Brachetto d Acqui",
+              "type": "appellation"
+            },
+            {
+              "name": "Lambrusco dolce",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Bubblande rött med röda bär speglar bärens sötma"
+        }
+      ]
+    },
+    {
+      "id": "aperitif",
+      "name": "Aperitif",
+      "emoji": "🥂",
+      "description": "Välj lätt, friskt och aldrig för kraftigt — aperitifens uppgift är att öppna aptiten.",
+      "recommendations": [
+        {
+          "food": "Utan mat",
+          "wines": [
+            {
+              "name": "Champagne / Cava",
+              "type": "appellation"
+            },
+            {
+              "name": "Fino Sherry",
+              "type": "appellation"
+            },
+            {
+              "name": "Prosecco",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Bubblor och torrhet stimulerar aptiten utan att mätta"
+        },
+        {
+          "food": "Lätta ostar",
+          "wines": [
+            {
+              "name": "Sauvignon Blanc",
+              "type": "druva"
+            },
+            {
+              "name": "Albariño",
+              "type": "druva"
+            },
+            {
+              "name": "Grüner Veltliner",
+              "type": "druva"
+            }
+          ],
+          "reason": "Friskt och aromatiskt vitt öppnar gommen"
+        },
+        {
+          "food": "Skaldjur",
+          "wines": [
+            {
+              "name": "Muscadet",
+              "type": "appellation"
+            },
+            {
+              "name": "Chablis",
+              "type": "appellation"
+            },
+            {
+              "name": "Champagne",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Mineralitet och syra passar perfekt till salt skaldjur"
+        },
+        {
+          "food": "Chark & salami",
+          "wines": [
+            {
+              "name": "Lambrusco",
+              "type": "appellation"
+            },
+            {
+              "name": "Barbera",
+              "type": "druva"
+            },
+            {
+              "name": "Rosé",
+              "type": "appellation"
+            }
+          ],
+          "reason": "Lätt rött eller rosé fungerar lika bra som aperitif"
         }
       ]
     }
