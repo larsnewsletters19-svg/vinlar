@@ -87,6 +87,13 @@ const sections = [
     desc: 'Hur mat påverkar vinet och smarta kombinationer.',
     color: 'from-orange-900 to-wine-950',
   },
+  {
+    href: '/etikett',
+    icon: '🏷️',
+    title: 'Etikettläsaren',
+    desc: 'Hur läser man en fransk, tysk eller italiensk etikett? Guide per land.',
+    color: 'from-indigo-900 to-wine-950',
+  },
   // Träna
   {
     href: '/trana',

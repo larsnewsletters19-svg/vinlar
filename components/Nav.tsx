@@ -22,6 +22,7 @@ const moreMobileNav = [
   { href: '/ordlista', label: 'Ordlista', icon: '📚' },
       { href: '/servering', label: 'Servering', icon: '🌡️' },
   { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
+      { href: '/etikett', label: 'Etikettläsaren', icon: '🏷️' },
   { href: '/periodisk', label: 'Periodisk', icon: '⚗️' },
   { href: '/arganger', label: 'Årgångar', icon: '📅' },
 ];
@@ -46,6 +47,7 @@ const desktopSections = [
       { href: '/ordlista', label: 'Ordlista', icon: '📚' },
       { href: '/servering', label: 'Servering', icon: '🌡️' },
       { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
+      { href: '/etikett', label: 'Etikettläsaren', icon: '🏷️' },
       { href: '/mat-och-vin', label: 'Mat & Vin', icon: '🍽️' },
     ],
   },
