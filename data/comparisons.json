@@ -5,8 +5,14 @@
     "comparisonType": "region",
     "title": "Sauvignon Blanc: Loire vs Marlborough",
     "grape": "sauvignon_blanc",
-    "styleA": { "name": "Loire, Frankrike", "region": "Sancerre / Pouilly-Fumé" },
-    "styleB": { "name": "Marlborough, Nya Zeeland", "region": "Marlborough" },
+    "styleA": {
+      "name": "Loire, Frankrike",
+      "region": "Sancerre / Pouilly-Fumé"
+    },
+    "styleB": {
+      "name": "Marlborough, Nya Zeeland",
+      "region": "Marlborough"
+    },
     "styleACharacter": [
       "Stramare och mer återhållen",
       "Citrusdriven: lime och citron",
@@ -29,8 +35,14 @@
     "comparisonType": "region",
     "title": "Chardonnay: Chablis vs ekad ny-världen-stil",
     "grape": "chardonnay",
-    "styleA": { "name": "Chablis, Frankrike", "region": "Chablis" },
-    "styleB": { "name": "Ekad ny-världen-stil", "region": "Australien / Kalifornien" },
+    "styleA": {
+      "name": "Chablis, Frankrike",
+      "region": "Chablis"
+    },
+    "styleB": {
+      "name": "Ekad ny-världen-stil",
+      "region": "Australien / Kalifornien"
+    },
     "styleACharacter": [
       "Stram och mineralisk",
       "Citrus: citron och lime",
@@ -53,8 +65,14 @@
     "comparisonType": "region",
     "title": "Syrah/Shiraz: Norra Rhône vs Barossa",
     "grape": "syrah",
-    "styleA": { "name": "Norra Rhône, Frankrike", "region": "Hermitage / Crozes-Hermitage" },
-    "styleB": { "name": "Barossa Valley, Australien", "region": "Barossa Valley" },
+    "styleA": {
+      "name": "Norra Rhône, Frankrike",
+      "region": "Hermitage / Crozes-Hermitage"
+    },
+    "styleB": {
+      "name": "Barossa Valley, Australien",
+      "region": "Barossa Valley"
+    },
     "styleACharacter": [
       "Elegant och komplex",
       "Svartpeppar och olivton",
@@ -77,8 +95,14 @@
     "comparisonType": "region",
     "title": "Pinot Noir: Bourgogne vs Oregon",
     "grape": "pinot_noir",
-    "styleA": { "name": "Bourgogne, Frankrike", "region": "Côte de Nuits / Côte de Beaune" },
-    "styleB": { "name": "Oregon, USA", "region": "Willamette Valley" },
+    "styleA": {
+      "name": "Bourgogne, Frankrike",
+      "region": "Côte de Nuits / Côte de Beaune"
+    },
+    "styleB": {
+      "name": "Oregon, USA",
+      "region": "Willamette Valley"
+    },
     "styleACharacter": [
       "Elegant och reserverad",
       "Jordighet och svamp",
@@ -101,8 +125,14 @@
     "comparisonType": "region",
     "title": "Riesling: Mosel vs Alsace",
     "grape": "riesling",
-    "styleA": { "name": "Mosel, Tyskland", "region": "Mosel" },
-    "styleB": { "name": "Alsace, Frankrike", "region": "Alsace" },
+    "styleA": {
+      "name": "Mosel, Tyskland",
+      "region": "Mosel"
+    },
+    "styleB": {
+      "name": "Alsace, Frankrike",
+      "region": "Alsace"
+    },
     "styleACharacter": [
       "Lätt och delikat",
       "Mycket hög syra",
@@ -125,8 +155,14 @@
     "comparisonType": "region",
     "title": "Nebbiolo: Barolo vs Barbaresco",
     "grape": "nebbiolo",
-    "styleA": { "name": "Barolo, Piemonte", "region": "Barolo" },
-    "styleB": { "name": "Barbaresco, Piemonte", "region": "Barbaresco" },
+    "styleA": {
+      "name": "Barolo, Piemonte",
+      "region": "Barolo"
+    },
+    "styleB": {
+      "name": "Barbaresco, Piemonte",
+      "region": "Barbaresco"
+    },
     "styleACharacter": [
       "Kraftfullare och mer tanninrik",
       "Kräver längre lagring",
@@ -149,8 +185,14 @@
     "comparisonType": "region",
     "title": "Sangiovese: Chianti vs Brunello",
     "grape": "sangiovese",
-    "styleA": { "name": "Chianti Classico, Toscana", "region": "Chianti Classico" },
-    "styleB": { "name": "Brunello di Montalcino, Toscana", "region": "Montalcino" },
+    "styleA": {
+      "name": "Chianti Classico, Toscana",
+      "region": "Chianti Classico"
+    },
+    "styleB": {
+      "name": "Brunello di Montalcino, Toscana",
+      "region": "Montalcino"
+    },
     "styleACharacter": [
       "Frisk och örtig",
       "Körsbär och hallon",
@@ -173,8 +215,14 @@
     "comparisonType": "region",
     "title": "Tempranillo: Rioja vs Ribera del Duero",
     "grape": "tempranillo",
-    "styleA": { "name": "Rioja, Spanien", "region": "Rioja" },
-    "styleB": { "name": "Ribera del Duero, Spanien", "region": "Ribera del Duero" },
+    "styleA": {
+      "name": "Rioja, Spanien",
+      "region": "Rioja"
+    },
+    "styleB": {
+      "name": "Ribera del Duero, Spanien",
+      "region": "Ribera del Duero"
+    },
     "styleACharacter": [
       "Körsbär och vanilj",
       "Tydlig ekkaraktär – kokos och vanilj",
@@ -197,8 +245,14 @@
     "comparisonType": "region",
     "title": "Grenache: Södra Rhône vs Priorat",
     "grape": "grenache",
-    "styleA": { "name": "Södra Rhône, Frankrike", "region": "Châteauneuf-du-Pape" },
-    "styleB": { "name": "Priorat, Spanien", "region": "Priorat" },
+    "styleA": {
+      "name": "Södra Rhône, Frankrike",
+      "region": "Châteauneuf-du-Pape"
+    },
+    "styleB": {
+      "name": "Priorat, Spanien",
+      "region": "Priorat"
+    },
     "styleACharacter": [
       "Rik och kryddig",
       "Röda bär och lakrits",
@@ -221,8 +275,14 @@
     "comparisonType": "appellation",
     "title": "Champagne vs Cava vs Prosecco",
     "grape": "mixed",
-    "styleA": { "name": "Champagne, Frankrike", "region": "Champagne" },
-    "styleB": { "name": "Cava & Prosecco", "region": "Spanien / Italien" },
+    "styleA": {
+      "name": "Champagne, Frankrike",
+      "region": "Champagne"
+    },
+    "styleB": {
+      "name": "Cava & Prosecco",
+      "region": "Spanien / Italien"
+    },
     "styleACharacter": [
       "Traditionell metod – jäst på flaska",
       "Brioche, rostat bröd och nötter",
@@ -245,8 +305,14 @@
     "comparisonType": "region",
     "title": "Pinot Noir: Nya Zeeland vs Bourgogne",
     "grape": "pinot_noir",
-    "styleA": { "name": "Central Otago, Nya Zeeland", "region": "Central Otago" },
-    "styleB": { "name": "Bourgogne, Frankrike", "region": "Côte d'Or" },
+    "styleA": {
+      "name": "Central Otago, Nya Zeeland",
+      "region": "Central Otago"
+    },
+    "styleB": {
+      "name": "Bourgogne, Frankrike",
+      "region": "Côte d'Or"
+    },
     "styleACharacter": [
       "Intensiv och fruktdriven",
       "Mörkt körsbär och björnbär",
@@ -269,8 +335,14 @@
     "comparisonType": "region",
     "title": "Chenin Blanc: Loire vs Sydafrika",
     "grape": "chenin_blanc",
-    "styleA": { "name": "Loire, Frankrike", "region": "Vouvray / Savennières" },
-    "styleB": { "name": "Sydafrika", "region": "Stellenbosch / Swartland" },
+    "styleA": {
+      "name": "Loire, Frankrike",
+      "region": "Vouvray / Savennières"
+    },
+    "styleB": {
+      "name": "Sydafrika",
+      "region": "Stellenbosch / Swartland"
+    },
     "styleACharacter": [
       "Stram och mineralisk",
       "Grönt äpple och honung",
@@ -293,8 +365,14 @@
     "comparisonType": "region",
     "title": "Riesling: Mosel vs Clare Valley",
     "grape": "riesling",
-    "styleA": { "name": "Mosel, Tyskland", "region": "Mosel" },
-    "styleB": { "name": "Clare Valley, Australien", "region": "Clare Valley" },
+    "styleA": {
+      "name": "Mosel, Tyskland",
+      "region": "Mosel"
+    },
+    "styleB": {
+      "name": "Clare Valley, Australien",
+      "region": "Clare Valley"
+    },
     "styleACharacter": [
       "Mycket lätt och delikat",
       "Hög syra med ofta lite restsötma",
@@ -317,8 +395,14 @@
     "comparisonType": "region",
     "title": "Grüner Veltliner: Wachau vs Wien",
     "grape": "gruner_veltliner",
-    "styleA": { "name": "Wachau, Österrike", "region": "Wachau" },
-    "styleB": { "name": "Wien, Österrike", "region": "Wien / Wiener Gemischter Satz" },
+    "styleA": {
+      "name": "Wachau, Österrike",
+      "region": "Wachau"
+    },
+    "styleB": {
+      "name": "Wien, Österrike",
+      "region": "Wien / Wiener Gemischter Satz"
+    },
     "styleACharacter": [
       "Mer kraftfull och komplex",
       "Smaragd-klasserna är fylliga och lagringsvärdda",
@@ -341,8 +425,14 @@
     "comparisonType": "region",
     "title": "Cabernet Sauvignon: Chile vs Napa Valley",
     "grape": "cabernet_sauvignon",
-    "styleA": { "name": "Maipo Valley, Chile", "region": "Maipo Valley / Colchagua" },
-    "styleB": { "name": "Napa Valley, Kalifornien", "region": "Napa Valley" },
+    "styleA": {
+      "name": "Maipo Valley, Chile",
+      "region": "Maipo Valley / Colchagua"
+    },
+    "styleB": {
+      "name": "Napa Valley, Kalifornien",
+      "region": "Napa Valley"
+    },
     "styleACharacter": [
       "Elegant och frisk",
       "Svarta vinbär och ceder",
@@ -365,8 +455,14 @@
     "comparisonType": "region",
     "title": "Malbec: Mendoza vs Cahors",
     "grape": "malbec",
-    "styleA": { "name": "Mendoza, Argentina", "region": "Mendoza / Luján de Cuyo" },
-    "styleB": { "name": "Cahors, Frankrike", "region": "Cahors (Côt)" },
+    "styleA": {
+      "name": "Mendoza, Argentina",
+      "region": "Mendoza / Luján de Cuyo"
+    },
+    "styleB": {
+      "name": "Cahors, Frankrike",
+      "region": "Cahors (Côt)"
+    },
     "styleACharacter": [
       "Rik, mörk och mjuk",
       "Björnbär, blåbär och viol",
@@ -389,8 +485,14 @@
     "comparisonType": "grape",
     "title": "Carménère vs Merlot",
     "grape": "carmenere",
-    "styleA": { "name": "Carménère, Chile", "region": "Colchagua / Rapel Valley" },
-    "styleB": { "name": "Merlot, Bordeaux", "region": "Saint-Émilion / Pomerol" },
+    "styleA": {
+      "name": "Carménère, Chile",
+      "region": "Colchagua / Rapel Valley"
+    },
+    "styleB": {
+      "name": "Merlot, Bordeaux",
+      "region": "Saint-Émilion / Pomerol"
+    },
     "styleACharacter": [
       "Chiles signaturdruva",
       "Mörk frukt och paprika",
@@ -413,8 +515,14 @@
     "comparisonType": "region",
     "title": "Vinho Verde vs Albariño",
     "grape": "mixed",
-    "styleA": { "name": "Vinho Verde, Portugal", "region": "Minho / Vinho Verde" },
-    "styleB": { "name": "Rías Baixas, Spanien", "region": "Rías Baixas" },
+    "styleA": {
+      "name": "Vinho Verde, Portugal",
+      "region": "Minho / Vinho Verde"
+    },
+    "styleB": {
+      "name": "Rías Baixas, Spanien",
+      "region": "Rías Baixas"
+    },
     "styleACharacter": [
       "Lätt och frisk med naturlig pärla",
       "Citrus och gröna toner",
@@ -437,8 +545,14 @@
     "comparisonType": "region",
     "title": "Douro, Portugal vs Rioja, Spanien",
     "grape": "mixed",
-    "styleA": { "name": "Douro, Portugal", "region": "Douro Valley" },
-    "styleB": { "name": "Rioja, Spanien", "region": "Rioja" },
+    "styleA": {
+      "name": "Douro, Portugal",
+      "region": "Douro Valley"
+    },
+    "styleB": {
+      "name": "Rioja, Spanien",
+      "region": "Rioja"
+    },
     "styleACharacter": [
       "Kraftfull och koncentrerad",
       "Mörk frukt och örtigthet",
@@ -461,8 +575,14 @@
     "comparisonType": "appellation",
     "title": "Port vs Sherry",
     "grape": "mixed",
-    "styleA": { "name": "Port, Portugal", "region": "Douro Valley" },
-    "styleB": { "name": "Sherry, Spanien", "region": "Jerez" },
+    "styleA": {
+      "name": "Port, Portugal",
+      "region": "Douro Valley"
+    },
+    "styleB": {
+      "name": "Sherry, Spanien",
+      "region": "Jerez"
+    },
     "styleACharacter": [
       "Sött och rikt förstärkt vin",
       "Mörk frukt, choklad och torkad frukt",
@@ -485,8 +605,14 @@
     "comparisonType": "grape",
     "title": "Pinotage vs Syrah",
     "grape": "pinotage",
-    "styleA": { "name": "Pinotage, Sydafrika", "region": "Stellenbosch / Paarl" },
-    "styleB": { "name": "Syrah, Norra Rhône", "region": "Hermitage / Crozes-Hermitage" },
+    "styleA": {
+      "name": "Pinotage, Sydafrika",
+      "region": "Stellenbosch / Paarl"
+    },
+    "styleB": {
+      "name": "Syrah, Norra Rhône",
+      "region": "Hermitage / Crozes-Hermitage"
+    },
     "styleACharacter": [
       "Sydafrikas signaturdruva",
       "Mörk frukt och kaffe",
@@ -509,8 +635,14 @@
     "comparisonType": "appellation",
     "title": "Sauternes vs Tokaji",
     "grape": "semillon",
-    "styleA": { "name": "Sauternes, Bordeaux", "region": "Sauternes / Barsac" },
-    "styleB": { "name": "Tokaji, Ungern", "region": "Tokaj-Hegyalja" },
+    "styleA": {
+      "name": "Sauternes, Bordeaux",
+      "region": "Sauternes / Barsac"
+    },
+    "styleB": {
+      "name": "Tokaji, Ungern",
+      "region": "Tokaj-Hegyalja"
+    },
     "styleACharacter": [
       "Rik och smörig sötma",
       "Honung, aprikos och saffran",
@@ -533,8 +665,14 @@
     "comparisonType": "style",
     "title": "Port: Ruby vs Tawny",
     "grape": "touriga_nacional",
-    "styleA": { "name": "Ruby Port", "region": "Douro Valley, Portugal" },
-    "styleB": { "name": "Tawny Port", "region": "Douro Valley, Portugal" },
+    "styleA": {
+      "name": "Ruby Port",
+      "region": "Douro Valley, Portugal"
+    },
+    "styleB": {
+      "name": "Tawny Port",
+      "region": "Douro Valley, Portugal"
+    },
     "styleACharacter": [
       "Lagras kort i stora fat",
       "Mörk frukt och choklad",
@@ -557,8 +695,14 @@
     "comparisonType": "appellation",
     "title": "Sauternes vs Eiswein",
     "grape": "semillon",
-    "styleA": { "name": "Sauternes, Bordeaux", "region": "Sauternes" },
-    "styleB": { "name": "Eiswein, Tyskland / Kanada", "region": "Mosel / Ontario" },
+    "styleA": {
+      "name": "Sauternes, Bordeaux",
+      "region": "Sauternes"
+    },
+    "styleB": {
+      "name": "Eiswein, Tyskland / Kanada",
+      "region": "Mosel / Ontario"
+    },
     "styleACharacter": [
       "Botrytis ger komplex svampig karaktär",
       "Rikare och mer oxidativ",
@@ -581,8 +725,14 @@
     "comparisonType": "style",
     "title": "Sherry: Fino vs Oloroso",
     "grape": "palomino",
-    "styleA": { "name": "Fino / Manzanilla", "region": "Jerez / Sanlúcar" },
-    "styleB": { "name": "Oloroso", "region": "Jerez" },
+    "styleA": {
+      "name": "Fino / Manzanilla",
+      "region": "Jerez / Sanlúcar"
+    },
+    "styleB": {
+      "name": "Oloroso",
+      "region": "Jerez"
+    },
     "styleACharacter": [
       "Torrt och salt",
       "Skyddat av flor-jäst",
@@ -605,8 +755,14 @@
     "comparisonType": "style",
     "title": "Amarone vs Ripasso",
     "grape": "corvina",
-    "styleA": { "name": "Amarone della Valpolicella", "region": "Valpolicella, Veneto" },
-    "styleB": { "name": "Ripasso della Valpolicella", "region": "Valpolicella, Veneto" },
+    "styleA": {
+      "name": "Amarone della Valpolicella",
+      "region": "Valpolicella, Veneto"
+    },
+    "styleB": {
+      "name": "Ripasso della Valpolicella",
+      "region": "Valpolicella, Veneto"
+    },
     "styleACharacter": [
       "Fullt appassimento — torkade druvor",
       "Extremt koncentrerad",
@@ -629,8 +785,14 @@
     "comparisonType": "region",
     "title": "Rosé: Provence vs Tavel",
     "grape": "grenache",
-    "styleA": { "name": "Provence, Frankrike", "region": "Côtes de Provence" },
-    "styleB": { "name": "Tavel, Rhône, Frankrike", "region": "Tavel" },
+    "styleA": {
+      "name": "Provence, Frankrike",
+      "region": "Côtes de Provence"
+    },
+    "styleB": {
+      "name": "Tavel, Rhône, Frankrike",
+      "region": "Tavel"
+    },
     "styleACharacter": [
       "Mycket blek laxrosa färg",
       "Lätt och elegant",
@@ -653,8 +815,14 @@
     "comparisonType": "grape",
     "title": "Rosé: Pinot Noir vs Grenache",
     "grape": "pinot_noir",
-    "styleA": { "name": "Pinot Noir Rosé", "region": "Bourgogne / Sancerre" },
-    "styleB": { "name": "Grenache Rosé", "region": "Provence / Navarra" },
+    "styleA": {
+      "name": "Pinot Noir Rosé",
+      "region": "Bourgogne / Sancerre"
+    },
+    "styleB": {
+      "name": "Grenache Rosé",
+      "region": "Provence / Navarra"
+    },
     "styleACharacter": [
       "Mycket blek och delikat",
       "Hög syra",
@@ -677,8 +845,14 @@
     "comparisonType": "region",
     "title": "Rosé Champagne vs Provence Rosé",
     "grape": "pinot_noir",
-    "styleA": { "name": "Rosé Champagne", "region": "Champagne, Frankrike" },
-    "styleB": { "name": "Provence Rosé", "region": "Côtes de Provence" },
+    "styleA": {
+      "name": "Rosé Champagne",
+      "region": "Champagne, Frankrike"
+    },
+    "styleB": {
+      "name": "Provence Rosé",
+      "region": "Côtes de Provence"
+    },
     "styleACharacter": [
       "Mousserande och komplex",
       "Brioche och röda bär",
@@ -694,8 +868,8 @@
       "Perfekt till mat"
     ],
     "blindTastingTip": "Bubblor + brioche + röda bär pekar mot Rosé Champagne. Stilla, blek och frisk pekar mot Provence."
-  }
-  ,{
+  },
+  {
     "id": "blanc_de_blancs_vs_blanc_de_noirs",
     "type": "style_vs_style",
     "title": "Blanc de Blancs vs Blanc de Noirs",
@@ -725,5 +899,155 @@
       "Mer komplex fruktprofil"
     ],
     "blindTastingTip": "Blanc de Blancs: citrus, krita och elegans. Blanc de Noirs: mer kropp, röd frukt och kraft. Båda är vita men känslan i munnen är helt olika — Blancs är lätt och precis, Noirs är fyllig och generös."
+  },
+  {
+    "id": "sancerre_vs_pouilly_fume",
+    "type": "style_vs_style",
+    "comparisonType": "region",
+    "title": "Sancerre vs Pouilly-Fumé",
+    "grape": "sauvignon_blanc",
+    "styleA": {
+      "name": "Sancerre",
+      "region": "Loire, Frankrike"
+    },
+    "styleB": {
+      "name": "Pouilly-Fumé",
+      "region": "Loire, Frankrike"
+    },
+    "styleACharacter": [
+      "Lättare och mer elegant",
+      "Citrus och vita blommor",
+      "Kalkstensbaserad mineralitet",
+      "Friskare och mer direkt syra",
+      "Mer varierat beroende på jordtyp"
+    ],
+    "styleBCharacter": [
+      "Lite fylligare och mer komplex",
+      "Rökig, flintliknande karaktär (fumé)",
+      "Mer kiselrik jord (silex)",
+      "Djupare och mer texturerat",
+      "Konsistentare stil tack vare enhetligare jord"
+    ],
+    "blindTastingTip": "Nästan omöjligt att skilja blint. Rökig, flintliknande ton pekar mot Pouilly-Fumé. Mer blommigt och direkt citrus pekar mot Sancerre."
+  },
+  {
+    "id": "malbec_vs_carmenere",
+    "type": "style_vs_style",
+    "comparisonType": "grape",
+    "title": "Malbec vs Carménère",
+    "grape": null,
+    "styleA": {
+      "name": "Malbec",
+      "region": "Mendoza, Argentina"
+    },
+    "styleB": {
+      "name": "Carménère",
+      "region": "Chile"
+    },
+    "styleACharacter": [
+      "Mörk plommon och björnbär",
+      "Violetta blommiga toner",
+      "Kraftig kropp med mjuka tanniner",
+      "Choklad och kaffe på avslutningen",
+      "Högt i frukt och alkohol"
+    ],
+    "styleBCharacter": [
+      "Grön paprika och örtigthet (pyraziner)",
+      "Mörk körsbär och björnbär",
+      "Medelfyllig kropp",
+      "Jordiga, läderartade toner",
+      "Lägre alkohol och mjukare struktur än Malbec"
+    ],
+    "blindTastingTip": "Grön paprika eller örtighet = troligen Carménère. Violett och mörk fyllig frukt utan örtighet = Malbec."
+  },
+  {
+    "id": "barossa_vs_mclaren_vale",
+    "type": "style_vs_style",
+    "comparisonType": "region",
+    "title": "Barossa Valley vs McLaren Vale",
+    "grape": "shiraz",
+    "styleA": {
+      "name": "Barossa Valley",
+      "region": "South Australia"
+    },
+    "styleB": {
+      "name": "McLaren Vale",
+      "region": "South Australia"
+    },
+    "styleACharacter": [
+      "Extremt kraftfull och koncentrerad",
+      "Mörk björnbär, lakrits och choklad",
+      "Hög alkohol (14–15%+)",
+      "Mjuka men kraftiga tanniner",
+      "Ofta intensivt ekad — vanilj och kokos"
+    ],
+    "styleBCharacter": [
+      "Något lättare och mer elegant",
+      "Mörk körsbär, choklad och olivtoner",
+      "Mer havspåverkad — svalkare mikroklima",
+      "Friskare syra och fastare tanniner",
+      "Ofta mer återhållen ekpåverkan"
+    ],
+    "blindTastingTip": "Båda är kraftiga australiska Shiraz. Barossa är tyngre och mer marmeladsig. McLaren Vale har mer syra och olivkaraktär."
+  },
+  {
+    "id": "viognier_vs_chardonnay",
+    "type": "style_vs_style",
+    "comparisonType": "grape",
+    "title": "Viognier vs Chardonnay",
+    "grape": null,
+    "styleA": {
+      "name": "Viognier",
+      "region": "Condrieu / Languedoc"
+    },
+    "styleB": {
+      "name": "Chardonnay",
+      "region": "Ekad stil, Bourgogne / Ny världen"
+    },
+    "styleACharacter": [
+      "Explosivt blommig — kaprifol och persika",
+      "Aprikos och mango",
+      "Låg syra och tung kropp",
+      "Oljig, fet textur",
+      "Intensiv redan utan ek"
+    ],
+    "styleBCharacter": [
+      "Mer neutral utan ek — citrus och äpple",
+      "Med ek: smör, vanilj och rostat bröd",
+      "Högre syra och mer struktur",
+      "Bredare stilspektrum — från Chablis till Kalifornien",
+      "Mer lagringsvärd"
+    ],
+    "blindTastingTip": "Explosiv blomsterkaraktär av kaprifol och persika utan ek = Viognier. Smör och vanilj med högre syra = ekad Chardonnay."
+  },
+  {
+    "id": "nero_davola_vs_syrah",
+    "type": "style_vs_style",
+    "comparisonType": "grape",
+    "title": "Nero d'Avola vs Syrah",
+    "grape": null,
+    "styleA": {
+      "name": "Nero d'Avola",
+      "region": "Sicilien, Italien"
+    },
+    "styleB": {
+      "name": "Syrah",
+      "region": "Södra Frankrike / Australien"
+    },
+    "styleACharacter": [
+      "Mörkt körsbär och plommon",
+      "Lakrits och chokladtoner",
+      "Medelfyllig till fyllig kropp",
+      "Varmt och torrt klimat — mogna tanniner",
+      "Ofta prisvärd och lättdrucken"
+    ],
+    "styleBCharacter": [
+      "Svartpeppar och kryddighet (norra Rhône)",
+      "Björnbär och rökt kött",
+      "Kraftigare tanniner och djupare färg",
+      "Olivtoner i sydfransk stil",
+      "Marmeladsig och mörk i australisk stil"
+    ],
+    "blindTastingTip": "Svartpeppar och rökigt kött = troligen Syrah. Mörkare körsbär och choklad utan peppar = troligen Nero d'Avola."
   }
 ]

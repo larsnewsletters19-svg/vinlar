@@ -101,7 +101,7 @@ export default function JamforPage() {
   const [selectedStyle, setSelectedStyle] = useState<string | null>(null);
 
   const [activeTypeA, setActiveTypeA] = useState<string>('white');
-  const [activeTypeB, setActiveTypeB] = useState<string>('red');
+  const [activeTypeB, setActiveTypeB] = useState<string>('white');
 
   const grapeA = allGrapes.find((g) => g.id === grapeAId)!;
   const grapeB = allGrapes.find((g) => g.id === grapeBId)!;
@@ -137,7 +137,15 @@ export default function JamforPage() {
               {typeOrder.map((type) => (
                 <button
                   key={type}
-                  onClick={() => { setActiveTypeA(type); setGrapeAId(sortedGrapes.find(g => g.type === type)?.id ?? ''); setSelectedStyle(null); }}
+                  onClick={() => {
+                    setActiveTypeA(type);
+                    const current = allGrapes.find(g => g.id === grapeAId);
+                    if (!current || current.type !== type) {
+                      const first = sortedGrapes.find(g => g.type === type);
+                      if (first) setGrapeAId(first.id);
+                    }
+                    setSelectedStyle(null);
+                  }}
                   className={`px-2 py-1 rounded-lg text-xs font-medium transition-all ${activeTypeA === type ? 'bg-wine-600 text-white' : 'bg-wine-900 text-wine-400 border border-wine-700'}`}
                 >
                   <span className="flex flex-col items-center gap-0.5">
@@ -149,7 +157,7 @@ export default function JamforPage() {
             </div>
             <select
               value={grapeAId}
-              onChange={(e) => { setGrapeAId(e.target.value); setSelectedStyle(null); }}
+              onChange={(e) => { const g = allGrapes.find(x => x.id === e.target.value); setGrapeAId(e.target.value); if (g) setActiveTypeA(g.type); setSelectedStyle(null); }}
               className="w-full bg-wine-900 border border-wine-700 text-wine-100 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-amber-400"
             >
               {sortedGrapes.filter(g => g.type === activeTypeA).map((g) => (
@@ -166,7 +174,15 @@ export default function JamforPage() {
               {typeOrder.map((type) => (
                 <button
                   key={type}
-                  onClick={() => { setActiveTypeB(type); setGrapeBId(sortedGrapes.find(g => g.type === type)?.id ?? ''); setSelectedStyle(null); }}
+                  onClick={() => {
+                    setActiveTypeB(type);
+                    const current = allGrapes.find(g => g.id === grapeBId);
+                    if (!current || current.type !== type) {
+                      const first = sortedGrapes.find(g => g.type === type);
+                      if (first) setGrapeBId(first.id);
+                    }
+                    setSelectedStyle(null);
+                  }}
                   className={`px-2 py-1 rounded-lg text-xs font-medium transition-all ${activeTypeB === type ? 'bg-sky-700 text-white' : 'bg-wine-900 text-wine-400 border border-wine-700'}`}
                 >
                   <span className="flex flex-col items-center gap-0.5">
@@ -178,7 +194,7 @@ export default function JamforPage() {
             </div>
             <select
               value={grapeBId}
-              onChange={(e) => { setGrapeBId(e.target.value); setSelectedStyle(null); }}
+              onChange={(e) => { const g = allGrapes.find(x => x.id === e.target.value); setGrapeBId(e.target.value); if (g) setActiveTypeB(g.type); setSelectedStyle(null); }}
               className="w-full bg-wine-900 border border-wine-700 text-wine-100 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-sky-400"
             >
               {sortedGrapes.filter(g => g.type === activeTypeB).map((g) => (
