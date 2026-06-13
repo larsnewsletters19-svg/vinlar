@@ -1,191 +1,81 @@
 [
-  {
-    "id": "acidity",
-    "term": "Syra",
-    "category": "Smak & struktur",
-    "short": "Vinets friskhet och nerv.",
-    "full": "Syra är det som gör att munnen vattnas och vinet känns friskt och piggt. Hög syra ger lång lagringskapacitet. Mäts i pH och g/l."
-  },
-  {
-    "id": "tannin",
-    "term": "Tannin",
-    "category": "Smak & struktur",
-    "short": "Sträv och uttorkande känsla från druvskalen.",
-    "full": "Tannin är fenoliska ämnen från druvskal, kärnor och ekfat. Ger struktur och lagringskapacitet. Mjuknar med ålder och mat."
-  },
-  {
-    "id": "body",
-    "term": "Kropp",
-    "category": "Smak & struktur",
-    "short": "Vinets vikt och fyllighet i munnen.",
-    "full": "Kropp beskriver hur tungt vinet känns — från lätt som vatten (Muscadet) till fylligt som grädde (Barossa Shiraz). Påverkas främst av alkohol."
-  },
-  {
-    "id": "finish",
-    "term": "Finish / Eftersmaker",
-    "category": "Smak & struktur",
-    "short": "Hur länge smaken stannar kvar efter att du svalt.",
-    "full": "En lång finish (20+ sekunder) är ett tecken på kvalitet. Mäts i caudalie (1 caudalie = 1 sekund). Grand Cru-viner kan ha finish på 60+ sekunder."
-  },
-  {
-    "id": "balance",
-    "term": "Balans",
-    "category": "Smak & struktur",
-    "short": "När alla komponenter samspelar harmoniskt.",
-    "full": "Ett balanserat vin har frukt, syra, tannin, alkohol och sötma i harmoni — ingen komponent dominerar negativt. Det viktigaste kvalitetsbegreppet."
-  },
-  {
-    "id": "terroir",
-    "term": "Terroir",
-    "category": "Odling & geografi",
-    "short": "Hur platsen — jord, klimat och topografi — påverkar vinet.",
-    "full": "Franskt begrepp som beskriver alla naturliga faktorer på en specifik plats. Förklarar varför samma druva smakar olika i Bourgogne och Oregon."
-  },
-  {
-    "id": "region",
-    "term": "Region",
-    "category": "Odling & geografi",
-    "short": "Ett större geografiskt vinområde som ofta innehåller flera appellationer.",
-    "full": "En region är ett övergripande geografiskt område — t.ex. Bourgogne, Rhône eller Toscana. Inom regionen finns ofta flera appellationer med egna regler. En region står sällan ensam på en vinflaска; det är appellationen som specificerar vad du dricker. Jämför med appellation som är ett mer exakt och reglerat begrepp."
-  },
-  {
-    "id": "appellation",
-    "term": "Appellation",
-    "category": "Odling & geografi",
-    "short": "Officiellt reglerat geografiskt namn för vinproduktion.",
-    "full": "En appellation är ett officiellt definierat och lagskyddat område med specifika regler för vilka druvor som får användas, hur vinet ska göras och hur länge det ska lagras. AOC i Frankrike, DOC/DOCG i Italien, AVA i USA. Det är appellationsnamnet som oftast syns på etiketten — t.ex. Barolo, Chablis eller Champagne. Skillnaden mot en region: Bourgogne är en region, Chablis är en appellation inom den regionen."
-  },
-  {
-    "id": "terrasse",
-    "term": "Terrass-vingård",
-    "category": "Odling & geografi",
-    "short": "Vingårdar anlagda i trappsteg på branta sluttningar.",
-    "full": "Vanligt i Mosel, Douro och norra Rhône. Branta sluttningar ger druvorna optimal solexponering och tvingar rötterna djupt ner i marken."
-  },
-  {
-    "id": "malolactic",
-    "term": "Malolaktisk jäsning (MLF)",
-    "category": "Vinmakning",
-    "short": "Omvandlar skarp äppelsyra till mjukare mjölksyra.",
-    "full": "Bakterier omvandlar äppelsyra till mjölksyra vilket ger ett mjukare, rundare vin. Ger smörighet i Chardonnay. Undviks i friska vita viner som Sauvignon Blanc. Graden av MLF varierar — många producenter väljer partiell MLF för balans."
-  },
-  {
-    "id": "maceration",
-    "term": "Macerering",
-    "category": "Vinmakning",
-    "short": "Skalkontakt under jäsningen. Ger tannin och färg.",
-    "full": "Hur länge druvskalen är i kontakt med musten. Kort macerering ger lite tannin (Pinot Noir), lång macerering ger mycket tannin (Barolo). Orange vin görs med macerering av vita druvor."
-  },
-  {
-    "id": "fermentation",
-    "term": "Jäsning",
-    "category": "Vinmakning",
-    "short": "När jäst omvandlar druvsocker till alkohol och koldioxid.",
-    "full": "Jäsning är grundprocessen i vinmakeri. Jäst (naturlig eller tillsatt) äter sockret i druvmusten och producerar alkohol och CO2. Temperaturen styr hastighet och arombildning."
-  },
-  {
-    "id": "oak",
-    "term": "Ekfat / Barrique",
-    "category": "Vinmakning",
-    "short": "Fat av ek för lagring och jäsning av vin.",
-    "full": "Barrique är ett 225-liters ekfat standard i Bordeaux. Eken avger aromer (vanilj, kokos, kryddor) och syresätter vinet långsamt. Nytt ek ger mer smak, gammalt ek mer textur."
-  },
-  {
-    "id": "botrytis",
-    "term": "Botrytis / Ädelröta",
-    "category": "Vinmakning",
-    "short": "Svamp som koncentrerar druvornas socker och aromer.",
-    "full": "Botrytis cinerea är en svamp som under rätt förhållanden torkar ut druvor och koncentrerar socker, syra och aromer. Grunden för Sauternes, Tokaji och tyska Trockenbeerenauslese."
-  },
-  {
-    "id": "appassimento",
-    "term": "Appassimento",
-    "category": "Vinmakning",
-    "short": "Metod att torka druvor för koncentration. Används i Amarone.",
-    "full": "Appassimento innebär att druvorna torkas i flera månader på hyllor eller mattor. Vatten avdunstar och socker, aromer och tanniner koncentreras. Grunden för Amarone och Recioto."
-  },
-  {
-    "id": "fortified",
-    "term": "Förstärkt vin",
-    "category": "Vinmakning",
-    "short": "Vin där druvsprit tillsatts för att höja alkoholen.",
-    "full": "Druvsprit tillsätts antingen under jäsning (Port — bevarar sötma) eller efter (Sherry — blir torrare). Ger alkohol på 15–22% och längre hållbarhet."
-  },
-  {
-    "id": "decanting",
-    "term": "Dekantring",
-    "category": "Servering",
-    "short": "Att hälla vin i karaff för att lufta det eller avlägsna bottensats.",
-    "full": "Unga tanninrika viner dekanteras för att öppna sig snabbare. Gamla viner dekanteras försiktigt för att separera bottensatsen. Champagne dekanteras aldrig."
-  },
-  {
-    "id": "vintage",
-    "term": "Årgång / Vintage",
-    "category": "Odling & geografi",
-    "short": "Det år druvorna skördades.",
-    "full": "Årgången påverkar kvaliteten enormt — väderförhållanden varierar år från år. I Champagne blandas ofta flera årgångar (NV = Non-Vintage) för konsistens. Vintage Champagne görs bara exceptionella år."
-  },
-  {
-    "id": "brut",
-    "term": "Brut",
-    "category": "Sötma & stil",
-    "short": "Torr stil av mousserande vin.",
-    "full": "Brut = under 12 g/l restssocker. Extra Brut = under 6 g/l. Brut Nature = 0–3 g/l. Demi-sec = halvtorrt. Doux = sött. Brut är den vanligaste stilen för Champagne."
-  },
-  {
-    "id": "residual_sugar",
-    "term": "Restssocker",
-    "category": "Sötma & stil",
-    "short": "Socker som inte jästs bort. Ger sötma i vinet.",
-    "full": "Mäts i gram per liter (g/l). Torrt vin har under 4 g/l, halvtorrt 4–12 g/l, halvsött 12–45 g/l, sött över 45 g/l. Hög syra kan maskera restssocker."
-  },
-  {
-    "id": "carbonic_maceration",
-    "term": "Kolsyrjäsning",
-    "category": "Vinmakning",
-    "short": "Jäsning inuti hela druvor under CO2. Ger fruktig, mjuk stil.",
-    "full": "Används i Beaujolais Nouveau. Hela druvor jäser inifrån utan syretillgång. Ger intensiv frukt, mjukt tannin och ibland bananliknande aromer. Vinet ska drickas ungt."
-  },
-  {
-    "id": "disgorgement",
-    "term": "Degorjering",
-    "category": "Vinmakning",
-    "short": "Avlägsnande av jästsediment från mousserande vin.",
-    "full": "I traditionell metod (Champagne) samlas jästsedimentet i flaskhalsen och fryses bort. Datumet för degorjering anges ofta på etiketten och påverkar fräschören."
-  },
-  {
-    "id": "lees",
-    "term": "Jästfällning / Lies",
-    "category": "Vinmakning",
-    "short": "Döda jästceller som ger komplexitet och krämighet.",
-    "full": "Sur lie-lagring innebär att vinet lagras på jästfällningen. Ger komplexitet, krämighet och brödliknande aromer. Används i Muscadet, Champagne och många fina Chardonnay."
-  },
-  {
-    "id": "premier_cru",
-    "term": "Premier Cru / Grand Cru",
-    "category": "Klassificering",
-    "short": "Kvalitetsklassificering av vingårdar, främst i Bourgogne.",
-    "full": "I Bourgogne klassificeras vingårdar: Village → Premier Cru → Grand Cru (högst). I Bordeaux klassificeras châteaux. Grand Cru i Bourgogne är alltid från en specifik vingård."
-  },
-  {
-    "id": "reserve",
-    "term": "Reserva / Reserve",
-    "category": "Klassificering",
-    "short": "Term som indikerar extra lagring. Betyder olika saker i olika länder.",
-    "full": "I Rioja: Reserva = minst 3 år lagring, Gran Reserva = minst 5 år. I Bordeaux och Nya världen är termen inte reglerad och kan betyda vad som helst."
-  },
-  {
-    "id": "biodynamic",
-    "term": "Biodynamisk odling",
-    "category": "Odling & geografi",
-    "short": "Ekologisk odling med kosmiska kalendrar och homeopatiska preparat.",
-    "full": "Biodynamik ser vingården som ett slutet ekosystem. Spridning av horn-gödsel och kisel, lunar-kalender för skötsel och skörd. Demeter är certifieringsorganet. Förespråkas av producenter som Zind-Humbrecht och Leroy."
-  },
-  {
-    "id": "natural_wine",
-    "term": "Naturvin",
-    "category": "Vinmakning",
-    "short": "Vin gjort med minimal intervention i vingård och källare.",
-    "full": "Ingen enhetlig definition. Vanligtvis: ekologiska eller biodynamiska druvor, spontanjäsning med naturlig jäst, ingen eller minimal svavel, ingen filtrering. Kan vara grumliga och ha brett-karaktär."
-  }
+  {"id":"acidity","term":"Syra","category":"Smak & struktur","short":"Vinets friskhet och nerv.","full":"Syra är det som gör att munnen vattnas och vinet känns friskt och piggt. Hög syra ger lång lagringskapacitet och är typiskt för kalla klimat. Mäts i pH och g/l. Vanliga syror: vinsyra, äppelsyra, mjölksyra."},
+  {"id":"tannin","term":"Tannin","category":"Smak & struktur","short":"Det strävande, torkande i munnen.","full":"Tanniner kommer från druvskal, kärnor, stjälkar och ekfat. De ger struktur och lagringskapacitet. Unga tanniner kan kännas hårda och bittra — med tid mjuknar de. Typiskt höga tanniner: Barolo, Cabernet Sauvignon."},
+  {"id":"body","term":"Kropp","category":"Smak & struktur","short":"Vinets tyngd och fyllighet i munnen.","full":"Kropp beskriver hur tungt och fylligt vinet känns. Bestäms av alkohol, extrakt och socker. Lätt kropp = Pinot Noir, Riesling. Medel = Merlot, Chardonnay. Fyllig = Barolo, Zinfandel."},
+  {"id":"finish","term":"Finish / Eftersmaker","category":"Smak & struktur","short":"Hur länge smaken sitter kvar efter att du svalt.","full":"Ett bra vins smak ska dröja kvar i 20–60 sekunder eller mer. Kort finish indikerar enklare vin. Lång, komplex finish är ett tecken på kvalitet. Mäts ibland i 'caudalie' — en sekund per enhet."},
+  {"id":"balance","term":"Balans","category":"Smak & struktur","short":"När syra, tannin, frukt och alkohol samverkar harmoniskt.","full":"Ett balanserat vin har inget element som dominerar. Syran ska möta frukten, tanninerna ska stödjas av kroppen och alkoholen ska inte bränna. Balans är det viktigaste kvalitetstecknet."},
+  {"id":"alcohol","term":"Alkohol","category":"Smak & struktur","short":"Ger värme, kropp och sötaktig känsla.","full":"Alkohol bidrar till kropp och en varm känsla i halsen. Hög alkohol (14%+) kan kännas 'het' om syra och tannin inte balanserar. Låg alkohol (8–11%) ger lättare, fräschare viner som i Mosel Riesling."},
+  {"id":"sweetness","term":"Sötma","category":"Smak & struktur","short":"Restsockers påverkan på smaken.","full":"Sötma kommer från restsockret som finns kvar efter jäsningen. Inte att förväxla med fruktighet — ett torrt vin kan upplevas sött av mogen frukt. Skalan: torrt, halvtorrt, halvtsött, sött, dessertvin."},
+  {"id":"umami","term":"Umami / Sälta","category":"Smak & struktur","short":"Mineralisk, salt karaktär i vissa viner.","full":"En femte smak — mineralisk, nästan saltaktig. Typiskt i viner från kalkstensrik jord som Chablis och Champagne. Ökar salivationen och gör vinet matanpassat. Diskuteras fortfarande vetenskapligt."},
+  {"id":"length","term":"Längd","category":"Smak & struktur","short":"Samma som finish — hur länge eftersmaken varar.","full":"Längd och finish används ofta synonymt. Professionella provare mäter i sekunder. Under 5 sekunder = kort. 10–20 sekunder = medel. 30+ sekunder = lång. En av de viktigaste kvalitetsindikatorerna."},
+  {"id":"structure","term":"Struktur","category":"Smak & struktur","short":"Vinets arkitektur av syra, tannin och alkohol.","full":"Struktur är ryggraden i ett vin — summan av syra, tannin, alkohol och kropp. Bra struktur ger lagringskapacitet och matanpassning. Fruktig och mjuk utan struktur = dricka ung."},
+
+  {"id":"terroir","term":"Terroir","category":"Odling & geografi","short":"Platsens unika påverkan på vinet.","full":"Franskt begrepp som omfattar jord, klimat, topografi och mikroklimat. Samma druva odlad på olika platser ger helt olika vin — det är terroir. Grundtanken bakom appellationssystemet."},
+  {"id":"region","term":"Region","category":"Odling & geografi","short":"Geografiskt definierat vinområde.","full":"Vinregioner varierar från stora (Bordeaux, Toscana) till små (Pomerol, Gevrey-Chambertin). Ju mer specifik region, desto striktare regler och ofta högre kvalitetsnivå."},
+  {"id":"appellation","term":"Appellation","category":"Odling & geografi","short":"Officiellt reglerat ursprungsområde.","full":"En appellation garanterar att vinet kommer från ett specifikt område och följer lokala regler för druvor, odling och vinmakning. AOC (Frankrike), DOC (Italien), DO (Spanien)."},
+  {"id":"terrasse","term":"Terrass-vingård","category":"Odling & geografi","short":"Vingård anlagd i terrasser på branta sluttningar.","full":"Terrasserade vingårdar finns på extremt branta platser som Douro, Mosel och norra Rhône. De möjliggör odling där maskiner inte kan arbeta. Ger intensiva viner men kräver mycket handarbete."},
+  {"id":"vintage","term":"Årgång / Vintage","category":"Odling & geografi","short":"Det år druvorna skördades.","full":"Årgångens väder påverkar vinets karaktär enormt. En varm, torr sommar ger mogna, fylliga viner. Ett regnigt år ger tunnare, surare viner. Champagne och Port kan blanda årgångar för konsistens."},
+  {"id":"biodynamic","term":"Biodynamisk odling","category":"Odling & geografi","short":"Ekologisk odling enligt Rudolf Steiners principer.","full":"Biodynamik ser vingården som ett slutet ekosystem. Odlingen styrs av månkalendern och använder speciella preparat. Inga syntetiska bekämpningsmedel. Producenter: Zind-Humbrecht, Domaine Leflaive."},
+  {"id":"organic","term":"Ekologisk odling","category":"Odling & geografi","short":"Odling utan syntetiska kemikalier.","full":"Ekologiska vingårdar använder inga syntetiska bekämpningsmedel eller konstgödsel. Certifieras av EU (eurobladet) eller nationella organ. Skiljer sig från biodynamik som har ytterligare andliga principer."},
+  {"id":"microclimate","term":"Mikroklimat","category":"Odling & geografi","short":"Det lokala klimatet i en specifik vingård.","full":"Mikroklimat kan skilja sig dramatiskt från det omgivande klimatet. En sydsluttning är varmare, en dalsänka är frostbenägen, nära en flod ökar fuktigheten. Avgörande för druvornas mognad."},
+  {"id":"oldvines","term":"Gamla stockar / Old Vines","category":"Odling & geografi","short":"Äldre vinstockar ger lägre skörd och mer koncentrerade druvor.","full":"Ingen officiell definition men ofta 25–100+ år. Gamla stockar har djupare rötter och ger naturligt lägre avkastning med mer koncentrerade druvor. Ses som kvalitetsmarkör. Franska: Vieilles Vignes."},
+  {"id":"yield","term":"Avkastning / Yield","category":"Odling & geografi","short":"Mängden druvor per hektar.","full":"Låg avkastning (under 40 hl/ha) ger koncentrerade druvor och intensivare vin. Hög avkastning ger tunnare, lättare viner. Regleras i appellationer. Mäts i hektoliter per hektar (hl/ha)."},
+  {"id":"clone","term":"Klon","category":"Odling & geografi","short":"Genetisk variant av en druvsort.","full":"Inom samma druvsort finns hundratals kloner med olika egenskaper — skördstid, bärsstorlek, arominnehåll. Pinot Noir har exempelvis 1000+ kloner. Val av klon påverkar vinets karaktär kraftigt."},
+
+  {"id":"mlf","term":"Malolaktisk jäsning (MLF)","category":"Vinmakning","short":"Omvandlar skarp äppelsyra till mjukare mjölksyra.","full":"MLF sker efter primärjäsningen och mjukar upp vinet. Nästan alla röda viner genomgår MLF. Vita viner kan hindras från MLF för att behålla friskhet — t.ex. Muscadet som dock ofta lagras sur lie."},
+  {"id":"maceration","term":"Macerering","category":"Vinmakning","short":"Druvskalen blöter i musten för att ge färg och tannin.","full":"Länger macerering ger mer tannin, färg och komplexitet. Kortare ger lättare, fruktigare viner. Kallmacerering sker före jäsning för aromer. Grundläggande för alla röda viner."},
+  {"id":"fermentation","term":"Jäsning","category":"Vinmakning","short":"Jäst omvandlar druvsockret till alkohol och koldioxid.","full":"Jäsning är vinets hjärta. Jäst (naturlig eller tillsatt) äter socker och producerar alkohol, CO2 och värme. Temperaturen styr — kall jäsning ger fruktigare, mer aromatiska viner."},
+  {"id":"oak","term":"Ekfat / Barrique","category":"Vinmakning","short":"Fat av ek som ger smak och syresätter vinet.","full":"Ekfat tillför vanilj, rostat bröd, kryddor och tannin. Nya fat ger mer smak än gamla. Barriquefat (225 liter) är standard i Bordeaux. Stor fat (500–1000 liter) ger subtilare påverkan."},
+  {"id":"botrytis","term":"Botrytis / Ädelröta","category":"Vinmakning","short":"Mögel som koncentrerar druvor till söta viner.","full":"Botrytis cinerea kan vara skadligt (grå röta) eller välkommet (ädelröta). Ädelrötan torkar ut druvan och koncentrerar socker och aromer. Grunden för Sauternes, Tokaj Aszú och Trockenbeerenauslese."},
+  {"id":"appassimento","term":"Appassimento","category":"Vinmakning","short":"Druvor torkas för att koncentrera socker och smak.","full":"Italiensk teknik där druvor torkas på halmmattor eller i torkrum i månader. Används för Amarone, Recioto och Ripasso. Ger extremt koncentrerade, fylliga viner med hög alkohol."},
+  {"id":"fortified","term":"Förstärkt vin","category":"Vinmakning","short":"Vin med tillsatt druvsprit för att höja alkoholen.","full":"Druvsprit (neutral vinand) tillsätts under eller efter jäsningen. Under jäsning stoppar det processen och bevarar restsockret — som i Port och Madeira. Efter jäsning ger det torrt förstärkt vin — som i Sherry."},
+  {"id":"carbonic","term":"Kolsyrjäsning","category":"Vinmakning","short":"Druvor jäser hela i koldioxidatmosfär — ger fruktig, lättdrucken stil.","full":"Hela druvor placeras i CO2-miljö och jäser inifrån. Ger mjuka tanniner, livlig frukt (banan, godis) och låg syra. Klassisk teknik i Beaujolais. Beaujolais Nouveau är det tydligaste exemplet."},
+  {"id":"disgorgement","term":"Degorjering","category":"Vinmakning","short":"Borttagning av jästfällning från champagneflaskan.","full":"Efter sekundarjäsning i flaskan samlas jästfällning i flaskhalsen. Flaskhalsen fryses och kapseln tas av — fällningen skjuts ut av trycket. Sedan tillsätts dosage (socker + vin) och ny kork sätts i."},
+  {"id":"lies","term":"Jästfällning / Lies","category":"Vinmakning","short":"Döda jästceller som ger komplexitet och kremig textur.","full":"Att lagra vin på lees (sur lie) ger brödig, kremig karaktär och mer komplexitet. Typiskt för Muscadet, Champagne och Chablis. Autolys är processen där jästcellerna bryts ned och frigör aminosyror."},
+  {"id":"naturalwine","term":"Naturvin","category":"Vinmakning","short":"Vin gjort med minimal intervention i vingård och vinkällare.","full":"Ingen enhetlig definition. Generellt: ekologiska druvor, naturlig jäst, minimal SO2, inga tillsatser. Kan vara grumliga och instabila. Omstridd kategori — älskas av vissa, kritiseras av andra för brist på konsistens."},
+  {"id":"filtering","term":"Filtrering","category":"Vinmakning","short":"Rening av vin för att ta bort partiklar och grumling.","full":"Filtrering ger klarare, stabilare vin men kan ta bort komplex och textur. Många toppproducenter undviker filtrering för att bevara karaktär. Vin märkt 'unfiltered' är ofta mer komplex men kan vara grumligt."},
+  {"id":"sulphite","term":"Sulfiter / SO2","category":"Vinmakning","short":"Konserveringsmedel som skyddar vinet från oxidation.","full":"Svaveldioxid (SO2) är det vanligaste tillsatsmedlet i vin. Skyddar mot oxidation och bakterier. Finns naturligt i vin i små mängder. Höga halter kan ge huvudvärk hos känsliga. Alla viner märks 'innehåller sulfiter' om över 10 mg/l."},
+  {"id":"coldstabilization","term":"Koldstabilisering","category":"Vinmakning","short":"Vin kyls för att fälla ut vinsyrakristaller.","full":"Vid låga temperaturer fälls kaliumbitartrat (vinsyra) ut som kristaller. Koldstabilisering sker innan buteljering för att undvika kristaller i flaskan. Kristallerna är ofarliga men kan skrämma konsumenter."},
+
+  {"id":"decanting","term":"Dekantring","category":"Servering","short":"Att hälla vin i karaff för luftning och sedimentavskiljning.","full":"Dekantring tjänar två syften: lufta ungt vin för att öppna upp aromer och tanniner, eller separera gammalt vin från sediment. Unga, tanninstarka viner kan dekantera 1–2 timmar. Gamla viner dekantera varsamt och kort."},
+  {"id":"temperature","term":"Serveringstemperatur","category":"Servering","short":"Rätt temperatur lyfter vinets aromer och balans.","full":"För kallt döljer aromer. För varmt framhäver alkohol och plattar ut frukten. Röda: 14–18°C. Vita: 8–12°C. Mousserande: 6–8°C. Söta: 6–10°C. Kyl alltid ned lite mer än målet — glaset värmer snabbt."},
+  {"id":"glassware","term":"Glasform","category":"Servering","short":"Glasets form påverkar hur vinet doftar och smakar.","full":"Stort buktande glas för röda (mer luftkontakt). Smalare för vita (bevara kyla och friskhet). Flöjt för mousserande (visa bubblor). Copita för Sherry. Kvalitetsglas som Riedel och Zalto är formade efter druvsort."},
+  {"id":"pouring","term":"Servering & hälla","category":"Servering","short":"Häll inte mer än en tredjedel av glaset — vinet ska ha plats att andas.","full":"Fyll glaset till dess bredaste punkt — aldrig mer. Det ger plats att svänga och frigöra aromer. Håll flaskan i mitten, inte halsen. Torka av flaskhalsen med servett. Häll alltid lite — det är lätt att fylla på."},
+  {"id":"storage","term":"Lagring","category":"Servering","short":"Vin lagras bäst svalt, mörkt och liggande.","full":"Idealisk lagring: 12–14°C, hög luftfuktighet (70%), mörkt, vibrationsfritt, liggande (korken hålls fuktig). Undvik kök och garage. Enkla viner: drick inom 1–3 år. Kvalitetsvin: kan lagras 10–30+ år."},
+  {"id":"cork","term":"Kork","category":"Servering","short":"Naturkork andas och passar för lagring. Skruvkork är felfri men andas inte.","full":"Naturkork ger mikrooxidation som hjälper viner att mogna. Risk för korksmak (TCA). Skruvkork är 100% tät och felfri — bra för unga friska viner. Glaspropp liknar skruvkork. Alla tre är legitima."},
+  {"id":"corksmell","term":"Korksmak / TCA","category":"Servering","short":"Muggig, fuktig källarlukt som förstör vinet.","full":"Orsakas av 2,4,6-trikloranisol (TCA) — ett kemiskt ämne från mögel i korken. Karaktäristisk lukt av fuktig kartong eller gammal källare. Döljer frukt och aromer. Statistiskt drabbar 3–5% av naturkorkar."},
+
+  {"id":"brut","term":"Brut","category":"Sötma & stil","short":"Torr stil av mousserande vin.","full":"Brut innehåller under 12 g/l restsockret. Extra Brut är ännu torrare (under 6 g/l). Brut Nature / Zero Dosage är helt torrt (under 3 g/l). Brut är den vanligaste stilen av Champagne och Cava."},
+  {"id":"residualsugar","term":"Restsockret","category":"Sötma & stil","short":"Socker som finns kvar efter avslutad jäsning.","full":"Restsockret (RS) mäts i gram per liter. Torrt vin: under 4 g/l. Halvtorrt: 4–12 g/l. Halvtsött: 12–45 g/l. Sött: 45–120 g/l. Dessertvin: 120+ g/l. Hög syra kan balansera högt RS."},
+  {"id":"sec","term":"Sec / Demi-sec","category":"Sötma & stil","short":"Halvtorr till halvtsöt stil av mousserande vin.","full":"Sec betyder 'torrt' på franska men i champagnenomenklatur är det halvtorrt (17–32 g/l RS). Demi-sec är halvtsött (32–50 g/l RS). Extra Dry ligger mitt emellan Brut och Sec."},
+  {"id":"lateharvest","term":"Sen skörd / Late Harvest","category":"Sötma & stil","short":"Druvor skördas sent för naturlig sockermognad.","full":"Vid sen skörd är druvorna övermogna och innehåller mer socker. Ger naturligt söta viner utan tillsatt socker. Tyska termer: Spätlese (sen skörd), Auslese (urval), Beerenauslese, Trockenbeerenauslese."},
+  {"id":"icewine","term":"Isvinsvin / Eiswein","category":"Sötma & stil","short":"Vin från naturligt frysta druvor — extremt sött och koncentrerat.","full":"Druvor skördas frysta (under -8°C) och pressas direkt. Vattnet är fruset men sockret pressas ut koncentrerat. Ger intensivt söta viner med skarp syra. Specialitet i Canada, Tyskland och Österrike."},
+  {"id":"oxidative","term":"Oxidativ stil","category":"Sötma & stil","short":"Vin som avsiktligt exponerats för syre under lagring.","full":"Oxidativ vinmakning ger nötiga, rancio-aktiga karaktärer. Typiskt för Sherry (Fino undantaget), Vin Jaune, Madeira och Tawny Port. Motsatsen är reduktiv stil med minimal syrekontakt."},
+  {"id":"reductive","term":"Reduktiv stil","category":"Sötma & stil","short":"Vin skyddat från syre — bevarar friskhet och frukt.","full":"Reduktiv vinmakning minimerar syrekontakt. Ger fräscha, fruktig viner. Risk för reducerade toner (svavelväte — ägglukt) om för extremt. Används för aromatiska vita som Sauvignon Blanc och Riesling."},
+
+  {"id":"premier_cru","term":"Premier Cru / Grand Cru","category":"Klassificering","short":"Klassificering av de bästa vingårdar i Frankrike.","full":"I Bourgogne är Grand Cru högst (33 st), sedan Premier Cru (600+ st). I Bordeaux klassificerades 1855 — Grand Cru Classé delas in i 5 nivåer. I Champagne är det byar, inte vingårdar, som klassas."},
+  {"id":"reserva","term":"Reserva / Reserve","category":"Klassificering","short":"Betecknar längre lagrad vin i Spanien och Portugal.","full":"I Rioja: Reserva lagras minst 3 år (1 på fat). Gran Reserva lagras minst 5 år (2 på fat). I Ribera del Duero finns liknande regler. I Nya världen är 'Reserve' inte reglerat och används mer fritt."},
+  {"id":"docg","term":"DOCG / DOC / IGT","category":"Klassificering","short":"Italienskt kvalitetssystem för vin.","full":"DOCG (Denominazione di Origine Controllata e Garantita) är högst — 77 st, bl.a. Barolo och Brunello. DOC är nästa nivå. IGT (Indicazione Geografica Tipica) är mer flexibelt — hemvist för Super-Tuscans."},
+  {"id":"aoc","term":"AOC / AOP","category":"Klassificering","short":"Franskt ursprungsskyddssystem för mat och vin.","full":"AOC (Appellation d'Origine Contrôlée) är Frankrikes system för ursprungsskydd. Nu kallas det ofta AOP (Appellation d'Origine Protégée) inom EU. Styr druvor, avkastning, alkohol och vinmakning."},
+  {"id":"vdp","term":"VDP","category":"Klassificering","short":"Tyskt kvalitetsförbund med Burgundisk vingårdsklassificering.","full":"Verband Deutscher Prädikatsweingüter — ett tyskt kvalitetsförbund. Inför 2012 ett pyramidsystem: Gutswein, Ortswein, Erste Lage (1 liter), Grosse Lage (Grand Cru). Grosse Gewächs (GG) är den torraste toppstilen."},
+  {"id":"superieur","term":"Supérieur / Superiore","category":"Klassificering","short":"Betecknar högre alkohol eller längre lagring inom en appellation.","full":"Fransk 'Supérieur' innebär ofta 0,5% högre minimumalkohol. Italiensk 'Superiore' kan innebära längre lagring och lägre avkastning. Exempel: Bordeaux Supérieur, Valpolicella Superiore."},
+
+  {"id":"aroma","term":"Arom","category":"Provning & terminologi","short":"Dofter från druvan, jäsningen och lagringen.","full":"Primära aromer: från druvan (frukt, blommor). Sekundära: från jäsningen (jäst, smör). Tertiära/bouquet: från lagring på fat och flaska (läder, tobak, tryffel, nötter). Aromer utvärderas i glaset."},
+  {"id":"bouquet","term":"Bouquet","category":"Provning & terminologi","short":"Komplexa aromer som utvecklas under lagring.","full":"Bouquet är de tertiära aromerna som bildas med ålder. Frukt omvandlas till mer komplexa noter: läder, tobak, tryffel, svamp, ceder, honung, vax. Bouquet är tecken på mognat, komplext vin."},
+  {"id":"minerality","term":"Mineralitet","category":"Provning & terminologi","short":"Stenig, kritaktig eller saltaktig karaktär.","full":"Omdiskuterat begrepp. Syftar på smak av flinta, krita, skiffer eller saltvatten. Typiskt för Chablis, Loire Sauvignon Blanc och Mosel Riesling. Vetenskapligt oklart om det verkligen kommer från mineralerna i jordet."},
+  {"id":"retronasal","term":"Retronasal doft","category":"Provning & terminologi","short":"Aromer som upplevs bakifrån via gommen när du sväljer.","full":"Det mesta vi upplever som smak är egentligen retronasal doft — aromer som stiger upp bakom från munnen till näsan. Därför försvinner smaken vid förkylning. Avgörande för vinprovning och matupplevelse."},
+  {"id":"mouthfeel","term":"Munkänsla","category":"Provning & terminologi","short":"Vinets textur och känsla i munnen.","full":"Munkänsla inkluderar: sammandragande (tannin), krämig, silkig, vattnig, viskös. Påverkas av glycerol, tannin, alkohol och syra. Silkig munkänsla i Pinot Noir skiljer sig tydligt från Cabernets strävhet."},
+  {"id":"blind","term":"Blind provning","category":"Provning & terminologi","short":"Vinet provas utan att man vet vad det är.","full":"Blind provning eliminerar fördomar. Single blind: du vet inte vilket vin. Double blind: du vet inte ens vilka alternativ. Används vid tävlingar och forskning. Ofta avslöjar det att pris och prestige påverkar upplevelsen mer än man tror."},
+  {"id":"decanting2","term":"Luftning","category":"Provning & terminologi","short":"Att exponera vinet för syre för att öppna upp aromer.","full":"Luftning kan ske i karaff eller bara i glaset. Ungt, tanninstarkt vin mår bra av 30–120 minuters luftning. Gamla viner behöver försiktig luftning — de kan kollapsa snabbt. Swirla glaset för snabb luftning."},
+  {"id":"legs","term":"Tårar / Ben","category":"Provning & terminologi","short":"Droppar som rinner ned längs glasets insida.","full":"Tårar (eller 'ben') bildas av alkohol och glycerol. Tjocka, långsamma tårar = hög alkohol/glycerol. Populärt men missvisande kvalitetsmått — de säger inget om smak eller komplexitet. Kallas även 'Cathedral windows'."},
+  {"id":"vintage2","term":"Non-vintage / NV","category":"Provning & terminologi","short":"Vin blandat från flera årgångar för konsistent stil.","full":"NV (Non-Vintage) är vanligast i Champagne och Port. Husets stilguide blandas med reservviner från äldre årgångar. Ger konsistens oavsett årsväxling. Moët Impérial, Bollinger Special Cuvée är NV."},
+  {"id":"cuvee","term":"Cuvée","category":"Provning & terminologi","short":"En specifik blandning eller urval av vin.","full":"Cuvée används på olika sätt: i Champagne = blandningen av druvor/regioner/årgångar. I Rhône = specifikt urval. Tête de Cuvée = toppvin från en producent. Prestige Cuvée = Champagnehusets flaggskeppsvin (Dom Pérignon etc)."},
+  {"id":"remuage","term":"Remuage","category":"Provning & terminologi","short":"Rotering av champagneflaskor för att samla jästfällning i halsen.","full":"Efter sekundarjäsning roteras flaskorna dagligen i pupitres (träställ) i 6–8 veckor. Moderna gyroplatter gör detta automatiskt. Syftet är att samla jästfällningen i flaskhalsen inför degorjering."},
+
+  {"id":"ripasso","term":"Ripasso","category":"Druvstilar & tekniker","short":"Venetiansk teknik där vin passerar över Amarone-pressrester.","full":"Valpolicella Ripasso jäser om på de pressrester (vinacce) som blir kvar efter Amarone-produktionen. Ger mer kropp, tannin och komplexitet än enkel Valpolicella. Kallas ibland 'Babys Amarone'."},
+  {"id":"passito","term":"Passito","category":"Druvstilar & tekniker","short":"Italienskt vin från torkade druvor.","full":"Passito är det generella italienska begreppet för vin från torkade druvor. Kan vara sött (Recioto) eller torrt (Amarone). Torkningsprocessen kallas appassimento. Finns i många regioner — Pantelleria, Veneto, Toscana."},
+  {"id":"cremant","term":"Crémant","category":"Druvstilar & tekniker","short":"Franskt mousserande vin utanför Champagne gjort med traditionell metod.","full":"Crémant produceras i Alsace, Bourgogne, Loire, Bordeaux och mer med traditionell metod (sekundarjäsning i flaskan). Lägre tryck (3,5 atm) än Champagne (6 atm). Bra prisvärdhet."},
+  {"id":"methode","term":"Traditionell metod","category":"Druvstilar & tekniker","short":"Sekundarjäsning sker i flaskan — metoden bakom Champagne.","full":"Grundvinet buteljeras med socker och jäst. Sekundarjäsning sker i flaskan och skapar bubblorna. Jästfällning ger komplexitet. Används för Champagne, Cava, Crémant och Franciacorta. Kallas méthode traditionnelle."},
+  {"id":"charmat","term":"Charmat / Tank-metod","category":"Druvstilar & tekniker","short":"Sekundarjäsning sker i trycktank — snabbare och billigare.","full":"Charmat-metoden används för Prosecco och många Frizzante-viner. Sekundarjäsning sker i stora trycktankar. Snabbare, billigare och bevarar mer primär fruktighet. Ger lättare, fruktigare bubblor än traditionell metod."},
+  {"id":"petnat","term":"Pét-nat","category":"Druvstilar & tekniker","short":"Naturligt mousserande vin — äldsta metoden.","full":"Pétillant Naturel = naturligt mousserande. Vinet buteljeras mitt under primärjäsningen — naturliga bubblor bildas i flaskan. Inga tillsatser. Ofta grumliga och rustika. Populärt inom naturvinrörelsen. Även kallat méthode ancestrale."}
 ]

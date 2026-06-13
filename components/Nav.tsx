@@ -21,6 +21,7 @@ const moreMobileNav = [
   { href: '/ordlista', label: 'Ordlista', icon: '📚' },
   { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
   { href: '/periodisk', label: 'Periodisk', icon: '⚗️' },
+  { href: '/arganger', label: 'Årgångar', icon: '📅' },
 ];
 
 const desktopSections = [
@@ -33,6 +34,7 @@ const desktopSections = [
       { href: '/stilar', label: 'Stilar', icon: '🗺️' },
       { href: '/jamfor', label: 'Jämför', icon: '⚖️' },
       { href: '/blanda', label: 'Blanda ditt vin', icon: '🧪' },
+      { href: '/arganger', label: 'Årgångsguide', icon: '📅' },
     ],
   },
   {

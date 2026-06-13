@@ -6,13 +6,15 @@ import glossary from '@/data/glossary.json';
 const allTerms = glossary;
 
 const categories = [
-  { id: 'all', label: 'Alla', emoji: '📚' },
-  { id: 'Smak & struktur', label: 'Smak & struktur', emoji: '👅' },
-  { id: 'Vinmakning', label: 'Vinmakning', emoji: '🍷' },
-  { id: 'Odling & geografi', label: 'Odling', emoji: '🌍' },
-  { id: 'Servering', label: 'Servering', emoji: '🫗' },
-  { id: 'Sötma & stil', label: 'Sötma & stil', emoji: '🍯' },
-  { id: 'Klassificering', label: 'Klassificering', emoji: '🏆' },
+  { id: 'all',                      label: 'Alla',                  emoji: '📚' },
+  { id: 'Smak & struktur',          label: 'Smak & struktur',       emoji: '👅' },
+  { id: 'Vinmakning',               label: 'Vinmakning',            emoji: '🍷' },
+  { id: 'Odling & geografi',        label: 'Odling',                emoji: '🌍' },
+  { id: 'Servering',                label: 'Servering',             emoji: '🫗' },
+  { id: 'Sötma & stil',             label: 'Sötma & stil',          emoji: '🍯' },
+  { id: 'Klassificering',           label: 'Klassificering',        emoji: '🏆' },
+  { id: 'Provning & terminologi',   label: 'Provning',              emoji: '🔍' },
+  { id: 'Druvstilar & tekniker',    label: 'Druvstilar',            emoji: '⚗️' },
 ];
 
 export default function OrdlistaPage() {
@@ -22,7 +24,8 @@ export default function OrdlistaPage() {
 
   const filtered = allTerms.filter((term) => {
     const matchCat = category === 'all' || term.category === category;
-    const matchSearch = term.term.toLowerCase().includes(search.toLowerCase()) ||
+    const matchSearch =
+      term.term.toLowerCase().includes(search.toLowerCase()) ||
       term.short.toLowerCase().includes(search.toLowerCase());
     return matchCat && matchSearch;
   });
@@ -37,26 +40,31 @@ export default function OrdlistaPage() {
 
   return (
     <div className="px-4 py-8 max-w-2xl mx-auto">
-      <h1 className="font-display text-4xl text-wine-100 mb-2">Ordlista</h1>
-      <p className="text-wine-300 mb-6 leading-relaxed">
-        Förklaringar av vanliga vinbegrepp — från syra och tannin till terroir och degorjering.
-      </p>
+      <div className="mb-6">
+        <div className="text-[10px] font-mono uppercase tracking-[0.2em] text-wine-500 mb-1">
+          {allTerms.length} begrepp
+        </div>
+        <h1 className="font-display text-4xl sm:text-5xl text-wine-100 leading-tight mb-2">Ordlista</h1>
+        <p className="text-wine-300 text-sm leading-relaxed">
+          Förklaringar av vanliga vinbegrepp — från syra och tannin till terroir och degorjering.
+        </p>
+      </div>
 
-      {/* Search */}
+      {/* Sök */}
       <input
         type="text"
         placeholder="Sök begrepp..."
         value={search}
-        onChange={(e) => setSearch(e.target.value)}
+        onChange={(e) => { setSearch(e.target.value); setCategory('all'); }}
         className="w-full bg-wine-900 border border-wine-700 text-wine-100 rounded-xl px-4 py-3 mb-4 text-sm focus:outline-none focus:border-amber-400 placeholder-wine-600"
       />
 
-      {/* Category filter */}
+      {/* Kategorifilter */}
       <div className="flex gap-2 mb-8 flex-wrap">
         {categories.map((cat) => (
           <button
             key={cat.id}
-            onClick={() => setCategory(cat.id)}
+            onClick={() => { setCategory(cat.id); setSearch(''); }}
             className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-all ${
               category === cat.id
                 ? 'bg-wine-600 border-wine-600 text-white'
@@ -68,13 +76,14 @@ export default function OrdlistaPage() {
         ))}
       </div>
 
-      {/* Terms */}
-      {category === 'all' ? (
+      {/* Termer */}
+      {category === 'all' && !search ? (
         <div className="space-y-8">
           {grouped.map((group) => (
             <div key={group.id}>
               <h2 className="font-display text-xl text-wine-200 mb-3 flex items-center gap-2">
                 <span>{group.emoji}</span> {group.label}
+                <span className="text-wine-600 text-sm font-sans font-normal">— {group.terms.length} begrepp</span>
               </h2>
               <div className="space-y-2">
                 {group.terms.map((term) => (
@@ -91,6 +100,9 @@ export default function OrdlistaPage() {
         </div>
       ) : (
         <div className="space-y-2">
+          {filtered.length > 0 && (
+            <div className="text-wine-500 text-xs font-mono mb-3">{filtered.length} träffar</div>
+          )}
           {filtered.map((term) => (
             <TermCard
               key={term.id}
@@ -100,9 +112,7 @@ export default function OrdlistaPage() {
             />
           ))}
           {filtered.length === 0 && (
-            <div className="text-center text-wine-500 py-8">
-              Inga begrepp matchar sökningen.
-            </div>
+            <div className="text-center text-wine-500 py-8">Inga begrepp matchar sökningen.</div>
           )}
         </div>
       )}

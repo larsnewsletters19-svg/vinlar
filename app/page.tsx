@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 const sections = [
+  // Utforska
   {
     href: '/druvor',
     icon: '🍇',
@@ -9,18 +10,11 @@ const sections = [
     color: 'from-wine-800 to-wine-900',
   },
   {
-    href: '/jamfor',
-    icon: '⚖️',
-    title: 'Jämför',
-    desc: 'Ställ druvor och stilar mot varandra.',
-    color: 'from-stone-800 to-stone-900',
-  },
-  {
-    href: '/stilar',
-    icon: '🗺️',
-    title: 'Stilar',
-    desc: 'Samma druva, olika regioner och uttryck.',
-    color: 'from-indigo-900 to-wine-950',
+    href: '/periodisk',
+    icon: '⚗️',
+    title: 'Periodiska systemet',
+    desc: 'Alla druvor grupperade efter typ och kropp i ett visuellt rutnät.',
+    color: 'from-violet-900 to-wine-950',
   },
   {
     href: '/regioner',
@@ -30,33 +24,34 @@ const sections = [
     color: 'from-teal-900 to-wine-950',
   },
   {
-    href: '/mat-och-vin',
-    icon: '🍽️',
-    title: 'Mat & Vin',
-    desc: 'Hur mat påverkar vinet och smarta kombinationer.',
-    color: 'from-orange-900 to-wine-950',
+    href: '/stilar',
+    icon: '🗺️',
+    title: 'Stilar',
+    desc: 'Samma druva, olika regioner och uttryck.',
+    color: 'from-indigo-900 to-wine-950',
   },
   {
-    href: '/aromhjul',
-    icon: '🌸',
-    title: 'Aromhjul',
-    desc: 'Se druvors aromprofil i ett visuellt hjul.',
-    color: 'from-rose-900 to-wine-950',
+    href: '/jamfor',
+    icon: '⚖️',
+    title: 'Jämför',
+    desc: 'Ställ druvor och stilar mot varandra.',
+    color: 'from-stone-800 to-stone-900',
   },
   {
-    href: '/prova',
-    icon: '🍷',
-    title: 'Prova ett vin',
-    desc: 'Guidad provning steg för steg — se, dofta och smaka.',
-    color: 'from-wine-700 to-wine-950',
+    href: '/blanda',
+    icon: '🧪',
+    title: 'Blanda ditt vin',
+    desc: 'Bygg din egen blend och förfina med olika druvor.',
+    color: 'from-cyan-900 to-wine-950',
   },
   {
-    href: '/trana',
-    icon: '🎯',
-    title: 'Träna',
-    desc: 'Öva blindprovning med ledtrådsfrågor.',
+    href: '/arganger',
+    icon: '📅',
+    title: 'Årgångsguide',
+    desc: 'Färgkodat rutnät över 12 regioners bästa årgångar.',
     color: 'from-amber-900 to-stone-950',
   },
+  // Lär dig
   {
     href: '/lar-dig',
     icon: '🧠',
@@ -68,7 +63,7 @@ const sections = [
     href: '/ordlista',
     icon: '📚',
     title: 'Ordlista',
-    desc: 'Förklaringar av vanliga vinbegrepp.',
+    desc: '72 vinbegrepp förklarade — från syra till terroir.',
     color: 'from-purple-900 to-wine-950',
   },
   {
@@ -76,6 +71,28 @@ const sections = [
     icon: '🔀',
     title: 'Förväxlingar',
     desc: 'De vanligaste förväxlingarna i blindprovning.',
+    color: 'from-rose-900 to-wine-950',
+  },
+  {
+    href: '/mat-och-vin',
+    icon: '🍽️',
+    title: 'Mat & Vin',
+    desc: 'Hur mat påverkar vinet och smarta kombinationer.',
+    color: 'from-orange-900 to-wine-950',
+  },
+  // Träna
+  {
+    href: '/trana',
+    icon: '🎯',
+    title: 'Träna',
+    desc: 'Öva blindprovning med ledtrådsfrågor.',
+    color: 'from-lime-900 to-stone-950',
+  },
+  {
+    href: '/aromhjul',
+    icon: '🌸',
+    title: 'Aromhjul',
+    desc: 'Se druvors aromprofil i ett visuellt hjul.',
     color: 'from-rose-900 to-wine-950',
   },
   {
@@ -101,7 +118,7 @@ export default function Home() {
 
       <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
         {sections.map((s) => (
-          <li key={s.href}>
+          <li key={s.href + s.title}>
             <Link
               href={s.href}
               className={`flex items-start gap-4 p-5 rounded-2xl bg-gradient-to-br ${s.color} border border-wine-800 hover:border-wine-600 transition-all hover:scale-[1.01] active:scale-[0.99] block`}
@@ -117,7 +134,7 @@ export default function Home() {
       </ul>
 
       <p className="text-center text-wine-500 text-xs mt-10">
-        Version 1.5 · Data lagras lokalt · Ingen inloggning krävs
+        Version 1.6 · Data lagras lokalt · Ingen inloggning krävs
       </p>
     </div>
   );
