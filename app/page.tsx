@@ -67,6 +67,13 @@ const sections = [
     color: 'from-purple-900 to-wine-950',
   },
   {
+    href: '/servering',
+    icon: '🌡️',
+    title: 'Servering & temperatur',
+    desc: 'Rätt temperatur, glasform och dekantring per vintyp.',
+    color: 'from-sky-900 to-wine-950',
+  },
+  {
     href: '/forvaxlingar',
     icon: '🔀',
     title: 'Förväxlingar',

@@ -19,6 +19,7 @@ const moreMobileNav = [
   { href: '/blanda', label: 'Blanda', icon: '🧪' },
   { href: '/prova', label: 'Prova', icon: '🍷' },
   { href: '/ordlista', label: 'Ordlista', icon: '📚' },
+      { href: '/servering', label: 'Servering', icon: '🌡️' },
   { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
   { href: '/periodisk', label: 'Periodisk', icon: '⚗️' },
   { href: '/arganger', label: 'Årgångar', icon: '📅' },
@@ -42,6 +43,7 @@ const desktopSections = [
     items: [
       { href: '/lar-dig', label: 'Lär dig känna', icon: '🧠' },
       { href: '/ordlista', label: 'Ordlista', icon: '📚' },
+      { href: '/servering', label: 'Servering', icon: '🌡️' },
       { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
       { href: '/mat-och-vin', label: 'Mat & Vin', icon: '🍽️' },
     ],
