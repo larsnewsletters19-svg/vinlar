@@ -274,7 +274,7 @@
     "type": "style_vs_style",
     "comparisonType": "appellation",
     "title": "Champagne vs Cava vs Prosecco",
-    "grape": "mixed",
+    "grape": "champagne",
     "styleA": {
       "name": "Champagne, Frankrike",
       "region": "Champagne"
@@ -484,7 +484,7 @@
     "type": "style_vs_style",
     "comparisonType": "grape",
     "title": "Carménère vs Merlot",
-    "grape": "carmenere",
+    "grape": "merlot",
     "styleA": {
       "name": "Carménère, Chile",
       "region": "Colchagua / Rapel Valley"
@@ -514,7 +514,7 @@
     "type": "style_vs_style",
     "comparisonType": "region",
     "title": "Vinho Verde vs Albariño",
-    "grape": "mixed",
+    "grape": "albarino",
     "styleA": {
       "name": "Vinho Verde, Portugal",
       "region": "Minho / Vinho Verde"
@@ -544,7 +544,7 @@
     "type": "style_vs_style",
     "comparisonType": "region",
     "title": "Douro, Portugal vs Rioja, Spanien",
-    "grape": "mixed",
+    "grape": "touriga_nacional",
     "styleA": {
       "name": "Douro, Portugal",
       "region": "Douro Valley"
@@ -574,7 +574,7 @@
     "type": "style_vs_style",
     "comparisonType": "appellation",
     "title": "Port vs Sherry",
-    "grape": "mixed",
+    "grape": "port",
     "styleA": {
       "name": "Port, Portugal",
       "region": "Douro Valley"
@@ -604,7 +604,7 @@
     "type": "style_vs_style",
     "comparisonType": "grape",
     "title": "Pinotage vs Syrah",
-    "grape": "pinotage",
+    "grape": "syrah",
     "styleA": {
       "name": "Pinotage, Sydafrika",
       "region": "Stellenbosch / Paarl"
@@ -724,7 +724,7 @@
     "type": "style_vs_style",
     "comparisonType": "style",
     "title": "Sherry: Fino vs Oloroso",
-    "grape": "palomino",
+    "grape": "sherry",
     "styleA": {
       "name": "Fino / Manzanilla",
       "region": "Jerez / Sanlúcar"
@@ -754,7 +754,7 @@
     "type": "style_vs_style",
     "comparisonType": "style",
     "title": "Amarone vs Ripasso",
-    "grape": "corvina",
+    "grape": "amarone",
     "styleA": {
       "name": "Amarone della Valpolicella",
       "region": "Valpolicella, Veneto"
@@ -965,7 +965,7 @@
     "type": "style_vs_style",
     "comparisonType": "region",
     "title": "Barossa Valley vs McLaren Vale",
-    "grape": "shiraz",
+    "grape": "syrah",
     "styleA": {
       "name": "Barossa Valley",
       "region": "South Australia"
