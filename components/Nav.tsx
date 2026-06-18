@@ -13,19 +13,22 @@ const mainMobileNav = [
 ];
 
 const moreMobileNav = [
-  { href: '/regioner', label: 'Regioner', icon: '🌍' },
-  { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
-  { href: '/mat-och-vin', label: 'Mat & Vin', icon: '🍽️' },
-  { href: '/blanda', label: 'Blanda', icon: '🧪' },
-  { href: '/prova', label: 'Prova', icon: '🍷' },
-  { href: '/hemma', label: 'Prova hemma', icon: '🏠' },
-  { href: '/ordlista', label: 'Ordlista', icon: '📚' },
-      { href: '/servering', label: 'Servering', icon: '🌡️' },
-  { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
-      { href: '/etikett', label: 'Etikettläsaren', icon: '🏷️' },
+  // Utforska
   { href: '/periodisk', label: 'Periodisk', icon: '⚗️' },
   { href: '/logg', label: 'Min vinlogg', icon: '📓' },
+  { href: '/regioner', label: 'Regioner', icon: '🌍' },
+  { href: '/blanda', label: 'Blanda', icon: '🧪' },
   { href: '/arganger', label: 'Årgångar', icon: '📅' },
+  // Lär dig
+  { href: '/ordlista', label: 'Ordlista', icon: '📚' },
+  { href: '/servering', label: 'Servering', icon: '🌡️' },
+  { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
+  { href: '/etikett', label: 'Etikettläsaren', icon: '🏷️' },
+  { href: '/mat-och-vin', label: 'Mat & Vin', icon: '🍽️' },
+  // Träna
+  { href: '/prova', label: 'Prova', icon: '🍷' },
+  { href: '/hemma', label: 'Prova hemma', icon: '🏠' },
+  { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
 ];
 
 const desktopSections = [
