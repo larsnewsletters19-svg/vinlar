@@ -1,10 +1,25 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import grapes from '@/data/grapes.json';
 import { Grape } from '@/types';
 
 const allGrapes = grapes as Grape[];
+
+// ─── Logg-helpers ─────────────────────────────────────────────────────────────
+function loadLogCounts(): Record<string, number> {
+  if (typeof window === 'undefined') return {};
+  try {
+    const raw = localStorage.getItem('vinlar_logg');
+    if (!raw) return {};
+    const logs: { grapeId: string }[] = JSON.parse(raw);
+    return logs.reduce((acc, l) => {
+      acc[l.grapeId] = (acc[l.grapeId] ?? 0) + 1;
+      return acc;
+    }, {} as Record<string, number>);
+  } catch { return {}; }
+}
 
 // ─── Typkonfiguration (text, subtext, dot behålls) ───────────────────────────
 const TYPE_CONFIG: Record<string, {
@@ -163,7 +178,7 @@ function shortName(name: string): string {
 }
 
 // ─── Druvecell ────────────────────────────────────────────────────────────────
-function GrapeCell({ grape, index }: { grape: Grape; index: number }) {
+function GrapeCell({ grape, index, logCount }: { grape: Grape; index: number; logCount: number }) {
   const cfg = TYPE_CONFIG[grape.type] ?? TYPE_CONFIG.white;
   const body = Math.max(1, Math.min(5, grape.structure?.body ?? 1));
   const acidity = grape.structure?.acidity ?? 0;
@@ -211,16 +226,27 @@ function GrapeCell({ grape, index }: { grape: Grape; index: number }) {
       <div className={`text-[7px] font-mono ${cfg.subtext} mt-0.5`}>
         sy {acidity}/5
       </div>
+
+      {/* Logg-badge */}
+      {logCount > 0 && (
+        <div className="absolute bottom-1 right-1.5 text-[8px] font-mono font-bold text-white/70 bg-white/15 rounded px-0.5">
+          {logCount}×
+        </div>
+      )}
     </Link>
   );
 }
 
 // ─── Typ-rad ──────────────────────────────────────────────────────────────────
-function TypeRow({ type }: { type: string }) {
+function TypeRow({ type, sortBy, logCounts }: { type: string; sortBy: 'body' | 'logged'; logCounts: Record<string, number> }) {
   const cfg = TYPE_CONFIG[type];
   const rowGrapes = allGrapes
     .filter((g) => g.type === type)
     .sort((a, b) => {
+      if (sortBy === 'logged') {
+        const diff = (logCounts[b.id] ?? 0) - (logCounts[a.id] ?? 0);
+        if (diff !== 0) return diff;
+      }
       const bodyDiff = (a.structure?.body ?? 0) - (b.structure?.body ?? 0);
       if (bodyDiff !== 0) return bodyDiff;
       return (b.structure?.acidity ?? 0) - (a.structure?.acidity ?? 0);
@@ -243,7 +269,7 @@ function TypeRow({ type }: { type: string }) {
         style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(90px, 1fr))' }}
       >
         {rowGrapes.map((grape, i) => (
-          <GrapeCell key={grape.id} grape={grape} index={i} />
+          <GrapeCell key={grape.id} grape={grape} index={i} logCount={logCounts[grape.id] ?? 0} />
         ))}
       </div>
     </div>
@@ -286,6 +312,15 @@ function BodyScale() {
 
 // ─── Sida ─────────────────────────────────────────────────────────────────────
 export default function PeriodiskPage() {
+  const [sortBy, setSortBy] = useState<'body' | 'logged'>('body');
+  const [logCounts, setLogCounts] = useState<Record<string, number>>({});
+
+  useEffect(() => {
+    setLogCounts(loadLogCounts());
+  }, []);
+
+  const totalLogged = Object.values(logCounts).reduce((s, n) => s + n, 0);
+
   return (
     <div className="px-4 py-8 max-w-3xl mx-auto">
       <div className="mb-6">
@@ -304,8 +339,32 @@ export default function PeriodiskPage() {
       <Legend />
       <BodyScale />
 
+      {/* Sort toggle */}
+      <div className="flex gap-2 mb-6">
+        <button
+          onClick={() => setSortBy('body')}
+          className={`px-3 py-1.5 rounded-full text-sm font-mono border transition-all ${
+            sortBy === 'body'
+              ? 'bg-wine-600 border-wine-600 text-white'
+              : 'bg-wine-900 border-wine-800 text-wine-500 hover:border-wine-600'
+          }`}
+        >
+          Kropp
+        </button>
+        <button
+          onClick={() => setSortBy('logged')}
+          className={`px-3 py-1.5 rounded-full text-sm font-mono border transition-all ${
+            sortBy === 'logged'
+              ? 'bg-wine-600 border-wine-600 text-white'
+              : 'bg-wine-900 border-wine-800 text-wine-500 hover:border-wine-600'
+          }`}
+        >
+          📓 Mest provade {totalLogged > 0 && `(${totalLogged})`}
+        </button>
+      </div>
+
       {TYPE_ORDER.map((type) => (
-        <TypeRow key={type} type={type} />
+        <TypeRow key={type} type={type} sortBy={sortBy} logCounts={logCounts} />
       ))}
 
       <p className="text-[10px] text-wine-700 font-mono mt-8 border-t border-wine-900 pt-4">

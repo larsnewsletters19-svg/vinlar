@@ -4689,14 +4689,12 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Barbera d'Asti",
-        "country": "Italien",
-        "style": "Fruktig, hög syra, lätt tannin"
+        "name": "Barbera d'Asti, Italien",
+        "description": "Fruktig, hög syra, lätt tannin"
       },
       {
-        "region": "Barbera d'Alba",
-        "country": "Italien",
-        "style": "Mer komplex, ibland ekad"
+        "name": "Barbera d'Alba, Italien",
+        "description": "Mer komplex, ibland ekad"
       }
     ],
     "blindTastingClues": [
@@ -4787,14 +4785,12 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Valpolicella",
-        "country": "Italien",
-        "style": "Lätt, körsbärsfruktig"
+        "name": "Valpolicella, Italien",
+        "description": "Lätt, körsbärsfruktig"
       },
       {
-        "region": "Amarone della Valpolicella",
-        "country": "Italien",
-        "style": "Koncentrerad, torkad frukt, hög alkohol"
+        "name": "Amarone della Valpolicella, Italien",
+        "description": "Koncentrerad, torkad frukt, hög alkohol"
       }
     ],
     "blindTastingClues": [
@@ -4885,14 +4881,12 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Dolcetto d'Alba",
-        "country": "Italien",
-        "style": "Fruktig, lila, bitterhet i avslutning"
+        "name": "Dolcetto d'Alba, Italien",
+        "description": "Fruktig, lila, bitterhet i avslutning"
       },
       {
-        "region": "Dolcetto d'Asti",
-        "country": "Italien",
-        "style": "Lättare och mer fruktig"
+        "name": "Dolcetto d'Asti, Italien",
+        "description": "Lättare och mer fruktig"
       }
     ],
     "blindTastingClues": [
@@ -4984,14 +4978,12 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Stellenbosch",
-        "country": "Sydafrika",
-        "style": "Kraftig, rökig, mörk frukt"
+        "name": "Stellenbosch, Sydafrika",
+        "description": "Kraftig, rökig, mörk frukt"
       },
       {
-        "region": "Swartland",
-        "country": "Sydafrika",
-        "style": "Mer elegant, terroir-driven"
+        "name": "Swartland, Sydafrika",
+        "description": "Mer elegant, terroir-driven"
       }
     ],
     "blindTastingClues": [
@@ -5082,14 +5074,12 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Hermitage Blanc",
-        "country": "Frankrike",
-        "style": "Koncentrerad, lagringsvärd"
+        "name": "Hermitage Blanc, Frankrike",
+        "description": "Koncentrerad, lagringsvärd"
       },
       {
-        "region": "Crozes-Hermitage",
-        "country": "Frankrike",
-        "style": "Lättare och mer omedelbar"
+        "name": "Crozes-Hermitage, Frankrike",
+        "description": "Lättare och mer omedelbar"
       }
     ],
     "blindTastingClues": [
@@ -5180,14 +5170,12 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Châteauneuf-du-Pape Blanc",
-        "country": "Frankrike",
-        "style": "Komplex, blommig"
+        "name": "Châteauneuf-du-Pape Blanc, Frankrike",
+        "description": "Komplex, blommig"
       },
       {
-        "region": "Norra Rhône",
-        "country": "Frankrike",
-        "style": "Blandad med Marsanne"
+        "name": "Norra Rhône, Frankrike",
+        "description": "Blandad med Marsanne"
       }
     ],
     "blindTastingClues": [
@@ -5278,14 +5266,12 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Vinho Verde — Monção & Melgaço",
-        "country": "Portugal",
-        "style": "Premiumversion, komplex och lagringsvärd"
+        "name": "Vinho Verde — Monção & Melgaço, Portugal",
+        "description": "Premiumversion, komplex och lagringsvärd"
       },
       {
-        "region": "Rías Baixas",
-        "country": "Spanien",
-        "style": "Som Albariño — citrus och hav"
+        "name": "Rías Baixas, Spanien",
+        "description": "Som Albariño — citrus och hav"
       }
     ],
     "blindTastingClues": [
@@ -5376,9 +5362,8 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Champagne — Vallée de la Marne",
-        "country": "Frankrike",
-        "style": "Dominant i Vallée de la Marne, ger fruktighet"
+        "name": "Champagne — Vallée de la Marne, Frankrike",
+        "description": "Dominant i Vallée de la Marne, ger fruktighet"
       }
     ],
     "blindTastingClues": [
@@ -5469,14 +5454,12 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Alsace",
-        "country": "Frankrike",
-        "style": "Fyllig, äpple och päron"
+        "name": "Alsace, Frankrike",
+        "description": "Fyllig, äpple och päron"
       },
       {
-        "region": "Alto Adige",
-        "country": "Italien",
-        "style": "Lättare och mer syradriven"
+        "name": "Alto Adige, Italien",
+        "description": "Lättare och mer syradriven"
       }
     ],
     "blindTastingClues": [
@@ -5568,19 +5551,16 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Moscato d'Asti",
-        "country": "Italien",
-        "style": "Lätt, pärlande, sött"
+        "name": "Moscato d'Asti, Italien",
+        "description": "Lätt, pärlande, sött"
       },
       {
-        "region": "Muscat d'Alsace",
-        "country": "Frankrike",
-        "style": "Torrt och blommigt"
+        "name": "Muscat d'Alsace, Frankrike",
+        "description": "Torrt och blommigt"
       },
       {
-        "region": "Muscat de Beaumes-de-Venise",
-        "country": "Frankrike",
-        "style": "Förstärkt, sött"
+        "name": "Muscat de Beaumes-de-Venise, Frankrike",
+        "description": "Förstärkt, sött"
       }
     ],
     "blindTastingClues": [
@@ -5671,9 +5651,8 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Vernaccia di San Gimignano",
-        "country": "Italien",
-        "style": "Frisk, citrus, bittermandelfinish"
+        "name": "Vernaccia di San Gimignano, Italien",
+        "description": "Frisk, citrus, bittermandelfinish"
       }
     ],
     "blindTastingClues": [
@@ -5764,14 +5743,12 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Bourgogne Aligoté",
-        "country": "Frankrike",
-        "style": "Frisk, citrus, mager"
+        "name": "Bourgogne Aligoté, Frankrike",
+        "description": "Frisk, citrus, mager"
       },
       {
-        "region": "Bouzeron",
-        "country": "Frankrike",
-        "style": "Premiumbyn för Aligoté"
+        "name": "Bouzeron, Frankrike",
+        "description": "Premiumbyn för Aligoté"
       }
     ],
     "blindTastingClues": [
@@ -5862,14 +5839,12 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Douro",
-        "country": "Portugal",
-        "style": "Kraftig röd och Port-druva"
+        "name": "Douro, Portugal",
+        "description": "Kraftig röd och Port-druva"
       },
       {
-        "region": "Dão",
-        "country": "Portugal",
-        "style": "Mer elegant och syradriven"
+        "name": "Dão, Portugal",
+        "description": "Mer elegant och syradriven"
       }
     ],
     "blindTastingClues": [
@@ -5960,9 +5935,8 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Rioja",
-        "country": "Spanien",
-        "style": "Blend-druva, ger syra och blommighet"
+        "name": "Rioja, Spanien",
+        "description": "Blend-druva, ger syra och blommighet"
       }
     ],
     "blindTastingClues": [
@@ -6053,14 +6027,12 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Rioja Blanco",
-        "country": "Spanien",
-        "style": "Ekad och fylligare"
+        "name": "Rioja Blanco, Spanien",
+        "description": "Ekad och fylligare"
       },
       {
-        "region": "Cava",
-        "country": "Spanien",
-        "style": "Mousserande, blend-druva"
+        "name": "Cava, Spanien",
+        "description": "Mousserande, blend-druva"
       }
     ],
     "blindTastingClues": [
@@ -6151,14 +6123,12 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Priorat",
-        "country": "Spanien",
-        "style": "Gammal stockar, intensiv och komplex"
+        "name": "Priorat, Spanien",
+        "description": "Gammal stockar, intensiv och komplex"
       },
       {
-        "region": "Languedoc",
-        "country": "Frankrike",
-        "style": "Rustik, blend-druva"
+        "name": "Languedoc, Frankrike",
+        "description": "Rustik, blend-druva"
       }
     ],
     "blindTastingClues": [
@@ -6249,14 +6219,12 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Mosel",
-        "country": "Tyskland",
-        "style": "Lätt, blommig, halvtorr"
+        "name": "Mosel, Tyskland",
+        "description": "Lätt, blommig, halvtorr"
       },
       {
-        "region": "Baden",
-        "country": "Tyskland",
-        "style": "Fruktig och omedelbar"
+        "name": "Baden, Tyskland",
+        "description": "Fruktig och omedelbar"
       }
     ],
     "blindTastingClues": [
@@ -6347,9 +6315,8 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Roero Arneis",
-        "country": "Italien",
-        "style": "Fruktig, mandel, låg syra"
+        "name": "Roero Arneis, Italien",
+        "description": "Fruktig, mandel, låg syra"
       }
     ],
     "blindTastingClues": [
@@ -6439,9 +6406,8 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Rioja",
-        "country": "Spanien",
-        "style": "Blend-druva, ger syra och struktur"
+        "name": "Rioja, Spanien",
+        "description": "Blend-druva, ger syra och struktur"
       }
     ],
     "blindTastingClues": [
@@ -6531,9 +6497,8 @@
     },
     "commonRegionsAndStyles": [
       {
-        "region": "Obermosel",
-        "country": "Tyskland",
-        "style": "Extrem syra, neutral, sekt-bas"
+        "name": "Obermosel, Tyskland",
+        "description": "Extrem syra, neutral, sekt-bas"
       }
     ],
     "blindTastingClues": [

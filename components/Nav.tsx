@@ -24,6 +24,7 @@ const moreMobileNav = [
   { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
       { href: '/etikett', label: 'Etikettläsaren', icon: '🏷️' },
   { href: '/periodisk', label: 'Periodisk', icon: '⚗️' },
+  { href: '/logg', label: 'Min vinlogg', icon: '📓' },
   { href: '/arganger', label: 'Årgångar', icon: '📅' },
 ];
 
@@ -33,6 +34,7 @@ const desktopSections = [
     items: [
       { href: '/druvor', label: 'Druvor', icon: '🍇' },
       { href: '/periodisk', label: 'Periodisk system', icon: '⚗️' },
+      { href: '/logg', label: 'Min vinlogg', icon: '📓' },
       { href: '/regioner', label: 'Regioner', icon: '🌍' },
       { href: '/stilar', label: 'Stilar', icon: '🗺️' },
       { href: '/jamfor', label: 'Jämför', icon: '⚖️' },

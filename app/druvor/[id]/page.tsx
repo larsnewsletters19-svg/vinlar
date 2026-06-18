@@ -1,4 +1,8 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import { notFound } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import grapes from '@/data/grapes.json';
 import aromas from '@/data/aromas.json';
@@ -10,10 +14,6 @@ const allGrapes = grapes as Grape[];
 const allAromas = aromas as Aroma[];
 const allFood = foodPairings as Record<string, { pairings: string[]; tip: string }>;
 
-export function generateStaticParams() {
-  return allGrapes.map((g) => ({ id: g.id }));
-}
-
 const structureKeys: Array<{ key: keyof Grape['structure']; label: string; color: string }> = [
   { key: 'acidity', label: 'Syra', color: 'bg-sky-500' },
   { key: 'body', label: 'Kropp', color: 'bg-amber-500' },
@@ -23,10 +23,23 @@ const structureKeys: Array<{ key: keyof Grape['structure']; label: string; color
   { key: 'oak', label: 'Ek', color: 'bg-stone-500' },
 ];
 
-export default async function GrapePage({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
+export default function GrapePage() {
+  const params = useParams();
+  const id = params?.id as string;
   const grape = allGrapes.find((g) => g.id === id);
-  if (!grape) notFound();
+
+  const [logCount, setLogCount] = useState<number | null>(null);
+
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem('vinlar_logg');
+      if (!raw) { setLogCount(0); return; }
+      const logs: { grapeId: string }[] = JSON.parse(raw);
+      setLogCount(logs.filter(l => l.grapeId === id).length);
+    } catch { setLogCount(0); }
+  }, [id]);
+
+  if (!grape) return notFound();
 
   const isWhite = grape.type === 'white';
   const isSparkling = grape.type === 'sparkling';
@@ -84,12 +97,12 @@ export default async function GrapePage({ params }: { params: Promise<{ id: stri
       <section className="mb-8">
         <h2 className="font-display text-xl text-wine-100 mb-4">Typiska aromer</h2>
         <div className="flex flex-wrap gap-2">
-          {topAromas.map(([id, score]) => {
-            const aroma = aromaMap[id];
+          {topAromas.map(([aromaId, score]) => {
+            const aroma = aromaMap[aromaId];
             if (!aroma) return null;
             return (
               <div
-                key={id}
+                key={aromaId}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium border ${
                   score === 5
                     ? 'bg-amber-400/20 border-amber-400/50 text-amber-300'
@@ -138,6 +151,31 @@ export default async function GrapePage({ params }: { params: Promise<{ id: stri
         </section>
       )}
 
+      {/* Vinlogg-badge */}
+      {logCount !== null && (
+        <div className="mb-8">
+          {logCount === 0 ? (
+            <Link
+              href="/logg"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-wine-900 border border-wine-800 hover:border-wine-600 transition-colors text-sm text-wine-500"
+            >
+              <span>📓</span>
+              <span>Logga ett vin med denna druva</span>
+              <span>→</span>
+            </Link>
+          ) : (
+            <Link
+              href={`/logg?druva=${grape.id}`}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-wine-800 border border-wine-600 hover:border-amber-400 transition-colors text-sm text-wine-200"
+            >
+              <span className="text-amber-400 font-bold">{logCount}×</span>
+              <span>Du har loggat denna druva — se dina anteckningar</span>
+              <span className="text-wine-500">→</span>
+            </Link>
+          )}
+        </div>
+      )}
+
       <section className="mb-8">
         <h2 className="font-display text-xl text-wine-100 mb-4">🔍 Blindprovningsledtrådar</h2>
         <ul className="space-y-2">
@@ -149,7 +187,7 @@ export default async function GrapePage({ params }: { params: Promise<{ id: stri
           ))}
         </ul>
       </section>
-       
+
       <section className="mb-8">
         <h2 className="font-display text-xl text-wine-100 mb-3">🔗 Relaterade druvor</h2>
         <div className="flex flex-wrap gap-2">

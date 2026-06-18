@@ -94,6 +94,13 @@ const sections = [
     desc: 'Hur läser man en fransk, tysk eller italiensk etikett? Guide per land.',
     color: 'from-indigo-900 to-wine-950',
   },
+  {
+    href: '/logg',
+    icon: '📓',
+    title: 'Min vinlogg',
+    desc: 'Logga viner du dricker — appen minns druva, betyg och dina egna ord.',
+    color: 'from-wine-800 to-stone-950',
+  },
   // Träna
   {
     href: '/trana',
