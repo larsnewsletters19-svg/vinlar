@@ -6,66 +6,132 @@ import { Grape } from '@/types';
 
 const allGrapes = grapes as Grape[];
 
-// ─── Typkonfiguration ────────────────────────────────────────────────────────
+// ─── Typkonfiguration (text, subtext, dot behålls) ───────────────────────────
 const TYPE_CONFIG: Record<string, {
   label: string;
   symbol: string;
-  bg: string;
-  border: string;
   text: string;
   subtext: string;
   dot: string;
+  borderBase: string;
+  // Bakgrundsfärger per body 1–5 (ljus → mörk inom typen)
+  bgColors: string[];
+  borderColors: string[];
 }> = {
   white: {
     label: 'Vita druvor',
     symbol: 'V',
-    bg: 'bg-amber-950/40 hover:bg-amber-900/60',
-    border: 'border-amber-700/50 hover:border-amber-500',
-    text: 'text-amber-200',
-    subtext: 'text-amber-500',
+    text: 'text-amber-100',
+    subtext: 'text-amber-400',
     dot: 'bg-amber-400',
+    borderBase: 'border-amber-700/50',
+    bgColors: [
+      '#3d2e0a', // body 1 — ljusast
+      '#4a3810',
+      '#5a4415',
+      '#6b521a',
+      '#7d611f', // body 5 — mörkast
+    ],
+    borderColors: [
+      '#92620033',
+      '#a07a0055',
+      '#b08a0077',
+      '#c09a0099',
+      '#d4aa00bb',
+    ],
   },
   red: {
     label: 'Röda druvor',
     symbol: 'R',
-    bg: 'bg-wine-900/60 hover:bg-wine-800/80',
-    border: 'border-wine-600/50 hover:border-wine-400',
-    text: 'text-wine-100',
-    subtext: 'text-wine-400',
-    dot: 'bg-wine-400',
+    text: 'text-rose-100',
+    subtext: 'text-rose-400',
+    dot: 'bg-rose-400',
+    borderBase: 'border-wine-600/50',
+    bgColors: [
+      '#2d0a0a', // body 1 — ljusast
+      '#3d1010',
+      '#501515',
+      '#661a1a',
+      '#7d1f1f', // body 5 — mörkast
+    ],
+    borderColors: [
+      '#99000033',
+      '#aa000055',
+      '#bb000077',
+      '#cc000099',
+      '#dd1111bb',
+    ],
   },
   rosé: {
     label: 'Rosé',
     symbol: 'Ro',
-    bg: 'bg-pink-950/40 hover:bg-pink-900/60',
-    border: 'border-pink-700/50 hover:border-pink-500',
-    text: 'text-pink-200',
-    subtext: 'text-pink-500',
+    text: 'text-pink-100',
+    subtext: 'text-pink-400',
     dot: 'bg-pink-400',
+    borderBase: 'border-pink-700/50',
+    bgColors: [
+      '#2d0a18',
+      '#3d1022',
+      '#501530',
+      '#661a3d',
+      '#7d1f4a',
+    ],
+    borderColors: [
+      '#cc005533',
+      '#cc006655',
+      '#dd007777',
+      '#dd008899',
+      '#ee0099bb',
+    ],
   },
   sparkling: {
     label: 'Mousserande',
     symbol: 'M',
-    bg: 'bg-teal-950/40 hover:bg-teal-900/60',
-    border: 'border-teal-700/50 hover:border-teal-500',
-    text: 'text-teal-200',
-    subtext: 'text-teal-500',
+    text: 'text-teal-100',
+    subtext: 'text-teal-400',
     dot: 'bg-teal-400',
+    borderBase: 'border-teal-700/50',
+    bgColors: [
+      '#041f1e',
+      '#082d2b',
+      '#0d3d3a',
+      '#124e4a',
+      '#175f5a',
+    ],
+    borderColors: [
+      '#00887733',
+      '#00998855',
+      '#00aa9977',
+      '#00bbaa99',
+      '#00ccbbbb',
+    ],
   },
   sweet: {
     label: 'Söta & förstärkta',
     symbol: 'S',
-    bg: 'bg-yellow-950/40 hover:bg-yellow-900/60',
-    border: 'border-yellow-700/50 hover:border-yellow-500',
-    text: 'text-yellow-200',
-    subtext: 'text-yellow-600',
+    text: 'text-yellow-100',
+    subtext: 'text-yellow-500',
     dot: 'bg-yellow-400',
+    borderBase: 'border-yellow-700/50',
+    bgColors: [
+      '#1f1700',
+      '#2d2200',
+      '#3d2e00',
+      '#4e3b00',
+      '#604800',
+    ],
+    borderColors: [
+      '#88660033',
+      '#99770055',
+      '#aa880077',
+      '#bb990099',
+      '#ccaa00bb',
+    ],
   },
 };
 
 const TYPE_ORDER = ['white', 'red', 'rosé', 'sparkling', 'sweet'];
 
-// ─── Kropp-etiketter ──────────────────────────────────────────────────────────
 const BODY_LABELS: Record<number, string> = {
   1: 'Lätt',
   2: 'Lätt–medel',
@@ -74,7 +140,6 @@ const BODY_LABELS: Record<number, string> = {
   5: 'Fyllig',
 };
 
-// ─── Förkortningstabell ───────────────────────────────────────────────────────
 const ABBREV: Record<string, string> = {
   'Melon de Bourgogne': 'Melon de Bourg.',
   'Sauvignon Blanc': 'Sauv. Blanc',
@@ -84,30 +149,37 @@ const ABBREV: Record<string, string> = {
   'Cabernet Sauvignon': 'Cab. Sauv.',
   'Blaufränkisch': 'Blaufränk.',
   'Touriga Nacional': 'Touriga Nac.',
+  'Pinot Meunier': 'P. Meunier',
+  'Müller-Thurgau': 'Müller-T.',
+  'Carignan / Cariñena': 'Carignan',
+  'Mazuelo / Carignan': 'Mazuelo',
+  'Viura / Macabeo': 'Viura',
+  'Muscat / Moscato': 'Muscat',
 };
 
 function shortName(name: string): string {
   const base = name.split(' / ')[0].split(' (')[0];
-  return ABBREV[base] ?? base;
+  return ABBREV[name] ?? ABBREV[base] ?? base;
 }
 
-// ─── Komponent: en druvecell ──────────────────────────────────────────────────
+// ─── Druvecell ────────────────────────────────────────────────────────────────
 function GrapeCell({ grape, index }: { grape: Grape; index: number }) {
   const cfg = TYPE_CONFIG[grape.type] ?? TYPE_CONFIG.white;
-  const body = grape.structure?.body ?? 0;
+  const body = Math.max(1, Math.min(5, grape.structure?.body ?? 1));
   const acidity = grape.structure?.acidity ?? 0;
   const displayName = shortName(grape.name);
+
+  const bgColor = cfg.bgColors[body - 1];
+  const borderColor = cfg.borderColors[body - 1];
 
   return (
     <Link
       href={`/druvor/${grape.id}`}
-      className={`
-        relative flex flex-col justify-between
-        rounded-lg border p-1.5
-        transition-all duration-150 active:scale-95
-        
-        ${cfg.bg} ${cfg.border}
-      `}
+      className="relative flex flex-col justify-between rounded-lg p-1.5 transition-all duration-150 active:scale-95 border"
+      style={{
+        backgroundColor: bgColor,
+        borderColor: borderColor,
+      }}
       title={grape.name}
     >
       {/* Serienummer */}
@@ -120,11 +192,8 @@ function GrapeCell({ grape, index }: { grape: Grape; index: number }) {
         {cfg.symbol}
       </div>
 
-      {/* Druvans namn — skalad text */}
-      <div
-        className={`font-display font-bold leading-tight text-xs ${cfg.text} mt-0.5`}
-        
-      >
+      {/* Namn */}
+      <div className={`font-display font-bold leading-tight text-xs ${cfg.text} mt-0.5`}>
         {displayName}
       </div>
 
@@ -146,7 +215,7 @@ function GrapeCell({ grape, index }: { grape: Grape; index: number }) {
   );
 }
 
-// ─── Komponent: en typ-rad ────────────────────────────────────────────────────
+// ─── Typ-rad ──────────────────────────────────────────────────────────────────
 function TypeRow({ type }: { type: string }) {
   const cfg = TYPE_CONFIG[type];
   const rowGrapes = allGrapes
@@ -190,10 +259,10 @@ function Legend() {
         <div><div className="font-mono text-wine-300 mb-1">00</div><div>Löpnummer inom kategorin</div></div>
         <div><div className="font-mono text-wine-300 mb-1">•••••</div><div>Kropp (1 lätt → 5 fyllig)</div></div>
         <div><div className="font-mono text-wine-300 mb-1">sy 0/5</div><div>Syranivå</div></div>
-        <div><div className="font-mono text-wine-300 mb-1">V / R / M…</div><div>Kategorisymbol</div></div>
+        <div><div className="font-mono text-wine-300 mb-1">Ljus → Mörk</div><div>Lätt → Fyllig kropp</div></div>
       </div>
       <div className="mt-3 pt-3 border-t border-wine-800">
-        Cellerna sorteras lätt → fyllig inom varje kategori. Klicka för att öppna druvprofilen.
+        Cellerna sorteras lätt → fyllig inom varje kategori. Mörkare cell = fylligare druva. Klicka för druvprofilen.
       </div>
     </div>
   );
@@ -215,7 +284,7 @@ function BodyScale() {
   );
 }
 
-// ─── Huvudsida ────────────────────────────────────────────────────────────────
+// ─── Sida ─────────────────────────────────────────────────────────────────────
 export default function PeriodiskPage() {
   return (
     <div className="px-4 py-8 max-w-3xl mx-auto">
@@ -227,8 +296,8 @@ export default function PeriodiskPage() {
           Periodiska systemet
         </h1>
         <p className="text-wine-300 text-sm leading-relaxed max-w-xl">
-          Alla druvor, appellationer och stilar i appen — ordnade efter kategori och kropp.
-          Klicka på en cell för att öppna profilen.
+          Alla druvor ordnade efter kategori och kropp. Ljusare cell = lättare druva, mörkare = fylligare.
+          Klicka för att öppna profilen.
         </p>
       </div>
 
