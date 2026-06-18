@@ -6,26 +6,23 @@ import { useState } from 'react';
 
 const mainMobileNav = [
   { href: '/druvor', label: 'Druvor', icon: '🍇' },
-  { href: '/jamfor', label: 'Jämför', icon: '⚖️' },
-  { href: '/stilar', label: 'Stilar', icon: '🗺️' },
-  { href: '/trana', label: 'Träna', icon: '🎯' },
-  { href: '/lar-dig', label: 'Lär dig', icon: '🧠' },
-];
-
-const moreMobileNav = [
-  // Utforska
   { href: '/periodisk', label: 'Periodisk', icon: '⚗️' },
   { href: '/logg', label: 'Min vinlogg', icon: '📓' },
   { href: '/regioner', label: 'Regioner', icon: '🌍' },
+];
+
+const moreMobileNav = [
+  { href: '/stilar', label: 'Stilar', icon: '🗺️' },
+  { href: '/jamfor', label: 'Jämför', icon: '⚖️' },
   { href: '/blanda', label: 'Blanda', icon: '🧪' },
   { href: '/arganger', label: 'Årgångar', icon: '📅' },
-  // Lär dig
+  { href: '/lar-dig', label: 'Lär dig', icon: '🧠' },
   { href: '/ordlista', label: 'Ordlista', icon: '📚' },
   { href: '/servering', label: 'Servering', icon: '🌡️' },
   { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
   { href: '/etikett', label: 'Etikettläsaren', icon: '🏷️' },
   { href: '/mat-och-vin', label: 'Mat & Vin', icon: '🍽️' },
-  // Träna
+  { href: '/trana', label: 'Träna', icon: '🎯' },
   { href: '/prova', label: 'Prova', icon: '🍷' },
   { href: '/hemma', label: 'Prova hemma', icon: '🏠' },
   { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },

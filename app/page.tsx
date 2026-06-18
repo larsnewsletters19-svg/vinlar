@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 const sections = [
-  // Utforska
   {
     href: '/druvor',
     icon: '🍇',
@@ -15,6 +14,13 @@ const sections = [
     title: 'Periodiska systemet',
     desc: 'Alla druvor grupperade efter typ och kropp i ett visuellt rutnät.',
     color: 'from-violet-900 to-wine-950',
+  },
+  {
+    href: '/logg',
+    icon: '📓',
+    title: 'Min vinlogg',
+    desc: 'Logga viner du dricker — appen minns druva, betyg och dina egna ord.',
+    color: 'from-wine-800 to-stone-950',
   },
   {
     href: '/regioner',
@@ -51,7 +57,6 @@ const sections = [
     desc: 'Färgkodat rutnät över 12 regioners bästa årgångar.',
     color: 'from-amber-900 to-stone-950',
   },
-  // Lär dig
   {
     href: '/lar-dig',
     icon: '🧠',
@@ -81,13 +86,6 @@ const sections = [
     color: 'from-rose-900 to-wine-950',
   },
   {
-    href: '/mat-och-vin',
-    icon: '🍽️',
-    title: 'Mat & Vin',
-    desc: 'Hur mat påverkar vinet och smarta kombinationer.',
-    color: 'from-orange-900 to-wine-950',
-  },
-  {
     href: '/etikett',
     icon: '🏷️',
     title: 'Etikettläsaren',
@@ -95,13 +93,12 @@ const sections = [
     color: 'from-indigo-900 to-wine-950',
   },
   {
-    href: '/logg',
-    icon: '📓',
-    title: 'Min vinlogg',
-    desc: 'Logga viner du dricker — appen minns druva, betyg och dina egna ord.',
-    color: 'from-wine-800 to-stone-950',
+    href: '/mat-och-vin',
+    icon: '🍽️',
+    title: 'Mat & Vin',
+    desc: 'Hur mat påverkar vinet och smarta kombinationer.',
+    color: 'from-orange-900 to-wine-950',
   },
-  // Träna
   {
     href: '/trana',
     icon: '🎯',
