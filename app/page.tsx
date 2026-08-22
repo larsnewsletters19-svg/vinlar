@@ -131,9 +131,9 @@ const sections = [
 
 export default function Home() {
   return (
-    <div className="px-4 py-10 max-w-2xl mx-auto">
+    <div className="px-4 py-10 max-w-2xl lg:max-w-6xl mx-auto">
       <div className="mb-12 text-center">
-        <h1 className="font-display text-5xl text-wine-100 mb-3">
+        <h1 className="font-display text-5xl lg:text-6xl text-wine-100 mb-3">
           Vin<span className="text-amber-400">Lär</span>
         </h1>
         <p className="text-wine-300 text-lg leading-relaxed max-w-md mx-auto">
@@ -141,7 +141,7 @@ export default function Home() {
         </p>
       </div>
 
-      <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+      <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {sections.map((s) => (
           <li key={s.href + s.title}>
             <Link

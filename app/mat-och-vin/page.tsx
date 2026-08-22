@@ -25,7 +25,7 @@ export default function MatOchVinPage() {
   const activeTrick = selectedTrick ? tricks.find((t) => t.id === selectedTrick) : null;
 
   return (
-    <div className="px-4 py-8 max-w-2xl mx-auto">
+    <div className="px-4 py-8 max-w-2xl lg:max-w-5xl mx-auto">
       <h1 className="font-display text-4xl text-wine-100 mb-2">Mat & Vin</h1>
       <p className="text-wine-300 mb-6 leading-relaxed">
         Hur mat påverkar vinet — och smarta knep för att få dem att passa ihop.
@@ -59,7 +59,7 @@ export default function MatOchVinPage() {
       {activeSection === 'interactions' && (
         <>
           {!activeInteraction ? (
-            <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {interactions.map((item) => (
                 <li key={item.id}>
                   <button
@@ -127,7 +127,7 @@ export default function MatOchVinPage() {
       {activeSection === 'tricks' && (
         <>
           {!activeTrick ? (
-            <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {tricks.map((trick) => (
                 <li key={trick.id}>
                   <button
@@ -169,7 +169,7 @@ export default function MatOchVinPage() {
       {activeSection === 'food' && (
         <>
           {!activeCategory ? (
-            <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {foodCategories.map((cat) => (
                 <li key={cat.id}>
                   <button

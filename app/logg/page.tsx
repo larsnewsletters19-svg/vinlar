@@ -396,7 +396,7 @@ function LoggPageInner() {
     .filter(l => !grapeFilter || l.grapeId === grapeFilter);
 
   return (
-    <div className="px-4 py-8 max-w-2xl mx-auto">
+    <div className="px-4 py-8 max-w-2xl lg:max-w-5xl mx-auto">
       <div className="mb-6">
         <div className="text-[10px] font-mono uppercase tracking-[0.2em] text-wine-500 mb-1">
           {logs.length} viner loggade
@@ -450,7 +450,7 @@ function LoggPageInner() {
       )}
 
       {/* Loggar */}
-      <div className="space-y-3">
+      <div className="space-y-3 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-3">
         {filtered.map(log => (
           <LogCard
             key={log.id}

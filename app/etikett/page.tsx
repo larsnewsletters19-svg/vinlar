@@ -227,7 +227,52 @@ function LabelMockup({ lines }: { lines: { text: string; size: string; color: st
   );
 }
 
-// ─── Landkort ─────────────────────────────────────────────────────────────────
+// ─── Landdetaljer (återanvänds i både accordion och skrivbordspanel) ─────────
+function CountryDetail({ country }: { country: typeof COUNTRIES[0] }) {
+  return (
+    <div className="space-y-6">
+      <p className={`text-sm leading-relaxed ${country.accent}`}>{country.intro}</p>
+
+      {/* Etikett-mockup */}
+      <div>
+        <div className="text-[10px] font-mono uppercase tracking-widest text-wine-500 mb-3">Exempeletikett</div>
+        <LabelMockup lines={country.labelMock.lines} />
+      </div>
+
+      {/* Etikett-element */}
+      <div>
+        <div className="text-[10px] font-mono uppercase tracking-widest text-wine-500 mb-3">Vad du ser på etiketten</div>
+        <div className="space-y-3">
+          {country.elements.map((el) => (
+            <div key={el.term} className="flex gap-3">
+              <span className="text-xl shrink-0 mt-0.5">{el.icon}</span>
+              <div>
+                <span className={`text-xs font-mono px-2 py-0.5 rounded border ${country.tagColor} mr-2`}>
+                  {el.term}
+                </span>
+                <p className="text-wine-400 text-sm leading-relaxed mt-1">{el.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Tips */}
+      <div className="bg-wine-800/60 rounded-xl p-4 border border-wine-700">
+        <div className="text-[10px] font-mono uppercase tracking-widest text-wine-500 mb-2">💡 Tips att minnas</div>
+        <ul className="space-y-1.5">
+          {country.tips.map((tip, i) => (
+            <li key={i} className="flex gap-2 text-sm text-wine-300">
+              <span className="text-amber-400 shrink-0">→</span> {tip}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+// ─── Landkort (accordion, används på mobil/tablet) ───────────────────────────
 function CountryCard({ country, isActive, onToggle }: {
   country: typeof COUNTRIES[0];
   isActive: boolean;
@@ -249,44 +294,8 @@ function CountryCard({ country, isActive, onToggle }: {
       </button>
 
       {isActive && (
-        <div className="bg-wine-900/80 p-5 space-y-6">
-          <p className={`text-sm leading-relaxed ${country.accent}`}>{country.intro}</p>
-
-          {/* Etikett-mockup */}
-          <div>
-            <div className="text-[10px] font-mono uppercase tracking-widest text-wine-500 mb-3">Exempeletikett</div>
-            <LabelMockup lines={country.labelMock.lines} />
-          </div>
-
-          {/* Etikett-element */}
-          <div>
-            <div className="text-[10px] font-mono uppercase tracking-widest text-wine-500 mb-3">Vad du ser på etiketten</div>
-            <div className="space-y-3">
-              {country.elements.map((el) => (
-                <div key={el.term} className="flex gap-3">
-                  <span className="text-xl shrink-0 mt-0.5">{el.icon}</span>
-                  <div>
-                    <span className={`text-xs font-mono px-2 py-0.5 rounded border ${country.tagColor} mr-2`}>
-                      {el.term}
-                    </span>
-                    <p className="text-wine-400 text-sm leading-relaxed mt-1">{el.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Tips */}
-          <div className="bg-wine-800/60 rounded-xl p-4 border border-wine-700">
-            <div className="text-[10px] font-mono uppercase tracking-widest text-wine-500 mb-2">💡 Tips att minnas</div>
-            <ul className="space-y-1.5">
-              {country.tips.map((tip, i) => (
-                <li key={i} className="flex gap-2 text-sm text-wine-300">
-                  <span className="text-amber-400 shrink-0">→</span> {tip}
-                </li>
-              ))}
-            </ul>
-          </div>
+        <div className="bg-wine-900/80 p-5">
+          <CountryDetail country={country} />
         </div>
       )}
     </div>
@@ -297,8 +306,10 @@ function CountryCard({ country, isActive, onToggle }: {
 export default function EtikettPage() {
   const [activeCountry, setActiveCountry] = useState<string | null>('france');
 
+  const activeCountryObj = COUNTRIES.find((c) => c.id === activeCountry) ?? null;
+
   return (
-    <div className="px-4 py-8 max-w-2xl mx-auto">
+    <div className="px-4 py-8 max-w-2xl lg:max-w-5xl mx-auto">
       <div className="mb-8">
         <div className="text-[10px] font-mono uppercase tracking-[0.2em] text-wine-500 mb-1">
           {COUNTRIES.length} länder
@@ -311,32 +322,70 @@ export default function EtikettPage() {
         </p>
       </div>
 
-      {/* Snabbval */}
-      <div className="flex gap-2 flex-wrap mb-6">
-        {COUNTRIES.map((c) => (
-          <button
-            key={c.id}
-            onClick={() => setActiveCountry(activeCountry === c.id ? null : c.id)}
-            className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-all ${
-              activeCountry === c.id
-                ? 'bg-wine-600 border-wine-600 text-white'
-                : 'bg-wine-900 border-wine-700 text-wine-400 hover:border-wine-500'
-            }`}
-          >
-            {c.emoji} {c.name}
-          </button>
-        ))}
+      {/* Mobil/tablet: accordion-lista */}
+      <div className="lg:hidden">
+        <div className="flex gap-2 flex-wrap mb-6">
+          {COUNTRIES.map((c) => (
+            <button
+              key={c.id}
+              onClick={() => setActiveCountry(activeCountry === c.id ? null : c.id)}
+              className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-all ${
+                activeCountry === c.id
+                  ? 'bg-wine-600 border-wine-600 text-white'
+                  : 'bg-wine-900 border-wine-700 text-wine-400 hover:border-wine-500'
+              }`}
+            >
+              {c.emoji} {c.name}
+            </button>
+          ))}
+        </div>
+
+        <div className="space-y-3">
+          {COUNTRIES.map((country) => (
+            <CountryCard
+              key={country.id}
+              country={country}
+              isActive={activeCountry === country.id}
+              onToggle={() => setActiveCountry(activeCountry === country.id ? null : country.id)}
+            />
+          ))}
+        </div>
       </div>
 
-      <div className="space-y-3">
-        {COUNTRIES.map((country) => (
-          <CountryCard
-            key={country.id}
-            country={country}
-            isActive={activeCountry === country.id}
-            onToggle={() => setActiveCountry(activeCountry === country.id ? null : country.id)}
-          />
-        ))}
+      {/* Desktop: landlista vänster + sticky detaljpanel höger */}
+      <div className="hidden lg:grid lg:grid-cols-[260px_1fr] lg:gap-8 lg:items-start">
+        <div className="space-y-2">
+          {COUNTRIES.map((c) => (
+            <button
+              key={c.id}
+              onClick={() => setActiveCountry(c.id)}
+              className={`w-full text-left flex items-center gap-3 p-3 rounded-xl border transition-all ${
+                activeCountry === c.id
+                  ? `bg-gradient-to-r ${c.color} ${c.border}`
+                  : 'bg-wine-900 border-wine-800 hover:border-wine-600'
+              }`}
+            >
+              <span className="text-2xl">{c.emoji}</span>
+              <span className="font-display text-wine-50">{c.name}</span>
+            </button>
+          ))}
+        </div>
+
+        <div className="sticky top-8">
+          {activeCountryObj ? (
+            <div className={`rounded-2xl border p-6 bg-wine-900/80 ${activeCountryObj.border}`}>
+              <div className="flex items-center gap-3 mb-5">
+                <span className="text-3xl">{activeCountryObj.emoji}</span>
+                <span className="font-display text-2xl text-wine-50">{activeCountryObj.name}</span>
+              </div>
+              <CountryDetail country={activeCountryObj} />
+            </div>
+          ) : (
+            <div className="rounded-2xl border border-wine-800 p-8 text-center text-wine-500 text-sm">
+              Välj ett land i listan till vänster.
+            </div>
+          )}
+        </div>
       </div>
 
       <p className="text-[10px] text-wine-700 font-mono mt-8 border-t border-wine-900 pt-4">

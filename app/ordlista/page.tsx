@@ -39,7 +39,7 @@ export default function OrdlistaPage() {
     .filter((c) => c.terms.length > 0);
 
   return (
-    <div className="px-4 py-8 max-w-2xl mx-auto">
+    <div className="px-4 py-8 max-w-2xl lg:max-w-4xl mx-auto">
       <div className="mb-6">
         <div className="text-[10px] font-mono uppercase tracking-[0.2em] text-wine-500 mb-1">
           {allTerms.length} begrepp
@@ -78,9 +78,9 @@ export default function OrdlistaPage() {
 
       {/* Termer */}
       {category === 'all' && !search ? (
-        <div className="space-y-8">
+        <div className="space-y-8 lg:space-y-0 lg:columns-2 lg:gap-8">
           {grouped.map((group) => (
-            <div key={group.id}>
+            <div key={group.id} className="break-inside-avoid-column lg:mb-8">
               <h2 className="font-display text-xl text-wine-200 mb-3 flex items-center gap-2">
                 <span>{group.emoji}</span> {group.label}
                 <span className="text-wine-600 text-sm font-sans font-normal">— {group.terms.length} begrepp</span>
@@ -99,18 +99,21 @@ export default function OrdlistaPage() {
           ))}
         </div>
       ) : (
-        <div className="space-y-2">
+        <div>
           {filtered.length > 0 && (
             <div className="text-wine-500 text-xs font-mono mb-3">{filtered.length} träffar</div>
           )}
-          {filtered.map((term) => (
-            <TermCard
-              key={term.id}
-              term={term}
-              expanded={expanded === term.id}
-              onToggle={() => setExpanded(expanded === term.id ? null : term.id)}
-            />
-          ))}
+          <div className="space-y-2 lg:space-y-0 lg:columns-2 lg:gap-6">
+            {filtered.map((term) => (
+              <div key={term.id} className="break-inside-avoid-column lg:mb-2">
+                <TermCard
+                  term={term}
+                  expanded={expanded === term.id}
+                  onToggle={() => setExpanded(expanded === term.id ? null : term.id)}
+                />
+              </div>
+            ))}
+          </div>
           {filtered.length === 0 && (
             <div className="text-center text-wine-500 py-8">Inga begrepp matchar sökningen.</div>
           )}

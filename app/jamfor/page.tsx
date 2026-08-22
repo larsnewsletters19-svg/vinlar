@@ -118,7 +118,7 @@ export default function JamforPage() {
   );
 
   return (
-    <div className="px-4 py-8 max-w-2xl mx-auto">
+    <div className="px-4 py-8 max-w-2xl lg:max-w-4xl mx-auto">
       <h1 className="font-display text-4xl text-wine-100 mb-2">Jämför</h1>
       <p className="text-wine-300 mb-8 leading-relaxed">
         Välj två druvor och se vad som skiljer dem åt — eller utforska samma druva i olika stilar.
@@ -209,8 +209,8 @@ export default function JamforPage() {
             Välj två olika druvor för att se jämförelsen.
           </div>
         ) : (
-          <>
-            <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800 mb-4">
+          <div className="lg:grid lg:grid-cols-2 lg:gap-4 lg:items-start">
+            <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800 mb-4 lg:mb-0">
               <h3 className="font-display text-lg text-wine-200 mb-5">Smakstruktur</h3>
               <div className="space-y-5">
                 {structureKeys.map(({ key, label }) => {
@@ -241,12 +241,28 @@ const labelB = valB === 0 ? 'Ingen' : structureLabels[key][valB - 1];
               </div>
             </div>
 
-            <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 mb-4">
-              {shared.length > 0 && (
+            <div>
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 lg:grid-cols-1 mb-4">
+                {shared.length > 0 && (
+                  <div className="bg-wine-900 rounded-2xl p-4 border border-wine-800">
+                    <h3 className="text-xs uppercase tracking-wide text-green-400 mb-3">✓ Gemensamt</h3>
+                    <div className="space-y-1.5">
+                      {shared.map((id) => (
+                        <div key={id} className="text-sm text-wine-300 flex items-center gap-1.5">
+                          <span>{aromaNames[id]?.emoji}</span>
+                          <span>{aromaNames[id]?.name ?? id}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
                 <div className="bg-wine-900 rounded-2xl p-4 border border-wine-800">
-                  <h3 className="text-xs uppercase tracking-wide text-green-400 mb-3">✓ Gemensamt</h3>
+                  <h3 className="text-xs uppercase tracking-wide mb-3 flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full" style={{ backgroundColor: COLOR_A }} />
+                    <span style={{ color: COLOR_A }}>{grapeA.name}</span>
+                  </h3>
                   <div className="space-y-1.5">
-                    {shared.map((id) => (
+                    {uniqueA.map((id) => (
                       <div key={id} className="text-sm text-wine-300 flex items-center gap-1.5">
                         <span>{aromaNames[id]?.emoji}</span>
                         <span>{aromaNames[id]?.name ?? id}</span>
@@ -254,53 +270,39 @@ const labelB = valB === 0 ? 'Ingen' : structureLabels[key][valB - 1];
                     ))}
                   </div>
                 </div>
-              )}
-              <div className="bg-wine-900 rounded-2xl p-4 border border-wine-800">
-                <h3 className="text-xs uppercase tracking-wide mb-3 flex items-center gap-1.5">
-                  <span className="w-2 h-2 rounded-full" style={{ backgroundColor: COLOR_A }} />
-                  <span style={{ color: COLOR_A }}>{grapeA.name}</span>
-                </h3>
-                <div className="space-y-1.5">
-                  {uniqueA.map((id) => (
-                    <div key={id} className="text-sm text-wine-300 flex items-center gap-1.5">
-                      <span>{aromaNames[id]?.emoji}</span>
-                      <span>{aromaNames[id]?.name ?? id}</span>
-                    </div>
-                  ))}
+                <div className="bg-wine-900 rounded-2xl p-4 border border-wine-800">
+                  <h3 className="text-xs uppercase tracking-wide mb-3 flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full" style={{ backgroundColor: COLOR_B }} />
+                    <span style={{ color: COLOR_B }}>{grapeB.name}</span>
+                  </h3>
+                  <div className="space-y-1.5">
+                    {uniqueB.map((id) => (
+                      <div key={id} className="text-sm text-wine-300 flex items-center gap-1.5">
+                        <span>{aromaNames[id]?.emoji}</span>
+                        <span>{aromaNames[id]?.name ?? id}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
-              <div className="bg-wine-900 rounded-2xl p-4 border border-wine-800">
-                <h3 className="text-xs uppercase tracking-wide mb-3 flex items-center gap-1.5">
-                  <span className="w-2 h-2 rounded-full" style={{ backgroundColor: COLOR_B }} />
-                  <span style={{ color: COLOR_B }}>{grapeB.name}</span>
-                </h3>
-                <div className="space-y-1.5">
-                  {uniqueB.map((id) => (
-                    <div key={id} className="text-sm text-wine-300 flex items-center gap-1.5">
-                      <span>{aromaNames[id]?.emoji}</span>
-                      <span>{aromaNames[id]?.name ?? id}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
 
-            <div className="bg-amber-900/20 rounded-2xl p-5 border border-amber-800/40">
-              <h3 className="font-display text-lg text-amber-300 mb-3">🔍 Blindprovningstips</h3>
-              <div className="space-y-2 text-sm text-wine-200">
-                {grapeA.blindTastingClues.slice(0, 2).map((clue) => (
-                  <p key={clue}>
-                    <span className="font-medium" style={{ color: COLOR_A }}>{grapeA.name}:</span> {clue}
-                  </p>
-                ))}
-                {grapeB.blindTastingClues.slice(0, 2).map((clue) => (
-                  <p key={clue}>
-                    <span className="font-medium" style={{ color: COLOR_B }}>{grapeB.name}:</span> {clue}
-                  </p>
-                ))}
+              <div className="bg-amber-900/20 rounded-2xl p-5 border border-amber-800/40">
+                <h3 className="font-display text-lg text-amber-300 mb-3">🔍 Blindprovningstips</h3>
+                <div className="space-y-2 text-sm text-wine-200">
+                  {grapeA.blindTastingClues.slice(0, 2).map((clue) => (
+                    <p key={clue}>
+                      <span className="font-medium" style={{ color: COLOR_A }}>{grapeA.name}:</span> {clue}
+                    </p>
+                  ))}
+                  {grapeB.blindTastingClues.slice(0, 2).map((clue) => (
+                    <p key={clue}>
+                      <span className="font-medium" style={{ color: COLOR_B }}>{grapeB.name}:</span> {clue}
+                    </p>
+                  ))}
+                </div>
               </div>
             </div>
-          </>
+          </div>
         )}
       </section>
 
