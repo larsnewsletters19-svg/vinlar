@@ -1,6 +1,7 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
 import servingData from '@/data/serving.json';
 
 type ServingItem = typeof servingData[0];
@@ -144,20 +145,21 @@ function ServingCard({ item, initiallyOpen }: { item: ServingItem; initiallyOpen
 }
 
 // ─── Sida ─────────────────────────────────────────────────────────────────────
-export default function ServeringPage() {
+function ServeringPageInner() {
+  const searchParams = useSearchParams();
+  const qParam = searchParams.get('q');
   const [activeCategory, setActiveCategory] = useState('all');
   const [openId, setOpenId] = useState<string | null>(null);
 
   useEffect(() => {
-    const id = new URLSearchParams(window.location.search).get('q');
-    const item = servingData.find((s) => s.id === id);
+    const item = servingData.find((s) => s.id === qParam);
     if (!item) return;
     setActiveCategory('all');
     setOpenId(item.id);
     setTimeout(() => {
       document.getElementById(`serving-${item.id}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }, 50);
-  }, []);
+  }, [qParam]);
 
   const filtered = servingData.filter(
     (item) => activeCategory === 'all' || item.category === activeCategory
@@ -205,5 +207,13 @@ export default function ServeringPage() {
         Temperaturer är riktlinjer. Rumstemperatur varierar — justera alltid efter faktisk omgivning.
       </p>
     </div>
+  );
+}
+
+export default function ServeringPage() {
+  return (
+    <Suspense fallback={null}>
+      <ServeringPageInner />
+    </Suspense>
   );
 }

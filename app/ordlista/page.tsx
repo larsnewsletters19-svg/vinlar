@@ -1,6 +1,7 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
 import glossary from '@/data/glossary.json';
 
 const allTerms = glossary;
@@ -17,15 +18,16 @@ const categories = [
   { id: 'Druvstilar & tekniker',    label: 'Druvstilar',            emoji: '⚗️' },
 ];
 
-export default function OrdlistaPage() {
+function OrdlistaPageInner() {
+  const searchParams = useSearchParams();
+  const qParam = searchParams.get('q');
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState('all');
   const [expanded, setExpanded] = useState<string | null>(null);
 
   useEffect(() => {
-    const id = new URLSearchParams(window.location.search).get('q');
-    if (!id) return;
-    const term = allTerms.find((t) => t.id === id);
+    if (!qParam) return;
+    const term = allTerms.find((t) => t.id === qParam);
     if (!term) return;
     setCategory('all');
     setSearch(term.term);
@@ -33,7 +35,7 @@ export default function OrdlistaPage() {
     setTimeout(() => {
       document.getElementById(`term-${term.id}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }, 50);
-  }, []);
+  }, [qParam]);
 
   const filtered = allTerms.filter((term) => {
     const matchCat = category === 'all' || term.category === category;
@@ -133,6 +135,14 @@ export default function OrdlistaPage() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function OrdlistaPage() {
+  return (
+    <Suspense fallback={null}>
+      <OrdlistaPageInner />
+    </Suspense>
   );
 }
 

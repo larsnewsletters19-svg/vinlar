@@ -1,11 +1,13 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import regions from '@/data/regions.json';
 import grapes from '@/data/grapes.json';
 import vintages from '@/data/vintages.json';
 import { Grape } from '@/types';
+import { findSubRegionProfile } from '@/lib/searchIndex';
 
 const allRegions = regions;
 const allGrapes = grapes as Grape[];
@@ -54,14 +56,19 @@ function RatingStars({ rating }: { rating: number }) {
   );
 }
 
-export default function RegionerPage() {
+function RegionerPageInner() {
+  const searchParams = useSearchParams();
+  const qParam = searchParams.get('q');
   const [activeCountry, setActiveCountry] = useState('all');
   const [selected, setSelected] = useState<string | null>(null);
 
   useEffect(() => {
-    const id = new URLSearchParams(window.location.search).get('q');
-    if (id && allRegions.some((r) => r.id === id)) setSelected(id);
-  }, []);
+    if (qParam && allRegions.some((r) => r.id === qParam)) {
+      setSelected(qParam);
+    } else if (!qParam) {
+      setSelected(null);
+    }
+  }, [qParam]);
   const [activeTab, setActiveTab] = useState<'profil' | 'arganger'>('profil');
 
   const activeDef = countries.find((c) => c.id === activeCountry)!;
@@ -233,12 +240,7 @@ export default function RegionerPage() {
                     <h3 className="text-xs uppercase tracking-widest text-wine-500 mb-3">🗺️ Delregioner</h3>
                     <div className="flex flex-wrap gap-2">
                       {activeRegion.subRegions.map((sub) => {
-                        const subWords = sub.toLowerCase().split(/\s+/).filter((w) => w !== 'rioja' && w.length > 2);
-                        const profile = allRegions.find(
-                          (r) =>
-                            r.parentRegionId === activeRegion.id &&
-                            (r.name === sub || subWords.some((w) => r.name.toLowerCase().includes(w)))
-                        );
+                        const profile = findSubRegionProfile(sub, activeRegion.id);
                         return profile ? (
                           <button
                             key={sub}
@@ -310,5 +312,13 @@ export default function RegionerPage() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function RegionerPage() {
+  return (
+    <Suspense fallback={null}>
+      <RegionerPageInner />
+    </Suspense>
   );
 }

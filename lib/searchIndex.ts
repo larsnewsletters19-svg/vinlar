@@ -64,13 +64,28 @@ const regionResults: SearchResult[] = regions.map((r) => ({
   href: `/regioner?q=${r.id}`,
 }));
 
-function hasProfile(sub: string, parentId: string): boolean {
-  const subWords = sub.toLowerCase().split(/\s+/).filter((w) => w !== 'rioja' && w.length > 2);
-  return regions.some(
-    (r) =>
-      r.parentRegionId === parentId &&
-      (r.name.toLowerCase() === sub.toLowerCase() || subWords.some((w) => r.name.toLowerCase().includes(w)))
+export function findSubRegionProfile(sub: string, parentId: string): (typeof regions)[number] | undefined {
+  const subLower = sub.toLowerCase();
+  const subWords = subLower.split(/\s+/).filter((w) => w !== 'rioja' && w.length > 2);
+
+  // 1. Exakt namnmatchning, oavsett parentRegionId (täcker fall som Barolo & Barbaresco,
+  //    som inte är formellt kopplad som barn men ändå är "svaret" på Piemontes "Barolo"-tagg).
+  //    En region kan aldrig matcha sig själv — annars skulle t.ex. "Barolo & Barbaresco"s
+  //    egen kommun "Barolo" råka länka tillbaka till sin egen sida (självlänk, ser trasig ut).
+  const exact = regions.find((r) => r.id !== parentId && r.name.toLowerCase() === subLower);
+  if (exact) return exact;
+
+  // 2. Kräv att ALLA betydelsebärande ord finns i kandidatens namn, för att undvika att t.ex.
+  //    "Moscato d'Asti" och "Barbera d'Asti" råkar matcha varandra via det delade ordet "d'Asti".
+  //    Prioritera kandidater med samma parentRegionId, annars vilken region som helst (utom sig själv).
+  const candidates = regions.filter(
+    (r) => r.id !== parentId && subWords.every((w) => r.name.toLowerCase().includes(w))
   );
+  return candidates.find((r) => r.parentRegionId === parentId) ?? candidates[0];
+}
+
+function hasProfile(sub: string, parentId: string): boolean {
+  return !!findSubRegionProfile(sub, parentId);
 }
 
 const subRegionResults: SearchResult[] = regions.flatMap((r) =>

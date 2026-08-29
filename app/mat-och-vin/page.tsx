@@ -1,6 +1,7 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
 import foodAndWine from '@/data/foodAndWine.json';
 import grapes from '@/data/grapes.json';
 import { Grape } from '@/types';
@@ -14,28 +15,28 @@ const sections = [
   { id: 'food', label: 'Välj maträtt', emoji: '🍽️' },
 ];
 
-export default function MatOchVinPage() {
+function MatOchVinPageInner() {
+  const searchParams = useSearchParams();
+  const qParam = searchParams.get('q');
+  const typeParam = searchParams.get('type');
   const [activeSection, setActiveSection] = useState('interactions');
   const [selectedInteraction, setSelectedInteraction] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedTrick, setSelectedTrick] = useState<string | null>(null);
 
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const id = params.get('q');
-    const type = params.get('type');
-    if (!id) return;
-    if (type === 'category' && foodCategories.some((c) => c.id === id)) {
+    if (!qParam) return;
+    if (typeParam === 'category' && foodCategories.some((c) => c.id === qParam)) {
       setActiveSection('food');
-      setSelectedCategory(id);
-    } else if (type === 'interaction' && interactions.some((i) => i.id === id)) {
+      setSelectedCategory(qParam);
+    } else if (typeParam === 'interaction' && interactions.some((i) => i.id === qParam)) {
       setActiveSection('interactions');
-      setSelectedInteraction(id);
-    } else if (type === 'trick' && tricks.some((t) => t.id === id)) {
+      setSelectedInteraction(qParam);
+    } else if (typeParam === 'trick' && tricks.some((t) => t.id === qParam)) {
       setActiveSection('tricks');
-      setSelectedTrick(id);
+      setSelectedTrick(qParam);
     }
-  }, []);
+  }, [qParam, typeParam]);
 
   const activeInteraction = selectedInteraction ? interactions.find((i) => i.id === selectedInteraction) : null;
   const activeCategory = selectedCategory ? foodCategories.find((c) => c.id === selectedCategory) : null;
@@ -256,5 +257,13 @@ export default function MatOchVinPage() {
         </>
       )}
     </div>
+  );
+}
+
+export default function MatOchVinPage() {
+  return (
+    <Suspense fallback={null}>
+      <MatOchVinPageInner />
+    </Suspense>
   );
 }
