@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import foodAndWine from '@/data/foodAndWine.json';
 import grapes from '@/data/grapes.json';
 import { Grape } from '@/types';
@@ -19,6 +19,23 @@ export default function MatOchVinPage() {
   const [selectedInteraction, setSelectedInteraction] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedTrick, setSelectedTrick] = useState<string | null>(null);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('q');
+    const type = params.get('type');
+    if (!id) return;
+    if (type === 'category' && foodCategories.some((c) => c.id === id)) {
+      setActiveSection('food');
+      setSelectedCategory(id);
+    } else if (type === 'interaction' && interactions.some((i) => i.id === id)) {
+      setActiveSection('interactions');
+      setSelectedInteraction(id);
+    } else if (type === 'trick' && tricks.some((t) => t.id === id)) {
+      setActiveSection('tricks');
+      setSelectedTrick(id);
+    }
+  }, []);
 
   const activeInteraction = selectedInteraction ? interactions.find((i) => i.id === selectedInteraction) : null;
   const activeCategory = selectedCategory ? foodCategories.find((c) => c.id === selectedCategory) : null;

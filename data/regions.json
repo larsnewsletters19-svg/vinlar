@@ -1002,5 +1002,1582 @@
     ],
     "climate": "Kontinentalt med Donaus temperaturutjämnande effekt",
     "soil": "Gnejs och granit — ger mineralitet"
+  },
+  {
+    "id": "chablis",
+    "name": "Chablis",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "bourgogne",
+    "shortDescription": "Nordligaste delen av Bourgogne. Oekad, knivskarp Chardonnay med tydlig mineralitet från kalkstensjorden — en helt egen stil jämfört med resten av Bourgogne.",
+    "mainGrapes": [
+      "Chardonnay"
+    ],
+    "typicalStyle": "Blekt grönguld i glaset, hög syra, citrus och grönt äpple med en distinkt flintig/mineralisk ton. Sällan eller mycket diskret ek. Premier Cru och Grand Cru har mer djup och lagringspotential.",
+    "subRegions": [],
+    "foodPairings": [
+      "Ostron",
+      "Skaldjur",
+      "Get­ost",
+      "Sushi"
+    ],
+    "blindTastingClues": [
+      "Ingen eller mycket diskret ek trots att det är Chardonnay",
+      "Flinta/våt sten (\"gunflint\")",
+      "Skarp, hög syra",
+      "Grönt äpple och citron snarare än tropisk frukt",
+      "Kylig, sval doftbild"
+    ],
+    "famousProducers": [
+      "William Fèvre",
+      "Louis Michel",
+      "Domaine Raveneau",
+      "Billaud-Simon"
+    ],
+    "climate": "Svalt kontinentalt, nordligast i Bourgogne",
+    "soil": "Kimmeridge-kalksten med fossila ostronskal"
+  },
+  {
+    "id": "sancerre",
+    "name": "Sancerre",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "loire",
+    "shortDescription": "Östra Loire. Referenspunkten för torr, syrlig Sauvignon Blanc — grönt, friskt och rökigt/flintigt beroende på jordmån.",
+    "mainGrapes": [
+      "Sauvignon Blanc",
+      "Pinot Noir"
+    ],
+    "typicalStyle": "Krispig, hög syra, grapefrukt, krossade gröna blad, krut/flinta och ibland en grön paprika-ton. Röda och rosé-versioner på Pinot Noir finns men är mindre kända.",
+    "subRegions": [],
+    "foodPairings": [
+      "Get­ost (t.ex. Crottin de Chavignol)",
+      "Skaldjur",
+      "Sparris",
+      "Sushi"
+    ],
+    "blindTastingClues": [
+      "Grapefrukt och krossat gräs",
+      "Krut/flintig rökighet, särskilt från silex-jordar",
+      "Mycket hög syra",
+      "Ingen ek",
+      "Ofta grönare/skarpare än Sauvignon Blanc från Nya Zeeland"
+    ],
+    "famousProducers": [
+      "Henri Bourgeois",
+      "Pascal Jolivet",
+      "Domaine Vacheron",
+      "François Cotat"
+    ],
+    "climate": "Svalt kontinentalt",
+    "soil": "Kalksten, flinta (silex) och lera beroende på delområde"
+  },
+  {
+    "id": "vouvray",
+    "name": "Vouvray",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "loire",
+    "shortDescription": "Centrala Loire. Chenin Blanc i alla sötmagrader — torrt (sec), halvtorrt (demi-sec), sött (moelleux) och mousserande — vilket gör den svår men lärorik att känna igen blint.",
+    "mainGrapes": [
+      "Chenin Blanc"
+    ],
+    "typicalStyle": "Hög syra bär upp allt från knastertorrt till honungssött. Kvitten, honung, våt ull/lanolin och blommighet. Kan lagras mycket länge tack vare syran.",
+    "subRegions": [],
+    "foodPairings": [
+      "Fläsk med äpple",
+      "Get­ost",
+      "Thaimat (halvtorrt)",
+      "Foie gras (sött)"
+    ],
+    "blindTastingClues": [
+      "Kvitten och honung",
+      "Våt ull/lanolin-ton typisk för Chenin Blanc",
+      "Mycket hög syra oavsett sötma",
+      "Sötmanivån måste avgöras separat — fråga inte bara \"vilken druva\"",
+      "Kan förväxlas med Riesling pga syra, men saknar petroleumton"
+    ],
+    "famousProducers": [
+      "Domaine Huet",
+      "François Pinon",
+      "Domaine du Clos Naudin"
+    ],
+    "climate": "Tempererat, Atlantiskt influerat",
+    "soil": "Kalksten (tuffeau) och flinta"
+  },
+  {
+    "id": "chateauneuf-du-pape",
+    "name": "Châteauneuf-du-Pape",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "rhone",
+    "shortDescription": "Södra Rhônes mest namnkunniga appellation. Kraftfull, varm blend byggd på Grenache, ofta med upp till 13 tillåtna druvsorter — det klassiska GSM-vinet (Grenache/Syrah/Mourvèdre).",
+    "mainGrapes": [
+      "Grenache",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "typicalStyle": "Fyllig, varm alkoholnivå, mogen mörk frukt, kryddor, garrigue (medelhavsbuskage) och ofta en läderton. Rundare tannin än norra Rhône.",
+    "subRegions": [],
+    "foodPairings": [
+      "Lammgryta",
+      "Vilt",
+      "Kryddiga grytor",
+      "Hårdlagrad ost"
+    ],
+    "blindTastingClues": [
+      "Garrigue — torkade medelhavsörter, lavendel, tallbarr",
+      "Hög alkohol och fyllighet trots att det oftast är Grenache-dominerat",
+      "Runda, mogna tannin snarare än stram struktur",
+      "De berömda runda \"galets\"-stenarna i vingårdarna nämns ofta i vinbeskrivningar",
+      "Läder och kryddpeppar med ålder"
+    ],
+    "famousProducers": [
+      "Château de Beaucastel",
+      "Château Rayas",
+      "Clos des Papes",
+      "Domaine du Pégau"
+    ],
+    "climate": "Medelhavsklimat, mycket sol och mistral-vind",
+    "soil": "Stora rullstenar (galets) ovanpå lera och sand"
+  },
+  {
+    "id": "condrieu",
+    "name": "Condrieu",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "rhone",
+    "shortDescription": "Liten appellation i norra Rhône och referenspunkten för Viognier — aromatisk, oljig och parfymerad vit vin utan den skarpa syran man ofta väntar sig.",
+    "mainGrapes": [
+      "Viognier"
+    ],
+    "typicalStyle": "Aprikos, persika, vitblomma (särskilt akacia) och en distinkt oljig, len textur. Låg-medelhög syra, ofta lite ek för runda konturer.",
+    "subRegions": [],
+    "foodPairings": [
+      "Skaldjur i grädde",
+      "Fläskfilé",
+      "Asiatisk mat med kokos",
+      "Mjuk get­ost"
+    ],
+    "blindTastingClues": [
+      "Aprikos och persika snarare än citrus",
+      "Distinkt parfymerad, nästan som blommig olja",
+      "Låg-medelhög syra — ovanligt för ett vitt franskt vin",
+      "Len, nästan oljig textur i munnen",
+      "Kort lagringspotential jämfört med andra vita Rhône-viner"
+    ],
+    "famousProducers": [
+      "Georges Vernay",
+      "Guigal",
+      "Yves Cuilleron",
+      "André Perret"
+    ],
+    "climate": "Kontinentalt med sydlig sol, branta terrasser",
+    "soil": "Granit och glimmerskiffer"
+  },
+  {
+    "id": "hermitage",
+    "name": "Hermitage",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "rhone",
+    "shortDescription": "Brant kulle i norra Rhône och en av Syrahs mest prestigefyllda hemvister. Djupa, tanninrika, mycket lagringsvärda röda viner samt ett litet vitt uttryck på Marsanne/Roussanne.",
+    "mainGrapes": [
+      "Syrah",
+      "Marsanne",
+      "Roussanne"
+    ],
+    "typicalStyle": "Mörk frukt, svartpeppar, olivtapenade, rök och blommighet (violer) i ungdomen; utvecklar tryffel och läder med ålder. Fast tanninstruktur och lång lagringspotential.",
+    "subRegions": [],
+    "foodPairings": [
+      "Vilt",
+      "Grillat lamm",
+      "Kraftiga grytor",
+      "Hårdlagrad ost"
+    ],
+    "blindTastingClues": [
+      "Svartpeppar och rök — klassiskt norra Rhône-Syrah",
+      "Violdoft i ungdomen",
+      "Fast, kompakt tanninstruktur",
+      "Olivtapenade/köttig ton",
+      "Utvecklar tryffel och läder efter många år på flaska"
+    ],
+    "famousProducers": [
+      "Jean-Louis Chave",
+      "Paul Jaboulet Aîné (La Chapelle)",
+      "M. Chapoutier"
+    ],
+    "climate": "Kontinentalt, mycket sol på den branta sydvända kullen",
+    "soil": "Granit högre upp, kalkhaltig lera och grus nedanför"
+  },
+  {
+    "id": "cote-rotie",
+    "name": "Côte-Rôtie",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "rhone",
+    "shortDescription": "\"Den stekta sluttningen\" — extremt branta terrasser i norra Rhône. Elegant, parfymerad Syrah som ofta samjäses med en liten andel Viognier för arom och lyster.",
+    "mainGrapes": [
+      "Syrah",
+      "Viognier"
+    ],
+    "typicalStyle": "Mer parfymerad och elegant än Hermitage — violer, aprikos (från Viognier-inslaget), rökt bacon och mörka bär. Silkigare tannin.",
+    "subRegions": [],
+    "foodPairings": [
+      "Anka",
+      "Lamm",
+      "Vilt",
+      "Rökta rätter"
+    ],
+    "blindTastingClues": [
+      "Violdoft kombinerat med en aprikos-ton (Viognier-inslaget)",
+      "Rökt bacon/spänn-ton typisk för norra Rhône-Syrah",
+      "Silkigare, mer polerat tannin än Hermitage",
+      "Hög elegans i förhållande till kraft",
+      "Branta terrasser gör produktionen liten — ofta dyrare än Hermitage"
+    ],
+    "famousProducers": [
+      "Guigal (La Mouline, La Landonne, La Turque)",
+      "René Rostaing",
+      "Jamet"
+    ],
+    "climate": "Kontinentalt, extremt branta sydostvända terrasser",
+    "soil": "Glimmerskiffer (Côte Brune) och kalkhaltig sand (Côte Blonde)"
+  },
+  {
+    "id": "medoc",
+    "name": "Médoc",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "bordeaux",
+    "shortDescription": "Bordeaux vänstra bank. Grusjordar som passar Cabernet Sauvignon perfekt — hem för många av världens mest berömda château, inklusive Pauillac, Margaux och Saint-Julien.",
+    "mainGrapes": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Petit Verdot"
+    ],
+    "typicalStyle": "Strukturerat, tanninrikt och lagringsvärt. Svarta vinbär, ceder och grafit i ungdomen, utvecklas mot tobak och läder med ålder.",
+    "subRegions": [
+      "Pauillac",
+      "Margaux",
+      "Saint-Julien",
+      "Saint-Estèphe"
+    ],
+    "foodPairings": [
+      "Lammracks",
+      "Biff",
+      "Hårdost",
+      "Anka"
+    ],
+    "blindTastingClues": [
+      "Svarta vinbär och ceder",
+      "Grafit/blyertsmina — klassiskt för grusjordar med Cabernet Sauvignon",
+      "Högt tannin, kräver ofta lagring",
+      "Elegantare struktur än Napa Cabernet",
+      "Ofta blend, sällan en enda druva"
+    ],
+    "famousProducers": [
+      "Château Latour",
+      "Château Margaux",
+      "Château Lafite Rothschild",
+      "Château Mouton Rothschild"
+    ],
+    "climate": "Oceaniskt, milt med Atlantens värmereglerande effekt",
+    "soil": "Djupt grus ovanpå lera och kalksten — dränerande och värmelagrande"
+  },
+  {
+    "id": "saint-emilion",
+    "name": "Saint-Émilion",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "bordeaux",
+    "shortDescription": "Bordeaux högra bank. Merlot- och Cabernet Franc-dominerade viner på lerig kalksten — mjukare och rundare tannin än vänstra bankens Cabernet-blendar.",
+    "mainGrapes": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "typicalStyle": "Mjukare, rundare tannin och mer fruktdriven än Médoc. Plommon, körsbär, tryffel och en mullig, jordig underton.",
+    "subRegions": [],
+    "foodPairings": [
+      "Anka",
+      "Nötkött",
+      "Svamprätter",
+      "Mjuk lagrad ost"
+    ],
+    "blindTastingClues": [
+      "Plommon och mörka körsbär snarare än svarta vinbär",
+      "Mjukare, rundare tannin än Médoc",
+      "Tryffel och mullig jordton",
+      "Cabernet Franc bidrar med en grönpepprig/örtig underton",
+      "Ofta mer tillgängligt ungt än Médoc"
+    ],
+    "famousProducers": [
+      "Château Cheval Blanc",
+      "Château Ausone",
+      "Château Angélus",
+      "Château Pavie"
+    ],
+    "climate": "Oceaniskt, något varmare mikroklimat än Médoc",
+    "soil": "Kalksten och lera, sandigare mot Pomerol-gränsen"
+  },
+  {
+    "id": "pomerol",
+    "name": "Pomerol",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "bordeaux",
+    "shortDescription": "Liten, prestigefylld appellation på Bordeaux högra bank. Nästan uteslutande Merlot på järnrik lera — hem för det ikoniska Château Pétrus.",
+    "mainGrapes": [
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "typicalStyle": "Sammetslen, fyllig och parfymerad med plommon, mörka körsbär, tryffel och en distinkt mullig/järnig ton från lerjorden. Ofta det rundaste och mest tillgängliga uttrycket i Bordeaux.",
+    "subRegions": [],
+    "foodPairings": [
+      "Anka",
+      "Vilt",
+      "Svamprätter",
+      "Kalvkött"
+    ],
+    "blindTastingClues": [
+      "Nästan uteslutande Merlot — mjukast tannin i hela Bordeaux",
+      "Plommon och mörka körsbär, ofta mycket koncentrerat",
+      "Mullig, järnig underton från lerjorden",
+      "Ingen officiell klassificering (till skillnad från Médoc/Saint-Émilion) trots hög prestige",
+      "Liten produktion gör vinerna sällsynta och dyra"
+    ],
+    "famousProducers": [
+      "Château Pétrus",
+      "Château Le Pin",
+      "Vieux Château Certan"
+    ],
+    "climate": "Oceaniskt",
+    "soil": "Järnrik lera (\"crasse de fer\") och grus"
+  },
+  {
+    "id": "sauternes",
+    "name": "Sauternes",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "bordeaux",
+    "shortDescription": "Söta Bordeaux, söder om staden. Ädelröta (botrytis) koncentrerar socker och syra i Semillon och Sauvignon Blanc till ett av världens mest berömda dessertviner.",
+    "mainGrapes": [
+      "Semillon",
+      "Sauvignon Blanc",
+      "Muscadelle"
+    ],
+    "typicalStyle": "Gyllene färg, honung, aprikos, saffran och en distinkt botrytis-ton (ofta beskriven som ingefära eller marmelad). Balanserad av hög syra trots sötman.",
+    "subRegions": [],
+    "foodPairings": [
+      "Foie gras",
+      "Blåmögelost (t.ex. Roquefort)",
+      "Fruktbaserade desserter",
+      "Crème brûlée"
+    ],
+    "blindTastingClues": [
+      "Botrytis-ton — ofta beskriven som ingefära, safran eller marmelad",
+      "Hög sötma balanserad av hög syra — aldrig sirapigt",
+      "Aprikos och honung dominerar framför tropisk frukt",
+      "Semillon ger vaxig fyllighet, Sauvignon Blanc ger lyftande syra",
+      "Guldig till bärnstensfärgad ton, mörknar med ålder"
+    ],
+    "famousProducers": [
+      "Château d'Yquem",
+      "Château Rieussec",
+      "Château Suduiraut"
+    ],
+    "climate": "Oceaniskt med morgondimma från floderna Ciron och Garonne — avgörande för botrytis",
+    "soil": "Grus ovanpå kalksten och lera"
+  },
+  {
+    "id": "chianti-classico",
+    "name": "Chianti Classico",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "parentRegionId": "toscana",
+    "shortDescription": "Det historiska hjärtat av Chianti-området, mellan Florens och Siena. Referenspunkten för Sangiovese — hög syra, torrt tannin och en distinkt körsbärskaraktär.",
+    "mainGrapes": [
+      "Sangiovese"
+    ],
+    "typicalStyle": "Torr körsbär, tomat på ranka, torkade örter och en jordig, ibland lite rustik ton. Hög syra och kärvt tannin i ungdomen, mjuknar med lagring. Gallo Nero (svart tupp) på flaskan signalerar äkta Chianti Classico.",
+    "subRegions": [],
+    "foodPairings": [
+      "Pasta med tomatsås",
+      "Grillat kött",
+      "Pizza",
+      "Salumi"
+    ],
+    "blindTastingClues": [
+      "Körsbär och torkad tomat/tomat på ranka",
+      "Hög syra — Sangioveses signum",
+      "Kärvt, torrt tannin",
+      "Torkade örter (oregano-liknande) och en jordig ton",
+      "Gallo Nero-emblemet på flaskan är ett äkthetsbevis för Chianti Classico"
+    ],
+    "famousProducers": [
+      "Fontodi",
+      "Castello di Ama",
+      "Felsina",
+      "Antinori (Badia a Passignano)"
+    ],
+    "climate": "Kontinentalt med varma dagar och svala nätter i kuperad terräng",
+    "soil": "Galestro (lös skiffer) och alberese (kalksten)"
+  },
+  {
+    "id": "brunello-di-montalcino",
+    "name": "Brunello di Montalcino",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "parentRegionId": "toscana",
+    "shortDescription": "Varmare och torrare klon av Sangiovese (kallad \"Brunello\") odlad kring staden Montalcino. Kraftfullare, mer koncentrerad och mer lagringsvärd än Chianti — obligatoriskt minst 5 års lagring, varav 2 på ekfat.",
+    "mainGrapes": [
+      "Sangiovese"
+    ],
+    "typicalStyle": "Djupare och mer koncentrerad än Chianti Classico — mörka körsbär, plommon, lakrits och läder. Fastare tanninstruktur och högre alkohol, mycket lagringsvärt.",
+    "subRegions": [],
+    "foodPairings": [
+      "Vilt",
+      "Grillat lammkött",
+      "Lagrad pecorino",
+      "Kraftiga köttgrytor"
+    ],
+    "blindTastingClues": [
+      "Mörkare och mer koncentrerat än Chianti Classico trots samma druva",
+      "Lakrits och läder i tillägg till körsbär",
+      "Fastare, mer strukturerat tannin",
+      "Högre alkoholhalt än de flesta andra Sangiovese-viner",
+      "Lång obligatorisk lagring gör vinerna sällan tillgängliga unga"
+    ],
+    "famousProducers": [
+      "Biondi-Santi",
+      "Casanova di Neri",
+      "Il Poggione",
+      "Poggio di Sotto"
+    ],
+    "climate": "Varmare och torrare än övriga Toscana tack vare högre läge och avstånd till kusten",
+    "soil": "Blandad — galestro, lera och sandsten beroende på sluttning"
+  },
+  {
+    "id": "amarone-della-valpolicella",
+    "name": "Amarone della Valpolicella",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "parentRegionId": "veneto",
+    "shortDescription": "Norra Italiens mäktigaste röda vin. Druvorna torkas i flera månader (appassimento) innan jäsning, vilket koncentrerar socker och smak till ett fylligt, nästan portvinslikt torrt vin.",
+    "mainGrapes": [
+      "Corvina",
+      "Corvinone",
+      "Rondinella"
+    ],
+    "typicalStyle": "Mycket fylligt och kraftfullt, hög alkohol (ofta 15%+), torkad körsbär och russin, choklad, kryddor och en distinkt \"amaro\" (bitter) fond i eftersmaken trots att vinet är torrt.",
+    "subRegions": [],
+    "foodPairings": [
+      "Kraftiga köttgrytor",
+      "Lagrad hårdost",
+      "Vilt",
+      "Choklad (mörk)"
+    ],
+    "blindTastingClues": [
+      "Torkad frukt (russin, fikon) snarare än färsk — resultat av appassimento-torkningen",
+      "Mycket hög alkohol men vinet är torrt, inte sött",
+      "Bitter (\"amaro\") ton i eftersmaken ger namnet",
+      "Fyllig, nästan sirapig konsistens utan att vara sött",
+      "Choklad- och kryddtoner från lång jäsning och lagring"
+    ],
+    "famousProducers": [
+      "Giuseppe Quintarelli",
+      "Dal Forno Romano",
+      "Allegrini",
+      "Tommasi"
+    ],
+    "climate": "Milt, med torkningsprocessen (appassimento) genomförd inomhus efter skörd",
+    "soil": "Kalksten och vulkaniska jordar i de kuperade dalarna"
+  },
+  {
+    "id": "soave",
+    "name": "Soave",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "parentRegionId": "veneto",
+    "shortDescription": "Referenspunkten för Garganega — ett lättdrucket, blommigt vitt vin från kullarna öster om Verona. Klassico- och Superiore-versionerna från de bästa vulkaniska sluttningarna har betydligt mer djup.",
+    "mainGrapes": [
+      "Garganega",
+      "Trebbiano di Soave"
+    ],
+    "typicalStyle": "Lätt till medelfylligt, citrus, grönt äpple, mandel och en karaktäristisk blommig/honungsartad ton. Klassico-viner från vulkanisk jord har mer mineralitet och djup.",
+    "subRegions": [],
+    "foodPairings": [
+      "Skaldjur",
+      "Risotto",
+      "Lätt pasta",
+      "Sushi"
+    ],
+    "blindTastingClues": [
+      "Mandel-ton är ett kännetecken för Garganega",
+      "Blommighet kombinerat med citrus och grönt äpple",
+      "Lättare kropp än de flesta vita druvor från varmare Italien",
+      "Klassico/Superiore från vulkanjord ger mer mineralitet",
+      "Ofta undervärderat — mycket enklare bulk-Soave finns också på marknaden"
+    ],
+    "famousProducers": [
+      "Pieropan",
+      "Inama",
+      "Gini"
+    ],
+    "climate": "Milt, med kyliga inslag från kuperad terräng",
+    "soil": "Vulkanisk basalt (Classico) och alluvial slätt (Soave DOC)"
+  },
+  {
+    "id": "prosecco",
+    "name": "Prosecco",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "parentRegionId": "veneto",
+    "shortDescription": "Italiens mest sålda mousserande vin. Tillverkas med tankjäsning (Charmat-metoden) snarare än flaskjäsning, vilket ger ett fräscht, fruktigt och prisvärt bubbel utan brödig autolys-karaktär.",
+    "mainGrapes": [
+      "Glera"
+    ],
+    "typicalStyle": "Fräscht, fruktigt med päron, grönt äpple och vita blommor. Fin, mjuk mousse snarare än fin champagnepärla. Sällan årgångsangivet, oftast Extra Dry eller Brut.",
+    "subRegions": [],
+    "foodPairings": [
+      "Aperitif",
+      "Lätta förrätter",
+      "Sushi",
+      "Fruktdesserter"
+    ],
+    "blindTastingClues": [
+      "Ingen brödig/jäsig (autolys) ton — skillnad mot Champagne",
+      "Päron och grönt äpple dominerar framför citrus",
+      "Mjukare, mindre ihärdig mousse än flaskjäst mousserande",
+      "Ofta lite restsöt (Extra Dry är faktiskt sötare än Brut)",
+      "Conegliano-Valdobbiadene DOCG är kvalitetstoppen"
+    ],
+    "famousProducers": [
+      "Nino Franco",
+      "Bisol",
+      "Bortolomiol"
+    ],
+    "climate": "Milt, kuperat kulllandskap nordväst om Venedig",
+    "soil": "Morän och kalksten i de branta Valdobbiadene-kullarna"
+  },
+  {
+    "id": "rioja-alta-alavesa",
+    "name": "Rioja Alta & Alavesa",
+    "country": "Spanien",
+    "countryId": "spain",
+    "emoji": "🇪🇸",
+    "parentRegionId": "rioja",
+    "shortDescription": "De svalare, högre belägna delarna av Rioja väster om Logroño. Anses generellt ge de mest eleganta och lagringsvärda vinerna i regionen, i kontrast mot det varmare Rioja Oriental.",
+    "mainGrapes": [
+      "Tempranillo",
+      "Garnacha",
+      "Viura"
+    ],
+    "typicalStyle": "Elegantare och friskare än vin från Rioja Oriental — röda bär, vanilj och kokos från amerikansk ek, med god syra som ger lagringspotential. Traditionellt lång lagring i Crianza/Reserva/Gran Reserva-klasser.",
+    "subRegions": [],
+    "foodPairings": [
+      "Lammracks",
+      "Ibéricoskinka",
+      "Manchego",
+      "Grillat kött"
+    ],
+    "blindTastingClues": [
+      "Högre syra och elegans än varmare Rioja Oriental",
+      "Vanilj och kokos från amerikansk ek — Riojas signum",
+      "Röda bär (körsbär, hallon) snarare än mörka",
+      "Svalare klimat ger friskare, mindre alkoholstarka viner",
+      "Traditionella producenter använder ofta äldre, mer neutrala fat"
+    ],
+    "famousProducers": [
+      "López de Heredia",
+      "La Rioja Alta",
+      "Muga",
+      "Marqués de Murrieta"
+    ],
+    "climate": "Svalare, Atlantiskt influerat med högre altitud",
+    "soil": "Kalksten och lera, mer järnrik lera i Alavesa"
+  },
+  {
+    "id": "barbera-dasti",
+    "name": "Barbera d'Asti",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "parentRegionId": "piemonte",
+    "shortDescription": "Piemontes vardagsdruva och motpol till Nebbiolo — hög syra, mörk frukt och lågt till medelhögt tannin. Prisvärt, fruktigt och tillgängligt ungt.",
+    "mainGrapes": [
+      "Barbera"
+    ],
+    "typicalStyle": "Mörka körsbär och plommon, mycket hög syra men lågt tannin — omvänt förhållande jämfört med Nebbiolo. Modernare producenter använder lite ny ek för runda konturer.",
+    "subRegions": [],
+    "foodPairings": [
+      "Pasta med köttsås",
+      "Pizza",
+      "Charkuterier",
+      "Vardagsmat med tomat"
+    ],
+    "blindTastingClues": [
+      "Mycket hög syra kombinerat med lågt tannin — motsatsen till Nebbiolo",
+      "Mörka körsbär och plommon snarare än röd frukt",
+      "Sällan komplex eftertoning — ett fräscht, fruktdrivet vin",
+      "Lätt att förväxla med Dolcetto men Barbera har högre syra",
+      "Modern stil kan ha vaniljton från ny amerikansk ek"
+    ],
+    "famousProducers": [
+      "Vietti",
+      "Michele Chiarlo",
+      "Braida"
+    ],
+    "climate": "Kontinentalt, varmare och lägre läge än Barolo/Barbaresco",
+    "soil": "Kalkhaltig lera och sand"
+  },
+  {
+    "id": "moscato-dasti",
+    "name": "Moscato d'Asti",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "parentRegionId": "piemonte",
+    "shortDescription": "Lätt, sött och lågalkoholigt (ofta ~5,5%) frizzante (svagt mousserande) på Moscato Bianco-druvan. Ett klassiskt introduktionsvin till doftiga, aromatiska druvor.",
+    "mainGrapes": [
+      "Moscato Bianco"
+    ],
+    "typicalStyle": "Vindruvor, persika, apelsinblom och honung. Söt, lätt bubbla, mycket låg alkohol och frisk syra som balanserar sötman. Dricks ungt, lagras inte.",
+    "subRegions": [],
+    "foodPairings": [
+      "Fruktsallad",
+      "Lätta desserter",
+      "Panna cotta",
+      "Frukt- och mandeltårta"
+    ],
+    "blindTastingClues": [
+      "Extremt aromatisk doft av vindruvor och persika redan på långt håll",
+      "Mycket låg alkoholhalt (ofta under 6%) — ovanligt lågt för ett vin",
+      "Söt men lätt och frisk, aldrig sirapig",
+      "Svag, mjuk bubbla snarare än kraftig mousse",
+      "Dricks alltid ungt — ingen lagringspotential"
+    ],
+    "famousProducers": [
+      "Vietti",
+      "Saracco",
+      "Ceretto"
+    ],
+    "climate": "Kontinentalt, svalare kullar än Barbera-området",
+    "soil": "Kalkhaltig sand och lera"
+  },
+  {
+    "id": "vino-nobile-di-montepulciano",
+    "name": "Vino Nobile di Montepulciano",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "parentRegionId": "toscana",
+    "shortDescription": "Sangiovese-baserat (lokalt kallad Prugnolo Gentile) vin från staden Montepulciano i Toscana — ofta förväxlat med det helt orelaterade \"Montepulciano d'Abruzzo\", som är en annan druva från en annan region.",
+    "mainGrapes": [
+      "Sangiovese (Prugnolo Gentile)"
+    ],
+    "typicalStyle": "Mellan Chianti Classico och Brunello i kraft — körsbär, torkade örter, läder och en fastare struktur än Chianti men utan Brunellos långa obligatoriska lagring.",
+    "subRegions": [],
+    "foodPairings": [
+      "Grillat kött",
+      "Vilt",
+      "Pasta med köttsås",
+      "Pecorino"
+    ],
+    "blindTastingClues": [
+      "OBS: druvan är Sangiovese, inte Montepulciano — namnet syftar på staden",
+      "Körsbär och torkade örter, likt Chianti men mer koncentrerat",
+      "Fastare struktur än Chianti Classico",
+      "Kortare obligatorisk lagring än Brunello (minst 2 år)",
+      "Förväxlas ofta felaktigt med Montepulciano d'Abruzzo — helt annan druva och region"
+    ],
+    "famousProducers": [
+      "Avignonesi",
+      "Poliziano",
+      "Boscarelli"
+    ],
+    "climate": "Kontinentalt, högt beläget kring staden Montepulciano",
+    "soil": "Lera, sand och kalksten"
+  },
+  {
+    "id": "bolgheri",
+    "name": "Bolgheri",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "parentRegionId": "toscana",
+    "shortDescription": "Kustnära Toscana och födelseplatsen för \"Super Tuscan\"-kategorin — Bordeaux-druvor (Cabernet Sauvignon, Merlot) odlade i Toscana, utanför de traditionella Sangiovese-reglerna.",
+    "mainGrapes": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Sangiovese"
+    ],
+    "typicalStyle": "Mörk frukt, strukturerat tannin och en mjukare, mognare karaktär än klassisk Bordeaux tack vare det varmare medelhavsklimatet. Ofta en del ny fransk ek.",
+    "subRegions": [],
+    "foodPairings": [
+      "Biff",
+      "Lamm",
+      "Hårdlagrad ost",
+      "Vilt"
+    ],
+    "blindTastingClues": [
+      "Cabernet/Merlot-karaktär i ett italienskt vin — kan lätt gissas som Bordeaux blint",
+      "Mognare, rundare frukt än fransk Bordeaux tack vare varmare klimat",
+      "Sassicaia var föregångaren som gav upphov till hela \"Super Tuscan\"-kategorin",
+      "Ofta märkt endast \"Bolgheri\" eller \"Toscana IGT\" snarare än DOCG",
+      "Tydlig ny ek hos många producenter"
+    ],
+    "famousProducers": [
+      "Tenuta San Guido (Sassicaia)",
+      "Ornellaia",
+      "Grattamacco"
+    ],
+    "climate": "Medelhavsklimat, milt och kustnära vid Tyrrenska havet",
+    "soil": "Blandad — grus, lera och kalksten"
+  },
+  {
+    "id": "vernaccia-di-san-gimignano",
+    "name": "Vernaccia di San Gimignano",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "parentRegionId": "toscana",
+    "shortDescription": "Toscanas mest namnkunniga vita druva och region, kring den medeltida tornstaden San Gimignano. Frisk, mandelbetonad vit vin och Italiens allra första DOC-klassade vin (1966).",
+    "mainGrapes": [
+      "Vernaccia"
+    ],
+    "typicalStyle": "Citrus, grönt äpple och en distinkt bitter-mandel-ton i eftersmaken. Medelhög syra och kropp, ibland lätt ekad för mer fyllighet.",
+    "subRegions": [],
+    "foodPairings": [
+      "Skaldjur",
+      "Vit fisk",
+      "Lätt pasta",
+      "Toscansk crostini"
+    ],
+    "blindTastingClues": [
+      "Bitter mandel i eftersmaken är druvans signum",
+      "Citrus och grönt äpple, medelhög syra",
+      "En av mycket få vita druvor som odlas seriöst i Toscana",
+      "Första italienska vinet att få DOC-status (1966) — DOCG kom senare, 1993",
+      "Enklare versioner kan kännas neutrala — leta efter mandeltonen"
+    ],
+    "famousProducers": [
+      "Teruzzi",
+      "Panizzi",
+      "San Quirico"
+    ],
+    "climate": "Milt medelhavsklimat, kuperad terräng",
+    "soil": "Sand, lera och fossil kalksten"
+  },
+  {
+    "id": "valpolicella",
+    "name": "Valpolicella",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "parentRegionId": "veneto",
+    "shortDescription": "Grundvinet i Valpolicella-familjen — samma druvor som Amarone men utan torkningsprocessen. Lätt, fruktigt och drickvänligt. Ripasso ligger stilmässigt mitt emellan detta och Amarone.",
+    "mainGrapes": [
+      "Corvina",
+      "Corvinone",
+      "Rondinella"
+    ],
+    "typicalStyle": "Lätt kropp, körsbär, en lätt kryddig/bitter mandelton och låg-medelhög tannin. Ripasso-versionen \"återjäses\" på Amarone-rester och får mer kropp och kryddighet.",
+    "subRegions": [],
+    "foodPairings": [
+      "Lätt pasta",
+      "Pizza",
+      "Charkuterier",
+      "Vardagsmat"
+    ],
+    "blindTastingClues": [
+      "Lätt kropp med körsbär — raka motsatsen till tunga, torkade Amarone",
+      "Lätt bitter mandelton i eftersmaken, typiskt för Corvina",
+      "Ripasso känns igen på mer kropp och russin-ton utan att nå Amarones koncentration",
+      "Låg-medelhög tannin, dricks ofta ungt och lätt kylt",
+      "Samma druvor som Amarone — skillnaden ligger i tekniken, inte druvorna"
+    ],
+    "famousProducers": [
+      "Allegrini",
+      "Tommasi",
+      "Zenato"
+    ],
+    "climate": "Milt, kuperade kullar norr om Verona",
+    "soil": "Kalksten och vulkaniska jordar"
+  },
+  {
+    "id": "alto-adige",
+    "name": "Alto Adige",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "shortDescription": "Italiens nordligaste vinregion, i Alperna mot Österrike. Tvåspråkig (italienska/tyska, kallas även Südtirol) och känd för Italiens mest aromatiska och precisa vita viner.",
+    "mainGrapes": [
+      "Gewürztraminer",
+      "Pinot Grigio",
+      "Pinot Bianco",
+      "Schiava",
+      "Lagrein"
+    ],
+    "typicalStyle": "Alpint klimat med stor dag/natt-temperaturskillnad ger vita viner med ovanligt hög precision, arom och syra för Italien. Gewürztraminer är parfymerad med litchi och ros; Pinot Grigio här har betydligt mer karaktär än sin vanliga rykte.",
+    "subRegions": [],
+    "foodPairings": [
+      "Speck och charkuterier",
+      "Alpin ost",
+      "Fisk",
+      "Wienerschnitzel"
+    ],
+    "blindTastingClues": [
+      "Ovanligt hög precision och arom för italiensk vit vin",
+      "Gewürztraminer härstammar faktiskt från byn Tramin/Termeno här",
+      "Alpint klimat ger frisk syra trots sydlig latitud",
+      "Pinot Grigio från Alto Adige är betydligt mer koncentrerad än standardversionen",
+      "Tyskklingande producentnamn trots att det är Italien"
+    ],
+    "famousProducers": [
+      "Alois Lageder",
+      "Cantina Terlano",
+      "Elena Walch"
+    ],
+    "climate": "Alpint, stor dag/natt-temperaturväxling tack vare hög altitud",
+    "soil": "Blandad — moränjord, kalksten och vulkaniskt berg beroende på dal"
+  },
+  {
+    "id": "sicilia-etna",
+    "name": "Sicilien (Etna)",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "shortDescription": "Vulkanens sluttningar runt Etna har blivit ett av Italiens mest hajpade vinområden — höglänta, vulkaniska vingårdar som ger eleganta, Bourgogne-liknande viner mitt i medelhavsvärmen.",
+    "mainGrapes": [
+      "Nerello Mascalese",
+      "Nerello Cappuccio",
+      "Carricante"
+    ],
+    "typicalStyle": "Röda Etna-viner är ljusa i färgen men aromatiska och syrarika — ofta jämförda med Pinot Noir eller Nebbiolo trots det varma klimatet, tack vare den höga altituden. Vita viner på Carricante är mineraliska och friska.",
+    "subRegions": [],
+    "foodPairings": [
+      "Grillad fisk",
+      "Pasta alla Norma",
+      "Lätta köttgrytor",
+      "Get­ost"
+    ],
+    "blindTastingClues": [
+      "Ljus färg men hög syra och tydlig tannin — ovanligt för siciliansk röd vin",
+      "Rökig, vulkanisk mineralitet (\"vulkanaska\") i både röda och vita viner",
+      "Höjden (vingårdar upp mot 1000 m) ger alpin friskhet trots medelhavsläget",
+      "Jämförs ofta med Bourgogne eller Nebbiolo — lätt kropp, hög komplexitet",
+      "Enskilda vingårdar (\"contrada\") betonas likt cru-system i Bourgogne"
+    ],
+    "famousProducers": [
+      "Benanti",
+      "Girolamo Russo",
+      "Frank Cornelissen",
+      "Planeta"
+    ],
+    "climate": "Medelhavsklimat vid basen, alpint på höjderna kring vulkanen",
+    "soil": "Vulkanisk aska och lava, mycket mineralrik"
+  },
+  {
+    "id": "franciacorta",
+    "name": "Franciacorta",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "shortDescription": "Lombardiet, nära sjön Iseo. Italiens finaste mousserande vin, tillverkat med samma flaskjäsningsmetod som Champagne (\"metodo classico\") snarare än Proseccos tankjäsning.",
+    "mainGrapes": [
+      "Chardonnay",
+      "Pinot Nero",
+      "Pinot Bianco"
+    ],
+    "typicalStyle": "Fin, ihärdig pärla från flaskjäsning, brödig/jäsig autolys-karaktär likt Champagne, citrus, mogen äppelfrukt och rostade nötter. Kräver längre lagringstid på fatlager än Champagne enligt regelverket.",
+    "subRegions": [],
+    "foodPairings": [
+      "Skaldjur",
+      "Sushi",
+      "Risotto",
+      "Aperitif"
+    ],
+    "blindTastingClues": [
+      "Fin, ihärdig mousse och brödig autolys-ton — till skillnad från Prosecco",
+      "Chardonnay/Pinot Nero-bas, samma druvor som Champagne",
+      "Längre minimilagring på fatlager än Champagne (minst 18 månader, ofta mer)",
+      "Mindre känd internationellt trots hög kvalitet — ofta prisvärdare än Champagne",
+      "Skilj från Prosecco genom den fina, ihärdiga pärlan snarare än stora, korta bubblor"
+    ],
+    "famousProducers": [
+      "Ca' del Bosco",
+      "Bellavista",
+      "Ferghettina"
+    ],
+    "climate": "Milt, sjöreglerat klimat vid Iseosjön",
+    "soil": "Moränjord med kalksten och grus"
+  },
+  {
+    "id": "abruzzo",
+    "name": "Abruzzo",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "shortDescription": "Bergig region öster om Rom, mellan Apenninerna och Adriatiska havet. Hem för Montepulciano d'Abruzzo — en av Italiens mest sålda och prisvärda röda viner, uppkallad efter druvan (inte staden Montepulciano i Toscana).",
+    "mainGrapes": [
+      "Montepulciano",
+      "Trebbiano"
+    ],
+    "typicalStyle": "Mörk frukt (björnbär, plommon), medelhögt tannin och frisk syra till ett mycket vänligt pris. Enklare kvalitet dricks ung och fruktig; Colline Teramane-versionerna har mer struktur och lagringspotential.",
+    "subRegions": [],
+    "foodPairings": [
+      "Vardagspasta",
+      "Pizza",
+      "Grillat kött",
+      "Charkuterier"
+    ],
+    "blindTastingClues": [
+      "OBS: druvan Montepulciano ska inte förväxlas med staden/vinet Vino Nobile di Montepulciano i Toscana",
+      "Mörk frukt och medelhögt tannin till ett mycket prisvärt upplägg",
+      "Sällan ekad kraftigt — fruktdriven snarare än komplex",
+      "En av Italiens mest exporterade och tillgängliga röda viner",
+      "Colline Teramane DOCG är kvalitetstoppen med mer struktur"
+    ],
+    "famousProducers": [
+      "Valentini",
+      "Emidio Pepe",
+      "Masciarelli"
+    ],
+    "climate": "Kontinentalt inland, maritimt närmare Adriatiska kusten",
+    "soil": "Lera och kalksten i kuperad bergsterräng"
+  },
+  {
+    "id": "ribera-del-duero",
+    "name": "Ribera del Duero",
+    "country": "Spanien",
+    "countryId": "spain",
+    "emoji": "🇪🇸",
+    "shortDescription": "Högt beläget platå längs floden Duero, öster om Madrid. Spaniens andra stora Tempranillo-region (lokalt kallad Tinto Fino/Tinta del País) — kraftfullare och mörkare än Rioja, hem för det legendariska Vega Sicilia.",
+    "mainGrapes": [
+      "Tempranillo (Tinto Fino)",
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "typicalStyle": "Djup färg, mörka björnbär och plommon, fastare tannin och högre alkohol än Rioja. Hög altitud (700–1000 m) ger stor dag/natt-temperaturväxling som bevarar syran trots det varma klimatet. Mindre vaniljton från ek jämfört med traditionell Rioja.",
+    "subRegions": [],
+    "foodPairings": [
+      "Lammstek (lechazo)",
+      "Grillat kött",
+      "Vilt",
+      "Manchego"
+    ],
+    "blindTastingClues": [
+      "Mörkare frukt och fastare tannin än Rioja trots samma druva",
+      "Mindre påtaglig vanilj/kokos-ek än traditionell Rioja",
+      "Hög altitud ger friskhet trots varm dagtemperatur",
+      "Ofta mörkare och mer koncentrerad än de flesta andra spanska Tempranillo-viner",
+      "Vega Sicilia Único är en av Spaniens mest prestigefyllda och dyraste viner"
+    ],
+    "famousProducers": [
+      "Vega Sicilia",
+      "Pingus",
+      "Pesquera",
+      "Aalto"
+    ],
+    "climate": "Kontinentalt med extrem dag/natt-temperaturväxling tack vare hög altitud",
+    "soil": "Kalksten, lera och sand på högplatå"
+  },
+  {
+    "id": "jerez",
+    "name": "Jerez (Sherry)",
+    "country": "Spanien",
+    "countryId": "spain",
+    "emoji": "🇪🇸",
+    "shortDescription": "Sydspanien, nära Cádiz. Hem för Sherry — ett förstärkt vin i en egen kategori, från knivskarpt torr Fino till mörk, söt Pedro Ximénez. Lagras i solera-system som blandar årgångar över tid.",
+    "mainGrapes": [
+      "Palomino",
+      "Pedro Ximénez",
+      "Moscatel"
+    ],
+    "typicalStyle": "Enormt spann av stilar: Fino/Manzanilla är blek, knivskarpt torr och jästig (flor-lagrad); Amontillado och Oloroso är oxiderade, nötiga och mörkare; Pedro Ximénez är mycket sött och sirapstjockt av russindruvor. Alla förstärks med druvsprit.",
+    "subRegions": [],
+    "foodPairings": [
+      "Fino/Manzanilla: oliver, skaldjur, tapas",
+      "Oloroso: hårdost, valnötter",
+      "Pedro Ximénez: vaniljglass, blåmögelost"
+    ],
+    "blindTastingClues": [
+      "Flor-jäst Fino/Manzanilla doftar jästigt/färskt bröd och mandel, aldrig oxiderat",
+      "Oloroso är mörk och nötig men fullständigt torr trots färgen — lätt att gissa fel som sött",
+      "Pedro Ximénez är nästan svart och sirapstjockt — ett av världens sötaste viner",
+      "Solera-systemet betyder att flaskan aldrig är en enskild årgång, utan en blandning över tid",
+      "Manzanilla kommer specifikt från kustorten Sanlúcar de Barrameda och har en salt, maritim ton"
+    ],
+    "famousProducers": [
+      "González Byass (Tio Pepe)",
+      "Lustau",
+      "Bodegas Hidalgo"
+    ],
+    "climate": "Medelhavsklimat, mycket varmt och soligt med maritim påverkan från Atlanten",
+    "soil": "Albariza — vit, mycket kalkrik jord som reflekterar solljus och håller fukt"
+  },
+  {
+    "id": "penedes-cava",
+    "name": "Penedès (Cava)",
+    "country": "Spanien",
+    "countryId": "spain",
+    "emoji": "🇪🇸",
+    "shortDescription": "Katalonien, sydväst om Barcelona. Spaniens ledande region för Cava — flaskjäst mousserande vin tillverkat med samma metod som Champagne, traditionellt på inhemska druvor.",
+    "mainGrapes": [
+      "Macabeo",
+      "Xarel·lo",
+      "Parellada",
+      "Chardonnay"
+    ],
+    "typicalStyle": "Frisk, citrus och grönt äpple med en distinkt jordig/nötig ton från Xarel·lo. Flaskjäsning (metodo tradicional) ger fin mousse. Prisvärt jämfört med Champagne och Franciacorta, men kvaliteten varierar kraftigt mellan bas- och premiumnivå.",
+    "subRegions": [],
+    "foodPairings": [
+      "Tapas",
+      "Skaldjur",
+      "Jamón ibérico",
+      "Paella"
+    ],
+    "blindTastingClues": [
+      "Jordig/nötig ton från Xarel·lo skiljer Cava från Champagne och Prosecco",
+      "Flaskjäsning ger finare, ihärdigare mousse än Prosecco",
+      "Stor kvalitetsspridning — leta efter \"Cava de Guarda Superior\" eller Corpinnat för högre nivå",
+      "Ofta betydligt billigare än Champagne trots samma tillverkningsmetod",
+      "Rosé-Cava görs ofta på Garnacha eller Trepat"
+    ],
+    "famousProducers": [
+      "Recaredo",
+      "Gramona",
+      "Raventós i Blanc"
+    ],
+    "climate": "Medelhavsklimat med kustnära svalka",
+    "soil": "Kalkrik lera och sand"
+  },
+  {
+    "id": "rueda",
+    "name": "Rueda",
+    "country": "Spanien",
+    "countryId": "spain",
+    "emoji": "🇪🇸",
+    "shortDescription": "Kastilien, nordväst om Madrid. Spaniens referenspunkt för Verdejo — en frisk, örtig vit druva som ofta jämförs med Sauvignon Blanc men har en egen distinkt karaktär.",
+    "mainGrapes": [
+      "Verdejo",
+      "Sauvignon Blanc",
+      "Viura"
+    ],
+    "typicalStyle": "Frisk, örtig med fänkål, citrus och en lätt bitter mandel-avslutning som liknar Vernaccia. Hög altitud ger bevarad syra trots det varma inlandsklimatet. Ofta blandad med lite Sauvignon Blanc för extra arom.",
+    "subRegions": [],
+    "foodPairings": [
+      "Skaldjur",
+      "Get­ost",
+      "Sparris",
+      "Tapas"
+    ],
+    "blindTastingClues": [
+      "Örtig, fänkålsartad ton är Verdejos signum — skiljer den från Sauvignon Blanc",
+      "Lätt bitter mandelavslutning liknande Vernaccia",
+      "Hög altitud (700+ m) ger friskhet trots inlandets värme",
+      "Mindre grön paprika-ton än Sauvignon Blanc från Loire eller Nya Zeeland",
+      "Ofta det mest prisvärda kvalitetsvita i Spanien"
+    ],
+    "famousProducers": [
+      "José Pariente",
+      "Naia",
+      "Marqués de Riscal (Rueda)"
+    ],
+    "climate": "Kontinentalt inland med stor dag/natt-temperaturväxling",
+    "soil": "Sand och grus över kalksten"
+  },
+  {
+    "id": "toro",
+    "name": "Toro",
+    "country": "Spanien",
+    "countryId": "spain",
+    "emoji": "🇪🇸",
+    "shortDescription": "Kastilien, väster om Ribera del Duero längs samma flod. Kraftfull, mörk Tempranillo (lokalt Tinta de Toro) från gamla, ympfria vinstockar — en av Spaniens mest koncentrerade röda vinstilar.",
+    "mainGrapes": [
+      "Tempranillo (Tinta de Toro)"
+    ],
+    "typicalStyle": "Mycket mörk färg, hög alkohol (ofta 14,5%+), koncentrerad mörk frukt och kraftigt tannin. Många vingårdar har aldrig drabbats av phylloxera tack vare den sandiga jorden, vilket ger ovanligt gamla, ympfria vinstockar.",
+    "subRegions": [],
+    "foodPairings": [
+      "Grillat rött kött",
+      "Vilt",
+      "Kraftiga grytor",
+      "Lagrad manchego"
+    ],
+    "blindTastingClues": [
+      "Mörkare och kraftfullare än både Rioja och Ribera del Duero trots samma druva",
+      "Mycket hög alkoholhalt är typisk",
+      "Sandig jord har hållit phylloxera-lusen borta — många vingårdar har ympfria, mycket gamla vinstockar",
+      "Kraftig extraktion och tannin — inte en subtil stil",
+      "Mindre internationellt känd än Rioja/Ribera trots hög kvalitet"
+    ],
+    "famousProducers": [
+      "Numanthia",
+      "Pintia (Vega Sicilia)",
+      "Teso La Monja"
+    ],
+    "climate": "Extremt kontinentalt, mycket varma dagar och kalla nätter",
+    "soil": "Sand och grus — sällsynt phylloxera-fri jord"
+  },
+  {
+    "id": "sonoma",
+    "name": "Sonoma",
+    "country": "USA",
+    "countryId": "newworld",
+    "emoji": "🇺🇸",
+    "shortDescription": "Kaliforniens kustnära grannregion till Napa, väster om berget. Mer klimatvariation än Napa ger utrymme för allt från svalt Pinot Noir/Chardonnay nära kusten till kraftfull Zinfandel och Cabernet inåt land.",
+    "mainGrapes": [
+      "Chardonnay",
+      "Pinot Noir",
+      "Zinfandel",
+      "Cabernet Sauvignon"
+    ],
+    "typicalStyle": "Betydligt mer stilmässig variation än Napa tack vare dalens många mikroklimat. Russian River Valley ger elegant, kustsvalt Pinot Noir/Chardonnay; Dry Creek och Alexander Valley ger kraftfullare Zinfandel och Cabernet.",
+    "subRegions": [
+      "Russian River Valley",
+      "Dry Creek Valley",
+      "Alexander Valley",
+      "Sonoma Coast"
+    ],
+    "foodPairings": [
+      "Lax",
+      "Anka",
+      "Grillat kött (Zinfandel)",
+      "Get­ost"
+    ],
+    "blindTastingClues": [
+      "Mer stilmässig spridning än Napa — fråga alltid vilken subzon",
+      "Russian River Pinot Noir är svalare och mer Bourgogne-lik än de flesta kaliforniska Pinot",
+      "Gamla Zinfandel-vinstockar (\"old vine\") ger djup och kryddighet",
+      "Mindre prestigetungt/dyrt rykte än Napa trots ofta jämförbar kvalitet",
+      "Kustdimma (\"fog\") är en nyckelfaktor som kyler ner de kustnära delarna"
+    ],
+    "famousProducers": [
+      "Kistler",
+      "Williams Selyem",
+      "Ridge (Dry Creek)"
+    ],
+    "climate": "Varierat — kustdimma och svalka nära Stilla havet, varmare inåt land",
+    "soil": "Blandad — vulkanisk aska, lera och alluviala jordar beroende på dal"
+  },
+  {
+    "id": "willamette-valley",
+    "name": "Willamette Valley",
+    "country": "USA",
+    "countryId": "newworld",
+    "emoji": "🇺🇸",
+    "shortDescription": "Oregon, söder om Portland. USA:s referenspunkt för Pinot Noir — svalare klimat än Kalifornien ger en elegantare, mer Bourgogne-lik stil snarare än kraftfull Napa-frukt.",
+    "mainGrapes": [
+      "Pinot Noir",
+      "Chardonnay",
+      "Pinot Gris"
+    ],
+    "typicalStyle": "Elegant, syrarik och aromatisk med röda bär (körsbär, hallon), jord och en lätt kryddig ton. Betydligt lättare kropp och högre syra än kalifornisk Pinot Noir — ofta jämförd med Bourgogne snarare än Kalifornien.",
+    "subRegions": [
+      "Dundee Hills",
+      "Eola-Amity Hills",
+      "Ribbon Ridge"
+    ],
+    "foodPairings": [
+      "Lax",
+      "Anka",
+      "Svamprätter",
+      "Mjuk get­ost"
+    ],
+    "blindTastingClues": [
+      "Svalare, mer syrarik stil än kalifornisk Pinot Noir — lätt att förväxla med Bourgogne",
+      "Röda bär snarare än mörka — hallon och körsbär dominerar",
+      "Vulkanisk jord (Jory) ger en distinkt jordig/mineralisk underton",
+      "Regnigare och svalare klimat än Kalifornien tack vare närheten till Stilla havet",
+      "Mindre alkoholstark än de flesta amerikanska röda viner (ofta under 14%)"
+    ],
+    "famousProducers": [
+      "Domaine Drouhin Oregon",
+      "Ken Wright Cellars",
+      "Beaux Frères"
+    ],
+    "climate": "Svalt maritimt, påverkat av Stilla havet via Van Duzer-korridoren",
+    "soil": "Vulkanisk Jory-jord i höjderna, marina sediment i dalgångarna"
+  },
+  {
+    "id": "columbia-valley",
+    "name": "Columbia Valley (Washington)",
+    "country": "USA",
+    "countryId": "newworld",
+    "emoji": "🇺🇸",
+    "shortDescription": "Delstaten Washington, öster om Cascade-bergen. Ökenlikt klimat med kontrollerad bevattning ger extremt konsekvent mognad — en snabbt växande region för Cabernet Sauvignon och Syrah av hög kvalitet till bra pris.",
+    "mainGrapes": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Syrah",
+      "Riesling"
+    ],
+    "typicalStyle": "Koncentrerad mörk frukt med fast struktur, men bevarar friskare syra än varma kaliforniska regioner tack vare nordligt läge och stor dag/natt-temperaturväxling. Riesling här har också hög kvalitet med tydlig frisk stil.",
+    "subRegions": [
+      "Walla Walla Valley",
+      "Red Mountain",
+      "Yakima Valley"
+    ],
+    "foodPairings": [
+      "Grillat kött",
+      "Lammracks",
+      "Vilt",
+      "Hårdost"
+    ],
+    "blindTastingClues": [
+      "Nordligt läge (samma breddgrad som Bourgogne) ger friskare syra än kalifornisk Cabernet trots ökenklimat",
+      "Ökenklimat med kontrollerad bevattning ger extremt jämn mognad år efter år",
+      "Mörk frukt och fast struktur, men mindre alkoholtungt än många Napa-viner",
+      "Riesling här är ofta högkvalitativ och tydligt friskare än varmare amerikanska vita viner",
+      "Snabbt växande rykte internationellt men fortfarande relativt okänt jämfört med Napa"
+    ],
+    "famousProducers": [
+      "Chateau Ste. Michelle",
+      "Leonetti Cellar",
+      "Quilceda Creek"
+    ],
+    "climate": "Kontinentalt ökenklimat med stor dag/natt-temperaturväxling, bevattning krävs",
+    "soil": "Vulkanisk basalt täckt av lössjord (vindavlagrad silt)"
+  },
+  {
+    "id": "margaret-river",
+    "name": "Margaret River",
+    "country": "Australien",
+    "countryId": "newworld",
+    "emoji": "🇦🇺",
+    "shortDescription": "Sydvästra Australien, omgiven av hav på tre sidor. Maritimt svalt klimat ger Australiens mest Bordeaux-lika Cabernet Sauvignon samt utmärkt Chardonnay — ofta ansedd som landets mest prestigefyllda region efter Barossa.",
+    "mainGrapes": [
+      "Cabernet Sauvignon",
+      "Chardonnay",
+      "Sauvignon Blanc",
+      "Semillon"
+    ],
+    "typicalStyle": "Elegant snarare än kraftfull — svalt maritimt klimat ger strukturerad, Bordeaux-lik Cabernet med svarta vinbär och ceder. Chardonnay här är fokuserad och mineralisk snarare än fet och ekig.",
+    "subRegions": [],
+    "foodPairings": [
+      "Lammracks",
+      "Grillat kött",
+      "Skaldjur (Chardonnay)",
+      "Hårdost"
+    ],
+    "blindTastingClues": [
+      "Elegantare, mer Bordeaux-lik Cabernet Sauvignon än varmare australiska regioner som Barossa",
+      "Maritimt klimat (omgivet av hav) ger ovanlig svalka för Australien",
+      "Chardonnay är fokuserad och strukturerad snarare än fet och tropisk",
+      "Semillon/Sauvignon Blanc-blend är en klassisk lokal vit stil",
+      "Ung vinregion (första kommersiella vingårdarna på 1960-talet) men snabbt hög prestige"
+    ],
+    "famousProducers": [
+      "Leeuwin Estate",
+      "Cullen Wines",
+      "Vasse Felix"
+    ],
+    "climate": "Maritimt medelhavsklimat, ovanligt svalt för Australien tack vare omgivande hav",
+    "soil": "Graniska, väldränerade jordar"
+  },
+  {
+    "id": "yarra-valley",
+    "name": "Yarra Valley",
+    "country": "Australien",
+    "countryId": "newworld",
+    "emoji": "🇦🇺",
+    "shortDescription": "Strax utanför Melbourne, Victoria. En av Australiens svalaste vinregioner och landets referenspunkt för elegant Pinot Noir och Chardonnay samt högkvalitativ mousserande vin.",
+    "mainGrapes": [
+      "Pinot Noir",
+      "Chardonnay",
+      "Shiraz"
+    ],
+    "typicalStyle": "Svalt klimat ger elegant, syrarik Pinot Noir och strukturerad Chardonnay — en av Australiens mest Bourgogne-lika stilar. Shiraz här är också svalare och mer pepprig än varma australiska Shiraz-stilar som Barossa.",
+    "subRegions": [],
+    "foodPairings": [
+      "Anka",
+      "Lax",
+      "Svamprätter",
+      "Mjuk ost"
+    ],
+    "blindTastingClues": [
+      "En av Australiens svalaste regioner — Pinot Noir och Chardonnay istället för kraftfull Shiraz",
+      "Shiraz här är pepprig och svalare, snarare än den mogna, sylten Barossa-stilen",
+      "Hög altitud i vissa delar av dalen förstärker svalkan ytterligare",
+      "Domän för flera av Australiens bästa mousserande viner (metodo classico)",
+      "Nära Melbourne — en av de äldsta moderna vinregionerna i Victoria (1800-talet)"
+    ],
+    "famousProducers": [
+      "Yarra Yering",
+      "Mount Mary",
+      "De Bortoli (Yarra Valley)"
+    ],
+    "climate": "Svalt kontinentalt med maritim påverkan, hög altitud i delar av dalen",
+    "soil": "Vulkanisk röd jord och gråare sedimentära jordar"
+  },
+  {
+    "id": "hunter-valley",
+    "name": "Hunter Valley",
+    "country": "Australien",
+    "countryId": "newworld",
+    "emoji": "🇦🇺",
+    "shortDescription": "New South Wales, norr om Sydney. En av världens äldsta vinregioner i varmt klimat och hem för en unik stil: lätt, lågalkoholig Semillon som utvecklar fantastisk komplexitet efter årtionden på flaska.",
+    "mainGrapes": [
+      "Semillon",
+      "Shiraz",
+      "Chardonnay"
+    ],
+    "typicalStyle": "Semillon skördas tidigt vid låg mognad, vilket ger ett till synes enkelt, lätt (ofta ~11%) ungt vin som med 10–20 års flasklagring utvecklas till komplex honung, rostat bröd och citrus — ett av vinvärldens mest förvånande åldringsunder. Shiraz här är jordig och mer medelfyllig än Barossa.",
+    "subRegions": [],
+    "foodPairings": [
+      "Ostron (ung Semillon)",
+      "Skaldjur",
+      "Grillat kött (Shiraz)",
+      "Hårdost (mogen Semillon)"
+    ],
+    "blindTastingClues": [
+      "Ung Hunter Valley Semillon är förvånansvärt enkel och lågalkoholig (~11%) — bedöm den inte för snabbt",
+      "Efter lagring utvecklas Semillon till honung, rostat bröd och toast — helt annan karaktär än ungt",
+      "Shiraz är jordigare och mer medelfyllig än den mogna, sylten Barossa-stilen",
+      "En av världens äldsta kontinuerligt odlade vinregioner (från 1820-talet)",
+      "Varmt, fuktigt klimat är ovanligt för finvinsproduktion — regnrisk vid skörd är ständig utmaning"
+    ],
+    "famousProducers": [
+      "Tyrrell's",
+      "Brokenwood",
+      "Mount Pleasant"
+    ],
+    "climate": "Varmt och fuktigt, ovanligt för kvalitetsvinodling — regn vid skörd är en ständig risk",
+    "soil": "Sand, lera och vulkaniska jordar"
+  },
+  {
+    "id": "central-otago",
+    "name": "Central Otago",
+    "country": "Nya Zeeland",
+    "countryId": "newworld",
+    "emoji": "🇳🇿",
+    "shortDescription": "Sydöns inland, världens sydligaste vinregion. Nya Zeelands referenspunkt för Pinot Noir — kontinentalt klimat (ovanligt för landet) ger intensiv frukt kombinerat med hög syra.",
+    "mainGrapes": [
+      "Pinot Noir",
+      "Pinot Gris",
+      "Riesling"
+    ],
+    "typicalStyle": "Mörkare frukt och mer kraft än de flesta Pinot Noir, men behåller ändå tydlig syra och elegans. Körsbär, björnbär och en örtig/tallbarrsartad ton. Torrare och soligare än Nya Zeelands övriga, mer maritima regioner.",
+    "subRegions": [],
+    "foodPairings": [
+      "Lammracks",
+      "Anka",
+      "Vilt",
+      "Lax"
+    ],
+    "blindTastingClues": [
+      "Mörkare, kraftfullare frukt än de flesta Pinot Noir — men med bevarad syra",
+      "Nya Zeelands enda genuint kontinentala vinklimat — resten av landet är maritimt",
+      "Världens sydligaste kommersiella vinregion",
+      "Torrare klimat än Marlborough — mindre grön/örtig Sauvignon Blanc-karaktär i regionen generellt",
+      "Snabbt växande internationellt rykte sedan 1990-talet"
+    ],
+    "famousProducers": [
+      "Felton Road",
+      "Rippon",
+      "Mount Difficulty"
+    ],
+    "climate": "Kontinentalt (ovanligt för Nya Zeeland) — heta, torra somrar och kalla vintrar",
+    "soil": "Löss, grus och schisthaltig jord"
+  },
+  {
+    "id": "hawkes-bay",
+    "name": "Hawke's Bay",
+    "country": "Nya Zeeland",
+    "countryId": "newworld",
+    "emoji": "🇳🇿",
+    "shortDescription": "Nordöns östkust, kring staden Napier. Nya Zeelands näst största och varmaste vinregion — känd för Bordeaux-stilblendar (Cabernet/Merlot) samt Syrah, ett annat uttryck än Sauvignon Blanc-dominerade Marlborough.",
+    "mainGrapes": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Syrah",
+      "Chardonnay"
+    ],
+    "typicalStyle": "Varmare och torrare än Marlborough, vilket möjliggör fullmogen Bordeaux-stilblend. Gimblett Gravels grusjordar ger särskilt strukturerade röda viner. Syrah är svalare och mer pepprig än australisk Shiraz.",
+    "subRegions": [
+      "Gimblett Gravels"
+    ],
+    "foodPairings": [
+      "Lammracks",
+      "Biff",
+      "Anka",
+      "Grillat kött"
+    ],
+    "blindTastingClues": [
+      "En helt annan stil än Marlborough — röda Bordeaux-blendar snarare än vit Sauvignon Blanc",
+      "Gimblett Gravels grusjord ger särskilt koncentrerade, strukturerade röda viner",
+      "Syrah här är svalare och mer pepprig/blommig än varm australisk Shiraz",
+      "Nya Zeelands näst äldsta vinregion (odling sedan 1850-talet)",
+      "Varmare och torrare klimat än resten av landet gör full mognad möjlig för Bordeaux-druvor"
+    ],
+    "famousProducers": [
+      "Craggy Range",
+      "Te Mata Estate",
+      "Trinity Hill"
+    ],
+    "climate": "Varmt och torrt för att vara Nya Zeeland, maritim påverkan från Stilla havet",
+    "soil": "Grus (särskilt Gimblett Gravels), lera och kalksten"
+  },
+  {
+    "id": "casablanca-valley",
+    "name": "Casablanca Valley",
+    "country": "Chile",
+    "countryId": "newworld",
+    "emoji": "🇨🇱",
+    "shortDescription": "Mellan Santiago och Stilla havskusten. Chiles svalaste välkända vindal — kall havsdimma (\"camanchaca\") gör den till landets referenspunkt för Sauvignon Blanc, Chardonnay och kustnära Pinot Noir.",
+    "mainGrapes": [
+      "Sauvignon Blanc",
+      "Chardonnay",
+      "Pinot Noir"
+    ],
+    "typicalStyle": "Frisk, citrusartad Sauvignon Blanc med tydlig grön paprika-/gräston, samt strukturerad, mineralisk Chardonnay. Betydligt svalare och mer syrarik stil än traditionella varmare chilenska regioner som Maipo.",
+    "subRegions": [],
+    "foodPairings": [
+      "Skaldjur",
+      "Ceviche",
+      "Sushi",
+      "Get­ost"
+    ],
+    "blindTastingClues": [
+      "Betydligt svalare stil än Chiles klassiska Maipo/Colchagua Cabernet-regioner",
+      "Morgondimma (\"camanchaca\") från Stilla havet är nyckeln till svalkan",
+      "Grön paprika-ton i Sauvignon Blanc, tydligare än i varmare chilenska vita viner",
+      "En av Chiles yngre vinregioner (utvecklad från 1980-talet) tack vare upptäckten av kustklimatets potential",
+      "Pinot Noir härifrån är ett av Chiles mest lovande kustnära uttryck"
+    ],
+    "famousProducers": [
+      "Casas del Bosque",
+      "Kingston Family",
+      "Veramonte"
+    ],
+    "climate": "Kustnära och svalt, kraftigt påverkat av havsdimma från Stilla havet",
+    "soil": "Lera och graniska jordar med god dränering"
+  },
+  {
+    "id": "swartland",
+    "name": "Swartland",
+    "country": "Sydafrika",
+    "countryId": "newworld",
+    "emoji": "🇿🇦",
+    "shortDescription": "Norr om Stellenbosch, mot västkusten. Historiskt ett spannmåls- och bulkvinsområde, numera Sydafrikas mest hajpade region — gamla, ympfria vinstockar och en stark naturvinsrörelse med fokus på Rhône-druvor.",
+    "mainGrapes": [
+      "Chenin Blanc",
+      "Syrah",
+      "Grenache",
+      "Mourvèdre"
+    ],
+    "typicalStyle": "Gamla, torkodlade (ej bevattnade) vinstockar ger koncentrerad men balanserad frukt. Chenin Blanc är ofta mer strukturerad och mineralisk än Loire-motsvarigheten. Röda Rhône-stilblendar är kryddiga och jordiga med lägre ekpåverkan.",
+    "subRegions": [],
+    "foodPairings": [
+      "Grillat lamm",
+      "Kryddiga grytor",
+      "Vilt",
+      "Get­ost"
+    ],
+    "blindTastingClues": [
+      "Gamla, torkodlade vinstockar (\"bush vines\", ej spaljerade) ger koncentration utan övermognad",
+      "Minimal ny ek — frukten och jordtonen får ta plats snarare än vaniljsmak",
+      "Chenin Blanc här är mer strukturerad och mindre söt än många andra Chenin-uttryck",
+      "Centrum för Sydafrikas naturvinsrörelse sedan tidigt 2000-tal",
+      "Röda blendar är Rhône-inspirerade (Grenache/Syrah/Mourvèdre) snarare än Bordeaux-stil"
+    ],
+    "famousProducers": [
+      "Sadie Family Wines",
+      "Mullineux",
+      "Badenhorst Family Wines"
+    ],
+    "climate": "Medelhavsklimat, varmt och torrt, sparsam bevattning",
+    "soil": "Skiffer, granit och järnrik jord (\"koffieklip\")"
+  },
+  {
+    "id": "constantia",
+    "name": "Constantia",
+    "country": "Sydafrika",
+    "countryId": "newworld",
+    "emoji": "🇿🇦",
+    "shortDescription": "Kapstadens sydöstra utkant, vid foten av Table Mountain. Sydafrikas äldsta vinregion (odling sedan 1685) och historiskt berömd för sitt söta Vin de Constance — ett vin som en gång dracks av Napoleon och europeiska kungahus.",
+    "mainGrapes": [
+      "Sauvignon Blanc",
+      "Muscat de Frontignan (Vin de Constance)",
+      "Semillon"
+    ],
+    "typicalStyle": "Svalt, kustnära klimat (påverkat av både Atlanten och Indiska oceanen) ger frisk, aromatisk Sauvignon Blanc. Vin de Constance är ett historiskt sött Muscat-vin — gyllene, honungslikt och mycket aromatiskt, gjort utan förstärkning (till skillnad från Sauternes).",
+    "subRegions": [],
+    "foodPairings": [
+      "Skaldjur (Sauvignon Blanc)",
+      "Foie gras (Vin de Constance)",
+      "Blåmögelost",
+      "Aprikosdesserter"
+    ],
+    "blindTastingClues": [
+      "Vin de Constance görs söt genom sen skörd av torkade Muscat-druvor, inte botrytis som Sauternes",
+      "Ett av vinhistoriens mest berömda viner — dracks av Napoleon i exil och nämns hos Jane Austen",
+      "Ovanligt svalt för Sydafrika tack vare närhet till både Atlanten och Indiska oceanen och Table Mountains skugga",
+      "Sauvignon Blanc härifrån är mer aromatisk/tropisk än den skarpare Marlborough-stilen",
+      "Sydafrikas äldsta vinodlingsområde (grundat av holländska nybyggare 1685)"
+    ],
+    "famousProducers": [
+      "Klein Constantia",
+      "Groot Constantia",
+      "Buitenverwachting"
+    ],
+    "climate": "Kustnära och svalt, påverkat av både Atlanten och Indiska oceanen",
+    "soil": "Granitbaserad, väldränerad jord på Table Mountains sluttningar"
+  },
+  {
+    "id": "salta-cafayate",
+    "name": "Salta (Cafayate)",
+    "country": "Argentina",
+    "countryId": "newworld",
+    "emoji": "🇦🇷",
+    "shortDescription": "Norra Argentina, kring staden Cafayate. Några av världens högst belägna vingårdar (upp till 3000 m) och Argentinas referenspunkt för Torrontés — en starkt aromatisk vit druva unik för landet.",
+    "mainGrapes": [
+      "Torrontés",
+      "Malbec",
+      "Cabernet Sauvignon"
+    ],
+    "typicalStyle": "Torrontés är intensivt aromatisk — persika, apelsinblom och vindruvor likt Muscat i doften, men torr och frisk i smaken snarare än söt. Extrem altitud ger stark UV-strålning som tjocknar druvskalen och intensifierar arom och färg.",
+    "subRegions": [],
+    "foodPairings": [
+      "Kryddig mat",
+      "Get­ost",
+      "Empanadas",
+      "Lätta skaldjursrätter"
+    ],
+    "blindTastingClues": [
+      "Intensivt aromatisk doft (persika, apelsinblom) men torr smak — lätt att förväxla med ett sött vin på doften",
+      "Bland världens högst belägna vingårdar (ofta över 1700 m, upp till 3000 m)",
+      "Extrem UV-strålning på hög altitud ger tjockare druvskal och mer koncentrerad arom och färg",
+      "Torrontés är i det närmaste unikt för Argentina — sällan odlad på högsta nivå någon annanstans",
+      "Malbec härifrån är mer aromatisk och kryddig än den fylligare Mendoza-stilen"
+    ],
+    "famousProducers": [
+      "Bodega Colomé",
+      "El Esteco",
+      "Domingo Hermanos"
+    ],
+    "climate": "Högaltitud-ökenklimat, extrem UV-strålning, stor dag/natt-temperaturväxling",
+    "soil": "Sandig, alluvial jord med god dränering"
   }
 ]

@@ -1,206 +1,1106 @@
 {
   "bordeaux": [
-    { "year": 2024, "rating": 4, "character": "Tidig rapport — lovande med bra balans mellan frukt och syra.", "highlights": "Avvakta mer information." },
-    { "year": 2023, "rating": 5, "character": "Exceptionell årgång. Perfekt väder gav koncentrerade, balanserade viner med fantastisk syra.", "highlights": "En av de bästa på decennier. Köp och lagra." },
-    { "year": 2022, "rating": 5, "character": "Historisk värmesommar. Extremt mogna och koncentrerade viner med hög alkohol.", "highlights": "Kraftfulla och lagringsvärdda men kräver lång tid." },
-    { "year": 2021, "rating": 3, "character": "Utmanande år med regn och sjukdomstryck. Noggranna producenter lyckades bra.", "highlights": "Selektiv årgång — välj producent med omsorg." },
-    { "year": 2020, "rating": 5, "character": "Fantastisk årgång med varm sommar och sval höst. Elegant och koncentrerad.", "highlights": "En klassiker. Höger bank extra framgångsrik." },
-    { "year": 2019, "rating": 5, "character": "Elegant och balanserad. Perfekt mognad med frisk syra och fin frukt.", "highlights": "Mycket tillgänglig ung men lagringsvärd." },
-    { "year": 2018, "rating": 5, "character": "Varm och generös årgång. Rika, fylliga viner med mogna tanniner.", "highlights": "Höger bank (Pomerol, St-Émilion) extra stark." },
-    { "year": 2017, "rating": 3, "character": "Frost i april förstörde mycket. Liten produktion men bra kvalitet i vad som räddades.", "highlights": "Sällsynt och dyrare än normalt." },
-    { "year": 2016, "rating": 5, "character": "En av de stora klassikerna. Perfekt balans mellan frukt, syra och tannin.", "highlights": "Vänster bank i absolut världsklass. Lagra 20+ år." },
-    { "year": 2015, "rating": 5, "character": "Varm och solig. Generösa, tillgängliga viner med mjuka tanniner.", "highlights": "Mer omedelbar än 2016 men lika lagringsvärd." },
-    { "year": 2014, "rating": 4, "character": "Underskattad årgång. Frisk och elegant med god syra och balans.", "highlights": "Utmärkt prisvärdhet. Klassisk Bordeaux-stil." },
-    { "year": 2013, "rating": 2, "character": "Svår årgång med regn och kyla. Tunnare viner utan koncentration.", "highlights": "Undvik om möjligt." },
-    { "year": 2012, "rating": 3, "character": "Ojämn årgång. Bra producenter lyckades men generellt medioker.", "highlights": "Selektivt köp." },
-    { "year": 2011, "rating": 3, "character": "Varm sommar men regn vid skörd. Bra tidiga drinkare.", "highlights": "Drick nu, lagra inte." },
-    { "year": 2010, "rating": 5, "character": "Legendarisk årgång. Perfekt koncentration och syra. En av 2000-talets bästa.", "highlights": "Lagra 30+ år. Investering." }
+    {
+      "year": 2024,
+      "rating": 4,
+      "character": "Tidig rapport — lovande med bra balans mellan frukt och syra.",
+      "highlights": "Avvakta mer information."
+    },
+    {
+      "year": 2023,
+      "rating": 4,
+      "character": "Mycket bra årgång med fin balans, men något bakom de allra största klassikerna.",
+      "highlights": "Utmärkt kvalitet — inte fullt i klass med 2022/2020/2019/2016."
+    },
+    {
+      "year": 2022,
+      "rating": 5,
+      "character": "Historisk värmesommar. Extremt mogna och koncentrerade viner med hög alkohol.",
+      "highlights": "Kraftfulla och lagringsvärdda men kräver lång tid."
+    },
+    {
+      "year": 2021,
+      "rating": 3,
+      "character": "Utmanande år med regn och sjukdomstryck. Noggranna producenter lyckades bra.",
+      "highlights": "Selektiv årgång — välj producent med omsorg."
+    },
+    {
+      "year": 2020,
+      "rating": 5,
+      "character": "Fantastisk årgång med varm sommar och sval höst. Elegant och koncentrerad.",
+      "highlights": "En klassiker. Höger bank extra framgångsrik."
+    },
+    {
+      "year": 2019,
+      "rating": 5,
+      "character": "Elegant och balanserad. Perfekt mognad med frisk syra och fin frukt.",
+      "highlights": "Mycket tillgänglig ung men lagringsvärd."
+    },
+    {
+      "year": 2018,
+      "rating": 4,
+      "character": "Varm och generös årgång. Rika viner, men mer ojämn mellan producenter än toppårgångarna.",
+      "highlights": "Höger bank (Pomerol, St-Émilion) starkast. Välj producent med omsorg."
+    },
+    {
+      "year": 2017,
+      "rating": 3,
+      "character": "Frost i april förstörde mycket. Liten produktion men bra kvalitet i vad som räddades.",
+      "highlights": "Sällsynt och dyrare än normalt."
+    },
+    {
+      "year": 2016,
+      "rating": 5,
+      "character": "En av de stora klassikerna. Perfekt balans mellan frukt, syra och tannin.",
+      "highlights": "Vänster bank i absolut världsklass. Lagra 20+ år."
+    },
+    {
+      "year": 2015,
+      "rating": 5,
+      "character": "Varm och solig. Generösa, tillgängliga viner med mjuka tanniner.",
+      "highlights": "Mer omedelbar än 2016 men lika lagringsvärd."
+    },
+    {
+      "year": 2014,
+      "rating": 4,
+      "character": "Underskattad årgång. Frisk och elegant med god syra och balans.",
+      "highlights": "Utmärkt prisvärdhet. Klassisk Bordeaux-stil."
+    },
+    {
+      "year": 2013,
+      "rating": 2,
+      "character": "Svår årgång med regn och kyla. Tunnare viner utan koncentration.",
+      "highlights": "Undvik om möjligt."
+    },
+    {
+      "year": 2012,
+      "rating": 3,
+      "character": "Ojämn årgång. Bra producenter lyckades men generellt medioker.",
+      "highlights": "Selektivt köp."
+    },
+    {
+      "year": 2011,
+      "rating": 3,
+      "character": "Varm sommar men regn vid skörd. Bra tidiga drinkare.",
+      "highlights": "Drick nu, lagra inte."
+    },
+    {
+      "year": 2010,
+      "rating": 5,
+      "character": "Legendarisk årgång. Perfekt koncentration och syra. En av 2000-talets bästa.",
+      "highlights": "Lagra 30+ år. Investering."
+    }
   ],
   "bourgogne": [
-    { "year": 2024, "rating": 3, "character": "Utmanande med frost och sjukdomstryck. Noggranna producenter lyckades.", "highlights": "Avvakta mer information." },
-    { "year": 2023, "rating": 4, "character": "Generös och fruktig årgång. Varmare stil men med god balans.", "highlights": "Tillgänglig relativt tidigt." },
-    { "year": 2022, "rating": 5, "character": "Historisk värme. Koncentrerade och rika viner. Vita viner extra framgångsrika.", "highlights": "Vita Grand Cru i absolut världsklass." },
-    { "year": 2021, "rating": 4, "character": "Frost decimerade skörden men kvaliteten är hög. Klassisk frisk stil.", "highlights": "Sällsynt och dyr men utmärkt kvalitet." },
-    { "year": 2020, "rating": 5, "character": "Elegant och balanserad. Röda viner med fantastisk komplexitet och friskhet.", "highlights": "En av de bästa för röda Bourgogne på länge." },
-    { "year": 2019, "rating": 5, "character": "Varm men frisk. Generösa röda med god syra. Vita lite rikare.", "highlights": "Röda viner extra framgångsrika." },
-    { "year": 2018, "rating": 4, "character": "Varm och generös. Tillgängliga röda viner med mjuka tanniner.", "highlights": "Drick relativt tidigt." },
-    { "year": 2017, "rating": 4, "character": "Frisk och elegant årgång med god syra. Klassisk Bourgogne-stil.", "highlights": "Underskattad. Bra prisvärdhet." },
-    { "year": 2016, "rating": 3, "character": "Frost och hagel slog hårt. Liten skörd men kvaliteten på det som räddades är hög.", "highlights": "Välj producent med stor omsorg. Bättre kvalitet än volymen antyder." },
-    { "year": 2015, "rating": 5, "character": "Generös och rik. Röda viner med fantastisk frukt och mogna tanniner.", "highlights": "En av årtiondet bästa. Lagringsvärd." },
-    { "year": 2014, "rating": 4, "character": "Klassisk frisk stil. God syra och elegans. Vita viner extra bra.", "highlights": "Vita Grand Cru i toppform." },
-    { "year": 2013, "rating": 3, "character": "Svår årgång men friska eleganta viner för de som lyckades.", "highlights": "Underskattad av vissa — prova gärna." },
-    { "year": 2012, "rating": 4, "character": "Frisk och elegant. God syra och balans. Underskattad årgång.", "highlights": "Utmärkt prisvärdhet nu." },
-    { "year": 2011, "rating": 3, "character": "Ojämn men med höjdpunkter. Drick nu.", "highlights": "Välj producent noga." },
-    { "year": 2010, "rating": 5, "character": "Legendarisk. Perfekt balans och intensitet. Röda viner för decennier.", "highlights": "En av Bourgognes stora klassiker." }
+    {
+      "year": 2024,
+      "rating": 4,
+      "character": "Frost och sjukdomstryck gav mycket liten skörd, men noggranna producenter fick fin kvalitet.",
+      "highlights": "Liten volym men bra kvalitet på det som räddades."
+    },
+    {
+      "year": 2023,
+      "rating": 4,
+      "character": "Generös och fruktig årgång. Varmare stil men med god balans.",
+      "highlights": "Tillgänglig relativt tidigt."
+    },
+    {
+      "year": 2022,
+      "rating": 5,
+      "character": "Historisk värme. Koncentrerade och rika viner. Vita viner extra framgångsrika.",
+      "highlights": "Vita Grand Cru i absolut världsklass."
+    },
+    {
+      "year": 2021,
+      "rating": 4,
+      "character": "Frost decimerade skörden men kvaliteten är hög. Klassisk frisk stil.",
+      "highlights": "Sällsynt och dyr men utmärkt kvalitet."
+    },
+    {
+      "year": 2020,
+      "rating": 5,
+      "character": "Elegant och balanserad. Röda viner med fantastisk komplexitet och friskhet.",
+      "highlights": "En av de bästa för röda Bourgogne på länge."
+    },
+    {
+      "year": 2019,
+      "rating": 5,
+      "character": "Varm men frisk. Generösa röda med god syra. Vita lite rikare.",
+      "highlights": "Röda viner extra framgångsrika."
+    },
+    {
+      "year": 2018,
+      "rating": 4,
+      "character": "Varm och generös. Tillgängliga röda viner med mjuka tanniner.",
+      "highlights": "Drick relativt tidigt."
+    },
+    {
+      "year": 2017,
+      "rating": 4,
+      "character": "Frisk och elegant årgång med god syra. Klassisk Bourgogne-stil.",
+      "highlights": "Underskattad. Bra prisvärdhet."
+    },
+    {
+      "year": 2016,
+      "rating": 4,
+      "character": "Frost och hagel slog hårt mot volymen, men kvaliteten på det som räddades är mycket god.",
+      "highlights": "Välj producent med omsorg — bättre kvalitet än den lilla volymen antyder."
+    },
+    {
+      "year": 2015,
+      "rating": 5,
+      "character": "Generös och rik. Röda viner med fantastisk frukt och mogna tanniner.",
+      "highlights": "En av årtiondet bästa. Lagringsvärd."
+    },
+    {
+      "year": 2014,
+      "rating": 4,
+      "character": "Klassisk frisk stil. God syra och elegans. Vita viner extra bra.",
+      "highlights": "Vita Grand Cru i toppform."
+    },
+    {
+      "year": 2013,
+      "rating": 3,
+      "character": "Svår årgång men friska eleganta viner för de som lyckades.",
+      "highlights": "Underskattad av vissa — prova gärna."
+    },
+    {
+      "year": 2012,
+      "rating": 4,
+      "character": "Frisk och elegant. God syra och balans. Underskattad årgång.",
+      "highlights": "Utmärkt prisvärdhet nu."
+    },
+    {
+      "year": 2011,
+      "rating": 3,
+      "character": "Ojämn men med höjdpunkter. Drick nu.",
+      "highlights": "Välj producent noga."
+    },
+    {
+      "year": 2010,
+      "rating": 5,
+      "character": "Legendarisk. Perfekt balans och intensitet. Röda viner för decennier.",
+      "highlights": "En av Bourgognes stora klassiker."
+    }
   ],
   "barolo": [
-    { "year": 2024, "rating": 3, "character": "Tidig rapport — varmt och torrt. Avvakta.", "highlights": "Mer information behövs." },
-    { "year": 2023, "rating": 4, "character": "Varm årgång med god koncentration. Mer tillgänglig stil.", "highlights": "Tidigare drickbar än typisk Barolo." },
-    { "year": 2022, "rating": 5, "character": "Extremt varm sommar. Mycket koncentrerade och kraftfulla viner.", "highlights": "Lagra länge — 20+ år." },
-    { "year": 2021, "rating": 4, "character": "Frisk och elegant. God syra och klassisk Nebbiolo-karaktär.", "highlights": "Klassisk stil — bra för Barolo-nybörjare." },
-    { "year": 2020, "rating": 4, "character": "Balanserad årgång med god frukt och syra.", "highlights": "Tillgänglig relativt tidigt för Barolo." },
-    { "year": 2019, "rating": 5, "character": "Fantastisk balans. Elegant och koncentrerad med perfekt syra.", "highlights": "En av årtiondet bästa. Lagra 15–25 år." },
-    { "year": 2018, "rating": 4, "character": "Generös och fruktig. Mjukare tanniner än normalt.", "highlights": "Mer tillgänglig ung." },
-    { "year": 2017, "rating": 4, "character": "Varm och torr. Koncentrerade viner med hög alkohol.", "highlights": "Kraftfull stil — välj efter smak." },
-    { "year": 2016, "rating": 5, "character": "Klassisk legendarisk årgång. Perfekt balans och lagringskapacitet.", "highlights": "Lagra 25–40 år. En av de stora." },
-    { "year": 2015, "rating": 5, "character": "Varm och generös. Rika koncentrerade viner med fantastisk frukt.", "highlights": "Mer omedelbar än 2016 men lika bra." },
-    { "year": 2014, "rating": 2, "character": "Regnigt och svårt. Tunnare viner utan koncentration.", "highlights": "Selektiv årgång — välj producent med omsorg." },
-    { "year": 2013, "rating": 5, "character": "Klassisk elegant årgång. Hög syra och fin tanninstruktur.", "highlights": "Underskattad klassiker. Köp nu." },
-    { "year": 2012, "rating": 4, "character": "Varm och fruktig. God kvalitet om något ojämn.", "highlights": "Drick inom 10 år." },
-    { "year": 2011, "rating": 4, "character": "Varm årgång med mogna tanniner. Tillgänglig relativt tidigt.", "highlights": "Drick nu eller snart." },
-    { "year": 2010, "rating": 5, "character": "Legendarisk. Perfekt syra och struktur. Klassisk Barolo för decennier.", "highlights": "Lagra 30+ år om du kan vänta." }
+    {
+      "year": 2024,
+      "rating": 4,
+      "character": "Varmt och torrt växtår som gav överraskande god kvalitet.",
+      "highlights": "Bättre än den tidiga oron antydde."
+    },
+    {
+      "year": 2023,
+      "rating": 4,
+      "character": "Varm årgång med god koncentration. Mer tillgänglig stil.",
+      "highlights": "Tidigare drickbar än typisk Barolo."
+    },
+    {
+      "year": 2022,
+      "rating": 5,
+      "character": "Extremt varm sommar. Mycket koncentrerade och kraftfulla viner.",
+      "highlights": "Lagra länge — 20+ år."
+    },
+    {
+      "year": 2021,
+      "rating": 4,
+      "character": "Frisk och elegant. God syra och klassisk Nebbiolo-karaktär.",
+      "highlights": "Klassisk stil — bra för Barolo-nybörjare."
+    },
+    {
+      "year": 2020,
+      "rating": 4,
+      "character": "Balanserad årgång med god frukt och syra.",
+      "highlights": "Tillgänglig relativt tidigt för Barolo."
+    },
+    {
+      "year": 2019,
+      "rating": 5,
+      "character": "Fantastisk balans. Elegant och koncentrerad med perfekt syra.",
+      "highlights": "En av årtiondet bästa. Lagra 15–25 år."
+    },
+    {
+      "year": 2018,
+      "rating": 4,
+      "character": "Generös och fruktig. Mjukare tanniner än normalt.",
+      "highlights": "Mer tillgänglig ung."
+    },
+    {
+      "year": 2017,
+      "rating": 3,
+      "character": "Mycket varm och torr säsong med lågt skördeuttag. Koncentrerade men något ojämna viner.",
+      "highlights": "Kraftfull, het stil — långt ifrån de klassiska årgångarna."
+    },
+    {
+      "year": 2016,
+      "rating": 5,
+      "character": "Klassisk legendarisk årgång. Perfekt balans och lagringskapacitet.",
+      "highlights": "Lagra 25–40 år. En av de stora."
+    },
+    {
+      "year": 2015,
+      "rating": 4,
+      "character": "Varm och generös. Rika, tillgängliga viner — mycket bra men en nivå under 2016/2010.",
+      "highlights": "Mer omedelbar än 2016, men inte fullt lika lagringsvärd."
+    },
+    {
+      "year": 2014,
+      "rating": 2,
+      "character": "Regnigt och svårt. Tunnare viner utan koncentration.",
+      "highlights": "Selektiv årgång — välj producent med omsorg."
+    },
+    {
+      "year": 2013,
+      "rating": 5,
+      "character": "Klassisk elegant årgång. Hög syra och fin tanninstruktur.",
+      "highlights": "Underskattad klassiker. Köp nu."
+    },
+    {
+      "year": 2012,
+      "rating": 4,
+      "character": "Varm och fruktig. God kvalitet om något ojämn.",
+      "highlights": "Drick inom 10 år."
+    },
+    {
+      "year": 2011,
+      "rating": 4,
+      "character": "Varm årgång med mogna tanniner. Tillgänglig relativt tidigt.",
+      "highlights": "Drick nu eller snart."
+    },
+    {
+      "year": 2010,
+      "rating": 5,
+      "character": "Legendarisk. Perfekt syra och struktur. Klassisk Barolo för decennier.",
+      "highlights": "Lagra 30+ år om du kan vänta."
+    }
   ],
   "toscana": [
-    { "year": 2024, "rating": 3, "character": "Tidig rapport — varm och torr sommar med utmaningar i september. Avvakta.", "highlights": "Mer information behövs." },
-    { "year": 2023, "rating": 4, "character": "Varm årgång med god fruktkoncentration. Chianti Classico extra framgångsrik.", "highlights": "Tillgänglig och generös stil." },
-    { "year": 2022, "rating": 5, "character": "Historisk värme. Extremt koncentrerade Brunello och Chianti med fantastisk mognad.", "highlights": "Brunello di Montalcino i absolut toppform. Lagra 20+ år." },
-    { "year": 2021, "rating": 4, "character": "Frisk och elegant. God syra och klassisk Sangiovese-karaktär.", "highlights": "Klassisk stil med fin balans." },
-    { "year": 2020, "rating": 5, "character": "Fantastisk balans. Eleganta, koncentrerade viner med perfekt syra och frukt.", "highlights": "En av årtiondet bästa. Brunello exceptionellt." },
-    { "year": 2019, "rating": 5, "character": "Varm men frisk. Koncentrerade viner med lång lagringspotential.", "highlights": "Brunello och Chianti Classico Gran Selezione i toppform." },
-    { "year": 2018, "rating": 3, "character": "Regnig höst skapade utmaningar. Ojämn kvalitet.", "highlights": "Selektivt — välj producent noga." },
-    { "year": 2017, "rating": 4, "character": "Extremt varm och torr. Koncentrerade viner med hög alkohol.", "highlights": "Kraftfull stil. Inte för lagring." },
-    { "year": 2016, "rating": 5, "character": "Klassisk elegant årgång. Perfekt balans och lagringskapacitet för Brunello.", "highlights": "En av Brunellos stora årgångar. Lagra 20–30 år." },
-    { "year": 2015, "rating": 5, "character": "Varm och generös. Rika, koncentrerade viner med mogna tanniner.", "highlights": "En av årtiondet bästa för hela Toscana." },
-    { "year": 2014, "rating": 2, "character": "Regnigt och svårt. Tunnare viner utan koncentration.", "highlights": "Undvik Brunello. Chianti marginellt bättre." },
-    { "year": 2013, "rating": 4, "character": "Frisk och elegant. Klassisk Sangiovese-karaktär med god syra.", "highlights": "Underskattad. Bra prisvärdhet." },
-    { "year": 2012, "rating": 4, "character": "Varm och fruktig. God kvalitet generellt.", "highlights": "Drick nu." },
-    { "year": 2011, "rating": 4, "character": "Varm årgång med mogna tanniner och rik frukt.", "highlights": "Tillgänglig och generös." },
-    { "year": 2010, "rating": 5, "character": "Legendarisk för Brunello. Perfekt syra, struktur och komplexitet.", "highlights": "Lagra 25+ år. En av 2000-talets absolut bästa." }
+    {
+      "year": 2024,
+      "rating": 3,
+      "character": "Tidig rapport — varm och torr sommar med utmaningar i september. Avvakta.",
+      "highlights": "Mer information behövs."
+    },
+    {
+      "year": 2023,
+      "rating": 4,
+      "character": "Varm årgång med god fruktkoncentration. Chianti Classico extra framgångsrik.",
+      "highlights": "Tillgänglig och generös stil."
+    },
+    {
+      "year": 2022,
+      "rating": 5,
+      "character": "Historisk värme. Extremt koncentrerade Brunello och Chianti med fantastisk mognad.",
+      "highlights": "Brunello di Montalcino i absolut toppform. Lagra 20+ år."
+    },
+    {
+      "year": 2021,
+      "rating": 5,
+      "character": "Ovanligt fin balans för Brunello — flera bedömare rankar årgången i klass med 2016 och 2019.",
+      "highlights": "En av de stora Brunello-årgångarna. Lagra länge."
+    },
+    {
+      "year": 2020,
+      "rating": 4,
+      "character": "God balans men en nivå under de allra bästa Brunello-årgångarna.",
+      "highlights": "Mycket bra, men inte i klass med 2016/2019/2015."
+    },
+    {
+      "year": 2019,
+      "rating": 5,
+      "character": "Varm men frisk. Koncentrerade viner med lång lagringspotential.",
+      "highlights": "Brunello och Chianti Classico Gran Selezione i toppform."
+    },
+    {
+      "year": 2018,
+      "rating": 4,
+      "character": "Ojämnt väder men klart bättre resultat än ryktet — särskilt Brunello överraskade positivt.",
+      "highlights": "Bättre kvalitet än det initiala ryktet om regn antydde."
+    },
+    {
+      "year": 2017,
+      "rating": 4,
+      "character": "Extremt varm och torr. Koncentrerade viner med hög alkohol.",
+      "highlights": "Kraftfull stil. Inte för lagring."
+    },
+    {
+      "year": 2016,
+      "rating": 5,
+      "character": "Klassisk elegant årgång. Perfekt balans och lagringskapacitet för Brunello.",
+      "highlights": "En av Brunellos stora årgångar. Lagra 20–30 år."
+    },
+    {
+      "year": 2015,
+      "rating": 5,
+      "character": "Varm och generös. Rika, koncentrerade viner med mogna tanniner.",
+      "highlights": "En av årtiondet bästa för hela Toscana."
+    },
+    {
+      "year": 2014,
+      "rating": 3,
+      "character": "Regnigt år som gav en mer variabel årgång, men skickliga producenter fick fram balanserade viner.",
+      "highlights": "Svårare år, men inte att undvika hos toppproducenter."
+    },
+    {
+      "year": 2013,
+      "rating": 4,
+      "character": "Frisk och elegant. Klassisk Sangiovese-karaktär med god syra.",
+      "highlights": "Underskattad. Bra prisvärdhet."
+    },
+    {
+      "year": 2012,
+      "rating": 4,
+      "character": "Varm och fruktig. God kvalitet generellt.",
+      "highlights": "Drick nu."
+    },
+    {
+      "year": 2011,
+      "rating": 4,
+      "character": "Varm årgång med mogna tanniner och rik frukt.",
+      "highlights": "Tillgänglig och generös."
+    },
+    {
+      "year": 2010,
+      "rating": 5,
+      "character": "Legendarisk för Brunello. Perfekt syra, struktur och komplexitet.",
+      "highlights": "Lagra 25+ år. En av 2000-talets absolut bästa."
+    }
   ],
   "rioja": [
-    { "year": 2024, "rating": 3, "character": "Tidig rapport — varmt med utmaningar.", "highlights": "Avvakta mer information." },
-    { "year": 2023, "rating": 4, "character": "Varm och generös årgång med god frukt och balans.", "highlights": "Tillgänglig och prisvärd." },
-    { "year": 2022, "rating": 5, "character": "Exceptionell. Varmt och torrt gav koncentrerade balanserade viner.", "highlights": "En av de bästa på länge." },
-    { "year": 2021, "rating": 4, "character": "Frisk och elegant. God syra och klassisk Tempranillo-karaktär.", "highlights": "Klassisk Rioja-stil." },
-    { "year": 2020, "rating": 4, "character": "Balanserad med god frukt. Lite varmare stil.", "highlights": "Bra prisvärdhet." },
-    { "year": 2019, "rating": 5, "character": "Fantastisk balans. Elegant och koncentrerad. En modern klassiker.", "highlights": "Lagra Gran Reserva 15+ år." },
-    { "year": 2018, "rating": 4, "character": "Generös och fruktig. Tillgänglig stil med mjuka tanniner.", "highlights": "Drick inom 10 år." },
-    { "year": 2017, "rating": 3, "character": "Torka gav koncentration men ojämn kvalitet.", "highlights": "Selektivt köp." },
-    { "year": 2016, "rating": 5, "character": "Klassisk elegant årgång. Perfekt balans och lagringskapacitet.", "highlights": "Gran Reserva för 20+ år." },
-    { "year": 2015, "rating": 5, "character": "Varm och generös. Fantastisk frukt och mogna tanniner.", "highlights": "En av årtiondet bästa." },
-    { "year": 2014, "rating": 4, "character": "Frisk och elegant. Underskattad årgång med bra syra.", "highlights": "Utmärkt prisvärdhet." },
-    { "year": 2013, "rating": 3, "character": "Ojämn. Bra producenter lyckades men generellt medioker.", "highlights": "Välj noga." },
-    { "year": 2012, "rating": 4, "character": "Varm och fruktig. God kvalitet generellt.", "highlights": "Drick nu." },
-    { "year": 2011, "rating": 4, "character": "Generös och välbalanserad årgång med klassisk Tempranillo-karaktär.", "highlights": "En av årtiondet bästa." },
-    { "year": 2010, "rating": 5, "character": "Legendarisk. Djup koncentration och lagringskapacitet.", "highlights": "Gran Reserva för 25+ år." }
+    {
+      "year": 2024,
+      "rating": 4,
+      "character": "Oberäknelig skörd med återkommande regnpauser, men slutresultatet blev bättre än väntat.",
+      "highlights": "Ojämnt växtår men god kvalitet hos noggranna producenter."
+    },
+    {
+      "year": 2023,
+      "rating": 4,
+      "character": "Varm och generös årgång med god frukt och balans.",
+      "highlights": "Tillgänglig och prisvärd."
+    },
+    {
+      "year": 2022,
+      "rating": 5,
+      "character": "Exceptionell. Varmt och torrt gav koncentrerade balanserade viner.",
+      "highlights": "En av de bästa på länge."
+    },
+    {
+      "year": 2021,
+      "rating": 3,
+      "character": "Kallt år med frost och torka i Rioja Oriental — avkastningen sjönk kraftigt.",
+      "highlights": "Mindre skörd men hederlig kvalitet. Inte en toppårgång."
+    },
+    {
+      "year": 2020,
+      "rating": 4,
+      "character": "Balanserad med god frukt. Lite varmare stil.",
+      "highlights": "Bra prisvärdhet."
+    },
+    {
+      "year": 2019,
+      "rating": 5,
+      "character": "Fantastisk balans. Elegant och koncentrerad. En modern klassiker.",
+      "highlights": "Lagra Gran Reserva 15+ år."
+    },
+    {
+      "year": 2018,
+      "rating": 3,
+      "character": "Officiellt klassad som \"Buena\" (god) av Consejo Regulador — lägre alkohol och högre skörd än normalt.",
+      "highlights": "Solid men inte topprankad årgång."
+    },
+    {
+      "year": 2017,
+      "rating": 4,
+      "character": "Frost i april minskade skörden kraftigt, men kvaliteten på det som räddades klassades \"Muy Buena\".",
+      "highlights": "Sällsynt på grund av liten skörd, men god kvalitet."
+    },
+    {
+      "year": 2016,
+      "rating": 4,
+      "character": "Officiellt klassad \"Muy Buena\" (mycket bra) — solid kvalitet, men inte den absoluta toppnivån.",
+      "highlights": "Mycket bra, men en nivå under 2010/2019/2011."
+    },
+    {
+      "year": 2015,
+      "rating": 4,
+      "character": "Officiellt klassad \"Muy Buena\". Varm och generös med fin frukt.",
+      "highlights": "Mycket bra kvalitet, tillgänglig och prisvärd."
+    },
+    {
+      "year": 2014,
+      "rating": 3,
+      "character": "Officiellt klassad \"Buena\" — regn under skörden gav en mer ojämn årgång.",
+      "highlights": "Under genomsnittet för decenniet. Välj producent noga."
+    },
+    {
+      "year": 2013,
+      "rating": 3,
+      "character": "Ojämn. Bra producenter lyckades men generellt medioker.",
+      "highlights": "Välj noga."
+    },
+    {
+      "year": 2012,
+      "rating": 4,
+      "character": "Varm och fruktig. God kvalitet generellt.",
+      "highlights": "Drick nu."
+    },
+    {
+      "year": 2011,
+      "rating": 5,
+      "character": "Officiellt klassad \"Excelente\" av Consejo Regulador — en av decenniets bästa.",
+      "highlights": "Historiskt hög klassificering. Lagra med förtroende."
+    },
+    {
+      "year": 2010,
+      "rating": 5,
+      "character": "Legendarisk. Djup koncentration och lagringskapacitet.",
+      "highlights": "Gran Reserva för 25+ år."
+    }
   ],
   "champagne": [
-    { "year": 2024, "rating": 3, "character": "Utmanande år. Regn och sjukdomstryck. Noggranna producenter lyckades.", "highlights": "Avvakta mer information." },
-    { "year": 2023, "rating": 4, "character": "Varm och generös. Mogna fruktviner med god potential.", "highlights": "Lovande vintage." },
-    { "year": 2022, "rating": 4, "character": "Varm sommar. Mogna och generösa viner med lite lägre syra.", "highlights": "Ovanlig men intressant stil för Champagne." },
-    { "year": 2021, "rating": 3, "character": "Frost och regn skapade utmaningar. Friska eleganta viner.", "highlights": "Klassisk frisk stil." },
-    { "year": 2020, "rating": 4, "character": "Ovanligt varm årgång för Champagne. God mognad och frukt.", "highlights": "Intressant avvikelse från normen." },
-    { "year": 2019, "rating": 5, "character": "Fantastisk balans. Perfekt mognad och syra. En kommande klassiker.", "highlights": "Lagra 15–20 år." },
-    { "year": 2018, "rating": 5, "character": "Generös och rik. Fantastisk frukt med god syra. Mycket välbalanserad.", "highlights": "En av årtiondet bästa vintage." },
-    { "year": 2017, "rating": 3, "character": "Frost i april slog hårt. Liten produktion men frisk kvalitet.", "highlights": "Sällsynt." },
-    { "year": 2016, "rating": 4, "character": "Klassisk frisk Champagne-stil. God syra och elegans.", "highlights": "Lagra 10–15 år." },
-    { "year": 2015, "rating": 5, "character": "Varm och generös. Fantastisk frukt och komplexitet.", "highlights": "En av 2000-talets bästa." },
-    { "year": 2014, "rating": 4, "character": "Frisk och elegant. Klassisk Champagne-karaktär.", "highlights": "Bra prisvärdhet." },
-    { "year": 2013, "rating": 3, "character": "Svår årgång men friska eleganta viner.", "highlights": "Selektivt." },
-    { "year": 2012, "rating": 5, "character": "Legendarisk årgång. Perfekt balans och intensitet.", "highlights": "Lagra 20+ år." },
-    { "year": 2011, "rating": 3, "character": "Ojämn. Drick tidigt.", "highlights": "Inte för lagring." },
-    { "year": 2010, "rating": 4, "character": "Frisk och komplex. God lagringskapacitet.", "highlights": "Klassisk stil." }
+    {
+      "year": 2024,
+      "rating": 3,
+      "character": "Utmanande år. Regn och sjukdomstryck. Noggranna producenter lyckades.",
+      "highlights": "Avvakta mer information."
+    },
+    {
+      "year": 2023,
+      "rating": 4,
+      "character": "Varm och generös. Mogna fruktviner med god potential.",
+      "highlights": "Lovande vintage."
+    },
+    {
+      "year": 2022,
+      "rating": 4,
+      "character": "Varm sommar. Mogna och generösa viner med lite lägre syra.",
+      "highlights": "Ovanlig men intressant stil för Champagne."
+    },
+    {
+      "year": 2021,
+      "rating": 3,
+      "character": "Frost och regn skapade utmaningar. Friska eleganta viner.",
+      "highlights": "Klassisk frisk stil."
+    },
+    {
+      "year": 2020,
+      "rating": 5,
+      "character": "Ovanligt varm men mycket välbalanserad årgång — en av de starkaste deklarerade årgångarna på senare tid.",
+      "highlights": "En av de bästa Champagne-årgångarna sedan 2012."
+    },
+    {
+      "year": 2019,
+      "rating": 5,
+      "character": "Fantastisk balans. Perfekt mognad och syra. En kommande klassiker.",
+      "highlights": "Lagra 15–20 år."
+    },
+    {
+      "year": 2018,
+      "rating": 5,
+      "character": "Generös och rik. Fantastisk frukt med god syra. Mycket välbalanserad.",
+      "highlights": "En av årtiondet bästa vintage."
+    },
+    {
+      "year": 2017,
+      "rating": 3,
+      "character": "Frost i april slog hårt. Liten produktion men frisk kvalitet.",
+      "highlights": "Sällsynt."
+    },
+    {
+      "year": 2016,
+      "rating": 4,
+      "character": "Klassisk frisk Champagne-stil. God syra och elegans.",
+      "highlights": "Lagra 10–15 år."
+    },
+    {
+      "year": 2015,
+      "rating": 5,
+      "character": "Varm och generös. Fantastisk frukt och komplexitet.",
+      "highlights": "En av 2000-talets bästa."
+    },
+    {
+      "year": 2014,
+      "rating": 4,
+      "character": "Frisk och elegant. Klassisk Champagne-karaktär.",
+      "highlights": "Bra prisvärdhet."
+    },
+    {
+      "year": 2013,
+      "rating": 3,
+      "character": "Svår årgång men friska eleganta viner.",
+      "highlights": "Selektivt."
+    },
+    {
+      "year": 2012,
+      "rating": 5,
+      "character": "Legendarisk årgång. Perfekt balans och intensitet.",
+      "highlights": "Lagra 20+ år."
+    },
+    {
+      "year": 2011,
+      "rating": 3,
+      "character": "Ojämn. Drick tidigt.",
+      "highlights": "Inte för lagring."
+    },
+    {
+      "year": 2010,
+      "rating": 4,
+      "character": "Frisk och komplex. God lagringskapacitet.",
+      "highlights": "Klassisk stil."
+    }
   ],
   "rhone": [
-    { "year": 2024, "rating": 3, "character": "Varmt och torrt. Tidig rapport lovande.", "highlights": "Avvakta." },
-    { "year": 2023, "rating": 4, "character": "Varm årgång med god frukt och balans.", "highlights": "Tillgänglig och generös." },
-    { "year": 2022, "rating": 5, "character": "Historisk värme. Extremt koncentrerade viner med fantastisk mognad.", "highlights": "Norra Rhône i absolut toppform." },
-    { "year": 2021, "rating": 3, "character": "Utmanande med regn. Friskare stil än normalt.", "highlights": "Selektivt köp." },
-    { "year": 2020, "rating": 5, "character": "Fantastisk balans i hela Rhône. Norra och södra i toppform.", "highlights": "En av årtiondet bästa." },
-    { "year": 2019, "rating": 5, "character": "Elegant och koncentrerad. Perfekt mognad och syra.", "highlights": "Lagra 15–25 år." },
-    { "year": 2018, "rating": 4, "character": "Varm och generös. Tillgängliga rika viner.", "highlights": "Södra Rhône extra stark." },
-    { "year": 2017, "rating": 4, "character": "God kvalitet trots torka. Koncentrerade viner.", "highlights": "Bra prisvärdhet." },
-    { "year": 2016, "rating": 4, "character": "Frisk och elegant. Klassisk Rhône-stil med god syra.", "highlights": "Underskattad årgång." },
-    { "year": 2015, "rating": 5, "character": "Varm och generös. Fantastisk frukt och koncentration.", "highlights": "En av 2000-talets bästa." },
-    { "year": 2014, "rating": 3, "character": "Ojämn. Norra Rhône bättre än södra.", "highlights": "Selektivt." },
-    { "year": 2013, "rating": 3, "character": "Svår årgång. Friskare och tunnare viner.", "highlights": "Drick tidigt." },
-    { "year": 2012, "rating": 4, "character": "God kvalitet. Norra Rhône extra framgångsrik.", "highlights": "Bra lagring." },
-    { "year": 2011, "rating": 4, "character": "Varm och tillgänglig. God frukt.", "highlights": "Drick nu." },
-    { "year": 2010, "rating": 5, "character": "Legendarisk. Perfekt balans i hela Rhône.", "highlights": "Lagra 20–30 år." }
+    {
+      "year": 2024,
+      "rating": 4,
+      "character": "Varmt och torrt växtår som levde upp till förhoppningarna.",
+      "highlights": "Solid kvalitet över hela Rhônedalen."
+    },
+    {
+      "year": 2023,
+      "rating": 4,
+      "character": "Varm årgång med god frukt och balans.",
+      "highlights": "Tillgänglig och generös."
+    },
+    {
+      "year": 2022,
+      "rating": 5,
+      "character": "Historisk värme. Extremt koncentrerade viner med fantastisk mognad.",
+      "highlights": "Norra Rhône i absolut toppform."
+    },
+    {
+      "year": 2021,
+      "rating": 4,
+      "character": "Regn gav utmaningar men resultatet blev friskare, mer klassiskt balanserade viner än väntat.",
+      "highlights": "Bättre kvalitet än det utmanande växtåret antydde."
+    },
+    {
+      "year": 2020,
+      "rating": 5,
+      "character": "Fantastisk balans i hela Rhône. Norra och södra i toppform.",
+      "highlights": "En av årtiondet bästa."
+    },
+    {
+      "year": 2019,
+      "rating": 5,
+      "character": "Elegant och koncentrerad. Perfekt mognad och syra.",
+      "highlights": "Lagra 15–25 år."
+    },
+    {
+      "year": 2018,
+      "rating": 4,
+      "character": "Varm och generös. Tillgängliga rika viner.",
+      "highlights": "Södra Rhône extra stark."
+    },
+    {
+      "year": 2017,
+      "rating": 4,
+      "character": "God kvalitet trots torka. Koncentrerade viner.",
+      "highlights": "Bra prisvärdhet."
+    },
+    {
+      "year": 2016,
+      "rating": 4,
+      "character": "Frisk och elegant. Klassisk Rhône-stil med god syra.",
+      "highlights": "Underskattad årgång."
+    },
+    {
+      "year": 2015,
+      "rating": 5,
+      "character": "Varm och generös. Fantastisk frukt och koncentration.",
+      "highlights": "En av 2000-talets bästa."
+    },
+    {
+      "year": 2014,
+      "rating": 4,
+      "character": "Ojämn årgång med regn, men norra Rhône presterade klart bättre än initialt väntat.",
+      "highlights": "Norra Rhône stark, södra mer ojämn."
+    },
+    {
+      "year": 2013,
+      "rating": 3,
+      "character": "Svår årgång. Friskare och tunnare viner.",
+      "highlights": "Drick tidigt."
+    },
+    {
+      "year": 2012,
+      "rating": 4,
+      "character": "God kvalitet. Norra Rhône extra framgångsrik.",
+      "highlights": "Bra lagring."
+    },
+    {
+      "year": 2011,
+      "rating": 3,
+      "character": "Varm och tillgänglig men saknar den koncentration som toppårgångarna har.",
+      "highlights": "Trevlig men inte lagringsvärd — drick inom några år."
+    },
+    {
+      "year": 2010,
+      "rating": 5,
+      "character": "Legendarisk. Perfekt balans i hela Rhône.",
+      "highlights": "Lagra 20–30 år."
+    }
   ],
   "mosel": [
-    { "year": 2024, "rating": 4, "character": "Frisk och elegant. God syra och klassisk Mosel-karaktär.", "highlights": "Avvakta mer information." },
-    { "year": 2023, "rating": 4, "character": "Varm men frisk. Mogna viner med god syra och frukt.", "highlights": "Bra balans." },
-    { "year": 2022, "rating": 4, "character": "Varmt år. Mogna och generösa viner med lite lägre syra.", "highlights": "Ovanlig men intressant stil." },
-    { "year": 2021, "rating": 5, "character": "Klassisk Mosel-årgång. Perfekt syra och mineralitet.", "highlights": "En av årtiondet bästa. Lagra." },
-    { "year": 2020, "rating": 4, "character": "Varm men med god syra. Elegant och fruktig.", "highlights": "Tillgänglig och prisvärd." },
-    { "year": 2019, "rating": 5, "character": "Fantastisk. Perfekt mognad och syra. Klassisk Mosel.", "highlights": "Lagra 20+ år för GG." },
-    { "year": 2018, "rating": 4, "character": "Varm och generös. Mogna viner med mjukare syra.", "highlights": "Mer omedelbart tillgänglig." },
-    { "year": 2017, "rating": 4, "character": "Frost slog hårt men räddade viner är utmärkta.", "highlights": "Sällsynt och dyr." },
-    { "year": 2016, "rating": 4, "character": "Frisk och elegant. God syra och klassisk karaktär.", "highlights": "Bra lagring." },
-    { "year": 2015, "rating": 5, "character": "Varm och mogna. Fantastisk frukt med god syra.", "highlights": "En av 2000-talets bästa." },
-    { "year": 2014, "rating": 4, "character": "Klassisk frisk Mosel-stil. Elegant och mineralisk.", "highlights": "Underskattad. Köp nu." },
-    { "year": 2013, "rating": 3, "character": "Svår årgång. Friskare och tunnare.", "highlights": "Drick tidigt." },
-    { "year": 2012, "rating": 4, "character": "God kvalitet. Frisk och elegant.", "highlights": "Bra lagring." },
-    { "year": 2011, "rating": 5, "character": "Legendarisk Mosel-årgång. Perfekt balans och syra.", "highlights": "En av 2000-talets absolut bästa." },
-    { "year": 2010, "rating": 5, "character": "Klassisk och komplex. Fantastisk syra och lagringskapacitet.", "highlights": "Lagra 20–30 år." }
+    {
+      "year": 2024,
+      "rating": 5,
+      "character": "Nästan perfekt varm, torr säsong med idealiska skördeförhållanden.",
+      "highlights": "Sällsynt hög kvalitet över hela linjen — köp brett."
+    },
+    {
+      "year": 2023,
+      "rating": 4,
+      "character": "Varm men frisk. Mogna viner med god syra och frukt.",
+      "highlights": "Bra balans."
+    },
+    {
+      "year": 2022,
+      "rating": 4,
+      "character": "Varmt år. Mogna och generösa viner med lite lägre syra.",
+      "highlights": "Ovanlig men intressant stil."
+    },
+    {
+      "year": 2021,
+      "rating": 5,
+      "character": "Klassisk Mosel-årgång. Perfekt syra och mineralitet.",
+      "highlights": "En av årtiondet bästa. Lagra."
+    },
+    {
+      "year": 2020,
+      "rating": 4,
+      "character": "Varm men med god syra. Elegant och fruktig.",
+      "highlights": "Tillgänglig och prisvärd."
+    },
+    {
+      "year": 2019,
+      "rating": 5,
+      "character": "Fantastisk. Perfekt mognad och syra. Klassisk Mosel.",
+      "highlights": "Lagra 20+ år för GG."
+    },
+    {
+      "year": 2018,
+      "rating": 4,
+      "character": "Varm och generös. Mogna viner med mjukare syra.",
+      "highlights": "Mer omedelbart tillgänglig."
+    },
+    {
+      "year": 2017,
+      "rating": 4,
+      "character": "Frost slog hårt men räddade viner är utmärkta.",
+      "highlights": "Sällsynt och dyr."
+    },
+    {
+      "year": 2016,
+      "rating": 4,
+      "character": "Frisk och elegant. God syra och klassisk karaktär.",
+      "highlights": "Bra lagring."
+    },
+    {
+      "year": 2015,
+      "rating": 5,
+      "character": "Varm och mogna. Fantastisk frukt med god syra.",
+      "highlights": "En av 2000-talets bästa."
+    },
+    {
+      "year": 2014,
+      "rating": 4,
+      "character": "Klassisk frisk Mosel-stil. Elegant och mineralisk.",
+      "highlights": "Underskattad. Köp nu."
+    },
+    {
+      "year": 2013,
+      "rating": 3,
+      "character": "Svår årgång. Friskare och tunnare.",
+      "highlights": "Drick tidigt."
+    },
+    {
+      "year": 2012,
+      "rating": 4,
+      "character": "God kvalitet. Frisk och elegant.",
+      "highlights": "Bra lagring."
+    },
+    {
+      "year": 2011,
+      "rating": 5,
+      "character": "Legendarisk Mosel-årgång. Perfekt balans och syra.",
+      "highlights": "En av 2000-talets absolut bästa."
+    },
+    {
+      "year": 2010,
+      "rating": 5,
+      "character": "Klassisk och komplex. Fantastisk syra och lagringskapacitet.",
+      "highlights": "Lagra 20–30 år."
+    }
   ],
   "douro": [
-    { "year": 2024, "rating": 3, "character": "Tidig rapport — varmt och torrt. Avvakta.", "highlights": "Mer information behövs." },
-    { "year": 2023, "rating": 4, "character": "Varm årgång med god koncentration och frukt. Balanserad trots värmen.", "highlights": "Tillgänglig och generös stil." },
-    { "year": 2022, "rating": 5, "character": "Exceptionell. Extremt varm sommar gav koncentrerade, kraftfulla viner med fantastisk struktur.", "highlights": "En av de bästa på decennier för Douro. Lagra 15–25 år." },
-    { "year": 2021, "rating": 4, "character": "Frisk och elegant. God syra och klassisk Touriga Nacional-karaktär.", "highlights": "Klassisk stil med bra balans." },
-    { "year": 2020, "rating": 5, "character": "Fantastisk balans. Eleganta och koncentrerade viner med perfekt mognad.", "highlights": "En av årtiondet bästa. Köp och lagra." },
-    { "year": 2019, "rating": 4, "character": "Varm men balanserad. God fruktkoncentration och struktur.", "highlights": "Bra lagringspotential." },
-    { "year": 2018, "rating": 4, "character": "Generös och fruktig. Tillgänglig stil med mjuka tanniner.", "highlights": "Drick inom 10 år." },
-    { "year": 2017, "rating": 3, "character": "Extrem torka skapade stress. Ojämn kvalitet.", "highlights": "Selektivt köp — välj producent noga." },
-    { "year": 2016, "rating": 5, "character": "Klassisk elegant årgång. Perfekt balans och lagringskapacitet.", "highlights": "En av de stora Douro-årgångarna. Lagra 20+ år." },
-    { "year": 2015, "rating": 5, "character": "Varm och koncentrerad. Rika viner med fantastisk frukt och struktur.", "highlights": "En av årtiondet bästa." },
-    { "year": 2014, "rating": 3, "character": "Regnig höst skapade utmaningar. Ojämn kvalitet.", "highlights": "Selektivt." },
-    { "year": 2013, "rating": 4, "character": "Frisk och elegant. God syra och klassisk karaktär.", "highlights": "Underskattad årgång. Bra prisvärdhet." },
-    { "year": 2012, "rating": 4, "character": "Varm och koncentrerad. God kvalitet generellt.", "highlights": "Drick nu eller lagra kort." },
-    { "year": 2011, "rating": 5, "character": "Fantastisk årgång. Perfekt balans och intensitet.", "highlights": "En av 2000-talets bästa Douro-årgångar." },
-    { "year": 2010, "rating": 5, "character": "Legendarisk. Perfekt struktur och lagringskapacitet.", "highlights": "Lagra 20–30 år." }
+    {
+      "year": 2024,
+      "rating": 5,
+      "character": "Historisk årgång — den första allmänna Vintage Port-deklarationen sedan 2017. Jämförs av flera producenter med 2011 och till och med 1945.",
+      "highlights": "En av decenniets viktigaste Douro-årgångar. Sällsynt köptillfälle."
+    },
+    {
+      "year": 2023,
+      "rating": 4,
+      "character": "Varm årgång med god koncentration och frukt. Balanserad trots värmen.",
+      "highlights": "Tillgänglig och generös stil."
+    },
+    {
+      "year": 2022,
+      "rating": 5,
+      "character": "Exceptionell. Extremt varm sommar gav koncentrerade, kraftfulla viner med fantastisk struktur.",
+      "highlights": "En av de bästa på decennier för Douro. Lagra 15–25 år."
+    },
+    {
+      "year": 2021,
+      "rating": 4,
+      "character": "Frisk och elegant. God syra och klassisk Touriga Nacional-karaktär.",
+      "highlights": "Klassisk stil med bra balans."
+    },
+    {
+      "year": 2020,
+      "rating": 5,
+      "character": "Fantastisk balans. Eleganta och koncentrerade viner med perfekt mognad.",
+      "highlights": "En av årtiondet bästa. Köp och lagra."
+    },
+    {
+      "year": 2019,
+      "rating": 4,
+      "character": "Varm men balanserad. God fruktkoncentration och struktur.",
+      "highlights": "Bra lagringspotential."
+    },
+    {
+      "year": 2018,
+      "rating": 4,
+      "character": "Generös och fruktig. Tillgänglig stil med mjuka tanniner.",
+      "highlights": "Drick inom 10 år."
+    },
+    {
+      "year": 2017,
+      "rating": 5,
+      "character": "Torka minskade skörden, men kvaliteten var så hög att 2017 tillsammans med 2016 blev den första dubbeldeklarationen av Vintage Port sedan 1872–73.",
+      "highlights": "Historisk dubbeldeklaration tillsammans med 2016. Sällsynt och mycket lagringsvärd."
+    },
+    {
+      "year": 2016,
+      "rating": 5,
+      "character": "Klassisk elegant årgång. Perfekt balans och lagringskapacitet.",
+      "highlights": "En av de stora Douro-årgångarna. Lagra 20+ år."
+    },
+    {
+      "year": 2015,
+      "rating": 5,
+      "character": "Varm och koncentrerad. Rika viner med fantastisk frukt och struktur.",
+      "highlights": "En av årtiondet bästa."
+    },
+    {
+      "year": 2014,
+      "rating": 3,
+      "character": "Regnig höst skapade utmaningar. Ojämn kvalitet.",
+      "highlights": "Selektivt."
+    },
+    {
+      "year": 2013,
+      "rating": 4,
+      "character": "Frisk och elegant. God syra och klassisk karaktär.",
+      "highlights": "Underskattad årgång. Bra prisvärdhet."
+    },
+    {
+      "year": 2012,
+      "rating": 4,
+      "character": "Varm och koncentrerad. God kvalitet generellt.",
+      "highlights": "Drick nu eller lagra kort."
+    },
+    {
+      "year": 2011,
+      "rating": 5,
+      "character": "Fantastisk årgång. Perfekt balans och intensitet.",
+      "highlights": "En av 2000-talets bästa Douro-årgångar."
+    },
+    {
+      "year": 2010,
+      "rating": 5,
+      "character": "Legendarisk. Perfekt struktur och lagringskapacitet.",
+      "highlights": "Lagra 20–30 år."
+    }
   ],
   "napa": [
-    { "year": 2024, "rating": 3, "character": "Tidig rapport — påverkad av vårfrost och ojämn blomning. Avvakta.", "highlights": "Mer information behövs." },
-    { "year": 2023, "rating": 4, "character": "Svalare år gav friskare och mer eleganta viner än normalt för Napa.", "highlights": "Mer europeisk stil. Bra för dem som vill ha friskhet." },
-    { "year": 2022, "rating": 5, "character": "Utmärkt årgång. Varm men balanserad med god syra och koncentrerad frukt.", "highlights": "En av de bästa på länge. Cabernet Sauvignon i toppform." },
-    { "year": 2021, "rating": 5, "character": "Fantastisk balans. Eleganta, koncentrerade viner med perfekt mognad.", "highlights": "En av årtiondet bästa. Lagra 15–20 år." },
-    { "year": 2020, "rating": 3, "character": "Skogsbränderna i september påverkade kvaliteten negativt för många producenter.", "highlights": "Selektivt — välj producenter som inte drabbades av rökpåverkan." },
-    { "year": 2019, "rating": 5, "character": "Klassisk elegant årgång. Perfekt balans och lagringskapacitet.", "highlights": "Lagra 15–25 år. En av de stora." },
-    { "year": 2018, "rating": 4, "character": "Varm och generös. Rika, fylliga viner med mogna tanniner.", "highlights": "Tillgänglig relativt tidigt." },
-    { "year": 2017, "rating": 4, "character": "Bränder påverkade delar av Napa men kvaliteten är generellt god.", "highlights": "Bättre än ryktet. Selektivt köp." },
-    { "year": 2016, "rating": 5, "character": "Elegant och balanserad. Perfekt mognad med frisk syra och koncentrerad frukt.", "highlights": "En klassiker. Lagra 20+ år." },
-    { "year": 2015, "rating": 5, "character": "Varm och koncentrerad. Generösa, kraftfulla viner med fantastisk frukt.", "highlights": "Rik Napa-stil i toppform." },
-    { "year": 2014, "rating": 5, "character": "Fantastisk årgång. Elegant och koncentrerad med perfekt balans.", "highlights": "En av 2000-talets bästa. Lagra 20+ år." },
-    { "year": 2013, "rating": 5, "character": "Klassisk elegant årgång med perfekt mognad och syra.", "highlights": "Underskattad. Köp nu." },
-    { "year": 2012, "rating": 4, "character": "Varm och fruktig. God kvalitet generellt.", "highlights": "Drick nu." },
-    { "year": 2011, "rating": 3, "character": "Svalare år. Friskare och mer europeisk stil — ovanligt för Napa.", "highlights": "Inte typisk Napa-stil men elegant." },
-    { "year": 2010, "rating": 5, "character": "Legendarisk. Perfekt balans och koncentration.", "highlights": "Lagra 25+ år." }
+    {
+      "year": 2024,
+      "rating": 4,
+      "character": "Vårfrost och ojämn blomning minskade skörden, men kvaliteten blev god.",
+      "highlights": "Mindre skörd men solid kvalitet."
+    },
+    {
+      "year": 2023,
+      "rating": 4,
+      "character": "Svalare år gav friskare och mer eleganta viner än normalt för Napa.",
+      "highlights": "Mer europeisk stil. Bra för dem som vill ha friskhet."
+    },
+    {
+      "year": 2022,
+      "rating": 5,
+      "character": "Utmärkt årgång. Varm men balanserad med god syra och koncentrerad frukt.",
+      "highlights": "En av de bästa på länge. Cabernet Sauvignon i toppform."
+    },
+    {
+      "year": 2021,
+      "rating": 5,
+      "character": "Fantastisk balans. Eleganta, koncentrerade viner med perfekt mognad.",
+      "highlights": "En av årtiondet bästa. Lagra 15–20 år."
+    },
+    {
+      "year": 2020,
+      "rating": 3,
+      "character": "Skogsbränderna i september påverkade kvaliteten negativt för många producenter.",
+      "highlights": "Selektivt — välj producenter som inte drabbades av rökpåverkan."
+    },
+    {
+      "year": 2019,
+      "rating": 5,
+      "character": "Klassisk elegant årgång. Perfekt balans och lagringskapacitet.",
+      "highlights": "Lagra 15–25 år. En av de stora."
+    },
+    {
+      "year": 2018,
+      "rating": 4,
+      "character": "Varm och generös. Rika, fylliga viner med mogna tanniner.",
+      "highlights": "Tillgänglig relativt tidigt."
+    },
+    {
+      "year": 2017,
+      "rating": 3,
+      "character": "Skogsbränder i oktober gav rökpåverkan hos många producenter — undvik vin från drabbade områden.",
+      "highlights": "Selektivt — kontrollera vilka producenter som klarade sig från rökpåverkan."
+    },
+    {
+      "year": 2016,
+      "rating": 5,
+      "character": "Elegant och balanserad. Perfekt mognad med frisk syra och koncentrerad frukt.",
+      "highlights": "En klassiker. Lagra 20+ år."
+    },
+    {
+      "year": 2015,
+      "rating": 5,
+      "character": "Varm och koncentrerad. Generösa, kraftfulla viner med fantastisk frukt.",
+      "highlights": "Rik Napa-stil i toppform."
+    },
+    {
+      "year": 2014,
+      "rating": 5,
+      "character": "Fantastisk årgång. Elegant och koncentrerad med perfekt balans.",
+      "highlights": "En av 2000-talets bästa. Lagra 20+ år."
+    },
+    {
+      "year": 2013,
+      "rating": 5,
+      "character": "Klassisk elegant årgång med perfekt mognad och syra.",
+      "highlights": "Underskattad. Köp nu."
+    },
+    {
+      "year": 2012,
+      "rating": 4,
+      "character": "Varm och fruktig. God kvalitet generellt.",
+      "highlights": "Drick nu."
+    },
+    {
+      "year": 2011,
+      "rating": 3,
+      "character": "Svalare år. Friskare och mer europeisk stil — ovanligt för Napa.",
+      "highlights": "Inte typisk Napa-stil men elegant."
+    },
+    {
+      "year": 2010,
+      "rating": 4,
+      "character": "Svalare år för Napa, gav en mer återhållsam och elegant stil än typiskt.",
+      "highlights": "Ovanligt elegant Napa-stil snarare än kraftfull."
+    }
   ],
   "barossa": [
-    { "year": 2024, "rating": 3, "character": "Tidig rapport — varmt och torrt. Avvakta.", "highlights": "Mer information behövs." },
-    { "year": 2023, "rating": 4, "character": "Varm årgång med god fruktkoncentration. Klassisk Barossa-stil.", "highlights": "Tillgänglig och generös." },
-    { "year": 2022, "rating": 4, "character": "Balanserad årgång med god syra och koncentration.", "highlights": "Bra prisvärdhet." },
-    { "year": 2021, "rating": 5, "character": "Fantastisk balans. Eleganta och koncentrerade Shiraz med perfekt mognad.", "highlights": "En av årtiondet bästa. Lagra 15+ år." },
-    { "year": 2020, "rating": 4, "character": "God kvalitet trots utmanande säsong med torka och värme.", "highlights": "Klassisk kraftfull Barossa-stil." },
-    { "year": 2019, "rating": 5, "character": "Exceptionell. Perfekt balans mellan kraft och elegans.", "highlights": "En av de stora Barossa-årgångarna." },
-    { "year": 2018, "rating": 4, "character": "Varm och generös. Typisk kraftfull Barossa-karaktär.", "highlights": "Tillgänglig nu." },
-    { "year": 2017, "rating": 3, "character": "Extrem värme och torka skapade utmaningar. Ojämn kvalitet.", "highlights": "Selektivt köp." },
-    { "year": 2016, "rating": 5, "character": "Klassisk elegant årgång. Perfekt balans och lagringskapacitet.", "highlights": "Lagra 15–20 år." },
-    { "year": 2015, "rating": 4, "character": "Varm och koncentrerad. Typisk rik Barossa-stil.", "highlights": "Drick nu eller lagra kort." },
-    { "year": 2014, "rating": 5, "character": "Fantastisk balans. Eleganta viner med god syra och koncentration.", "highlights": "En av de bästa på länge." },
-    { "year": 2013, "rating": 4, "character": "God kvalitet. Frisk och välbalanserad för Barossa.", "highlights": "Underskattad årgång." },
-    { "year": 2012, "rating": 4, "character": "Varm och generös. Klassisk kraftfull stil.", "highlights": "Drick nu." },
-    { "year": 2011, "rating": 3, "character": "Svalare och blötare år. Friskare och lättare stil än normalt.", "highlights": "Atypisk Barossa — mer europeisk stil." },
-    { "year": 2010, "rating": 5, "character": "Legendarisk. Perfekt balans och koncentration.", "highlights": "En av 2000-talets absolut bästa Barossa-årgångar." }
+    {
+      "year": 2024,
+      "rating": 5,
+      "character": "En \"återgång till briljans\" efter några mer utmanande år — hög kvalitet över hela linjen.",
+      "highlights": "En av de starkaste Barossa-årgångarna på senare år."
+    },
+    {
+      "year": 2023,
+      "rating": 4,
+      "character": "Varm årgång med god fruktkoncentration. Klassisk Barossa-stil.",
+      "highlights": "Tillgänglig och generös."
+    },
+    {
+      "year": 2022,
+      "rating": 5,
+      "character": "Fina regn inför säsongen följt av svalare förhållanden än normalt gav underbart balanserade viner.",
+      "highlights": "Kommer att åldras mycket väl. En av de bästa på länge."
+    },
+    {
+      "year": 2021,
+      "rating": 5,
+      "character": "Fantastisk balans. Eleganta och koncentrerade Shiraz med perfekt mognad.",
+      "highlights": "En av årtiondet bästa. Lagra 15+ år."
+    },
+    {
+      "year": 2020,
+      "rating": 4,
+      "character": "God kvalitet trots utmanande säsong med torka och värme.",
+      "highlights": "Klassisk kraftfull Barossa-stil."
+    },
+    {
+      "year": 2019,
+      "rating": 5,
+      "character": "Exceptionell. Perfekt balans mellan kraft och elegans.",
+      "highlights": "En av de stora Barossa-årgångarna."
+    },
+    {
+      "year": 2018,
+      "rating": 5,
+      "character": "En av två \"briljanta\" årgångar i följd (tillsammans med 2016) enligt regionens egna bedömare.",
+      "highlights": "I klass med 2016 — en av decenniets bästa Barossa-årgångar."
+    },
+    {
+      "year": 2017,
+      "rating": 3,
+      "character": "Extrem värme och torka skapade utmaningar. Ojämn kvalitet.",
+      "highlights": "Selektivt köp."
+    },
+    {
+      "year": 2016,
+      "rating": 5,
+      "character": "Klassisk elegant årgång. Perfekt balans och lagringskapacitet.",
+      "highlights": "Lagra 15–20 år."
+    },
+    {
+      "year": 2015,
+      "rating": 5,
+      "character": "Sticker ut som en samlarfavorit bland senare års Barossa-årgångar.",
+      "highlights": "Särskilt uppskattad av samlare. Lagringsvärd."
+    },
+    {
+      "year": 2014,
+      "rating": 5,
+      "character": "Fantastisk balans. Eleganta viner med god syra och koncentration.",
+      "highlights": "En av de bästa på länge."
+    },
+    {
+      "year": 2013,
+      "rating": 4,
+      "character": "God kvalitet. Frisk och välbalanserad för Barossa.",
+      "highlights": "Underskattad årgång."
+    },
+    {
+      "year": 2012,
+      "rating": 4,
+      "character": "Varm och generös. Klassisk kraftfull stil.",
+      "highlights": "Drick nu."
+    },
+    {
+      "year": 2011,
+      "rating": 3,
+      "character": "Svalare och blötare år. Friskare och lättare stil än normalt.",
+      "highlights": "Atypisk Barossa — mer europeisk stil."
+    },
+    {
+      "year": 2010,
+      "rating": 5,
+      "character": "Legendarisk. Perfekt balans och koncentration.",
+      "highlights": "En av 2000-talets absolut bästa Barossa-årgångar."
+    }
   ],
   "mendoza": [
-    { "year": 2024, "rating": 4, "character": "Tidig rapport — frisk och balanserad. Lovande för Malbec.", "highlights": "Avvakta mer information." },
-    { "year": 2023, "rating": 4, "character": "Varm men balanserad årgång. God fruktkoncentration och mjukt tannin.", "highlights": "Tillgänglig och generös stil." },
-    { "year": 2022, "rating": 5, "character": "Exceptionell. Perfekt balans mellan frukt, syra och tannin. Hög altitud kompenserade värmen.", "highlights": "En av de bästa på decennier. Lagra 10–15 år." },
-    { "year": 2021, "rating": 4, "character": "Frisk och elegant. God syra och klassisk Malbec-karaktär med viol och björnbär.", "highlights": "Klassisk stil. Bra prisvärdhet." },
-    { "year": 2020, "rating": 5, "character": "Fantastisk balans. Eleganta och koncentrerade Malbec med perfekt mognad.", "highlights": "En av årtiondet bästa. Lagra 10–20 år." },
-    { "year": 2019, "rating": 4, "character": "Varm men balanserad. God fruktkoncentration och struktur.", "highlights": "Tillgänglig och välgjord." },
-    { "year": 2018, "rating": 5, "character": "Klassisk elegant årgång. Perfekt balans och lagringskapacitet.", "highlights": "Luján de Cuyo och Uco Valley i absolut toppform." },
-    { "year": 2017, "rating": 3, "character": "Torka skapade utmaningar. Ojämn kvalitet.", "highlights": "Selektivt köp." },
-    { "year": 2016, "rating": 5, "character": "Legendarisk årgång för Mendoza. Perfekt balans och koncentration.", "highlights": "En av 2000-talets bästa. Lagra 15+ år." },
-    { "year": 2015, "rating": 4, "character": "Varm och generös. Typisk rik Mendoza-stil med mjukt tannin.", "highlights": "Tillgänglig och välsmakande." },
-    { "year": 2014, "rating": 4, "character": "God balans. Frisk och elegant med klassisk Malbec-karaktär.", "highlights": "Underskattad årgång." },
-    { "year": 2013, "rating": 5, "character": "Fantastisk årgång. Perfekt mognad och syra.", "highlights": "En av de stora." },
-    { "year": 2012, "rating": 4, "character": "Varm och koncentrerad. God kvalitet generellt.", "highlights": "Drick nu." },
-    { "year": 2011, "rating": 3, "character": "Regnig höst skapade utmaningar. Friskare stil.", "highlights": "Selektivt." },
-    { "year": 2010, "rating": 5, "character": "Legendarisk. Perfekt balans och lagringskapacitet.", "highlights": "En av 2000-talets absolut bästa Mendoza-årgångar." }
+    {
+      "year": 2024,
+      "rating": 4,
+      "character": "Tidig rapport — frisk och balanserad. Lovande för Malbec.",
+      "highlights": "Avvakta mer information."
+    },
+    {
+      "year": 2023,
+      "rating": 4,
+      "character": "Varm men balanserad årgång. God fruktkoncentration och mjukt tannin.",
+      "highlights": "Tillgänglig och generös stil."
+    },
+    {
+      "year": 2022,
+      "rating": 5,
+      "character": "Exceptionell. Perfekt balans mellan frukt, syra och tannin. Hög altitud kompenserade värmen.",
+      "highlights": "En av de bästa på decennier. Lagra 10–15 år."
+    },
+    {
+      "year": 2021,
+      "rating": 4,
+      "character": "Frisk och elegant. God syra och klassisk Malbec-karaktär med viol och björnbär.",
+      "highlights": "Klassisk stil. Bra prisvärdhet."
+    },
+    {
+      "year": 2020,
+      "rating": 5,
+      "character": "Fantastisk balans. Eleganta och koncentrerade Malbec med perfekt mognad.",
+      "highlights": "En av årtiondet bästa. Lagra 10–20 år."
+    },
+    {
+      "year": 2019,
+      "rating": 4,
+      "character": "Varm men balanserad. God fruktkoncentration och struktur.",
+      "highlights": "Tillgänglig och välgjord."
+    },
+    {
+      "year": 2018,
+      "rating": 5,
+      "character": "Klassisk elegant årgång. Perfekt balans och lagringskapacitet.",
+      "highlights": "Luján de Cuyo och Uco Valley i absolut toppform."
+    },
+    {
+      "year": 2017,
+      "rating": 3,
+      "character": "Torka skapade utmaningar. Ojämn kvalitet.",
+      "highlights": "Selektivt köp."
+    },
+    {
+      "year": 2016,
+      "rating": 5,
+      "character": "Legendarisk årgång för Mendoza. Perfekt balans och koncentration.",
+      "highlights": "En av 2000-talets bästa. Lagra 15+ år."
+    },
+    {
+      "year": 2015,
+      "rating": 4,
+      "character": "Varm och generös. Typisk rik Mendoza-stil med mjukt tannin.",
+      "highlights": "Tillgänglig och välsmakande."
+    },
+    {
+      "year": 2014,
+      "rating": 4,
+      "character": "God balans. Frisk och elegant med klassisk Malbec-karaktär.",
+      "highlights": "Underskattad årgång."
+    },
+    {
+      "year": 2013,
+      "rating": 5,
+      "character": "Fantastisk årgång. Perfekt mognad och syra.",
+      "highlights": "En av de stora."
+    },
+    {
+      "year": 2012,
+      "rating": 4,
+      "character": "Varm och koncentrerad. God kvalitet generellt.",
+      "highlights": "Drick nu."
+    },
+    {
+      "year": 2011,
+      "rating": 3,
+      "character": "Regnig höst skapade utmaningar. Friskare stil.",
+      "highlights": "Selektivt."
+    },
+    {
+      "year": 2010,
+      "rating": 5,
+      "character": "Legendarisk. Perfekt balans och lagringskapacitet.",
+      "highlights": "En av 2000-talets absolut bästa Mendoza-årgångar."
+    }
   ]
 }

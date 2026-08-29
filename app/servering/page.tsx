@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import servingData from '@/data/serving.json';
 
 type ServingItem = typeof servingData[0];
@@ -50,11 +50,16 @@ function TempBar({ min, max, ideal }: { min: number; max: number; ideal: number 
 }
 
 // ─── Kort per stil ────────────────────────────────────────────────────────────
-function ServingCard({ item }: { item: ServingItem }) {
-  const [open, setOpen] = useState(false);
+function ServingCard({ item, initiallyOpen }: { item: ServingItem; initiallyOpen?: boolean }) {
+  const [open, setOpen] = useState(!!initiallyOpen);
+
+  useEffect(() => {
+    if (initiallyOpen) setOpen(true);
+  }, [initiallyOpen]);
 
   return (
     <div
+      id={`serving-${item.id}`}
       className="bg-wine-900 border border-wine-800 rounded-2xl overflow-hidden transition-all"
     >
       {/* Header — alltid synlig */}
@@ -141,6 +146,18 @@ function ServingCard({ item }: { item: ServingItem }) {
 // ─── Sida ─────────────────────────────────────────────────────────────────────
 export default function ServeringPage() {
   const [activeCategory, setActiveCategory] = useState('all');
+  const [openId, setOpenId] = useState<string | null>(null);
+
+  useEffect(() => {
+    const id = new URLSearchParams(window.location.search).get('q');
+    const item = servingData.find((s) => s.id === id);
+    if (!item) return;
+    setActiveCategory('all');
+    setOpenId(item.id);
+    setTimeout(() => {
+      document.getElementById(`serving-${item.id}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 50);
+  }, []);
 
   const filtered = servingData.filter(
     (item) => activeCategory === 'all' || item.category === activeCategory
@@ -180,7 +197,7 @@ export default function ServeringPage() {
       {/* Kort */}
       <div className="space-y-3">
         {filtered.map((item) => (
-          <ServingCard key={item.id} item={item} />
+          <ServingCard key={item.id} item={item} initiallyOpen={item.id === openId} />
         ))}
       </div>
 

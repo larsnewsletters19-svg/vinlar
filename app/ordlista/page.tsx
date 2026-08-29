@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import glossary from '@/data/glossary.json';
 
 const allTerms = glossary;
@@ -21,6 +21,19 @@ export default function OrdlistaPage() {
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState('all');
   const [expanded, setExpanded] = useState<string | null>(null);
+
+  useEffect(() => {
+    const id = new URLSearchParams(window.location.search).get('q');
+    if (!id) return;
+    const term = allTerms.find((t) => t.id === id);
+    if (!term) return;
+    setCategory('all');
+    setSearch(term.term);
+    setExpanded(term.id);
+    setTimeout(() => {
+      document.getElementById(`term-${term.id}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 50);
+  }, []);
 
   const filtered = allTerms.filter((term) => {
     const matchCat = category === 'all' || term.category === category;
@@ -105,7 +118,7 @@ export default function OrdlistaPage() {
           )}
           <div className="space-y-2 lg:space-y-0 lg:columns-2 lg:gap-6">
             {filtered.map((term) => (
-              <div key={term.id} className="break-inside-avoid-column lg:mb-2">
+              <div key={term.id} id={`term-${term.id}`} className="break-inside-avoid-column lg:mb-2">
                 <TermCard
                   term={term}
                   expanded={expanded === term.id}

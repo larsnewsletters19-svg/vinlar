@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import regions from '@/data/regions.json';
 import grapes from '@/data/grapes.json';
@@ -29,16 +29,16 @@ const countries = [
 
 const maps: Record<string, { src: string; label: string; regions: string }> = {
   france:      { src: '/maps/france.svg',    label: '🇫🇷 Frankrikes vinregioner',          regions: 'Bordeaux, Bourgogne, Rhône, Loire, Champagne och Alsace' },
-  italy:       { src: '/maps/italy.jpg',     label: '🇮🇹 Italiens vinregioner',             regions: 'Piemonte, Toscana och Veneto' },
-  spain:       { src: '/maps/spain.jpg',     label: '🇪🇸 Spaniens vinregioner',             regions: 'Rioja, Rías Baixas och Priorat' },
+  italy:       { src: '/maps/italy.jpg',     label: '🇮🇹 Italiens vinregioner',             regions: 'Piemonte, Toscana, Veneto, Alto Adige, Sicilien, Lombardiet och Abruzzo' },
+  spain:       { src: '/maps/spain.jpg',     label: '🇪🇸 Spaniens vinregioner',             regions: 'Rioja, Ribera del Duero, Jerez, Penedès, Rueda, Toro, Rías Baixas och Priorat' },
   germany:     { src: '/maps/germany.jpg',   label: '🇩🇪 Tysklands & Österrikes vinregioner', regions: 'Mosel, Rheingau & Pfalz, Wachau & Wien' },
   portugal:    { src: '/maps/portugal.jpg',  label: '🇵🇹 Portugals vinregioner',            regions: 'Douro & Vinho Verde' },
-  USA:         { src: '/maps/world.jpeg',    label: '🇺🇸 USA — Napa Valley',               regions: 'Napa Valley' },
-  Argentina:   { src: '/maps/world.jpeg',    label: '🇦🇷 Argentina — Mendoza',             regions: 'Mendoza' },
-  Chile:       { src: '/maps/world.jpeg',    label: '🇨🇱 Chile — Maipo & Colchagua',       regions: 'Maipo & Colchagua' },
-  Australien:  { src: '/maps/world.jpeg',    label: '🇦🇺 Australien — Barossa Valley',     regions: 'Barossa Valley & McLaren Vale' },
-  'Nya Zeeland': { src: '/maps/world.jpeg',  label: '🇳🇿 Nya Zeeland — Marlborough',       regions: 'Marlborough & Central Otago' },
-  Sydafrika:   { src: '/maps/world.jpeg',    label: '🇿🇦 Sydafrika — Stellenbosch',        regions: 'Stellenbosch & Swartland' },
+  USA:         { src: '/maps/world.jpeg',    label: '🇺🇸 USA — Napa, Sonoma, Oregon & Washington', regions: 'Napa Valley, Sonoma, Willamette Valley och Columbia Valley' },
+  Argentina:   { src: '/maps/world.jpeg',    label: '🇦🇷 Argentina — Mendoza & Salta',      regions: 'Mendoza och Salta (Cafayate)' },
+  Chile:       { src: '/maps/world.jpeg',    label: '🇨🇱 Chile — Maipo, Colchagua & Casablanca', regions: 'Maipo & Colchagua samt Casablanca Valley' },
+  Australien:  { src: '/maps/world.jpeg',    label: '🇦🇺 Australien — Barossa, Margaret River, Yarra & Hunter', regions: 'Barossa Valley, Margaret River, Yarra Valley och Hunter Valley' },
+  'Nya Zeeland': { src: '/maps/world.jpeg',  label: '🇳🇿 Nya Zeeland — Marlborough, Central Otago & Hawke\'s Bay', regions: 'Marlborough, Central Otago och Hawke\'s Bay' },
+  Sydafrika:   { src: '/maps/world.jpeg',    label: '🇿🇦 Sydafrika — Stellenbosch, Swartland & Constantia', regions: 'Stellenbosch, Swartland och Constantia' },
 };
 
 // Ny världen-länder som grupp-header
@@ -57,15 +57,21 @@ function RatingStars({ rating }: { rating: number }) {
 export default function RegionerPage() {
   const [activeCountry, setActiveCountry] = useState('all');
   const [selected, setSelected] = useState<string | null>(null);
+
+  useEffect(() => {
+    const id = new URLSearchParams(window.location.search).get('q');
+    if (id && allRegions.some((r) => r.id === id)) setSelected(id);
+  }, []);
   const [activeTab, setActiveTab] = useState<'profil' | 'arganger'>('profil');
 
   const activeDef = countries.find((c) => c.id === activeCountry)!;
 
-  const filtered = activeCountry === 'all'
+  const filtered = (activeCountry === 'all'
     ? allRegions
     : activeDef.filter === 'country'
       ? allRegions.filter((r) => r.country === activeCountry)
-      : allRegions.filter((r) => r.countryId === activeCountry);
+      : allRegions.filter((r) => r.countryId === activeCountry)
+  ).filter((r) => !r.parentRegionId);
 
   const activeRegion = selected ? allRegions.find((r) => r.id === selected) : null;
   const regionVintages = activeRegion ? allVintages[activeRegion.id] : null;
@@ -160,7 +166,20 @@ export default function RegionerPage() {
             <span className="text-3xl">{activeRegion.emoji}</span>
             <h2 className="font-display text-3xl text-wine-50">{activeRegion.name}</h2>
           </div>
-          <div className="text-wine-500 text-sm mb-4">{activeRegion.country}</div>
+          <div className="text-wine-500 text-sm mb-4">
+            {activeRegion.country}
+            {activeRegion.parentRegionId && (() => {
+              const parent = allRegions.find((r) => r.id === activeRegion.parentRegionId);
+              return parent ? (
+                <>
+                  {' · '}
+                  <button onClick={() => setSelected(parent.id)} className="text-wine-400 hover:text-amber-300 underline underline-offset-2">
+                    Del av {parent.name}
+                  </button>
+                </>
+              ) : null;
+            })()}
+          </div>
 
           <div className="flex gap-1 mb-6 bg-wine-900 p-1 rounded-xl border border-wine-800">
             <button
@@ -213,9 +232,25 @@ export default function RegionerPage() {
                   <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
                     <h3 className="text-xs uppercase tracking-widest text-wine-500 mb-3">🗺️ Delregioner</h3>
                     <div className="flex flex-wrap gap-2">
-                      {activeRegion.subRegions.map((sub) => (
-                        <span key={sub} className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-700 text-wine-400">{sub}</span>
-                      ))}
+                      {activeRegion.subRegions.map((sub) => {
+                        const subWords = sub.toLowerCase().split(/\s+/).filter((w) => w !== 'rioja' && w.length > 2);
+                        const profile = allRegions.find(
+                          (r) =>
+                            r.parentRegionId === activeRegion.id &&
+                            (r.name === sub || subWords.some((w) => r.name.toLowerCase().includes(w)))
+                        );
+                        return profile ? (
+                          <button
+                            key={sub}
+                            onClick={() => { setSelected(profile.id); setActiveTab('profil'); }}
+                            className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-600 text-amber-300 hover:border-amber-400 hover:bg-wine-700 transition-colors"
+                          >
+                            {sub} →
+                          </button>
+                        ) : (
+                          <span key={sub} className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-700 text-wine-400">{sub}</span>
+                        );
+                      })}
                     </div>
                   </div>
                 )}

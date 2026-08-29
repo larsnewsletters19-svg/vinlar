@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Playfair_Display, Source_Serif_4 } from 'next/font/google';
 import './globals.css';
 import Nav from '@/components/Nav';
+import SearchOverlay from '@/components/SearchOverlay';
 import { Analytics } from '@vercel/analytics/react';
 
 const playfair = Playfair_Display({
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="bg-wine-950 text-wine-100 font-body antialiased">
         <Nav />
+        <SearchOverlay />
         <main className="md:ml-56 pb-20 md:pb-0 min-h-screen">
           {children}
         </main>
