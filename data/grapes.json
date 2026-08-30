@@ -99,7 +99,8 @@
     "commonConfusions": [
       "Sauvignon Blanc",
       "Grüner Veltliner",
-      "Chenin Blanc"
+      "Chenin Blanc",
+      "Furmint"
     ]
   },
   {
@@ -200,7 +201,9 @@
     "commonConfusions": [
       "Riesling",
       "Grüner Veltliner",
-      "Albariño"
+      "Albariño",
+      "Verdejo",
+      "Assyrtiko"
     ]
   },
   {
@@ -600,7 +603,8 @@
     "commonConfusions": [
       "Riesling",
       "Chardonnay",
-      "Viognier"
+      "Viognier",
+      "Furmint"
     ]
   },
   {
@@ -897,7 +901,8 @@
     "commonConfusions": [
       "Sauvignon Blanc",
       "Grüner Veltliner",
-      "Riesling"
+      "Riesling",
+      "Godello"
     ]
   },
   {
@@ -1104,7 +1109,8 @@
     "commonConfusions": [
       "Gamay",
       "Sangiovese",
-      "Nebbiolo (ung)"
+      "Nebbiolo (ung)",
+      "Nerello Mascalese"
     ]
   },
   {
@@ -1306,7 +1312,8 @@
     "commonConfusions": [
       "Cabernet Sauvignon",
       "Malbec",
-      "Grenache"
+      "Grenache",
+      "Carmenère"
     ]
   },
   {
@@ -1510,7 +1517,8 @@
     "commonConfusions": [
       "Pinot Noir",
       "Merlot",
-      "Tempranillo"
+      "Tempranillo",
+      "Nero d'Avola"
     ]
   },
   {
@@ -1611,7 +1619,9 @@
     "commonConfusions": [
       "Sangiovese",
       "Pinot Noir (ung)",
-      "Barbera"
+      "Barbera",
+      "Aglianico",
+      "Nerello Mascalese"
     ]
   },
   {
@@ -1712,7 +1722,9 @@
     "commonConfusions": [
       "Nebbiolo",
       "Pinot Noir",
-      "Tempranillo"
+      "Tempranillo",
+      "Montepulciano",
+      "Aglianico"
     ]
   },
   {
@@ -2515,7 +2527,8 @@
     "commonConfusions": [
       "Syrah",
       "Malbec",
-      "Grenache"
+      "Grenache",
+      "Primitivo"
     ]
   },
   {
@@ -6044,7 +6057,8 @@
     ],
     "commonConfusions": [
       "Chardonnay",
-      "Pinot Blanc"
+      "Pinot Blanc",
+      "Xarel·lo"
     ]
   },
   {
@@ -6511,6 +6525,1158 @@
     "commonConfusions": [
       "Riesling",
       "Aligoté"
+    ]
+  },
+  {
+    "id": "verdicchio",
+    "name": "Verdicchio",
+    "aliases": [
+      "Trebbiano di Soave",
+      "Trebbiano di Lugana"
+    ],
+    "type": "white",
+    "shortDescription": "Vit druva från Marche vid Adriatiska kusten. Frisk citrus och grönt äpple med en salt, mineralisk ton och en distinkt bittermandelfinish. Kan åldras överraskande länge.",
+    "typicalAromas": [
+      "lemon",
+      "green_apple",
+      "white_flowers",
+      "nuts",
+      "chalk",
+      "mint"
+    ],
+    "aromaScores": {
+      "lemon": 4,
+      "lime": 1,
+      "grapefruit": 2,
+      "orange_peel": 1,
+      "green_apple": 4,
+      "pear": 2,
+      "peach": 1,
+      "apricot": 0,
+      "nectarine": 0,
+      "passion_fruit": 0,
+      "pineapple": 0,
+      "mango": 0,
+      "lychee": 0,
+      "raspberry": 0,
+      "strawberry": 0,
+      "cherry": 0,
+      "cranberry": 0,
+      "blackcurrant": 0,
+      "blackberry": 0,
+      "blueberry": 0,
+      "plum": 0,
+      "white_flowers": 3,
+      "rose": 0,
+      "violet": 0,
+      "grass": 1,
+      "nettles": 0,
+      "bell_pepper": 0,
+      "blackcurrant_leaf": 0,
+      "mint": 2,
+      "eucalyptus": 0,
+      "black_pepper": 0,
+      "white_pepper": 0,
+      "liquorice": 0,
+      "flint": 2,
+      "chalk": 3,
+      "slate": 1,
+      "wet_earth": 0,
+      "mushroom": 0,
+      "truffle": 0,
+      "vanilla": 0,
+      "butter": 0,
+      "toast": 1,
+      "coconut": 0,
+      "nuts": 3,
+      "coffee": 0,
+      "chocolate": 0,
+      "petrol": 0,
+      "honey": 1,
+      "dried_fruit": 0,
+      "tobacco": 0,
+      "leather": 0
+    },
+    "structure": {
+      "acidity": 4,
+      "body": 3,
+      "alcohol": 3,
+      "tannin": 0,
+      "sweetness": 1,
+      "oak": 0
+    },
+    "commonRegionsAndStyles": [
+      {
+        "name": "Verdicchio dei Castelli di Jesi, Marche",
+        "description": "Den klassiska, kustnära stilen. Frisk citrus, grönt äpple och en salt mineralitet från närheten till Adriatiska havet."
+      },
+      {
+        "name": "Verdicchio di Matelica, Marche",
+        "description": "Odlad högre upp inåt land — fylligare, mer strukturerad och syrarik än Castelli di Jesi-versionen."
+      },
+      {
+        "name": "Riserva (lagrad)",
+        "description": "Efter flera års flasklagring utvecklas honung, mandel och toast — en komplexitet som ofta jämförs med mogen Chablis."
+      }
+    ],
+    "blindTastingClues": [
+      "Grönt äpple och citron kombinerat med en distinkt bittermandelfinish",
+      "Salt, kustnära mineralitet — växer nära Adriatiska havet",
+      "Ovanligt hög syra och struktur för en italiensk vardagsvit",
+      "Lagrad Verdicchio kan utvecklas mot honung och toast, likt mogen Chablis",
+      "Säljs traditionellt i en distinkt amforaformad flaska"
+    ],
+    "commonConfusions": [
+      "Vernaccia",
+      "Garganega",
+      "Chardonnay"
+    ]
+  },
+  {
+    "id": "carmenere",
+    "name": "Carmenère",
+    "type": "red",
+    "shortDescription": "Chiles signaturdruva — ursprungligen bordeauxdruva som nästan försvann i Frankrike men blomstrade i Chile. Mörk frukt med en distinkt grön paprika-/örtton.",
+    "typicalAromas": [
+      "blackcurrant",
+      "plum",
+      "bell_pepper",
+      "black_pepper",
+      "tobacco",
+      "chocolate"
+    ],
+    "aromaScores": {
+      "lemon": 0,
+      "lime": 0,
+      "grapefruit": 0,
+      "orange_peel": 0,
+      "green_apple": 0,
+      "pear": 0,
+      "peach": 0,
+      "apricot": 0,
+      "nectarine": 0,
+      "passion_fruit": 0,
+      "pineapple": 0,
+      "mango": 0,
+      "lychee": 0,
+      "raspberry": 0,
+      "strawberry": 0,
+      "cherry": 0,
+      "cranberry": 0,
+      "blackcurrant": 4,
+      "blackberry": 3,
+      "blueberry": 0,
+      "plum": 3,
+      "white_flowers": 0,
+      "rose": 0,
+      "violet": 0,
+      "grass": 0,
+      "nettles": 0,
+      "bell_pepper": 3,
+      "blackcurrant_leaf": 0,
+      "mint": 0,
+      "eucalyptus": 0,
+      "black_pepper": 2,
+      "white_pepper": 0,
+      "liquorice": 0,
+      "flint": 0,
+      "chalk": 0,
+      "slate": 0,
+      "wet_earth": 0,
+      "mushroom": 0,
+      "truffle": 0,
+      "vanilla": 1,
+      "butter": 0,
+      "toast": 1,
+      "coconut": 0,
+      "nuts": 0,
+      "coffee": 0,
+      "chocolate": 1,
+      "petrol": 0,
+      "honey": 0,
+      "dried_fruit": 0,
+      "tobacco": 2,
+      "leather": 0
+    },
+    "structure": {
+      "acidity": 3,
+      "body": 4,
+      "alcohol": 4,
+      "tannin": 3,
+      "sweetness": 1,
+      "oak": 2
+    },
+    "commonRegionsAndStyles": [
+      {
+        "name": "Colchagua Valley, Chile",
+        "description": "Den klassiska chilenska stilen — mörk frukt, grön paprika och mjuka tannin."
+      },
+      {
+        "name": "Maipo Valley, Chile",
+        "description": "Ofta blandad med Cabernet Sauvignon för mer struktur."
+      }
+    ],
+    "blindTastingClues": [
+      "Grön paprika/örtig ton, mer uttalad än i Cabernet Franc",
+      "Mjukare tannin än Cabernet Sauvignon trots mörk frukt",
+      "Måste skördas mycket mogen — omogen Carmenère blir extremt grön/bitter",
+      "Nästan uteslutande förknippad med Chile idag",
+      "Trodde länge vara Merlot i Chile fram till DNA-identifiering på 1990-talet"
+    ],
+    "commonConfusions": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ]
+  },
+  {
+    "id": "nerello_mascalese",
+    "name": "Nerello Mascalese",
+    "type": "red",
+    "shortDescription": "Etnas huvuddruva på Sicilien. Ljus i färgen men syrarik och aromatisk — ofta jämförd med Pinot Noir eller Nebbiolo trots det varma medelhavsklimatet, tack vare vulkanens höga altitud.",
+    "typicalAromas": [
+      "cherry",
+      "strawberry",
+      "rose",
+      "wet_earth",
+      "flint",
+      "white_pepper"
+    ],
+    "aromaScores": {
+      "lemon": 0,
+      "lime": 0,
+      "grapefruit": 0,
+      "orange_peel": 0,
+      "green_apple": 0,
+      "pear": 0,
+      "peach": 0,
+      "apricot": 0,
+      "nectarine": 0,
+      "passion_fruit": 0,
+      "pineapple": 0,
+      "mango": 0,
+      "lychee": 0,
+      "raspberry": 2,
+      "strawberry": 2,
+      "cherry": 4,
+      "cranberry": 0,
+      "blackcurrant": 0,
+      "blackberry": 0,
+      "blueberry": 0,
+      "plum": 0,
+      "white_flowers": 0,
+      "rose": 2,
+      "violet": 0,
+      "grass": 0,
+      "nettles": 0,
+      "bell_pepper": 0,
+      "blackcurrant_leaf": 0,
+      "mint": 0,
+      "eucalyptus": 0,
+      "black_pepper": 0,
+      "white_pepper": 1,
+      "liquorice": 0,
+      "flint": 2,
+      "chalk": 0,
+      "slate": 0,
+      "wet_earth": 2,
+      "mushroom": 0,
+      "truffle": 0,
+      "vanilla": 0,
+      "butter": 0,
+      "toast": 0,
+      "coconut": 0,
+      "nuts": 0,
+      "coffee": 0,
+      "chocolate": 0,
+      "petrol": 0,
+      "honey": 0,
+      "dried_fruit": 0,
+      "tobacco": 1,
+      "leather": 0
+    },
+    "structure": {
+      "acidity": 4,
+      "body": 2,
+      "alcohol": 3,
+      "tannin": 3,
+      "sweetness": 1,
+      "oak": 1
+    },
+    "commonRegionsAndStyles": [
+      {
+        "name": "Etna Rosso, Sicilien",
+        "description": "Ljus, syrarik och aromatisk med vulkanisk mineralitet. Ofta jämförd med Bourgogne eller Nebbiolo."
+      }
+    ],
+    "blindTastingClues": [
+      "Ljus färg men tydlig tannin och hög syra — ovanligt för siciliansk röd",
+      "Rökig, vulkanisk mineralitet från Etnas aska och lava",
+      "Röd frukt (körsbär, jordgubbe) snarare än mörk, trots varmt klimat",
+      "Hög altitud (upp mot 1000 m) ger alpin friskhet",
+      "Jämförs ofta felaktigt som \"lätt\" — har faktisk struktur och lagringspotential"
+    ],
+    "commonConfusions": [
+      "Pinot Noir",
+      "Nebbiolo",
+      "Sangiovese"
+    ]
+  },
+  {
+    "id": "verdejo",
+    "name": "Verdejo",
+    "type": "white",
+    "shortDescription": "Spaniens referenspunkt för frisk vit vin, från Rueda i Kastilien. Örtig och fänkålsartad, ofta jämförd med Sauvignon Blanc men med en egen distinkt karaktär och bitter mandelavslutning.",
+    "typicalAromas": [
+      "lemon",
+      "grass",
+      "nettles",
+      "grapefruit",
+      "nuts",
+      "white_flowers"
+    ],
+    "aromaScores": {
+      "lemon": 3,
+      "lime": 0,
+      "grapefruit": 2,
+      "orange_peel": 0,
+      "green_apple": 2,
+      "pear": 0,
+      "peach": 0,
+      "apricot": 0,
+      "nectarine": 0,
+      "passion_fruit": 0,
+      "pineapple": 0,
+      "mango": 0,
+      "lychee": 0,
+      "raspberry": 0,
+      "strawberry": 0,
+      "cherry": 0,
+      "cranberry": 0,
+      "blackcurrant": 0,
+      "blackberry": 0,
+      "blueberry": 0,
+      "plum": 0,
+      "white_flowers": 1,
+      "rose": 0,
+      "violet": 0,
+      "grass": 3,
+      "nettles": 2,
+      "bell_pepper": 0,
+      "blackcurrant_leaf": 0,
+      "mint": 0,
+      "eucalyptus": 0,
+      "black_pepper": 0,
+      "white_pepper": 0,
+      "liquorice": 0,
+      "flint": 0,
+      "chalk": 1,
+      "slate": 0,
+      "wet_earth": 0,
+      "mushroom": 0,
+      "truffle": 0,
+      "vanilla": 0,
+      "butter": 0,
+      "toast": 0,
+      "coconut": 0,
+      "nuts": 2,
+      "coffee": 0,
+      "chocolate": 0,
+      "petrol": 0,
+      "honey": 0,
+      "dried_fruit": 0,
+      "tobacco": 0,
+      "leather": 0
+    },
+    "structure": {
+      "acidity": 4,
+      "body": 2,
+      "alcohol": 3,
+      "tannin": 0,
+      "sweetness": 1,
+      "oak": 0
+    },
+    "commonRegionsAndStyles": [
+      {
+        "name": "Rueda, Spanien",
+        "description": "Frisk, örtig med fänkål och en lätt bitter mandelavslutning."
+      }
+    ],
+    "blindTastingClues": [
+      "Örtig, fänkålsartad ton skiljer den från Sauvignon Blanc",
+      "Lätt bitter mandelavslutning, liknande Vernaccia",
+      "Mindre grön paprika-ton än Sauvignon Blanc från Loire/Nya Zeeland",
+      "Hög altitud i Rueda ger friskhet trots varmt inlandsklimat",
+      "Ofta blandad med lite Sauvignon Blanc för extra arom"
+    ],
+    "commonConfusions": [
+      "Sauvignon Blanc",
+      "Vernaccia",
+      "Albariño"
+    ]
+  },
+  {
+    "id": "montepulciano",
+    "name": "Montepulciano",
+    "type": "red",
+    "shortDescription": "En av Italiens mest odlade röda druvor, centrerad kring Abruzzo. Mörk frukt och medelhögt tannin till ett mycket prisvärt upplägg. Ska inte förväxlas med staden/vinet Vino Nobile di Montepulciano i Toscana, som görs på Sangiovese.",
+    "typicalAromas": [
+      "blackberry",
+      "plum",
+      "cherry",
+      "black_pepper",
+      "dried_fruit",
+      "liquorice"
+    ],
+    "aromaScores": {
+      "lemon": 0,
+      "lime": 0,
+      "grapefruit": 0,
+      "orange_peel": 0,
+      "green_apple": 0,
+      "pear": 0,
+      "peach": 0,
+      "apricot": 0,
+      "nectarine": 0,
+      "passion_fruit": 0,
+      "pineapple": 0,
+      "mango": 0,
+      "lychee": 0,
+      "raspberry": 0,
+      "strawberry": 0,
+      "cherry": 2,
+      "cranberry": 0,
+      "blackcurrant": 0,
+      "blackberry": 3,
+      "blueberry": 0,
+      "plum": 3,
+      "white_flowers": 0,
+      "rose": 0,
+      "violet": 0,
+      "grass": 0,
+      "nettles": 0,
+      "bell_pepper": 0,
+      "blackcurrant_leaf": 0,
+      "mint": 0,
+      "eucalyptus": 0,
+      "black_pepper": 2,
+      "white_pepper": 0,
+      "liquorice": 1,
+      "flint": 0,
+      "chalk": 0,
+      "slate": 0,
+      "wet_earth": 0,
+      "mushroom": 0,
+      "truffle": 0,
+      "vanilla": 0,
+      "butter": 0,
+      "toast": 0,
+      "coconut": 0,
+      "nuts": 0,
+      "coffee": 0,
+      "chocolate": 0,
+      "petrol": 0,
+      "honey": 0,
+      "dried_fruit": 1,
+      "tobacco": 1,
+      "leather": 0
+    },
+    "structure": {
+      "acidity": 3,
+      "body": 3,
+      "alcohol": 3,
+      "tannin": 3,
+      "sweetness": 1,
+      "oak": 1
+    },
+    "commonRegionsAndStyles": [
+      {
+        "name": "Montepulciano d'Abruzzo, Abruzzo",
+        "description": "Mörk frukt, medelhögt tannin, sällan hårt ekad — fruktdriven och prisvärd."
+      },
+      {
+        "name": "Colline Teramane, Abruzzo",
+        "description": "Kvalitetstoppen (DOCG) med mer struktur och lagringspotential."
+      }
+    ],
+    "blindTastingClues": [
+      "OBS: druvan Montepulciano ska inte förväxlas med Vino Nobile di Montepulciano (som är Sangiovese)",
+      "Mörk frukt och medelhögt tannin till lågt pris",
+      "Sällan kraftigt ekad — fruktdriven snarare än komplex",
+      "En av Italiens mest exporterade röda druvor",
+      "Mjukare och rundare än Sangiovese, med mindre uttalad syra"
+    ],
+    "commonConfusions": [
+      "Sangiovese",
+      "Primitivo",
+      "Nero d'Avola"
+    ]
+  },
+  {
+    "id": "xarello",
+    "name": "Xarel·lo",
+    "type": "white",
+    "shortDescription": "En av de tre klassiska druvorna i Cava från Katalonien, Spanien. Jordig och nötig med god syra — ger Cava dess distinkta karaktär som skiljer den från Champagne och Prosecco.",
+    "typicalAromas": [
+      "green_apple",
+      "nuts",
+      "wet_earth",
+      "chalk",
+      "lemon",
+      "pear"
+    ],
+    "aromaScores": {
+      "lemon": 2,
+      "lime": 0,
+      "grapefruit": 0,
+      "orange_peel": 0,
+      "green_apple": 2,
+      "pear": 2,
+      "peach": 0,
+      "apricot": 0,
+      "nectarine": 0,
+      "passion_fruit": 0,
+      "pineapple": 0,
+      "mango": 0,
+      "lychee": 0,
+      "raspberry": 0,
+      "strawberry": 0,
+      "cherry": 0,
+      "cranberry": 0,
+      "blackcurrant": 0,
+      "blackberry": 0,
+      "blueberry": 0,
+      "plum": 0,
+      "white_flowers": 1,
+      "rose": 0,
+      "violet": 0,
+      "grass": 0,
+      "nettles": 0,
+      "bell_pepper": 0,
+      "blackcurrant_leaf": 0,
+      "mint": 0,
+      "eucalyptus": 0,
+      "black_pepper": 0,
+      "white_pepper": 0,
+      "liquorice": 0,
+      "flint": 1,
+      "chalk": 2,
+      "slate": 0,
+      "wet_earth": 2,
+      "mushroom": 0,
+      "truffle": 0,
+      "vanilla": 0,
+      "butter": 0,
+      "toast": 0,
+      "coconut": 0,
+      "nuts": 3,
+      "coffee": 0,
+      "chocolate": 0,
+      "petrol": 0,
+      "honey": 0,
+      "dried_fruit": 0,
+      "tobacco": 0,
+      "leather": 0
+    },
+    "structure": {
+      "acidity": 3,
+      "body": 3,
+      "alcohol": 3,
+      "tannin": 0,
+      "sweetness": 1,
+      "oak": 0
+    },
+    "commonRegionsAndStyles": [
+      {
+        "name": "Penedès (Cava), Katalonien",
+        "description": "Basdruva i Cava-blend tillsammans med Macabeo och Parellada. Ger jordig struktur och lagringspotential."
+      },
+      {
+        "name": "Stilltvin, Penedès",
+        "description": "Alltmer odlad som eget stilla vin — fylligare och mer strukturerad än i Cava-blenden."
+      }
+    ],
+    "blindTastingClues": [
+      "Jordig/nötig ton är druvans signum — skiljer Cava från Champagne och Prosecco",
+      "God syra men mindre citrusskarp än Macabeo",
+      "Ger Cava dess strukturerade, lite rustika karaktär",
+      "Odlas nästan uteslutande i Katalonien",
+      "Alltmer populär som eget stilla vin, inte bara i Cava-blend"
+    ],
+    "commonConfusions": [
+      "Viura / Macabeo",
+      "Chardonnay",
+      "Garganega"
+    ]
+  },
+  {
+    "id": "aglianico",
+    "name": "Aglianico",
+    "type": "red",
+    "shortDescription": "Ofta kallad \"Barolo från söder\" — Syditaliens mest ansedda röda druva, med hög tannin och syra som ger mycket lagringsvärda viner från vulkaniska jordar i Campania och Basilicata.",
+    "typicalAromas": [
+      "blackberry",
+      "plum",
+      "black_pepper",
+      "tobacco",
+      "leather",
+      "wet_earth"
+    ],
+    "aromaScores": {
+      "lemon": 0,
+      "lime": 0,
+      "grapefruit": 0,
+      "orange_peel": 0,
+      "green_apple": 0,
+      "pear": 0,
+      "peach": 0,
+      "apricot": 0,
+      "nectarine": 0,
+      "passion_fruit": 0,
+      "pineapple": 0,
+      "mango": 0,
+      "lychee": 0,
+      "raspberry": 0,
+      "strawberry": 0,
+      "cherry": 2,
+      "cranberry": 0,
+      "blackcurrant": 0,
+      "blackberry": 3,
+      "blueberry": 0,
+      "plum": 3,
+      "white_flowers": 0,
+      "rose": 0,
+      "violet": 0,
+      "grass": 0,
+      "nettles": 0,
+      "bell_pepper": 0,
+      "blackcurrant_leaf": 0,
+      "mint": 0,
+      "eucalyptus": 0,
+      "black_pepper": 2,
+      "white_pepper": 0,
+      "liquorice": 2,
+      "flint": 0,
+      "chalk": 0,
+      "slate": 0,
+      "wet_earth": 2,
+      "mushroom": 0,
+      "truffle": 1,
+      "vanilla": 0,
+      "butter": 0,
+      "toast": 0,
+      "coconut": 0,
+      "nuts": 0,
+      "coffee": 0,
+      "chocolate": 0,
+      "petrol": 0,
+      "honey": 0,
+      "dried_fruit": 0,
+      "tobacco": 2,
+      "leather": 1
+    },
+    "structure": {
+      "acidity": 4,
+      "body": 4,
+      "alcohol": 4,
+      "tannin": 5,
+      "sweetness": 1,
+      "oak": 2
+    },
+    "commonRegionsAndStyles": [
+      {
+        "name": "Taurasi, Campania",
+        "description": "Ofta kallad \"Barolo från söder\" — mycket tanninrik och lagringsvärd, kräver flera år för att mjukna."
+      },
+      {
+        "name": "Aglianico del Vulture, Basilicata",
+        "description": "Odlad på vulkaniska jordar kring den slocknade vulkanen Vulture — mineralisk och strukturerad."
+      }
+    ],
+    "blindTastingClues": [
+      "Mycket hög tannin och syra samtidigt — ovanligt kraftfull kombination",
+      "Vulkanisk mineralitet från jordar kring Vesuvius/Vulture",
+      "Kräver ofta 8–10 års lagring innan tanninet mjuknar",
+      "Mörk frukt, läder och tobak — mer likt Nebbiolo eller Bordeaux än typisk sydital",
+      "Ett av Italiens mest underskattade lagringsviner internationellt"
+    ],
+    "commonConfusions": [
+      "Nebbiolo",
+      "Syrah / Shiraz",
+      "Nero d'Avola"
+    ]
+  },
+  {
+    "id": "nero_davola",
+    "name": "Nero d'Avola",
+    "type": "red",
+    "shortDescription": "Siciliens mest odlade och kända röda druva. Mörk, generös frukt och medelhögt tannin — Siciliens motsvarighet till Syrah i stil, ofta prisvärd och tillgänglig ung.",
+    "typicalAromas": [
+      "blackberry",
+      "plum",
+      "blackcurrant",
+      "black_pepper",
+      "liquorice",
+      "chocolate"
+    ],
+    "aromaScores": {
+      "lemon": 0,
+      "lime": 0,
+      "grapefruit": 0,
+      "orange_peel": 0,
+      "green_apple": 0,
+      "pear": 0,
+      "peach": 0,
+      "apricot": 0,
+      "nectarine": 0,
+      "passion_fruit": 0,
+      "pineapple": 0,
+      "mango": 0,
+      "lychee": 0,
+      "raspberry": 0,
+      "strawberry": 0,
+      "cherry": 0,
+      "cranberry": 0,
+      "blackcurrant": 2,
+      "blackberry": 3,
+      "blueberry": 0,
+      "plum": 3,
+      "white_flowers": 0,
+      "rose": 0,
+      "violet": 0,
+      "grass": 0,
+      "nettles": 0,
+      "bell_pepper": 0,
+      "blackcurrant_leaf": 0,
+      "mint": 0,
+      "eucalyptus": 0,
+      "black_pepper": 2,
+      "white_pepper": 0,
+      "liquorice": 1,
+      "flint": 0,
+      "chalk": 0,
+      "slate": 0,
+      "wet_earth": 0,
+      "mushroom": 0,
+      "truffle": 0,
+      "vanilla": 0,
+      "butter": 0,
+      "toast": 0,
+      "coconut": 0,
+      "nuts": 0,
+      "coffee": 0,
+      "chocolate": 1,
+      "petrol": 0,
+      "honey": 0,
+      "dried_fruit": 1,
+      "tobacco": 0,
+      "leather": 0
+    },
+    "structure": {
+      "acidity": 3,
+      "body": 4,
+      "alcohol": 4,
+      "tannin": 3,
+      "sweetness": 1,
+      "oak": 2
+    },
+    "commonRegionsAndStyles": [
+      {
+        "name": "Sicilien (allmänt)",
+        "description": "Mörk, mogen frukt med medelhögt tannin. Varmt klimat ger generös, tillgänglig stil."
+      },
+      {
+        "name": "Cerasuolo di Vittoria (blend med Frappato)",
+        "description": "Lättare, mer aromatisk stil när blandad med den lokala druvan Frappato."
+      }
+    ],
+    "blindTastingClues": [
+      "Mörk, mogen frukt och medelhögt, runt tannin",
+      "Ofta jämförd med Syrah i stil men mjukare",
+      "Sicilien mest odlade röda druva — Siciliens \"husdruva\"",
+      "Sällan hög syra trots det varma klimatet",
+      "Cerasuolo di Vittoria-blend med Frappato ger en ljusare, mer aromatisk version"
+    ],
+    "commonConfusions": [
+      "Syrah / Shiraz",
+      "Primitivo",
+      "Grenache / Garnacha"
+    ]
+  },
+  {
+    "id": "primitivo",
+    "name": "Primitivo",
+    "type": "red",
+    "shortDescription": "Pugliens signaturdruva i Sydöstitalien — genetiskt identisk med Zinfandel, men med en egen distinkt, mer medelhavsdriven stil. Mörk, generös frukt och hög alkohol.",
+    "typicalAromas": [
+      "blackberry",
+      "plum",
+      "dried_fruit",
+      "black_pepper",
+      "chocolate",
+      "vanilla"
+    ],
+    "aromaScores": {
+      "lemon": 0,
+      "lime": 0,
+      "grapefruit": 0,
+      "orange_peel": 0,
+      "green_apple": 0,
+      "pear": 0,
+      "peach": 0,
+      "apricot": 0,
+      "nectarine": 0,
+      "passion_fruit": 0,
+      "pineapple": 0,
+      "mango": 0,
+      "lychee": 0,
+      "raspberry": 1,
+      "strawberry": 0,
+      "cherry": 0,
+      "cranberry": 0,
+      "blackcurrant": 0,
+      "blackberry": 4,
+      "blueberry": 0,
+      "plum": 3,
+      "white_flowers": 0,
+      "rose": 0,
+      "violet": 0,
+      "grass": 0,
+      "nettles": 0,
+      "bell_pepper": 0,
+      "blackcurrant_leaf": 0,
+      "mint": 0,
+      "eucalyptus": 0,
+      "black_pepper": 2,
+      "white_pepper": 0,
+      "liquorice": 0,
+      "flint": 0,
+      "chalk": 0,
+      "slate": 0,
+      "wet_earth": 0,
+      "mushroom": 0,
+      "truffle": 0,
+      "vanilla": 1,
+      "butter": 0,
+      "toast": 0,
+      "coconut": 0,
+      "nuts": 0,
+      "coffee": 0,
+      "chocolate": 2,
+      "petrol": 0,
+      "honey": 0,
+      "dried_fruit": 2,
+      "tobacco": 0,
+      "leather": 0
+    },
+    "structure": {
+      "acidity": 2,
+      "body": 5,
+      "alcohol": 5,
+      "tannin": 3,
+      "sweetness": 1,
+      "oak": 2
+    },
+    "commonRegionsAndStyles": [
+      {
+        "name": "Primitivo di Manduria, Puglia",
+        "description": "Mycket mogen, generös och alkoholstark stil — Italiens svar på Zinfandel."
+      }
+    ],
+    "blindTastingClues": [
+      "Genetiskt identisk med Zinfandel, men ofta lite mindre söt/sylten i stilen",
+      "Mycket hög alkohol och fyllighet",
+      "Torkad frukt (russin, fikon) från övermogen skörd i varmt klimat",
+      "Lägre syra än de flesta italienska röda druvor",
+      "Bra pedagogiskt exempel på \"samma druva, olika namn och stil\" tillsammans med Zinfandel"
+    ],
+    "commonConfusions": [
+      "Zinfandel",
+      "Nero d'Avola",
+      "Grenache / Garnacha"
+    ]
+  },
+  {
+    "id": "assyrtiko",
+    "name": "Assyrtiko",
+    "type": "white",
+    "shortDescription": "Greklands mest prestigefyllda vita druva, framför allt från vulkanön Santorini. Extremt hög syra och en distinkt saltig, mineralisk ton trots det varma medelhavsklimatet.",
+    "typicalAromas": [
+      "lemon",
+      "lime",
+      "flint",
+      "chalk",
+      "grapefruit",
+      "white_flowers"
+    ],
+    "aromaScores": {
+      "lemon": 4,
+      "lime": 2,
+      "grapefruit": 2,
+      "orange_peel": 0,
+      "green_apple": 1,
+      "pear": 0,
+      "peach": 0,
+      "apricot": 0,
+      "nectarine": 0,
+      "passion_fruit": 0,
+      "pineapple": 0,
+      "mango": 0,
+      "lychee": 0,
+      "raspberry": 0,
+      "strawberry": 0,
+      "cherry": 0,
+      "cranberry": 0,
+      "blackcurrant": 0,
+      "blackberry": 0,
+      "blueberry": 0,
+      "plum": 0,
+      "white_flowers": 1,
+      "rose": 0,
+      "violet": 0,
+      "grass": 0,
+      "nettles": 0,
+      "bell_pepper": 0,
+      "blackcurrant_leaf": 0,
+      "mint": 0,
+      "eucalyptus": 0,
+      "black_pepper": 0,
+      "white_pepper": 0,
+      "liquorice": 0,
+      "flint": 3,
+      "chalk": 2,
+      "slate": 0,
+      "wet_earth": 1,
+      "mushroom": 0,
+      "truffle": 0,
+      "vanilla": 0,
+      "butter": 0,
+      "toast": 0,
+      "coconut": 0,
+      "nuts": 0,
+      "coffee": 0,
+      "chocolate": 0,
+      "petrol": 0,
+      "honey": 0,
+      "dried_fruit": 0,
+      "tobacco": 0,
+      "leather": 0
+    },
+    "structure": {
+      "acidity": 5,
+      "body": 3,
+      "alcohol": 3,
+      "tannin": 0,
+      "sweetness": 1,
+      "oak": 0
+    },
+    "commonRegionsAndStyles": [
+      {
+        "name": "Santorini, Grekland",
+        "description": "Vulkanisk jord och gamla, korgformade vinstockar (\"kouloura\") ger extremt koncentrerad, salt och syrarik vin."
+      }
+    ],
+    "blindTastingClues": [
+      "Extremt hög syra trots det heta medelhavsklimatet — druvans signum",
+      "Salt, mineralisk ton från vulkanisk aska på Santorini",
+      "Bevarar friskhet även vid hög mognad/alkoholhalt, ovanligt för varmt klimat",
+      "Odlas ofta i unika, korgformade vinstockar nära marken för skydd mot vind",
+      "Alltmer central i internationell vinutbildning som exempel på extrem syra i varmt klimat"
+    ],
+    "commonConfusions": [
+      "Sauvignon Blanc",
+      "Riesling",
+      "Chablis (Chardonnay)"
+    ]
+  },
+  {
+    "id": "furmint",
+    "name": "Furmint",
+    "type": "white",
+    "shortDescription": "Ungerns viktigaste vita druva och huvuddruvan bakom söta Tokaji — men görs alltmer även som ett torrt, mycket syrarikt och lagringsvärt vin.",
+    "typicalAromas": [
+      "green_apple",
+      "pear",
+      "honey",
+      "white_flowers",
+      "flint",
+      "lemon"
+    ],
+    "aromaScores": {
+      "lemon": 2,
+      "lime": 0,
+      "grapefruit": 0,
+      "orange_peel": 0,
+      "green_apple": 3,
+      "pear": 2,
+      "peach": 0,
+      "apricot": 1,
+      "nectarine": 0,
+      "passion_fruit": 0,
+      "pineapple": 0,
+      "mango": 0,
+      "lychee": 0,
+      "raspberry": 0,
+      "strawberry": 0,
+      "cherry": 0,
+      "cranberry": 0,
+      "blackcurrant": 0,
+      "blackberry": 0,
+      "blueberry": 0,
+      "plum": 0,
+      "white_flowers": 2,
+      "rose": 0,
+      "violet": 0,
+      "grass": 0,
+      "nettles": 0,
+      "bell_pepper": 0,
+      "blackcurrant_leaf": 0,
+      "mint": 0,
+      "eucalyptus": 0,
+      "black_pepper": 0,
+      "white_pepper": 0,
+      "liquorice": 0,
+      "flint": 2,
+      "chalk": 1,
+      "slate": 0,
+      "wet_earth": 0,
+      "mushroom": 0,
+      "truffle": 0,
+      "vanilla": 0,
+      "butter": 0,
+      "toast": 0,
+      "coconut": 0,
+      "nuts": 0,
+      "coffee": 0,
+      "chocolate": 0,
+      "petrol": 0,
+      "honey": 2,
+      "dried_fruit": 0,
+      "tobacco": 0,
+      "leather": 0
+    },
+    "structure": {
+      "acidity": 5,
+      "body": 3,
+      "alcohol": 3,
+      "tannin": 0,
+      "sweetness": 1,
+      "oak": 1
+    },
+    "commonRegionsAndStyles": [
+      {
+        "name": "Tokaj (torrt), Ungern",
+        "description": "Alltmer populär torr stil — grönt äpple, kvitten och hög syra, ofta jämförd med Chenin Blanc eller Riesling."
+      },
+      {
+        "name": "Tokaji Aszú (sött), Ungern",
+        "description": "Druvan bakom det klassiska söta Tokaji-vinet, gjort på ädelrötedrabbade druvor (aszú)."
+      }
+    ],
+    "blindTastingClues": [
+      "Mycket hög syra — bär upp både torra och söta stilar",
+      "Grönt äpple och kvitten dominerar frukten",
+      "Vulkanisk/mineralisk underton från Tokaj-regionens jordar",
+      "Torr Furmint är fortfarande relativt okänd internationellt jämfört med söt Tokaji",
+      "Mottaglig för ädelröta (botrytis), vilket gör den idealisk för söta viner"
+    ],
+    "commonConfusions": [
+      "Chenin Blanc",
+      "Riesling",
+      "Chardonnay"
+    ]
+  },
+  {
+    "id": "godello",
+    "name": "Godello",
+    "type": "white",
+    "shortDescription": "Galiciens växande stjärna i nordvästra Spanien, framför allt från Valdeorras. Fylligare och mer strukturerad än sin granne Albariño, med citrus, stenfrukt och mineralitet.",
+    "typicalAromas": [
+      "lemon",
+      "pear",
+      "peach",
+      "white_flowers",
+      "chalk",
+      "nuts"
+    ],
+    "aromaScores": {
+      "lemon": 3,
+      "lime": 0,
+      "grapefruit": 0,
+      "orange_peel": 0,
+      "green_apple": 2,
+      "pear": 2,
+      "peach": 2,
+      "apricot": 0,
+      "nectarine": 0,
+      "passion_fruit": 0,
+      "pineapple": 0,
+      "mango": 0,
+      "lychee": 0,
+      "raspberry": 0,
+      "strawberry": 0,
+      "cherry": 0,
+      "cranberry": 0,
+      "blackcurrant": 0,
+      "blackberry": 0,
+      "blueberry": 0,
+      "plum": 0,
+      "white_flowers": 2,
+      "rose": 0,
+      "violet": 0,
+      "grass": 0,
+      "nettles": 0,
+      "bell_pepper": 0,
+      "blackcurrant_leaf": 0,
+      "mint": 0,
+      "eucalyptus": 0,
+      "black_pepper": 0,
+      "white_pepper": 0,
+      "liquorice": 0,
+      "flint": 1,
+      "chalk": 2,
+      "slate": 0,
+      "wet_earth": 0,
+      "mushroom": 0,
+      "truffle": 0,
+      "vanilla": 0,
+      "butter": 0,
+      "toast": 0,
+      "coconut": 0,
+      "nuts": 1,
+      "coffee": 0,
+      "chocolate": 0,
+      "petrol": 0,
+      "honey": 0,
+      "dried_fruit": 0,
+      "tobacco": 0,
+      "leather": 0
+    },
+    "structure": {
+      "acidity": 4,
+      "body": 3,
+      "alcohol": 3,
+      "tannin": 0,
+      "sweetness": 1,
+      "oak": 1
+    },
+    "commonRegionsAndStyles": [
+      {
+        "name": "Valdeorras, Galicien",
+        "description": "Fylligare och mer strukturerad än Albariño, ofta med lätt ek för extra djup."
+      }
+    ],
+    "blindTastingClues": [
+      "Fylligare kropp än Albariño, mindre citrusskarp",
+      "Stenfrukt (persika/päron) mer framträdande än i Albariño",
+      "Klarar ek bättre än de flesta spanska vita druvor",
+      "Nästan utrotad efter phylloxera — räddad och återupplivad från 1970-talet",
+      "Växande internationellt rykte som ett av Spaniens mest lovande vita viner"
+    ],
+    "commonConfusions": [
+      "Albariño",
+      "Chardonnay",
+      "Viognier"
     ]
   }
 ]

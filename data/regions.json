@@ -2579,5 +2579,41 @@
     ],
     "climate": "Högaltitud-ökenklimat, extrem UV-strålning, stor dag/natt-temperaturväxling",
     "soil": "Sandig, alluvial jord med god dränering"
+  },
+  {
+    "id": "verdicchio-castelli-di-jesi",
+    "name": "Verdicchio dei Castelli di Jesi",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "shortDescription": "Marche, längs Adriatiska kusten öster om Umbrien. Italiens referenspunkt för Verdicchio — en frisk, saltig och förvånansvärt lagringsvärd vit druva som ofta jämförs med mogen Chablis efter några års flaska.",
+    "mainGrapes": [
+      "Verdicchio"
+    ],
+    "typicalStyle": "Grönt äpple, citrus och en salt, kustnära mineralitet med en distinkt bittermandelfinish. Hög syra och mer struktur än de flesta italienska vardagsviter. Riserva-versioner utvecklar honung och toast med ålder.",
+    "subRegions": [
+      "Castelli di Jesi",
+      "Matelica"
+    ],
+    "foodPairings": [
+      "Skaldjur",
+      "Fritto misto",
+      "Vit fisk",
+      "Get­ost"
+    ],
+    "blindTastingClues": [
+      "Bittermandelfinish kombinerat med grönt äpple och citron",
+      "Salt, kustnära mineralitet — ovanligt tydlig för en italiensk vit druva",
+      "Hög syra och förvånansvärt god lagringsförmåga för en \"vardagsvit\"",
+      "Lagrad Verdicchio (Riserva) kan utvecklas mot honung och toast, ofta jämförd med mogen Chablis",
+      "Säljs traditionellt i en distinkt amforaformad flaska — ett igenkänningstecken i sig"
+    ],
+    "famousProducers": [
+      "Bucci",
+      "Umani Ronchi",
+      "Garofoli"
+    ],
+    "climate": "Milt medelhavsklimat med kustnära påverkan från Adriatiska havet",
+    "soil": "Kalkrik lera, mer altitud och sten i Matelica-området"
   }
 ]
