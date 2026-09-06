@@ -43,7 +43,7 @@ function TempBar({ min, max, ideal }: { min: number; max: number; ideal: number 
       </div>
       <div className="flex justify-between mt-1 text-[10px] font-mono text-wine-400">
         <span>{min}°C</span>
-        <span className="text-amber-400 font-bold">Ideal: {ideal}°C</span>
+        <span className="text-amber-700 font-bold">Ideal: {ideal}°C</span>
         <span>{max}°C</span>
       </div>
     </div>
@@ -79,7 +79,7 @@ function ServingCard({ item, initiallyOpen }: { item: ServingItem; initiallyOpen
             </div>
           </div>
           <div className="text-right">
-            <div className="text-amber-400 font-mono text-sm font-bold">{item.temperature.ideal}°C</div>
+            <div className="text-amber-700 font-mono text-sm font-bold">{item.temperature.ideal}°C</div>
             <div className="text-wine-600 text-[10px] font-mono">{item.temperature.min}–{item.temperature.max}°C</div>
           </div>
         </div>

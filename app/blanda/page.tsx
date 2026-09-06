@@ -293,8 +293,8 @@ export default function BlandaPage() {
                   })}
                 </div>
                 <p className="text-wine-300 text-sm mb-2">{blend.description}</p>
-                <p className="text-amber-400 text-xs mb-1">📍 {blend.example}</p>
-                <p className="text-emerald-400 text-xs">🍽️ {blend.foodPairing}</p>
+                <p className="text-amber-700 text-xs mb-1">📍 {blend.example}</p>
+                <p className="text-emerald-700 text-xs">🍽️ {blend.foodPairing}</p>
               </div>
             ))}
           </div>
@@ -332,9 +332,9 @@ export default function BlandaPage() {
               <h3 className="text-xs uppercase tracking-widest text-wine-500">Förslag för {allGrapes.find(g => g.id === selectedGrape)?.name}</h3>
               {suggestions.map((s, i) => (
                 <div key={i} className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
-                  <div className="text-rose-300 text-sm font-medium mb-2">⚠️ {s.problem}</div>
+                  <div className="text-rose-800 text-sm font-medium mb-2">⚠️ {s.problem}</div>
                   <div className="text-wine-100 font-medium mb-1">{s.solution}</div>
-                  <div className="text-amber-400 text-xs mb-2">Proportion: {s.proportion}</div>
+                  <div className="text-amber-700 text-xs mb-2">Proportion: {s.proportion}</div>
                   <p className="text-wine-300 text-sm">{s.result}</p>
                   <Link href={`/druvor/${s.addGrape}`} className="inline-block mt-3 px-3 py-1 rounded-full text-xs bg-wine-800 border border-wine-700 text-wine-300 hover:border-amber-400 transition-colors">
                     Läs mer om {allGrapes.find(g => g.id === s.addGrape)?.name} →

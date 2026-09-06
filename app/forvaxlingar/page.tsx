@@ -9,9 +9,9 @@ const allConfusions = confusions;
 const allGrapes = grapes as Grape[];
 
 const difficultyColors: Record<string, string> = {
-  beginner: 'bg-green-900/30 border-green-700/50 text-green-400',
-  intermediate: 'bg-amber-900/30 border-amber-700/50 text-amber-400',
-  advanced: 'bg-red-900/30 border-red-700/50 text-red-400',
+  beginner: 'bg-green-100 border-green-400 text-green-800',
+  intermediate: 'bg-amber-100 border-amber-400 text-amber-800',
+  advanced: 'bg-red-100 border-red-400 text-red-800',
 };
 
 const difficultyLabels: Record<string, string> = {
@@ -31,7 +31,7 @@ export default function ForvaxlingarPage() {
   const active = selected ? allConfusions.find((c) => c.id === selected) : null;
 
   return (
-    <div className="px-4 py-8 max-w-2xl mx-auto">
+    <div className="px-4 py-8 max-w-2xl lg:max-w-5xl mx-auto">
       <h1 className="font-display text-4xl text-wine-100 mb-2">Förväxlingsguide</h1>
       <p className="text-wine-300 mb-6 leading-relaxed">
         De vanligaste förväxlingarna i blindprovning — vad de har gemensamt och hur du skiljer dem åt.
@@ -55,7 +55,7 @@ export default function ForvaxlingarPage() {
             ))}
           </div>
 
-          <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {filtered.map((c) => {
               const grapeA = allGrapes.find((g) => g.id === c.grapeA);
               const grapeB = allGrapes.find((g) => g.id === c.grapeB);
@@ -96,11 +96,11 @@ export default function ForvaxlingarPage() {
 
           <div className="space-y-4">
             <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
-              <h3 className="text-xs uppercase tracking-widest text-green-500 mb-3">✓ Gemensamt</h3>
+              <h3 className="text-xs uppercase tracking-widest text-green-700 mb-3">✓ Gemensamt</h3>
               <ul className="space-y-1.5">
                 {active.inCommon.map((item) => (
                   <li key={item} className="flex items-center gap-2 text-sm text-wine-300">
-                    <span className="text-green-500">→</span> {item}
+                    <span className="text-green-700">→</span> {item}
                   </li>
                 ))}
               </ul>
@@ -108,29 +108,29 @@ export default function ForvaxlingarPage() {
 
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
               <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
-                <h3 className="font-display text-lg text-amber-300 mb-3">{(active as any).styleA ?? allGrapes.find((g) => g.id === active.grapeA)?.name}</h3>
+                <h3 className="font-display text-lg text-amber-800 mb-3">{(active as any).styleA ?? allGrapes.find((g) => g.id === active.grapeA)?.name}</h3>
                 <ul className="space-y-1.5">
                   {active.grapeAClues.map((clue) => (
                     <li key={clue} className="flex items-start gap-2 text-sm text-wine-300">
-                      <span className="text-amber-400 mt-0.5">→</span> {clue}
+                      <span className="text-amber-700 mt-0.5">→</span> {clue}
                     </li>
                   ))}
                 </ul>
               </div>
               <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
-                <h3 className="font-display text-lg text-sky-300 mb-3">{(active as any).styleB ?? allGrapes.find((g) => g.id === active.grapeB)?.name}</h3>
+                <h3 className="font-display text-lg text-sky-800 mb-3">{(active as any).styleB ?? allGrapes.find((g) => g.id === active.grapeB)?.name}</h3>
                 <ul className="space-y-1.5">
                   {active.grapeBClues.map((clue) => (
                     <li key={clue} className="flex items-start gap-2 text-sm text-wine-300">
-                      <span className="text-sky-400 mt-0.5">→</span> {clue}
+                      <span className="text-sky-700 mt-0.5">→</span> {clue}
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
 
-            <div className="bg-amber-900/20 rounded-2xl p-5 border border-amber-800/40">
-              <h3 className="text-xs uppercase tracking-widest text-amber-500 mb-2">⚠️ Vanlig fälla</h3>
+            <div className="bg-amber-50 rounded-2xl p-5 border border-amber-300">
+              <h3 className="text-xs uppercase tracking-widest text-amber-800 mb-2">⚠️ Vanlig fälla</h3>
               <p className="text-wine-200 text-sm leading-relaxed">{active.commonTrap}</p>
             </div>
 
@@ -139,8 +139,8 @@ export default function ForvaxlingarPage() {
               <p className="text-wine-200 text-sm leading-relaxed">{active.keyDifference}</p>
             </div>
 
-            <div className="bg-green-900/20 rounded-2xl p-5 border border-green-800/40">
-              <h3 className="text-xs uppercase tracking-widest text-green-500 mb-2">💡 Snabbtips</h3>
+            <div className="bg-green-50 rounded-2xl p-5 border border-green-300">
+              <h3 className="text-xs uppercase tracking-widest text-green-800 mb-2">💡 Snabbtips</h3>
               <p className="text-wine-100 text-sm leading-relaxed font-medium">{active.tip}</p>
             </div>
           </div>

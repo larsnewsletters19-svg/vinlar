@@ -11,9 +11,9 @@ const allAromas = aromas as Aroma[];
 
 const aromaFamilies = [
   { id: 'citrus', label: 'Citrus', color: '#f59e0b', ids: ['lemon', 'lime', 'grapefruit', 'orange_peel'] },
-  { id: 'green_fruit', label: 'Grön frukt', color: '#84cc16', ids: ['green_apple', 'pear'] },
+  { id: 'green_fruit', label: 'Grön frukt', color: '#65a30d', ids: ['green_apple', 'pear'] },
   { id: 'stone_fruit', label: 'Stenfrukt', color: '#f97316', ids: ['peach', 'apricot', 'nectarine'] },
-  { id: 'tropical', label: 'Tropisk', color: '#eab308', ids: ['passion_fruit', 'pineapple', 'mango', 'lychee'] },
+  { id: 'tropical', label: 'Tropisk', color: '#ca8a04', ids: ['passion_fruit', 'pineapple', 'mango', 'lychee'] },
   { id: 'red_berries', label: 'Röda bär', color: '#f43f5e', ids: ['raspberry', 'strawberry', 'cherry', 'cranberry'] },
   { id: 'dark_berries', label: 'Mörka bär', color: '#7c3aed', ids: ['blackcurrant', 'blackberry', 'blueberry', 'plum'] },
   { id: 'floral', label: 'Blommigt', color: '#ec4899', ids: ['white_flowers', 'rose', 'violet'] },
@@ -72,6 +72,15 @@ function AromhjulContent() {
     const slice = (Math.PI * 2) / numFamilies;
 
     ctx.clearRect(0, 0, size, size);
+
+    // Yttre referenscirkel — visar max, så varje segments storlek går att bedöma relativt taket
+    ctx.beginPath();
+    ctx.arc(cx, cy, outerR, 0, Math.PI * 2);
+    ctx.setLineDash([4, 5]);
+    ctx.strokeStyle = 'rgba(252, 231, 235, 0.35)';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+    ctx.setLineDash([]);
 
     aromaFamilies.forEach((family, fi) => {
       const startAngle = fi * slice - Math.PI / 2;
@@ -238,7 +247,7 @@ function AromhjulContent() {
           ref={canvasRef}
           width={500}
           height={500}
-          className="w-full max-w-md cursor-pointer rounded-2xl"
+          className="w-full max-w-md cursor-pointer rounded-2xl bg-[#2d0a15]"
           onClick={handleCanvasClick}
         />
       </div>
@@ -273,7 +282,7 @@ function AromhjulContent() {
                           <div className="flex-1">
                             <div className="flex items-center gap-2 mb-0.5">
                               <span className="text-wine-100 font-medium">{aroma?.name}</span>
-                              <span className="text-amber-400 text-xs">{'★'.repeat(score - 1)}</span>
+                              <span className="text-amber-700 text-xs">{'★'.repeat(score - 1)}</span>
                             </div>
                             <p className="text-wine-400 text-xs leading-relaxed">{aroma?.description}</p>
                           </div>

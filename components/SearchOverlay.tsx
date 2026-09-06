@@ -47,7 +47,7 @@ export default function SearchOverlay() {
       <button
         onClick={() => setOpen(true)}
         aria-label="Sök"
-        className="fixed top-4 right-4 z-40 flex items-center gap-2 bg-wine-900 border border-wine-700 text-wine-300 rounded-full px-4 py-2.5 shadow-lg hover:border-wine-500 hover:text-wine-100 transition-all md:top-6 md:right-6"
+        className="fixed top-4 right-4 z-40 flex items-center gap-2 bg-white border border-[#f4a9b9] text-[#791d38] rounded-full px-4 py-2.5 shadow-lg hover:border-[#ab2144] hover:text-[#420d1d] transition-all md:top-6 md:right-6"
       >
         <span className="text-base">🔍</span>
         <span className="hidden sm:inline text-sm font-medium">Sök</span>

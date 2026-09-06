@@ -8,10 +8,10 @@ const COUNTRIES = [
     id: 'france',
     name: 'Frankrike',
     emoji: '🇫🇷',
-    color: 'from-blue-900 to-wine-950',
+    color: 'from-blue-900 to-stone-950',
     border: 'border-blue-700',
-    accent: 'text-blue-300',
-    tagColor: 'bg-blue-900/40 border-blue-700/50 text-blue-300',
+    accent: 'text-blue-800',
+    tagColor: 'bg-blue-100 border-blue-400 text-blue-800',
     intro: 'Franska etiketter namnger efter region, inte druva. "Chablis" är en plats — inte en druva. Du måste känna till regionerna för att förstå vad du köper.',
     labelMock: {
       lines: [
@@ -42,10 +42,10 @@ const COUNTRIES = [
     id: 'italy',
     name: 'Italien',
     emoji: '🇮🇹',
-    color: 'from-green-900 to-wine-950',
+    color: 'from-green-900 to-stone-950',
     border: 'border-green-700',
-    accent: 'text-green-300',
-    tagColor: 'bg-green-900/40 border-green-700/50 text-green-300',
+    accent: 'text-green-800',
+    tagColor: 'bg-green-100 border-green-400 text-green-800',
     intro: 'Italienska etiketter är varierade — ibland region, ibland druva, ibland fantasinamn (Super Tuscans). Kvalitetssystemet DOCG/DOC/IGT är nyckeln.',
     labelMock: {
       lines: [
@@ -76,10 +76,10 @@ const COUNTRIES = [
     id: 'spain',
     name: 'Spanien',
     emoji: '🇪🇸',
-    color: 'from-amber-900 to-wine-950',
+    color: 'from-amber-900 to-stone-950',
     border: 'border-amber-700',
-    accent: 'text-amber-300',
-    tagColor: 'bg-amber-900/40 border-amber-700/50 text-amber-300',
+    accent: 'text-amber-800',
+    tagColor: 'bg-amber-100 border-amber-400 text-amber-800',
     intro: 'Spanska etiketter fokuserar på lagringstid — Crianza, Reserva, Gran Reserva berättar hur länge vinet lagrats. Regionen (DO) är också viktig.',
     labelMock: {
       lines: [
@@ -110,10 +110,10 @@ const COUNTRIES = [
     id: 'germany',
     name: 'Tyskland',
     emoji: '🇩🇪',
-    color: 'from-yellow-900 to-wine-950',
+    color: 'from-yellow-900 to-stone-950',
     border: 'border-yellow-700',
-    accent: 'text-yellow-300',
-    tagColor: 'bg-yellow-900/40 border-yellow-700/50 text-yellow-300',
+    accent: 'text-yellow-800',
+    tagColor: 'bg-yellow-100 border-yellow-400 text-yellow-800',
     intro: 'Tyska etiketter är världens mest informationsrika — och mest förvirrande. Mognadsnivå (Prädikat) och VDP-klassificering är nycklarna.',
     labelMock: {
       lines: [
@@ -144,10 +144,10 @@ const COUNTRIES = [
     id: 'newworld',
     name: 'Nya världen',
     emoji: '🌏',
-    color: 'from-teal-900 to-wine-950',
+    color: 'from-teal-900 to-stone-950',
     border: 'border-teal-700',
-    accent: 'text-teal-300',
-    tagColor: 'bg-teal-900/40 border-teal-700/50 text-teal-300',
+    accent: 'text-teal-800',
+    tagColor: 'bg-teal-100 border-teal-400 text-teal-800',
     intro: 'USA, Australien, Nya Zeeland, Sydafrika, Argentina och Chile namnger efter druva — inte region. Enklare att läsa men med egna nyanser.',
     labelMock: {
       lines: [
@@ -178,10 +178,10 @@ const COUNTRIES = [
     id: 'portugal',
     name: 'Portugal',
     emoji: '🇵🇹',
-    color: 'from-red-900 to-wine-950',
+    color: 'from-red-900 to-stone-950',
     border: 'border-red-700',
-    accent: 'text-red-300',
-    tagColor: 'bg-red-900/40 border-red-700/50 text-red-300',
+    accent: 'text-red-800',
+    tagColor: 'bg-red-100 border-red-400 text-red-800',
     intro: 'Portugal har egna unika druvor och ett komplext DOC-system. Port och Vinho Verde har egna regler. Etikettspråket är portugisiska.',
     labelMock: {
       lines: [
@@ -263,7 +263,7 @@ function CountryDetail({ country }: { country: typeof COUNTRIES[0] }) {
         <ul className="space-y-1.5">
           {country.tips.map((tip, i) => (
             <li key={i} className="flex gap-2 text-sm text-wine-300">
-              <span className="text-amber-400 shrink-0">→</span> {tip}
+              <span className="text-amber-700 shrink-0">→</span> {tip}
             </li>
           ))}
         </ul>
@@ -287,9 +287,9 @@ function CountryCard({ country, isActive, onToggle }: {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <span className="text-3xl">{country.emoji}</span>
-            <span className="font-display text-xl text-wine-50">{country.name}</span>
+            <span className="font-display text-xl text-white">{country.name}</span>
           </div>
-          <span className="text-wine-300 text-xl">{isActive ? '↑' : '↓'}</span>
+          <span className="text-white/70 text-xl">{isActive ? '↑' : '↓'}</span>
         </div>
       </button>
 
@@ -366,7 +366,7 @@ export default function EtikettPage() {
               }`}
             >
               <span className="text-2xl">{c.emoji}</span>
-              <span className="font-display text-wine-50">{c.name}</span>
+              <span className={`font-display ${activeCountry === c.id ? 'text-white' : 'text-wine-100'}`}>{c.name}</span>
             </button>
           ))}
         </div>

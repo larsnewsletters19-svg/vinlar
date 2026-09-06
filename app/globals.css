@@ -3,6 +3,41 @@
 @tailwind utilities;
 
 @layer base {
+  /* Default (dark) wine palette — used by the sidebar/nav and anywhere
+     .theme-light is not applied. Values match the original hex scale
+     so nothing changes unless a section opts into the light theme. */
+  :root {
+    --wine-50: 253 242 244;
+    --wine-100: 252 231 235;
+    --wine-200: 249 208 217;
+    --wine-300: 244 169 185;
+    --wine-400: 236 120 146;
+    --wine-500: 224 77 111;
+    --wine-600: 204 45 82;
+    --wine-700: 171 33 68;
+    --wine-800: 143 30 61;
+    --wine-900: 121 29 56;
+    --wine-950: 66 13 29;
+  }
+
+  /* Light content theme — same brand hue, roles flipped so surfaces
+     are light and text is dark with real contrast. Apply this class
+     to a wrapper (e.g. <main>) to re-theme everything inside it
+     without touching individual page classNames. */
+  .theme-light {
+    --wine-950: 253 242 244; /* page background — warm cream */
+    --wine-900: 252 231 235; /* card background — slightly deeper cream */
+    --wine-800: 249 208 217; /* borders — light pink line */
+    --wine-700: 244 169 185; /* stronger border / hover */
+    --wine-600: 178 58 90;   /* filled buttons — readable with white text */
+    --wine-500: 171 33 68;   /* secondary text / labels */
+    --wine-400: 143 30 61;   /* muted text, slightly darker */
+    --wine-300: 121 29 56;   /* tertiary emphasis */
+    --wine-200: 94 23 48;
+    --wine-100: 66 13 29;    /* primary body text — dark maroon */
+    --wine-50: 42 8 18;      /* headings — near-black maroon */
+  }
+
   * {
     box-sizing: border-box;
   }

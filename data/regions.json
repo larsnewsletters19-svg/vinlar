@@ -270,6 +270,130 @@
     "soil": "Varierad: granit, kalksten, lera och sandsten"
   },
   {
+    "id": "beaujolais",
+    "name": "Beaujolais",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "shortDescription": "Söder om Bourgogne. Gamay-druvans hemland — lätta, fruktiga, syrarika röda viner som ofta dricks unga och lätt svalkade.",
+    "mainGrapes": [
+      "Gamay"
+    ],
+    "typicalStyle": "Blekt rubinrött med låg till medelhög tannin och hög syra. Hallon, körsbär, röda vinbär och ibland en karaktäristisk bananarom (särskilt i Beaujolais Nouveau). Cru-vinerna är djupare och mer strukturerade och klarar viss lagring.",
+    "subRegions": [
+      "Morgon",
+      "Fleurie",
+      "Moulin-à-Vent",
+      "Brouilly",
+      "Chénas",
+      "Chiroubles",
+      "Côte de Brouilly",
+      "Juliénas",
+      "Régnié",
+      "Saint-Amour"
+    ],
+    "foodPairings": [
+      "Charkuterier",
+      "Grillad kyckling",
+      "Lätta grytor",
+      "Sommarmat",
+      "Milda ostar"
+    ],
+    "blindTastingClues": [
+      "Lätt, genomskinlig rubinröd färg",
+      "Låg tannin trots att det är rött vin",
+      "Karbonmacerationston (banan, bubbelgum) i enklare exempel",
+      "Hög syra, ofta serverat lätt kylt",
+      "Cru-viner (t.ex. Morgon) kan lätt misstas för Pinot Noir"
+    ],
+    "famousProducers": [
+      "Georges Duboeuf",
+      "Jean Foillard",
+      "Marcel Lapierre",
+      "Château des Jacques"
+    ],
+    "climate": "Halvkontinentalt, mildare och soligare än norra Bourgogne",
+    "soil": "Granit och skiffer i norr (Crus), kalksten och lera i söder"
+  },
+  {
+    "id": "languedoc-roussillon",
+    "name": "Languedoc-Roussillon",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "shortDescription": "Frankrikes största vinregion till volym, längs Medelhavskusten. Traditionellt bulkvin, men allt fler kvalitetsproducenter jobbar med gamla Carignan-vinstockar.",
+    "mainGrapes": [
+      "Carignan",
+      "Grenache",
+      "Syrah",
+      "Mourvèdre"
+    ],
+    "typicalStyle": "Kraftfulla, solmogna rödviner med mörka bär, torr örtighet (garrigue) och ofta hög alkohol. Vita viner, särskilt Picpoul, är friska och citrusiga.",
+    "subRegions": [
+      "Minervois",
+      "Corbières",
+      "Faugères",
+      "Picpoul de Pinet",
+      "Fitou"
+    ],
+    "foodPairings": [
+      "Grillat lamm",
+      "Medelhavsgrytor",
+      "Charkuterier",
+      "Skaldjur (vita viner)"
+    ],
+    "blindTastingClues": [
+      "Garrigue/torra örter (rosmarin, timjan)",
+      "Solmogen, kraftig frukt",
+      "Hög alkohol",
+      "Carignan ger rustik syra och tannin"
+    ],
+    "famousProducers": [
+      "Mas de Daumas Gassac",
+      "Domaine Gauby",
+      "Château d'Aussières"
+    ],
+    "climate": "Medelhavsklimat, soligt och torrt",
+    "soil": "Varierad: kalksten, skiffer, grus och sandsten"
+  },
+  {
+    "id": "jura",
+    "name": "Jura",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "shortDescription": "Liten, unik region mellan Bourgogne och Schweiz. Känd för oxidativa vita viner (vin jaune) och lätta röda viner — favorit bland naturvinsentusiaster.",
+    "mainGrapes": [
+      "Savagnin",
+      "Chardonnay",
+      "Poulsard",
+      "Trousseau"
+    ],
+    "typicalStyle": "Vin jaune (Savagnin) har notor av valnöt, curry och sherry-liknande oxidation. Vanliga vita viner är friska och äppliga. Röda viner (Poulsard, Trousseau) är lätta, blekt färgade och syrarika.",
+    "subRegions": [
+      "Château-Chalon",
+      "L'Étoile",
+      "Arbois"
+    ],
+    "foodPairings": [
+      "Comté-ost",
+      "Kyckling med gräddsås (vin jaune)",
+      "Charkuterier"
+    ],
+    "blindTastingClues": [
+      "Valnöt och curry (vin jaune, oxidativ stil)",
+      "Sherry-liknande doft trots att det inte är starkvin",
+      "Lätt, blekt röd färg (Poulsard)"
+    ],
+    "famousProducers": [
+      "Domaine Jacques Puffeney",
+      "Château-Chalon-producenter",
+      "Domaine Ganevat"
+    ],
+    "climate": "Svalt kontinentalt",
+    "soil": "Marne (lerkalk) och kalksten"
+  },
+  {
     "id": "piemonte",
     "name": "Piemonte",
     "country": "Italien",
@@ -616,6 +740,36 @@
     "soil": "Blå skiffer — ger unik mineralitet"
   },
   {
+    "id": "nahe",
+    "name": "Nahe",
+    "country": "Tyskland",
+    "countryId": "germany",
+    "emoji": "🇩🇪",
+    "shortDescription": "Mindre tysk region mellan Mosel och Rheinhessen, ofta kallad en miniatyr av hela Tysklands terroir-variation eftersom så många jordartstyper möts här.",
+    "mainGrapes": [
+      "Riesling"
+    ],
+    "typicalStyle": "Riesling med stor spännvidd — från lätt och fruktig till mineralisk och kraftfull, beroende på vilken av de många jordartstyperna druvorna växer i.",
+    "subRegions": [],
+    "foodPairings": [
+      "Vit fisk",
+      "Asiatisk mat",
+      "Mild currygryta"
+    ],
+    "blindTastingClues": [
+      "Bred stilmässig variation trots samma druva",
+      "Ofta lite mjukare syra än Mosel",
+      "Mineralisk ton från skiffer/vulkanjord på vissa lägen"
+    ],
+    "famousProducers": [
+      "Dönnhoff",
+      "Schäfer-Fröhlich",
+      "Emrich-Schönleber"
+    ],
+    "climate": "Milt kontinentalt, skyddat av kullar",
+    "soil": "Mycket varierad: skiffer, kvartsit, vulkaniskt, löss"
+  },
+  {
     "id": "rheingau",
     "name": "Rheingau & Pfalz",
     "country": "Tyskland",
@@ -959,6 +1113,38 @@
     ],
     "climate": "Extremt kontinentalt i Douro, oceaniskt i Vinho Verde",
     "soil": "Skiffer i Douro — extremt torr och stenig"
+  },
+  {
+    "id": "dao-bairrada",
+    "name": "Dão & Bairrada",
+    "country": "Portugal",
+    "countryId": "portugal",
+    "emoji": "🇵🇹",
+    "shortDescription": "Två grannregioner i centrala Portugal. Dão ger eleganta, strukturerade rödviner på höjdlägen; Bairrada är känd för sin syrarika, tanninrika Baga-druva.",
+    "mainGrapes": [
+      "Touriga Nacional",
+      "Baga",
+      "Encruzado"
+    ],
+    "typicalStyle": "Dão: medelfylliga, örtiga rödviner med röda bär och fasthet. Bairrada: kraftigt tanninrik och syrarik Baga, ofta rustik i ungdomen men lagringsvärdig.",
+    "subRegions": [],
+    "foodPairings": [
+      "Lammstek",
+      "Grillad fläskkarré",
+      "Portugisiska grytor"
+    ],
+    "blindTastingClues": [
+      "Touriga Nacional: viol och mörka bär",
+      "Baga: extremt hög tannin och syra i ungdomen",
+      "Örtighet och fasthet"
+    ],
+    "famousProducers": [
+      "Quinta dos Roques",
+      "Luis Pato",
+      "Casa da Passarella"
+    ],
+    "climate": "Kontinentalt inslag i Dão (höjdlägen), maritimt i Bairrada",
+    "soil": "Granit i Dão, lerkalk i Bairrada"
   },
   {
     "id": "wachau",
@@ -1965,6 +2151,41 @@
     ],
     "climate": "Kontinentalt inland, maritimt närmare Adriatiska kusten",
     "soil": "Lera och kalksten i kuperad bergsterräng"
+  },
+  {
+    "id": "puglia",
+    "name": "Puglia",
+    "country": "Italien",
+    "countryId": "italy",
+    "emoji": "🇮🇹",
+    "shortDescription": "Klacken på den italienska stöveln. Varmt, soligt klimat ger kraftfulla, fruktdrivna rödviner till bra pris. Primitivo är genetiskt identisk med kaliforniska Zinfandel.",
+    "mainGrapes": [
+      "Primitivo",
+      "Negroamaro"
+    ],
+    "typicalStyle": "Mörk, fyllig och fruktig med mogna svarta bär, choklad och kryddor. Ofta hög alkohol men mjuk tannin.",
+    "subRegions": [
+      "Salento",
+      "Manduria"
+    ],
+    "foodPairings": [
+      "Grillat kött",
+      "Kraftiga pastarätter",
+      "Hårdostar"
+    ],
+    "blindTastingClues": [
+      "Söt, mogen svart frukt (björnbär, plommon)",
+      "Hög alkohol",
+      "Mjuk, len tannin trots kraft",
+      "Ofta lite sötma i eftersmaken"
+    ],
+    "famousProducers": [
+      "Gianfranco Fino",
+      "Tormaresca",
+      "Cantine San Marzano"
+    ],
+    "climate": "Varmt medelhavsklimat",
+    "soil": "Röd lerjord över kalksten"
   },
   {
     "id": "ribera-del-duero",

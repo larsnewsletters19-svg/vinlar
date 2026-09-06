@@ -26,7 +26,7 @@ export default function DruvorPage() {
     : allGrapes.filter((g) => g.type === activeTab);
 
   return (
-    <div className="px-4 py-8 max-w-2xl mx-auto">
+    <div className="px-4 py-8 max-w-2xl lg:max-w-5xl mx-auto">
       <h1 className="font-display text-4xl text-wine-100 mb-2">Druvor</h1>
       <p className="text-wine-300 mb-6 leading-relaxed">
         Välj en druva för att se dess typiska aromer, smakstruktur och blindprovningstips.
@@ -75,7 +75,7 @@ export default function DruvorPage() {
           Ingen druva matchar sökningen.
         </div>
       ) : (
-        <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+        <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((grape) => (
             <GrapeCard key={grape.id} grape={grape} />
           ))}

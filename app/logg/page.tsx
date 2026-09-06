@@ -33,11 +33,11 @@ const TYPE_LABELS: Record<string, string> = {
 const TYPE_ORDER = ['white', 'red', 'rosé', 'sparkling', 'sweet'];
 
 const TYPE_COLOR: Record<string, string> = {
-  white: 'bg-amber-900/40 text-amber-200 border-amber-700/50',
+  white: 'bg-amber-50 text-amber-700 border-amber-300',
   red: 'bg-wine-900/60 text-wine-200 border-wine-600/50',
-  rosé: 'bg-pink-900/40 text-pink-200 border-pink-700/50',
-  sparkling: 'bg-teal-900/40 text-teal-200 border-teal-700/50',
-  sweet: 'bg-yellow-900/40 text-yellow-200 border-yellow-700/50',
+  rosé: 'bg-pink-50 text-pink-700 border-pink-300',
+  sparkling: 'bg-teal-50 text-teal-700 border-teal-300',
+  sweet: 'bg-yellow-50 text-yellow-700 border-yellow-300',
 };
 
 const allGrapes = grapes as { id: string; name: string; type: string }[];
@@ -72,7 +72,7 @@ function StarRating({ value, onChange }: { value: number; onChange: (n: number) 
           key={star}
           type="button"
           onClick={() => onChange(star)}
-          className={`text-2xl transition-colors ${star <= value ? 'text-amber-400' : 'text-wine-700 hover:text-amber-600'}`}
+          className={`text-2xl transition-colors ${star <= value ? 'text-amber-700' : 'text-wine-700 hover:text-amber-600'}`}
         >
           ★
         </button>
@@ -97,7 +97,7 @@ function LogCard({ log, onDelete }: { log: WineLog; onDelete: () => void }) {
             >
               {log.grapeName}
             </Link>
-            <span className="text-amber-400 text-sm">{'★'.repeat(log.rating)}{'☆'.repeat(5 - log.rating)}</span>
+            <span className="text-amber-700 text-sm">{'★'.repeat(log.rating)}{'☆'.repeat(5 - log.rating)}</span>
           </div>
           {log.producer && <div className="text-sm opacity-80 mt-0.5">{log.producer}</div>}
           <div className="text-xs opacity-60 mt-1 flex gap-3 flex-wrap">
@@ -130,7 +130,7 @@ function LogCard({ log, onDelete }: { log: WineLog; onDelete: () => void }) {
           )}
           <button
             onClick={onDelete}
-            className="text-xs opacity-40 hover:opacity-80 hover:text-red-400 transition-colors mt-1"
+            className="text-xs opacity-40 hover:opacity-80 hover:text-red-700 transition-colors mt-1"
           >
             Ta bort
           </button>
@@ -312,7 +312,7 @@ function LogForm({ onSave }: { onSave: (log: WineLog) => void }) {
         />
       </div>
 
-      {error && <div className="text-red-400 text-sm mb-3">{error}</div>}
+      {error && <div className="text-red-700 text-sm mb-3">{error}</div>}
 
       <button
         onClick={handleSubmit}
@@ -396,7 +396,7 @@ function LoggPageInner() {
     .filter(l => !grapeFilter || l.grapeId === grapeFilter);
 
   return (
-    <div className="px-4 py-8 max-w-2xl lg:max-w-5xl mx-auto">
+    <div className="px-4 py-8 max-w-2xl lg:max-w-5xl xl:max-w-6xl mx-auto">
       <div className="mb-6">
         <div className="text-[10px] font-mono uppercase tracking-[0.2em] text-wine-500 mb-1">
           {logs.length} viner loggade
@@ -450,7 +450,7 @@ function LoggPageInner() {
       )}
 
       {/* Loggar */}
-      <div className="space-y-3 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-3">
+      <div className="space-y-3 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-3 xl:grid-cols-3">
         {filtered.map(log => (
           <LogCard
             key={log.id}

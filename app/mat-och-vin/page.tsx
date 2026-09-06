@@ -105,8 +105,8 @@ function MatOchVinPageInner() {
                   <h3 className="text-xs uppercase tracking-widest text-wine-500 mb-2">Vad händer?</h3>
                   <p className="text-wine-200 text-sm leading-relaxed">{activeInteraction.whatHappens}</p>
                 </div>
-                <div className="bg-amber-900/20 rounded-2xl p-5 border border-amber-800/40">
-                  <h3 className="text-xs uppercase tracking-widest text-amber-500 mb-2">💡 Tips</h3>
+                <div className="bg-amber-50 rounded-2xl p-5 border border-amber-300">
+                  <h3 className="text-xs uppercase tracking-widest text-amber-700 mb-2">💡 Tips</h3>
                   <p className="text-wine-200 text-sm leading-relaxed">{activeInteraction.tip}</p>
                 </div>
                 <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
@@ -115,21 +115,21 @@ function MatOchVinPageInner() {
                 </div>
                 <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                   <div className="bg-wine-900 rounded-2xl p-4 border border-wine-800">
-                    <h3 className="text-xs uppercase tracking-widest text-green-500 mb-3">✓ Passar bra med</h3>
+                    <h3 className="text-xs uppercase tracking-widest text-green-700 mb-3">✓ Passar bra med</h3>
                     <ul className="space-y-1">
                       {activeInteraction.goodFor.map((item) => (
                         <li key={item} className="text-sm text-wine-300 flex items-center gap-2">
-                          <span className="text-green-500">▲</span> {item}
+                          <span className="text-green-700">▲</span> {item}
                         </li>
                       ))}
                     </ul>
                   </div>
                   <div className="bg-wine-900 rounded-2xl p-4 border border-wine-800">
-                    <h3 className="text-xs uppercase tracking-widest text-red-500 mb-3">✗ Undvik med</h3>
+                    <h3 className="text-xs uppercase tracking-widest text-red-700 mb-3">✗ Undvik med</h3>
                     <ul className="space-y-1">
                       {activeInteraction.badFor.map((item) => (
                         <li key={item} className="text-sm text-wine-300 flex items-center gap-2">
-                          <span className="text-red-500">▼</span> {item}
+                          <span className="text-red-700">▼</span> {item}
                         </li>
                       ))}
                     </ul>
@@ -173,8 +173,8 @@ function MatOchVinPageInner() {
                   <h3 className="text-xs uppercase tracking-widest text-wine-500 mb-2">Hur gör man?</h3>
                   <p className="text-wine-200 text-sm leading-relaxed">{activeTrick.howTo}</p>
                 </div>
-                <div className="bg-amber-900/20 rounded-2xl p-5 border border-amber-800/40">
-                  <h3 className="text-xs uppercase tracking-widest text-amber-500 mb-2">🍷 Fungerar för</h3>
+                <div className="bg-amber-50 rounded-2xl p-5 border border-amber-300">
+                  <h3 className="text-xs uppercase tracking-widest text-amber-700 mb-2">🍷 Fungerar för</h3>
                   <p className="text-wine-200 text-sm leading-relaxed">{activeTrick.worksFor}</p>
                 </div>
               </div>

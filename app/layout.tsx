@@ -40,7 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-wine-950 text-wine-100 font-body antialiased">
         <Nav />
         <SearchOverlay />
-        <main className="md:ml-56 pb-20 md:pb-0 min-h-screen">
+        <main className="theme-light bg-wine-950 text-wine-100 md:ml-56 pb-20 md:pb-0 min-h-screen">
           {children}
         </main>
       </body>

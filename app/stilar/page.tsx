@@ -53,7 +53,7 @@ export default function StilarPage() {
   const activeComp = activeStyle ? styleComparisons.find((c) => c.id === activeStyle) : null;
 
   return (
-    <div className="px-4 py-8 max-w-2xl mx-auto">
+    <div className="px-4 py-8 max-w-2xl lg:max-w-5xl mx-auto">
       <h1 className="font-display text-4xl text-wine-100 mb-2">Stilar & regioner</h1>
       <p className="text-wine-300 mb-6 leading-relaxed">
         Samma druva kan smaka helt olika beroende på var den odlas och hur vinet görs.
@@ -103,7 +103,7 @@ export default function StilarPage() {
               Inga jämförelser för den kombinationen — prova ett annat filter.
             </div>
           ) : (
-            <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {filtered.map((c) => (
                 <li key={c.id}>
                   <button
@@ -139,29 +139,29 @@ export default function StilarPage() {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 mb-6">
             <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
               <div className="text-xs text-wine-500 uppercase tracking-wide mb-1">{activeComp.styleA.region}</div>
-              <h3 className="font-display text-xl text-amber-300 mb-4">{activeComp.styleA.name}</h3>
+              <h3 className="font-display text-xl text-amber-800 mb-4">{activeComp.styleA.name}</h3>
               <ul className="space-y-2">
                 {activeComp.styleACharacter.map((item) => (
                   <li key={item} className="flex items-start gap-2 text-wine-300 text-sm">
-                    <span className="text-amber-400 mt-0.5">→</span> {item}
+                    <span className="text-amber-700 mt-0.5">→</span> {item}
                   </li>
                 ))}
               </ul>
             </div>
             <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
               <div className="text-xs text-wine-500 uppercase tracking-wide mb-1">{activeComp.styleB.region}</div>
-              <h3 className="font-display text-xl text-sky-300 mb-4">{activeComp.styleB.name}</h3>
+              <h3 className="font-display text-xl text-sky-800 mb-4">{activeComp.styleB.name}</h3>
               <ul className="space-y-2">
                 {activeComp.styleBCharacter.map((item) => (
                   <li key={item} className="flex items-start gap-2 text-wine-300 text-sm">
-                    <span className="text-sky-400 mt-0.5">→</span> {item}
+                    <span className="text-sky-700 mt-0.5">→</span> {item}
                   </li>
                 ))}
               </ul>
             </div>
           </div>
-          <div className="bg-amber-900/30 rounded-2xl p-5 border border-amber-700/40">
-            <h3 className="font-display text-lg text-amber-300 mb-2">🔍 Blindprovningstips</h3>
+          <div className="bg-amber-50 rounded-2xl p-5 border border-amber-300">
+            <h3 className="font-display text-lg text-amber-800 mb-2">🔍 Blindprovningstips</h3>
             <p className="text-wine-200 text-sm leading-relaxed">{activeComp.blindTastingTip}</p>
           </div>
         </div>

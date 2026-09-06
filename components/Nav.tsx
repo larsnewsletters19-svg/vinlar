@@ -35,11 +35,8 @@ const desktopSections = [
     items: [
       { href: '/druvor', label: 'Druvor', icon: '🍇' },
       { href: '/periodisk', label: 'Periodisk system', icon: '⚗️' },
-      { href: '/logg', label: 'Min vinlogg', icon: '📓' },
       { href: '/regioner', label: 'Regioner', icon: '🌍' },
       { href: '/stilar', label: 'Stilar', icon: '🗺️' },
-      { href: '/jamfor', label: 'Jämför', icon: '⚖️' },
-      { href: '/blanda', label: 'Blanda ditt vin', icon: '🧪' },
       { href: '/arganger', label: 'Årgångsguide', icon: '📅' },
     ],
   },
@@ -48,10 +45,19 @@ const desktopSections = [
     items: [
       { href: '/lar-dig', label: 'Lär dig känna', icon: '🧠' },
       { href: '/ordlista', label: 'Ordlista', icon: '📚' },
-      { href: '/servering', label: 'Servering', icon: '🌡️' },
-      { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
       { href: '/etikett', label: 'Etikettläsaren', icon: '🏷️' },
+      { href: '/forvaxlingar', label: 'Förväxlingar', icon: '🔀' },
+      { href: '/servering', label: 'Servering', icon: '🌡️' },
       { href: '/mat-och-vin', label: 'Mat & Vin', icon: '🍽️' },
+    ],
+  },
+  {
+    label: 'Verktyg',
+    items: [
+      { href: '/logg', label: 'Min vinlogg', icon: '📓' },
+      { href: '/jamfor', label: 'Jämför', icon: '⚖️' },
+      { href: '/blanda', label: 'Blanda ditt vin', icon: '🧪' },
+      { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
     ],
   },
   {
@@ -60,7 +66,6 @@ const desktopSections = [
       { href: '/trana', label: 'Träna', icon: '🎯' },
       { href: '/prova', label: 'Prova ett vin', icon: '🍷' },
       { href: '/hemma', label: 'Prova hemma', icon: '🏠' },
-      { href: '/aromhjul', label: 'Aromhjul', icon: '🌸' },
     ],
   },
 ];
@@ -74,7 +79,7 @@ export default function Nav() {
   return (
     <>
       {/* Desktop sidebar */}
-      <nav className="hidden md:flex flex-col w-56 min-h-screen bg-wine-950 border-r border-wine-800 py-8 px-4 fixed left-0 top-0">
+      <nav className="hidden md:flex flex-col w-56 h-screen bg-wine-950 border-r border-wine-800 py-8 px-4 fixed left-0 top-0 overflow-y-auto">
         <Link href="/" className="block mb-8 px-2">
           <div className="text-2xl font-display text-wine-100 leading-tight">
             Vin<span className="text-amber-400">Lär</span>

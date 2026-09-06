@@ -10,7 +10,7 @@ const STEPS = [
     title: 'Välj & köp vinet',
     color: 'from-indigo-900 to-wine-950',
     border: 'border-indigo-700',
-    accent: 'text-indigo-300',
+    accent: 'text-indigo-800',
     timer: null,
     intro: 'Rätt val i butiken är halva jobbet. Tänk på mat, sällskap och tillfälle.',
     items: [
@@ -26,7 +26,7 @@ const STEPS = [
     title: 'Temperera vinet',
     color: 'from-sky-900 to-wine-950',
     border: 'border-sky-700',
-    accent: 'text-sky-300',
+    accent: 'text-sky-800',
     timer: null,
     intro: 'Rätt temperatur är avgörande. De flesta dricker vitt för varmt och rött för kallt.',
     items: [
@@ -42,7 +42,7 @@ const STEPS = [
     title: 'Dekantera vid behov',
     color: 'from-amber-900 to-wine-950',
     border: 'border-amber-700',
-    accent: 'text-amber-300',
+    accent: 'text-amber-800',
     timer: 30,
     timerLabel: 'Dekanterings-timer',
     intro: 'Inte alla viner behöver dekantering — men rätt vin med luft öppnar sig dramatiskt.',
@@ -59,7 +59,7 @@ const STEPS = [
     title: 'Häll upp & titta',
     color: 'from-rose-900 to-wine-950',
     border: 'border-rose-700',
-    accent: 'text-rose-300',
+    accent: 'text-rose-800',
     timer: null,
     intro: 'Häll rätt mängd i rätt glas. Det ser ut som lite — men det är rätt.',
     items: [
@@ -75,7 +75,7 @@ const STEPS = [
     title: 'Dofta — det viktigaste steget',
     color: 'from-violet-900 to-wine-950',
     border: 'border-violet-700',
-    accent: 'text-violet-300',
+    accent: 'text-violet-800',
     timer: null,
     intro: '80% av smakupplevelsen är egentligen doft. Ta dig tid här.',
     items: [
@@ -91,7 +91,7 @@ const STEPS = [
     title: 'Smaka metodiskt',
     color: 'from-emerald-900 to-wine-950',
     border: 'border-emerald-700',
-    accent: 'text-emerald-300',
+    accent: 'text-emerald-800',
     timer: null,
     intro: 'Ta en ordentlig klunk och låt vinet täcka hela munnen.',
     items: [
@@ -107,7 +107,7 @@ const STEPS = [
     title: 'Utvärdera & lär dig',
     color: 'from-teal-900 to-wine-950',
     border: 'border-teal-700',
-    accent: 'text-teal-300',
+    accent: 'text-teal-800',
     timer: null,
     intro: 'Sätt ord på upplevelsen. Du lär dig mer av ett medvetet vin än tio ouppmärksamma.',
     items: [
@@ -144,7 +144,7 @@ function Timer({ minutes }: { minutes: number }) {
       <div className="text-[10px] font-mono uppercase tracking-widest text-amber-600 mb-2">
         ⏱ Dekanterings-timer
       </div>
-      <div className="text-4xl font-mono text-amber-300 font-bold mb-3">
+      <div className="text-4xl font-mono text-amber-800 font-bold mb-3">
         {String(mins).padStart(2, '0')}:{String(secs).padStart(2, '0')}
       </div>
       <div className="h-2 bg-wine-800 rounded-full overflow-hidden mb-3">
@@ -175,7 +175,7 @@ function Timer({ minutes }: { minutes: number }) {
             key={m}
             onClick={() => { setSeconds(m * 60); setRunning(false); }}
             className={`px-2 py-1.5 rounded-lg text-xs font-mono transition-all ${
-              minutes === m ? 'bg-amber-800 text-amber-300' : 'bg-wine-800 text-wine-500 hover:bg-wine-700'
+              minutes === m ? 'bg-amber-800 text-amber-800' : 'bg-wine-800 text-wine-500 hover:bg-wine-700'
             }`}
           >
             {m}m

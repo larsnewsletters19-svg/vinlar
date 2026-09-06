@@ -36,111 +36,111 @@ const TYPE_CONFIG: Record<string, {
   white: {
     label: 'Vita druvor',
     symbol: 'V',
-    text: 'text-amber-100',
-    subtext: 'text-amber-400',
-    dot: 'bg-amber-400',
+    text: 'text-amber-800',
+    subtext: 'text-amber-600',
+    dot: 'bg-amber-500',
     borderBase: 'border-amber-700/50',
     bgColors: [
-      '#3d2e0a', // body 1 — ljusast
-      '#4a3810',
-      '#5a4415',
-      '#6b521a',
-      '#7d611f', // body 5 — mörkast
+      '#f5deA0', // body 1 — ljusast
+      '#e8c470',
+      '#d4a63f',
+      '#b8862a',
+      '#8a5f1a', // body 5 — mörkast
     ],
     borderColors: [
-      '#92620033',
-      '#a07a0055',
-      '#b08a0077',
-      '#c09a0099',
-      '#d4aa00bb',
+      '#d4aa0044',
+      '#c09a0066',
+      '#b08a0088',
+      '#a07a00aa',
+      '#8f6a00cc',
     ],
   },
   red: {
     label: 'Röda druvor',
     symbol: 'R',
-    text: 'text-rose-100',
-    subtext: 'text-rose-400',
-    dot: 'bg-rose-400',
+    text: 'text-rose-800',
+    subtext: 'text-rose-600',
+    dot: 'bg-rose-500',
     borderBase: 'border-wine-600/50',
     bgColors: [
-      '#2d0a0a', // body 1 — ljusast
-      '#3d1010',
-      '#501515',
-      '#661a1a',
-      '#7d1f1f', // body 5 — mörkast
+      '#f2b8b8', // body 1 — ljusast
+      '#dd8888',
+      '#c25555',
+      '#9c2f2f',
+      '#6b1515', // body 5 — mörkast
     ],
     borderColors: [
-      '#99000033',
-      '#aa000055',
+      '#cc000033',
+      '#cc000055',
       '#bb000077',
-      '#cc000099',
-      '#dd1111bb',
+      '#99000099',
+      '#770000cc',
     ],
   },
   rosé: {
     label: 'Rosé',
     symbol: 'Ro',
-    text: 'text-pink-100',
-    subtext: 'text-pink-400',
-    dot: 'bg-pink-400',
+    text: 'text-pink-800',
+    subtext: 'text-pink-600',
+    dot: 'bg-pink-500',
     borderBase: 'border-pink-700/50',
     bgColors: [
-      '#2d0a18',
-      '#3d1022',
-      '#501530',
-      '#661a3d',
-      '#7d1f4a',
+      '#f5b8d8',
+      '#e585b8',
+      '#cc4d92',
+      '#a52d70',
+      '#74184e',
     ],
     borderColors: [
       '#cc005533',
       '#cc006655',
-      '#dd007777',
-      '#dd008899',
-      '#ee0099bb',
+      '#bb005577',
+      '#99004499',
+      '#7700339c',
     ],
   },
   sparkling: {
     label: 'Mousserande',
     symbol: 'M',
-    text: 'text-teal-100',
-    subtext: 'text-teal-400',
-    dot: 'bg-teal-400',
+    text: 'text-teal-800',
+    subtext: 'text-teal-600',
+    dot: 'bg-teal-500',
     borderBase: 'border-teal-700/50',
     bgColors: [
-      '#041f1e',
-      '#082d2b',
-      '#0d3d3a',
-      '#124e4a',
-      '#175f5a',
+      '#a8e8e0',
+      '#6fd0c4',
+      '#3aada0',
+      '#1f8378',
+      '#0f5850',
     ],
     borderColors: [
       '#00887733',
       '#00998855',
-      '#00aa9977',
-      '#00bbaa99',
-      '#00ccbbbb',
+      '#00887777',
+      '#00776699',
+      '#005550cc',
     ],
   },
   sweet: {
     label: 'Söta & förstärkta',
     symbol: 'S',
-    text: 'text-yellow-100',
-    subtext: 'text-yellow-500',
-    dot: 'bg-yellow-400',
+    text: 'text-yellow-800',
+    subtext: 'text-yellow-600',
+    dot: 'bg-yellow-500',
     borderBase: 'border-yellow-700/50',
     bgColors: [
-      '#1f1700',
-      '#2d2200',
-      '#3d2e00',
-      '#4e3b00',
-      '#604800',
+      '#f5e08a',
+      '#e0c14a',
+      '#c49a28',
+      '#a17318',
+      '#6e4d0c',
     ],
     borderColors: [
-      '#88660033',
+      '#aa880033',
       '#99770055',
-      '#aa880077',
-      '#bb990099',
-      '#ccaa00bb',
+      '#88660077',
+      '#77550099',
+      '#5540009c',
     ],
   },
 };
@@ -177,6 +177,15 @@ function shortName(name: string): string {
   return ABBREV[name] ?? ABBREV[base] ?? base;
 }
 
+// ─── Läsbarhetshjälp: mörk eller ljus text beroende på rutans egen bakgrund ────
+function relativeLuminance(hex: string): number {
+  const c = hex.replace('#', '');
+  const r = parseInt(c.substring(0, 2), 16) / 255;
+  const g = parseInt(c.substring(2, 4), 16) / 255;
+  const b = parseInt(c.substring(4, 6), 16) / 255;
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+}
+
 // ─── Druvecell ────────────────────────────────────────────────────────────────
 function GrapeCell({ grape, index, logCount }: { grape: Grape; index: number; logCount: number }) {
   const cfg = TYPE_CONFIG[grape.type] ?? TYPE_CONFIG.white;
@@ -186,6 +195,13 @@ function GrapeCell({ grape, index, logCount }: { grape: Grape; index: number; lo
 
   const bgColor = cfg.bgColors[body - 1];
   const borderColor = cfg.borderColors[body - 1];
+
+  // Ljusa rutor (body 1–2) får mörk text, mörka rutor (body 4–5) får ljus text —
+  // så innehållet alltid går att läsa oavsett var i gradienten rutan hamnar.
+  const isLight = relativeLuminance(bgColor) > 0.5;
+  const textColor = isLight ? 'rgba(30,14,8,0.85)' : 'rgba(255,248,235,0.92)';
+  const mutedColor = isLight ? 'rgba(30,14,8,0.55)' : 'rgba(255,248,235,0.6)';
+  const dotOffColor = isLight ? 'rgba(30,14,8,0.15)' : 'rgba(255,255,255,0.15)';
 
   return (
     <Link
@@ -198,17 +214,17 @@ function GrapeCell({ grape, index, logCount }: { grape: Grape; index: number; lo
       title={grape.name}
     >
       {/* Serienummer */}
-      <div className={`text-[9px] font-mono leading-none ${cfg.subtext}`}>
+      <div className="text-[9px] font-mono leading-none" style={{ color: mutedColor }}>
         {String(index + 1).padStart(2, '0')}
       </div>
 
       {/* Typ-symbol */}
-      <div className={`absolute top-1 right-1.5 text-[8px] font-bold font-mono ${cfg.subtext} opacity-70`}>
+      <div className="absolute top-1 right-1.5 text-[8px] font-bold font-mono opacity-80" style={{ color: mutedColor }}>
         {cfg.symbol}
       </div>
 
       {/* Namn */}
-      <div className={`font-display font-bold leading-tight text-xs ${cfg.text} mt-0.5`}>
+      <div className="font-display font-bold leading-tight text-xs mt-0.5" style={{ color: textColor }}>
         {displayName}
       </div>
 
@@ -217,19 +233,23 @@ function GrapeCell({ grape, index, logCount }: { grape: Grape; index: number; lo
         {[1, 2, 3, 4, 5].map((i) => (
           <div
             key={i}
-            className={`w-[3px] h-[3px] rounded-full ${i <= body ? cfg.dot : 'bg-white/10'}`}
+            className={`w-[3px] h-[3px] rounded-full ${i <= body ? cfg.dot : ''}`}
+            style={i > body ? { backgroundColor: dotOffColor } : undefined}
           />
         ))}
       </div>
 
       {/* Syra */}
-      <div className={`text-[7px] font-mono ${cfg.subtext} mt-0.5`}>
+      <div className="text-[7px] font-mono mt-0.5" style={{ color: mutedColor }}>
         sy {acidity}/5
       </div>
 
       {/* Logg-badge */}
       {logCount > 0 && (
-        <div className="absolute bottom-1 right-1.5 text-[8px] font-mono font-bold text-white/70 bg-white/15 rounded px-0.5">
+        <div
+          className="absolute bottom-1 right-1.5 text-[8px] font-mono font-bold rounded px-0.5"
+          style={{ color: textColor, backgroundColor: isLight ? 'rgba(30,14,8,0.1)' : 'rgba(255,255,255,0.15)' }}
+        >
           {logCount}×
         </div>
       )}

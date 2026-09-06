@@ -197,8 +197,8 @@ function ProvaContent() {
                 {grape.type === 'sweet' && 'Söta viner är ofta djupare guldgula till bärnstensfärgade. Mörkare färg kan indikera botrytis eller oxidativ lagring.'}
               </p>
             </div>
-            <div className="bg-amber-900/20 rounded-2xl p-4 border border-amber-800/40">
-              <p className="text-amber-300 text-sm">💡 Snurra glaset lite och titta på hur vinet rinner ner längs sidan — tjocka "ben" indikerar hög alkohol eller sötma.</p>
+            <div className="bg-amber-50 rounded-2xl p-4 border border-amber-300">
+              <p className="text-amber-800 text-sm">💡 Snurra glaset lite och titta på hur vinet rinner ner längs sidan — tjocka "ben" indikerar hög alkohol eller sötma.</p>
             </div>
           </div>
         )}
@@ -244,8 +244,8 @@ function ProvaContent() {
                         return (
                           <div key={id} className={`px-3 py-2 rounded-xl text-sm flex items-center gap-2 ${
                             isCorrect
-                              ? 'bg-green-900/30 border border-green-700/50 text-green-300'
-                              : 'bg-rose-900/20 border border-rose-700/40 text-rose-300'
+                              ? 'bg-green-50 border border-green-300 text-green-800'
+                              : 'bg-rose-50 border border-rose-300 text-rose-800'
                           }`}>
                             {isCorrect ? '✓' : '✗'} {family?.emoji} {family?.label}
                             {!isCorrect && (() => {
@@ -288,10 +288,10 @@ function ProvaContent() {
                           <div className="flex flex-wrap gap-1.5">
                             {familyAromas.map(({ id, score, aroma }) => (
                               <span key={id} className={`flex items-center gap-1 px-2 py-1 rounded-full text-xs ${
-                                score === 5 ? 'bg-amber-400/20 border border-amber-400/50 text-amber-300' : 'bg-wine-800 border border-wine-700 text-wine-300'
+                                score === 5 ? 'bg-amber-400/20 border border-amber-400/50 text-amber-800' : 'bg-wine-800 border border-wine-700 text-wine-300'
                               }`}>
                                 {aroma?.emoji} {aroma?.name}
-                                {score === 5 && <span className="text-amber-400">★</span>}
+                                {score === 5 && <span className="text-amber-700">★</span>}
                               </span>
                             ))}
                           </div>
@@ -302,8 +302,8 @@ function ProvaContent() {
                 </>
               )}
             </div>
-            <div className="bg-amber-900/20 rounded-2xl p-4 border border-amber-800/40">
-              <p className="text-amber-300 text-sm">💡 Dofta i korta sniftar — näsan tröttnar snabbt. Ta en paus och dofta igen.</p>
+            <div className="bg-amber-50 rounded-2xl p-4 border border-amber-300">
+              <p className="text-amber-800 text-sm">💡 Dofta i korta sniftar — näsan tröttnar snabbt. Ta en paus och dofta igen.</p>
             </div>
           </div>
         )}
@@ -385,13 +385,13 @@ function ProvaContent() {
                               ))}
                             </div>
                           ) : feedback === true ? (
-                            <div className="bg-green-900/30 rounded-xl p-3 border border-green-700/50">
-                              <p className="text-green-300 text-sm font-medium">✓ Rätt!</p>
-                              <p className="text-green-200 text-xs mt-1">{correct >= 4 ? tips[key].high : correct <= 2 ? tips[key].low : 'Medel — varken lågt eller högt.'}</p>
+                            <div className="bg-green-50 rounded-xl p-3 border border-green-300">
+                              <p className="text-green-800 text-sm font-medium">✓ Rätt!</p>
+                              <p className="text-green-700 text-xs mt-1">{correct >= 4 ? tips[key].high : correct <= 2 ? tips[key].low : 'Medel — varken lågt eller högt.'}</p>
                             </div>
                           ) : feedback === false ? (
-                            <div className="bg-rose-900/20 rounded-xl p-3 border border-rose-700/40 space-y-2">
-                              <p className="text-rose-300 text-sm font-medium">
+                            <div className="bg-rose-50 rounded-xl p-3 border border-rose-300 space-y-2">
+                              <p className="text-rose-800 text-sm font-medium">
   {grape.name} är faktiskt {key === 'sweetness' ? correctLabel.toLowerCase() : `${correctLabel.toLowerCase()} i ${label.toLowerCase()}`}.
 </p>
                               <p className="text-wine-300 text-xs">💡 {correct >= 4 ? tips[key].high : tips[key].low}</p>
@@ -453,8 +453,8 @@ function ProvaContent() {
                 </>
               )}
             </div>
-            <div className="bg-amber-900/20 rounded-2xl p-4 border border-amber-800/40">
-              <p className="text-amber-300 text-sm">💡 Räkna hur länge du kan känna vinet efter att du svalt — det är finishen. Längre finish = högre kvalitet.</p>
+            <div className="bg-amber-50 rounded-2xl p-4 border border-amber-300">
+              <p className="text-amber-800 text-sm">💡 Räkna hur länge du kan känna vinet efter att du svalt — det är finishen. Längre finish = högre kvalitet.</p>
             </div>
           </div>
         )}
@@ -469,7 +469,7 @@ function ProvaContent() {
               <ul className="space-y-3">
                 {grape.blindTastingClues.map((clue) => (
                   <li key={clue} className="flex items-start gap-3 bg-wine-950 rounded-xl p-3">
-                    <span className="text-amber-400 mt-0.5">→</span>
+                    <span className="text-amber-700 mt-0.5">→</span>
                     <span className="text-wine-200 text-sm">{clue}</span>
                   </li>
                 ))}
@@ -498,7 +498,7 @@ function ProvaContent() {
         {/* SUMMERING */}
         {step === 4 && (
           <div className="space-y-4">
-            <div className="bg-green-900/20 rounded-2xl p-5 border border-green-800/40 text-center">
+            <div className="bg-green-50 rounded-2xl p-5 border border-green-300 text-center">
               <div className="text-5xl mb-3">🎓</div>
               <h3 className="font-display text-2xl text-wine-50 mb-2">Bra jobbat!</h3>
               <p className="text-wine-300 text-sm leading-relaxed">
@@ -510,7 +510,7 @@ function ProvaContent() {
               <ul className="space-y-2">
                 {grape.blindTastingClues.slice(0, 3).map((clue) => (
                   <li key={clue} className="flex items-start gap-2 text-wine-300 text-sm">
-                    <span className="text-amber-400">→</span> {clue}
+                    <span className="text-amber-700">→</span> {clue}
                   </li>
                 ))}
               </ul>

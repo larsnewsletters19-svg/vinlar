@@ -10,17 +10,17 @@ const config: Config = {
     extend: {
       colors: {
         wine: {
-          50: '#fdf2f4',
-          100: '#fce7eb',
-          200: '#f9d0d9',
-          300: '#f4a9b9',
-          400: '#ec7892',
-          500: '#e04d6f',
-          600: '#cc2d52',
-          700: '#ab2144',
-          800: '#8f1e3d',
-          900: '#791d38',
-          950: '#420d1d',
+          50: 'rgb(var(--wine-50) / <alpha-value>)',
+          100: 'rgb(var(--wine-100) / <alpha-value>)',
+          200: 'rgb(var(--wine-200) / <alpha-value>)',
+          300: 'rgb(var(--wine-300) / <alpha-value>)',
+          400: 'rgb(var(--wine-400) / <alpha-value>)',
+          500: 'rgb(var(--wine-500) / <alpha-value>)',
+          600: 'rgb(var(--wine-600) / <alpha-value>)',
+          700: 'rgb(var(--wine-700) / <alpha-value>)',
+          800: 'rgb(var(--wine-800) / <alpha-value>)',
+          900: 'rgb(var(--wine-900) / <alpha-value>)',
+          950: 'rgb(var(--wine-950) / <alpha-value>)',
         },
       },
       fontFamily: {

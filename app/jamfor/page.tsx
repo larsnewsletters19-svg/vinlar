@@ -35,8 +35,8 @@ const structureKeys = [
   { key: 'oak' as const, label: 'Ek' },
 ];
 
-const COLOR_A = '#f59e0b';
-const COLOR_B = '#38bdf8';
+const COLOR_A = '#b45309';
+const COLOR_B = '#0369a1';
 
 function getSharedAromas(a: Grape, b: Grape) {
   return Object.keys(a.aromaScores).filter(
@@ -245,7 +245,7 @@ const labelB = valB === 0 ? 'Ingen' : structureLabels[key][valB - 1];
               <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 lg:grid-cols-1 mb-4">
                 {shared.length > 0 && (
                   <div className="bg-wine-900 rounded-2xl p-4 border border-wine-800">
-                    <h3 className="text-xs uppercase tracking-wide text-green-400 mb-3">✓ Gemensamt</h3>
+                    <h3 className="text-xs uppercase tracking-wide text-green-700 mb-3">✓ Gemensamt</h3>
                     <div className="space-y-1.5">
                       {shared.map((id) => (
                         <div key={id} className="text-sm text-wine-300 flex items-center gap-1.5">
@@ -286,8 +286,8 @@ const labelB = valB === 0 ? 'Ingen' : structureLabels[key][valB - 1];
                 </div>
               </div>
 
-              <div className="bg-amber-900/20 rounded-2xl p-5 border border-amber-800/40">
-                <h3 className="font-display text-lg text-amber-300 mb-3">🔍 Blindprovningstips</h3>
+              <div className="bg-amber-50 rounded-2xl p-5 border border-amber-300">
+                <h3 className="font-display text-lg text-amber-800 mb-3">🔍 Blindprovningstips</h3>
                 <div className="space-y-2 text-sm text-wine-200">
                   {grapeA.blindTastingClues.slice(0, 2).map((clue) => (
                     <p key={clue}>
@@ -313,10 +313,10 @@ const labelB = valB === 0 ? 'Ingen' : structureLabels[key][valB - 1];
         {!activeStyle ? (
           relevantStyles.length === 0 ? (
             <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800 text-wine-500 text-sm text-center">
-              Inga stilarjämförelser finns för dessa druvor. Utforska <a href="/stilar" className="text-amber-400 hover:underline">Stilar & regioner</a> för fler jämförelser.
+              Inga stilarjämförelser finns för dessa druvor. Utforska <a href="/stilar" className="text-amber-700 hover:underline">Stilar & regioner</a> för fler jämförelser.
             </div>
           ) : (
-          <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+          <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
             {relevantStyles.map((c) => (
               <li key={c.id}>
                 <button
@@ -339,29 +339,29 @@ const labelB = valB === 0 ? 'Ingen' : structureLabels[key][valB - 1];
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 mb-6">
               <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
                 <div className="text-xs text-wine-500 uppercase tracking-wide mb-1">{activeStyle.styleA.region}</div>
-                <h4 className="font-display text-lg text-amber-300 mb-3">{activeStyle.styleA.name}</h4>
+                <h4 className="font-display text-lg text-amber-800 mb-3">{activeStyle.styleA.name}</h4>
                 <ul className="space-y-1.5">
                   {activeStyle.styleACharacter.map((item) => (
                     <li key={item} className="flex items-start gap-2 text-wine-300 text-sm">
-                      <span className="text-amber-400 mt-0.5">→</span> {item}
+                      <span className="text-amber-700 mt-0.5">→</span> {item}
                     </li>
                   ))}
                 </ul>
               </div>
               <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
                 <div className="text-xs text-wine-500 uppercase tracking-wide mb-1">{activeStyle.styleB.region}</div>
-                <h4 className="font-display text-lg text-sky-300 mb-3">{activeStyle.styleB.name}</h4>
+                <h4 className="font-display text-lg text-sky-800 mb-3">{activeStyle.styleB.name}</h4>
                 <ul className="space-y-1.5">
                   {activeStyle.styleBCharacter.map((item) => (
                     <li key={item} className="flex items-start gap-2 text-wine-300 text-sm">
-                      <span className="text-sky-400 mt-0.5">→</span> {item}
+                      <span className="text-sky-700 mt-0.5">→</span> {item}
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
-            <div className="bg-amber-900/30 rounded-2xl p-5 border border-amber-700/40">
-              <h4 className="font-display text-lg text-amber-300 mb-2">🔍 Blindprovningstips</h4>
+            <div className="bg-amber-50 rounded-2xl p-5 border border-amber-300">
+              <h4 className="font-display text-lg text-amber-800 mb-2">🔍 Blindprovningstips</h4>
               <p className="text-wine-200 text-sm leading-relaxed">{activeStyle.blindTastingTip}</p>
             </div>
           </div>

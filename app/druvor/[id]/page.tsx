@@ -105,15 +105,15 @@ export default function GrapePage() {
                 key={aromaId}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium border ${
                   score === 5
-                    ? 'bg-amber-400/20 border-amber-400/50 text-amber-300'
+                    ? 'bg-amber-100 border-amber-400 text-amber-800'
                     : score === 4
-                    ? 'bg-wine-700/50 border-wine-600 text-wine-200'
+                    ? 'bg-wine-700/30 border-wine-600 text-wine-200'
                     : 'bg-wine-900 border-wine-700 text-wine-300'
                 }`}
               >
                 <span>{aroma.emoji}</span>
                 <span>{aroma.name}</span>
-                {score === 5 && <span className="text-xs text-amber-400">★</span>}
+                {score === 5 && <span className="text-xs text-amber-600">★</span>}
               </div>
             );
           })}
@@ -140,7 +140,7 @@ export default function GrapePage() {
               {food.pairings.map((item) => (
                 <span
                   key={item}
-                  className="px-3 py-1.5 rounded-full text-sm bg-emerald-900/30 border border-emerald-700/50 text-emerald-300"
+                  className="px-3 py-1.5 rounded-full text-sm bg-emerald-50 border border-emerald-300 text-emerald-800"
                 >
                   {item}
                 </span>
@@ -166,9 +166,9 @@ export default function GrapePage() {
           ) : (
             <Link
               href={`/logg?druva=${grape.id}`}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-wine-800 border border-wine-600 hover:border-amber-400 transition-colors text-sm text-wine-200"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-wine-800 border border-wine-600 hover:border-amber-600 transition-colors text-sm text-wine-200"
             >
-              <span className="text-amber-400 font-bold">{logCount}×</span>
+              <span className="text-amber-700 font-bold">{logCount}×</span>
               <span>Du har loggat denna druva — se dina anteckningar</span>
               <span className="text-wine-500">→</span>
             </Link>
@@ -181,7 +181,7 @@ export default function GrapePage() {
         <ul className="space-y-2">
           {grape.blindTastingClues.map((clue) => (
             <li key={clue} className="flex items-start gap-2 text-wine-300 text-sm">
-              <span className="text-amber-400 mt-0.5">→</span>
+              <span className="text-amber-700 mt-0.5">→</span>
               {clue}
             </li>
           ))}

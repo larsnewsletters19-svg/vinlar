@@ -50,7 +50,7 @@ function RatingStars({ rating }: { rating: number }) {
   return (
     <div className="flex gap-0.5">
       {[1, 2, 3, 4, 5].map((star) => (
-        <span key={star} className={star <= rating ? 'text-amber-400' : 'text-wine-700'}>★</span>
+        <span key={star} className={star <= rating ? 'text-amber-700' : 'text-wine-700'}>★</span>
       ))}
     </div>
   );
@@ -87,7 +87,7 @@ function RegionerPageInner() {
   const map = maps[activeCountry];
 
   return (
-    <div className="px-4 py-8 max-w-2xl mx-auto">
+    <div className="px-4 py-8 max-w-2xl lg:max-w-5xl mx-auto">
       <h1 className="font-display text-4xl text-wine-100 mb-2">Regioner</h1>
       <p className="text-wine-300 mb-6 leading-relaxed">
         Utforska världens viktigaste vinregioner — druvor, stil, mat och blindprovningstips.
@@ -142,7 +142,7 @@ function RegionerPageInner() {
           )}
 
           {/* Regionkort */}
-          <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {filtered.map((region) => (
               <li key={region.id}>
                 <button
@@ -156,7 +156,7 @@ function RegionerPageInner() {
                   <div className="text-xs text-wine-500 mb-2">{region.country}</div>
                   <div className="text-sm text-wine-400 line-clamp-2 leading-snug">{region.shortDescription}</div>
                   {allVintages[region.id] && (
-                    <div className="mt-2 text-xs text-amber-400">📅 Årgångsguide tillgänglig</div>
+                    <div className="mt-2 text-xs text-amber-700">📅 Årgångsguide tillgänglig</div>
                   )}
                 </button>
               </li>
@@ -180,7 +180,7 @@ function RegionerPageInner() {
               return parent ? (
                 <>
                   {' · '}
-                  <button onClick={() => setSelected(parent.id)} className="text-wine-400 hover:text-amber-300 underline underline-offset-2">
+                  <button onClick={() => setSelected(parent.id)} className="text-wine-400 hover:text-amber-800 underline underline-offset-2">
                     Del av {parent.name}
                   </button>
                 </>
@@ -245,7 +245,7 @@ function RegionerPageInner() {
                           <button
                             key={sub}
                             onClick={() => { setSelected(profile.id); setActiveTab('profil'); }}
-                            className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-600 text-amber-300 hover:border-amber-400 hover:bg-wine-700 transition-colors"
+                            className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-600 text-amber-800 hover:border-amber-400 hover:bg-wine-700 transition-colors"
                           >
                             {sub} →
                           </button>
@@ -267,17 +267,17 @@ function RegionerPageInner() {
                   <h3 className="text-xs uppercase tracking-widest text-wine-500 mb-3">🍽️ Passar till</h3>
                   <div className="flex flex-wrap gap-2">
                     {activeRegion.foodPairings.map((food) => (
-                      <span key={food} className="px-3 py-1 rounded-full text-sm bg-emerald-900/30 border border-emerald-700/50 text-emerald-300">{food}</span>
+                      <span key={food} className="px-3 py-1 rounded-full text-sm bg-emerald-50 border border-emerald-300 text-emerald-800">{food}</span>
                     ))}
                   </div>
                 </div>
 
-                <div className="bg-amber-900/20 rounded-2xl p-5 border border-amber-800/40">
-                  <h3 className="text-xs uppercase tracking-widest text-amber-500 mb-3">🔍 Blindprovningstips</h3>
+                <div className="bg-amber-50 rounded-2xl p-5 border border-amber-300">
+                  <h3 className="text-xs uppercase tracking-widest text-amber-700 mb-3">🔍 Blindprovningstips</h3>
                   <ul className="space-y-2">
                     {activeRegion.blindTastingClues.map((clue) => (
                       <li key={clue} className="flex items-start gap-2 text-wine-200 text-sm">
-                        <span className="text-amber-400 mt-0.5">→</span> {clue}
+                        <span className="text-amber-700 mt-0.5">→</span> {clue}
                       </li>
                     ))}
                   </ul>
@@ -304,7 +304,7 @@ function RegionerPageInner() {
                     <RatingStars rating={v.rating} />
                   </div>
                   <p className="text-wine-300 text-sm leading-relaxed mb-2">{v.character}</p>
-                  <p className="text-amber-400 text-xs italic">{v.highlights}</p>
+                  <p className="text-amber-700 text-xs italic">{v.highlights}</p>
                 </div>
               ))}
             </div>

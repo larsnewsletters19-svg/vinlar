@@ -210,9 +210,9 @@ export default function TranaPage() {
           {typeLabels[question.type] || question.type}
         </span>
         <span className={`text-xs font-medium px-2.5 py-1 rounded-full border ${
-          question.difficulty === 'beginner' ? 'bg-green-900/30 border-green-700/50 text-green-400' :
-          question.difficulty === 'intermediate' ? 'bg-amber-900/30 border-amber-700/50 text-amber-400' :
-          'bg-red-900/30 border-red-700/50 text-red-400'
+          question.difficulty === 'beginner' ? 'bg-green-50 border-green-300 text-green-700' :
+          question.difficulty === 'intermediate' ? 'bg-amber-50 border-amber-300 text-amber-700' :
+          'bg-red-50 border-red-300 text-red-700'
         }`}>
           {question.difficulty === 'beginner' ? '🟢 Nybörjare' : question.difficulty === 'intermediate' ? '🟡 Medel' : '🔴 Avancerad'}
         </span>
@@ -231,9 +231,9 @@ export default function TranaPage() {
           if (!selected) {
             className += 'bg-wine-900 border-wine-700 text-wine-200 hover:border-wine-500 hover:text-wine-50 cursor-pointer';
           } else if (isCorrectOption) {
-            className += 'bg-green-900/50 border-green-600 text-green-300';
+            className += 'bg-green-50 border-green-600 text-green-800';
           } else if (isSelected) {
-            className += 'bg-red-900/50 border-red-700 text-red-300';
+            className += 'bg-red-50 border-red-700 text-red-800';
           } else {
             className += 'bg-wine-900/50 border-wine-800 text-wine-500 cursor-not-allowed';
           }
@@ -252,8 +252,8 @@ export default function TranaPage() {
       </ul>
 
       {selected && (
-        <div className={`rounded-2xl p-5 border mb-6 ${isCorrect ? 'bg-green-900/30 border-green-700/50' : 'bg-red-900/30 border-red-700/50'}`}>
-          <p className={`text-sm font-medium mb-1 ${isCorrect ? 'text-green-300' : 'text-red-300'}`}>
+        <div className={`rounded-2xl p-5 border mb-6 ${isCorrect ? 'bg-green-50 border-green-300' : 'bg-red-50 border-red-300'}`}>
+          <p className={`text-sm font-medium mb-1 ${isCorrect ? 'text-green-800' : 'text-red-800'}`}>
             {isCorrect ? '✓ Rätt!' : '✗ Inte riktigt.'}
           </p>
           <p className="text-wine-300 text-sm leading-relaxed">{question.explanation}</p>
