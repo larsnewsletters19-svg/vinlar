@@ -5,6 +5,8 @@ import { MapContainer, TileLayer, CircleMarker, Tooltip, useMap } from 'react-le
 import type { LatLngBoundsExpression } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import coords from '@/data/regionCoords.json';
+import TerroirInfo from '@/components/TerroirInfo';
+import type { MapFocus } from '@/lib/mapLookup';
 
 type Region = {
   id: string;
@@ -31,6 +33,9 @@ const COUNTRY_COLORS: Record<string, string> = {
   germany: '#eab308',
   austria: '#f97316',
   portugal: '#a855f7',
+  hungary: '#84cc16',
+  greece: '#0ea5e9',
+  georgia: '#e11d48',
   newworld: '#06b6d4',
 };
 
@@ -68,20 +73,32 @@ function GrapeChips({ grapes }: { grapes: string[] }) {
 export default function RegionMap({
   regions,
   onOpenRegion,
+  focusRequest = null,
 }: {
   regions: Region[];
   onOpenRegion: (id: string) => void;
+  focusRequest?: MapFocus | null;
 }) {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [selectedPoint, setSelectedPoint] = useState<SubPoint | null>(null);
   const [panelOpen, setPanelOpen] = useState(false);
 
-  // Nollställ när landfiltret byts
+  // När landfiltret byts eller någon ber kartan visa en plats:
+  // välj den platsen om den finns i listan, annars nollställ
   useEffect(() => {
-    setSelectedId(null);
-    setSelectedPoint(null);
-    setPanelOpen(false);
-  }, [regions]);
+    if (focusRequest && regionCoords[focusRequest.regionId] && regions.some((r) => r.id === focusRequest.regionId)) {
+      const point = focusRequest.pointName
+        ? (subPoints[focusRequest.regionId] ?? []).find((p) => p.name === focusRequest.pointName) ?? null
+        : null;
+      setSelectedId(focusRequest.regionId);
+      setSelectedPoint(point);
+      setPanelOpen(true);
+    } else {
+      setSelectedId(null);
+      setSelectedPoint(null);
+      setPanelOpen(false);
+    }
+  }, [regions, focusRequest]);
 
   const withCoords = regions.filter((r) => regionCoords[r.id]);
   const topLevel = withCoords.filter((r) => !r.parentRegionId);
@@ -106,7 +123,13 @@ export default function RegionMap({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [regions]);
 
-  const focus = selected ? regionCoords[selected.id] : null;
+  // Vald namnprick: zooma in ett steg till på just den. Annars: vald region.
+  const focus = useMemo(() => {
+    if (!selected) return null;
+    const rc = regionCoords[selected.id];
+    if (selectedPoint) return { lat: selectedPoint.lat, lng: selectedPoint.lng, zoom: Math.max(rc.zoom, 10) + 1 };
+    return rc;
+  }, [selected, selectedPoint]);
 
   const selectRegion = (id: string) => {
     setSelectedId(id);
@@ -133,7 +156,7 @@ export default function RegionMap({
   const pointOwner = selectedPoint ? focusParent ?? selected : null;
 
   return (
-    <div className="mb-6 bg-wine-900 rounded-2xl border border-wine-800 overflow-hidden">
+    <div id="region-map" className="mb-6 bg-wine-900 rounded-2xl border border-wine-800 overflow-hidden scroll-mt-4">
       <div className="relative h-[60vh] min-h-[380px] sm:h-[520px] z-0">
         <MapContainer center={[45, 5]} zoom={4} scrollWheelZoom className="h-full w-full">
           <TileLayer
@@ -247,6 +270,7 @@ export default function RegionMap({
                 </div>
                 <p className="text-sm text-wine-300 leading-snug mb-3">{selected.shortDescription}</p>
                 <GrapeChips grapes={selected.mainGrapes} />
+                <TerroirInfo id={selected.id} compact />
                 {(childRegions.length > 0 || extraPoints.length > 0) && selected.id === focusParentId && (
                   <p className="text-xs text-wine-400 mb-3">Tryck på prickarna på kartan för att läsa om underregionerna.</p>
                 )}

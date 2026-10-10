@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, Suspense } from 'react';
+import { useEffect, useMemo, useState, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import regions from '@/data/regions.json';
@@ -10,6 +10,8 @@ import { Grape } from '@/types';
 import { findSubRegionProfile } from '@/lib/searchIndex';
 import dynamic from 'next/dynamic';
 const RegionMap = dynamic(() => import('@/components/RegionMap'), { ssr: false });
+import TerroirInfo from '@/components/TerroirInfo';
+import { findMapTarget, hasMapLocation, type MapFocus, type MapTarget } from '@/lib/mapLookup';
 
 const allRegions = regions;
 const allGrapes = grapes as Grape[];
@@ -22,6 +24,9 @@ const countries = [
   { id: 'spain',        label: 'Spanien',           emoji: '🇪🇸', filter: 'countryId' },
   { id: 'germany',      label: 'Tyskland & Österrike', emoji: '🇩🇪', filter: 'countryId' },
   { id: 'portugal',     label: 'Portugal',          emoji: '🇵🇹', filter: 'countryId' },
+  { id: 'hungary',      label: 'Ungern',            emoji: '🇭🇺', filter: 'countryId' },
+  { id: 'greece',       label: 'Grekland',          emoji: '🇬🇷', filter: 'countryId' },
+  { id: 'georgia',      label: 'Georgien',          emoji: '🇬🇪', filter: 'countryId' },
   // Nya världen — egna landfilter
   { id: 'USA',          label: 'USA',               emoji: '🇺🇸', filter: 'country' },
   { id: 'Argentina',    label: 'Argentina',         emoji: '🇦🇷', filter: 'country' },
@@ -29,24 +34,19 @@ const countries = [
   { id: 'Australien',   label: 'Australien',        emoji: '🇦🇺', filter: 'country' },
   { id: 'Nya Zeeland',  label: 'Nya Zeeland',       emoji: '🇳🇿', filter: 'country' },
   { id: 'Sydafrika',    label: 'Sydafrika',         emoji: '🇿🇦', filter: 'country' },
+  { id: 'Kanada',       label: 'Kanada',            emoji: '🇨🇦', filter: 'country' },
 ];
 
-const maps: Record<string, { src: string; label: string; regions: string }> = {
-  france:      { src: '/maps/france.svg',    label: '🇫🇷 Frankrikes vinregioner',          regions: 'Bordeaux, Bourgogne, Rhône, Loire, Champagne och Alsace' },
-  italy:       { src: '/maps/italy.jpg',     label: '🇮🇹 Italiens vinregioner',             regions: 'Piemonte, Toscana, Veneto, Alto Adige, Sicilien, Lombardiet och Abruzzo' },
-  spain:       { src: '/maps/spain.jpg',     label: '🇪🇸 Spaniens vinregioner',             regions: 'Rioja, Ribera del Duero, Jerez, Penedès, Rueda, Toro, Rías Baixas och Priorat' },
-  germany:     { src: '/maps/germany.jpg',   label: '🇩🇪 Tysklands & Österrikes vinregioner', regions: 'Mosel, Rheingau & Pfalz, Wachau & Wien' },
-  portugal:    { src: '/maps/portugal.jpg',  label: '🇵🇹 Portugals vinregioner',            regions: 'Douro & Vinho Verde' },
-  USA:         { src: '/maps/world.jpeg',    label: '🇺🇸 USA — Napa, Sonoma, Oregon & Washington', regions: 'Napa Valley, Sonoma, Willamette Valley och Columbia Valley' },
-  Argentina:   { src: '/maps/world.jpeg',    label: '🇦🇷 Argentina — Mendoza & Salta',      regions: 'Mendoza och Salta (Cafayate)' },
-  Chile:       { src: '/maps/world.jpeg',    label: '🇨🇱 Chile — Maipo, Colchagua & Casablanca', regions: 'Maipo & Colchagua samt Casablanca Valley' },
-  Australien:  { src: '/maps/world.jpeg',    label: '🇦🇺 Australien — Barossa, Margaret River, Yarra & Hunter', regions: 'Barossa Valley, Margaret River, Yarra Valley och Hunter Valley' },
-  'Nya Zeeland': { src: '/maps/world.jpeg',  label: '🇳🇿 Nya Zeeland — Marlborough, Central Otago & Hawke\'s Bay', regions: 'Marlborough, Central Otago och Hawke\'s Bay' },
-  Sydafrika:   { src: '/maps/world.jpeg',    label: '🇿🇦 Sydafrika — Stellenbosch, Swartland & Constantia', regions: 'Stellenbosch, Swartland och Constantia' },
-};
-
 // Ny världen-länder som grupp-header
-const NEW_WORLD_IDS = ['USA', 'Argentina', 'Chile', 'Australien', 'Nya Zeeland', 'Sydafrika'];
+const NEW_WORLD_IDS = ['USA', 'Kanada', 'Argentina', 'Chile', 'Australien', 'Nya Zeeland', 'Sydafrika'];
+
+// Vilket landfilter en region hör till
+function countryFilterFor(r: { country: string; countryId: string }) {
+  let id = r.countryId;
+  if (r.countryId === 'newworld') id = r.country;
+  if (r.countryId === 'austria') id = 'germany';
+  return countries.some((c) => c.id === id) ? id : 'all';
+}
 
 function RatingStars({ rating }: { rating: number }) {
   return (
@@ -61,8 +61,22 @@ function RatingStars({ rating }: { rating: number }) {
 function RegionerPageInner() {
   const searchParams = useSearchParams();
   const qParam = searchParams.get('q');
+  const mapParam = searchParams.get('map');
+  const pointParam = searchParams.get('point');
+  const tParam = searchParams.get('t');
   const [activeCountry, setActiveCountry] = useState('all');
   const [selected, setSelected] = useState<string | null>(null);
+  const [mapFocus, setMapFocus] = useState<MapFocus | null>(null);
+
+  // Visa en region eller underregion på kartan:
+  // byt till rätt land, gå till listvyn, zooma in och scrolla till kartan
+  const showOnMap = (target: MapTarget) => {
+    const region = allRegions.find((r) => r.id === target.regionId);
+    if (region) setActiveCountry(countryFilterFor(region));
+    setSelected(null);
+    setMapFocus({ ...target, key: Date.now() });
+    setTimeout(() => document.getElementById('region-map')?.scrollIntoView({ behavior: 'smooth' }), 350);
+  };
 
   useEffect(() => {
     if (qParam && allRegions.some((r) => r.id === qParam)) {
@@ -71,22 +85,37 @@ function RegionerPageInner() {
       setSelected(null);
     }
   }, [qParam]);
+
+  // Länk från sökningen: /regioner?map=medoc&point=Pauillac
+  useEffect(() => {
+    if (mapParam && hasMapLocation(mapParam)) {
+      showOnMap({ regionId: mapParam, pointName: pointParam ?? undefined });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mapParam, pointParam, tParam]);
+
   const [activeTab, setActiveTab] = useState<'profil' | 'arganger'>('profil');
 
   const activeDef = countries.find((c) => c.id === activeCountry)!;
 
-  const filtered = (activeCountry === 'all'
-    ? allRegions
-    : activeDef.filter === 'country'
-      ? allRegions.filter((r) => r.country === activeCountry)
-      : allRegions.filter((r) => r.countryId === activeCountry)
-  ).filter((r) => !r.parentRegionId);
+  // Alla regioner i valt land, inklusive underregioner (används av kartan)
+  const inCountry = useMemo(() => {
+    if (activeCountry === 'all') return allRegions;
+    if (activeDef.filter === 'country') return allRegions.filter((r) => r.country === activeCountry);
+    if (activeCountry === 'germany') return allRegions.filter((r) => r.countryId === 'germany' || r.countryId === 'austria');
+    return allRegions.filter((r) => r.countryId === activeCountry);
+  }, [activeCountry, activeDef.filter]);
+
+  // Bara huvudregioner (används av korten)
+  const filtered = inCountry.filter((r) => !r.parentRegionId);
 
   const activeRegion = selected ? allRegions.find((r) => r.id === selected) : null;
   const regionVintages = activeRegion ? allVintages[activeRegion.id] : null;
 
-  const isNewWorld = NEW_WORLD_IDS.includes(activeCountry);
-  const map = maps[activeCountry];
+  const chooseCountry = (id: string) => {
+    setActiveCountry(id);
+    setMapFocus(null);
+  };
 
   return (
     <div className="px-4 py-8 max-w-2xl lg:max-w-5xl mx-auto">
@@ -102,7 +131,7 @@ function RegionerPageInner() {
             {countries.filter((c) => !NEW_WORLD_IDS.includes(c.id)).map((country) => (
               <button
                 key={country.id}
-                onClick={() => setActiveCountry(country.id)}
+                onClick={() => chooseCountry(country.id)}
                 className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-all ${
                   activeCountry === country.id
                     ? 'bg-wine-600 border-wine-600 text-white'
@@ -120,7 +149,7 @@ function RegionerPageInner() {
             {countries.filter((c) => NEW_WORLD_IDS.includes(c.id)).map((country) => (
               <button
                 key={country.id}
-                onClick={() => setActiveCountry(country.id)}
+                onClick={() => chooseCountry(country.id)}
                 className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-all ${
                   activeCountry === country.id
                     ? 'bg-wine-600 border-wine-600 text-white'
@@ -133,9 +162,10 @@ function RegionerPageInner() {
           </div>
 
           <RegionMap
-  regions={filtered}
-  onOpenRegion={(id) => { setSelected(id); setActiveTab('profil'); }}
-/>
+            regions={inCountry}
+            focusRequest={mapFocus}
+            onOpenRegion={(id) => { setSelected(id); setActiveTab('profil'); }}
+          />
 
           {/* Regionkort */}
           <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -183,6 +213,16 @@ function RegionerPageInner() {
               ) : null;
             })()}
           </div>
+          <TerroirInfo id={activeRegion.id} />
+
+          {hasMapLocation(activeRegion.id) && (
+            <button
+              onClick={() => showOnMap({ regionId: activeRegion.id })}
+              className="mb-6 w-full py-2.5 rounded-xl bg-wine-800 hover:bg-wine-700 border border-wine-700 text-wine-100 text-sm"
+            >
+              🗺️ Visa {activeRegion.name} på kartan
+            </button>
+          )}
 
           <div className="flex gap-1 mb-6 bg-wine-900 p-1 rounded-xl border border-wine-800">
             <button
@@ -237,19 +277,37 @@ function RegionerPageInner() {
                     <div className="flex flex-wrap gap-2">
                       {activeRegion.subRegions.map((sub) => {
                         const profile = findSubRegionProfile(sub, activeRegion.id);
-                        return profile ? (
-                          <button
+                        const target = findMapTarget(sub, allRegions);
+                        return (
+                          <span
                             key={sub}
-                            onClick={() => { setSelected(profile.id); setActiveTab('profil'); }}
-                            className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-600 text-amber-800 hover:border-amber-400 hover:bg-wine-700 transition-colors"
+                            className={`inline-flex items-center rounded-full text-sm bg-wine-800 border overflow-hidden ${profile ? 'border-wine-600' : 'border-wine-700'}`}
                           >
-                            {sub} →
-                          </button>
-                        ) : (
-                          <span key={sub} className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-700 text-wine-400">{sub}</span>
+                            {profile ? (
+                              <button
+                                onClick={() => { setSelected(profile.id); setActiveTab('profil'); }}
+                                className="px-3 py-1 text-amber-800 hover:bg-wine-700 transition-colors"
+                              >
+                                {sub} →
+                              </button>
+                            ) : (
+                              <span className="px-3 py-1 text-wine-400">{sub}</span>
+                            )}
+                            {target && (
+                              <button
+                                onClick={() => showOnMap(target)}
+                                title={`Visa ${sub} på kartan`}
+                                aria-label={`Visa ${sub} på kartan`}
+                                className="px-2 py-1 border-l border-wine-700 hover:bg-wine-700 transition-colors"
+                              >
+                                📍
+                              </button>
+                            )}
+                          </span>
                         );
                       })}
                     </div>
+                    <p className="text-xs text-wine-500 mt-3">📍 = visa på kartan</p>
                   </div>
                 )}
 

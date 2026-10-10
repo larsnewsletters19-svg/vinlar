@@ -1,0 +1,2123 @@
+{
+  "rioja": {
+    "altitude": [
+      300,
+      700
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt med atlantisk och medelhavspåverkan",
+    "rainfallMm": [
+      300,
+      550
+    ],
+    "terrain": "Dal längs floden Ebro, skyddad av bergen Sierra de Cantabria i norr",
+    "keyFactors": [
+      "Sierra de Cantabria skyddar mot kalla, regniga nordvindar från Atlanten",
+      "Svalare och högre i väster (Alta, Alavesa), varmare och torrare i öster (Oriental)",
+      "Blandningen av delområden gör att de klassiska husen blandar druvor från hela regionen"
+    ],
+    "whyItTastes": "Måttligt klimat ger Tempranillo mogen körsbärsfrukt men behåller fräschören. Den långa traditionen av eklagring – inte terroiren – står för vaniljen och kokosen."
+  },
+  "rioja-alta-alavesa": {
+    "altitude": [
+      450,
+      750
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Svalt kontinentalt med atlantisk påverkan",
+    "rainfallMm": [
+      450,
+      550
+    ],
+    "terrain": "Kuperade sluttningar nedanför Sierra de Cantabria",
+    "keyFactors": [
+      "Rioja Riojas högsta och svalaste del",
+      "Kalkrik lera i Alavesa ger elegans och syra",
+      "Lång, långsam mognad"
+    ],
+    "whyItTastes": "Höjden och den atlantiska svalkan gör att druvorna mognar långsamt. Det ger högre syra och finare tanniner – därför lagras de bästa Gran Reserva-vinerna härifrån i årtionden."
+  },
+  "rias_baixas": {
+    "altitude": [
+      0,
+      300
+    ],
+    "irrigation": "regnet räcker",
+    "warmth": "svalt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      1600,
+      1800
+    ],
+    "terrain": "Låga kullar kring de fjordlika vikarna (rías) längs Atlantkusten",
+    "keyFactors": [
+      "En av Spaniens regnigaste vinregioner",
+      "Vinstockarna odlas ofta på höga pergolor (parra) av granitstolpar – luften kan cirkulera så att druvorna inte möglar",
+      "Havets närhet ger salt i luften och jämn temperatur"
+    ],
+    "whyItTastes": "Svalt, fuktigt havsklimat ger låg alkohol och hög syra. Granitjorden och havsluften bidrar till den salta mineraliteten som gör Albariño så bra till skaldjur."
+  },
+  "priorat": {
+    "altitude": [
+      100,
+      750
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "varmt",
+    "climateType": "Medelhav med kontinentalt inslag",
+    "rainfallMm": [
+      400,
+      600
+    ],
+    "terrain": "Extremt branta sluttningar och terrasser (costers), ofta bearbetade med mula",
+    "keyFactors": [
+      "Llicorella-skiffern är så fattig att rötterna måste tränga djupt ner genom sprickorna för att hitta vatten",
+      "Mycket låga skördar per vinstock",
+      "Varma dagar men svala nätter på höjderna"
+    ],
+    "whyItTastes": "Fattig skifferjord, torka och gamla vinstockar ger få, små druvor med mycket koncentrerad saft. Resultatet blir kraftfulla, mörka viner med en tydlig mineralisk ton."
+  },
+  "ribera-del-duero": {
+    "altitude": [
+      720,
+      1050
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "varmt",
+    "climateType": "Extremt kontinentalt",
+    "rainfallMm": [
+      400,
+      500
+    ],
+    "terrain": "Högplatå längs floden Duero",
+    "keyFactors": [
+      "En av Europas högst belägna vinregioner",
+      "Skillnaden mellan dag och natt kan vara över 20 °C under sommaren",
+      "Stor frostrisk – både sent på våren och tidigt på hösten"
+    ],
+    "whyItTastes": "Heta dagar ger djup färg och mörk frukt, men kalla nätter på 800–1000 m höjd bevarar syran. Därför är vinerna både kraftfulla och fräscha."
+  },
+  "toro": {
+    "altitude": [
+      600,
+      750
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "hett",
+    "climateType": "Extremt kontinentalt",
+    "rainfallMm": [
+      350,
+      400
+    ],
+    "terrain": "Torr, sandig platå längs floden Duero",
+    "keyFactors": [
+      "Sandjorden stoppade vinlusen phylloxera – många vinstockar är oympade och över 100 år gamla",
+      "Mycket varma, torra somrar",
+      "Gamla buskvinstockar (en vaso) utan spaljé"
+    ],
+    "whyItTastes": "Värme, torka och mycket gamla vinstockar ger tjockskaliga druvor med mycket socker. Det blir mörka, alkoholstarka och tanninrika viner."
+  },
+  "rueda": {
+    "altitude": [
+      700,
+      850
+    ],
+    "irrigation": "blandat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      400,
+      450
+    ],
+    "terrain": "Flack högplatå med stenig jord",
+    "keyFactors": [
+      "Mycket av skörden sker på natten för att druvorna ska vara svala",
+      "Stenar på marken lagrar dagsvärmen",
+      "Kalla nätter bevarar aromerna"
+    ],
+    "whyItTastes": "Höjden och de kalla nätterna gör att Verdejo behåller sin friska syra och örtiga arom trots att dagarna är varma."
+  },
+  "jerez": {
+    "altitude": [
+      0,
+      150
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "hett",
+    "climateType": "Medelhav med atlantisk påverkan",
+    "rainfallMm": [
+      550,
+      650
+    ],
+    "terrain": "Mjukt böljande kullar med kritvit jord",
+    "keyFactors": [
+      "Albariza-jorden fungerar som en svamp: den suger upp vinterregnet och skapar en skorpa som håller kvar fukten genom den torra sommaren",
+      "Två vindar styr: den heta, torra Levante från öster och den fuktiga Poniente från havet",
+      "Fuktig havsluft vid kusten gör att jästlagret (flor) trivs"
+    ],
+    "whyItTastes": "Den neutrala Palomino-druvan får sin karaktär i källaren, inte i vingården. Kustens fuktiga luft håller flor-jästen vid liv – det är den som ger Fino och Manzanilla deras jästiga, salta ton."
+  },
+  "penedes-cava": {
+    "altitude": [
+      0,
+      800
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Medelhav",
+    "rainfallMm": [
+      450,
+      550
+    ],
+    "terrain": "Tre nivåer från kusten (Baix) via mellanzonen (Mitjà) till höglandet (Alt Penedès)",
+    "keyFactors": [
+      "Ju högre upp, desto svalare – Parellada odlas högst",
+      "Kustnära delar är varma och ger fylligare viner",
+      "Havsbrisen kyler ner kvällarna"
+    ],
+    "whyItTastes": "Mousserande vin behöver hög syra. Därför odlas druvorna till Cava på svalare lägen eller skördas tidigt, innan sockret stiger för mycket."
+  },
+  "douro": {
+    "altitude": [
+      100,
+      700
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "hett",
+    "climateType": "Kontinentalt, mycket torrt i öster",
+    "rainfallMm": [
+      400,
+      900
+    ],
+    "terrain": "Branta terrasser (socalcos) uthuggna i skiffer längs floden Douro",
+    "keyFactors": [
+      "Bergen Marão och Alvão stänger ute regnet från Atlanten",
+      "Skiffern spricker vertikalt så att rötterna kan tränga många meter ner efter vatten",
+      "Sommartemperaturer över 40 °C i dalens botten",
+      "Världsarv (UNESCO) för sina terrasser"
+    ],
+    "whyItTastes": "Extrem värme och torka ger små, tjockskaliga druvor med mycket färg, socker och tannin. Det är perfekt för portvin och kraftfulla röda viner."
+  },
+  "dao-bairrada": {
+    "altitude": [
+      50,
+      700
+    ],
+    "irrigation": "regnet räcker",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt i Dão, maritimt i Bairrada",
+    "rainfallMm": [
+      1000,
+      1200
+    ],
+    "terrain": "Dão: granitplatå omgiven av berg. Bairrada: låglänt nära kusten",
+    "keyFactors": [
+      "Dão skyddas av bergen Serra da Estrela och Caramulo",
+      "Dão ligger på 400–700 m, Bairrada på bara 50–200 m",
+      "Bairrada har lerkalk, Dão granit"
+    ],
+    "whyItTastes": "Bergen och höjden i Dão ger svalare nätter och elegans. I Bairrada behöver den sena Baga-druvan en lång höst för att mogna, annars blir syran och tanninerna mycket stränga."
+  },
+  "bierzo": {
+    "altitude": [
+      450,
+      900
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Blandning av atlantiskt och kontinentalt",
+    "rainfallMm": [
+      650,
+      750
+    ],
+    "terrain": "Skyddad bergsdal med vingårdar på sluttningar",
+    "keyFactors": [
+      "Bergen runt dalen skyddar mot både regn och kyla",
+      "Gamla vinstockar på branta skiffersluttningar",
+      "Mildare än både Galicien och Kastilien"
+    ],
+    "whyItTastes": "Mellanläget mellan Atlantens svalka och inlandets värme ger Mencía mogen frukt men frisk syra. Skiffern bidrar med en mineralisk ton."
+  },
+  "ribeira-sacra": {
+    "altitude": [
+      200,
+      600
+    ],
+    "irrigation": "regnet räcker",
+    "warmth": "måttligt",
+    "climateType": "Atlantiskt med kontinentalt inslag",
+    "rainfallMm": [
+      700,
+      900
+    ],
+    "terrain": "Extremt branta terrasser nere i flodkanjonerna",
+    "keyFactors": [
+      "Terrasserna anlades av romare och munkar",
+      "Allt arbete görs för hand – druvorna lyfts ibland upp med små räls-hissar",
+      "Sydvända sluttningar fångar solen, floden ger fukt"
+    ],
+    "whyItTastes": "Kanjonernas sydsluttningar ger tillräckligt med sol för mognad, men det svala atlantiska klimatet håller alkoholen nere. Resultatet blir lätta, eleganta röda viner."
+  },
+  "valdeorras": {
+    "altitude": [
+      300,
+      700
+    ],
+    "irrigation": "regnet räcker",
+    "warmth": "måttligt",
+    "climateType": "Gränsen mellan atlantiskt och kontinentalt",
+    "rainfallMm": [
+      800,
+      900
+    ],
+    "terrain": "Dalgång längs floden Sil",
+    "keyFactors": [
+      "Torrare och varmare än resten av Galicien",
+      "Skiffer på de bästa lägena",
+      "Godello har här sitt hem"
+    ],
+    "whyItTastes": "Mer sol än vid kusten ger Godello mer kropp och stenfrukt än Albariño, medan skiffern ger den mineraliska skärpan."
+  },
+  "txakoli": {
+    "altitude": [
+      0,
+      300
+    ],
+    "irrigation": "regnet räcker",
+    "warmth": "svalt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      1200,
+      1600
+    ],
+    "terrain": "Gröna kullar ner mot Biscayabukten",
+    "keyFactors": [
+      "Mycket regn och lite sol",
+      "Druvorna når sällan hög mognad",
+      "Vingårdar med havsutsikt"
+    ],
+    "whyItTastes": "Svalt, regnigt klimat ger druvor med lite socker och mycket syra. Därför blir vinet lätt, syrligt och lågt i alkohol."
+  },
+  "navarra": {
+    "altitude": [
+      250,
+      700
+    ],
+    "irrigation": "blandat",
+    "warmth": "måttligt",
+    "climateType": "Atlantiskt i norr, kontinentalt och torrt i söder",
+    "rainfallMm": [
+      350,
+      700
+    ],
+    "terrain": "Från kullar vid Pyrenéerna till slätter längs Ebro",
+    "keyFactors": [
+      "Stor skillnad mellan norr och söder",
+      "Den torra vinden cierzo minskar risken för mögel",
+      "Södra delen gränsar till ökenområdet Bardenas Reales"
+    ],
+    "whyItTastes": "Den svalare norra delen ger friskare viner och rosé, medan den varma södra delen ger fylliga, mogna röda viner."
+  },
+  "garnacha-aragon": {
+    "altitude": [
+      350,
+      1000
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "varmt",
+    "climateType": "Kontinentalt och torrt",
+    "rainfallMm": [
+      350,
+      450
+    ],
+    "terrain": "Sluttningar och platåer nedanför berget Moncayo",
+    "keyFactors": [
+      "Den kalla nordvinden cierzo håller druvorna friska",
+      "Calatayud ligger upp mot 1000 m",
+      "Många gamla Garnacha-vinstockar"
+    ],
+    "whyItTastes": "Gamla Garnacha-vinstockar i torr värme ger mogen frukt och hög alkohol, men höjden och vinden bevarar en del friskhet."
+  },
+  "montsant": {
+    "altitude": [
+      200,
+      700
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "varmt",
+    "climateType": "Medelhav med bergsinslag",
+    "rainfallMm": [
+      450,
+      600
+    ],
+    "terrain": "Kullar och dalar runt Priorat, nedanför bergskedjan Montsant",
+    "keyFactors": [
+      "Mer varierade och bördigare jordar än Priorat",
+      "Medelhavets värme möter bergens svalka",
+      "Gamla Cariñena- och Garnacha-vinstockar"
+    ],
+    "whyItTastes": "Liknande klimat som Priorat men rikare jordar ger lite större skördar – vinerna blir fruktigare och mjukare."
+  },
+  "jumilla": {
+    "altitude": [
+      400,
+      900
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "hett",
+    "climateType": "Halvtorrt kontinentalt",
+    "rainfallMm": [
+      250,
+      350
+    ],
+    "terrain": "Högplatå omgiven av berg",
+    "keyFactors": [
+      "Ett av Spaniens torraste vinområden",
+      "Buskvinstockar (en vaso) står glest för att dela på vattnet",
+      "Monastrell klarar värme och torka bättre än de flesta druvor"
+    ],
+    "whyItTastes": "Monastrell behöver mycket värme för att mogna. Här får den det och ger mörka, kraftfulla viner, medan höjden ger kalla nätter som håller dem friska."
+  },
+  "la-mancha": {
+    "altitude": [
+      600,
+      750
+    ],
+    "irrigation": "blandat",
+    "warmth": "hett",
+    "climateType": "Extremt kontinentalt",
+    "rainfallMm": [
+      300,
+      450
+    ],
+    "terrain": "Stor, flack högplatå",
+    "keyFactors": [
+      "Somrar över 40 °C och vintrar med frost",
+      "Airén-vinstockarna står glest för att klara torkan",
+      "Bevattning har blivit allt vanligare"
+    ],
+    "whyItTastes": "Värmen ger mycket frukt och mogna druvor, men den platta terrängen och stora skördarna gör att vinerna oftast blir enkla och fruktiga."
+  },
+  "montilla-moriles": {
+    "altitude": [
+      200,
+      600
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "hett",
+    "climateType": "Hett kontinentalt",
+    "rainfallMm": [
+      500,
+      650
+    ],
+    "terrain": "Kullar med vit, kalkrik jord",
+    "keyFactors": [
+      "Somrar bland de hetaste i Spanien",
+      "Albero-jorden håller vatten som en svamp",
+      "Pedro Ximénez blir så söt att vinet ofta inte behöver förstärkas"
+    ],
+    "whyItTastes": "Den extrema värmen ger druvor med så mycket socker att vinet når hög alkohol av sig självt. För PX torkas druvorna dessutom i solen till russin."
+  },
+  "kanarieoarna": {
+    "altitude": [
+      0,
+      1700
+    ],
+    "irrigation": "blandat",
+    "warmth": "måttligt",
+    "climateType": "Subtropiskt med passadvindar",
+    "rainfallMm": [
+      150,
+      600
+    ],
+    "terrain": "Vulkaniska öar – från svart aska på Lanzarote till höga sluttningar på Teneriffa",
+    "keyFactors": [
+      "Phylloxera har aldrig nått öarna – vinstockarna är oympade",
+      "På Lanzarote suger den vulkaniska askan upp nattens dagg",
+      "Vingårdar på Teneriffa ligger bland de högsta i Europa"
+    ],
+    "whyItTastes": "Passadvindar och höjd kyler ner det subtropiska klimatet. Vulkanisk jord ger en rökig, mineralisk ton som är svår att hitta någon annanstans."
+  },
+  "vinho-verde": {
+    "altitude": [
+      50,
+      500
+    ],
+    "irrigation": "regnet räcker",
+    "warmth": "svalt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      1200,
+      1800
+    ],
+    "terrain": "Gröna kullar och floddalar i nordvästra Portugal",
+    "keyFactors": [
+      "Portugals regnigaste vinregion",
+      "Traditionellt odlades vinrankorna högt upp i träd och på pergolor för att undvika mögel",
+      "Granitjord"
+    ],
+    "whyItTastes": "Mycket regn och sval havsluft ger druvor med låg sockerhalt och hög syra – därför blir vinet lätt, friskt och lågt i alkohol."
+  },
+  "alentejo": {
+    "altitude": [
+      100,
+      700
+    ],
+    "irrigation": "bevattnat",
+    "warmth": "hett",
+    "climateType": "Medelhav, varmt och torrt",
+    "rainfallMm": [
+      450,
+      700
+    ],
+    "terrain": "Vidsträckta slätter med korkekar, bergigare i Portalegre",
+    "keyFactors": [
+      "Somrar ofta över 40 °C",
+      "Bevattning är vanlig på slätterna",
+      "Portalegre i norr ligger högre och är svalare"
+    ],
+    "whyItTastes": "Värmen ger mycket mogen, mjuk frukt och låg syra – vinerna blir generösa och tillgängliga unga."
+  },
+  "lisboa": {
+    "altitude": [
+      0,
+      400
+    ],
+    "irrigation": "regnet räcker",
+    "warmth": "måttligt",
+    "climateType": "Maritimt",
+    "rainfallMm": [
+      600,
+      800
+    ],
+    "terrain": "Kullar längs Atlantkusten norr om Lissabon",
+    "keyFactors": [
+      "Atlantvindarna kyler hela regionen",
+      "Colares: vinstockarna planteras i sand ner till leran under",
+      "Låga stenmurar och vass skyddar mot vinden"
+    ],
+    "whyItTastes": "Havets svalka ger friska viner med god syra, trots att Lissabon ligger långt söderut."
+  },
+  "setubal": {
+    "altitude": [
+      0,
+      300
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "varmt",
+    "climateType": "Medelhav med atlantisk påverkan",
+    "rainfallMm": [
+      550,
+      700
+    ],
+    "terrain": "Sandslätter och kalkstensberget Arrábida",
+    "keyFactors": [
+      "Arrábida-bergen skyddar mot kalla nordvindar",
+      "Sandjorden runt Palmela passar Castelão",
+      "Varmt och soligt – perfekt för söt Moscatel"
+    ],
+    "whyItTastes": "Värmen ger Moscatel-druvorna mycket socker och intensiv arom. Vinet förstärks sedan och lagras ofta länge."
+  },
+  "madeira": {
+    "altitude": [
+      50,
+      800
+    ],
+    "irrigation": "bevattnat",
+    "warmth": "måttligt",
+    "climateType": "Subtropiskt och fuktigt",
+    "rainfallMm": [
+      600,
+      1500
+    ],
+    "terrain": "Små terrasser (poios) på branta vulkansluttningar",
+    "keyFactors": [
+      "Vattnet leds till vingårdarna via levadas – flera hundra år gamla kanaler",
+      "Vinrankorna växer ofta på låga pergolor",
+      "Fuktigare på öns norra sida"
+    ],
+    "whyItTastes": "Klimatet ger druvor med hög syra. Den särpräglade smaken av kola och nötter kommer sedan från att vinet medvetet värms upp och oxideras under lagringen."
+  },
+  "bordeaux": {
+    "altitude": [
+      0,
+      100
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      850,
+      1000
+    ],
+    "terrain": "Flackt låglandskap kring floderna Garonne, Dordogne och flodmynningen Gironde",
+    "keyFactors": [
+      "Atlanten och floderna jämnar ut temperaturen",
+      "Tallskogen Landes skyddar mot havsvindarna",
+      "Vädret varierar mycket mellan åren — därför är årgången så viktig i Bordeaux"
+    ],
+    "whyItTastes": "Måttlig värme räcker precis för att Cabernet och Merlot ska mogna. Därför blandar man druvor — de mognar olika fort och försäkrar mot dåliga år. Resultatet blir strukturerade viner med frisk syra och måttlig alkohol."
+  },
+  "medoc": {
+    "altitude": [
+      0,
+      40
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      850,
+      950
+    ],
+    "terrain": "Låga grusbackar längs vänstra stranden av Gironde",
+    "keyFactors": [
+      "De bästa vingårdarna ligger på grusåsar närmast floden",
+      "Gruset dränerar regnvattnet snabbt och lagrar dagens värme",
+      "Vinstockarna måste skicka rötterna djupt för att hitta vatten"
+    ],
+    "whyItTastes": "Varmt, väldränerat grus hjälper den sena Cabernet Sauvignon att mogna i ett svalt klimat. Det ger svarta vinbär, ceder och fast tannin som kräver tid."
+  },
+  "saint-emilion": {
+    "altitude": [
+      10,
+      100
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt, lite mer kontinentalt",
+    "rainfallMm": [
+      800,
+      900
+    ],
+    "terrain": "Kalkstensplatå och sluttningar runt den medeltida staden",
+    "keyFactors": [
+      "Kalksten och lera håller kvar vatten — passar Merlot",
+      "Platån ger friskhet, sluttningarna värme",
+      "Under staden finns kilometervis med gamla kalkstensbrott som används som källare"
+    ],
+    "whyItTastes": "Kall lera och kalksten passar Merlot, som mognar tidigt. Vinerna blir rundare och fruktigare än i Médoc, med plommon och mjukare tannin."
+  },
+  "pomerol": {
+    "altitude": [
+      10,
+      40
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      800,
+      900
+    ],
+    "terrain": "Liten, flack platå",
+    "keyFactors": [
+      "Ett lerlager i mitten av platån — där ligger Pétrus",
+      "Järnrik jord (crasse de fer)",
+      "Mycket små egendomar"
+    ],
+    "whyItTastes": "Den täta, kalla leran håller fukt och passar Merlot perfekt. Det ger sammetslena, fylliga viner med plommon och en järnig, jordig ton."
+  },
+  "sauternes": {
+    "altitude": [
+      10,
+      80
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt med höstdimma",
+    "rainfallMm": [
+      800,
+      900
+    ],
+    "terrain": "Kullar där den kalla floden Ciron möter den varmare Garonne",
+    "keyFactors": [
+      "Kall flod möter varm flod — det ger morgondimma på hösten",
+      "Dimma på morgonen och sol på eftermiddagen skapar ädelröta (botrytis)",
+      "Druvorna plockas för hand i flera omgångar, ibland russin för russin"
+    ],
+    "whyItTastes": "Ädelrötan torkar ut druvorna så att socker och syra koncentreras. Därför blir vinet både mycket sött och friskt, med honung, aprikos och saffran."
+  },
+  "bourgogne": {
+    "altitude": [
+      200,
+      500
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "svalt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      700,
+      800
+    ],
+    "terrain": "En smal, östvänd sluttning (Côte d'Or) med en mosaik av små vingårdar",
+    "keyFactors": [
+      "Vingårdarnas läge på sluttningen avgör kvaliteten — mitten är bäst",
+      "Kalksten och lera varierar från vingård till vingård",
+      "Risk för vårfrost och hagel"
+    ],
+    "whyItTastes": "Svalt klimat ger Pinot Noir och Chardonnay hög syra och subtil frukt. Eftersom man bara använder en druva märks skillnaderna i jord och läge extra tydligt — det är det som kallas terroir."
+  },
+  "chablis": {
+    "altitude": [
+      130,
+      300
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "svalt",
+    "climateType": "Svalt kontinentalt",
+    "rainfallMm": [
+      650,
+      750
+    ],
+    "terrain": "Sluttningar längs floden Serein, Grand Cru på en sydvästvänd backe",
+    "keyFactors": [
+      "Kimmeridge-kalksten full av fossila ostronskal",
+      "En av de nordligaste platserna för Chardonnay i Frankrike",
+      "Svår vårfrost — man tänder ljus och sprinklar vingårdarna"
+    ],
+    "whyItTastes": "Kyla och kalkrik jord ger Chardonnay med knivskarp syra och en ton av våt sten och citron. Utan ek blir det rena, mineraliska viner."
+  },
+  "rhone": {
+    "altitude": [
+      50,
+      450
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "varmt",
+    "climateType": "Kontinentalt i norr, medelhav i söder",
+    "rainfallMm": [
+      600,
+      900
+    ],
+    "terrain": "Norr: branta granitterrasser längs floden. Söder: breda terrasser med rullstenar",
+    "keyFactors": [
+      "Den kalla nordvinden mistral blåser bort fukt och sjukdomar",
+      "Norra Rhône är brant och svalare, södra plattare och varmare",
+      "Söder om Valence börjar medelhavsväxterna — oliver och lavendel"
+    ],
+    "whyItTastes": "Svalare branta lägen i norr ger pepprig, elegant Syrah. Medelhavsvärmen i söder ger mogen, alkoholstark Grenache med kryddor och torra örter."
+  },
+  "chateauneuf-du-pape": {
+    "altitude": [
+      50,
+      130
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "varmt",
+    "climateType": "Medelhav",
+    "rainfallMm": [
+      600,
+      700
+    ],
+    "terrain": "Terrasser täckta av stora rundade stenar (galets roulés)",
+    "keyFactors": [
+      "Stenarna lagrar värme på dagen och strålar ut den på natten",
+      "Mistralen torkar druvorna efter regn",
+      "Gamla buskvinstockar utan spaljé"
+    ],
+    "whyItTastes": "Mycket sol och varma stenar ger Grenache mycket socker. Vinet blir fylligt och alkoholstarkt med mogna röda bär, kryddor och garrigue."
+  },
+  "hermitage": {
+    "altitude": [
+      120,
+      350
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      800,
+      900
+    ],
+    "terrain": "En enda brant, sydvänd granitkulle ovanför floden",
+    "keyFactors": [
+      "Sydläge fångar maximalt med sol",
+      "Granit på västra delen, mer kalk och lera österut",
+      "Små lägen (lieux-dits) blandas för balans"
+    ],
+    "whyItTastes": "Den solvända kullen ger full mognad i ett ganska svalt klimat. Syrah blir kraftfull och tanninrik men behåller svartpeppar och violer."
+  },
+  "cote-rotie": {
+    "altitude": [
+      180,
+      330
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      800,
+      900
+    ],
+    "terrain": "Extremt branta terrasser, upp till 60 % lutning",
+    "keyFactors": [
+      "Namnet betyder \"den rostade sluttningen\" — den solvarma backen",
+      "Terrasserna hålls uppe av stenmurar och allt arbete görs för hand",
+      "Lite Viognier får blandas in"
+    ],
+    "whyItTastes": "Det nordliga läget ger elegans, de branta solvända terrasserna ger mognad. Lite Viognier jäst tillsammans med Syrah lyfter doften av violer och aprikos."
+  },
+  "condrieu": {
+    "altitude": [
+      150,
+      300
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      800,
+      900
+    ],
+    "terrain": "Branta granitterrasser",
+    "keyFactors": [
+      "Viognier var nästan utdöd på 1960-talet — bara några hektar fanns kvar",
+      "Granitsand (arzelle) på de bästa lägena",
+      "Låga skördar"
+    ],
+    "whyItTastes": "Viognier behöver värme för att utveckla sin aprikosdoft men tappar syra lätt. Här får den precis tillräckligt för en parfymerad, oljig vit med låg syra."
+  },
+  "loire": {
+    "altitude": [
+      0,
+      400
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "svalt",
+    "climateType": "Oceaniskt i väster, mer kontinentalt i öster",
+    "rainfallMm": [
+      550,
+      750
+    ],
+    "terrain": "Floddal som sträcker sig nästan 1000 km från Atlanten till centrala Frankrike",
+    "keyFactors": [
+      "Gränsen för hur långt norrut man kan odla vin i Frankrike",
+      "Jordarna varierar: granit vid kusten, tuffeau-kalk i mitten, flinta i öster",
+      "Floden mildrar klimatet"
+    ],
+    "whyItTastes": "Svalt klimat ger hög syra och friska, lätta viner med låg alkohol. Det gör Loire till Frankrikes friskaste vinregion."
+  },
+  "sancerre": {
+    "altitude": [
+      200,
+      400
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "svalt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      650,
+      750
+    ],
+    "terrain": "Kuperade kullar runt en kulle med en medeltida stad",
+    "keyFactors": [
+      "Tre jordar: kalkrik lera (terres blanches), kalksten (caillottes) och flinta (silex)",
+      "Flintan ger en rökig ton",
+      "Sent på våren och tidigt på hösten är det kallt"
+    ],
+    "whyItTastes": "Svalt klimat bevarar Sauvignon Blancs gröna, citrusiga aromer och höga syra. Flintjordarna ger den typiska rökiga, krutaktiga tonen."
+  },
+  "vouvray": {
+    "altitude": [
+      60,
+      130
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "svalt",
+    "climateType": "Mellan oceaniskt och kontinentalt",
+    "rainfallMm": [
+      600,
+      700
+    ],
+    "terrain": "Kalkstensplatå ovanför floden med grottor och källare i klipporna",
+    "keyFactors": [
+      "Mjuk kalksten (tuffeau) med lera och flinta ovanpå",
+      "Vädret avgör sötman — varma år blir det söta viner, svala år torra eller mousserande",
+      "Källare uthuggna i kalkstenen håller jämn temperatur"
+    ],
+    "whyItTastes": "Svalt klimat ger Chenin Blanc mycket hög syra. Den syran gör att vinet aldrig blir sliskigt, även när det är sött — och att det kan lagras i decennier."
+  },
+  "champagne": {
+    "altitude": [
+      90,
+      300
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "svalt",
+    "climateType": "Svalt, mellan oceaniskt och kontinentalt",
+    "rainfallMm": [
+      600,
+      700
+    ],
+    "terrain": "Mjuka sluttningar runt Reims och Épernay",
+    "keyFactors": [
+      "En av de nordligaste vinregionerna i Frankrike",
+      "Krita i berggrunden suger upp regnvatten och släpper det långsamt",
+      "Kritkällarna under städerna är perfekta för flasklagring"
+    ],
+    "whyItTastes": "Kylan gör att druvorna sällan blir helt mogna. Det ger ett basvin med hög syra och låg alkohol — perfekt för mousserande vin. Långa år på jästen ger sedan brioche och nötter."
+  },
+  "alsace": {
+    "altitude": [
+      175,
+      450
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt och soligt",
+    "rainfallMm": [
+      500,
+      650
+    ],
+    "terrain": "Östvända sluttningar vid foten av bergen Vogeserna",
+    "keyFactors": [
+      "Vogeserna stoppar regnet från väster — Colmar är en av Frankrikes torraste städer",
+      "Lång, solig och torr höst",
+      "Mycket varierad geologi: granit, kalksten, skiffer, sandsten"
+    ],
+    "whyItTastes": "Trots det nordliga läget får druvorna många soltimmar och en lång torr höst. Det ger mogna, aromatiska och fylliga viner — men med svala nätter som bevarar syran."
+  },
+  "beaujolais": {
+    "altitude": [
+      200,
+      550
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Halvkontinentalt",
+    "rainfallMm": [
+      700,
+      800
+    ],
+    "terrain": "Böljande kullar; granitkullarna i norr, platt lera och kalk i söder",
+    "keyFactors": [
+      "De tio cru-byarna ligger på granit i norr",
+      "Kolsyrejäsning (macération carbonique) ger fruktighet och låg tannin",
+      "Gamla buskvinstockar (gobelet)"
+    ],
+    "whyItTastes": "Gamay på granit ger fräsch, fruktig och blommig karaktär. Jäsning av hela klasar ger mjuk tannin och doft av hallon, körsbär och ibland banan."
+  },
+  "languedoc-roussillon": {
+    "altitude": [
+      0,
+      450
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "varmt",
+    "climateType": "Medelhav",
+    "rainfallMm": [
+      500,
+      700
+    ],
+    "terrain": "Kustslätt och kalksten och skifferkullar upp mot bergen",
+    "keyFactors": [
+      "Mycket sol och torra somrar",
+      "Kullarna i inlandet ger svalare nätter och bättre viner än slätten",
+      "Torra vindar som tramontane håller vingårdarna friska"
+    ],
+    "whyItTastes": "Medelhavsvärmen ger mogen, mörk frukt och hög alkohol. Den vilda vegetationen runt vingårdarna (garrigue) ger tonerna av timjan, rosmarin och lavendel."
+  },
+  "jura": {
+    "altitude": [
+      250,
+      450
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "svalt",
+    "climateType": "Svalt kontinentalt",
+    "rainfallMm": [
+      1100,
+      1300
+    ],
+    "terrain": "Sluttningar vid foten av Jurabergen",
+    "keyFactors": [
+      "Kalla vintrar och mycket regn",
+      "Blå och grå märgel (lerkalk)",
+      "Vin jaune lagras under ett jästlager i minst sex år"
+    ],
+    "whyItTastes": "Svalt klimat ger lätta, syrliga viner. Den speciella lagringen under jäst (som i sherry) ger vin jaune dess nötiga, currylika smak."
+  },
+  "provence": {
+    "altitude": [
+      0,
+      500
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "varmt",
+    "climateType": "Medelhav",
+    "rainfallMm": [
+      550,
+      700
+    ],
+    "terrain": "Kustnära kullar och kalkstensplatåer",
+    "keyFactors": [
+      "Över 2 700 soltimmar per år",
+      "Mistralen håller vingårdarna torra och friska",
+      "Rosé görs med kort skalkontakt för blek färg"
+    ],
+    "whyItTastes": "Värmen ger mogen frukt, men druvorna till rosé skördas tidigt och pressas snabbt. Det ger blek färg, frisk syra och torr stil."
+  },
+  "sud-ouest": {
+    "altitude": [
+      50,
+      400
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Atlantiskt i väster, varmare inåt land",
+    "rainfallMm": [
+      700,
+      950
+    ],
+    "terrain": "Floddalar och kullar mellan Bordeaux och Pyrenéerna",
+    "keyFactors": [
+      "Varm höstvind från söder (vent d'autan) hjälper druvorna att mogna",
+      "Pyrenéerna påverkar Jurançon och Madiran",
+      "Många gamla lokala druvsorter"
+    ],
+    "whyItTastes": "Varmare än Bordeaux men fortfarande atlantiskt — det ger mörka, tanninrika röda och friska vita med hög syra."
+  },
+  "savoie": {
+    "altitude": [
+      250,
+      600
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "svalt",
+    "climateType": "Alpint",
+    "rainfallMm": [
+      1000,
+      1300
+    ],
+    "terrain": "Branta sluttningar i alpdalar, ofta nära sjöar",
+    "keyFactors": [
+      "Vingårdarna ligger utspridda i små fickor",
+      "Sjöar och sydlägen gör det möjligt att odla vin",
+      "Snö på vintern, korta varma somrar"
+    ],
+    "whyItTastes": "Bergsklimatet ger lätta, friska viner med låg alkohol och hög syra — viner som smakar alpluft."
+  },
+  "piemonte": {
+    "altitude": [
+      150,
+      550
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      700,
+      850
+    ],
+    "terrain": "Kullar omgivna av Alperna på tre sidor",
+    "keyFactors": [
+      "Namnet betyder \"vid foten av bergen\"",
+      "Höstdimma (nebbia) — som gett namn åt Nebbiolo",
+      "De bästa sydvända lägena går till Nebbiolo, de svalare till Dolcetto och Barbera"
+    ],
+    "whyItTastes": "Varma sommardagar och kalla höstnätter ger druvor med både mycket tannin och hög syra. Därför blir Piemontes röda viner strama och lagringsvärda."
+  },
+  "barolo": {
+    "altitude": [
+      170,
+      540
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      700,
+      800
+    ],
+    "terrain": "Kuperade Langhe-kullar med byar på topparna",
+    "keyFactors": [
+      "Två jordtyper: Tortonian (mjukare viner) i väster och Helvetian (kraftigare) i öster",
+      "Varje vingård (cru, MGA) har egen karaktär",
+      "Nebbiolo knoppar tidigt och skördas sent — lång säsong"
+    ],
+    "whyItTastes": "Nebbiolos långa mognad i ett kontinentalt klimat ger tunt skal men mycket tannin och syra. Vinet blir ljust i färgen men kraftfullt, med tjära och rosor."
+  },
+  "barbera-dasti": {
+    "altitude": [
+      150,
+      400
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      650,
+      800
+    ],
+    "terrain": "Mjuka kullar kring staden Asti",
+    "keyFactors": [
+      "Varmare och lägre än Barolo",
+      "Barbera behåller hög syra även när den är helt mogen",
+      "Ofta äldre vinstockar"
+    ],
+    "whyItTastes": "Barbera har naturligt lite tannin men mycket syra. Värmen ger mogen, mörk körsbärsfrukt — och syran gör vinet saftigt och matvänligt."
+  },
+  "moscato-dasti": {
+    "altitude": [
+      200,
+      500
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      650,
+      800
+    ],
+    "terrain": "Branta kullar kring Canelli",
+    "keyFactors": [
+      "Druvorna skördas tidigt för att bevara arom och syra",
+      "Jäsningen stoppas genom kylning — kvar blir socker och lite kolsyra",
+      "Vinodlingslandskapet är världsarv (UNESCO)"
+    ],
+    "whyItTastes": "Jäsningen avbryts vid cirka 5 % alkohol. Därför blir vinet sött, lätt och pärlande med druvans hela doft av persika och fläder kvar."
+  },
+  "toscana": {
+    "altitude": [
+      50,
+      600
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "varmt",
+    "climateType": "Medelhav i väster, kontinentalt i inlandet",
+    "rainfallMm": [
+      600,
+      900
+    ],
+    "terrain": "Böljande kullar, från kusten till Apenninerna",
+    "keyFactors": [
+      "Höjden i kullarna ger svala nätter",
+      "Kusten (Bolgheri, Maremma) är varmare och mildare",
+      "Sangiovese är känslig och smakar olika beroende på läge"
+    ],
+    "whyItTastes": "Varma dagar och svala kullnätter ger Sangiovese mogen körsbärsfrukt med hög syra och torrt tannin — en stil som behöver mat."
+  },
+  "chianti-classico": {
+    "altitude": [
+      250,
+      650
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      750,
+      850
+    ],
+    "terrain": "Skogsklädda kullar mellan Florens och Siena",
+    "keyFactors": [
+      "Galestro (lös skiffer) och alberese (kalksten)",
+      "Höga lägen som Radda och Gaiole är svalare",
+      "Mycket skog runt vingårdarna"
+    ],
+    "whyItTastes": "Höjden och de steniga jordarna ger Sangiovese elegans och syra. Vinet får körsbär, örter och en torr, lite strävande avslutning."
+  },
+  "brunello-di-montalcino": {
+    "altitude": [
+      120,
+      500
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "varmt",
+    "climateType": "Medelhavsinfluerat",
+    "rainfallMm": [
+      500,
+      700
+    ],
+    "terrain": "En kulle med staden Montalcino på toppen",
+    "keyFactors": [
+      "Varmare och torrare än Chianti",
+      "Berget Amiata skyddar mot oväder",
+      "Södra sluttningen varmare, norra svalare och mer elegant"
+    ],
+    "whyItTastes": "Mer värme och torka ger tjockare skal och mörkare frukt. Därför blir Brunello mer koncentrerad och kraftfull än Chianti — trots samma druva."
+  },
+  "vino-nobile-di-montepulciano": {
+    "altitude": [
+      250,
+      600
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "varmt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      600,
+      750
+    ],
+    "terrain": "Kullar runt den höga medeltidsstaden Montepulciano",
+    "keyFactors": [
+      "Mellan Chianti och Brunello både geografiskt och i stil",
+      "Lera och sand ger mjukare viner",
+      "Varma dagar, svala nätter"
+    ],
+    "whyItTastes": "Lerrik jord och varmt klimat ger Sangiovese rundare frukt än Chianti men mindre kraft än Brunello."
+  },
+  "bolgheri": {
+    "altitude": [
+      0,
+      300
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "varmt",
+    "climateType": "Medelhav",
+    "rainfallMm": [
+      600,
+      700
+    ],
+    "terrain": "Kustslätt och sluttningar mot Tyrrenska havet",
+    "keyFactors": [
+      "Havsbrisen kyler ner kvällarna",
+      "Grusjord liknande Bordeaux vänstra bank",
+      "Var ett fattigt jordbruksområde fram till Sassicaia på 1970-talet"
+    ],
+    "whyItTastes": "Bordeaux-druvor i ett varmare klimat ger mognare, rundare frukt än i Bordeaux, men havsbrisen och gruset behåller strukturen."
+  },
+  "vernaccia-di-san-gimignano": {
+    "altitude": [
+      200,
+      450
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "varmt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      650,
+      800
+    ],
+    "terrain": "Kullar kring den medeltida tornstaden",
+    "keyFactors": [
+      "Sandig jord med fossiler från ett forntida hav",
+      "En av få vita druvor i Toscana",
+      "Varma dagar, svala nätter"
+    ],
+    "whyItTastes": "Sandig, mineralrik jord ger Vernaccia en salt mineralitet och en typisk avslutning av bitter mandel."
+  },
+  "veneto": {
+    "altitude": [
+      0,
+      500
+    ],
+    "irrigation": "blandat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt med påverkan från Alperna och Gardasjön",
+    "rainfallMm": [
+      800,
+      1100
+    ],
+    "terrain": "Från Gardasjön och kullarna vid Alperna ner till Poslätten",
+    "keyFactors": [
+      "Kullarna ger kvalitet, slätten volym",
+      "Gardasjön mildrar klimatet i väster",
+      "Torkning av druvor (appassimento) är en lokal tradition"
+    ],
+    "whyItTastes": "Stor variation: svala kullar ger friska vita som Soave, medan torkade druvor ger kraftfull Amarone."
+  },
+  "valpolicella": {
+    "altitude": [
+      150,
+      500
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt, mildrat av Gardasjön",
+    "rainfallMm": [
+      800,
+      950
+    ],
+    "terrain": "Dalar som går ner från bergen Lessini mot Verona",
+    "keyFactors": [
+      "Pergola-odling (pergola veronese) är traditionell",
+      "Dalarna skyddas av bergen i norr",
+      "Kalksten och vulkanisk basalt"
+    ],
+    "whyItTastes": "Corvina har tunt skal och ger lätta, syrliga viner med körsbär och en lätt bitter ton — samma druva som i Amarone men utan torkning."
+  },
+  "amarone-della-valpolicella": {
+    "altitude": [
+      150,
+      500
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt, mildrat av Gardasjön",
+    "rainfallMm": [
+      800,
+      950
+    ],
+    "terrain": "Samma dalar som Valpolicella",
+    "keyFactors": [
+      "Druvorna torkas i 3–4 månader i luftiga rum (fruttai)",
+      "De tappar 30–40 % av sin vikt",
+      "Jäsning under vintern"
+    ],
+    "whyItTastes": "Det är tekniken, inte vingården, som skapar Amarone. Torkningen koncentrerar socker och smak, så vinet blir kraftfullt med russin och choklad — men jäses torrt."
+  },
+  "soave": {
+    "altitude": [
+      50,
+      400
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      800,
+      950
+    ],
+    "terrain": "Vulkaniska kullar öster om Verona (Classico) och slätt nedanför",
+    "keyFactors": [
+      "Vulkanisk basalt i Classico-kullarna",
+      "Pergola-odling skuggar druvorna",
+      "Slätten ger enklare volymviner"
+    ],
+    "whyItTastes": "Garganega på vulkanisk jord ger mineralitet och mandeltoner. Från kullarna blir vinet mer koncentrerat än från slätten."
+  },
+  "prosecco": {
+    "altitude": [
+      50,
+      500
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Tempererat och fuktigt",
+    "rainfallMm": [
+      1200,
+      1500
+    ],
+    "terrain": "Extremt branta kullar mellan Conegliano och Valdobbiadene (DOCG), slätt för vanlig Prosecco",
+    "keyFactors": [
+      "De branta kullarna (\"hogback hills\") är världsarv (UNESCO)",
+      "Cartizze är den mest kända kullen",
+      "Mycket regn"
+    ],
+    "whyItTastes": "Svala, regniga kullar ger Glera med frisk syra och doft av päron och vita blommor. Tankjäsningen bevarar den fräscha frukten."
+  },
+  "alto-adige": {
+    "altitude": [
+      200,
+      1000
+    ],
+    "irrigation": "blandat",
+    "warmth": "måttligt",
+    "climateType": "Alpint med varm dalbotten",
+    "rainfallMm": [
+      600,
+      800
+    ],
+    "terrain": "Branta dalsidor i Alperna, med äppelodlingar och vingårdar",
+    "keyFactors": [
+      "Alperna i norr skyddar mot kalla vindar",
+      "Dalbotten kring Bolzano blir mycket varm — bra för röda Lagrein",
+      "Högt upp odlas vita druvor som behöver svalka"
+    ],
+    "whyItTastes": "Stor skillnad mellan dag och natt ger aromatiska, precisa vita viner med hög syra. Rätt druva på rätt höjd är nyckeln."
+  },
+  "sicilia-etna": {
+    "altitude": [
+      400,
+      1100
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Medelhav vid foten, alpint högt upp",
+    "rainfallMm": [
+      700,
+      1000
+    ],
+    "terrain": "Terrasser av lavasten på sluttningarna av en aktiv vulkan",
+    "keyFactors": [
+      "Höjden gör det svalt mitt i Medelhavet",
+      "Gamla buskvinstockar (alberello), en del oympade",
+      "Varje lavaström har olika ålder och jord"
+    ],
+    "whyItTastes": "Höjden ger svala nätter och lång mognad, så vinet blir ljust och elegant med hög syra. Vulkanisk jord ger en rökig mineralitet."
+  },
+  "franciacorta": {
+    "altitude": [
+      180,
+      450
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Mildrat av Iseosjön",
+    "rainfallMm": [
+      900,
+      1100
+    ],
+    "terrain": "Moränkullar söder om Iseosjön",
+    "keyFactors": [
+      "Glaciärer lämnade kvar morän och grus",
+      "Sjön jämnar ut temperaturen",
+      "Druvorna skördas tidigt för hög syra"
+    ],
+    "whyItTastes": "Varmare än Champagne ger lite rundare, mognare frukt — men samma metod och lång lagring på jästen ger brioche och fin mousse."
+  },
+  "abruzzo": {
+    "altitude": [
+      0,
+      600
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "varmt",
+    "climateType": "Medelhav vid kusten, kontinentalt i inlandet",
+    "rainfallMm": [
+      600,
+      800
+    ],
+    "terrain": "Kullar mellan Apenninerna och Adriatiska havet",
+    "keyFactors": [
+      "Bergen ger svala nätter, havet ger värme",
+      "Pergola-odling (tendone) är vanlig",
+      "Stor produktion av prisvärda viner"
+    ],
+    "whyItTastes": "Värmen ger Montepulciano mörk, mogen frukt och mjuk tannin, men bergsluften behåller friskheten."
+  },
+  "puglia": {
+    "altitude": [
+      0,
+      400
+    ],
+    "irrigation": "bevattnat",
+    "warmth": "hett",
+    "climateType": "Medelhav, varmt och torrt",
+    "rainfallMm": [
+      450,
+      650
+    ],
+    "terrain": "Flack slätt mellan Adriatiska och Joniska havet",
+    "keyFactors": [
+      "Ett av Italiens varmaste och soligaste vinområden",
+      "Havsvindar från två håll svalkar",
+      "Gamla buskvinstockar (alberello) på röd lerjord"
+    ],
+    "whyItTastes": "Mycket värme och sol ger druvor med mycket socker. Det blir fylliga, mjuka och alkoholstarka viner med mogen, nästan syltig frukt."
+  },
+  "verdicchio-castelli-di-jesi": {
+    "altitude": [
+      150,
+      500
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Medelhavsinfluerat",
+    "rainfallMm": [
+      700,
+      900
+    ],
+    "terrain": "Kullar mellan Apenninerna och Adriatiska havet",
+    "keyFactors": [
+      "Havets närhet ger salt i luften",
+      "Kalkrik lera",
+      "Matelica i inlandet är svalare"
+    ],
+    "whyItTastes": "Havsluft och kalkrik jord ger Verdicchio dess salta mineralitet, och den höga syran gör att vinet kan lagras länge."
+  },
+  "friuli": {
+    "altitude": [
+      50,
+      350
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Mellan alpint och medelhav",
+    "rainfallMm": [
+      1200,
+      1600
+    ],
+    "terrain": "Kullar längs slovenska gränsen och en grusslätt",
+    "keyFactors": [
+      "Alperna skyddar mot nordvindar, havet värmer",
+      "Ponca — skiktad märgel och sandsten — i de bästa kullarna",
+      "Mycket regn"
+    ],
+    "whyItTastes": "Skillnaden mellan alpkyla och havsvärme ger aromatiska, mineraliska vita med frisk syra."
+  },
+  "campania": {
+    "altitude": [
+      0,
+      700
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "varmt",
+    "climateType": "Medelhav vid kusten, kontinentalt i Irpinia",
+    "rainfallMm": [
+      800,
+      1100
+    ],
+    "terrain": "Vulkaner vid kusten och höga kullar i inlandet (Irpinia)",
+    "keyFactors": [
+      "Irpinia ligger högt och har kalla vintrar — nästan som norra Italien",
+      "Vulkanisk jord från Vesuvius",
+      "Aglianico skördas mycket sent"
+    ],
+    "whyItTastes": "Höjden i Irpinia ger syra och struktur trots sydligt läge. Vulkanisk jord ger rökighet, och den långa mognaden ger Aglianico dess kraftiga tannin."
+  },
+  "sardegna": {
+    "altitude": [
+      0,
+      700
+    ],
+    "irrigation": "blandat",
+    "warmth": "hett",
+    "climateType": "Medelhav",
+    "rainfallMm": [
+      400,
+      700
+    ],
+    "terrain": "Bergig ö med granit i norr och sand i sydväst",
+    "keyFactors": [
+      "Vinden maestrale håller vingårdarna friska",
+      "Isolering har bevarat gamla druvsorter",
+      "Sandjord i Sulcis har stoppat phylloxera"
+    ],
+    "whyItTastes": "Värme och sol ger varma, fylliga röda viner, medan havsvinden ger Vermentino dess salta friskhet."
+  },
+  "umbria": {
+    "altitude": [
+      200,
+      500
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "varmt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      700,
+      900
+    ],
+    "terrain": "Gröna kullar utan kust",
+    "keyFactors": [
+      "Italiens enda region utan kust eller landgräns",
+      "Varma somrar, kalla vintrar",
+      "Vulkanisk tuff kring Orvieto"
+    ],
+    "whyItTastes": "Sagrantino har ett av de tjockaste skalen av alla druvor. I det varma inlandsklimatet ger det enormt mycket tannin och mörk färg."
+  },
+  "mosel": {
+    "altitude": [
+      100,
+      350
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "svalt",
+    "climateType": "Svalt kontinentalt",
+    "rainfallMm": [
+      650,
+      750
+    ],
+    "terrain": "Extremt branta skiffersluttningar längs en slingrande flod",
+    "keyFactors": [
+      "Bland de brantaste vingårdarna i världen — Bremmer Calmont räknas som Europas brantaste",
+      "Skiffern lagrar dagens värme och strålar ut den på natten",
+      "Floden reflekterar solljus upp mot sluttningarna"
+    ],
+    "whyItTastes": "Det svala klimatet ger Riesling mycket hög syra och låg alkohol. Ofta lämnas lite socker kvar för balans. Skiffern bidrar med en stenig, mineralisk ton."
+  },
+  "nahe": {
+    "altitude": [
+      100,
+      350
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Milt kontinentalt",
+    "rainfallMm": [
+      500,
+      600
+    ],
+    "terrain": "Floddal med branta klippor och sidodalar",
+    "keyFactors": [
+      "Hunsrück-bergen skyddar mot regn och kyla",
+      "En av Tysklands torraste vinregioner",
+      "Över 180 olika jordtyper på liten yta"
+    ],
+    "whyItTastes": "Mer sol och mindre regn än Mosel ger Riesling lite mer kropp och mognad. Den varierade jorden — skiffer, porfyr, kvartsit — gör att vinerna skiljer sig mycket mellan lägena."
+  },
+  "rheingau": {
+    "altitude": [
+      80,
+      300
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      500,
+      650
+    ],
+    "terrain": "Sydvända sluttningar där Rhen flyter västerut i cirka 30 km",
+    "keyFactors": [
+      "Rhens västliga sträckning ger perfekt söderläge",
+      "Taunus-bergen skyddar mot kalla nordvindar",
+      "Pfalz ligger i regnskuggan av Haardtbergen och är en av Tysklands varmaste vinregioner"
+    ],
+    "whyItTastes": "Söderläge och skydd från norr ger mognare, torrare och kraftfullare Riesling än i Mosel — men den svala nordliga breddgraden behåller syran."
+  },
+  "franken": {
+    "altitude": [
+      180,
+      350
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "svalt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      550,
+      650
+    ],
+    "terrain": "Sluttningar längs floden Main och dess bifloder",
+    "keyFactors": [
+      "Stor risk för vår- och höstfrost",
+      "Musselkalk ger mineralitet",
+      "Silvaner mognar tidigare än Riesling och klarar det kortare säsongen bättre"
+    ],
+    "whyItTastes": "Kontinentalt klimat och kalkrik jord ger torra, jordiga och mineraliska viner — mer stringenta än fruktiga."
+  },
+  "baden": {
+    "altitude": [
+      150,
+      450
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Det varmaste i Tyskland",
+    "rainfallMm": [
+      600,
+      900
+    ],
+    "terrain": "Lång remsa mellan Rhen och Schwarzwald, ner till Bodensjön",
+    "keyFactors": [
+      "Tysklands sydligaste och soligaste vinregion",
+      "Kaiserstuhl är en utslocknad vulkan",
+      "Schwarzwald skyddar mot vind och regn från öster"
+    ],
+    "whyItTastes": "Mer värme än resten av Tyskland ger Pinot-druvorna tillräcklig mognad för fylliga torra viner och elegant Spätburgunder."
+  },
+  "wachau": {
+    "altitude": [
+      200,
+      450
+    ],
+    "irrigation": "blandat",
+    "warmth": "måttligt",
+    "climateType": "Gränsen mellan kontinentalt och pannoniskt",
+    "rainfallMm": [
+      450,
+      550
+    ],
+    "terrain": "Branta stenterrasser längs Donau",
+    "keyFactors": [
+      "Kall luft från skogarna i Waldviertel möter varm luft från öster",
+      "Stora skillnader mellan dag och natt",
+      "Låg nederbörd — bevattning används torra år"
+    ],
+    "whyItTastes": "Varma dagar och kalla nätter ger Grüner Veltliner och Riesling både mognad och syra. Stenig gnejsjord ger mineralitet."
+  },
+  "kamptal": {
+    "altitude": [
+      200,
+      400
+    ],
+    "irrigation": "blandat",
+    "warmth": "måttligt",
+    "climateType": "Gränsen mellan kontinentalt och pannoniskt",
+    "rainfallMm": [
+      450,
+      550
+    ],
+    "terrain": "Floddal med lössterrasser och den branta kullen Heiligenstein",
+    "keyFactors": [
+      "Samma samspel mellan kall och varm luft som i Wachau",
+      "Djup lössjord ger fylligare Grüner Veltliner",
+      "Heiligensteins ökensandsten är 270 miljoner år gammal"
+    ],
+    "whyItTastes": "Lössjorden ger Grüner Veltliner rundhet och kropp, medan Riesling från steniga Heiligenstein blir stram och mineralisk."
+  },
+  "burgenland": {
+    "altitude": [
+      115,
+      400
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "varmt",
+    "climateType": "Pannoniskt",
+    "rainfallMm": [
+      550,
+      650
+    ],
+    "terrain": "Flackt kring sjön Neusiedl, kullar längre söderut",
+    "keyFactors": [
+      "Österrikes varmaste vinregion",
+      "Sjön Neusiedl är mycket grund (under 2 m) men stor — den värmer och ger höstdimma",
+      "Dimman skapar ädelröta för söta viner"
+    ],
+    "whyItTastes": "Värmen räcker för röda druvor som Blaufränkisch, medan sjöns fukt gör det möjligt att göra söta viner med ädelröta."
+  },
+  "tokaj": {
+    "altitude": [
+      100,
+      450
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      500,
+      600
+    ],
+    "terrain": "Vulkaniska kullar där floderna Bodrog och Tisza möts",
+    "keyFactors": [
+      "Flodernas dimma på hösten skapar ädelröta",
+      "Lång, varm höst låter druvorna torka på rankan",
+      "Vulkanisk jord ger mineralitet"
+    ],
+    "whyItTastes": "Ädelrötan koncentrerar socker och syra i Furmint, som redan har mycket hög syra. Därför blir Tokaji söt men aldrig sliskig."
+  },
+  "santorini": {
+    "altitude": [
+      0,
+      350
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "hett",
+    "climateType": "Medelhav, extremt torrt och blåsigt",
+    "rainfallMm": [
+      250,
+      400
+    ],
+    "terrain": "Vulkanisk ö med pimpstensjord",
+    "keyFactors": [
+      "Vinstockarna flätas till korgar (kouloura) nära marken som skydd mot vinden",
+      "Pimpstenen suger upp nattens havsfukt — det räcker som vatten",
+      "Rotsystem som kan vara flera hundra år gamla"
+    ],
+    "whyItTastes": "Fattig vulkanjord och torka ger få, små druvor med koncentrerad smak. Assyrtiko behåller sin höga syra i värmen, och jorden ger en salt, rökig mineralitet."
+  },
+  "kakheti": {
+    "altitude": [
+      250,
+      800
+    ],
+    "irrigation": "blandat",
+    "warmth": "varmt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      600,
+      800
+    ],
+    "terrain": "Bred dal längs floden Alazani nedanför Kaukasus",
+    "keyFactors": [
+      "Kaukasus skyddar mot kalla nordvindar",
+      "Lång, varm säsong",
+      "Qvevri grävs ner i marken så att temperaturen hålls jämn"
+    ],
+    "whyItTastes": "Värmen ger mogen frukt, men det är tekniken med lång skalkontakt i qvevri som ger vita viner tannin, bärnstensfärg och nötiga toner."
+  },
+  "napa": {
+    "altitude": [
+      0,
+      800
+    ],
+    "irrigation": "bevattnat",
+    "warmth": "varmt",
+    "climateType": "Medelhav",
+    "rainfallMm": [
+      600,
+      900
+    ],
+    "terrain": "Smal dal mellan två bergskedjor, med bergslägen på sidorna",
+    "keyFactors": [
+      "Dimma från San Pablo Bay kyler södra delen",
+      "Norra delen kring Calistoga är varmast",
+      "Hälften av jordens jordtyper (jordordningar) finns i dalen"
+    ],
+    "whyItTastes": "Mycket sol och varma dagar ger Cabernet full mognad, mörk frukt och mjuka tanniner. Kalla nätter och dimma behåller lite friskhet."
+  },
+  "sonoma": {
+    "altitude": [
+      0,
+      700
+    ],
+    "irrigation": "blandat",
+    "warmth": "måttligt",
+    "climateType": "Medelhav med kustdimma",
+    "rainfallMm": [
+      750,
+      1100
+    ],
+    "terrain": "Stort område med många dalar mellan kusten och Napa",
+    "keyFactors": [
+      "Dimma från Stilla havet kryper in via Petaluma Gap och Russian River",
+      "Kusten är kall, inlandet varmt",
+      "Mycket olika mikroklimat"
+    ],
+    "whyItTastes": "Svala, dimmiga lägen ger elegant Pinot Noir och Chardonnay, medan varma dalar ger kraftig Zinfandel och Cabernet."
+  },
+  "willamette-valley": {
+    "altitude": [
+      60,
+      300
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "svalt",
+    "climateType": "Maritimt",
+    "rainfallMm": [
+      1000,
+      1200
+    ],
+    "terrain": "Bred dal med kullar mellan Kustbergen och Kaskadbergen",
+    "keyFactors": [
+      "Svala havsvindar via Van Duzer-korridoren",
+      "Tre jordtyper: vulkanisk Jory, marint sediment och vindavlagrad löss",
+      "Regnet faller mest på vintern, somrarna är torra"
+    ],
+    "whyItTastes": "Svalt klimat med lång mognad ger Pinot Noir med röda bär, hög syra och elegans — närmare Bourgogne än Kalifornien."
+  },
+  "columbia-valley": {
+    "altitude": [
+      100,
+      500
+    ],
+    "irrigation": "bevattnat",
+    "warmth": "varmt",
+    "climateType": "Halvöken",
+    "rainfallMm": [
+      150,
+      250
+    ],
+    "terrain": "Ökenlandskap öster om Kaskadbergen",
+    "keyFactors": [
+      "Kaskadbergen stoppar regnet — utan bevattning från floderna går det inte",
+      "Långa sommardagar tack vare nordligt läge",
+      "Kalla vintrar — phylloxera trivs inte, så många vinstockar är oympade"
+    ],
+    "whyItTastes": "Mycket sol och kontrollerad bevattning ger jämn mognad och mörk frukt, medan kalla nätter behåller syran."
+  },
+  "margaret-river": {
+    "altitude": [
+      20,
+      200
+    ],
+    "irrigation": "mest torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Maritimt medelhav",
+    "rainfallMm": [
+      1000,
+      1200
+    ],
+    "terrain": "Udde omgiven av Indiska oceanen på tre sidor",
+    "keyFactors": [
+      "Havet ger mycket jämn temperatur året runt",
+      "Regnet faller på vintern, somrarna är torra",
+      "Grusig, järnrik jord (laterit)"
+    ],
+    "whyItTastes": "Det jämna havsklimatet ger lång, stadig mognad. Det blir eleganta, Bordeaux-lika Cabernet och strukturerad Chardonnay."
+  },
+  "yarra-valley": {
+    "altitude": [
+      50,
+      400
+    ],
+    "irrigation": "blandat",
+    "warmth": "svalt",
+    "climateType": "Svalt, med maritim påverkan",
+    "rainfallMm": [
+      750,
+      1100
+    ],
+    "terrain": "Floddal med låga, varmare delar och högre, svalare kullar",
+    "keyFactors": [
+      "Stor skillnad mellan dalbotten och de höga lägena",
+      "Grå sandig lera på dalbotten, röd vulkanisk jord högre upp",
+      "Australiens första vinregion i Victoria (1838)"
+    ],
+    "whyItTastes": "Svalt klimat ger Pinot Noir och Chardonnay elegans och syra, och passar bra för mousserande."
+  },
+  "hunter-valley": {
+    "altitude": [
+      50,
+      250
+    ],
+    "irrigation": "blandat",
+    "warmth": "hett",
+    "climateType": "Subtropiskt fuktigt",
+    "rainfallMm": [
+      650,
+      750
+    ],
+    "terrain": "Flacka dalar och låga kullar inåt land från kusten",
+    "keyFactors": [
+      "Mycket varmt, men moln och fukt dämpar solen",
+      "Mycket av regnet faller under skördetiden",
+      "Semillon skördas tidigt för att undvika regnet"
+    ],
+    "whyItTastes": "Semillon skördas tidigt med lite socker och mycket syra. Därför blir det unga vinet lätt och neutralt — men med åren utvecklar det rostat bröd och honung."
+  },
+  "barossa": {
+    "altitude": [
+      250,
+      550
+    ],
+    "irrigation": "blandat",
+    "warmth": "varmt",
+    "climateType": "Medelhav",
+    "rainfallMm": [
+      450,
+      650
+    ],
+    "terrain": "Bred dal och högre kullar (Eden Valley) i öster",
+    "keyFactors": [
+      "Phylloxera har aldrig nått South Australia — många vinstockar är oympade",
+      "Några av världens äldsta vinstockar, planterade på 1840-talet",
+      "Eden Valley ligger högre och är svalare"
+    ],
+    "whyItTastes": "Varma, torra somrar och gamla vinstockar ger Shiraz koncentrerad mörk frukt, choklad och hög alkohol."
+  },
+  "tasmania": {
+    "altitude": [
+      0,
+      400
+    ],
+    "irrigation": "blandat",
+    "warmth": "svalt",
+    "climateType": "Svalt maritimt",
+    "rainfallMm": [
+      500,
+      1000
+    ],
+    "terrain": "Floddalar och kustnära kullar på ön",
+    "keyFactors": [
+      "Södra ishavet kyler ön",
+      "Lång, sval säsong med mycket dagsljus på sommaren",
+      "Östra delen ligger i regnskugga och är torrare"
+    ],
+    "whyItTastes": "Svalt klimat ger druvor med hög syra och fin arom — perfekt för mousserande och elegant Pinot Noir."
+  },
+  "marlborough": {
+    "altitude": [
+      0,
+      300
+    ],
+    "irrigation": "bevattnat",
+    "warmth": "svalt",
+    "climateType": "Svalt maritimt och soligt",
+    "rainfallMm": [
+      600,
+      700
+    ],
+    "terrain": "Breda dalar med stenig flodjord",
+    "keyFactors": [
+      "En av Nya Zeelands soligaste platser",
+      "Stor skillnad mellan varma dagar och kalla nätter",
+      "Stenig flodjord som dränerar bra"
+    ],
+    "whyItTastes": "Mycket sol och kalla nätter ger Sauvignon Blanc både mogen tropisk frukt och skarp syra. Det ger den explosiva doften av passionsfrukt och krusbär."
+  },
+  "central-otago": {
+    "altitude": [
+      200,
+      450
+    ],
+    "irrigation": "bevattnat",
+    "warmth": "svalt",
+    "climateType": "Kontinentalt",
+    "rainfallMm": [
+      350,
+      600
+    ],
+    "terrain": "Bergsdalar och sjöar i Sydöns inland",
+    "keyFactors": [
+      "Världens sydligaste vinregion",
+      "Heta, torra sommardagar men frost risk både vår och höst",
+      "Stark UV-strålning ger tjocka skal"
+    ],
+    "whyItTastes": "Starkt solljus och stora temperaturskillnader ger Pinot Noir intensiv, mörk frukt och färg — men kylan behåller syran."
+  },
+  "hawkes-bay": {
+    "altitude": [
+      0,
+      200
+    ],
+    "irrigation": "bevattnat",
+    "warmth": "måttligt",
+    "climateType": "Maritimt",
+    "rainfallMm": [
+      700,
+      900
+    ],
+    "terrain": "Kustslätt och grusiga flodbäddar",
+    "keyFactors": [
+      "Varmare och torrare än resten av Nya Zeeland",
+      "Gimblett Gravels — grus som lagrar värme",
+      "Bergen i väster skyddar mot regn"
+    ],
+    "whyItTastes": "Tillräcklig värme för att Bordeaux-druvor och Syrah ska mogna, men havsklimatet ger friskare och mer pepprig stil än i Australien."
+  },
+  "niagara": {
+    "altitude": [
+      80,
+      200
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "svalt",
+    "climateType": "Kontinentalt, mildrat av Ontariosjön",
+    "rainfallMm": [
+      800,
+      900
+    ],
+    "terrain": "Slätt vid Ontariosjön och terrasser på Niagarabranten",
+    "keyFactors": [
+      "Sjön värmer på hösten och kyler på våren",
+      "Branten fångar luften så att den cirkulerar",
+      "Isvin plockas när det är minst −8 °C"
+    ],
+    "whyItTastes": "Kalla vintrar gör isvin möjligt: vattnet i druvan fryser och bara den koncentrerade, söta saften pressas ut."
+  },
+  "maipo": {
+    "altitude": [
+      400,
+      800
+    ],
+    "irrigation": "bevattnat",
+    "warmth": "varmt",
+    "climateType": "Medelhav",
+    "rainfallMm": [
+      300,
+      400
+    ],
+    "terrain": "Dal och sluttningar vid Andernas fot",
+    "keyFactors": [
+      "Smältvatten från Anderna används för bevattning",
+      "Kall luft från bergen på natten",
+      "Phylloxera har aldrig nått Chile — vinstockarna är oympade"
+    ],
+    "whyItTastes": "Varma dagar ger mogen Cabernet med svarta vinbär, medan bergens kalla nätter behåller friskhet och en karaktäristisk mynta-ton."
+  },
+  "casablanca-valley": {
+    "altitude": [
+      200,
+      400
+    ],
+    "irrigation": "bevattnat",
+    "warmth": "svalt",
+    "climateType": "Kustnära och svalt",
+    "rainfallMm": [
+      400,
+      550
+    ],
+    "terrain": "Dal mellan Santiago och Stilla havet",
+    "keyFactors": [
+      "Morgondimma från den kalla Humboldtströmmen",
+      "Frostrisk på våren",
+      "Vattenbrist — bevattning är avgörande"
+    ],
+    "whyItTastes": "Den kalla havsdimman ger vita druvor lång, sval mognad och hög syra — frisk Sauvignon Blanc och Chardonnay."
+  },
+  "mendoza": {
+    "altitude": [
+      600,
+      1500
+    ],
+    "irrigation": "bevattnat",
+    "warmth": "varmt",
+    "climateType": "Höglänt ökenklimat",
+    "rainfallMm": [
+      200,
+      250
+    ],
+    "terrain": "Ökenslätter och dalar vid Andernas fot",
+    "keyFactors": [
+      "Smältvatten från Anderna leds i kanaler till vingårdarna",
+      "Hagel är vanligt — många vingårdar har nät",
+      "Den heta, torra vinden Zonda"
+    ],
+    "whyItTastes": "Mycket sol och stark UV på hög höjd ger tjocka skal, djup färg och mogen frukt. Kalla nätter behåller friskhet trots värmen."
+  },
+  "salta-cafayate": {
+    "altitude": [
+      1700,
+      3100
+    ],
+    "irrigation": "bevattnat",
+    "warmth": "varmt",
+    "climateType": "Högaltitudöken",
+    "rainfallMm": [
+      150,
+      250
+    ],
+    "terrain": "Torra bergsdalar (Valles Calchaquíes)",
+    "keyFactors": [
+      "Bland världens högst belägna vingårdar",
+      "Extremt stark UV-strålning",
+      "Mer än 20 graders skillnad mellan dag och natt"
+    ],
+    "whyItTastes": "Stark UV ger tjocka skal med mycket färg och arom. Kalla nätter bevarar syran, så Torrontés blir intensivt doftande men torr och frisk."
+  },
+  "stellenbosch": {
+    "altitude": [
+      50,
+      600
+    ],
+    "irrigation": "blandat",
+    "warmth": "måttligt",
+    "climateType": "Medelhav",
+    "rainfallMm": [
+      600,
+      900
+    ],
+    "terrain": "Dalar och bergssluttningar nära False Bay",
+    "keyFactors": [
+      "Havsvinden \"the Cape Doctor\" kyler och torkar",
+      "Granitberg och sandstensjord",
+      "Högre sluttningar ger svalare lägen"
+    ],
+    "whyItTastes": "Medelhavsvärme ger mogna röda viner, medan havsbrisen och bergslägena ger struktur och friskhet."
+  },
+  "swartland": {
+    "altitude": [
+      100,
+      500
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "varmt",
+    "climateType": "Medelhav, varmt och torrt",
+    "rainfallMm": [
+      300,
+      500
+    ],
+    "terrain": "Böljande vetefält med vingårdar på granit- och skifferkullar",
+    "keyFactors": [
+      "Torrodlade buskvinstockar — rötterna går djupt",
+      "Många gamla vinstockar, en del över 100 år",
+      "Fattig jord ger låga skördar"
+    ],
+    "whyItTastes": "Gamla torrodlade vinstockar ger små skördar med koncentrerad smak, men balans utan övermognad."
+  },
+  "constantia": {
+    "altitude": [
+      50,
+      350
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "svalt",
+    "climateType": "Svalt maritimt medelhav",
+    "rainfallMm": [
+      800,
+      1100
+    ],
+    "terrain": "Sluttningar på baksidan av Taffelberget",
+    "keyFactors": [
+      "Havsvindar från både Atlanten och False Bay",
+      "Regnigare än resten av Kapregionen",
+      "Sydafrikas äldsta vinegendomar (1685)"
+    ],
+    "whyItTastes": "Svalt havsklimat ger aromatisk Sauvignon Blanc med frisk syra. Söta Vin de Constance görs av sent skördade Muscat-druvor."
+  }
+}

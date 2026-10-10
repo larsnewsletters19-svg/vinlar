@@ -1,165 +1,479 @@
 {
   "regions": {
-    "bordeaux": { "lat": 44.95, "lng": -0.45, "zoom": 9 },
-    "bourgogne": { "lat": 47.0, "lng": 4.6, "zoom": 8 },
-    "rhone": { "lat": 44.8, "lng": 4.8, "zoom": 8 },
-    "loire": { "lat": 47.35, "lng": 0.7, "zoom": 7 },
-    "champagne": { "lat": 49.05, "lng": 4.0, "zoom": 9 },
-    "alsace": { "lat": 48.15, "lng": 7.3, "zoom": 9 },
-    "beaujolais": { "lat": 46.1, "lng": 4.6, "zoom": 10 },
-    "languedoc-roussillon": { "lat": 43.3, "lng": 3.0, "zoom": 8 },
-    "jura": { "lat": 46.85, "lng": 5.65, "zoom": 10 },
-    "piemonte": { "lat": 44.75, "lng": 8.1, "zoom": 9 },
-    "barolo": { "lat": 44.66, "lng": 8.0, "zoom": 11 },
-    "toscana": { "lat": 43.35, "lng": 11.2, "zoom": 8 },
-    "veneto": { "lat": 45.55, "lng": 11.6, "zoom": 8 },
-    "rioja": { "lat": 42.45, "lng": -2.45, "zoom": 9 },
-    "rias_baixas": { "lat": 42.4, "lng": -8.7, "zoom": 10 },
-    "priorat": { "lat": 41.2, "lng": 0.8, "zoom": 11 },
-    "mosel": { "lat": 49.85, "lng": 6.95, "zoom": 9 },
-    "nahe": { "lat": 49.8, "lng": 7.75, "zoom": 10 },
-    "rheingau": { "lat": 49.65, "lng": 8.1, "zoom": 8 },
-    "napa": { "lat": 38.45, "lng": -122.38, "zoom": 10 },
-    "mendoza": { "lat": -33.2, "lng": -68.85, "zoom": 8 },
-    "maipo": { "lat": -34.1, "lng": -71.0, "zoom": 8 },
-    "barossa": { "lat": -34.85, "lng": 138.75, "zoom": 8 },
-    "marlborough": { "lat": -41.52, "lng": 173.85, "zoom": 6 },
-    "stellenbosch": { "lat": -33.93, "lng": 18.86, "zoom": 9 },
-    "douro": { "lat": 41.4, "lng": -7.8, "zoom": 8 },
-    "dao-bairrada": { "lat": 40.5, "lng": -8.1, "zoom": 9 },
-    "wachau": { "lat": 48.3, "lng": 15.8, "zoom": 8 },
-    "kamptal": { "lat": 48.47, "lng": 15.7, "zoom": 11 },
-    "burgenland": { "lat": 47.6, "lng": 16.6, "zoom": 8 },
-
-    "chablis": { "lat": 47.81, "lng": 3.8, "zoom": 12 },
-    "sancerre": { "lat": 47.33, "lng": 2.84, "zoom": 12 },
-    "vouvray": { "lat": 47.41, "lng": 0.8, "zoom": 12 },
-    "chateauneuf-du-pape": { "lat": 44.06, "lng": 4.83, "zoom": 12 },
-    "condrieu": { "lat": 45.46, "lng": 4.77, "zoom": 13 },
-    "hermitage": { "lat": 45.07, "lng": 4.84, "zoom": 13 },
-    "cote-rotie": { "lat": 45.49, "lng": 4.8, "zoom": 13 },
-    "medoc": { "lat": 45.15, "lng": -0.85, "zoom": 10 },
-    "saint-emilion": { "lat": 44.89, "lng": -0.16, "zoom": 12 },
-    "pomerol": { "lat": 44.93, "lng": -0.2, "zoom": 13 },
-    "sauternes": { "lat": 44.53, "lng": -0.34, "zoom": 12 },
-    "chianti-classico": { "lat": 43.52, "lng": 11.33, "zoom": 10 },
-    "brunello-di-montalcino": { "lat": 43.06, "lng": 11.49, "zoom": 12 },
-    "vino-nobile-di-montepulciano": { "lat": 43.09, "lng": 11.78, "zoom": 12 },
-    "bolgheri": { "lat": 43.23, "lng": 10.61, "zoom": 12 },
-    "vernaccia-di-san-gimignano": { "lat": 43.47, "lng": 11.04, "zoom": 12 },
-    "amarone-della-valpolicella": { "lat": 45.55, "lng": 10.93, "zoom": 11 },
-    "valpolicella": { "lat": 45.51, "lng": 10.86, "zoom": 11 },
-    "soave": { "lat": 45.42, "lng": 11.25, "zoom": 12 },
-    "prosecco": { "lat": 45.88, "lng": 12.15, "zoom": 10 },
-    "rioja-alta-alavesa": { "lat": 42.56, "lng": -2.7, "zoom": 10 },
-    "barbera-dasti": { "lat": 44.9, "lng": 8.2, "zoom": 11 },
-    "moscato-dasti": { "lat": 44.72, "lng": 8.29, "zoom": 11 },
-
-    "alto-adige": { "lat": 46.5, "lng": 11.35, "zoom": 9 },
-    "sicilia-etna": { "lat": 37.82, "lng": 15.05, "zoom": 10 },
-    "franciacorta": { "lat": 45.6, "lng": 9.98, "zoom": 11 },
-    "abruzzo": { "lat": 42.25, "lng": 14.0, "zoom": 8 },
-    "puglia": { "lat": 40.6, "lng": 17.4, "zoom": 8 },
-    "verdicchio-castelli-di-jesi": { "lat": 43.5, "lng": 13.2, "zoom": 10 },
-    "ribera-del-duero": { "lat": 41.65, "lng": -3.9, "zoom": 9 },
-    "jerez": { "lat": 36.7, "lng": -6.13, "zoom": 10 },
-    "penedes-cava": { "lat": 41.38, "lng": 1.72, "zoom": 10 },
-    "rueda": { "lat": 41.41, "lng": -4.96, "zoom": 10 },
-    "toro": { "lat": 41.52, "lng": -5.39, "zoom": 10 },
-    "sonoma": { "lat": 38.5, "lng": -122.85, "zoom": 9 },
-    "willamette-valley": { "lat": 45.1, "lng": -123.1, "zoom": 9 },
-    "columbia-valley": { "lat": 46.3, "lng": -119.5, "zoom": 7 },
-    "margaret-river": { "lat": -33.95, "lng": 115.07, "zoom": 10 },
-    "yarra-valley": { "lat": -37.7, "lng": 145.45, "zoom": 10 },
-    "hunter-valley": { "lat": -32.8, "lng": 151.29, "zoom": 10 },
-    "central-otago": { "lat": -45.04, "lng": 169.2, "zoom": 9 },
-    "hawkes-bay": { "lat": -39.6, "lng": 176.8, "zoom": 9 },
-    "casablanca-valley": { "lat": -33.32, "lng": -71.4, "zoom": 10 },
-    "swartland": { "lat": -33.4, "lng": 18.8, "zoom": 10 },
-    "constantia": { "lat": -34.03, "lng": 18.42, "zoom": 12 },
-    "salta-cafayate": { "lat": -26.07, "lng": -65.98, "zoom": 10 }
+    "bordeaux": {"lat": 44.95, "lng": -0.45, "zoom": 9},
+    "bourgogne": {"lat": 47.0, "lng": 4.6, "zoom": 8},
+    "rhone": {"lat": 44.8, "lng": 4.8, "zoom": 8},
+    "loire": {"lat": 47.35, "lng": 0.7, "zoom": 7},
+    "champagne": {"lat": 49.05, "lng": 4.0, "zoom": 9},
+    "alsace": {"lat": 48.15, "lng": 7.3, "zoom": 9},
+    "beaujolais": {"lat": 46.1, "lng": 4.6, "zoom": 10},
+    "languedoc-roussillon": {"lat": 43.3, "lng": 3.0, "zoom": 8},
+    "jura": {"lat": 46.85, "lng": 5.65, "zoom": 10},
+    "piemonte": {"lat": 44.75, "lng": 8.1, "zoom": 9},
+    "barolo": {"lat": 44.66, "lng": 8.0, "zoom": 11},
+    "toscana": {"lat": 43.35, "lng": 11.2, "zoom": 8},
+    "veneto": {"lat": 45.55, "lng": 11.6, "zoom": 8},
+    "rioja": {"lat": 42.45, "lng": -2.45, "zoom": 9},
+    "rias_baixas": {"lat": 42.4, "lng": -8.7, "zoom": 10},
+    "priorat": {"lat": 41.2, "lng": 0.8, "zoom": 11},
+    "mosel": {"lat": 49.85, "lng": 6.95, "zoom": 9},
+    "nahe": {"lat": 49.8, "lng": 7.75, "zoom": 10},
+    "rheingau": {"lat": 49.65, "lng": 8.1, "zoom": 8},
+    "napa": {"lat": 38.45, "lng": -122.38, "zoom": 10},
+    "mendoza": {"lat": -33.2, "lng": -68.85, "zoom": 8},
+    "maipo": {"lat": -34.1, "lng": -71.0, "zoom": 8},
+    "barossa": {"lat": -34.85, "lng": 138.75, "zoom": 8},
+    "marlborough": {"lat": -41.52, "lng": 173.85, "zoom": 6},
+    "stellenbosch": {"lat": -33.93, "lng": 18.86, "zoom": 9},
+    "douro": {"lat": 41.4, "lng": -7.8, "zoom": 8},
+    "dao-bairrada": {"lat": 40.5, "lng": -8.1, "zoom": 9},
+    "wachau": {"lat": 48.3, "lng": 15.8, "zoom": 8},
+    "kamptal": {"lat": 48.47, "lng": 15.7, "zoom": 11},
+    "burgenland": {"lat": 47.6, "lng": 16.6, "zoom": 8},
+    "chablis": {"lat": 47.81, "lng": 3.8, "zoom": 12},
+    "sancerre": {"lat": 47.33, "lng": 2.84, "zoom": 12},
+    "vouvray": {"lat": 47.41, "lng": 0.8, "zoom": 12},
+    "chateauneuf-du-pape": {"lat": 44.06, "lng": 4.83, "zoom": 12},
+    "condrieu": {"lat": 45.46, "lng": 4.77, "zoom": 13},
+    "hermitage": {"lat": 45.07, "lng": 4.84, "zoom": 13},
+    "cote-rotie": {"lat": 45.49, "lng": 4.8, "zoom": 13},
+    "medoc": {"lat": 45.15, "lng": -0.85, "zoom": 10},
+    "saint-emilion": {"lat": 44.89, "lng": -0.16, "zoom": 12},
+    "pomerol": {"lat": 44.93, "lng": -0.2, "zoom": 13},
+    "sauternes": {"lat": 44.53, "lng": -0.34, "zoom": 12},
+    "chianti-classico": {"lat": 43.52, "lng": 11.33, "zoom": 10},
+    "brunello-di-montalcino": {"lat": 43.06, "lng": 11.49, "zoom": 12},
+    "vino-nobile-di-montepulciano": {"lat": 43.09, "lng": 11.78, "zoom": 12},
+    "bolgheri": {"lat": 43.23, "lng": 10.61, "zoom": 12},
+    "vernaccia-di-san-gimignano": {"lat": 43.47, "lng": 11.04, "zoom": 12},
+    "amarone-della-valpolicella": {"lat": 45.55, "lng": 10.93, "zoom": 11},
+    "valpolicella": {"lat": 45.51, "lng": 10.86, "zoom": 11},
+    "soave": {"lat": 45.42, "lng": 11.25, "zoom": 12},
+    "prosecco": {"lat": 45.88, "lng": 12.15, "zoom": 10},
+    "rioja-alta-alavesa": {"lat": 42.56, "lng": -2.7, "zoom": 10},
+    "barbera-dasti": {"lat": 44.9, "lng": 8.2, "zoom": 11},
+    "moscato-dasti": {"lat": 44.72, "lng": 8.29, "zoom": 11},
+    "alto-adige": {"lat": 46.5, "lng": 11.35, "zoom": 9},
+    "sicilia-etna": {"lat": 37.82, "lng": 15.05, "zoom": 10},
+    "franciacorta": {"lat": 45.6, "lng": 9.98, "zoom": 11},
+    "abruzzo": {"lat": 42.25, "lng": 14.0, "zoom": 8},
+    "puglia": {"lat": 40.6, "lng": 17.4, "zoom": 8},
+    "verdicchio-castelli-di-jesi": {"lat": 43.5, "lng": 13.2, "zoom": 10},
+    "ribera-del-duero": {"lat": 41.65, "lng": -3.9, "zoom": 9},
+    "jerez": {"lat": 36.7, "lng": -6.13, "zoom": 10},
+    "penedes-cava": {"lat": 41.38, "lng": 1.72, "zoom": 10},
+    "rueda": {"lat": 41.41, "lng": -4.96, "zoom": 10},
+    "toro": {"lat": 41.52, "lng": -5.39, "zoom": 10},
+    "sonoma": {"lat": 38.5, "lng": -122.85, "zoom": 9},
+    "willamette-valley": {"lat": 45.1, "lng": -123.1, "zoom": 9},
+    "columbia-valley": {"lat": 46.3, "lng": -119.5, "zoom": 7},
+    "margaret-river": {"lat": -33.95, "lng": 115.07, "zoom": 10},
+    "yarra-valley": {"lat": -37.7, "lng": 145.45, "zoom": 10},
+    "hunter-valley": {"lat": -32.8, "lng": 151.29, "zoom": 10},
+    "central-otago": {"lat": -45.04, "lng": 169.2, "zoom": 9},
+    "hawkes-bay": {"lat": -39.6, "lng": 176.8, "zoom": 9},
+    "casablanca-valley": {"lat": -33.32, "lng": -71.4, "zoom": 10},
+    "swartland": {"lat": -33.4, "lng": 18.8, "zoom": 10},
+    "constantia": {"lat": -34.03, "lng": 18.42, "zoom": 12},
+    "salta-cafayate": {"lat": -26.07, "lng": -65.98, "zoom": 10},
+    "bierzo": {"lat": 42.6, "lng": -6.75, "zoom": 10},
+    "ribeira-sacra": {"lat": 42.48, "lng": -7.55, "zoom": 10},
+    "valdeorras": {"lat": 42.4, "lng": -7.0, "zoom": 11},
+    "txakoli": {"lat": 43.25, "lng": -2.6, "zoom": 9},
+    "navarra": {"lat": 42.45, "lng": -1.7, "zoom": 8},
+    "garnacha-aragon": {"lat": 41.6, "lng": -1.45, "zoom": 9},
+    "montsant": {"lat": 41.14, "lng": 0.88, "zoom": 11},
+    "jumilla": {"lat": 38.47, "lng": -1.33, "zoom": 10},
+    "la-mancha": {"lat": 39.2, "lng": -3.1, "zoom": 8},
+    "montilla-moriles": {"lat": 37.58, "lng": -4.64, "zoom": 10},
+    "kanarieoarna": {"lat": 28.6, "lng": -15.6, "zoom": 7},
+    "vinho-verde": {"lat": 41.65, "lng": -8.4, "zoom": 8},
+    "alentejo": {"lat": 38.65, "lng": -7.7, "zoom": 8},
+    "lisboa": {"lat": 39.05, "lng": -9.2, "zoom": 9},
+    "setubal": {"lat": 38.55, "lng": -8.9, "zoom": 10},
+    "madeira": {"lat": 32.75, "lng": -16.95, "zoom": 10},
+    "provence": {"lat": 43.45, "lng": 6.1, "zoom": 8},
+    "sud-ouest": {"lat": 44.0, "lng": 0.7, "zoom": 7},
+    "savoie": {"lat": 45.55, "lng": 5.98, "zoom": 9},
+    "friuli": {"lat": 46.0, "lng": 13.25, "zoom": 9},
+    "campania": {"lat": 40.95, "lng": 14.75, "zoom": 8},
+    "sardegna": {"lat": 40.1, "lng": 9.0, "zoom": 7},
+    "umbria": {"lat": 42.9, "lng": 12.45, "zoom": 9},
+    "franken": {"lat": 49.8, "lng": 10.05, "zoom": 9},
+    "baden": {"lat": 48.3, "lng": 7.9, "zoom": 8},
+    "tokaj": {"lat": 48.15, "lng": 21.35, "zoom": 10},
+    "santorini": {"lat": 36.4, "lng": 25.43, "zoom": 12},
+    "kakheti": {"lat": 41.9, "lng": 45.6, "zoom": 9},
+    "tasmania": {"lat": -42.0, "lng": 147.0, "zoom": 7},
+    "niagara": {"lat": 43.17, "lng": -79.25, "zoom": 10}
   },
 
   "subRegionPoints": {
     "bordeaux": [
-      { "name": "Graves", "lat": 44.65, "lng": -0.45, "grapes": ["Cabernet Sauvignon", "Merlot", "Sauvignon Blanc", "Semillon"], "note": "Vänstra banken söder om staden Bordeaux. Namnet betyder grus, efter jordarten. Ger både röda Cabernet-blendar och vita viner. Pessac-Léognan med Château Haut-Brion är toppen." }
+      {"name": "Graves", "lat": 44.65, "lng": -0.45, "grapes": ["Cabernet Sauvignon", "Merlot", "Sauvignon Blanc", "Semillon"], "note": "Vänstra banken söder om staden Bordeaux. Namnet betyder grus, efter jordarten. Ger både röda Cabernet-blendar och vita viner. Pessac-Léognan med Château Haut-Brion är toppen."},
+      {"name": "Entre-Deux-Mers", "lat": 44.75, "lng": -0.25, "grapes": ["Sauvignon Blanc", "Semillon", "Merlot"], "note": "\"Mellan två hav\" — landet mellan floderna Garonne och Dordogne. Friska, prisvärda vita viner."}
     ],
     "medoc": [
-      { "name": "Saint-Estèphe", "lat": 45.26, "lng": -0.77, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Nordligast av de stora byarna. Mer lera i jorden ger stramare, kärvare viner som behöver tid i källaren." },
-      { "name": "Pauillac", "lat": 45.2, "lng": -0.75, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Kraftfulla, strama viner med svarta vinbär och ceder. Hem åt tre av de fem premier grand cru: Lafite, Latour och Mouton Rothschild." },
-      { "name": "Saint-Julien", "lat": 45.15, "lng": -0.74, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Mellan Pauillac och Margaux. Balanserade, eleganta viner — brukar kallas den jämnaste byn i Médoc." },
-      { "name": "Margaux", "lat": 45.04, "lng": -0.67, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Sydligast av de stora byarna. Tunnare grusjord ger de mest parfymerade och eleganta vinerna i Médoc." }
+      {"name": "Saint-Estèphe", "lat": 45.26, "lng": -0.77, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Nordligast av de stora byarna. Mer lera i jorden ger stramare, kärvare viner som behöver tid i källaren."},
+      {"name": "Pauillac", "lat": 45.2, "lng": -0.75, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Kraftfulla, strama viner med svarta vinbär och ceder. Hem åt tre av de fem premier grand cru: Lafite, Latour och Mouton Rothschild."},
+      {"name": "Saint-Julien", "lat": 45.15, "lng": -0.74, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Mellan Pauillac och Margaux. Balanserade, eleganta viner — brukar kallas den jämnaste byn i Médoc."},
+      {"name": "Margaux", "lat": 45.04, "lng": -0.67, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Sydligast av de stora byarna. Tunnare grusjord ger de mest parfymerade och eleganta vinerna i Médoc."}
     ],
     "bourgogne": [
-      { "name": "Côte de Nuits", "lat": 47.2, "lng": 4.95, "grapes": ["Pinot Noir"], "note": "Norra halvan av Côte d'Or. Nästan bara Pinot Noir och de flesta röda Grand Cru — byar som Gevrey-Chambertin, Chambolle-Musigny och Vosne-Romanée." },
-      { "name": "Côte de Beaune", "lat": 47.02, "lng": 4.8, "grapes": ["Chardonnay", "Pinot Noir"], "note": "Södra halvan av Côte d'Or. Världens främsta Chardonnay (Meursault, Puligny-Montrachet) och lättare röda viner (Volnay, Pommard)." },
-      { "name": "Côte Chalonnaise", "lat": 46.8, "lng": 4.7, "grapes": ["Pinot Noir", "Chardonnay"], "note": "Mindre kända byar som Mercurey och Givry. Bourgogne-stil till lägre pris." },
-      { "name": "Mâconnais", "lat": 46.35, "lng": 4.75, "grapes": ["Chardonnay"], "note": "Sydligast i Bourgogne. Fruktigare, rundare Chardonnay — Pouilly-Fuissé är det mest kända namnet." }
+      {"name": "Côte de Nuits", "lat": 47.2, "lng": 4.95, "grapes": ["Pinot Noir"], "note": "Norra halvan av Côte d'Or. Nästan bara Pinot Noir och de flesta röda Grand Cru — byar som Gevrey-Chambertin, Chambolle-Musigny och Vosne-Romanée."},
+      {"name": "Côte de Beaune", "lat": 47.02, "lng": 4.8, "grapes": ["Chardonnay", "Pinot Noir"], "note": "Södra halvan av Côte d'Or. Världens främsta Chardonnay (Meursault, Puligny-Montrachet) och lättare röda viner (Volnay, Pommard)."},
+      {"name": "Côte Chalonnaise", "lat": 46.8, "lng": 4.7, "grapes": ["Pinot Noir", "Chardonnay"], "note": "Mindre kända byar som Mercurey och Givry. Bourgogne-stil till lägre pris."},
+      {"name": "Mâconnais", "lat": 46.35, "lng": 4.75, "grapes": ["Chardonnay"], "note": "Sydligast i Bourgogne. Fruktigare, rundare Chardonnay — Pouilly-Fuissé är det mest kända namnet."}
     ],
     "rhone": [
-      { "name": "Crozes-Hermitage", "lat": 45.12, "lng": 4.88, "grapes": ["Syrah"], "note": "Norra Rhônes största appellation, runt Hermitage-kullen. Lättare och mer prisvärd Syrah." },
-      { "name": "Gigondas", "lat": 44.16, "lng": 5.0, "grapes": ["Grenache", "Syrah", "Mourvèdre"], "note": "Södra Rhône under bergskammen Dentelles de Montmirail. Kraftfulla Grenache-viner — ofta kallad lillebror till Châteauneuf-du-Pape." }
+      {"name": "Crozes-Hermitage", "lat": 45.12, "lng": 4.88, "grapes": ["Syrah"], "note": "Norra Rhônes största appellation, runt Hermitage-kullen. Lättare och mer prisvärd Syrah."},
+      {"name": "Gigondas", "lat": 44.16, "lng": 5.0, "grapes": ["Grenache", "Syrah", "Mourvèdre"], "note": "Södra Rhône under bergskammen Dentelles de Montmirail. Kraftfulla Grenache-viner — ofta kallad lillebror till Châteauneuf-du-Pape."},
+      {"name": "Saint-Joseph", "lat": 45.2, "lng": 4.8, "grapes": ["Syrah"], "note": "Lång remsa på västra stranden i norra Rhône. Lättare, fruktigare Syrah än Hermitage."},
+      {"name": "Cornas", "lat": 44.96, "lng": 4.85, "grapes": ["Syrah"], "note": "Liten, het amfiteater av granit. Den mörkaste och kraftfullaste Syrahn i norra Rhône."},
+      {"name": "Vacqueyras", "lat": 44.14, "lng": 4.98, "grapes": ["Grenache", "Syrah"], "note": "Granne med Gigondas. Kraftfulla, kryddiga Grenache-viner till bra pris."},
+      {"name": "Tavel", "lat": 44.01, "lng": 4.7, "grapes": ["Grenache", "Cinsault"], "note": "Frankrikes enda appellation enbart för rosé. Mörkare, fylligare rosé än Provence — kallas \"kungarnas rosé\"."}
     ],
     "loire": [
-      { "name": "Pouilly-Fumé", "lat": 47.29, "lng": 2.96, "grapes": ["Sauvignon Blanc"], "note": "Mittemot Sancerre på andra sidan floden. Sauvignon Blanc med rökig, flintig ton." },
-      { "name": "Chinon", "lat": 47.17, "lng": 0.24, "grapes": ["Cabernet Franc"], "note": "Touraine. Röd Cabernet Franc med körsbär, grafit och örtighet." },
-      { "name": "Savennières", "lat": 47.38, "lng": -0.66, "grapes": ["Chenin Blanc"], "note": "Anjou. Stram, torr och mycket lagringsvärd Chenin Blanc." },
-      { "name": "Muscadet", "lat": 47.15, "lng": -1.4, "grapes": ["Melon de Bourgogne"], "note": "Vid Atlantkusten nära Nantes. Lätt, salt vitt vin — ofta \"sur lie\", lagrat på jästfällningen för mer fyllighet." }
+      {"name": "Pouilly-Fumé", "lat": 47.29, "lng": 2.96, "grapes": ["Sauvignon Blanc"], "note": "Mittemot Sancerre på andra sidan floden. Sauvignon Blanc med rökig, flintig ton."},
+      {"name": "Chinon", "lat": 47.17, "lng": 0.24, "grapes": ["Cabernet Franc"], "note": "Touraine. Röd Cabernet Franc med körsbär, grafit och örtighet."},
+      {"name": "Savennières", "lat": 47.38, "lng": -0.66, "grapes": ["Chenin Blanc"], "note": "Anjou. Stram, torr och mycket lagringsvärd Chenin Blanc."},
+      {"name": "Muscadet", "lat": 47.15, "lng": -1.4, "grapes": ["Melon de Bourgogne"], "note": "Vid Atlantkusten nära Nantes. Lätt, salt vitt vin — ofta \"sur lie\", lagrat på jästfällningen för mer fyllighet."},
+      {"name": "Saumur", "lat": 47.26, "lng": -0.08, "grapes": ["Cabernet Franc", "Chenin Blanc"], "note": "Kalkstenen tuffeau används till både slott och vinkällare. Saumur-Champigny är frisk, fruktig Cabernet Franc; här görs också mycket mousserande Crémant de Loire."}
     ],
     "champagne": [
-      { "name": "Montagne de Reims", "lat": 49.15, "lng": 4.05, "grapes": ["Pinot Noir"], "note": "Platån söder om Reims. Pinot Noir ger kropp och struktur till blendarna." },
-      { "name": "Vallée de la Marne", "lat": 49.07, "lng": 3.75, "grapes": ["Pinot Meunier"], "note": "Längs floden Marne. Pinot Meunier dominerar — fruktig och tidigt tillgänglig." },
-      { "name": "Côte des Blancs", "lat": 48.97, "lng": 4.0, "grapes": ["Chardonnay"], "note": "Sluttningar söder om Épernay med ren krita. Nästan bara Chardonnay — hemmet för Blanc de Blancs." },
-      { "name": "Côte des Bar", "lat": 48.1, "lng": 4.45, "grapes": ["Pinot Noir"], "note": "Långt söderut, närmare Chablis. Mest Pinot Noir och allt fler uppmärksammade odlarchampagner." }
+      {"name": "Montagne de Reims", "lat": 49.15, "lng": 4.05, "grapes": ["Pinot Noir"], "note": "Platån söder om Reims. Pinot Noir ger kropp och struktur till blendarna."},
+      {"name": "Vallée de la Marne", "lat": 49.07, "lng": 3.75, "grapes": ["Pinot Meunier"], "note": "Längs floden Marne. Pinot Meunier dominerar — fruktig och tidigt tillgänglig."},
+      {"name": "Côte des Blancs", "lat": 48.97, "lng": 4.0, "grapes": ["Chardonnay"], "note": "Sluttningar söder om Épernay med ren krita. Nästan bara Chardonnay — hemmet för Blanc de Blancs."},
+      {"name": "Côte des Bar", "lat": 48.1, "lng": 4.45, "grapes": ["Pinot Noir"], "note": "Långt söderut, närmare Chablis. Mest Pinot Noir och allt fler uppmärksammade odlarchampagner."}
     ],
     "barolo": [
-      { "name": "La Morra", "lat": 44.64, "lng": 7.93, "grapes": ["Nebbiolo"], "note": "Tortonian-jord ger Barolos mest parfymerade och tidigast tillgängliga stil." },
-      { "name": "Barolo", "lat": 44.61, "lng": 7.94, "grapes": ["Nebbiolo"], "note": "Byn som gett namn åt vinet. Klassisk balans mellan elegans och kraft." },
-      { "name": "Castiglione Falletto", "lat": 44.62, "lng": 7.98, "grapes": ["Nebbiolo"], "note": "Centralt läge med blandad jord — balanserade och komplexa viner." },
-      { "name": "Serralunga d'Alba", "lat": 44.61, "lng": 8.0, "grapes": ["Nebbiolo"], "note": "Helvetian-jord ger de mest kraftfulla, tanninrika och långlivade Barolo-vinerna." },
-      { "name": "Barbaresco", "lat": 44.72, "lng": 8.08, "grapes": ["Nebbiolo"], "note": "Huvudbyn i Barbaresco. Elegantare och tidigare mogen Nebbiolo än Barolo." },
-      { "name": "Neive", "lat": 44.73, "lng": 8.12, "grapes": ["Nebbiolo"], "note": "Största byn i Barbaresco. Fylligare, mer strukturerad stil." },
-      { "name": "Treiso", "lat": 44.69, "lng": 8.09, "grapes": ["Nebbiolo"], "note": "Högst belägna byn i Barbaresco. Friska, parfymerade och eleganta viner." }
+      {"name": "La Morra", "lat": 44.64, "lng": 7.93, "grapes": ["Nebbiolo"], "note": "Tortonian-jord ger Barolos mest parfymerade och tidigast tillgängliga stil."},
+      {"name": "Barolo", "lat": 44.61, "lng": 7.94, "grapes": ["Nebbiolo"], "note": "Byn som gett namn åt vinet. Klassisk balans mellan elegans och kraft."},
+      {"name": "Castiglione Falletto", "lat": 44.62, "lng": 7.98, "grapes": ["Nebbiolo"], "note": "Centralt läge med blandad jord — balanserade och komplexa viner."},
+      {"name": "Serralunga d'Alba", "lat": 44.61, "lng": 8.0, "grapes": ["Nebbiolo"], "note": "Helvetian-jord ger de mest kraftfulla, tanninrika och långlivade Barolo-vinerna."},
+      {"name": "Barbaresco", "lat": 44.72, "lng": 8.08, "grapes": ["Nebbiolo"], "note": "Huvudbyn i Barbaresco. Elegantare och tidigare mogen Nebbiolo än Barolo."},
+      {"name": "Neive", "lat": 44.73, "lng": 8.12, "grapes": ["Nebbiolo"], "note": "Största byn i Barbaresco. Fylligare, mer strukturerad stil."},
+      {"name": "Treiso", "lat": 44.69, "lng": 8.09, "grapes": ["Nebbiolo"], "note": "Högst belägna byn i Barbaresco. Friska, parfymerade och eleganta viner."}
     ],
     "rioja": [
-      { "name": "Rioja Oriental", "lat": 42.2, "lng": -1.95, "grapes": ["Garnacha", "Tempranillo"], "note": "Den varmaste och lägst belägna delen, österut (tidigare Rioja Baja). Garnacha spelar större roll — fylligare viner med mer alkohol." }
+      {"name": "Rioja Oriental", "lat": 42.2, "lng": -1.95, "grapes": ["Garnacha", "Tempranillo"], "note": "Den varmaste och lägst belägna delen, österut (tidigare Rioja Baja). Garnacha spelar större roll — fylligare viner med mer alkohol."}
+    ],
+    "rias_baixas": [
+      {"name": "Val do Salnés", "lat": 42.51, "lng": -8.81, "grapes": ["Albariño"], "note": "Kustnära kring Cambados — Albariños hjärta. Svalast och mest salt, mineralisk stil."},
+      {"name": "Condado do Tea", "lat": 42.08, "lng": -8.5, "grapes": ["Albariño", "Treixadura"], "note": "Inlandet längs floden Miño. Varmare, så vinerna blir fylligare och fruktigare."},
+      {"name": "O Rosal", "lat": 41.94, "lng": -8.83, "grapes": ["Albariño", "Loureira"], "note": "Längst söderut vid Miños mynning mot Portugal. Albariño blandas ofta med blommiga Loureira."}
+    ],
+    "priorat": [
+      {"name": "Gratallops", "lat": 41.19, "lng": 0.77, "grapes": ["Garnacha", "Cariñena"], "note": "Byn där Priorats nystart började kring 1990. Hem för flera av regionens mest kända viner, som Álvaro Palacios L'Ermita."},
+      {"name": "Torroja del Priorat", "lat": 41.21, "lng": 0.81, "grapes": ["Garnacha", "Cariñena"], "note": "Liten by med mycket branta llicorella-sluttningar. Koncentrerade och mineraliska viner."},
+      {"name": "Poboleda", "lat": 41.23, "lng": 0.84, "grapes": ["Garnacha", "Cariñena"], "note": "Nordligast, nedanför Montsant-bergen. Något svalare och fräschare stil."},
+      {"name": "Porrera", "lat": 41.19, "lng": 0.86, "grapes": ["Cariñena", "Garnacha"], "note": "Känd för mycket gamla Cariñena-vinstockar som ger djupa, strukturerade viner."}
+    ],
+    "ribera-del-duero": [
+      {"name": "Peñafiel", "lat": 41.6, "lng": -4.12, "grapes": ["Tempranillo"], "note": "Västra delen i Valladolid-provinsen. Här ligger \"Milla de Oro\", den gyllene milen med Vega Sicilia och Pingus."},
+      {"name": "Roa", "lat": 41.7, "lng": -3.93, "grapes": ["Tempranillo"], "note": "Mitt i regionen på höga kalkstenslägen. Kraftfulla, strukturerade viner."},
+      {"name": "Aranda de Duero", "lat": 41.67, "lng": -3.69, "grapes": ["Tempranillo"], "note": "Regionens huvudstad i Burgos-provinsen. Under staden finns ett nätverk av gamla vinkällare."}
+    ],
+    "jerez": [
+      {"name": "Sanlúcar de Barrameda", "lat": 36.78, "lng": -6.35, "grapes": ["Palomino"], "note": "Vid floden Guadalquivirs mynning. Fuktig havsluft ger tjockt flor-lager — här görs Manzanilla, den saltaste och lättaste Sherryn."},
+      {"name": "Jerez de la Frontera", "lat": 36.69, "lng": -6.13, "grapes": ["Palomino", "Pedro Ximénez"], "note": "Sherryns huvudstad och den största av de tre städerna. Alla stilar från Fino till Oloroso och PX."},
+      {"name": "El Puerto de Santa María", "lat": 36.6, "lng": -6.23, "grapes": ["Palomino"], "note": "Kuststad med mild, fuktig luft. Fino härifrån är något lättare och mer elegant än från Jerez."}
+    ],
+    "penedes-cava": [
+      {"name": "Sant Sadurní d'Anoia", "lat": 41.43, "lng": 1.79, "grapes": ["Xarel·lo", "Macabeo", "Parellada"], "note": "Cavans huvudstad. Här finns de stora husen och kilometervis med källare för flaskjäsning."},
+      {"name": "Vilafranca del Penedès", "lat": 41.35, "lng": 1.7, "grapes": ["Xarel·lo", "Tempranillo", "Cabernet Sauvignon"], "note": "Regionens centrum. Penedès gör också stilla vita och röda viner, inte bara Cava."}
+    ],
+    "txakoli": [
+      {"name": "Getaria", "lat": 43.3, "lng": -2.2, "grapes": ["Hondarrabi Zuri"], "note": "Fiskeläge nära San Sebastián och den mest kända Txakoli-appellationen. Vingårdar ner mot havet."},
+      {"name": "Bizkaia", "lat": 43.42, "lng": -2.81, "grapes": ["Hondarrabi Zuri", "Hondarrabi Beltza"], "note": "Kring Bilbao. Störst till yta, ofta lite fylligare viner."},
+      {"name": "Álava", "lat": 43.05, "lng": -3.0, "grapes": ["Hondarrabi Zuri"], "note": "Minsta och mest inlandsbelägna delen kring Amurrio."}
+    ],
+    "navarra": [
+      {"name": "Tierra Estella", "lat": 42.67, "lng": -2.03, "grapes": ["Tempranillo", "Garnacha", "Chardonnay"], "note": "Västligast mot Rioja. Svalare och atlantiskt påverkat."},
+      {"name": "Valdizarbe", "lat": 42.67, "lng": -1.81, "grapes": ["Tempranillo", "Garnacha"], "note": "Längs pilgrimsleden till Santiago. Svalt och kuperat."},
+      {"name": "Baja Montaña", "lat": 42.58, "lng": -1.28, "grapes": ["Garnacha"], "note": "Östligast mot Pyrenéerna. Garnacha-land, klassiskt för rosé."},
+      {"name": "Ribera Alta", "lat": 42.48, "lng": -1.65, "grapes": ["Tempranillo", "Garnacha", "Moscatel"], "note": "Kring medeltidsstaden Olite. Varmare och känd för söt Moscatel."},
+      {"name": "Ribera Baja", "lat": 42.06, "lng": -1.6, "grapes": ["Garnacha", "Tempranillo"], "note": "Sydligast kring Tudela. Varmast och torrast — fylliga, mogna viner."}
+    ],
+    "garnacha-aragon": [
+      {"name": "Campo de Borja", "lat": 41.83, "lng": -1.53, "grapes": ["Garnacha"], "note": "Vid foten av berget Moncayo. Gamla Garnacha-vinstockar och mycket prisvärda viner."},
+      {"name": "Cariñena", "lat": 41.34, "lng": -1.22, "grapes": ["Garnacha", "Cariñena"], "note": "En av Spaniens äldsta appellationer, som gett namn åt druvan Cariñena (Carignan)."},
+      {"name": "Calatayud", "lat": 41.35, "lng": -1.64, "grapes": ["Garnacha"], "note": "Högst belägen, upp mot 1000 m. Friskare Garnacha med mer syra."}
+    ],
+    "ribeira-sacra": [
+      {"name": "Chantada", "lat": 42.61, "lng": -7.77, "grapes": ["Mencía"], "note": "Längs floden Miño. Svalare, mer atlantisk och lättare stil."},
+      {"name": "Amandi", "lat": 42.43, "lng": -7.42, "grapes": ["Mencía"], "note": "Sydvända branter vid floden Sil. Varmast och mest koncentrerade viner i regionen."},
+      {"name": "Quiroga-Bibei", "lat": 42.47, "lng": -7.27, "grapes": ["Mencía", "Godello"], "note": "Östligast, närmast Valdeorras. Torrare och mer kontinentalt."}
+    ],
+    "la-mancha": [
+      {"name": "Valdepeñas", "lat": 38.76, "lng": -3.38, "grapes": ["Tempranillo (Cencibel)"], "note": "Egen appellation i södra La Mancha. Känd för billig, eklagrad Tempranillo som Crianza och Reserva."}
+    ],
+    "kanarieoarna": [
+      {"name": "Tenerife", "lat": 28.39, "lng": -16.52, "grapes": ["Listán Negro", "Listán Blanco"], "note": "Största ön. I Valle de la Orotava flätas vinstockarna i långa \"cordón trenzado\" — en teknik som bara finns här."},
+      {"name": "Lanzarote", "lat": 28.97, "lng": -13.72, "grapes": ["Malvasía Volcánica"], "note": "I La Geria planteras varje vinstock i en grop i svart vulkanaska, skyddad av en halvmåneformad stenmur."},
+      {"name": "La Palma", "lat": 28.65, "lng": -17.85, "grapes": ["Listán Blanco", "Malvasía"], "note": "Brant vulkanö. Känd för söt Malvasía och det ovanliga tallharts-vinet \"vino de tea\"."}
+    ],
+    "douro": [
+      {"name": "Baixo Corgo", "lat": 41.16, "lng": -7.79, "grapes": ["Touriga Franca", "Tinta Roriz"], "note": "Västligast och regnigast, kring Peso da Régua. Lättare viner och enklare portvin."},
+      {"name": "Cima Corgo", "lat": 41.19, "lng": -7.55, "grapes": ["Touriga Nacional", "Touriga Franca"], "note": "Hjärtat kring Pinhão. De mest kända quintorna och det finaste portvinet."},
+      {"name": "Douro Superior", "lat": 41.1, "lng": -7.1, "grapes": ["Touriga Nacional", "Touriga Franca"], "note": "Östligast mot Spanien. Hetast och torrast — kraftfulla röda viner, till exempel Quinta do Vale Meão."}
+    ],
+    "dao-bairrada": [
+      {"name": "Dão", "lat": 40.6, "lng": -7.9, "grapes": ["Touriga Nacional", "Encruzado"], "note": "Bergsomgiven platå kring Viseu. Eleganta röda och mineraliska vita på Encruzado."},
+      {"name": "Bairrada", "lat": 40.44, "lng": -8.43, "grapes": ["Baga"], "note": "Närmare kusten. Stram, syrarik Baga och mycket mousserande vin."}
+    ],
+    "vinho-verde": [
+      {"name": "Monção e Melgaço", "lat": 42.08, "lng": -8.4, "grapes": ["Alvarinho"], "note": "Längst norrut vid floden Minho. Det enda delområdet där Alvarinho dominerar — fylligare och mer komplexa viner."},
+      {"name": "Lima", "lat": 41.77, "lng": -8.58, "grapes": ["Loureiro"], "note": "Kring Ponte de Lima. Blommig, frisk Loureiro."},
+      {"name": "Basto", "lat": 41.51, "lng": -7.99, "grapes": ["Avesso", "Azal"], "note": "Inlandet. Kallare och torrare — strama, syrliga viner."}
+    ],
+    "alentejo": [
+      {"name": "Portalegre", "lat": 39.29, "lng": -7.43, "grapes": ["Trincadeira", "Grand Noir", "Arinto"], "note": "Nordligast, på bergssluttningar. Svalare och friskare viner från gamla fältblandningar."},
+      {"name": "Borba", "lat": 38.8, "lng": -7.45, "grapes": ["Aragonez", "Trincadeira"], "note": "Marmor- och kalkstensjord ger strukturerade röda viner."},
+      {"name": "Reguengos", "lat": 38.42, "lng": -7.53, "grapes": ["Aragonez", "Alicante Bouschet"], "note": "Kring Esporão. Varmt och torrt — mogna, fylliga röda viner."},
+      {"name": "Vidigueira", "lat": 38.21, "lng": -7.8, "grapes": ["Antão Vaz"], "note": "Söderut. Känd för vita viner på Antão Vaz och vin jäst i lerkrus (talha)."}
+    ],
+    "lisboa": [
+      {"name": "Alenquer", "lat": 39.05, "lng": -9.0, "grapes": ["Touriga Nacional", "Syrah", "Arinto"], "note": "Skyddad bakom kullar — regionens bästa lägen för röda viner."},
+      {"name": "Bucelas", "lat": 38.9, "lng": -9.12, "grapes": ["Arinto"], "note": "Liten appellation för frisk, citrusig Arinto med hög syra."},
+      {"name": "Colares", "lat": 38.8, "lng": -9.45, "grapes": ["Ramisco", "Malvasia"], "note": "Vid Atlanten nära Sintra. Vinstockar planterade djupt i sand, där phylloxera aldrig kom åt dem."}
     ],
     "mosel": [
-      { "name": "Piesport", "lat": 49.88, "lng": 6.92, "grapes": ["Riesling"], "note": "Amfiteaterformad sluttning, känd för läget Goldtröpfchen. Saftig, fruktig Riesling." },
-      { "name": "Brauneberg", "lat": 49.9, "lng": 6.98, "grapes": ["Riesling"], "note": "Lägena Juffer och Juffer-Sonnenuhr ger kraftfull och långlivad Riesling." },
-      { "name": "Wehlen", "lat": 49.94, "lng": 7.04, "grapes": ["Riesling"], "note": "Läget Wehlener Sonnenuhr på blå skiffer. J.J. Prüm är byns stora namn." },
-      { "name": "Bernkastel", "lat": 49.92, "lng": 7.07, "grapes": ["Riesling"], "note": "Mosels mest kända vinstad. Läget Doctor är ett av Tysklands dyraste." },
-      { "name": "Ruwer", "lat": 49.77, "lng": 6.73, "grapes": ["Riesling"], "note": "Liten biflod till Mosel. Mycket stram och delikat Riesling." },
-      { "name": "Saar", "lat": 49.65, "lng": 6.57, "grapes": ["Riesling"], "note": "Den kallaste bifloden. Knivskarp syra — Egon Müllers Scharzhofberger är legendarisk." }
+      {"name": "Piesport", "lat": 49.88, "lng": 6.92, "grapes": ["Riesling"], "note": "Amfiteaterformad sluttning, känd för läget Goldtröpfchen. Saftig, fruktig Riesling."},
+      {"name": "Brauneberg", "lat": 49.9, "lng": 6.98, "grapes": ["Riesling"], "note": "Lägena Juffer och Juffer-Sonnenuhr ger kraftfull och långlivad Riesling."},
+      {"name": "Wehlen", "lat": 49.94, "lng": 7.04, "grapes": ["Riesling"], "note": "Läget Wehlener Sonnenuhr på blå skiffer. J.J. Prüm är byns stora namn."},
+      {"name": "Bernkastel", "lat": 49.92, "lng": 7.07, "grapes": ["Riesling"], "note": "Mosels mest kända vinstad. Läget Doctor är ett av Tysklands dyraste."},
+      {"name": "Ruwer", "lat": 49.77, "lng": 6.73, "grapes": ["Riesling"], "note": "Liten biflod till Mosel. Mycket stram och delikat Riesling."},
+      {"name": "Saar", "lat": 49.65, "lng": 6.57, "grapes": ["Riesling"], "note": "Den kallaste bifloden. Knivskarp syra — Egon Müllers Scharzhofberger är legendarisk."}
     ],
     "napa": [
-      { "name": "Howell Mountain", "lat": 38.55, "lng": -122.42, "grapes": ["Cabernet Sauvignon", "Zinfandel"], "note": "Bergsläge ovanför dimman. Kraftfulla, tanninrika viner med mörk frukt." },
-      { "name": "Rutherford", "lat": 38.46, "lng": -122.42, "grapes": ["Cabernet Sauvignon"], "note": "Dalens hjärta. Cabernet med kakao och den jordiga ton som kallas \"Rutherford dust\"." },
-      { "name": "Oakville", "lat": 38.44, "lng": -122.4, "grapes": ["Cabernet Sauvignon"], "note": "Hem för Opus One, Screaming Eagle och Harlan Estate. Rik, polerad Cabernet." },
-      { "name": "Stags Leap", "lat": 38.4, "lng": -122.33, "grapes": ["Cabernet Sauvignon"], "note": "Mjukare, elegant Cabernet. Stag's Leap Wine Cellars vann den berömda Paris-provningen 1976." },
-      { "name": "Carneros", "lat": 38.25, "lng": -122.35, "grapes": ["Pinot Noir", "Chardonnay"], "note": "Sval och blåsig sydspets mot San Pablo Bay. Pinot Noir, Chardonnay och mousserande." }
+      {"name": "Howell Mountain", "lat": 38.55, "lng": -122.42, "grapes": ["Cabernet Sauvignon", "Zinfandel"], "note": "Bergsläge ovanför dimman. Kraftfulla, tanninrika viner med mörk frukt."},
+      {"name": "Rutherford", "lat": 38.46, "lng": -122.42, "grapes": ["Cabernet Sauvignon"], "note": "Dalens hjärta. Cabernet med kakao och den jordiga ton som kallas \"Rutherford dust\"."},
+      {"name": "Oakville", "lat": 38.44, "lng": -122.4, "grapes": ["Cabernet Sauvignon"], "note": "Hem för Opus One, Screaming Eagle och Harlan Estate. Rik, polerad Cabernet."},
+      {"name": "Stags Leap", "lat": 38.4, "lng": -122.33, "grapes": ["Cabernet Sauvignon"], "note": "Mjukare, elegant Cabernet. Stag's Leap Wine Cellars vann den berömda Paris-provningen 1976."},
+      {"name": "Carneros", "lat": 38.25, "lng": -122.35, "grapes": ["Pinot Noir", "Chardonnay"], "note": "Sval och blåsig sydspets mot San Pablo Bay. Pinot Noir, Chardonnay och mousserande."}
     ],
     "mendoza": [
-      { "name": "Luján de Cuyo", "lat": -33.04, "lng": -68.88, "grapes": ["Malbec"], "note": "Nära staden Mendoza. Klassisk, fyllig Malbec — ofta från gamla vinstockar." },
-      { "name": "Maipú", "lat": -32.98, "lng": -68.78, "grapes": ["Malbec", "Cabernet Sauvignon"], "note": "Lägre och varmare. Många traditionella producenter och fylliga viner." },
-      { "name": "Valle de Uco", "lat": -33.6, "lng": -69.2, "grapes": ["Malbec", "Chardonnay"], "note": "Högst belägen, 900–1500 m vid Anderna. Fräschare, elegantare Malbec — Argentinas mest uppmärksammade zon." },
-      { "name": "San Rafael", "lat": -34.6, "lng": -68.33, "grapes": ["Malbec", "Chenin Blanc"], "note": "Längre söderut. Prisvärda viner i många stilar." }
+      {"name": "Luján de Cuyo", "lat": -33.04, "lng": -68.88, "grapes": ["Malbec"], "note": "Nära staden Mendoza. Klassisk, fyllig Malbec — ofta från gamla vinstockar."},
+      {"name": "Maipú", "lat": -32.98, "lng": -68.78, "grapes": ["Malbec", "Cabernet Sauvignon"], "note": "Lägre och varmare. Många traditionella producenter och fylliga viner."},
+      {"name": "Valle de Uco", "lat": -33.6, "lng": -69.2, "grapes": ["Malbec", "Chardonnay"], "note": "Högst belägen, 900–1500 m vid Anderna. Fräschare, elegantare Malbec — Argentinas mest uppmärksammade zon."},
+      {"name": "San Rafael", "lat": -34.6, "lng": -68.33, "grapes": ["Malbec", "Chenin Blanc"], "note": "Längre söderut. Prisvärda viner i många stilar."}
     ],
     "wachau": [
-      { "name": "Wachau", "lat": 48.37, "lng": 15.42, "grapes": ["Grüner Veltliner", "Riesling"], "note": "Branta terrasser längs Donau. Steinfeder, Federspiel och Smaragd anger vinets fyllighet, från lättast till fylligast." },
-      { "name": "Kremstal", "lat": 48.41, "lng": 15.6, "grapes": ["Grüner Veltliner", "Riesling"], "note": "Kring staden Krems, öster om Wachau. Liknande stil, ofta mer prisvärt." },
-      { "name": "Wien", "lat": 48.27, "lng": 16.35, "grapes": ["Gemischter Satz", "Grüner Veltliner"], "note": "Vingårdar inom stadsgränsen. Specialiteten är Gemischter Satz — en fältblandning av flera druvor som skördas och jäses tillsammans." }
+      {"name": "Wachau", "lat": 48.37, "lng": 15.42, "grapes": ["Grüner Veltliner", "Riesling"], "note": "Branta terrasser längs Donau. Steinfeder, Federspiel och Smaragd anger vinets fyllighet, från lättast till fylligast."},
+      {"name": "Kremstal", "lat": 48.41, "lng": 15.6, "grapes": ["Grüner Veltliner", "Riesling"], "note": "Kring staden Krems, öster om Wachau. Liknande stil, ofta mer prisvärt."},
+      {"name": "Wien", "lat": 48.27, "lng": 16.35, "grapes": ["Gemischter Satz", "Grüner Veltliner"], "note": "Vingårdar inom stadsgränsen. Specialiteten är Gemischter Satz — en fältblandning av flera druvor som skördas och jäses tillsammans."}
     ],
     "kamptal": [
-      { "name": "Langenlois", "lat": 48.47, "lng": 15.68, "grapes": ["Grüner Veltliner"], "note": "Österrikes största vinstad och Kamptals centrum." },
-      { "name": "Zöbing (Heiligenstein)", "lat": 48.49, "lng": 15.71, "grapes": ["Riesling"], "note": "Den berömda kullen av ökensandsten — ett av Österrikes främsta Riesling-lägen." },
-      { "name": "Gobelsburg", "lat": 48.44, "lng": 15.68, "grapes": ["Grüner Veltliner", "Riesling"], "note": "Hem för Schloss Gobelsburg, ett av landets äldsta vinhus." }
+      {"name": "Langenlois", "lat": 48.47, "lng": 15.68, "grapes": ["Grüner Veltliner"], "note": "Österrikes största vinstad och Kamptals centrum."},
+      {"name": "Zöbing (Heiligenstein)", "lat": 48.49, "lng": 15.71, "grapes": ["Riesling"], "note": "Den berömda kullen av ökensandsten — ett av Österrikes främsta Riesling-lägen."},
+      {"name": "Gobelsburg", "lat": 48.44, "lng": 15.68, "grapes": ["Grüner Veltliner", "Riesling"], "note": "Hem för Schloss Gobelsburg, ett av landets äldsta vinhus."}
     ],
     "burgenland": [
-      { "name": "Leithaberg", "lat": 47.92, "lng": 16.6, "grapes": ["Blaufränkisch", "Pinot Blanc"], "note": "Kalksten och skiffer ger mineralisk Blaufränkisch och vita viner." },
-      { "name": "Neusiedlersee", "lat": 47.85, "lng": 16.85, "grapes": ["Zweigelt", "Welschriesling"], "note": "Den grunda sjön ger höstdimma och ädelröta — söta viner, plus fruktig Zweigelt." },
-      { "name": "Mittelburgenland", "lat": 47.5, "lng": 16.5, "grapes": ["Blaufränkisch"], "note": "Kallas Blaufränkischland. Tung lera ger fylliga, kraftfulla röda viner." },
-      { "name": "Eisenberg", "lat": 47.18, "lng": 16.5, "grapes": ["Blaufränkisch"], "note": "Sydligast. Järnrik skiffer ger kryddig, stram Blaufränkisch." }
+      {"name": "Leithaberg", "lat": 47.92, "lng": 16.6, "grapes": ["Blaufränkisch", "Pinot Blanc"], "note": "Kalksten och skiffer ger mineralisk Blaufränkisch och vita viner."},
+      {"name": "Neusiedlersee", "lat": 47.85, "lng": 16.85, "grapes": ["Zweigelt", "Welschriesling"], "note": "Den grunda sjön ger höstdimma och ädelröta — söta viner, plus fruktig Zweigelt."},
+      {"name": "Mittelburgenland", "lat": 47.5, "lng": 16.5, "grapes": ["Blaufränkisch"], "note": "Kallas Blaufränkischland. Tung lera ger fylliga, kraftfulla röda viner."},
+      {"name": "Eisenberg", "lat": 47.18, "lng": 16.5, "grapes": ["Blaufränkisch"], "note": "Sydligast. Järnrik skiffer ger kryddig, stram Blaufränkisch."}
+    ],
+    "provence": [
+      {"name": "Côtes de Provence", "lat": 43.46, "lng": 6.48, "grapes": ["Grenache", "Cinsault", "Rolle (Vermentino)"], "note": "Den största appellationen, från kusten vid Saint-Tropez till inlandet. Det mesta är blek, torr rosé."},
+      {"name": "Coteaux d'Aix-en-Provence", "lat": 43.55, "lng": 5.4, "grapes": ["Grenache", "Syrah", "Cabernet Sauvignon"], "note": "Västra Provence kring Aix. Svalare och blåsigare av mistralen — rosé och fylligare röda."},
+      {"name": "Cassis", "lat": 43.21, "lng": 5.54, "grapes": ["Marsanne", "Clairette"], "note": "Liten kustby vid kalkstensklipporna. Känd för salta, örtiga vita viner till fisk och skaldjur."},
+      {"name": "Bandol", "lat": 43.14, "lng": 5.75, "grapes": ["Mourvèdre", "Grenache", "Cinsault"], "note": "Terrasser ner mot havet. Röda viner måste innehålla minst hälften Mourvèdre — köttiga, örtiga och mycket lagringsvärda."}
+    ],
+    "sud-ouest": [
+      {"name": "Bergerac", "lat": 44.85, "lng": 0.48, "grapes": ["Merlot", "Cabernet Sauvignon", "Sémillon"], "note": "Grannen öster om Bordeaux. Samma druvor och liknande stil till lägre pris. Monbazillac ger söta viner."},
+      {"name": "Cahors", "lat": 44.45, "lng": 1.44, "grapes": ["Malbec (Côt)"], "note": "Malbecs historiska hem vid floden Lot. Mörka, strama viner — förr kallade \"svarta viner\"."},
+      {"name": "Gaillac", "lat": 43.9, "lng": 1.9, "grapes": ["Mauzac", "Duras", "Braucol"], "note": "En av Frankrikes äldsta vinregioner med många lokala druvor. Känd för mousserande vin enligt den gamla metoden \"méthode ancestrale\"."},
+      {"name": "Madiran", "lat": 43.55, "lng": -0.06, "grapes": ["Tannat"], "note": "Hem för Tannat — en av världens mest tanninrika druvor. Kraftfulla, mycket lagringsvärda röda viner."},
+      {"name": "Jurançon", "lat": 43.28, "lng": -0.39, "grapes": ["Petit Manseng", "Gros Manseng"], "note": "Vid foten av Pyrenéerna. Torra och söta vita viner med exotisk frukt och knivskarp syra. De söta görs av druvor som torkat på rankan."}
+    ],
+    "savoie": [
+      {"name": "Apremont", "lat": 45.5, "lng": 5.95, "grapes": ["Jacquère"], "note": "Vingårdar på rasmassor från ett stort bergsras år 1248. Lätt, frisk och mineralisk Jacquère."},
+      {"name": "Chignin", "lat": 45.52, "lng": 6.02, "grapes": ["Jacquère", "Bergeron (Roussanne)"], "note": "Chignin-Bergeron är Savoies fylligaste vita vin, på Roussanne från branta, varma sluttningar."},
+      {"name": "Arbin", "lat": 45.5, "lng": 6.07, "grapes": ["Mondeuse"], "note": "Det bästa läget för Mondeuse — pepprigt, syrligt rött vin med mörka bär."}
+    ],
+    "friuli": [
+      {"name": "Friuli Colli Orientali", "lat": 46.08, "lng": 13.43, "grapes": ["Friulano", "Ribolla Gialla", "Refosco", "Picolit"], "note": "Kullarna kring Cividale. Strukturerade vita och röda viner, och det sällsynta söta Picolit."},
+      {"name": "Collio", "lat": 45.96, "lng": 13.5, "grapes": ["Friulano", "Ribolla Gialla", "Pinot Grigio"], "note": "Kullar längs slovenska gränsen med ponca-jord. Italiens finaste vita viner — och hemmet för orange-pionjärerna Gravner och Radikon."},
+      {"name": "Friuli Grave", "lat": 46.0, "lng": 12.85, "grapes": ["Pinot Grigio", "Merlot", "Friulano"], "note": "Flack grusslätt — den största delen. Lättare, fruktiga och prisvärda viner."}
+    ],
+    "campania": [
+      {"name": "Taurasi", "lat": 41.01, "lng": 14.96, "grapes": ["Aglianico"], "note": "Höglänt i Irpinia. \"Söderns Barolo\" — kraftfull, tanninrik Aglianico som behöver många år."},
+      {"name": "Greco di Tufo", "lat": 41.01, "lng": 14.82, "grapes": ["Greco"], "note": "Byn Tufo har svavelrik jord och gamla svavelgruvor. Stram, mineralisk vit med citrus och mandel."},
+      {"name": "Fiano di Avellino", "lat": 40.93, "lng": 14.85, "grapes": ["Fiano"], "note": "Kullarna kring Avellino. Fyllig, nötig vit som utvecklar honung och rök med åren."},
+      {"name": "Vesuvio", "lat": 40.82, "lng": 14.43, "grapes": ["Piedirosso", "Caprettone"], "note": "Vulkanens sluttningar ovanför Neapel. Lätta, rökiga viner — mest kända under namnet Lacryma Christi."}
+    ],
+    "sardegna": [
+      {"name": "Gallura", "lat": 40.95, "lng": 9.2, "grapes": ["Vermentino"], "note": "Granitlandskapet i nordost. Hem för Vermentino di Gallura, Sardiniens enda DOCG — salt, frisk och mineralisk."},
+      {"name": "Jerzu & Barbagia", "lat": 39.9, "lng": 9.4, "grapes": ["Cannonau"], "note": "Bergen i östra delen av ön. Cannonau från höga lägen — kryddig, frisk och kraftfull."},
+      {"name": "Sulcis", "lat": 39.08, "lng": 8.7, "grapes": ["Carignano"], "note": "Sydvästra hörnet. Carignano från mycket gamla, oympade buskvinstockar i sand — mörk och koncentrerad."}
+    ],
+    "umbria": [
+      {"name": "Torgiano", "lat": 43.03, "lng": 12.43, "grapes": ["Sangiovese", "Canaiolo"], "note": "Liten appellation söder om Perugia, berömd genom familjen Lungarotti. Torgiano Rosso Riserva är DOCG."},
+      {"name": "Montefalco", "lat": 42.89, "lng": 12.65, "grapes": ["Sagrantino", "Sangiovese"], "note": "Hem för Sagrantino — extremt tanninrikt och mörkt vin som behöver lång lagring."},
+      {"name": "Orvieto", "lat": 42.72, "lng": 12.11, "grapes": ["Grechetto", "Trebbiano (Procanico)"], "note": "Vingårdar kring staden på den vulkaniska tuffklippan. Lätta vita viner, ibland halvsöta med ädelröta."}
+    ],
+    "beaujolais": [
+      {"name": "Saint-Amour", "lat": 46.24, "lng": 4.69, "grapes": ["Gamay"], "note": "Nordligaste cru. Charmigt och fruktigt — populärt på alla hjärtans dag tack vare namnet."},
+      {"name": "Juliénas", "lat": 46.24, "lng": 4.71, "grapes": ["Gamay"], "note": "Kryddigt och strukturerat med mörka bär."},
+      {"name": "Chénas", "lat": 46.21, "lng": 4.72, "grapes": ["Gamay"], "note": "Den minsta cru-byn. Kraftfullt och blommigt, nära släkt med Moulin-à-Vent."},
+      {"name": "Moulin-à-Vent", "lat": 46.19, "lng": 4.73, "grapes": ["Gamay"], "note": "\"Beaujolais kung\". Manganrik granit ger de kraftfullaste och mest lagringsvärda vinerna — med åren påminner de om Bourgogne."},
+      {"name": "Fleurie", "lat": 46.19, "lng": 4.7, "grapes": ["Gamay"], "note": "Rosa granit ger blommiga, eleganta viner med viol och röda bär."},
+      {"name": "Chiroubles", "lat": 46.18, "lng": 4.66, "grapes": ["Gamay"], "note": "Den högst belägna cru-byn. Lätta, friska och aromatiska viner."},
+      {"name": "Morgon", "lat": 46.16, "lng": 4.68, "grapes": ["Gamay"], "note": "Vittrad skiffer (\"roche pourrie\") och kullen Côte du Py ger fylliga, jordiga viner som kan lagras länge."},
+      {"name": "Régnié", "lat": 46.14, "lng": 4.63, "grapes": ["Gamay"], "note": "Den yngsta cru-byn (sedan 1988). Fruktig, mellanfyllig stil."},
+      {"name": "Côte de Brouilly", "lat": 46.12, "lng": 4.68, "grapes": ["Gamay"], "note": "Sluttningarna på det gamla vulkanberget Mont Brouilly. Blå, hård bergart ger mer mineraliska viner."},
+      {"name": "Brouilly", "lat": 46.09, "lng": 4.64, "grapes": ["Gamay"], "note": "Den största och sydligaste cru-byn, runt foten av Mont Brouilly. Saftig och fruktig."}
+    ],
+    "languedoc-roussillon": [
+      {"name": "Faugères", "lat": 43.57, "lng": 3.18, "grapes": ["Syrah", "Grenache", "Mourvèdre"], "note": "Skifferkullar i inlandet. Fräschare och mer mineraliska röda viner än på slätten."},
+      {"name": "Picpoul de Pinet", "lat": 43.4, "lng": 3.52, "grapes": ["Picpoul"], "note": "Vid lagunen Étang de Thau, känd för ostron. Syrlig, citrusig vit — ostronvinet framför andra."},
+      {"name": "Minervois", "lat": 43.32, "lng": 2.62, "grapes": ["Syrah", "Grenache", "Carignan"], "note": "Kalkstensterrasser nedanför Svarta bergen. Mjuka, kryddiga röda viner."},
+      {"name": "Corbières", "lat": 43.05, "lng": 2.7, "grapes": ["Carignan", "Grenache", "Syrah"], "note": "Stor, bergig region med många olika jordar. Rustika, kraftfulla röda viner med garrigue."},
+      {"name": "Fitou", "lat": 42.89, "lng": 2.97, "grapes": ["Carignan", "Grenache"], "note": "Languedocs äldsta appellation för röda viner (1948). Mörka, kryddiga viner."},
+      {"name": "Banyuls & Collioure", "lat": 42.48, "lng": 3.12, "grapes": ["Grenache"], "note": "Branta skifferterrasser vid Medelhavet nära Spanien. Banyuls är ett sött, förstärkt vin; Collioure ger torra röda."}
+    ],
+    "jura": [
+      {"name": "Arbois", "lat": 46.9, "lng": 5.77, "grapes": ["Savagnin", "Poulsard", "Trousseau", "Chardonnay"], "note": "Juras största appellation och vinhuvudstad — Louis Pasteurs hemstad. Alla stilar görs här."},
+      {"name": "Château-Chalon", "lat": 46.75, "lng": 5.62, "grapes": ["Savagnin"], "note": "En appellation enbart för vin jaune. Vinet lagras minst sex år under ett jästlager och säljs i en speciell flaska på 62 cl, \"clavelin\"."},
+      {"name": "L'Étoile", "lat": 46.65, "lng": 5.53, "grapes": ["Chardonnay", "Savagnin"], "note": "Namnet (stjärnan) kommer från små stjärnformade fossiler i jorden. Bara vita viner."}
+    ],
+    "alsace": [
+      {"name": "Ribeauvillé", "lat": 48.19, "lng": 7.32, "grapes": ["Riesling"], "note": "Hem för Trimbach och flera Grand Cru-lägen. Strama, mineraliska Riesling."},
+      {"name": "Riquewihr", "lat": 48.17, "lng": 7.3, "grapes": ["Riesling", "Gewürztraminer"], "note": "Medeltida vinby med Grand Cru-lägena Schoenenbourg och Sporen. Hem för Hugel."},
+      {"name": "Turckheim", "lat": 48.09, "lng": 7.28, "grapes": ["Riesling", "Pinot Gris", "Gewürztraminer"], "note": "Hem för Zind-Humbrecht och Grand Cru Brand — ett av Alsace varmaste lägen."},
+      {"name": "Eguisheim", "lat": 48.04, "lng": 7.31, "grapes": ["Gewürztraminer", "Pinot Gris"], "note": "Runt vinbyn ligger Grand Cru Eichberg och Pfersigberg. Fylliga, aromatiska viner."}
+    ],
+    "sauternes": [
+      {"name": "Barsac", "lat": 44.6, "lng": -0.32, "grapes": ["Semillon", "Sauvignon Blanc"], "note": "Grannen i norr på kalkstensjord. Får kalla sig Sauternes men vinerna är ofta lite lättare och friskare."}
+    ],
+    "piemonte": [
+      {"name": "Roero", "lat": 44.78, "lng": 7.95, "grapes": ["Arneis", "Nebbiolo"], "note": "Norr om floden Tanaro med sandigare jord. Hem för den vita druvan Arneis och lättare Nebbiolo."},
+      {"name": "Langhe", "lat": 44.6, "lng": 8.0, "grapes": ["Nebbiolo", "Dolcetto", "Barbera"], "note": "Kullarna runt Alba där Barolo och Barbaresco ligger. Langhe Nebbiolo är en lättare, tidigare version."},
+      {"name": "Gavi", "lat": 44.69, "lng": 8.81, "grapes": ["Cortese"], "note": "Sydöstra Piemonte nära Ligurien. Frisk, citrusig vit vin på Cortese."},
+      {"name": "Alto Piemonte (Gattinara & Ghemme)", "lat": 45.62, "lng": 8.4, "grapes": ["Nebbiolo"], "note": "Vid foten av Alperna i norr. Nebbiolo kallas här Spanna — svalare, mer eleganta viner på vulkanisk jord."}
+    ],
+    "veneto": [
+      {"name": "Bardolino", "lat": 45.55, "lng": 10.72, "grapes": ["Corvina", "Rondinella"], "note": "Vid Gardasjöns östra strand. Lätta, fruktiga röda viner och rosé (Chiaretto)."}
+    ],
+    "toscana": [
+      {"name": "Carmignano", "lat": 43.81, "lng": 11.01, "grapes": ["Sangiovese", "Cabernet Sauvignon"], "note": "Väster om Florens. Här blandades Cabernet med Sangiovese redan på 1700-talet — långt före Super Tuscans."},
+      {"name": "Morellino di Scansano", "lat": 42.68, "lng": 11.33, "grapes": ["Sangiovese (Morellino)"], "note": "Kustnära Maremma i södra Toscana. Varmare klimat ger mjukare, fruktigare Sangiovese."}
+    ],
+    "alto-adige": [
+      {"name": "Valle Isarco", "lat": 46.72, "lng": 11.65, "grapes": ["Sylvaner", "Kerner", "Riesling"], "note": "Den nordligaste och svalaste dalen. Knivskarpa, mineraliska vita viner."},
+      {"name": "Santa Maddalena", "lat": 46.51, "lng": 11.37, "grapes": ["Schiava", "Lagrein"], "note": "Sluttningarna ovanför Bolzano. Lätt, fruktig röd Schiava — och den mörka Lagrein på dalbotten."},
+      {"name": "Terlano", "lat": 46.53, "lng": 11.25, "grapes": ["Pinot Bianco", "Sauvignon Blanc"], "note": "Porfyrjord ger vita viner som lagras i årtionden. Kooperativet Cantina Terlano är världsberömt."},
+      {"name": "Lago di Caldaro", "lat": 46.4, "lng": 11.26, "grapes": ["Schiava"], "note": "Sjön värmer omgivningen. Lätt, ljus Schiava som serveras sval."},
+      {"name": "Termeno (Tramin)", "lat": 46.34, "lng": 11.24, "grapes": ["Gewürztraminer"], "note": "Byn som gett namn åt Gewürztraminer (\"kryddig från Tramin\")."}
+    ],
+    "sicilia-etna": [
+      {"name": "Norra sluttningen", "lat": 37.86, "lng": 15.0, "grapes": ["Nerello Mascalese"], "note": "Kring Randazzo och Passopisciaro. Hjärtat för röda Etna-viner, med vingårdar (contrade) på olika lavaströmmar."},
+      {"name": "Östra sluttningen", "lat": 37.72, "lng": 15.11, "grapes": ["Carricante"], "note": "Kring Milo, vänd mot havet och regnigare. Hem för Etna Bianco Superiore på Carricante."},
+      {"name": "Södra sluttningen", "lat": 37.64, "lng": 14.87, "grapes": ["Nerello Mascalese", "Carricante"], "note": "Varmare och soligare sida. Fylligare viner, högt upp mot 1000 m."}
+    ],
+    "verdicchio-castelli-di-jesi": [
+      {"name": "Castelli di Jesi", "lat": 43.45, "lng": 13.12, "grapes": ["Verdicchio"], "note": "Kullarna runt de medeltida borgarna kring Jesi, närmare havet. Saltig, frisk Verdicchio."},
+      {"name": "Matelica", "lat": 43.26, "lng": 13.01, "grapes": ["Verdicchio"], "note": "En inlandsdal mellan bergen. Svalare och mer kontinentalt — stramare viner med högre syra."}
+    ],
+    "puglia": [
+      {"name": "Manduria", "lat": 40.4, "lng": 17.63, "grapes": ["Primitivo"], "note": "Primitivo di Manduria — fylliga, mogna och alkoholstarka röda viner."},
+      {"name": "Salento", "lat": 40.35, "lng": 18.0, "grapes": ["Negroamaro"], "note": "Längst ut på klacken, mellan två hav. Negroamaro ger mörka, lätt bittra röda viner och rosé."}
+    ],
+    "abruzzo": [
+      {"name": "Colline Teramane", "lat": 42.66, "lng": 13.75, "grapes": ["Montepulciano"], "note": "Kullarna kring Teramo i norr. Den enda DOCG-zonen för Montepulciano — mer struktur och lagringspotential."}
+    ],
+    "franken": [
+      {"name": "Würzburg", "lat": 49.79, "lng": 9.93, "grapes": ["Silvaner", "Riesling"], "note": "Den berömda vingården Würzburger Stein ligger mitt i staden — en av Tysklands mest kända, på musselkalk."},
+      {"name": "Escherndorf", "lat": 49.86, "lng": 10.18, "grapes": ["Silvaner"], "note": "Den branta, sydvända Lump-sluttningen vid floden Main ger kraftfull, mineralisk Silvaner."},
+      {"name": "Iphofen", "lat": 49.7, "lng": 10.26, "grapes": ["Silvaner"], "note": "Vid Steigerwald-bergen. Keuper-jord (märgel) ger fylligare, kryddigare Silvaner."}
+    ],
+    "baden": [
+      {"name": "Ortenau", "lat": 48.49, "lng": 8.01, "grapes": ["Riesling", "Spätburgunder"], "note": "Granitsluttningar vid Schwarzwalds fot. Här kallas Riesling för Klingelberger."},
+      {"name": "Kaiserstuhl", "lat": 48.1, "lng": 7.67, "grapes": ["Spätburgunder", "Grauburgunder"], "note": "En utslocknad vulkan och Tysklands varmaste plats. Vulkanisk jord och löss ger kraftfulla Pinot-viner."},
+      {"name": "Markgräflerland", "lat": 47.8, "lng": 7.6, "grapes": ["Gutedel (Chasselas)", "Spätburgunder"], "note": "Längst söderut mot Schweiz. Lätt, frisk Gutedel — samma druva som Chasselas."}
+    ],
+    "tokaj": [
+      {"name": "Mád", "lat": 48.19, "lng": 21.28, "grapes": ["Furmint", "Hárslevelű"], "note": "Hjärtat av Tokaj med flera av de främsta vingårdarna. Här bor István Szepsy."},
+      {"name": "Tarcal", "lat": 48.13, "lng": 21.35, "grapes": ["Furmint"], "note": "Vid foten av berget Tokaj-hegy. Varma sydsluttningar."},
+      {"name": "Tokaj", "lat": 48.12, "lng": 21.41, "grapes": ["Furmint", "Hárslevelű"], "note": "Staden där floderna Bodrog och Tisza möts. Dimman från floderna ger ädelröta på hösten."}
+    ],
+    "kakheti": [
+      {"name": "Kvareli", "lat": 41.95, "lng": 45.81, "grapes": ["Saperavi"], "note": "Känd för Kindzmarauli, ett halvsött rött vin på Saperavi."},
+      {"name": "Telavi", "lat": 41.92, "lng": 45.47, "grapes": ["Saperavi", "Rkatsiteli"], "note": "Kakhetis huvudstad och vinhjärta i Alazanidalen."},
+      {"name": "Tsinandali", "lat": 41.89, "lng": 45.57, "grapes": ["Rkatsiteli", "Mtsvane"], "note": "Historisk vinegendom där Georgiens moderna vinframställning tog fart på 1800-talet."}
+    ],
+    "tasmania": [
+      {"name": "Tamar Valley", "lat": -41.25, "lng": 146.95, "grapes": ["Pinot Noir", "Chardonnay"], "note": "Floddal i norr. Floden mildrar klimatet — viktig för mousserande och Pinot Noir."},
+      {"name": "Coal River Valley", "lat": -42.75, "lng": 147.45, "grapes": ["Pinot Noir", "Riesling"], "note": "Nära Hobart i sydöst. Torr och solig i regnskuggan — koncentrerad Pinot Noir."}
+    ],
+    "niagara": [
+      {"name": "Niagara-on-the-Lake", "lat": 43.25, "lng": -79.07, "grapes": ["Vidal", "Riesling", "Cabernet Franc"], "note": "Platt land vid Ontariosjön. Centrum för isvin."},
+      {"name": "Beamsville Bench", "lat": 43.15, "lng": -79.47, "grapes": ["Riesling", "Chardonnay", "Pinot Noir"], "note": "En terrass på branten. Luften cirkulerar och kalkjorden ger mineraliska Riesling och Chardonnay."}
+    ],
+    "nahe": [
+      {"name": "Monzingen", "lat": 49.8, "lng": 7.6, "grapes": ["Riesling"], "note": "Hem för Emrich-Schönleber. Läget Halenberg på blå skiffer och kvartsit."},
+      {"name": "Niederhausen", "lat": 49.81, "lng": 7.76, "grapes": ["Riesling"], "note": "Branta lägen som Hermannshöhle på vulkanisk porfyr. Hem för Dönnhoffs mest kända viner."},
+      {"name": "Bad Kreuznach", "lat": 49.84, "lng": 7.87, "grapes": ["Riesling"], "note": "Regionens huvudstad. Varmare lägen med lera och sand."}
+    ],
+    "rheingau": [
+      {"name": "Rüdesheim", "lat": 49.98, "lng": 7.92, "grapes": ["Riesling"], "note": "Den branta Rüdesheimer Berg där Rhen svänger norrut. Skiffer och kvartsit ger kraftfull Riesling."},
+      {"name": "Johannisberg", "lat": 50.0, "lng": 7.98, "grapes": ["Riesling"], "note": "Schloss Johannisberg — där sen skörd (Spätlese) enligt legenden upptäcktes 1775."},
+      {"name": "Hochheim", "lat": 50.01, "lng": 8.35, "grapes": ["Riesling"], "note": "Östligast vid floden Main. Engelsmännens ord för tyskt vin, \"hock\", kommer härifrån."},
+      {"name": "Nierstein (Rheinhessen)", "lat": 49.87, "lng": 8.34, "grapes": ["Riesling"], "note": "Den röda sluttningen Roter Hang med röd lerskiffer — Rheinhessens bästa Riesling."},
+      {"name": "Mittelhaardt (Pfalz)", "lat": 49.41, "lng": 8.19, "grapes": ["Riesling"], "note": "Byarna Forst och Deidesheim. Varm, torr Pfalz ger fyllig och torr Riesling."}
+    ],
+    "barossa": [
+      {"name": "Clare Valley", "lat": -33.83, "lng": 138.6, "grapes": ["Riesling"], "note": "Högre och svalare norr om Barossa. Australiens klassiska torra Riesling med lime och petroleum."},
+      {"name": "Barossa Valley", "lat": -34.53, "lng": 138.95, "grapes": ["Shiraz", "Grenache"], "note": "Dalbotten med några av världens äldsta Shiraz-vinstockar. Rika, mörka och kraftfulla viner."},
+      {"name": "Eden Valley", "lat": -34.6, "lng": 139.08, "grapes": ["Riesling", "Shiraz"], "note": "Högre upp i kullarna öster om Barossa. Svalare — elegant Riesling och Shiraz (Henschke Hill of Grace)."},
+      {"name": "McLaren Vale", "lat": -35.22, "lng": 138.55, "grapes": ["Shiraz", "Grenache"], "note": "Nära havet söder om Adelaide. Havsbrisen ger Shiraz och Grenache med mjukare, mer medelhavsliknande stil."}
+    ],
+    "marlborough": [
+      {"name": "Wairau Valley", "lat": -41.5, "lng": 173.8, "grapes": ["Sauvignon Blanc", "Pinot Noir"], "note": "Den stora huvuddalen. Stenig flodjord och mycket sol ger explosiv Sauvignon Blanc."},
+      {"name": "Awatere Valley", "lat": -41.65, "lng": 174.0, "grapes": ["Sauvignon Blanc"], "note": "Högre, svalare och blåsigare dal i söder. Stramare Sauvignon Blanc med örter och tomatblad."},
+      {"name": "Martinborough", "lat": -41.22, "lng": 175.46, "grapes": ["Pinot Noir"], "note": "Liten stad på Nordön nära Wellington. Pionjär för nyzeeländsk Pinot Noir."}
+    ],
+    "stellenbosch": [
+      {"name": "Paarl", "lat": -33.73, "lng": 18.97, "grapes": ["Chenin Blanc", "Shiraz", "Pinotage"], "note": "Varmare och längre från havet. Fylligare viner."},
+      {"name": "Franschhoek", "lat": -33.91, "lng": 19.12, "grapes": ["Semillon", "Chardonnay", "Cabernet Sauvignon"], "note": "\"Franska hörnet\" — grundat av franska hugenotter på 1680-talet. Bergsomgiven dal."},
+      {"name": "Helderberg", "lat": -34.03, "lng": 18.85, "grapes": ["Cabernet Sauvignon", "Chenin Blanc"], "note": "Sluttningar mot False Bay. Havsbrisen ger svalare, elegantare viner."}
+    ],
+    "maipo": [
+      {"name": "Aconcagua", "lat": -32.75, "lng": -70.72, "grapes": ["Cabernet Sauvignon", "Syrah"], "note": "Norr om Santiago vid Sydamerikas högsta berg. Varmt — kraftfulla röda viner (Errázuriz)."},
+      {"name": "Alto Maipo", "lat": -33.61, "lng": -70.58, "grapes": ["Cabernet Sauvignon"], "note": "Puente Alto vid Andernas fot. Chiles mest berömda Cabernet: Don Melchor och Almaviva."},
+      {"name": "Colchagua", "lat": -34.65, "lng": -71.25, "grapes": ["Carménère", "Cabernet Sauvignon", "Syrah"], "note": "Varmare dal längre söderut. Fylliga röda viner och mycket Carménère."}
+    ],
+    "sonoma": [
+      {"name": "Alexander Valley", "lat": 38.72, "lng": -122.83, "grapes": ["Cabernet Sauvignon"], "note": "Varmaste delen i norr. Mjuk, fruktig Cabernet Sauvignon."},
+      {"name": "Dry Creek Valley", "lat": 38.68, "lng": -122.95, "grapes": ["Zinfandel"], "note": "Smal dal känd för gamla Zinfandel-vinstockar."},
+      {"name": "Russian River Valley", "lat": 38.5, "lng": -122.9, "grapes": ["Pinot Noir", "Chardonnay"], "note": "Morgondimma från Stilla havet kryper upp längs floden. Elegant Pinot Noir och Chardonnay."},
+      {"name": "Sonoma Coast", "lat": 38.45, "lng": -123.1, "grapes": ["Pinot Noir", "Chardonnay"], "note": "Kustnära och mycket svalt. Strama, syrarika viner."}
+    ],
+    "willamette-valley": [
+      {"name": "Ribbon Ridge", "lat": 45.35, "lng": -123.07, "grapes": ["Pinot Noir"], "note": "Liten ås med marin sedimentjord. Mörk, kryddig Pinot Noir."},
+      {"name": "Dundee Hills", "lat": 45.28, "lng": -123.03, "grapes": ["Pinot Noir"], "note": "Röd vulkanisk Jory-jord. Här planterades de första Pinot Noir-vinstockarna i Oregon på 1960-talet."},
+      {"name": "Eola-Amity Hills", "lat": 45.0, "lng": -123.13, "grapes": ["Pinot Noir", "Chardonnay"], "note": "Kalla vindar från Stilla havet via Van Duzer-korridoren ger hög syra och tjocka skal."}
+    ],
+    "columbia-valley": [
+      {"name": "Yakima Valley", "lat": 46.4, "lng": -120.2, "grapes": ["Riesling", "Chardonnay", "Merlot"], "note": "Washingtons första AVA (1983). Många olika druvor."},
+      {"name": "Red Mountain", "lat": 46.29, "lng": -119.45, "grapes": ["Cabernet Sauvignon"], "note": "Varm, torr och blåsig sluttning — tjockskaliga druvor och kraftfull Cabernet."},
+      {"name": "Walla Walla", "lat": 46.06, "lng": -118.34, "grapes": ["Syrah", "Cabernet Sauvignon"], "note": "Delas med Oregon. The Rocks — stenig flodbädd — ger Syrah med köttig, jordig ton."}
+    ],
+    "hawkes-bay": [
+      {"name": "Gimblett Gravels", "lat": -39.62, "lng": 176.73, "grapes": ["Syrah", "Merlot", "Cabernet Sauvignon"], "note": "En gammal flodbädd av grus som lagrar värme — ett par grader varmare än omgivningen."}
+    ],
+    "central-otago": [
+      {"name": "Gibbston", "lat": -45.02, "lng": 168.9, "grapes": ["Pinot Noir"], "note": "Högst och svalast, nära Queenstown. Den mest eleganta stilen."},
+      {"name": "Bannockburn", "lat": -45.08, "lng": 169.15, "grapes": ["Pinot Noir"], "note": "Den varmaste delen, en gammal guldgrävarort. Kraftfull, mörk Pinot Noir (Felton Road)."}
+    ],
+    "swartland": [
+      {"name": "Riebeek-Kasteel", "lat": -33.38, "lng": 18.9, "grapes": ["Chenin Blanc", "Syrah"], "note": "Liten by som blev centrum för Swartlands vinrevolution."},
+      {"name": "Paardeberg", "lat": -33.55, "lng": 18.83, "grapes": ["Chenin Blanc", "Grenache"], "note": "Granitberg med gamla buskvinstockar. Hem för Sadie Family och Badenhorst."}
+    ],
+    "salta-cafayate": [
+      {"name": "Molinos (Colomé)", "lat": -25.47, "lng": -66.31, "grapes": ["Malbec", "Torrontés"], "note": "Längre upp i dalen. Bodega Colomé har vingårdar på över 3 000 meters höjd."}
     ]
   }
 }
