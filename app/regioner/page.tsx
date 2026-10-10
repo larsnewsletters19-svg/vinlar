@@ -8,6 +8,8 @@ import grapes from '@/data/grapes.json';
 import vintages from '@/data/vintages.json';
 import { Grape } from '@/types';
 import { findSubRegionProfile } from '@/lib/searchIndex';
+import dynamic from 'next/dynamic';
+const RegionMap = dynamic(() => import('@/components/RegionMap'), { ssr: false });
 
 const allRegions = regions;
 const allGrapes = grapes as Grape[];
@@ -130,16 +132,10 @@ function RegionerPageInner() {
             ))}
           </div>
 
-          {/* Karta */}
-          {map && (
-            <div className="mb-6 bg-wine-900 rounded-2xl p-4 border border-wine-800">
-              <div className="text-xs uppercase tracking-widest text-wine-500 mb-3">{map.label}</div>
-              <div className="bg-white rounded-xl p-2">
-                <img src={map.src} alt={map.label} className="w-full h-auto" />
-              </div>
-              <p className="text-wine-400 text-xs mt-3">I appen finns: {map.regions}.</p>
-            </div>
-          )}
+          <RegionMap
+  regions={filtered}
+  onOpenRegion={(id) => { setSelected(id); setActiveTab('profil'); }}
+/>
 
           {/* Regionkort */}
           <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">

@@ -445,6 +445,7 @@
     "country": "Italien",
     "countryId": "italy",
     "emoji": "🇮🇹",
+    "parentRegionId": "piemonte",
     "shortDescription": "Nebbiolo på sin absoluta topp. Barolo kallas 'vinernas kung' — kraftfullt, tanninrikt och lagringsvärda viner med tjära och rosor. Barbaresco är mer elegant och tillgänglig.",
     "mainGrapes": [
       "Nebbiolo"
@@ -907,7 +908,7 @@
     "mainGrapes": [
       "Cabernet Sauvignon",
       "Merlot",
-      "Merlot",
+      "Carménère",
       "Syrah",
       "Sauvignon Blanc"
     ],
@@ -1162,10 +1163,8 @@
     "typicalStyle": "Grüner Veltliner med vitpeppar, citrus och mineralitet. Wachau Riesling kraftfullare och torrare än tysk. Smaragd är den fylligaste och mest komplexa stilen.",
     "subRegions": [
       "Wachau",
-      "Kamptal",
       "Kremstal",
-      "Wien",
-      "Burgenland"
+      "Wien"
     ],
     "foodPairings": [
       "Grüner Veltliner: Wiener schnitzel och sparris",
@@ -1188,6 +1187,89 @@
     ],
     "climate": "Kontinentalt med Donaus temperaturutjämnande effekt",
     "soil": "Gnejs och granit — ger mineralitet"
+  },
+    {
+    "id": "kamptal",
+    "name": "Kamptal",
+    "country": "Österrike",
+    "countryId": "austria",
+    "emoji": "🇦🇹",
+    "parentRegionId": "wachau",
+    "shortDescription": "Grannen nordost om Wachau, kring staden Langenlois. Grüner Veltliner och Riesling i världsklass — den berömda branta vingården Heiligenstein är en av Österrikes främsta Riesling-lägen.",
+    "mainGrapes": [
+      "Grüner Veltliner",
+      "Riesling"
+    ],
+    "typicalStyle": "Grüner Veltliner med vitpeppar, gröna äpplen och linser från lössjordarna. Riesling från Heiligenstein är stram, mineralisk och lagringsvärd. Något fylligare och mjukare än Wachau tack vare varmare luft från öster.",
+    "subRegions": [
+      "Langenlois",
+      "Zöbing (Heiligenstein)",
+      "Gobelsburg"
+    ],
+    "foodPairings": [
+      "Wiener schnitzel",
+      "Sparris",
+      "Insjöfisk",
+      "Asiatisk mat"
+    ],
+    "blindTastingClues": [
+      "Grüner Veltliner: vitpeppar och linser/gröna bönor",
+      "Lössjord ger fylligare, rundare Grüner",
+      "Riesling: stenfrukt och tydlig mineralitet, alltid torr",
+      "Liknar Wachau men ofta lite mjukare",
+      "\"Kamptal DAC\" på etiketten betyder Grüner eller Riesling"
+    ],
+    "famousProducers": [
+      "Bründlmayer",
+      "Schloss Gobelsburg",
+      "Hirsch",
+      "Loimer"
+    ],
+    "climate": "Möte mellan varm pannonisk luft från öster och sval luft från Waldviertel i norr — varma dagar, svala nätter",
+    "soil": "Löss i dalen, ökensandsten med vulkaniskt inslag på Heiligenstein"
+  },
+  {
+    "id": "burgenland",
+    "name": "Burgenland",
+    "country": "Österrike",
+    "countryId": "austria",
+    "emoji": "🇦🇹",
+    "shortDescription": "Österrikes varmaste vinregion, mot gränsen till Ungern. Hem för landets bästa röda viner på Blaufränkisch och Zweigelt, samt världsberömda söta viner kring sjön Neusiedl.",
+    "mainGrapes": [
+      "Blaufränkisch",
+      "Zweigelt",
+      "St. Laurent",
+      "Welschriesling"
+    ],
+    "typicalStyle": "Blaufränkisch med mörka körsbär, björnbär, kryddor och frisk syra — elegant snarare än tung. Zweigelt är mjukare och fruktigare. Den grunda sjön Neusiedl ger dimma som skapar ädelröta för söta viner (Ruster Ausbruch, Trockenbeerenauslese).",
+    "subRegions": [
+      "Neusiedlersee",
+      "Leithaberg",
+      "Mittelburgenland",
+      "Eisenberg"
+    ],
+    "foodPairings": [
+      "Blaufränkisch: Vilt och anka",
+      "Blaufränkisch: Gulasch",
+      "Zweigelt: Charkuterier och grillat",
+      "Söta viner: Blåmögelost och fruktdesserter"
+    ],
+    "blindTastingClues": [
+      "Blaufränkisch: mörka körsbär, kryddpeppar och hög syra",
+      "Elegantare och friskare än man väntar sig av ett varmt område",
+      "Zweigelt: mjuk, körsbärsfruktig och lättdrucken",
+      "Söta viner: botrytis-ton med honung och aprikos, som Sauternes",
+      "Blaufränkisch heter Kékfrankos i grannlandet Ungern"
+    ],
+    "famousProducers": [
+      "Moric",
+      "Kracher",
+      "Umathum",
+      "Prieler",
+      "Ernst Triebaumer"
+    ],
+    "climate": "Pannoniskt — varma, torra somrar. Sjön Neusiedl ger fukt och dimma på hösten",
+    "soil": "Kalksten och skiffer på Leithaberg, tung lera i Mittelburgenland, järnrik skiffer i Eisenberg"
   },
   {
     "id": "chablis",
