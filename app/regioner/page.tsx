@@ -340,9 +340,21 @@ function RegionerPageInner() {
                 <div className="bg-wine-900 rounded-2xl p-5 border border-wine-800">
                   <h3 className="text-xs uppercase tracking-widest text-wine-500 mb-3">⭐ Kända producenter</h3>
                   <div className="flex flex-wrap gap-2">
-                    {activeRegion.famousProducers.map((producer) => (
-                      <span key={producer} className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-700 text-wine-300">{producer}</span>
-                    ))}
+                    {activeRegion.famousProducers.map((producer) => {
+                      const target = findMapTarget(producer, allRegions);
+                      return target ? (
+                        <button
+                          key={producer}
+                          onClick={() => showOnMap(target)}
+                          title={`Visa ${producer} på kartan`}
+                          className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-600 text-wine-200 hover:bg-wine-700 transition-colors"
+                        >
+                          {producer} 📍
+                        </button>
+                      ) : (
+                        <span key={producer} className="px-3 py-1 rounded-full text-sm bg-wine-800 border border-wine-700 text-wine-300">{producer}</span>
+                      );
+                    })}
                   </div>
                 </div>
               </div>

@@ -16,11 +16,14 @@
     "typicalStyle": "Röda viner dominerar — strukturerade, tanninrika och lagringsvärda. Vänstra banken (Médoc) domineras av Cabernet Sauvignon. Högra banken (Saint-Émilion, Pomerol) av Merlot.",
     "subRegions": [
       "Médoc",
+      "Pessac-Léognan",
+      "Graves",
+      "Sauternes",
       "Saint-Émilion",
       "Pomerol",
-      "Sauternes",
-      "Graves",
-      "Pauillac"
+      "Fronsac",
+      "Côtes de Bordeaux",
+      "Entre-Deux-Mers"
     ],
     "foodPairings": [
       "Lammracks",
@@ -1648,7 +1651,9 @@
       "Muscadelle"
     ],
     "typicalStyle": "Gyllene färg, honung, aprikos, saffran och en distinkt botrytis-ton (ofta beskriven som ingefära eller marmelad). Balanserad av hög syra trots sötman.",
-    "subRegions": [],
+    "subRegions": [
+      "Barsac"
+    ],
     "foodPairings": [
       "Foie gras",
       "Blåmögelost (t.ex. Roquefort)",
@@ -4103,5 +4108,377 @@
     ],
     "climate": "Kontinentalt med kalla vintrar, mildrat av Ontariosjön",
     "soil": "Lera, sand och kalksten på branten"
+  },
+  {
+    "id": "saint-estephe",
+    "name": "Saint-Estèphe",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "medoc",
+    "shortDescription": "Nordligast av Médocs fyra berömda byar. Mer lera i jorden gör vinerna stramare, jordigare och mer slutna i ungdomen än grannarnas — men mycket lagringsvärda.",
+    "mainGrapes": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Petit Verdot"
+    ],
+    "typicalStyle": "Fast, kraftig struktur med svarta vinbär, jord och ibland en lite rustik ton. Merlot spelar större roll än i Pauillac eftersom den trivs i leran. Behöver ofta 10+ år.",
+    "subRegions": [],
+    "foodPairings": [
+      "Lammstek",
+      "Nötkött",
+      "Vilt",
+      "Lagrad hårdost"
+    ],
+    "blindTastingClues": [
+      "Stramare och mer sluten än Pauillac och Margaux",
+      "Jordig ton och fast tannin",
+      "Lite mer Merlot ger rundare mittparti",
+      "Mindre parfym än Margaux",
+      "Ofta prisvärdare än de andra tre byarna"
+    ],
+    "famousProducers": [
+      "Château Cos d'Estournel",
+      "Château Montrose",
+      "Château Calon-Ségur"
+    ],
+    "climate": "Oceaniskt, något svalare än längre söderut",
+    "soil": "Grus med mer lera än i Pauillac, kalksten under"
+  },
+  {
+    "id": "pauillac",
+    "name": "Pauillac",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "medoc",
+    "shortDescription": "Cabernet Sauvignons huvudstad. Hem för tre av Bordeaux fem premier grand cru — Lafite Rothschild, Latour och Mouton Rothschild. Kraftfulla, strama och extremt lagringsvärda viner.",
+    "mainGrapes": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Petit Verdot"
+    ],
+    "typicalStyle": "Den klassiska Bordeaux-Cabernet: svarta vinbär, ceder, grafit (blyerts) och tobak. Fast tannin, djup färg och lång finish. De bästa behöver 15–20 år och lever i 50.",
+    "subRegions": [],
+    "foodPairings": [
+      "Lammracks",
+      "Entrecôte",
+      "Vilt",
+      "Lagrad comté"
+    ],
+    "blindTastingClues": [
+      "Grafit/blyertsmina och ceder — klassisk Pauillac",
+      "Svarta vinbär snarare än plommon",
+      "Mycket fast tannin i ungdomen",
+      "Kraftigare än Margaux och Saint-Julien",
+      "Hög andel Cabernet Sauvignon, ofta 70 % eller mer"
+    ],
+    "famousProducers": [
+      "Château Lafite Rothschild",
+      "Château Latour",
+      "Château Mouton Rothschild",
+      "Château Pichon Baron",
+      "Château Lynch-Bages"
+    ],
+    "climate": "Oceaniskt, mildrat av Gironde",
+    "soil": "Djupt grus på grusåsar närmast floden"
+  },
+  {
+    "id": "saint-julien",
+    "name": "Saint-Julien",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "medoc",
+    "shortDescription": "Den minsta av Médocs fyra berömda byar, mellan Pauillac och Margaux. Saknar premier cru men har fem andra cru — och nästan alla vingårdar är klassade. Kallas den mest jämna och balanserade.",
+    "mainGrapes": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "typicalStyle": "Mitt emellan Pauillacs kraft och Margaux elegans: svarta vinbär, ceder och fin, polerad tannin. Mycket jämn kvalitet.",
+    "subRegions": [],
+    "foodPairings": [
+      "Lamm",
+      "Kalvkött",
+      "Anka",
+      "Hårdost"
+    ],
+    "blindTastingClues": [
+      "Balans mellan kraft och elegans",
+      "Ceder och svarta vinbär",
+      "Polerad, fin tannin",
+      "Mjukare än Pauillac, kraftigare än Margaux",
+      "Mycket konsekvent kvalitet mellan årgångar och producenter"
+    ],
+    "famousProducers": [
+      "Château Léoville Las Cases",
+      "Château Ducru-Beaucaillou",
+      "Château Léoville Barton",
+      "Château Gruaud-Larose"
+    ],
+    "climate": "Oceaniskt, mildrat av Gironde",
+    "soil": "Grusåsar ner mot floden"
+  },
+  {
+    "id": "margaux",
+    "name": "Margaux",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "medoc",
+    "shortDescription": "Sydligast och störst av Médocs berömda byar, med flest klassade vingårdar. Känd för de mest parfymerade och eleganta vinerna på vänstra banken — och för Château Margaux.",
+    "mainGrapes": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Petit Verdot"
+    ],
+    "typicalStyle": "Doftande och elegant: violer, svarta körsbär, svarta vinbär och fin, silkig tannin. Lättare och mer finstämd än Pauillac.",
+    "subRegions": [],
+    "foodPairings": [
+      "Lamm",
+      "Anka",
+      "Kalvfilé",
+      "Svamprätter"
+    ],
+    "blindTastingClues": [
+      "Violer och parfym — Margaux mest kända kännetecken",
+      "Silkig, finkornig tannin",
+      "Lättare och elegantare än Pauillac",
+      "Mer varierad kvalitet än i de andra byarna",
+      "Ofta lite mer Merlot"
+    ],
+    "famousProducers": [
+      "Château Margaux",
+      "Château Palmer",
+      "Château Rauzan-Ségla",
+      "Château Brane-Cantenac"
+    ],
+    "climate": "Oceaniskt",
+    "soil": "Tunt, sandigt grus — den tunnaste grusjorden i Médoc"
+  },
+  {
+    "id": "pessac-leognan",
+    "name": "Pessac-Léognan",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "bordeaux",
+    "shortDescription": "Norra Graves, delvis i Bordeaux förorter. Egen appellation sedan 1987. Hem för Château Haut-Brion — den enda premier cru utanför Médoc — och för Bordeaux bästa torra vita viner.",
+    "mainGrapes": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Sauvignon Blanc",
+      "Semillon"
+    ],
+    "typicalStyle": "Röda: elegant, rökig och jordig med svarta vinbär, tobak och en ton av varmt tegel. Vita: fylliga och fatjästa Sauvignon Blanc/Semillon med citrus, vax och nötter — mycket lagringsvärda.",
+    "subRegions": [],
+    "foodPairings": [
+      "Röda: lamm och anka",
+      "Vita: hummer och piggvar",
+      "Vita: kyckling i gräddsås"
+    ],
+    "blindTastingClues": [
+      "Röda: rökig, jordig ton — \"varmt grus\"",
+      "Mjukare och mer aromatiska än Médoc",
+      "Vita: Sauvignon Blanc + Semillon med fat — vax och citrus",
+      "Vita utvecklar honung och nötter med ålder",
+      "Ofta bredare stil än norra Médoc"
+    ],
+    "famousProducers": [
+      "Château Haut-Brion",
+      "Château La Mission Haut-Brion",
+      "Château Smith Haut Lafitte",
+      "Domaine de Chevalier",
+      "Château Pape Clément"
+    ],
+    "climate": "Oceaniskt, lite varmare tack vare staden",
+    "soil": "Grus och sand, ofta i små kullar"
+  },
+  {
+    "id": "graves",
+    "name": "Graves",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "bordeaux",
+    "shortDescription": "Vänstra banken söder om Bordeaux stad, uppkallad efter grusjorden (graves). Röda och vita viner till betydligt lägre pris än Pessac-Léognan och Médoc.",
+    "mainGrapes": [
+      "Merlot",
+      "Cabernet Sauvignon",
+      "Sauvignon Blanc",
+      "Semillon"
+    ],
+    "typicalStyle": "Röda: medelfylliga, jordiga och mjuka. Vita: friska till fylliga Sauvignon/Semillon med citrus och ibland lite fat. God prisvärdhet.",
+    "subRegions": [],
+    "foodPairings": [
+      "Röda: grillad fågel och fläsk",
+      "Vita: fisk och skaldjur",
+      "Charkuterier"
+    ],
+    "blindTastingClues": [
+      "Jordig, lite rökig ton som Pessac men lättare",
+      "Mjukare än Médoc",
+      "Vita: Semillon ger vax och fyllighet",
+      "Mycket prisvärd Bordeaux",
+      "Omger Sauternes — samma terroir ger torra viner"
+    ],
+    "famousProducers": [
+      "Château de Chantegrive",
+      "Château Rahoul",
+      "Clos Floridène"
+    ],
+    "climate": "Oceaniskt, varmare söderut",
+    "soil": "Grus, sand och lera ovanpå kalksten"
+  },
+  {
+    "id": "barsac",
+    "name": "Barsac",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "sauternes",
+    "shortDescription": "Grannen i norr till Sauternes, längs floden Ciron. Gör samma söta, ädelrötade viner och får själv välja om etiketten ska säga Barsac eller Sauternes. Vinerna är ofta lite friskare och lättare.",
+    "mainGrapes": [
+      "Semillon",
+      "Sauvignon Blanc",
+      "Muscadelle"
+    ],
+    "typicalStyle": "Söt, ädelrötad vit med aprikos, citrus, honung och saffran — oftast lite lättare, friskare och mer citrusig än Sauternes.",
+    "subRegions": [],
+    "foodPairings": [
+      "Foie gras",
+      "Roquefort",
+      "Citron- och aprikosdesserter"
+    ],
+    "blindTastingClues": [
+      "Ädelröta: honung, saffran och marmelad",
+      "Lite friskare och lättare än Sauternes",
+      "Mer citrus än tropisk frukt",
+      "Hög syra balanserar sötman",
+      "Kalkstensjord ger elegans"
+    ],
+    "famousProducers": [
+      "Château Climens",
+      "Château Coutet",
+      "Château Doisy-Daëne"
+    ],
+    "climate": "Oceaniskt med höstdimma från floden Ciron",
+    "soil": "Tunt lager röd sand och lera ovanpå kalksten"
+  },
+  {
+    "id": "fronsac",
+    "name": "Fronsac",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "bordeaux",
+    "shortDescription": "Högra banken väster om Pomerol, där floderna Isle och Dordogne möts. Förr lika berömt som Saint-Émilion, idag en av Bordeaux mest prisvärda platser för Merlot.",
+    "mainGrapes": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "typicalStyle": "Mörk frukt, plommon och en örtig, jordig ton. Lite stramare och mer mineralisk än Pomerol tack vare kalkstenen.",
+    "subRegions": [],
+    "foodPairings": [
+      "Anka",
+      "Nötkött",
+      "Svamprätter"
+    ],
+    "blindTastingClues": [
+      "Merlot-dominerad högerbank",
+      "Fastare och mer mineralisk än Pomerol",
+      "Plommon och örter",
+      "Mycket prisvärd",
+      "Påminner om Saint-Émilion i mindre skala"
+    ],
+    "famousProducers": [
+      "Château de la Dauphine",
+      "Château de la Rivière",
+      "Château Villars"
+    ],
+    "climate": "Oceaniskt med lite mer kontinental påverkan",
+    "soil": "Kalksten och lera på kullar ovanför floden"
+  },
+  {
+    "id": "cotes-de-bordeaux",
+    "name": "Côtes de Bordeaux",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "bordeaux",
+    "shortDescription": "Samlingsnamn för sluttningarna längs floderna: Blaye, Castillon, Cadillac och Francs. Mestadels Merlot och några av Bordeaux bästa köp — Castillon har samma kalkstensplatå som grannen Saint-Émilion.",
+    "mainGrapes": [
+      "Merlot",
+      "Cabernet Franc",
+      "Cabernet Sauvignon"
+    ],
+    "typicalStyle": "Fruktiga, mjuka röda med plommon och körsbär. De bästa från Castillon har struktur och mineralitet nästan som Saint-Émilion till en bråkdel av priset.",
+    "subRegions": [
+      "Blaye",
+      "Castillon",
+      "Francs",
+      "Cadillac"
+    ],
+    "foodPairings": [
+      "Grillat kött",
+      "Fläskkarré",
+      "Vardagsmat"
+    ],
+    "blindTastingClues": [
+      "Mjuk, fruktig Merlot",
+      "Mindre ek och struktur än de stora namnen",
+      "Castillon: kalkstensmineralitet",
+      "Mycket prisvärd",
+      "Dricks ofta yngre"
+    ],
+    "famousProducers": [
+      "Domaine de l'A",
+      "Château d'Aiguilhe",
+      "Clos Puy Arnaud"
+    ],
+    "climate": "Oceaniskt",
+    "soil": "Kalksten och lera på sluttningar"
+  },
+  {
+    "id": "entre-deux-mers",
+    "name": "Entre-Deux-Mers",
+    "country": "Frankrike",
+    "countryId": "france",
+    "emoji": "🇫🇷",
+    "parentRegionId": "bordeaux",
+    "shortDescription": "\"Mellan två hav\" — det stora landområdet mellan floderna Garonne och Dordogne. Namnet Entre-Deux-Mers får bara användas för torra vita viner; de röda säljs som Bordeaux eller Bordeaux Supérieur.",
+    "mainGrapes": [
+      "Sauvignon Blanc",
+      "Semillon",
+      "Muscadelle",
+      "Merlot"
+    ],
+    "typicalStyle": "Friska, torra vita med citrus, gräs och lite vax. Lätta och prisvärda. Röda viner härifrån är fruktiga vardagsviner.",
+    "subRegions": [],
+    "foodPairings": [
+      "Ostron",
+      "Musslor",
+      "Grillad fisk",
+      "Sallader"
+    ],
+    "blindTastingClues": [
+      "Torr Sauvignon Blanc/Semillon utan fat",
+      "Citrus och gräs, mindre grön än Loire",
+      "Semillon ger lite vax",
+      "Lätt och prisvärd",
+      "Den klassiska ostronvinet i Bordeaux"
+    ],
+    "famousProducers": [
+      "Château Bonnet",
+      "Château Marjosse",
+      "Château Ste-Marie"
+    ],
+    "climate": "Oceaniskt",
+    "soil": "Kalksten och lera på böljande kullar"
   }
 ]

@@ -21,7 +21,7 @@ type Region = {
 };
 
 type Coord = { lat: number; lng: number; zoom: number };
-type SubPoint = { name: string; lat: number; lng: number; note?: string; grapes?: string[] };
+type SubPoint = { name: string; lat: number; lng: number; note?: string; grapes?: string[]; ownerId?: string };
 
 const regionCoords = coords.regions as Record<string, Coord>;
 const subPoints = coords.subRegionPoints as Record<string, SubPoint[]>;
@@ -87,9 +87,10 @@ export default function RegionMap({
   // välj den platsen om den finns i listan, annars nollställ
   useEffect(() => {
     if (focusRequest && regionCoords[focusRequest.regionId] && regions.some((r) => r.id === focusRequest.regionId)) {
-      const point = focusRequest.pointName
-        ? (subPoints[focusRequest.regionId] ?? []).find((p) => p.name === focusRequest.pointName) ?? null
-        : null;
+      const found = focusRequest.pointName
+        ? (subPoints[focusRequest.regionId] ?? []).find((p) => p.name === focusRequest.pointName)
+        : undefined;
+      const point = found ? { ...found, ownerId: focusRequest.regionId } : null;
       setSelectedId(focusRequest.regionId);
       setSelectedPoint(point);
       setPanelOpen(true);
@@ -104,18 +105,35 @@ export default function RegionMap({
   const topLevel = withCoords.filter((r) => !r.parentRegionId);
   const selected = withCoords.find((r) => r.id === selectedId) ?? null;
 
-  const focusParentId = selected ? selected.parentRegionId ?? selected.id : null;
+  // Vilken nivå kartan visar: en region med egna underregioner visar sina barn
+  // (Bordeaux → Médoc, Médoc → Pauillac). En region utan barn visas bland sina syskon.
+  const hasChildren = (id: string) => withCoords.some((r) => r.parentRegionId === id);
+  const focusParentId = selected
+    ? hasChildren(selected.id) ? selected.id : selected.parentRegionId ?? selected.id
+    : null;
   const focusParent = withCoords.find((r) => r.id === focusParentId) ?? null;
   const childRegions = withCoords.filter((r) => focusParentId && r.parentRegionId === focusParentId);
 
-  // Underregioner utan egen profil (namnprickar)
+  // Huvudregionen högst upp i kedjan (för att markera rätt prick på översiktsnivån)
+  let rootId: string | null = focusParentId;
+  while (rootId) {
+    const parent = withCoords.find((r) => r.id === rootId)?.parentRegionId;
+    if (!parent) break;
+    rootId = parent;
+  }
+
+  // Namnprickar: den visade nivåns egna punkter, plus punkterna (t.ex. slott)
+  // för den region som är vald just nu. Så visas Pauillacs slott bara när man valt Pauillac.
   const extraPoints = useMemo(() => {
     if (!focusParentId) return [];
-    const ids = [focusParentId, ...childRegions.map((c) => c.id)];
+    const ids = [focusParentId];
+    if (selected && selected.id !== focusParentId) ids.push(selected.id);
     const childNames = new Set(childRegions.map((c) => c.name));
-    return ids.flatMap((id) => subPoints[id] ?? []).filter((p) => !childNames.has(p.name));
+    return ids
+      .flatMap((id) => (subPoints[id] ?? []).map((p) => ({ ...p, ownerId: id })))
+      .filter((p) => !childNames.has(p.name));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [focusParentId, regions]);
+  }, [focusParentId, selectedId, regions]);
 
   const bounds = useMemo<LatLngBoundsExpression | null>(() => {
     if (topLevel.length === 0) return null;
@@ -153,7 +171,10 @@ export default function RegionMap({
   };
 
   // Vilken region "äger" den valda namnpricken (för rubrik och knapp)
-  const pointOwner = selectedPoint ? focusParent ?? selected : null;
+  const pointOwner = selectedPoint
+    ? withCoords.find((r) => r.id === selectedPoint.ownerId) ?? focusParent ?? selected
+    : null;
+  const selectedParent = selected?.parentRegionId ? withCoords.find((r) => r.id === selected.parentRegionId) ?? null : null;
 
   return (
     <div id="region-map" className="mb-6 bg-wine-900 rounded-2xl border border-wine-800 overflow-hidden scroll-mt-4">
@@ -168,7 +189,7 @@ export default function RegionMap({
           {/* Huvudregioner */}
           {topLevel.map((r) => {
             const c = regionCoords[r.id];
-            const active = r.id === focusParentId;
+            const active = r.id === rootId;
             return (
               <CircleMarker
                 key={r.id}
@@ -266,13 +287,13 @@ export default function RegionMap({
                 </div>
                 <div className="text-xs text-wine-500 mb-2">
                   {selected.country}
-                  {focusParent && focusParent.id !== selected.id && ` · del av ${focusParent.name}`}
+                  {selectedParent && ` · del av ${selectedParent.name}`}
                 </div>
                 <p className="text-sm text-wine-300 leading-snug mb-3">{selected.shortDescription}</p>
                 <GrapeChips grapes={selected.mainGrapes} />
                 <TerroirInfo id={selected.id} compact />
-                {(childRegions.length > 0 || extraPoints.length > 0) && selected.id === focusParentId && (
-                  <p className="text-xs text-wine-400 mb-3">Tryck på prickarna på kartan för att läsa om underregionerna.</p>
+                {(childRegions.length > 0 || extraPoints.length > 0) && (
+                  <p className="text-xs text-wine-400 mb-3">Tryck på prickarna på kartan för att läsa mer om underregioner och slott.</p>
                 )}
                 <button
                   onClick={() => onOpenRegion(selected.id)}

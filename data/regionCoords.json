@@ -105,20 +105,20 @@
     "santorini": {"lat": 36.4, "lng": 25.43, "zoom": 12},
     "kakheti": {"lat": 41.9, "lng": 45.6, "zoom": 9},
     "tasmania": {"lat": -42.0, "lng": 147.0, "zoom": 7},
-    "niagara": {"lat": 43.17, "lng": -79.25, "zoom": 10}
+    "niagara": {"lat": 43.17, "lng": -79.25, "zoom": 10},
+    "saint-estephe": {"lat": 45.26, "lng": -0.77, "zoom": 13},
+    "pauillac": {"lat": 45.2, "lng": -0.75, "zoom": 13},
+    "saint-julien": {"lat": 45.15, "lng": -0.74, "zoom": 13},
+    "margaux": {"lat": 45.04, "lng": -0.67, "zoom": 13},
+    "pessac-leognan": {"lat": 44.76, "lng": -0.62, "zoom": 11},
+    "graves": {"lat": 44.6, "lng": -0.38, "zoom": 10},
+    "barsac": {"lat": 44.6, "lng": -0.32, "zoom": 13},
+    "fronsac": {"lat": 44.93, "lng": -0.27, "zoom": 13},
+    "cotes-de-bordeaux": {"lat": 44.95, "lng": -0.3, "zoom": 9},
+    "entre-deux-mers": {"lat": 44.75, "lng": -0.25, "zoom": 10}
   },
 
   "subRegionPoints": {
-    "bordeaux": [
-      {"name": "Graves", "lat": 44.65, "lng": -0.45, "grapes": ["Cabernet Sauvignon", "Merlot", "Sauvignon Blanc", "Semillon"], "note": "Vänstra banken söder om staden Bordeaux. Namnet betyder grus, efter jordarten. Ger både röda Cabernet-blendar och vita viner. Pessac-Léognan med Château Haut-Brion är toppen."},
-      {"name": "Entre-Deux-Mers", "lat": 44.75, "lng": -0.25, "grapes": ["Sauvignon Blanc", "Semillon", "Merlot"], "note": "\"Mellan två hav\" — landet mellan floderna Garonne och Dordogne. Friska, prisvärda vita viner."}
-    ],
-    "medoc": [
-      {"name": "Saint-Estèphe", "lat": 45.26, "lng": -0.77, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Nordligast av de stora byarna. Mer lera i jorden ger stramare, kärvare viner som behöver tid i källaren."},
-      {"name": "Pauillac", "lat": 45.2, "lng": -0.75, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Kraftfulla, strama viner med svarta vinbär och ceder. Hem åt tre av de fem premier grand cru: Lafite, Latour och Mouton Rothschild."},
-      {"name": "Saint-Julien", "lat": 45.15, "lng": -0.74, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Mellan Pauillac och Margaux. Balanserade, eleganta viner — brukar kallas den jämnaste byn i Médoc."},
-      {"name": "Margaux", "lat": 45.04, "lng": -0.67, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Sydligast av de stora byarna. Tunnare grusjord ger de mest parfymerade och eleganta vinerna i Médoc."}
-    ],
     "bourgogne": [
       {"name": "Côte de Nuits", "lat": 47.2, "lng": 4.95, "grapes": ["Pinot Noir"], "note": "Norra halvan av Côte d'Or. Nästan bara Pinot Noir och de flesta röda Grand Cru — byar som Gevrey-Chambertin, Chambolle-Musigny och Vosne-Romanée."},
       {"name": "Côte de Beaune", "lat": 47.02, "lng": 4.8, "grapes": ["Chardonnay", "Pinot Noir"], "note": "Södra halvan av Côte d'Or. Världens främsta Chardonnay (Meursault, Puligny-Montrachet) och lättare röda viner (Volnay, Pommard)."},
@@ -345,9 +345,6 @@
       {"name": "Turckheim", "lat": 48.09, "lng": 7.28, "grapes": ["Riesling", "Pinot Gris", "Gewürztraminer"], "note": "Hem för Zind-Humbrecht och Grand Cru Brand — ett av Alsace varmaste lägen."},
       {"name": "Eguisheim", "lat": 48.04, "lng": 7.31, "grapes": ["Gewürztraminer", "Pinot Gris"], "note": "Runt vinbyn ligger Grand Cru Eichberg och Pfersigberg. Fylliga, aromatiska viner."}
     ],
-    "sauternes": [
-      {"name": "Barsac", "lat": 44.6, "lng": -0.32, "grapes": ["Semillon", "Sauvignon Blanc"], "note": "Grannen i norr på kalkstensjord. Får kalla sig Sauternes men vinerna är ofta lite lättare och friskare."}
-    ],
     "piemonte": [
       {"name": "Roero", "lat": 44.78, "lng": 7.95, "grapes": ["Arneis", "Nebbiolo"], "note": "Norr om floden Tanaro med sandigare jord. Hem för den vita druvan Arneis och lättare Nebbiolo."},
       {"name": "Langhe", "lat": 44.6, "lng": 8.0, "grapes": ["Nebbiolo", "Dolcetto", "Barbera"], "note": "Kullarna runt Alba där Barolo och Barbaresco ligger. Langhe Nebbiolo är en lättare, tidigare version."},
@@ -474,6 +471,67 @@
     ],
     "salta-cafayate": [
       {"name": "Molinos (Colomé)", "lat": -25.47, "lng": -66.31, "grapes": ["Malbec", "Torrontés"], "note": "Längre upp i dalen. Bodega Colomé har vingårdar på över 3 000 meters höjd."}
+    ],
+    "cotes-de-bordeaux": [
+      {"name": "Blaye", "lat": 45.13, "lng": -0.66, "grapes": ["Merlot", "Sauvignon Blanc"], "note": "Högra stranden av Gironde, mittemot Margaux. Fruktiga, prisvärda röda och friska vita viner."},
+      {"name": "Francs", "lat": 44.86, "lng": -0.01, "grapes": ["Merlot", "Cabernet Franc"], "note": "Den minsta delen, öster om Castillon. Svalare kalkstenslägen."},
+      {"name": "Castillon", "lat": 44.85, "lng": -0.04, "grapes": ["Merlot", "Cabernet Franc"], "note": "Granne med Saint-Émilion på samma kalkstensplatå. De bästa köpen i hela Bordeaux."},
+      {"name": "Cadillac", "lat": 44.64, "lng": -0.32, "grapes": ["Merlot", "Cabernet Sauvignon"], "note": "Sluttningarna på högra stranden av Garonne, mittemot Graves. Röda viner och söta viner."}
+    ],
+    "pauillac": [
+      {"name": "Château Lafite Rothschild", "lat": 45.226, "lng": -0.766, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Premier cru 1855 — först på listan. Ägs av familjen Rothschild sedan 1868. Elegant, parfymerad Pauillac med ceder och blyerts."},
+      {"name": "Château Mouton Rothschild", "lat": 45.213, "lng": -0.768, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Uppflyttad till premier cru 1973 — den enda ändringen i 1855 års toppklass. Varje årgång har en etikett av en känd konstnär, till exempel Picasso, Chagall och Warhol."},
+      {"name": "Château Pontet-Canet", "lat": 45.214, "lng": -0.775, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Femte cru 1855, men idag en av Pauillacs stjärnor. Biodynamisk odling och plöjning med häst."},
+      {"name": "Château Lynch-Bages", "lat": 45.191, "lng": -0.757, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Femte cru 1855 som länge presterat som ett andra. Generös, rik Pauillac."},
+      {"name": "Château Pichon Baron & Pichon Comtesse", "lat": 45.181, "lng": -0.747, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Två andra cru på var sin sida om vägen. Pichon Baron är kraftfull, Pichon Comtesse (Lalande) mer elegant med mer Merlot."},
+      {"name": "Château Latour", "lat": 45.178, "lng": -0.743, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Premier cru 1855. Den kraftfullaste och mest långlivade av alla. Det runda tornet vid floden är en symbol för Bordeaux."}
+    ],
+    "saint-julien": [
+      {"name": "Château Léoville Las Cases", "lat": 45.164, "lng": -0.741, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Andra cru 1855 och en av de så kallade \"super seconds\" — ofta i nivå med premier cru. Gränsar till Latour."},
+      {"name": "Château Léoville Barton", "lat": 45.159, "lng": -0.746, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Andra cru 1855. Ägt av den irländska familjen Barton sedan 1820-talet — klassisk och prisvärd."},
+      {"name": "Château Ducru-Beaucaillou", "lat": 45.15, "lng": -0.733, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Andra cru 1855. Namnet betyder \"vackra stenar\" efter gruset. Elegant och mycket lagringsvärd."},
+      {"name": "Château Gruaud-Larose", "lat": 45.148, "lng": -0.75, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Andra cru 1855. Kraftfullare och mer inåt land än grannarna."},
+      {"name": "Château Beychevelle", "lat": 45.145, "lng": -0.735, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Fjärde cru 1855. Känd för skeppet på etiketten — fartyg som seglade förbi sänkte seglen för hertigen som bodde här."}
+    ],
+    "saint-estephe": [
+      {"name": "Château Calon-Ségur", "lat": 45.268, "lng": -0.773, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Tredje cru 1855. Hjärtat på etiketten kommer från en markis som sa att hans hjärta fanns här, trots att han ägde Lafite och Latour."},
+      {"name": "Château Montrose", "lat": 45.249, "lng": -0.757, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Andra cru 1855, nära floden. Mycket kraftfull och långlivad — kallas ibland \"Latour i Saint-Estèphe\"."},
+      {"name": "Château Cos d'Estournel", "lat": 45.231, "lng": -0.77, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Andra cru 1855, mittemot Lafite. Känd för sina indiska pagodtorn. Exotisk, kryddig stil."}
+    ],
+    "margaux": [
+      {"name": "Château Palmer", "lat": 45.048, "lng": -0.672, "grapes": ["Merlot", "Cabernet Sauvignon"], "note": "Tredje cru 1855 men säljs till priser som andra cru. Ovanligt mycket Merlot — rik och sammetslen."},
+      {"name": "Château Margaux", "lat": 45.044, "lng": -0.668, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Premier cru 1855. Det neoklassiska slottet är Bordeaux mest kända byggnad. Doft av violer och sammetslen elegans."},
+      {"name": "Château Rauzan-Ségla", "lat": 45.038, "lng": -0.672, "grapes": ["Cabernet Sauvignon", "Merlot"], "note": "Andra cru 1855. Ägs av familjen bakom Chanel. Klassisk, elegant Margaux."},
+      {"name": "Château Brane-Cantenac", "lat": 45.026, "lng": -0.67, "grapes": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc"], "note": "Andra cru 1855 på Cantenacs grusplatå. Finstämd och parfymerad."}
+    ],
+    "pessac-leognan": [
+      {"name": "Château La Mission Haut-Brion", "lat": 44.816, "lng": -0.607, "grapes": ["Merlot", "Cabernet Sauvignon"], "note": "Grannen till Haut-Brion, med samma ägare sedan 1983. Kraftfullare och mörkare stil."},
+      {"name": "Château Haut-Brion", "lat": 44.812, "lng": -0.611, "grapes": ["Merlot", "Cabernet Sauvignon", "Sauvignon Blanc", "Semillon"], "note": "Den enda premier cru 1855 utanför Médoc. Nämnd redan på 1660-talet i London. Rökig, jordig elegans — och ett av världens dyraste vita viner."},
+      {"name": "Château Pape Clément", "lat": 44.811, "lng": -0.64, "grapes": ["Merlot", "Cabernet Sauvignon"], "note": "En av Bordeaux äldsta egendomar, grundad av ärkebiskopen som blev påve Clemens V år 1305."},
+      {"name": "Château Smith Haut Lafitte", "lat": 44.731, "lng": -0.578, "grapes": ["Cabernet Sauvignon", "Merlot", "Sauvignon Blanc"], "note": "Moderna, rika röda och utmärkta vita viner."},
+      {"name": "Domaine de Chevalier", "lat": 44.705, "lng": -0.635, "grapes": ["Cabernet Sauvignon", "Sauvignon Blanc", "Semillon"], "note": "Mitt i tallskogen. Känd för ett av Bordeaux bästa och mest långlivade torra vita viner."}
+    ],
+    "saint-emilion": [
+      {"name": "Château Cheval Blanc", "lat": 44.919, "lng": -0.192, "grapes": ["Cabernet Franc", "Merlot"], "note": "Ovanligt mycket Cabernet Franc. En av de mest berömda i högra banken — lämnade Saint-Émilions klassificering 2022."},
+      {"name": "Château Figeac", "lat": 44.916, "lng": -0.19, "grapes": ["Cabernet Sauvignon", "Cabernet Franc", "Merlot"], "note": "Uppflyttad till högsta klassen (Premier Grand Cru Classé A) 2022. Grusjord gör att Cabernet Sauvignon spelar stor roll — unikt i Saint-Émilion."},
+      {"name": "Château Angélus", "lat": 44.894, "lng": -0.172, "grapes": ["Merlot", "Cabernet Franc"], "note": "Känd för klockan på etiketten. Lämnade klassificeringen 2022."},
+      {"name": "Château Ausone", "lat": 44.888, "lng": -0.156, "grapes": ["Cabernet Franc", "Merlot"], "note": "Liten egendom på kalkstenssluttningen under staden, uppkallad efter den romerske poeten Ausonius. Lämnade klassificeringen 2022."},
+      {"name": "Château Pavie", "lat": 44.885, "lng": -0.15, "grapes": ["Merlot", "Cabernet Franc"], "note": "Premier Grand Cru Classé A. Kraftfull och modern stil från den sydvända kalkstensslänten."}
+    ],
+    "pomerol": [
+      {"name": "Château Lafleur", "lat": 44.935, "lng": -0.201, "grapes": ["Cabernet Franc", "Merlot"], "note": "Liten, familjeägd egendom med mycket Cabernet Franc. Kultvin."},
+      {"name": "Château Pétrus", "lat": 44.931, "lng": -0.199, "grapes": ["Merlot"], "note": "Nästan bara Merlot på en unik kulle av blå lera. Ett av världens dyraste viner."},
+      {"name": "Vieux Château Certan", "lat": 44.928, "lng": -0.196, "grapes": ["Merlot", "Cabernet Franc"], "note": "Granne med Pétrus. Mer Cabernet Franc ger elegans och struktur."},
+      {"name": "Château Le Pin", "lat": 44.924, "lng": -0.208, "grapes": ["Merlot"], "note": "Det ursprungliga \"garagevinet\" — mycket liten produktion och extremt dyrt."}
+    ],
+    "sauternes": [
+      {"name": "Château Suduiraut", "lat": 44.554, "lng": -0.316, "grapes": ["Semillon", "Sauvignon Blanc"], "note": "Premier cru 1855. Rik och kraftfull Sauternes."},
+      {"name": "Château d'Yquem", "lat": 44.548, "lng": -0.332, "grapes": ["Semillon", "Sauvignon Blanc"], "note": "Den enda Premier Cru Supérieur i 1855 års klassificering. Druvorna plockas en och en i flera omgångar. Kan lagras i över hundra år."},
+      {"name": "Château Rieussec", "lat": 44.542, "lng": -0.311, "grapes": ["Semillon", "Sauvignon Blanc"], "note": "Premier cru 1855. Ägs av Domaines Barons de Rothschild (samma som Lafite)."}
+    ],
+    "barsac": [
+      {"name": "Château Coutet", "lat": 44.604, "lng": -0.322, "grapes": ["Semillon", "Sauvignon Blanc"], "note": "Premier cru 1855. Frisk, citrusig Barsac."},
+      {"name": "Château Climens", "lat": 44.594, "lng": -0.326, "grapes": ["Semillon"], "note": "Premier cru 1855, bara Semillon. Kallas \"Barsacs drottning\" — elegant och frisk."}
     ]
   }
 }

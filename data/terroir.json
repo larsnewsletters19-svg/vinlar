@@ -2119,5 +2119,205 @@
       "Sydafrikas äldsta vinegendomar (1685)"
     ],
     "whyItTastes": "Svalt havsklimat ger aromatisk Sauvignon Blanc med frisk syra. Söta Vin de Constance görs av sent skördade Muscat-druvor."
+  },
+  "saint-estephe": {
+    "altitude": [
+      5,
+      40
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      850,
+      950
+    ],
+    "terrain": "Låga kullar längst norrut i Haut-Médoc, närmast flodmynningen",
+    "keyFactors": [
+      "Mer lera i jorden än i resten av Médoc",
+      "Leran håller kvar vatten och kyla — Merlot trivs bra",
+      "Gironde är som bredast här och mildrar frosten"
+    ],
+    "whyItTastes": "Kall, vattenhållande lera gör att druvorna mognar långsammare. Det ger stramare och jordigare viner som behöver längre tid i källaren än grannarnas."
+  },
+  "pauillac": {
+    "altitude": [
+      5,
+      30
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      850,
+      950
+    ],
+    "terrain": "Två stora grusplatåer vända mot floden, delade av en liten bäck",
+    "keyFactors": [
+      "Djupt, magert grus — upp till flera meter på de bästa lägena",
+      "Rötterna går djupt för att hitta vatten",
+      "Närheten till floden skyddar mot frost"
+    ],
+    "whyItTastes": "Det djupa, varma gruset hjälper Cabernet Sauvignon att mogna helt. Det ger djup färg, svarta vinbär, grafit och ett kraftfullt tannin som gör vinerna extremt lagringsvärda."
+  },
+  "saint-julien": {
+    "altitude": [
+      5,
+      25
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      850,
+      950
+    ],
+    "terrain": "En sammanhängande grusplatå som sluttar ner mot floden",
+    "keyFactors": [
+      "Mycket jämn grusjord över hela byn",
+      "Nästan alla vingårdar ligger nära floden",
+      "Litet område, nästan allt klassat"
+    ],
+    "whyItTastes": "Jämn terroir ger jämna viner. Gruset ger struktur som i Pauillac, men lite finare jord ger mer elegans — därför balansen mellan kraft och finess."
+  },
+  "margaux": {
+    "altitude": [
+      5,
+      25
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      850,
+      950
+    ],
+    "terrain": "Flacka grusplatåer spridda över fem byar",
+    "keyFactors": [
+      "Det tunnaste och mest sandiga gruset i Médoc",
+      "Fattigast jord — vinstockarna kämpar",
+      "Störst variation mellan producenterna"
+    ],
+    "whyItTastes": "Tunn, mager grusjord ger mindre kraft men mer finess. Vinerna blir parfymerade med violer och silkig tannin snarare än tunga och strama."
+  },
+  "pessac-leognan": {
+    "altitude": [
+      15,
+      60
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt, varmare tack vare staden",
+    "rainfallMm": [
+      900,
+      1000
+    ],
+    "terrain": "Grusiga kullar, delvis omringade av Bordeaux förorter",
+    "keyFactors": [
+      "Staden ger lite extra värme — tidigare skörd",
+      "Gruskullar (croupes) med god dränering",
+      "Tallskog skyddar mot vind från Atlanten"
+    ],
+    "whyItTastes": "Varmare läge och grusjord ger mogna, mjuka röda med en typisk rökig, jordig ton. Gruset passar också Sauvignon Blanc och Semillon för fylliga, fatlagrade vita."
+  },
+  "graves": {
+    "altitude": [
+      10,
+      80
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      850,
+      950
+    ],
+    "terrain": "Lång remsa längs vänstra stranden av Garonne",
+    "keyFactors": [
+      "Namnet betyder grus",
+      "Mer sand och lera ju längre söderut",
+      "Omger Sauternes"
+    ],
+    "whyItTastes": "Grusjorden ger både struktur till röda och friskhet till vita. Lite varmare än Médoc ger mjukare, mer tillgängliga viner."
+  },
+  "barsac": {
+    "altitude": [
+      5,
+      30
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt med höstdimma",
+    "rainfallMm": [
+      800,
+      900
+    ],
+    "terrain": "Låg platå mellan floden Ciron och Garonne",
+    "keyFactors": [
+      "Kalksten precis under ytan",
+      "Dimma från den kalla floden Ciron skapar ädelröta",
+      "Plattare och lägre än Sauternes"
+    ],
+    "whyItTastes": "Kalkstenen ger en friskare, mer citrusig stil än Sauternes. Dimman ger samma ädelröta som koncentrerar socker och syra."
+  },
+  "fronsac": {
+    "altitude": [
+      10,
+      80
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      800,
+      900
+    ],
+    "terrain": "Kullar och branta kalkstenssluttningar där Isle möter Dordogne",
+    "keyFactors": [
+      "Kalkstenssluttningar liknande Saint-Émilion",
+      "Floderna mildrar frost",
+      "Mest Merlot och Cabernet Franc"
+    ],
+    "whyItTastes": "Kalksten och lera ger Merlot en fastare, mer mineralisk stil än i Pomerol — med plommon och en örtig ton från Cabernet Franc."
+  },
+  "cotes-de-bordeaux": {
+    "altitude": [
+      10,
+      120
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      800,
+      900
+    ],
+    "terrain": "Sluttningar (côtes) längs floderna Gironde, Dordogne och Garonne",
+    "keyFactors": [
+      "Sluttningar ger bättre dränering och sol än slätten",
+      "Castillon delar kalkstensplatå med Saint-Émilion",
+      "Lägre markpriser — mer prisvärda viner"
+    ],
+    "whyItTastes": "Kalksten och lera på sluttningar ger fruktig, mjuk Merlot. På de bästa lägena blir den lika mineralisk som i Saint-Émilion."
+  },
+  "entre-deux-mers": {
+    "altitude": [
+      20,
+      120
+    ],
+    "irrigation": "torrodlat",
+    "warmth": "måttligt",
+    "climateType": "Oceaniskt",
+    "rainfallMm": [
+      800,
+      900
+    ],
+    "terrain": "Böljande kullar mellan Garonne och Dordogne",
+    "keyFactors": [
+      "Bordeaux största delområde till yta",
+      "Kalksten och lera",
+      "Floderna på båda sidor mildrar klimatet"
+    ],
+    "whyItTastes": "Svalare kalkstenskullar ger friska, aromatiska vita viner med god syra — perfekta att dricka unga."
   }
 }
