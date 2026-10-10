@@ -1,17 +1,17 @@
 import terroirData from '@/data/terroir.json';
 
 export type Terroir = {
-  altitude: [number, number];
+  altitude: number[]; // [lägsta, högsta] i meter
   irrigation: string;
-  warmth: 'svalt' | 'måttligt' | 'varmt' | 'hett';
+  warmth: string; // svalt | måttligt | varmt | hett
   climateType: string;
-  rainfallMm: [number, number];
+  rainfallMm: number[]; // [lägsta, högsta] mm per år
   terrain: string;
   keyFactors: string[];
   whyItTastes: string;
 };
 
-const data = terroirData as Record<string, Terroir>;
+const data: Record<string, Terroir> = terroirData;
 
 export function getTerroir(id: string): Terroir | null {
   return data[id] ?? null;
@@ -24,8 +24,8 @@ const WARMTH_LABEL: Record<string, string> = {
   hett: '🔥 Hett',
 };
 
-function range([a, b]: [number, number], unit: string) {
-  return a === b ? `${a} ${unit}` : `${a}–${b} ${unit}`;
+function range([a, b]: number[], unit: string) {
+  return a === b || b === undefined ? `${a} ${unit}` : `${a}–${b} ${unit}`;
 }
 
 function capitalize(s: string) {
